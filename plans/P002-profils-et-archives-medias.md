@@ -12,7 +12,9 @@ Enrich each politician ("décisionnaire") with a profile — photo and short sum
 - [ ] Politician schema extended: `wikipedia_url`, `photo` (R2 asset + source + license), `summary` (LocalizedText + `retrieved_at`) — all captured by a commit-time script, not hand-written
 - [ ] Appearance/media schema: title, date, politician_ids, optional decision_ids, `source_url` (INA/YouTube), R2 asset reference, archived_at
 - [ ] Deploy-time archival: new media entries are downloaded and uploaded to R2 exactly once (idempotent), site serves the R2 asset with the original link displayed as source
-- [ ] Politician pages render profile + appearances; media playback works from R2
+- [ ] Politician profile (modal, per P001-02) renders photo + summary + appearances; media playback works from R2
+- [ ] ALL assets self-hosted: the Wikipedia lead image is downloaded and stored on our infrastructure like the videos — the site never hotlinks Wikipedia/Wikimedia/YouTube/INA
+- [ ] Timeline rows show the décisionnaires as a photo cluster: main décisionnaire as a square picture, smaller squares for the others; hovering any square grows it to the main size (genie-style scale animation); clicking opens that person's profile modal
 - [ ] Data suite extended: asset references resolve, licenses/attribution present for Wikipedia content (CC BY-SA)
 
 ## Implementation Phases
@@ -31,7 +33,7 @@ Deploy-time script: diff registry vs R2 bucket, download missing media (yt-dlp f
 
 ### Phase 4: UI `[TODO]`
 
-Politician page: photo, summary, Wikipedia link, appearances list with player (R2 asset) + source link (INA/YouTube).
+Politician profile modal: photo, summary, Wikipedia link, appearances list with player (R2 asset) + source link (INA/YouTube). Timeline rows: photo-square cluster replacing (or complementing) the politician chips — main décisionnaire large, others as smaller squares, genie-style hover growth, click opens the profile modal (wireframe 2, described in P001-02).
 
 ## Progress Tracker
 
