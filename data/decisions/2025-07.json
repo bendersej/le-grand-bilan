@@ -1,0 +1,77 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2025-07",
+  "decisions": [
+    {
+      "id": "loi-homicide-routier-2025",
+      "date": "2025-07-09",
+      "title": {
+        "fr": "Loi créant l'homicide routier",
+        "en": "Law creating the offence of road homicide"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-622 : les violences routières mortelles quittent la qualification d'« homicide involontaire » pour un **délit autonome d'homicide routier**, puni de **7 ans de prison et 100 000 euros d'amende**, portés à **10 ans et 150 000 euros** en présence de deux circonstances aggravantes (alcool, stupéfiants, **usage du téléphone**, excès de vitesse d'au moins 30 km/h, délit de fuite). Des **blessures routières** sont créées sur le même modèle, une réforme portée par les associations de victimes.",
+        "en": "Law no. 2025-622: fatal road violence leaves the \"involuntary homicide\" category for a **standalone offence of road homicide**, punished by **7 years in prison and a 100,000 euro fine**, raised to **10 years and 150,000 euros** with two aggravating circumstances (alcohol, drugs, **phone use**, speeding of 30 km/h or more, hit-and-run). Matching **road injury offences** are created, a reform championed by victims' associations."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["gerald-darmanin", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051871463",
+          "title": "LOI n° 2025-622 du 9 juillet 2025 créant l'homicide routier - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-308.html",
+          "title": "Dossier législatif : créer l'homicide routier - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "accord-bougival-2025",
+      "date": "2025-07-12",
+      "title": {
+        "fr": "Accord de Bougival sur la Nouvelle-Calédonie",
+        "en": "Bougival agreement on New Caledonia"
+      },
+      "summary": {
+        "fr": "Accord signé le 12 juillet 2025 à Bougival par l'État et les délégations calédoniennes (**19 signataires**), un an après les émeutes de mai 2024 : création d'un **« État de la Nouvelle-Calédonie » au sein de la République**, d'une **nationalité calédonienne** cumulable avec la nationalité française, **ouverture du corps électoral** et adoption d'une **loi fondamentale** calédonienne. Publié au Journal officiel le 6 septembre 2025, l'accord a ensuite été **rejeté par le FLNKS**, avant la reprise des négociations.",
+        "en": "Agreement signed on 12 July 2025 in Bougival by the French State and the Caledonian delegations (**19 signatories**), one year after the May 2024 riots: creation of a **\"State of New Caledonia\" within the Republic**, of a **Caledonian nationality** held alongside French nationality, an **opening of the electoral roll** and the adoption of a Caledonian **fundamental law**. Published in the Journal officiel on 6 September 2025, the agreement was later **rejected by the FLNKS** before negotiations resumed."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["manuel-valls", "emmanuel-macron", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052197304",
+          "title": "Accord de Bougival, publié au Journal officiel du 6 septembre 2025 - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-antisemitisme-enseignement-superieur-2025",
+      "date": "2025-07-31",
+      "title": {
+        "fr": "Loi contre l'antisémitisme dans l'enseignement supérieur",
+        "en": "Law against antisemitism in higher education"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-732 votée dans un contexte de **hausse des actes antisémites à l'université** : **formation obligatoire** à la lutte contre l'antisémitisme, le racisme et les discriminations, **mission « égalité et diversité »** avec un référent dédié dans chaque établissement public, **dispositif de signalement** garantissant la confidentialité des victimes et transfert des procédures disciplinaires à des instances académiques régionales.",
+        "en": "Law no. 2025-732 passed amid a **rise in antisemitic acts on campuses**: **mandatory training** against antisemitism, racism and discrimination, an **\"equality and diversity\" mission** with a dedicated referent in every public institution, a **reporting mechanism** guaranteeing victims' confidentiality and the transfer of disciplinary proceedings to regional academic bodies."
+      },
+      "category_ids": ["education"],
+      "politician_ids": ["philippe-baptiste", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052018661",
+          "title": "LOI n° 2025-732 du 31 juillet 2025 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl24-026.html",
+          "title": "Dossier législatif : lutte contre l'antisémitisme dans l'enseignement supérieur - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

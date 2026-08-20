@@ -46,7 +46,12 @@
           "title": "Signature de l'accord Élysée - Oudinot - elysee.fr"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "accord-bougival-2025"
+        }
+      ]
     }
   ]
 }

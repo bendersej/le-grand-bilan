@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2025-01",
+  "decisions": [
+    {
+      "id": "circulaire-retailleau-2025",
+      "date": "2025-01-23",
+      "title": {
+        "fr": "Circulaire Retailleau sur la régularisation des étrangers",
+        "en": "Retailleau circular on the regularisation of undocumented foreigners"
+      },
+      "summary": {
+        "fr": "Circulaire du 23 janvier 2025 relative à l'admission exceptionnelle au séjour : elle **abroge la circulaire Valls de 2012** et durcit les critères de **régularisation des étrangers en situation irrégulière**, en exigeant notamment une présence en France d'**au moins sept ans** dans la plupart des cas, la maîtrise du français et l'absence de menace à l'ordre public, et en réaffirmant le caractère **exceptionnel et discrétionnaire** de la procédure.",
+        "en": "Circular of 23 January 2025 on exceptional admission to residence: it **repeals the 2012 Valls circular** and tightens the criteria for **regularising undocumented foreigners**, notably requiring **at least seven years of presence in France** in most cases, command of French and the absence of any threat to public order, while reaffirming the **exceptional and discretionary** nature of the procedure."
+      },
+      "category_ids": ["immigration"],
+      "politician_ids": ["bruno-retailleau"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/circulaire/id/45584",
+          "title": "Circulaire du 23 janvier 2025 relative à l'admission exceptionnelle au séjour (NOR INTK2435521J) - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-ratios-soignants-2025",
+      "date": "2025-01-29",
+      "title": {
+        "fr": "Loi sur les ratios minimaux de soignants par patient hospitalisé",
+        "en": "Law on minimum nurse-to-patient ratios in hospitals"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-74, issue d'une proposition du sénateur Bernard Jomier : un **ratio minimal de soignants par lit ouvert** ou par nombre de passages sera défini **par spécialité**, fixé par décret après avis de la Haute Autorité de santé, et applicable dans tous les établissements **à partir du 1er janvier 2027**. Les unités qui ne peuvent pas respecter le ratio plus de **trois jours consécutifs** devront le signaler à l'agence régionale de santé.",
+        "en": "Law no. 2025-74, from a bill by senator Bernard Jomier: a **minimum ratio of carers per open bed** or per number of visits will be defined **per specialty**, set by decree after an opinion of the High Authority for Health, and applicable in all hospitals **from 1 January 2027**. Units unable to meet the ratio for more than **three consecutive days** must report it to the regional health agency."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["yannick-neuder", "catherine-vautrin", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051058565",
+          "title": "LOI n° 2025-74 du 29 janvier 2025 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl22-105.html",
+          "title": "Dossier législatif : nombre minimum de soignants par patient hospitalisé - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

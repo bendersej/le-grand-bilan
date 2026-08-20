@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2025-12",
+  "decisions": [
+    {
+      "id": "loi-statut-elu-local-2025",
+      "date": "2025-12-22",
+      "title": {
+        "fr": "Loi créant un statut de l'élu local",
+        "en": "Law creating a status for local elected officials"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-1249, issue d'une proposition sénatoriale portée par Françoise Gatel dès 2023 : **revalorisation des indemnités** des élus municipaux, meilleure conciliation avec la vie professionnelle (autorisations d'absence, label « employeur partenaire de la démocratie locale »), **droits à formation et à reconversion** renforcés et mesures d'accessibilité pour les élus en situation de handicap. Le texte est promulgué à quelques mois des **municipales de 2026**, sur fond de crise des vocations.",
+        "en": "Law no. 2025-1249, from a Senate bill championed by Françoise Gatel since 2023: **higher allowances** for municipal officials, better balance with professional life (leave entitlements, an \"employer partner of local democracy\" label), strengthened **training and career-transition rights** and accessibility measures for disabled officials. The text was promulgated a few months before the **2026 municipal elections**, amid a crisis of vocations."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["francoise-gatel", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053142169",
+          "title": "LOI n° 2025-1249 du 22 décembre 2025 portant création d'un statut de l'élu local - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-263.html",
+          "title": "Dossier législatif : création d'un statut de l'élu local - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-speciale-2025",
+      "date": "2025-12-26",
+      "title": {
+        "fr": "Loi spéciale de continuité budgétaire pour 2026",
+        "en": "Special law ensuring budget continuity for 2026"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-1316, prévue par l'**article 45 de la LOLF** : faute de budget 2026 adopté avant le 31 décembre, elle autorise l'État à **continuer de percevoir les impôts** et à **emprunter** à compter du 1er janvier 2026, et verse **45,2 milliards d'euros** d'avances aux collectivités territoriales. C'est la **deuxième année consécutive** que la France entame l'exercice sans loi de finances votée ; le budget 2026 ne sera promulgué qu'en février 2026.",
+        "en": "Law no. 2025-1316, provided for by **article 45 of the organic budget law (LOLF)**: with no 2026 budget adopted before 31 December, it authorises the State to **keep collecting taxes** and to **borrow** from 1 January 2026, and pays **45.2 billion euros** of advances to local authorities. It is the **second consecutive year** France starts the fiscal year without an enacted budget; the 2026 budget would only be promulgated in February 2026."
+      },
+      "category_ids": ["economie", "institutions"],
+      "politician_ids": ["roland-lescure", "amelie-de-montchalin", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053173986",
+          "title": "LOI n° 2025-1316 du 26 décembre 2025 spéciale prévue par l'article 45 de la LOLF - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl25-248.html",
+          "title": "Dossier législatif : projet de loi spéciale prévue par l'article 45 de la LOLF - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-de-finances-2026"
+        }
+      ]
+    },
+    {
+      "id": "lfss-2026",
+      "date": "2025-12-30",
+      "title": {
+        "fr": "Loi de financement de la sécurité sociale pour 2026",
+        "en": "Social security financing law for 2026"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-1403, adoptée définitivement le 16 décembre par **247 voix contre 232, sans recours au 49.3** : son **article 105 suspend jusqu'au 1er janvier 2028 la réforme des retraites de 2023** (relèvement de l'âge légal et durée de cotisation), conformément à l'engagement pris par Sébastien Lecornu pour échapper à la censure. Le texte crée aussi une **contribution de 2,05 % sur les organismes complémentaires** de santé et diverses mesures d'économies.",
+        "en": "Law no. 2025-1403, definitively adopted on 16 December by **247 votes to 232, without using article 49.3**: its **article 105 suspends the 2023 pension reform until 1 January 2028** (rise of the legal retirement age and contribution period), honouring the commitment Sébastien Lecornu made to avoid censure. The text also creates a **2.05% contribution on supplementary health insurers** and various savings measures."
+      },
+      "category_ids": ["retraites", "sante"],
+      "politician_ids": ["jean-pierre-farandou", "stephanie-rist", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053226384",
+          "title": "LOI n° 2025-1403 du 30 décembre 2025 de financement de la sécurité sociale pour 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/plfss2026.html",
+          "title": "Dossier législatif : projet de loi de financement de la sécurité sociale pour 2026 - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "reforme-retraites-2023"
+        }
+      ]
+    }
+  ]
+}

@@ -29,6 +29,10 @@
         {
           "type": "amends",
           "decision_id": "reforme-retraites-2023"
+        },
+        {
+          "type": "implements",
+          "decision_id": "lfss-2026"
         }
       ]
     },

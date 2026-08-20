@@ -2,6 +2,36 @@
   "$schema": "../schemas/politicians.schema.json",
   "politicians": [
     {
+      "id": "agnes-pannier-runacher",
+      "full_name": "Agnès Pannier-Runacher",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Transition écologique, de la Biodiversité, de la Forêt, de la Mer et de la Pêche",
+            "en": "Minister for the Ecological Transition, Biodiversity, Forestry, the Sea and Fisheries"
+          },
+          "from": "2024-12-23",
+          "to": "2025-10-12"
+        }
+      ],
+      "profile": {
+        "content_hash": "3f2c00c00edf78f617a2dd49f0613df95e749e53b88c49798853ee9767bdbc84",
+        "photo": {
+          "path": "/media/politicians/agnes-pannier-runacher.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Agn%C3%A8s_Pannier-Runacher_-_2023_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "author": "IAEA Imagebank"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique française, **ministre de la Transition écologique, de la Biodiversité, de la Forêt, de la Mer et de la Pêche** de décembre 2024 à octobre 2025 (gouvernements Bayrou et Lecornu I). **Inspectrice générale des finances**, elle occupe des postes de direction dans des organismes publics entre 2000 et 2011 avant de rejoindre le **secteur privé**. Soutien d'**En marche dès 2016**, elle est membre de tous les gouvernements d'Emmanuel Macron depuis 2018, successivement à l'Économie, à la **Transition énergétique** (2022-2024) et à l'Agriculture, avant de retrouver la Transition écologique sous Michel Barnier puis François Bayrou. Elle a porté la **loi PFAS de février 2025** contre les polluants éternels. En octobre 2025, elle **renonce à entrer au gouvernement Lecornu II**, estimant que « les Français attendent une rupture », et retrouve en novembre 2025 son siège de **députée du Pas-de-Calais**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Agn%C3%A8s_Pannier-Runacher"
+      }
+    },
+    {
       "id": "amelie-de-montchalin",
       "full_name": "Amélie de Montchalin",
       "party": "Renaissance",
@@ -62,10 +92,48 @@
       }
     },
     {
+      "id": "bruno-retailleau",
+      "full_name": "Bruno Retailleau",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Intérieur",
+            "en": "Minister of the Interior"
+          },
+          "from": "2024-09-21",
+          "to": "2025-10-12"
+        }
+      ],
+      "profile": {
+        "content_hash": "7a7dea96b84e14b4b4f195629036b1cb4d97f7de28735abc5a29c9f311daadff",
+        "photo": {
+          "path": "/media/politicians/bruno-retailleau.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bruno_Retailleau_-_Ministre_de_l%27Int%C3%A9rieur_fran%C3%A7ais_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Anthonymontardyfr"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme politique français, **ministre de l'Intérieur du 21 septembre 2024 au 12 octobre 2025** (gouvernements Barnier, Bayrou et Lecornu I, avec le statut de **ministre d'État**) et **président du parti Les Républicains depuis mai 2025**, élu face à Laurent Wauquiez. Élu de la Vendée depuis 1988 : conseiller général puis **président du conseil général** (2010-2015), député (1994-1997), **sénateur** (2004-2024, puis à nouveau depuis 2025) et président du conseil régional des Pays de la Loire (2015-2017). Passé par le **Mouvement pour la France** de Philippe de Villiers avant l'UMP puis LR, il préside le **groupe LR au Sénat** de 2014 à 2024. Place Beauvau, il défend une **ligne ferme sur l'immigration** (circulaire du 23 janvier 2025 durcissant les régularisations) et vis-à-vis de l'Algérie, et co-porte la **loi narcotrafic de juin 2025**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Bruno_Retailleau"
+      }
+    },
+    {
       "id": "catherine-vautrin",
       "full_name": "Catherine Vautrin",
       "party": null,
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre du Travail, de la Santé, des Solidarités et des Familles",
+            "en": "Minister of Labour, Health, Solidarity and Families"
+          },
+          "from": "2024-12-23",
+          "to": "2025-10-12"
+        },
         {
           "role": {
             "fr": "Ministre des Armées et des Anciens combattants",
@@ -212,6 +280,66 @@
       }
     },
     {
+      "id": "eric-lombard",
+      "full_name": "Éric Lombard",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
+            "en": "Minister of the Economy, Finance and Industrial and Digital Sovereignty"
+          },
+          "from": "2024-12-23",
+          "to": "2025-10-05"
+        }
+      ],
+      "profile": {
+        "content_hash": "7258ffe4e6c7eee6e7881a6a9835c4428643dade9cfa14a61f55fe105b54de18",
+        "photo": {
+          "path": "/media/politicians/eric-lombard.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%C3%89ric_Lombard_2025_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Frédéric Sierakowski - Council of the European Union"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Chef d'entreprise** et homme politique français, **ministre de l'Économie, des Finances et de la Souveraineté industrielle et numérique du 23 décembre 2024 au 5 octobre 2025** dans le gouvernement Bayrou. Banquier de carrière : dirigeant de **BNP Paribas Cardif** (2004-2013), directeur général de **Generali France** (2013-2017) puis **directeur général de la Caisse des dépôts et consignations** (2017-2024). À Bercy, il a porté la **loi de finances pour 2025**, adoptée en février 2025 après recours au 49.3.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/%C3%89ric_Lombard"
+      }
+    },
+    {
+      "id": "francois-bayrou",
+      "full_name": "François Bayrou",
+      "party": "Mouvement démocrate",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Premier ministre",
+            "en": "Prime Minister"
+          },
+          "from": "2024-12-13",
+          "to": "2025-09-09"
+        }
+      ],
+      "profile": {
+        "content_hash": "c5ff6e13118ae88ae8c171003a49e9bce229e1e32c94071db3e5fd5987d93759",
+        "photo": {
+          "path": "/media/politicians/francois-bayrou.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bayrou_Matignon_(cropped).jpg",
+          "license": "Licence Ouverte",
+          "author": "Service photographique de Matignon"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme d'État français, **Premier ministre du 13 décembre 2024 au 9 septembre 2025** : son gouvernement est le **premier de la Ve République renversé par un vote de confiance** (article 49 alinéa 1), le 8 septembre 2025, après avoir demandé un mandat pour un effort budgétaire d'environ **44 milliards d'euros**. **Professeur agrégé de lettres classiques**, il est député des Pyrénées-Atlantiques dès 1986, **ministre de l'Éducation nationale** (1993-1997), député européen et **maire de Pau depuis 2014**. Fondateur du **Mouvement démocrate (MoDem)** en 2007 après avoir présidé l'UDF, il est **trois fois candidat à l'élection présidentielle** (6,8 % en 2002, 18,6 % en 2007, 9,1 % en 2012) avant de se rallier à Emmanuel Macron en 2017. Brièvement **garde des Sceaux** en 2017, il quitte le gouvernement, mis en cause dans l'affaire des assistants parlementaires du MoDem dont il sera relaxé en 2024. Nommé à Matignon après la censure de Michel Barnier, il fait adopter les **budgets 2025 par 49.3** avant de perdre la confiance de l'Assemblée.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Bayrou"
+      }
+    },
+    {
       "id": "francois-hollande",
       "full_name": "François Hollande",
       "party": "Parti socialiste",
@@ -239,6 +367,82 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Hollande"
+      }
+    },
+    {
+      "id": "francoise-gatel",
+      "full_name": "Françoise Gatel",
+      "party": "Union des démocrates et indépendants",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Sénatrice d'Ille-et-Vilaine",
+            "en": "Senator for Ille-et-Vilaine"
+          },
+          "from": "2014-10-01",
+          "to": "2024-09-21"
+        },
+        {
+          "role": {
+            "fr": "Ministre de l'Aménagement du territoire et de la Décentralisation",
+            "en": "Minister for Territorial Planning and Decentralisation"
+          },
+          "from": "2025-10-12",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "6801243c030944f6aab035178b04332220bc59975ea36910cbcea49ead95500b",
+        "photo": {
+          "path": "/media/politicians/francoise-gatel.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7oise_Gatel_2025_(cropped).jpg",
+          "license": "Attribution",
+          "author": "European Union"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique française, **ministre de l'Aménagement du territoire et de la Décentralisation depuis le 12 octobre 2025** (gouvernement Lecornu II). Membre de l'**UDI**, elle est **maire de Châteaugiron** (2001-2014) puis **sénatrice d'Ille-et-Vilaine** (2014-2024), où elle préside la délégation aux collectivités territoriales. Auteure en 2023 de la **proposition de loi créant un statut de l'élu local**, devenue la **loi du 22 décembre 2025** qu'elle a ensuite portée comme ministre. Elle est auparavant **ministre déléguée chargée de la Ruralité** de septembre 2024 à octobre 2025 (gouvernements Barnier et Bayrou).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7oise_Gatel"
+      }
+    },
+    {
+      "id": "gabriel-attal",
+      "full_name": "Gabriel Attal",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Premier ministre",
+            "en": "Prime Minister"
+          },
+          "from": "2024-01-09",
+          "to": "2024-09-05"
+        },
+        {
+          "role": {
+            "fr": "Député de la 10e circonscription des Hauts-de-Seine",
+            "en": "Member of Parliament for Hauts-de-Seine (10th constituency)"
+          },
+          "from": "2024-07-07",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "0a5cb183b33fb95a63f871d9aed10d18059c652527b62642973cb88dcfe01f12",
+        "photo": {
+          "path": "/media/politicians/gabriel-attal.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Gabriel_Attal_2025_(close_crop).jpg",
+          "license": "CC BY 4.0",
+          "author": "Ismail Aissoub"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme d'État français, **Premier ministre du 9 janvier au 5 septembre 2024**, le **plus jeune chef de gouvernement de la Ve République**. Depuis juillet 2024, il préside le groupe **Ensemble pour la République** à l'Assemblée nationale et devient **secrétaire général du parti Renaissance** en décembre 2024. Passé par le **Parti socialiste** (2006-2016) et le cabinet de la ministre de la Santé Marisol Touraine, il rejoint En marche en 2016. **Député des Hauts-de-Seine** élu en 2017, il devient en 2018, à 29 ans, le **plus jeune membre d'un gouvernement de la Ve République** (secrétaire d'État à l'Éducation), puis porte-parole du gouvernement, ministre délégué aux **Comptes publics** (2022) et **ministre de l'Éducation nationale** (2023). Il est l'auteur de la **proposition de loi sur la justice des mineurs** promulguée le 23 juin 2025.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Gabriel_Attal"
       }
     },
     {
@@ -302,6 +506,36 @@
       }
     },
     {
+      "id": "laurent-duplomb",
+      "full_name": "Laurent Duplomb",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Sénateur de la Haute-Loire",
+            "en": "Senator for Haute-Loire"
+          },
+          "from": "2017-10-02",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "8aba374e4fef49f1fa87e2c5d4f398b7e4605507adc9d063217ba0b8c36c9993",
+        "photo": {
+          "path": "/media/politicians/laurent-duplomb.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:LAURENT_DUPLOMB_SENATEUR_HAUTE-LOIRE_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Prad-Fan"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Exploitant agricole laitier**, syndicaliste et homme politique français, **sénateur LR de la Haute-Loire depuis 2017**. Cadre de la **FNSEA**, il préside la **chambre d'agriculture de Haute-Loire** et a été l'un des présidents régionaux du groupe laitier **Sodiaal** ainsi que membre du conseil de surveillance de la marque Candia. Il est l'auteur de la **loi Duplomb du 11 août 2025** « visant à lever les contraintes à l'exercice du métier d'agriculteur », dont la mesure la plus contestée, la **réintroduction dérogatoire du néonicotinoïde acétamipride**, a été censurée par le Conseil constitutionnel après une **pétition de plus de 2 millions de signatures**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Laurent_Duplomb"
+      }
+    },
+    {
       "id": "laurent-nunez",
       "full_name": "Laurent Nuñez",
       "party": null,
@@ -343,6 +577,14 @@
           },
           "from": "2014-03-31",
           "to": "2016-12-06"
+        },
+        {
+          "role": {
+            "fr": "Ministre d'État, ministre des Outre-mer",
+            "en": "Minister of State, Minister for Overseas Territories"
+          },
+          "from": "2024-12-23",
+          "to": "2025-10-12"
         }
       ],
       "profile": {
@@ -359,6 +601,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Manuel_Valls"
+      }
+    },
+    {
+      "id": "marc-ferracci",
+      "full_name": "Marc Ferracci",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre chargé de l'Industrie et de l'Énergie",
+            "en": "Minister for Industry and Energy"
+          },
+          "from": "2024-12-23",
+          "to": "2025-10-12"
+        }
+      ],
+      "profile": {
+        "content_hash": "8c96892f01bcf27d287eb502832c7c4bfd0ec8cd2ba8545a314a33a94ce669aa",
+        "photo": {
+          "path": "/media/politicians/marc-ferracci.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Visit_of_Marc_Ferracci,_French_Minister_for_Industry_and_Energy,_to_the_EC_-_2025_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Lukasz Kobus / European Union, 2025 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Économiste** et homme politique français, **ministre chargé de l'Industrie et de l'Énergie de décembre 2024 à octobre 2025** (gouvernement Bayrou), après avoir été ministre chargé de l'Industrie dans le gouvernement Barnier. Universitaire spécialiste du marché du travail, il est **conseiller économique d'Emmanuel Macron** pendant la campagne de 2017, conseiller spécial de la ministre du Travail Muriel Pénicaud puis conseiller du Premier ministre Jean Castex. Élu **député des Français de l'étranger** (Suisse et Liechtenstein) en 2022, réélu en 2024. Comme ministre, il a porté la **loi d'avril 2025 sur la conversion des centrales à charbon**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Marc_Ferracci"
       }
     },
     {
@@ -580,6 +852,74 @@
       }
     },
     {
+      "id": "philippe-baptiste",
+      "full_name": "Philippe Baptiste",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre chargé de l'Enseignement supérieur et de la Recherche",
+            "en": "Minister for Higher Education and Research"
+          },
+          "from": "2024-12-23",
+          "to": "2025-10-12"
+        },
+        {
+          "role": {
+            "fr": "Ministre de l'Enseignement supérieur, de la Recherche et de l'Espace",
+            "en": "Minister of Higher Education, Research and Space"
+          },
+          "from": "2025-10-12",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "410fd92c760f0a74f92164c8c2570c3aecfb431782b7eb0da67489208b8804ed",
+        "photo": {
+          "path": "/media/politicians/philippe-baptiste.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Space_Symposium_-_CNES_Bilateral_Meeting_(NHQ202108250016)_(cropped).jpg",
+          "license": "Public domain",
+          "author": "Bill Ingalls"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Ingénieur et chercheur** français, **ministre de l'Enseignement supérieur, de la Recherche et de l'Espace depuis octobre 2025** (gouvernement Lecornu II), après avoir été **ministre chargé de l'Enseignement supérieur et de la Recherche** dans le gouvernement Bayrou à partir de décembre 2024. Scientifique de formation, il dirige le cabinet de la ministre Frédérique Vidal (2017-2019) puis préside le **Centre national d'études spatiales (CNES)** de 2021 à janvier 2025. Il a porté la **loi du 31 juillet 2025 contre l'antisémitisme dans l'enseignement supérieur**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Philippe_Baptiste"
+      }
+    },
+    {
+      "id": "philippe-tabarot",
+      "full_name": "Philippe Tabarot",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre chargé des Transports",
+            "en": "Minister for Transport"
+          },
+          "from": "2024-12-23",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "97f751593c25f3bec3e37aa31dbb80080d011a9d59217dc836abf65b871952bf",
+        "photo": {
+          "path": "/media/politicians/philippe-tabarot.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Philippe_Tabarot,_2025_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Nicolas Kovarik / European Union, 2025 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme politique français, **ministre chargé des Transports depuis le 23 décembre 2024** (gouvernements Bayrou, puis Lecornu I et II). Membre des **Républicains**, il est **vice-président de la région Provence-Alpes-Côte d'Azur chargé des transports** (2015-2021) puis **sénateur des Alpes-Maritimes** (2020-2025). Auteur, comme sénateur, de la **proposition de loi sur la sûreté dans les transports**, devenue la **loi du 28 avril 2025** qu'il a défendue une fois au gouvernement. Il est le frère de la députée **Michèle Tabarot**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Philippe_Tabarot"
+      }
+    },
+    {
       "id": "roland-lescure",
       "full_name": "Roland Lescure",
       "party": "Renaissance",
@@ -697,6 +1037,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Vincent_Jeanbrun"
+      }
+    },
+    {
+      "id": "yannick-neuder",
+      "full_name": "Yannick Neuder",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre chargé de la Santé et de l'Accès aux soins",
+            "en": "Minister for Health and Access to Care"
+          },
+          "from": "2024-12-23",
+          "to": "2025-10-12"
+        }
+      ],
+      "profile": {
+        "content_hash": "af7e57fa24eeb9bf2216bfb8e6bc6b2b06fda2b41220d6c959dd345af8e65499",
+        "photo": {
+          "path": "/media/politicians/yannick-neuder.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Yannick_Neuder_2021_(crop).jpg",
+          "license": "CC BY 3.0",
+          "author": "Unió Europea i Acció Exterior sur YouTube"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Cardiologue** et homme politique français, **ministre chargé de la Santé et de l'Accès aux soins de décembre 2024 à octobre 2025** (gouvernement Bayrou). Docteur en médecine, il exerce au **CHU de Grenoble**, où il est responsable du pôle thorax et vaisseaux. Membre des **Républicains**, il est **maire de Saint-Étienne-de-Saint-Geoirs** (2002-2019), conseiller régional d'Auvergne-Rhône-Alpes depuis 2016 et **député de l'Isère** élu en 2022 puis réélu en 2024, jusqu'à son entrée au gouvernement. Comme ministre, il a accompagné la **loi sur la profession d'infirmier** et la loi sur les **ratios de soignants par patient hospitalisé** de 2025.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Yannick_Neuder"
       }
     }
   ]

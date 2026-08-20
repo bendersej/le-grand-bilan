@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2025-08",
+  "decisions": [
+    {
+      "id": "loi-duplomb-2025",
+      "date": "2025-08-11",
+      "title": {
+        "fr": "Loi Duplomb (contraintes du métier d'agriculteur)",
+        "en": "Duplomb law (constraints on farming)"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-794, issue de la proposition du sénateur Laurent Duplomb : présomption d'**intérêt général majeur pour les ouvrages agricoles de stockage d'eau** (« mégabassines »), **relèvement des seuils d'autorisation** pour les élevages intensifs et assouplissement de la séparation vente-conseil des pesticides. La **réintroduction dérogatoire de l'acétamipride**, un néonicotinoïde interdit depuis 2018, a été **censurée par le Conseil constitutionnel** (décision n° 2025-891 DC du 7 août 2025), après une **pétition record de plus de 2,1 millions de signatures** contre le texte.",
+        "en": "Law no. 2025-794, from senator Laurent Duplomb's bill: presumption of **major general interest for agricultural water storage works** (\"megabasins\"), **higher authorisation thresholds** for intensive livestock farms and looser separation between pesticide sales and advice. The **derogatory reintroduction of acetamiprid**, a neonicotinoid banned since 2018, was **struck down by the Constitutional Council** (decision no. 2025-891 DC of 7 August 2025), after a **record petition of more than 2.1 million signatures** against the text."
+      },
+      "category_ids": ["agriculture", "ecologie"],
+      "politician_ids": ["laurent-duplomb", "annie-genevard", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052075814",
+          "title": "LOI n° 2025-794 du 11 août 2025 visant à lever les contraintes à l'exercice du métier d'agriculteur - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl24-108.html",
+          "title": "Dossier législatif : lever les contraintes à l'exercice du métier d'agriculteur - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-orientation-agricole-2025"
+        }
+      ]
+    },
+    {
+      "id": "lois-refondation-mayotte-2025",
+      "date": "2025-08-11",
+      "title": {
+        "fr": "Lois de programmation pour la refondation de Mayotte",
+        "en": "Mayotte rebuilding programme laws"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-797 et loi organique n° 2025-793 : environ **3,8 milliards d'euros d'investissements programmés sur 2025-2031** (eau, santé, aéroport, écoles, justice), **convergence sociale** avec l'hexagone par ordonnances d'ici 2026-2027, **durcissement des conditions de séjour** (regroupement familial restreint, résidence exigée portée de 3 à 5 ans pour certains titres), lutte renforcée contre l'**habitat illégal**, et création de la collectivité unique de **Département-Région de Mayotte** au plus tard le 1er janvier 2026.",
+        "en": "Law no. 2025-797 and organic law no. 2025-793: about **3.8 billion euros of investment programmed over 2025-2031** (water, health, airport, schools, justice), **social convergence** with mainland France through ordinances by 2026-2027, **tougher residence conditions** (restricted family reunification, required residence raised from 3 to 5 years for some permits), a stronger fight against **illegal housing**, and creation of the single **Department-Region of Mayotte** by 1 January 2026 at the latest."
+      },
+      "category_ids": ["immigration", "institutions"],
+      "politician_ids": ["manuel-valls", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052075903",
+          "title": "LOI n° 2025-797 du 11 août 2025 de programmation pour la refondation de Mayotte - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052075804",
+          "title": "LOI organique n° 2025-793 du 11 août 2025 relative au Département-Région de Mayotte - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl24-544.html",
+          "title": "Dossier législatif : refondation de Mayotte - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-urgence-mayotte-2025"
+        }
+      ]
+    },
+    {
+      "id": "loi-plm-2025",
+      "date": "2025-08-11",
+      "title": {
+        "fr": "Loi de réforme du scrutin de Paris, Lyon et Marseille (loi PLM)",
+        "en": "Paris-Lyon-Marseille electoral reform law (PLM law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-795 mettant fin au système issu de la loi PLM de 1982 : les membres du conseil de Paris et des conseils municipaux de Lyon et Marseille seront désormais élus par **deux scrutins distincts**, un **scrutin communal direct** et un scrutin d'arrondissement, avec une **prime majoritaire réduite à 25 %** des sièges (contre 50 % dans les autres communes). Application dès les **élections municipales de mars 2026**.",
+        "en": "Law no. 2025-795 ending the system created by the 1982 PLM law: members of the Paris council and of the Lyon and Marseille municipal councils will now be elected through **two separate ballots**, a **direct city-wide ballot** and a district ballot, with a **majority bonus reduced to 25%** of the seats (versus 50% in other communes). Applies from the **March 2026 municipal elections**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["bruno-retailleau", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052075863",
+          "title": "LOI n° 2025-795 du 11 août 2025 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl24-532.html",
+          "title": "Dossier législatif : conseil de Paris et conseils municipaux de Lyon et de Marseille - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-scrutin-municipal-2025"
+        }
+      ]
+    },
+    {
+      "id": "loi-retention-2025",
+      "date": "2025-08-11",
+      "title": {
+        "fr": "Loi sur le maintien en rétention des étrangers condamnés",
+        "en": "Law on keeping convicted foreigners in detention"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-796, adoptée après le meurtre de l'étudiante Philippine : elle facilite le **maintien en rétention des étrangers condamnés pour des faits graves** et présentant de forts risques de récidive, et ajuste les délais d'intervention du juge (délais convertis en heures, prolongations dans la limite de **90 jours**). Le Conseil constitutionnel a **censuré les articles 1er et 2**, qui étendaient la durée maximale de rétention jusqu'à **210 jours** pour ces profils (décision n° 2025-895 DC).",
+        "en": "Law no. 2025-796, adopted after the murder of the student Philippine: it makes it easier to **keep in detention foreigners convicted of serious offences** who present high reoffending risks, and adjusts the judge's timelines (deadlines converted into hours, extensions within a **90-day** limit). The Constitutional Council **struck down articles 1 and 2**, which extended the maximum detention period to **210 days** for these profiles (decision no. 2025-895 DC)."
+      },
+      "category_ids": ["immigration", "securite"],
+      "politician_ids": ["bruno-retailleau", "gerald-darmanin", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052075884",
+          "title": "LOI n° 2025-796 du 11 août 2025 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl24-298.html",
+          "title": "Dossier législatif : faciliter le maintien en rétention - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -88,7 +88,7 @@
         "fr": "Loi n° 2026-554 mettant fin à environ **quinze ans de contentieux avec la Commission européenne** sur les concessions hydroélectriques : le régime des concessions est remplacé par un nouveau cadre d'exploitation avec un **droit réel de 70 ans** sur les installations, couvrant environ **340 installations et près de 25 GW**, assorti d'une **redevance progressive** indexée sur les résultats.",
         "en": "Law no. 2026-554 ending about **fifteen years of litigation with the European Commission** over hydropower concessions: the concession regime is replaced by a new operating framework with a **70-year property right** over installations, covering about **340 installations and nearly 25 GW**, together with a **progressive royalty** indexed on profits."
       },
-      "category_ids": ["ecologie", "economie"],
+      "category_ids": ["economie", "energie"],
       "politician_ids": ["roland-lescure"],
       "sources": [
         {

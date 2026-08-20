@@ -38,7 +38,7 @@
         "fr": "Décret n° 2026-76 fixant la **stratégie énergétique de la France pour 2026-2035**, adopté **par décret faute de loi de programmation votée**. Jusqu'à fin 2028, il **plafonne le soutien public à l'éolien terrestre et au photovoltaïque** au niveau du décret précédent et donne la priorité au **renouvellement des parcs éoliens existants** ; une **clause de revoyure** est prévue en 2027.",
         "en": "Decree no. 2026-76 setting **France's energy strategy for 2026-2035**, adopted **by decree in the absence of an energy programming law**. Until the end of 2028 it **caps public support for onshore wind and solar power** at the previous decree's level and prioritises the **repowering of existing wind farms**; a **review clause** is scheduled for 2027."
       },
-      "category_ids": ["ecologie"],
+      "category_ids": ["ecologie", "energie"],
       "politician_ids": ["roland-lescure", "monique-barbut", "sebastien-lecornu"],
       "sources": [
         {

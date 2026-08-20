@@ -22,6 +22,10 @@
       "label": { "fr": "Éducation", "en": "Education" }
     },
     {
+      "id": "energie",
+      "label": { "fr": "Énergie", "en": "Energy" }
+    },
+    {
       "id": "immigration",
       "label": { "fr": "Immigration", "en": "Immigration" }
     },

@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2025-02",
+  "decisions": [
+    {
+      "id": "loi-de-finances-2025",
+      "date": "2025-02-14",
+      "title": {
+        "fr": "Loi de finances pour 2025 (budget 2025)",
+        "en": "Budget law for 2025"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-127 : budget marqué par un **effort d'environ 50 milliards d'euros** pour ramener le **déficit public à 5,4 % du PIB** en 2025. Après la censure du gouvernement Barnier en décembre 2024, la France avait commencé l'année **sans budget voté** ; François Bayrou a fait adopter le texte par **engagement de responsabilité (article 49.3)**, les **motions de censure étant rejetées le 5 février**. Validation partielle par le Conseil constitutionnel (décision n° 2025-874 DC).",
+        "en": "Law no. 2025-127: a budget built on a **fiscal effort of about 50 billion euros** to bring the **public deficit down to 5.4% of GDP** in 2025. After the Barnier government was censured in December 2024, France had started the year **without an enacted budget**; François Bayrou pushed the text through by **invoking article 49.3**, with the **censure motions rejected on 5 February**. Partially upheld by the Constitutional Council (decision no. 2025-874 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["eric-lombard", "amelie-de-montchalin", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051168007",
+          "title": "LOI n° 2025-127 du 14 février 2025 de finances pour 2025 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2025.html",
+          "title": "Dossier législatif : projet de loi de finances pour 2025 - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-urgence-mayotte-2025",
+      "date": "2025-02-24",
+      "title": {
+        "fr": "Loi d'urgence pour Mayotte",
+        "en": "Emergency law for Mayotte"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-176 votée après le passage du **cyclone Chido** (14 décembre 2024) : création d'un **établissement public chargé de coordonner la reconstruction**, **dérogations d'urbanisme** et de commande publique (marchés négociés sans publicité jusqu'à **2 millions d'euros**), **suspension du recouvrement des cotisations et des dettes fiscales**, aides aux entreprises et aux ménages, et réduction d'impôt portée à **75 %** pour les dons aux associations intervenant à Mayotte.",
+        "en": "Law no. 2025-176 passed after **cyclone Chido** struck (14 December 2024): creation of a **public body coordinating reconstruction**, **derogations to planning rules** and public procurement (negotiated contracts without prior publicity up to **2 million euros**), **suspension of the collection of social contributions and tax debts**, aid for businesses and households, and a tax reduction raised to **75%** for donations to charities working in Mayotte."
+      },
+      "category_ids": ["economie", "institutions"],
+      "politician_ids": ["manuel-valls", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051244562",
+          "title": "LOI n° 2025-176 du 24 février 2025 d'urgence pour Mayotte - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl24-260.html",
+          "title": "Dossier législatif : loi d'urgence pour Mayotte - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-interdiction-puffs-2025",
+      "date": "2025-02-24",
+      "title": {
+        "fr": "Loi d'interdiction des cigarettes électroniques jetables (puffs)",
+        "en": "Law banning disposable e-cigarettes (puffs)"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-175 : **interdiction de la vente, de la distribution et de l'offre gratuite** des dispositifs électroniques de vapotage **à usage unique (« puffs »)**, préremplis et non rechargeables, à compter du **26 février 2025**. Le texte vise un produit bon marché **prisé des adolescents** et générateur de déchets à batterie au lithium.",
+        "en": "Law no. 2025-175: **ban on the sale, distribution and free offering** of **single-use electronic vaping devices (\"puffs\")**, pre-filled and non-refillable, from **26 February 2025**. The text targets a cheap product **popular among teenagers** that generates lithium-battery waste."
+      },
+      "category_ids": ["ecologie", "sante"],
+      "politician_ids": ["yannick-neuder", "catherine-vautrin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051244550",
+          "title": "LOI n° 2025-175 du 24 février 2025 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-161.html",
+          "title": "Dossier législatif : interdire les dispositifs électroniques de vapotage à usage unique - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-pfas-2025",
+      "date": "2025-02-27",
+      "title": {
+        "fr": "Loi contre les polluants éternels (PFAS)",
+        "en": "Law against forever chemicals (PFAS)"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-188 : **interdiction à partir du 1er janvier 2026** des cosmétiques, farts de ski et vêtements contenant des **PFAS (« polluants éternels »)**, étendue à l'**ensemble des textiles en 2030** ; contrôle obligatoire des PFAS dans l'**eau potable**, trajectoire nationale de **fin des rejets industriels aqueux sous cinq ans** et **redevance de 100 euros par 100 grammes** de PFAS rejetés.",
+        "en": "Law no. 2025-188: **ban from 1 January 2026** on cosmetics, ski wax and clothing containing **PFAS (\"forever chemicals\")**, extended to **all textiles in 2030**; mandatory PFAS monitoring in **drinking water**, a national trajectory to **end industrial aqueous discharges within five years** and a **levy of 100 euros per 100 grams** of discharged PFAS."
+      },
+      "category_ids": ["ecologie", "sante"],
+      "politician_ids": ["agnes-pannier-runacher", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051260902",
+          "title": "LOI n° 2025-188 du 27 février 2025 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-514.html",
+          "title": "Dossier législatif : substances per- et polyfluoroalkylées - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lfss-2025",
+      "date": "2025-02-28",
+      "title": {
+        "fr": "Loi de financement de la sécurité sociale pour 2025",
+        "en": "Social security financing law for 2025"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-199 adoptée fin février, avec **près de deux mois de retard** du fait de la censure du gouvernement Barnier : elle vise à contenir le **déficit des régimes de sécurité sociale autour de 22 milliards d'euros** en 2025, avec des économies sur les produits de santé et les indemnités journalières. Le texte est passé par **engagement de responsabilité (article 49.3)**, les motions de censure ayant été rejetées ; validation partielle par le Conseil constitutionnel (décision n° 2025-875 DC).",
+        "en": "Law no. 2025-199 adopted at the end of February, **almost two months late** because of the censure of the Barnier government: it aims to keep the **social security deficit around 22 billion euros** in 2025, with savings on health products and sick-pay. The text passed through **article 49.3**, with the censure motions rejected; partially upheld by the Constitutional Council (decision no. 2025-875 DC)."
+      },
+      "category_ids": ["economie", "sante"],
+      "politician_ids": ["catherine-vautrin", "yannick-neuder", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051269481",
+          "title": "LOI n° 2025-199 du 28 février 2025 de financement de la sécurité sociale pour 2025 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/plfss2025.html",
+          "title": "Dossier législatif : projet de loi de financement de la sécurité sociale pour 2025 - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

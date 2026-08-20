@@ -75,7 +75,12 @@
           "title": "LOI n° 2026-667 du 27 juillet 2026 - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-retention-2025"
+        }
+      ]
     },
     {
       "id": "loi-maladies-cardio-neuro-vasculaires-2026",

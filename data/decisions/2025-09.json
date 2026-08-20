@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2025-09",
+  "decisions": [
+    {
+      "id": "nomination-lecornu-2025",
+      "date": "2025-09-09",
+      "title": {
+        "fr": "Chute du gouvernement Bayrou et nomination de Sébastien Lecornu",
+        "en": "Fall of the Bayrou government and appointment of Sébastien Lecornu"
+      },
+      "summary": {
+        "fr": "Le 8 septembre 2025, l'Assemblée nationale **refuse la confiance** au gouvernement de François Bayrou (**194 voix pour, 364 contre**), qui avait engagé sa responsabilité (**article 49 alinéa 1**) sur un plan de redressement des finances publiques d'environ **44 milliards d'euros** : c'est la **première chute d'un gouvernement sur un vote de confiance sous la Ve République**. Le lendemain, Emmanuel Macron nomme **Sébastien Lecornu Premier ministre** par décret.",
+        "en": "On 8 September 2025 the National Assembly **refused confidence** in François Bayrou's government (**194 votes for, 364 against**), which had staked its survival (**article 49 paragraph 1**) on a roughly **44 billion euro** public-finance recovery plan: the **first fall of a government on a confidence vote under the Fifth Republic**. The next day Emmanuel Macron appointed **Sébastien Lecornu Prime Minister** by decree."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "francois-bayrou", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052221932",
+          "title": "Décret du 9 septembre 2025 portant nomination du Premier ministre - Légifrance"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/vote-de-confiance-l-assemblee-nationale-a-desapprouve-la-declaration-de-politique-generale-du-gouvernement",
+          "title": "Vote de confiance du 8 septembre 2025 : l'Assemblée nationale a désapprouvé la déclaration de politique générale - Assemblée nationale"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

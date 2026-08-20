@@ -1,0 +1,110 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2025-06",
+  "decisions": [
+    {
+      "id": "loi-narcotrafic-2025",
+      "date": "2025-06-13",
+      "title": {
+        "fr": "Loi contre le narcotrafic",
+        "en": "Anti-drug-trafficking law"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-532, complétée par la loi organique n° 2025-531 : création d'un **parquet national anti-criminalité organisée (PNACO)** et du statut de son procureur, **régime carcéral de haute sécurité** pour les principaux narcotrafiquants, **fermetures administratives** des commerces servant au blanchiment, gel des avoirs, techniques d'enquête élargies et peines aggravées jusqu'à la **réclusion à perpétuité en cas d'implication de mineurs**. Le Conseil constitutionnel a censuré trois articles, dont le « dossier-coffre » (décision n° 2025-885 DC).",
+        "en": "Law no. 2025-532, completed by organic law no. 2025-531: creation of a **national anti-organised-crime prosecution office (PNACO)** and of its prosecutor's status, a **high-security prison regime** for top drug traffickers, **administrative closures** of businesses used for laundering, asset freezes, expanded investigative techniques and penalties raised up to **life imprisonment where minors are involved**. The Constitutional Council struck down three articles, including the \"sealed file\" mechanism (decision no. 2025-885 DC)."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["gerald-darmanin", "bruno-retailleau", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051734851",
+          "title": "LOI n° 2025-532 du 13 juin 2025 visant à sortir la France du piège du narcotrafic - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051734847",
+          "title": "LOI organique n° 2025-531 du 13 juin 2025 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-735.html",
+          "title": "Dossier législatif : sortir la France du piège du narcotrafic - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-justice-mineurs-2025",
+      "date": "2025-06-23",
+      "title": {
+        "fr": "Loi Attal sur la justice des mineurs",
+        "en": "Attal law on juvenile justice"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-568, issue de la proposition de Gabriel Attal : **responsabilité civile de plein droit des deux parents** de mineurs délinquants, **amende civile** pour les parents qui ne comparaissent pas devant le juge, et mesures de surveillance élargies pour les mineurs d'au moins 13 ans. Le Conseil constitutionnel a **censuré cinq articles**, dont la **comparution immédiate des mineurs de 16 ans** et l'atténuation de l'excuse de minorité (décision n° 2025-886 DC).",
+        "en": "Law no. 2025-568, from Gabriel Attal's bill: **automatic civil liability of both parents** of juvenile offenders, a **civil fine** for parents failing to appear before the judge, and extended supervision measures for minors aged 13 and over. The Constitutional Council **struck down five articles**, including **immediate trial for minors aged 16** and the weakening of the minority excuse (decision no. 2025-886 DC)."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["gabriel-attal", "gerald-darmanin", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051782996",
+          "title": "LOI n° 2025-568 du 23 juin 2025 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl24-343.html",
+          "title": "Dossier législatif : autorité de la justice à l'égard des mineurs délinquants - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-profession-infirmier-2025",
+      "date": "2025-06-27",
+      "title": {
+        "fr": "Loi sur la profession d'infirmier",
+        "en": "Nursing profession law"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-581 refondant le cadre d'exercice des infirmiers : reconnaissance de la **consultation et du diagnostic infirmiers**, **droit de prescription** de produits de santé et d'examens complémentaires (liste fixée par arrêté), et expérimentation de l'**accès direct** aux infirmiers dans **cinq départements pendant trois ans**.",
+        "en": "Law no. 2025-581 overhauling the framework of the nursing profession: recognition of **nurse consultations and nursing diagnosis**, a **right to prescribe** health products and complementary examinations (list set by ministerial order), and a **direct-access experiment** to nurses in **five departments for three years**."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["yannick-neuder", "catherine-vautrin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051806032",
+          "title": "LOI n° 2025-581 du 27 juin 2025 sur la profession d'infirmier - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl24-420.html",
+          "title": "Dossier législatif : loi sur la profession d'infirmier - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-fraude-aides-publiques-2025",
+      "date": "2025-06-30",
+      "title": {
+        "fr": "Loi contre les fraudes aux aides publiques",
+        "en": "Law against public aid fraud"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-594 : possibilité de **suspendre jusqu'à trois mois le versement d'une aide publique** en cas d'indices sérieux de fraude, encadrement renforcé de **MaPrimeRénov'** (labels de qualité obligatoires, sous-traitance limitée) et passage du **démarchage téléphonique** à un régime de **consentement préalable** du consommateur.",
+        "en": "Law no. 2025-594: authorities may **suspend the payment of public aid for up to three months** when there is serious evidence of fraud, tighter rules for the **MaPrimeRenov** renovation scheme (mandatory quality labels, limited subcontracting) and a shift of **telemarketing** to a **prior-consent regime** for consumers."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["eric-lombard", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000051824277",
+          "title": "LOI n° 2025-594 du 30 juin 2025 contre toutes les fraudes aux aides publiques - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl24-274.html",
+          "title": "Dossier législatif : lutter contre toutes les fraudes aux aides publiques - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

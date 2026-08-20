@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2025-10",
+  "decisions": [
+    {
+      "id": "gouvernement-lecornu-2-2025",
+      "date": "2025-10-12",
+      "title": {
+        "fr": "Formation du gouvernement Lecornu II",
+        "en": "Formation of the Lecornu II government"
+      },
+      "summary": {
+        "fr": "Après la démission de son premier gouvernement le **6 octobre, moins de 24 heures après sa formation**, Sébastien Lecornu est reconduit et forme le 12 octobre le gouvernement « Lecornu II » : **Laurent Nuñez à l'Intérieur, Catherine Vautrin aux Armées, Roland Lescure à l'Économie, Jean-Pierre Farandou au Travail**, Monique Barbut à la Transition écologique. **Les Républicains quittent le gouvernement** ; le Premier ministre renonce au **49.3** et échappe à la censure en promettant la **suspension de la réforme des retraites**.",
+        "en": "After his first government resigned on **6 October, less than 24 hours after being formed**, Sébastien Lecornu was reappointed and on 12 October formed the \"Lecornu II\" government: **Laurent Nunez at Interior, Catherine Vautrin at Defence, Roland Lescure at the Economy, Jean-Pierre Farandou at Labour**, Monique Barbut at Ecological Transition. **Les Républicains left the government**; the Prime Minister renounced **article 49.3** and avoided censure by promising the **suspension of the pension reform**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052382035",
+          "title": "Décret du 12 octobre 2025 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "nomination-lecornu-2025"
+        }
+      ]
+    },
+    {
+      "id": "loi-emploi-seniors-2025",
+      "date": "2025-10-24",
+      "title": {
+        "fr": "Loi sur l'emploi des seniors (transposition des ANI)",
+        "en": "Senior employment law (transposing the national agreements)"
+      },
+      "summary": {
+        "fr": "Loi n° 2025-989 transposant les **accords nationaux interprofessionnels** conclus par les partenaires sociaux : création à titre expérimental (5 ans) du **« contrat de valorisation de l'expérience »**, un CDI destiné aux **demandeurs d'emploi d'au moins 60 ans** (57 ans par accord de branche), assouplissement de la **retraite progressive**, entretiens de mi-carrière renforcés et **négociations obligatoires** sur l'emploi des salariés expérimentés dans les branches et les grandes entreprises.",
+        "en": "Law no. 2025-989 transposing the **national interprofessional agreements** concluded by the social partners: experimental creation (5 years) of the **\"experience valorisation contract\"**, a permanent contract for **jobseekers aged 60 and over** (57 by branch agreement), more flexible **progressive retirement**, strengthened mid-career interviews and **mandatory negotiations** on senior employment in branches and large companies."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["jean-pierre-farandou", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000052430940",
+          "title": "LOI n° 2025-989 du 24 octobre 2025 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl24-600.html",
+          "title": "Dossier législatif : emploi des salariés expérimentés - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}
