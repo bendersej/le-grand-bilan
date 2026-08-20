@@ -107,3 +107,17 @@ Outcome: 33 decisions across all 12 months (32 new + the seed reforme-retraites-
 - The monitor-parking failure finally has a fix: the backfill-year skill now mandates verbatim "single-run agent, no notification will EVER reach you, in-call foreground sleeps only" wording, plus the literal-ids-not-$VAR rule for backgrounded commands.
 
 Next: 2022.
+
+## Learnings round 5 (batch 2022, ran 2026-08-21)
+
+Outcome: 37 decisions across all 12 months of the double-election year, 13 politicians added (12 profiles; patricia-lemoine null by design, no lead image), no new categories, cross-year relations wired into five 2023 files, candidate 2021 backward relations recorded for the next batch (passe vaccinal chain, boucliers tarifaires, loi harkis ↔ discours de pardon). Review gate passed (5/5 sampled sources exact, format/check/build/smoketest green, 247 pages). No stall this run: the verbatim single-run wording held.
+
+- Légifrance (search, jorf/id, circulaire/id) is curl-403ed even with a browser UA but passes via the agent's web-fetch tool; curl stays for senat/AN/elysee. Skill now says which tool per host.
+- The Sénat "lois promulguées" index omits treaty-ratification laws (loi 2022-1124 OTAN): geopolitical years need an explicit "autorisant la ratification" Légifrance search.
+- Summit-level decisions (Conseil européen, OTAN) have no JO document: elysee.fr sitemap date-grep gives the citable page; consilium hard-403s; nato.int 301s to a new URL scheme.
+- ecologie.gouv.fr is the one fetchable ministry site (HTML presse pages, not the rotting PDF paths).
+- Long omnibus laws defeat single-fetch verification (first chunk only): verify headline measures via the CC decision or the Sénat dossier, never trust one negative fetch.
+- Election-year months are structurally thin (March-July 2022): proclamations, formation décrets and summits, not laws. Now stated in the skill.
+- Unsourceable and accepted as such: réquisitions des raffineries (arrêtés préfectoraux hors JO), accueil de l'Ocean Viking (communiqués only).
+
+Next: 2021.
