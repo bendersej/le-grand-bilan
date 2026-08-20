@@ -67,8 +67,12 @@ const DecisionRelation = z.object({
 })
 type DecisionRelation = z.infer<typeof DecisionRelation>
 
+// Sources must cite the EXACT document (e.g. a Légifrance jorf/id page), never a
+// site root or search page; the pathname check rejects the obvious violations.
 const DecisionSource = z.object({
-  url: z.url(),
+  url: z.url().refine((url) => new URL(url).pathname !== '/', {
+    message: 'must point to the exact document URL, not a site root',
+  }),
   title: z.string().min(1),
 })
 type DecisionSource = z.infer<typeof DecisionSource>

@@ -19,7 +19,7 @@ Data files use `snake_case` keys. Registry entries (categories, politicians) are
 - `title` / `summary` — `LocalizedText`: `fr` required, `en` nullable
 - `category_ids` — at least one id from `data/categories.json`
 - `politician_ids` — at least one id from `data/politicians.json`, most responsible first
-- `sources` — at least one `{ url, title }`; official sources preferred (Légifrance, Journal officiel, vie-publique.fr). The more the better: this is an open-data, "never forget" registry
+- `sources` — at least one `{ url, title }`; official sources preferred (Légifrance, Journal officiel, vie-publique.fr). The more the better: this is an open-data, "never forget" registry. The `url` MUST point to the EXACT document (e.g. `https://www.legifrance.gouv.fr/jorf/id/JORFTEXT…`), never a homepage or search page — the schema rejects site-root URLs
 - `relations` — typed links to other decisions: `amends` | `implements` | `related` | `repeals`
 
 ## Validation

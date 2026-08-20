@@ -31,7 +31,7 @@ Root reference docs:
 ## Always-binding pointers
 
 - **Touching `data/`, `schemas/`, or `src/data/schema.ts`**: run `pnpm run test` — the data suite enforces schema conformance, referential integrity, and JSON Schema drift. Schema changes MUST regenerate `schemas/` (`pnpm run generate:json-schemas`). Details: `docs/data-model.md`.
-- **Every decision needs at least one official source URL** (Légifrance, Journal officiel, vie-publique.fr, press). This is an open-data, "never forget" registry: unsourced entries are rejected by schema.
+- **Every decision needs at least one official source URL pointing to the EXACT document** (e.g. a Légifrance `jorf/id/JORFTEXT…` page), never a homepage or search page. This is an open-data, "never forget" registry: unsourced entries and site-root URLs are rejected by schema.
 - **The DSFR (French State design system) is legally reserved to the French State** — never add `@gouvfr/dsfr` or its assets (Marianne font included). The France palette lives as tokens in `src/styles.css`.
 - **Content is French-first**: every `LocalizedText` has a required `fr` and a nullable `en`.
 - **New data structures prefer lexicographic order** (registry entries ordered by id — enforced by tests).
