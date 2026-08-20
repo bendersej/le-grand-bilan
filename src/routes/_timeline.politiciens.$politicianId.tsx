@@ -1,6 +1,7 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 import Panel from '../components/Panel'
 import RichText from '../components/RichText'
+import { useLocalized } from '../components/LanguageProvider'
 import { formatDateLabel } from '../data/format.ts'
 import { politiciansById } from '../data/registry.ts'
 
@@ -19,6 +20,7 @@ export const Route = createFileRoute('/_timeline/politiciens/$politicianId')({
 // to this politician (decisions + public appearances) by the _timeline layout.
 function PoliticianPage() {
   const politician = Route.useLoaderData()
+  const localize = useLocalized()
   const profile = politician.profile
 
   return (
@@ -41,7 +43,7 @@ function PoliticianPage() {
           <ul className="m-0 mt-3 list-none p-0 text-sm text-[var(--sea-ink-soft)]">
             {politician.mandates.map((mandate) => (
               <li key={`${mandate.role.fr}-${mandate.from}`}>
-                {mandate.role.fr} · {formatDateLabel(mandate.from)} –{' '}
+                {localize(mandate.role)} · {formatDateLabel(mandate.from)} –{' '}
                 {mandate.to ? formatDateLabel(mandate.to) : "aujourd'hui"}
               </li>
             ))}
@@ -52,7 +54,7 @@ function PoliticianPage() {
       {profile ? (
         <>
           <p className="mt-5 text-sm leading-6 text-[var(--sea-ink-soft)]">
-            <RichText text={profile.summary.fr} />
+            <RichText text={localize(profile.summary)} />
           </p>
           <p className="m-0 mt-2 text-xs text-[var(--sea-ink-soft)]">
             {'Texte : '}

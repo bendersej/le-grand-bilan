@@ -1,6 +1,7 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router'
 import Panel from '../components/Panel'
 import RichText from '../components/RichText'
+import { useLocalized } from '../components/LanguageProvider'
 import { formatDateLabel } from '../data/format.ts'
 import {
   categoriesById,
@@ -57,6 +58,7 @@ export const Route = createFileRoute('/_timeline/decisions/$decisionId')({
 
 function DecisionPage() {
   const decision = Route.useLoaderData()
+  const localize = useLocalized()
   const decisionCategories = decision.category_ids.flatMap((categoryId) => {
     const category = categoriesById.get(categoryId)
     return category ? [category] : []
@@ -73,9 +75,11 @@ function DecisionPage() {
   const hasRelations = outgoingRelations.length > 0 || incomingRelations.length > 0
 
   return (
-    <Panel label={decision.title.fr} backLabel="Retour à la frise" bordered={true}>
+    <Panel label={localize(decision.title)} backLabel="Retour à la frise" bordered={true}>
       <p className="kicker m-0">{formatDateLabel(decision.date)}</p>
-      <h1 className="display-title m-0 mt-2 text-2xl font-bold sm:text-3xl">{decision.title.fr}</h1>
+      <h1 className="display-title m-0 mt-2 text-2xl font-bold sm:text-3xl">
+        {localize(decision.title)}
+      </h1>
       <div className="mt-4 flex flex-wrap gap-1.5">
         {decisionCategories.map((category) => (
           <Link
@@ -85,7 +89,7 @@ function DecisionPage() {
             resetScroll={false}
             className="chip"
           >
-            {category.label.fr}
+            {localize(category.label)}
           </Link>
         ))}
         {decisionPoliticians.map((politician) => (
@@ -101,7 +105,7 @@ function DecisionPage() {
         ))}
       </div>
       <p className="mt-6 text-base leading-7 text-[var(--sea-ink-soft)]">
-        <RichText text={decision.summary.fr} />
+        <RichText text={localize(decision.summary)} />
       </p>
 
       <section className="mt-8">
@@ -130,7 +134,7 @@ function DecisionPage() {
                   params={{ decisionId: relation.decision.id }}
                   search={(previousSearch) => previousSearch}
                 >
-                  {relation.decision.title.fr}
+                  {localize(relation.decision.title)}
                 </Link>
               </li>
             ))}
@@ -143,7 +147,7 @@ function DecisionPage() {
                   params={{ decisionId: relation.decision.id }}
                   search={(previousSearch) => previousSearch}
                 >
-                  {relation.decision.title.fr}
+                  {localize(relation.decision.title)}
                 </Link>
               </li>
             ))}

@@ -1,5 +1,6 @@
 import { Link, Outlet, createFileRoute, useMatches, useParams } from '@tanstack/react-router'
 import DecisionRow from '../components/DecisionRow'
+import { useLocalized } from '../components/LanguageProvider'
 import { formatDateLabel, formatMonthLabel } from '../data/format.ts'
 import {
   allDecisions,
@@ -27,6 +28,7 @@ function AppearanceRow({
   appearance: Appearance
   interactive: boolean
 }) {
+  const localize = useLocalized()
   const sourceHostname = new URL(appearance.source_url).hostname
   return (
     <article className="grid gap-2 sm:grid-cols-[240px_minmax(0,1fr)] sm:gap-6">
@@ -49,10 +51,10 @@ function AppearanceRow({
               rel="noreferrer"
               className="text-[var(--sea-ink)] no-underline hover:text-[var(--lagoon-deep)]"
             >
-              {appearance.title.fr}
+              {localize(appearance.title)}
             </a>
           ) : (
-            appearance.title.fr
+            localize(appearance.title)
           )}
         </h3>
         <p className="m-0 mt-1 text-xs text-[var(--sea-ink-soft)]">
@@ -73,6 +75,7 @@ function TimelineLayout() {
   const hasPanel = matches.some(
     (match) => match.routeId.startsWith('/_timeline/') && match.routeId !== '/_timeline/',
   )
+  const localize = useLocalized()
   const activeCategory = categorie ? (categoriesById.get(categorie) ?? null) : null
   const activePoliticianId = routeParams.politicianId
 
@@ -104,7 +107,7 @@ function TimelineLayout() {
 
       {activeCategory ? (
         <p className="m-0 mt-6 flex items-center gap-2 text-sm">
-          <span className="chip">{activeCategory.label.fr}</span>
+          <span className="chip">{localize(activeCategory.label)}</span>
           <Link to="." search={{}} resetScroll={false} className="text-xs">
             Effacer le filtre
           </Link>

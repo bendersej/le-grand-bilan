@@ -42,6 +42,8 @@ Rewrite `summary.fr` from the seeded lead section into ~300 words max that highl
 
 Stay factual and neutral; everything must be supported by the Wikipedia article (the cited source). Wikipedia text is **CC BY-SA**: the site renders the attribution automatically — keep the summary derived from the article, don't import text from elsewhere.
 
+**NO EM DASHES, ever, in content.** The em dash (—) is banned in all forms in summaries and any text field. Use commas, colons, parentheses or separate sentences instead.
+
 ## 4. Validate
 
 ```bash

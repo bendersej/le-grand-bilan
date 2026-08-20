@@ -13,7 +13,7 @@ The registry is a set of JSON files under `data/`. The single owner of the data 
 
 Data files use `snake_case` keys. Registry entries (categories, politicians) are ordered lexicographically by id.
 
-Text fields (`summary`, and any future long-form field) support a LIMITED markdown subset rendered by `src/components/RichText.tsx`: `**bold**`, `*italic*`, `[label](https://…)` (http/https links only — anything else stays plain text). No raw HTML, ever: content arrives from public pull requests. Summaries SHOULD bold the keywords or phrases that meaningfully describe the decision (what changed, for whom, by how much).
+Text fields (`summary`, and any future long-form field) support a LIMITED markdown subset rendered by `src/components/RichText.tsx`: `**bold**`, `*italic*`, `[label](https://…)` (http/https links only — anything else stays plain text). No raw HTML, ever: content arrives from public pull requests. Summaries SHOULD bold the keywords or phrases that meaningfully describe the decision (what changed, for whom, by how much). The em dash (—) is BANNED in all content text fields: use commas, colons, parentheses or separate sentences.
 
 Politician `profile` objects (photo, summary, license, `wikipedia_url`) are captured by `pnpm run capture:profiles`, never hand-written; photos land in `public/media/politicians/`. For appearances the site links the YouTube/INA source directly — `source_url` SHOULD carry the exact timestamp where the person speaks (e.g. `…&t=95s`). Separately, `pnpm run archive:appearances` keeps a PRIVATE R2 cold archive (`le-grand-bilan-media`, not publicly served) so the record survives a takedown; it fills the `media` object (asset key + sha256) — run it locally and commit the updated data file.
 

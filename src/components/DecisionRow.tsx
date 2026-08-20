@@ -1,6 +1,7 @@
 import { Link } from '@tanstack/react-router'
 import RichText from './RichText'
 import { formatDateLabel } from '../data/format.ts'
+import { useLocalized } from './LanguageProvider'
 import { categoriesById, politiciansById } from '../data/registry.ts'
 import type { Decision } from '../data/schema.ts'
 
@@ -18,6 +19,7 @@ export default function DecisionRow({
   decision: Decision
   showDate: boolean
 }) {
+  const localize = useLocalized()
   const rowCategories = decision.category_ids.flatMap((categoryId) => {
     const category = categoriesById.get(categoryId)
     return category ? [category] : []
@@ -106,7 +108,7 @@ export default function DecisionRow({
               resetScroll={false}
               className="chip"
             >
-              {category.label.fr}
+              {localize(category.label)}
             </Link>
           ))}
         </div>
@@ -122,11 +124,11 @@ export default function DecisionRow({
             search={(previousSearch) => previousSearch}
             className="text-[var(--sea-ink)] no-underline hover:text-[var(--lagoon-deep)]"
           >
-            {decision.title.fr}
+            {localize(decision.title)}
           </Link>
         </h3>
         <p className="m-0 mt-1 text-sm leading-6 text-[var(--sea-ink-soft)]">
-          <RichText text={decision.summary.fr} />
+          <RichText text={localize(decision.summary)} />
         </p>
         <p className="m-0 mt-1.5 text-xs">
           {'Sources : '}

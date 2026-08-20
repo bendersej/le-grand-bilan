@@ -12,7 +12,7 @@ Build "Le Grand Bilan" — Qui a fait quoi. Quand. — a static, open-data regis
 - [x] Repo scaffolded: TanStack Start + Cloudflare Workers, pnpm, strict TS, vitest, oxlint, oxfmt
 - [x] Data model owned by a Zod schema; JSON Schemas generated; seed data with real, sourced decisions; validation suite (schema, referential integrity, month/filename consistency, drift check) green
 - [x] CI workflow: checks on PRs, deploy to Cloudflare on merge to master
-- [ ] Site renders the registry: timeline by year/month, decision detail pages, politician pages, category filtering, FR/EN language toggle
+- [x] Site renders the registry: timeline by year/month, decision detail pages, politician pages, category filtering, FR/EN language toggle
 - [ ] Submission UI: a form that validates against the schema, passes Turnstile, and opens a PR via `/api/submissions`
 - [ ] MCP server at `/mcp` exposing a `submit_decision` tool that opens the same kind of PR
 - [ ] Abuse protection live: Turnstile on the UI, Worker rate limiting on `/api/submissions` and `/mcp`
@@ -65,14 +65,13 @@ Cloudflare TanStack Start template, prerender enabled (`vite.config.ts`), France
 
 - [x] Phase 1: Scaffold
 - [x] Phase 2: Data model + seed
-- [x] Phase 3: Site UI (done except the FR/EN language toggle — see Remaining Work)
+- [x] Phase 3: Site UI
 - [ ] Phase 4: Submission UI + API
 - [ ] Phase 5: MCP server
 - [ ] Phase 6: Launch checklist
 
 ## Remaining Work
 
-- Phase 3 leftover: FR/EN language toggle (site currently renders `fr` only; `en` fields are captured in data but not displayed).
 - Registry ships fully in the client bundle (`src/data/registry.ts`); acceptable now, revisit with route-level data splitting once backfill grows the corpus.
 - Phase 4 (submission UI + `/api/submissions` + Turnstile) and Phase 5 (MCP server) not started.
 - Phase 6: repo exists (github.com/bendersej/le-grand-bilan) and workers.dev deploys are proven from local; the CI deploy job still fails pending the `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` Actions secrets (operator), then branch protection and the custom domain (recommended: legrandbilan.fr, available at AFNIC).
