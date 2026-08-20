@@ -1,0 +1,101 @@
+{
+  "$schema": "../schemas/politicians.schema.json",
+  "politicians": [
+    {
+      "id": "edouard-philippe",
+      "full_name": "Édouard Philippe",
+      "party": "Horizons",
+      "mandates": [
+        {
+          "role": { "fr": "Premier ministre", "en": "Prime Minister" },
+          "from": "2017-05-15",
+          "to": "2020-07-03"
+        }
+      ]
+    },
+    {
+      "id": "elisabeth-borne",
+      "full_name": "Élisabeth Borne",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": { "fr": "Première ministre", "en": "Prime Minister" },
+          "from": "2022-05-16",
+          "to": "2024-01-09"
+        }
+      ]
+    },
+    {
+      "id": "emmanuel-macron",
+      "full_name": "Emmanuel Macron",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": { "fr": "Président de la République", "en": "President of the Republic" },
+          "from": "2017-05-14",
+          "to": null
+        }
+      ]
+    },
+    {
+      "id": "francois-hollande",
+      "full_name": "François Hollande",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": { "fr": "Président de la République", "en": "President of the Republic" },
+          "from": "2012-05-15",
+          "to": "2017-05-14"
+        }
+      ]
+    },
+    {
+      "id": "manuel-valls",
+      "full_name": "Manuel Valls",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": { "fr": "Premier ministre", "en": "Prime Minister" },
+          "from": "2014-03-31",
+          "to": "2016-12-06"
+        }
+      ]
+    },
+    {
+      "id": "muriel-penicaud",
+      "full_name": "Muriel Pénicaud",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": { "fr": "Ministre du Travail", "en": "Minister of Labour" },
+          "from": "2017-05-17",
+          "to": "2020-07-06"
+        }
+      ]
+    },
+    {
+      "id": "myriam-el-khomri",
+      "full_name": "Myriam El Khomri",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": { "fr": "Ministre du Travail", "en": "Minister of Labour" },
+          "from": "2015-09-02",
+          "to": "2017-05-10"
+        }
+      ]
+    },
+    {
+      "id": "olivier-dussopt",
+      "full_name": "Olivier Dussopt",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": { "fr": "Ministre du Travail", "en": "Minister of Labour" },
+          "from": "2022-05-20",
+          "to": "2024-01-11"
+        }
+      ]
+    }
+  ]
+}

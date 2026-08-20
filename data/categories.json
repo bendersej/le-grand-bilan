@@ -1,0 +1,45 @@
+{
+  "$schema": "../schemas/categories.schema.json",
+  "categories": [
+    {
+      "id": "ecologie",
+      "label": { "fr": "Écologie", "en": "Environment" }
+    },
+    {
+      "id": "economie",
+      "label": { "fr": "Économie", "en": "Economy" }
+    },
+    {
+      "id": "education",
+      "label": { "fr": "Éducation", "en": "Education" }
+    },
+    {
+      "id": "immigration",
+      "label": { "fr": "Immigration", "en": "Immigration" }
+    },
+    {
+      "id": "institutions",
+      "label": { "fr": "Institutions", "en": "Institutions" }
+    },
+    {
+      "id": "justice",
+      "label": { "fr": "Justice", "en": "Justice" }
+    },
+    {
+      "id": "retraites",
+      "label": { "fr": "Retraites", "en": "Pensions" }
+    },
+    {
+      "id": "sante",
+      "label": { "fr": "Santé", "en": "Health" }
+    },
+    {
+      "id": "securite",
+      "label": { "fr": "Sécurité", "en": "Security" }
+    },
+    {
+      "id": "travail",
+      "label": { "fr": "Travail", "en": "Labour" }
+    }
+  ]
+}

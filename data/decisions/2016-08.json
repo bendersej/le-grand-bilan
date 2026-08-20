@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2016-08",
+  "decisions": [
+    {
+      "id": "loi-travail-2016",
+      "date": "2016-08-08",
+      "title": {
+        "fr": "Loi Travail (loi El Khomri)",
+        "en": "Labour Law (El Khomri Law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-1088 relative au travail, à la modernisation du dialogue social et à la sécurisation des parcours professionnels. Donne la primauté à la négociation collective d'entreprise sur de nombreux sujets (temps de travail notamment) et réécrit une partie du code du travail.",
+        "en": "Law no. 2016-1088 on labour, the modernisation of social dialogue and the securing of professional careers. Gives primacy to company-level collective bargaining on many topics (working time in particular) and rewrites part of the labour code."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["myriam-el-khomri", "manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032983213",
+          "title": "LOI n° 2016-1088 du 8 août 2016 - Légifrance"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

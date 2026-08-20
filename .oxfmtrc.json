@@ -1,0 +1,5 @@
+{
+  "semi": false,
+  "singleQuote": true,
+  "ignorePatterns": ["schemas/**", "src/routeTree.gen.ts", "worker-configuration.d.ts"]
+}
