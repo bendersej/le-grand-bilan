@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2023-02",
+  "decisions": [
+    {
+      "id": "loi-retraites-agricoles-2023",
+      "date": "2023-02-13",
+      "title": {
+        "fr": "Loi sur les retraites agricoles (25 meilleures années)",
+        "en": "Law on farmers' pensions (25 best years)"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-87, issue de la proposition du député Julien Dive : à compter du **1er janvier 2026**, la retraite de base des **non-salariés agricoles** sera calculée sur les **vingt-cinq années d'assurance les plus avantageuses**, et non plus sur l'ensemble de la carrière, alignant leur règle de calcul sur celle des salariés du régime général.",
+        "en": "Law no. 2023-87, from a bill by MP Julien Dive: from **1 January 2026**, the basic pension of **self-employed farmers** is to be calculated on their **twenty-five most advantageous years of insurance** instead of their whole career, aligning their rules with those of private-sector employees."
+      },
+      "category_ids": ["agriculture", "retraites"],
+      "politician_ids": ["julien-dive", "marc-fesneau"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047128516",
+          "title": "LOI n° 2023-87 du 13 février 2023 visant à calculer la retraite de base des non-salariés agricoles en fonction des vingt-cinq années d'assurance les plus avantageuses - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "aide-urgence-violences-conjugales-2023",
+      "date": "2023-02-28",
+      "title": {
+        "fr": "Aide universelle d'urgence pour les victimes de violences conjugales",
+        "en": "Universal emergency aid for victims of domestic violence"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-140, issue de la proposition de la sénatrice Valérie Létard : création d'une **aide universelle d'urgence**, sous forme de **prêt sans intérêt ou d'aide non remboursable**, versée par les **caisses d'allocations familiales sous 3 à 5 jours** aux victimes de violences conjugales disposant d'une ordonnance de protection, d'un dépôt de plainte ou d'un signalement au procureur, pour leur permettre de quitter le domicile.",
+        "en": "Law no. 2023-140, from a bill by senator Valérie Létard: creation of a **universal emergency aid**, as an **interest-free loan or non-repayable grant**, paid by the **family benefit funds within 3 to 5 days** to victims of domestic violence holding a protection order, a police complaint or a report to the prosecutor, so they can leave the home."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["valerie-letard", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047241405",
+          "title": "LOI n° 2023-140 du 28 février 2023 créant une aide universelle d'urgence pour les victimes de violences conjugales - Légifrance"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -46,7 +46,12 @@
           "title": "Décret n° 2026-76 du 12 février 2026 relatif à la programmation pluriannuelle de l'énergie - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-energies-renouvelables-2023"
+        }
+      ]
     },
     {
       "id": "loi-de-finances-2026",

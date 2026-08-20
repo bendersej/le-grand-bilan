@@ -1,0 +1,145 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2023-07",
+  "decisions": [
+    {
+      "id": "loi-majorite-numerique-2023",
+      "date": "2023-07-07",
+      "title": {
+        "fr": "Loi instaurant une majorité numérique à 15 ans",
+        "en": "Law setting a digital majority at 15"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-566, issue de la proposition du député Laurent Marcangeli : instauration d'une **majorité numérique à 15 ans**, en dessous de laquelle les **réseaux sociaux doivent recueillir l'accord d'un parent** avant d'inscrire un mineur, obligation de **vérifier l'âge** des utilisateurs selon un référentiel de l'Arcom, et possibilité pour les parents de demander la **suspension du compte** d'un enfant de moins de 15 ans.",
+        "en": "Law no. 2023-566, from a bill by MP Laurent Marcangeli: creation of a **digital majority at 15**, below which **social networks must obtain a parent's consent** before registering a minor, an obligation to **verify users' age** following an Arcom framework, and the right for parents to request the **suspension of an under-15's account**."
+      },
+      "category_ids": ["numerique"],
+      "politician_ids": ["laurent-marcangeli", "jean-noel-barrot"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047799533",
+          "title": "LOI n° 2023-566 du 7 juillet 2023 visant à instaurer une majorité numérique et à lutter contre la haine en ligne - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-sren-2024"
+        }
+      ]
+    },
+    {
+      "id": "loi-zan-2023",
+      "date": "2023-07-20",
+      "title": {
+        "fr": "Loi d'assouplissement du zéro artificialisation nette (ZAN)",
+        "en": "Law easing the net-zero land take (ZAN) framework"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-630, issue d'une proposition sénatoriale : assouplissement de la trajectoire **« zéro artificialisation nette »** issue de la loi Climat et résilience, avec une **garantie rurale d'un hectare** de consommation d'espace pour chaque commune couverte par un document d'urbanisme, un **forfait national de 12 500 hectares** pour les **grands projets d'envergure nationale ou européenne** comptabilisés à part, et de nouveaux outils de préemption et de gouvernance régionale.",
+        "en": "Law no. 2023-630, from a Senate bill: easing of the **\"net-zero land take\"** trajectory of the Climate and Resilience law, with a **rural guarantee of one hectare** of land consumption for every municipality covered by a planning document, a **national quota of 12,500 hectares** for **major projects of national or European significance** counted separately, and new preemption and regional governance tools."
+      },
+      "category_ids": ["ecologie"],
+      "politician_ids": ["christophe-bechu", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047866733",
+          "title": "LOI n° 2023-630 du 20 juillet 2023 visant à faciliter la mise en œuvre des objectifs de lutte contre l'artificialisation des sols - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "remaniement-gouvernement-borne-2023",
+      "date": "2023-07-20",
+      "title": {
+        "fr": "Remaniement du gouvernement Borne",
+        "en": "Reshuffle of the Borne government"
+      },
+      "summary": {
+        "fr": "Décret du 20 juillet 2023 relatif à la composition du Gouvernement : **Gabriel Attal remplace Pap Ndiaye à l'Éducation nationale**, **Aurélien Rousseau remplace François Braun à la Santé** et **Aurore Bergé remplace Jean-Christophe Combe aux Solidarités** ; Thomas Cazenave devient ministre délégué chargé des Comptes publics. Élisabeth Borne est maintenue à Matignon après les crises des retraites et des émeutes urbaines.",
+        "en": "Decree of 20 July 2023 on the composition of the Government: **Gabriel Attal replaces Pap Ndiaye at National Education**, **Aurélien Rousseau replaces François Braun at Health** and **Aurore Bergé replaces Jean-Christophe Combe at Solidarity**; Thomas Cazenave becomes minister for public accounts. Élisabeth Borne stays on as Prime Minister after the pension and urban riot crises."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "elisabeth-borne", "gabriel-attal"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047866724",
+          "title": "Décret du 20 juillet 2023 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-restitution-biens-spolies-2023",
+      "date": "2023-07-22",
+      "title": {
+        "fr": "Loi sur la restitution des biens culturels spoliés (1933-1945)",
+        "en": "Law on restituting looted cultural property (1933-1945)"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-650 : première loi-cadre permettant aux musées publics de **déroger au principe d'inaliénabilité des collections** pour restituer les **biens culturels spoliés entre 1933 et 1945** dans le cadre des **persécutions antisémites**, y compris par l'État français entre 1940 et 1944, après avis d'une commission administrative ; la restitution peut être remplacée par un accord d'indemnisation avec les ayants droit.",
+        "en": "Law no. 2023-650: first framework law letting public museums **derogate from the inalienability of public collections** to return **cultural property looted between 1933 and 1945** amid **antisemitic persecution**, including by the French State between 1940 and 1944, after review by an administrative commission; restitution can be replaced by a compensation agreement with the rightful heirs."
+      },
+      "category_ids": ["culture"],
+      "politician_ids": ["rima-abdul-malak"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047874541",
+          "title": "LOI n° 2023-650 du 22 juillet 2023 relative à la restitution des biens culturels ayant fait l'objet de spoliations entre 1933 et 1945 - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-reconstruction-emeutes-2023",
+      "date": "2023-07-25",
+      "title": {
+        "fr": "Loi d'urgence pour la reconstruction après les émeutes de juin 2023",
+        "en": "Emergency law to rebuild after the June 2023 riots"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-656 : après les **émeutes urbaines du 27 juin au 5 juillet 2023** déclenchées par la mort de Nahel Merzouk à Nanterre, le Gouvernement est habilité à prendre par **ordonnances** des dérogations temporaires à l'**urbanisme** (reconstruction à l'identique accélérée), à la **commande publique** (marchés sans publicité préalable) et aux règles de **financement local**, pour accélérer la remise en état des bâtiments et équipements publics dégradés.",
+        "en": "Law no. 2023-656: after the **urban riots of 27 June to 5 July 2023** triggered by the death of Nahel Merzouk in Nanterre, the Government is empowered to adopt **ordinances** temporarily derogating from **planning rules** (fast-tracked identical reconstruction), **public procurement** (contracts without prior advertising) and **local finance rules**, to speed up the repair of damaged public buildings and facilities."
+      },
+      "category_ids": ["institutions", "securite"],
+      "politician_ids": ["elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047881941",
+          "title": "LOI n° 2023-656 du 25 juillet 2023 relative à l'accélération de la reconstruction des bâtiments dégradés au cours des violences urbaines - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-anti-squat-2023",
+      "date": "2023-07-27",
+      "title": {
+        "fr": "Loi Kasbarian-Bergé contre les squats et les impayés de loyers",
+        "en": "Kasbarian-Bergé law against squatting and unpaid rent"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-668, issue de la proposition du député Guillaume Kasbarian : le squat d'un domicile est **puni de 3 ans d'emprisonnement et 45 000 euros d'amende** (triplement des peines), création d'un délit d'**occupation sans droit ni titre** après décision d'expulsion définitive, **procédures d'expulsion accélérées** et clause de résiliation de plein droit en cas d'impayés. Le Conseil constitutionnel a censuré l'article 7, qui exonérait le propriétaire de son obligation d'entretien à l'égard des occupants illicites (décision n° 2023-853 DC).",
+        "en": "Law no. 2023-668, from a bill by MP Guillaume Kasbarian: squatting a home is now **punishable by 3 years in prison and a 45,000 euro fine** (tripled penalties), a new offence covers **occupation without right or title** after a final eviction ruling, **eviction procedures are accelerated** and leases must include an automatic termination clause for unpaid rent. The Constitutional Council struck down article 7, which released owners from their duty of maintenance towards unlawful occupants (decision no. 2023-853 DC)."
+      },
+      "category_ids": ["economie", "justice"],
+      "politician_ids": ["guillaume-kasbarian", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047897040",
+          "title": "LOI n° 2023-668 du 27 juillet 2023 visant à protéger les logements contre l'occupation illicite - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl22-174.html",
+          "title": "Dossier législatif : protéger les logements contre l'occupation illicite - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023853DC.htm",
+          "title": "Décision n° 2023-853 DC du 26 juillet 2023 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

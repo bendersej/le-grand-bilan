@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2023-09",
+  "decisions": [
+    {
+      "id": "retrait-militaire-niger-2023",
+      "date": "2023-09-24",
+      "title": {
+        "fr": "Retrait militaire et diplomatique du Niger",
+        "en": "Military and diplomatic withdrawal from Niger"
+      },
+      "summary": {
+        "fr": "Après le coup d'État de juillet 2023 contre le président élu Mohamed Bazoum, Emmanuel Macron annonce le 24 septembre la **fin de la coopération militaire avec les autorités de fait du Niger** : le **retour de l'ambassadeur** Sylvain Itté et le **retrait des quelque 1 500 militaires français d'ici la fin de l'année 2023**, après les retraits du Mali (2022) et du Burkina Faso (début 2023).",
+        "en": "After the July 2023 coup against elected president Mohamed Bazoum, Emmanuel Macron announced on 24 September the **end of military cooperation with Niger's de facto authorities**: the **return of ambassador** Sylvain Itté and the **withdrawal of the roughly 1,500 French soldiers by the end of 2023**, following the pullouts from Mali (2022) and Burkina Faso (early 2023)."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["emmanuel-macron", "catherine-colonna", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2023/09/24/20h-linterview-du-president-emmanuel-macron-sur-tf1-et-france-2",
+          "title": "Interview du président Emmanuel Macron sur TF1 et France 2, 24 septembre 2023 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "planification-ecologique-2023",
+      "date": "2023-09-25",
+      "title": {
+        "fr": "Plan de planification écologique",
+        "en": "Ecological planning strategy"
+      },
+      "summary": {
+        "fr": "Conseil de planification écologique présidé par Emmanuel Macron : présentation de la stratégie pour **réduire de 55 % les émissions de gaz à effet de serre d'ici 2030**, avec la **sortie du charbon pour la production d'électricité au 1er janvier 2027**, l'objectif d'**un million de pompes à chaleur produites en France en 2027**, un million de **voitures électriques** produites sur le sol français et le lancement du **leasing électrique à 100 euros par mois** fin 2023.",
+        "en": "Ecological planning council chaired by Emmanuel Macron: presentation of the strategy to **cut greenhouse gas emissions by 55% by 2030**, including the **end of coal-fired electricity by 1 January 2027**, the target of **one million heat pumps made in France by 2027**, one million **electric cars** produced on French soil, and the launch of the **100-euro-a-month electric car leasing scheme** at the end of 2023."
+      },
+      "category_ids": ["ecologie", "energie"],
+      "politician_ids": ["emmanuel-macron", "elisabeth-borne", "christophe-bechu"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2023/09/25/conseil-de-planification-ecologique",
+          "title": "Conseil de planification écologique, 25 septembre 2023 - Élysée"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

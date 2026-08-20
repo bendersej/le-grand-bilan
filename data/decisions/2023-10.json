@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2023-10",
+  "decisions": [
+    {
+      "id": "interdiction-manifestations-propalestiniennes-2023",
+      "date": "2023-10-12",
+      "title": {
+        "fr": "Télégramme sur l'interdiction des manifestations propalestiniennes",
+        "en": "Telegram on banning pro-Palestinian demonstrations"
+      },
+      "summary": {
+        "fr": "Télégramme du 12 octobre 2023 de Gérald Darmanin, après l'attaque du Hamas contre Israël du 7 octobre : instruction aux préfets d'**interdire les manifestations propalestiniennes** comme susceptibles de troubler l'ordre public. Saisi en référé, le **Conseil d'État refuse le 18 octobre de suspendre le télégramme** tout en jugeant qu'il ne peut fonder des **interdictions générales** : chaque préfet doit apprécier **au cas par cas** les risques réels de trouble à l'ordre public.",
+        "en": "Telegram of 12 October 2023 from Gérald Darmanin, after Hamas's 7 October attack on Israel: instruction to prefects to **ban pro-Palestinian demonstrations** as likely to disturb public order. Ruling in summary proceedings on 18 October, the **Conseil d'État declined to suspend the telegram** while holding that it cannot justify **blanket bans**: each prefect must assess the real risk to public order **case by case**."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["gerald-darmanin"],
+      "sources": [
+        {
+          "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-10-18/488860",
+          "title": "Conseil d'État, juge des référés, 18 octobre 2023, n° 488860 (manifestations propalestiniennes) - ArianeWeb"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-industrie-verte-2023",
+      "date": "2023-10-23",
+      "title": {
+        "fr": "Loi industrie verte",
+        "en": "Green industry law"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-973 relative à l'industrie verte : **procédures d'autorisation environnementale des implantations industrielles divisées par deux** (consultation du public parallélisée), statut de **projet d'intérêt national majeur** pour les grandes usines avec procédures d'urbanisme accélérées, facilitation de la **réhabilitation des friches industrielles**, **verdissement de la commande publique** et création du **plan d'épargne avenir climat** pour les moins de 21 ans.",
+        "en": "Law no. 2023-973 on green industry: **environmental authorization procedures for industrial sites cut in half** (public consultation run in parallel), a **major national interest project** status for large plants with fast-tracked planning procedures, easier **rehabilitation of industrial brownfields**, **greener public procurement** and creation of the **climate-future savings plan** for under-21s."
+      },
+      "category_ids": ["ecologie", "economie", "energie"],
+      "politician_ids": ["bruno-le-maire", "roland-lescure"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048242288",
+          "title": "LOI n° 2023-973 du 23 octobre 2023 relative à l'industrie verte - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl22-607.html",
+          "title": "Dossier législatif : industrie verte - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

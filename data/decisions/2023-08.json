@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2023-08",
+  "decisions": [
+    {
+      "id": "loi-programmation-militaire-2023",
+      "date": "2023-08-01",
+      "title": {
+        "fr": "Loi de programmation militaire 2024-2030",
+        "en": "2024-2030 military programming law"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-703 relative à la programmation militaire pour les années 2024 à 2030 : **413,3 milliards d'euros de besoins programmés**, dont 400 milliards de crédits budgétaires, pour porter l'**effort de défense à 2 % du PIB** entre 2025 et 2027, moderniser la **dissuasion nucléaire**, et monter la **réserve opérationnelle à 80 000 réservistes** en 2030. Le Conseil constitutionnel a censuré onze articles comme cavaliers (décision n° 2023-854 DC).",
+        "en": "Law no. 2023-703 on military programming for 2024 to 2030: **413.3 billion euros of programmed needs**, including 400 billion in budget credits, to raise the **defence effort to 2% of GDP** between 2025 and 2027, modernize the **nuclear deterrent**, and grow the **operational reserve to 80,000 reservists** by 2030. The Constitutional Council struck down eleven articles as riders (decision no. 2023-854 DC)."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["sebastien-lecornu", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047914986",
+          "title": "LOI n° 2023-703 du 1er août 2023 relative à la programmation militaire pour les années 2024 à 2030 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl22-712.html",
+          "title": "Dossier législatif : programmation militaire pour les années 2024 à 2030 - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023854DC.htm",
+          "title": "Décision n° 2023-854 DC du 28 juillet 2023 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "actualisation-lpm-2026"
+        }
+      ]
+    },
+    {
+      "id": "interdiction-abaya-ecole-2023",
+      "date": "2023-08-31",
+      "title": {
+        "fr": "Interdiction de l'abaya à l'école",
+        "en": "Ban on the abaya in schools"
+      },
+      "summary": {
+        "fr": "Note de service du 31 août 2023 « Principe de laïcité à l'École, respect des valeurs de la République », prise après l'annonce de Gabriel Attal du 27 août : le port de l'**abaya et du qamis** est considéré comme une **manifestation ostensible d'appartenance religieuse** interdite dans les écoles, collèges et lycées publics par la loi du 15 mars 2004. Saisi en référé, le **Conseil d'État a refusé de suspendre l'interdiction** le 7 septembre 2023.",
+        "en": "Ministerial instruction of 31 August 2023 on \"laïcité at school and respect for the values of the Republic\", following Gabriel Attal's announcement of 27 August: wearing the **abaya or qamis** is treated as an **ostensible display of religious affiliation** banned in state schools by the law of 15 March 2004. Ruling in summary proceedings, the **Conseil d'État declined to suspend the ban** on 7 September 2023."
+      },
+      "category_ids": ["education"],
+      "politician_ids": ["gabriel-attal", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2023-09-07/487891",
+          "title": "Conseil d'État, juge des référés, 7 septembre 2023, n° 487891 (interdiction de l'abaya) - ArianeWeb"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2023-01",
+  "decisions": [
+    {
+      "id": "indemnite-carburant-2023",
+      "date": "2023-01-02",
+      "title": {
+        "fr": "Indemnité carburant de 100 euros",
+        "en": "100 euro fuel allowance"
+      },
+      "summary": {
+        "fr": "Décret n° 2023-2 : après la fin de la remise générale à la pompe au 31 décembre 2022, création d'une **indemnité carburant de 100 euros** versée une fois aux **travailleurs modestes** (revenu fiscal de référence par part inférieur ou égal à **14 700 euros**) utilisant leur véhicule pour aller travailler. La demande se fait sur impots.gouv.fr entre le 16 janvier et le 31 mars 2023.",
+        "en": "Decree no. 2023-2: after the across-the-board fuel rebate ended on 31 December 2022, creation of a **one-off 100 euro fuel allowance** for **low-income workers** (reference tax income per household share of **14,700 euros or less**) who use their vehicle to get to work. Claims were filed on impots.gouv.fr between 16 January and 31 March 2023."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["gabriel-attal", "bruno-le-maire", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046891562",
+          "title": "Décret n° 2023-2 du 2 janvier 2023 relatif à la création, aux conditions et aux modalités de versement d'une indemnité carburant - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lopmi-2023",
+      "date": "2023-01-24",
+      "title": {
+        "fr": "Loi de programmation du ministère de l'Intérieur (LOPMI)",
+        "en": "Interior Ministry programming law (LOPMI)"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-22 d'orientation et de programmation du ministère de l'intérieur : les crédits annuels du ministère passent de **22,1 à 25,4 milliards d'euros entre 2023 et 2027**, avec un accent sur le **numérique** (plainte par visioconférence, lutte contre la cybercriminalité), la création d'**assistants d'enquête** et l'extension des **amendes forfaitaires délictuelles**. Le Conseil constitutionnel a censuré les articles 15 et 26 comme cavaliers et partiellement les articles 10 et 18, sur les garanties de l'enquête (décision n° 2022-846 DC).",
+        "en": "Law no. 2023-22 on the orientation and programming of the Interior Ministry: the ministry's annual budget rises from **22.1 to 25.4 billion euros between 2023 and 2027**, with an emphasis on **digital policing** (filing complaints by videoconference, fighting cybercrime), the creation of **investigation assistants** and a broader use of **fixed fines for offences**. The Constitutional Council struck down articles 15 and 26 as riders and parts of articles 10 and 18 concerning investigation safeguards (decision no. 2022-846 DC)."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["gerald-darmanin", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047046768",
+          "title": "LOI n° 2023-22 du 24 janvier 2023 d'orientation et de programmation du ministère de l'intérieur - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl21-876.html",
+          "title": "Dossier législatif : orientation et programmation du ministère de l'intérieur - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2023/2022846DC.htm",
+          "title": "Décision n° 2022-846 DC du 19 janvier 2023 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -88,7 +88,12 @@
           "title": "Décision n° 2024-866 DC du 17 mai 2024 - Conseil constitutionnel"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-majorite-numerique-2023"
+        }
+      ]
     },
     {
       "id": "loi-surete-nucleaire-2024",
@@ -113,7 +118,12 @@
           "title": "Dossier législatif : gouvernance de la sûreté nucléaire et de la radioprotection - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-acceleration-nucleaire-2023"
+        }
+      ]
     }
   ]
 }

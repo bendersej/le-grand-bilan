@@ -79,7 +79,12 @@
           "title": "Dossier législatif : loi sur la profession d'infirmier - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-rist-2023"
+        }
+      ]
     },
     {
       "id": "loi-fraude-aides-publiques-2025",

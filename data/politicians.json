@@ -8,6 +8,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre de la Transition énergétique",
+            "en": "Minister for Energy Transition"
+          },
+          "from": "2022-05-20",
+          "to": "2024-01-11"
+        },
+        {
+          "role": {
             "fr": "Ministre de la Transition écologique, de la Biodiversité, de la Forêt, de la Mer et de la Pêche",
             "en": "Minister for the Ecological Transition, Biodiversity, Forestry, the Sea and Fisheries"
           },
@@ -59,6 +67,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Am%C3%A9lie_de_Montchalin"
+      }
+    },
+    {
+      "id": "amelie-oudea-castera",
+      "full_name": "Amélie Oudéa-Castéra",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Sports et des Jeux Olympiques et Paralympiques",
+            "en": "Minister for Sports and the Olympic and Paralympic Games"
+          },
+          "from": "2022-05-20",
+          "to": "2024-09-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "7667c8a758574fa76ecae1feb93504cfb7baf1a535d52d1b2878f08d55edc142",
+        "photo": {
+          "path": "/media/politicians/amelie-oudea-castera.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Belgian_Presidency_of_the_Council_of_the_European_Union_-_Education,_Youth,_Culture_and_Sport_Council_on_13_May_2024_-_EU2024BE_240513_EYCS_European_Council_-_82.jpg",
+          "license": "CC BY 2.0",
+          "author": "belgium24.eu"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Ministre des Sports et des Jeux olympiques et paralympiques** de mai 2022 à septembre 2024 (gouvernements Borne puis Attal), elle a porté la **loi du 19 mai 2023 relative aux jeux Olympiques et Paralympiques de 2024**. Joueuse de **tennis** de haut niveau durant son adolescence, formée à l'**ENA**, elle intègre la **Cour des comptes** en 2004 puis effectue une carrière dans le **secteur privé** à partir de 2008, à la direction d'**Axa** puis du groupe **Carrefour**, avant d'être **directrice générale de la Fédération française de tennis** (2021-2022). Brièvement **ministre de l'Éducation nationale et de la Jeunesse** début 2024, elle est remplacée moins d'un mois plus tard après des polémiques sur ses propos concernant l'école publique et de potentiels conflits d'intérêts, tout en conservant les Sports. Elle préside le **Comité national olympique et sportif français** depuis juin 2025.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Am%C3%A9lie_Oud%C3%A9a-Cast%C3%A9ra"
       }
     },
     {
@@ -152,6 +190,36 @@
       }
     },
     {
+      "id": "arthur-delaporte",
+      "full_name": "Arthur Delaporte",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 2e circonscription du Calvados",
+            "en": "Member of Parliament for Calvados (2nd constituency)"
+          },
+          "from": "2022-06-22",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "e6724d5f04e6aa02b388738be8432ea21d08712c6645259a639fe3474cf67d08",
+        "photo": {
+          "path": "/media/politicians/arthur-delaporte.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Arthur_Delaporte,_2024.jpg",
+          "license": "CC BY 4.0",
+          "author": "TrisHR"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Député socialiste de la 2e circonscription du Calvados** depuis 2022, réélu en 2024. Il est le co-auteur, avec Stéphane Vojetta, de la **loi du 9 juin 2023 encadrant l'influence commerciale** et luttant contre les dérives des influenceurs sur les réseaux sociaux.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Arthur_Delaporte"
+      }
+    },
+    {
       "id": "bruno-le-maire",
       "full_name": "Bruno Le Maire",
       "party": "Renaissance",
@@ -242,6 +310,36 @@
       }
     },
     {
+      "id": "catherine-colonna",
+      "full_name": "Catherine Colonna",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Europe et des Affaires étrangères",
+            "en": "Minister for Europe and Foreign Affairs"
+          },
+          "from": "2022-05-20",
+          "to": "2024-01-11"
+        }
+      ],
+      "profile": {
+        "content_hash": "c8b23537e1b309e3b77058b72e1a80781022a53b1a1d9aca1fe2cd91eccad0e5",
+        "photo": {
+          "path": "/media/politicians/catherine-colonna.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Catherine_Colonna_-_2023_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "author": "Governo do Estado de São Paulo"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Diplomate** élevée à la dignité d'**ambassadrice de France**, **ministre de l'Europe et des Affaires étrangères** de mai 2022 à janvier 2024 dans le gouvernement Borne, période marquée notamment par le **retrait militaire et diplomatique du Niger** en 2023. **Porte-parole de la présidence de la République** sous Jacques Chirac (1995-2004), **ministre déléguée aux Affaires européennes** du gouvernement Villepin (2005-2007), puis ambassadrice en **Italie** (2014-2017) et au **Royaume-Uni** (2019-2022) et représentante permanente de la France auprès de l'**UNESCO** (2008-2010) et de l'**OCDE** (2017-2019).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Catherine_Colonna"
+      }
+    },
+    {
       "id": "catherine-vautrin",
       "full_name": "Catherine Vautrin",
       "party": null,
@@ -285,6 +383,66 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Catherine_Vautrin"
+      }
+    },
+    {
+      "id": "christophe-bechu",
+      "full_name": "Christophe Béchu",
+      "party": "Horizons",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Transition écologique et de la Cohésion des territoires",
+            "en": "Minister for the Ecological Transition and Territorial Cohesion"
+          },
+          "from": "2022-07-04",
+          "to": "2024-09-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "59725a50ec73406f9d51df1ce5858deac14346b7491dd5af2c8fc4df12c8c211",
+        "photo": {
+          "path": "/media/politicians/christophe-bechu.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Christophe_B%C3%89CHU.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "AminataDkt"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Ministre de la Transition écologique et de la Cohésion des territoires** de juillet 2022 à septembre 2024, après un passage comme ministre délégué chargé des Collectivités territoriales ; à ce titre, il a notamment porté l'assouplissement du **zéro artificialisation nette** et accompagné le **Plan eau** de 2023. **Secrétaire général du parti Horizons** depuis 2021, ancien membre de l'UMP puis des Républicains, il a été **président du conseil général de Maine-et-Loire** (2004-2014), **sénateur** (2011-2017) et **maire d'Angers** (2014-2022, puis de nouveau depuis 2024).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Christophe_B%C3%A9chu"
+      }
+    },
+    {
+      "id": "clement-beaune",
+      "full_name": "Clément Beaune",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé des Transports",
+            "en": "Minister Delegate for Transport"
+          },
+          "from": "2022-07-04",
+          "to": "2024-02-08"
+        }
+      ],
+      "profile": {
+        "content_hash": "c2d0ce099e51d82639dec2b3405a61049fce5e65c209203f89485275921b36c6",
+        "photo": {
+          "path": "/media/politicians/clement-beaune.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cl%C3%A9ment_Beaune_-_2023_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Lukasz Kobus / European Union, 2023 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Haut fonctionnaire** et homme politique, **ministre délégué chargé des Transports** de juillet 2022 à février 2024, portefeuille sous lequel a été promulguée la **loi de décembre 2023 sur les services express régionaux métropolitains**. Auparavant **conseiller spécial d'Emmanuel Macron** à l'Élysée sur les questions européennes (2017-2020), **secrétaire d'État puis ministre délégué chargé de l'Europe** (2020-2022). **Député de la 7e circonscription de Paris** en 2024, battu dès le premier tour des législatives anticipées par Emmanuel Grégoire, il est nommé **haut-commissaire à la Stratégie et au Plan** en 2025.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Cl%C3%A9ment_Beaune"
       }
     },
     {
@@ -498,6 +656,36 @@
       }
     },
     {
+      "id": "francois-braun",
+      "full_name": "François Braun",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Santé et de la Prévention",
+            "en": "Minister for Health and Prevention"
+          },
+          "from": "2022-07-04",
+          "to": "2023-07-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "2dab6f717dec337290b1a8bb7adc7b7b3ccb2a7861e31ef00c110c5dd1186a1a",
+        "photo": {
+          "path": "/media/politicians/francois-braun.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Braun_(16-06-2023).jpg",
+          "license": "Attribution",
+          "author": "Government of Catalonia"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Médecin urgentiste**, président de **SAMU - Urgences de France**, premier syndicat d'urgentistes de France, de 2014 à 2022. Chargé en juin 2022 par Emmanuel Macron d'une **« mission flash » sur les urgences** et les soins non programmés, il est nommé le 4 juillet 2022 **ministre de la Santé et de la Prévention** du gouvernement Borne, fonction qu'il occupe jusqu'au remaniement du **20 juillet 2023**, où Aurélien Rousseau le remplace. La **loi Rist de mai 2023 sur l'accès aux soins** a été adoptée sous son ministère.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Braun"
+      }
+    },
+    {
       "id": "francois-hollande",
       "full_name": "François Hollande",
       "party": "Parti socialiste",
@@ -604,10 +792,56 @@
       }
     },
     {
+      "id": "frederic-descrozaille",
+      "full_name": "Frédéric Descrozaille",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 1re circonscription du Val-de-Marne",
+            "en": "Member of Parliament for Val-de-Marne (1st constituency)"
+          },
+          "from": "2017-06-21",
+          "to": "2024-06-09"
+        }
+      ],
+      "profile": {
+        "content_hash": "a461338019313b4fed04cff155e554c431d21701ff0874f1dd108f9f1aa43f38",
+        "photo": {
+          "path": "/media/politicians/frederic-descrozaille.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fr%C3%A9d%C3%A9ric_Descrozaille_(photographie_officielle).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "JL Lamaere"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Député La République en marche de la 1re circonscription du Val-de-Marne** de 2017 à 2024, il est l'auteur de la **loi du 30 mars 2023 dite Egalim 3** rééquilibrant les relations commerciales entre fournisseurs et grande distribution. En juillet 2025, le Conseil constitutionnel le déclare **inéligible jusqu'en juillet 2028** pour n'avoir pas publié ses comptes de campagne.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Descrozaille"
+      }
+    },
+    {
       "id": "gabriel-attal",
       "full_name": "Gabriel Attal",
       "party": "Renaissance",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé des Comptes publics",
+            "en": "Minister Delegate for Public Accounts"
+          },
+          "from": "2022-05-20",
+          "to": "2023-07-20"
+        },
+        {
+          "role": {
+            "fr": "Ministre de l'Éducation nationale et de la Jeunesse",
+            "en": "Minister for National Education and Youth"
+          },
+          "from": "2023-07-20",
+          "to": "2024-01-11"
+        },
         {
           "role": {
             "fr": "Premier ministre",
@@ -686,6 +920,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Député de la 1re circonscription d'Eure-et-Loir",
+            "en": "Member of Parliament for Eure-et-Loir (1st constituency)"
+          },
+          "from": "2017-06-21",
+          "to": "2024-02-08"
+        },
+        {
+          "role": {
             "fr": "Ministre délégué chargé du Logement",
             "en": "Minister Delegate for Housing"
           },
@@ -726,6 +968,36 @@
       "profile": null
     },
     {
+      "id": "jean-noel-barrot",
+      "full_name": "Jean-Noël Barrot",
+      "party": "Mouvement démocrate",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé de la Transition numérique et des Télécommunications",
+            "en": "Minister Delegate for the Digital Transition and Telecommunications"
+          },
+          "from": "2022-07-04",
+          "to": "2024-02-08"
+        }
+      ],
+      "profile": {
+        "content_hash": "a14cf852a407594ffc7c7447b59e130d1bf79e05144978102f9f750ba9d8a893",
+        "photo": {
+          "path": "/media/politicians/jean-noel-barrot.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jean-No%C3%ABl_Barrot_2023_cropped.jpg",
+          "license": "CC BY 4.0",
+          "author": "Tomohiro Ohsumi / European Union, 2023 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Économiste** franco-suisse, **vice-président du Mouvement démocrate** dont il a été secrétaire général de 2018 à 2022, **ministre délégué chargé de la Transition numérique et des Télécommunications** de juillet 2022 à la fin du gouvernement Borne, période couvrant la **loi du 7 juillet 2023 sur la majorité numérique à 15 ans**. **Député de la 2e circonscription des Yvelines** à partir de 2017, il est ensuite ministre délégué chargé de l'**Europe** (février-septembre 2024), préside brièvement la **commission des Affaires étrangères** de l'Assemblée nationale, puis devient **ministre de l'Europe et des Affaires étrangères** en septembre 2024, reconduit dans les gouvernements Bayrou et Lecornu.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean-No%C3%ABl_Barrot"
+      }
+    },
+    {
       "id": "jean-pierre-farandou",
       "full_name": "Jean-Pierre Farandou",
       "party": null,
@@ -756,6 +1028,36 @@
       }
     },
     {
+      "id": "julien-dive",
+      "full_name": "Julien Dive",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 2e circonscription de l'Aisne",
+            "en": "Member of Parliament for Aisne (2nd constituency)"
+          },
+          "from": "2016-03-21",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "a6b1d75108ee45c58a524e13da2b787eec9c8fd8986147fc78dde49c9372d10b",
+        "photo": {
+          "path": "/media/politicians/julien-dive.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Julien-Dive.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Lionel Barbe"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Député de la 2e circonscription de l'Aisne** depuis mars 2016, élu lors d'un scrutin partiel pour **remplacer Xavier Bertrand** et réélu depuis. Membre de l'UMP puis des **Républicains**, dont il a été secrétaire général adjoint chargé des Hauts-de-France, ancien **maire d'Itancourt** (2014-2017), il est l'auteur de la **loi du 13 février 2023** calculant la retraite de base des **non-salariés agricoles sur leurs vingt-cinq meilleures années**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Julien_Dive"
+      }
+    },
+    {
       "id": "laurent-duplomb",
       "full_name": "Laurent Duplomb",
       "party": "Les Républicains",
@@ -783,6 +1085,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Laurent_Duplomb"
+      }
+    },
+    {
+      "id": "laurent-marcangeli",
+      "full_name": "Laurent Marcangeli",
+      "party": "Horizons",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 1re circonscription de Corse-du-Sud",
+            "en": "Member of Parliament for Corse-du-Sud (1st constituency)"
+          },
+          "from": "2022-06-22",
+          "to": "2024-12-23"
+        }
+      ],
+      "profile": {
+        "content_hash": "6c8d3e286cc66976f2da1c84ab24bca4071eeb32540327d3ec2fd422770d9360",
+        "photo": {
+          "path": "/media/politicians/laurent-marcangeli.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Visit_of_Laurent_Marcangeli,_French_Minister_for_Public_Action,_the_Civil_Service,_and_Simplification,_to_the_EC_-_2025.jpg",
+          "license": "CC BY 4.0",
+          "author": "Christophe Licoppe / European Union, 2025 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Député de la 1re circonscription de Corse-du-Sud** de 2012 à 2017 puis de 2022 à décembre 2024, et **maire d'Ajaccio** de 2014 à 2022. Passé par le RPR, l'UMP et LR et figure du **Comité central bonapartiste**, il est l'auteur de la **loi du 7 juillet 2023 instaurant une majorité numérique à 15 ans** sur les réseaux sociaux. Le 23 décembre 2024, il est nommé **ministre de l'Action publique, de la Fonction publique et de la Simplification** du gouvernement Bayrou.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Laurent_Marcangeli"
       }
     },
     {
@@ -911,6 +1243,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Marc_Ferracci"
+      }
+    },
+    {
+      "id": "marc-fesneau",
+      "full_name": "Marc Fesneau",
+      "party": "Mouvement démocrate",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Agriculture et de la Souveraineté alimentaire",
+            "en": "Minister for Agriculture and Food Sovereignty"
+          },
+          "from": "2022-05-20",
+          "to": "2024-09-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "6acff04aed5de0511e9a51403080c05dd4acca0475ff77bfea65613d80341648",
+        "photo": {
+          "path": "/media/politicians/marc-fesneau.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marc_Fesneau_2024_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "European Commission Audiovisual Center"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Ministre de l'Agriculture et de la Souveraineté alimentaire** de mai 2022 à septembre 2024 (gouvernements Borne puis Attal), après avoir été **ministre chargé des Relations avec le Parlement** (2018-2022). Cadre du **Mouvement démocrate**, élu **député du Loir-et-Cher** en 2017 et président du groupe MoDem à l'Assemblée nationale (2017-2018), **conseiller régional du Centre-Val de Loire** depuis 2021, il retrouve après son départ du gouvernement la **présidence du groupe Les Démocrates** à l'Assemblée nationale.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Marc_Fesneau"
       }
     },
     {
@@ -1238,6 +1600,36 @@
       }
     },
     {
+      "id": "pierre-antoine-levi",
+      "full_name": "Pierre-Antoine Lévi",
+      "party": "Union des démocrates et indépendants",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Sénateur de Tarn-et-Garonne",
+            "en": "Senator for Tarn-et-Garonne"
+          },
+          "from": "2020-10-01",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "52e90381f0c75e1624ae333c4069e85ca6d9a1b656bc119da63fb5f3e39846ea",
+        "photo": {
+          "path": "/media/politicians/pierre-antoine-levi.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Pierre-Antoine_LEVI.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Pascalellul"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Sénateur de Tarn-et-Garonne** depuis octobre 2020, membre du groupe **Union centriste**, ancien **premier adjoint au maire de Montauban** (2008-2020). Il est l'auteur de la **loi du 13 avril 2023** garantissant à tous les étudiants l'accès à une **offre de restauration à tarif modéré**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Pierre-Antoine_L%C3%A9vi"
+      }
+    },
+    {
       "id": "rachida-dati",
       "full_name": "Rachida Dati",
       "party": "Les Républicains",
@@ -1268,10 +1660,48 @@
       }
     },
     {
+      "id": "rima-abdul-malak",
+      "full_name": "Rima Abdul-Malak",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Culture",
+            "en": "Minister for Culture"
+          },
+          "from": "2022-05-20",
+          "to": "2024-01-11"
+        }
+      ],
+      "profile": {
+        "content_hash": "7a27cfba1673b4d70b6b3e4824096bc1bc81454872338c8b3f9aa3b3d7ae6564",
+        "photo": {
+          "path": "/media/politicians/rima-abdul-malak.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rima_Abdul-Malak_portrait.jpg",
+          "license": "CC BY-SA 3.0 fr",
+          "author": "Ministère de la Culture - Thibaut Chapotot"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Ministre de la Culture** de mai 2022 à janvier 2024 dans le gouvernement Borne, elle a porté la **loi du 22 juillet 2023 sur la restitution des biens culturels spoliés** dans le contexte des persécutions antisémites entre 1933 et 1945. Née à **Beyrouth**, elle dirige les programmes de **Clowns Sans Frontières** puis le pôle musiques de Culturesfrance, devient **conseillère Culture du maire de Paris Bertrand Delanoë** (2012-2014), **attachée culturelle à New York**, puis **conseillère culture et communication d'Emmanuel Macron** à l'Élysée à partir de novembre 2019.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Rima_Abdul_Malak"
+      }
+    },
+    {
       "id": "roland-lescure",
       "full_name": "Roland Lescure",
       "party": "Renaissance",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé de l'Industrie",
+            "en": "Minister Delegate for Industry"
+          },
+          "from": "2022-07-04",
+          "to": "2024-02-08"
+        },
         {
           "role": {
             "fr": "Ministre délégué chargé de l'Industrie et de l'Énergie",
@@ -1342,6 +1772,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre des Armées",
+            "en": "Minister for the Armed Forces"
+          },
+          "from": "2022-05-20",
+          "to": "2025-09-09"
+        },
+        {
+          "role": {
             "fr": "Premier ministre",
             "en": "Prime Minister"
           },
@@ -1366,10 +1804,48 @@
       }
     },
     {
+      "id": "stephane-vojetta",
+      "full_name": "Stéphane Vojetta",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 5e circonscription des Français établis hors de France",
+            "en": "Member of Parliament for French residents overseas (5th constituency)"
+          },
+          "from": "2021-10-06",
+          "to": "2025-07-11"
+        }
+      ],
+      "profile": {
+        "content_hash": "96727aed350efe96719030391c42d0459a814110b56d357204d47a3ce3bf523b",
+        "photo": {
+          "path": "/media/politicians/stephane-vojetta.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:20240708-P1010459_St%C3%A9phane_Vojetta_Wikipedia.jpg",
+          "license": "CC BY 4.0",
+          "author": "TrisHR"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Banquier d'affaires** et chef d'entreprise, **député de la 5e circonscription des Français établis hors de France** d'octobre 2021 (comme suppléant de Samantha Cazebonne, devenue sénatrice) à juillet 2025, réélu en 2022 et 2024. Co-auteur, avec Arthur Delaporte, de la **loi du 9 juin 2023 encadrant l'influence commerciale** des influenceurs. En juillet 2025, il démissionne après l'**invalidation de son mandat par le Conseil constitutionnel**, qui le déclare inéligible.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/St%C3%A9phane_Vojetta"
+      }
+    },
+    {
       "id": "stephanie-rist",
       "full_name": "Stéphanie Rist",
       "party": "Renaissance",
       "mandates": [
+        {
+          "role": {
+            "fr": "Députée de la 1re circonscription du Loiret",
+            "en": "Member of Parliament for Loiret (1st constituency)"
+          },
+          "from": "2017-06-21",
+          "to": "2025-11-12"
+        },
         {
           "role": {
             "fr": "Ministre de la Santé, des Familles, de l'Autonomie et des Personnes handicapées",
@@ -1393,6 +1869,104 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/St%C3%A9phanie_Rist"
+      }
+    },
+    {
+      "id": "sylvie-retailleau",
+      "full_name": "Sylvie Retailleau",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Enseignement supérieur et de la Recherche",
+            "en": "Minister for Higher Education and Research"
+          },
+          "from": "2022-05-20",
+          "to": "2024-09-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "7275659720f6696e27d8958f8477aeb3ae6ecc56bb41c3f11361ec7eeb7ea5fe",
+        "photo": {
+          "path": "/media/politicians/sylvie-retailleau.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sylvie_Retailleau_2018_(crop).jpg",
+          "license": "CC BY 4.0",
+          "author": "Université Paris-Saclay"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Physicienne**, **présidente de l'université Paris-Sud, devenue université Paris-Saclay** (2016-2022), puis **ministre de l'Enseignement supérieur et de la Recherche** du 20 mai 2022 au 21 septembre 2024 dans les gouvernements Borne puis Attal. Elle est nommée **présidente d'Universcience** (Palais de la Découverte et Cité des sciences) à compter de janvier 2026.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Sylvie_Retailleau"
+      }
+    },
+    {
+      "id": "thomas-cazenave",
+      "full_name": "Thomas Cazenave",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé des Comptes publics",
+            "en": "Minister Delegate for Public Accounts"
+          },
+          "from": "2023-07-20",
+          "to": "2024-09-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "c091b1e91075542cd05e61d16515f770d37b5f63943ea9cd11e60f8affa06f9f",
+        "photo": {
+          "path": "/media/politicians/thomas-cazenave.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Thomas_Cazenave_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Matpate"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Ministre délégué chargé des Comptes publics** du 20 juillet 2023 au 21 septembre 2024 (gouvernements Borne puis Attal) : il a porté la **loi de finances de fin de gestion pour 2023**, le **budget 2024** adopté par 49.3 et le volet financier de la **LFSS 2024**. **Inspecteur des finances**, cadre chez **Orange** puis à **Pôle emploi**, directeur adjoint du cabinet du ministre de l'Économie **Emmanuel Macron**, il est élu **député de la 1re circonscription de la Gironde** en 2022 et réélu en 2024.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Thomas_Cazenave"
+      }
+    },
+    {
+      "id": "valerie-letard",
+      "full_name": "Valérie Létard",
+      "party": "Union des démocrates et indépendants",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Sénatrice du Nord",
+            "en": "Senator for Nord"
+          },
+          "from": "2001-10-01",
+          "to": "2024-10-21"
+        },
+        {
+          "role": {
+            "fr": "Ministre du Logement et de la Rénovation urbaine",
+            "en": "Minister for Housing and Urban Renewal"
+          },
+          "from": "2024-09-21",
+          "to": "2025-10-12"
+        }
+      ],
+      "profile": {
+        "content_hash": "2c0a08c6c76bc87d2966114af268da9d429006953852c151f17266fccbf2ad72",
+        "photo": {
+          "path": "/media/politicians/valerie-letard.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bayrou_Bercy_2007-04-18_n13.jpg",
+          "license": "CC BY 2.5",
+          "author": "Marie-Lan Nguyen (User:Jastrow)"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Sénatrice du Nord**, élue plusieurs fois sénatrice et députée depuis 2001 et **vice-présidente du Sénat** de 2017 à 2023, elle est l'auteure de la **loi du 28 février 2023 créant l'aide universelle d'urgence pour les victimes de violences conjugales**. Proche de Jean-Louis Borloo et figure des partis centristes, **secrétaire d'État chargée de la Solidarité puis des Technologies vertes** sous Nicolas Sarkozy (2007-2010), présidente de la **communauté d'agglomération de Valenciennes** (2008-2016), elle devient **ministre du Logement et de la Rénovation urbaine** dans le gouvernement Barnier en 2024, conservant le Logement dans le gouvernement Bayrou.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Val%C3%A9rie_L%C3%A9tard"
       }
     },
     {

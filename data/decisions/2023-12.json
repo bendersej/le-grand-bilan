@@ -1,0 +1,118 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2023-12",
+  "decisions": [
+    {
+      "id": "loi-plein-emploi-2023",
+      "date": "2023-12-18",
+      "title": {
+        "fr": "Loi pour le plein emploi (France Travail)",
+        "en": "Full employment law (France Travail)"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-1196 pour le plein emploi : **Pôle emploi devient France Travail**, les **allocataires du RSA et leurs conjoints sont automatiquement inscrits** comme demandeurs d'emploi, et chaque demandeur signe un **contrat d'engagement** comportant **au moins quinze heures d'activité hebdomadaire** (insertion, formation ou emploi), sous peine de suspension de l'allocation ; la loi organise aussi le **service public de la petite enfance** confié aux communes. Le Conseil constitutionnel a validé les quinze heures sous réserve d'adaptation à la situation individuelle et censuré des dispositions de partage de données (décision n° 2023-858 DC).",
+        "en": "Law no. 2023-1196 for full employment: **Pôle emploi becomes France Travail**, **RSA welfare recipients and their partners are automatically registered** as jobseekers, and every jobseeker signs an **engagement contract** with **at least fifteen hours of weekly activity** (integration, training or work), on pain of benefit suspension; the law also entrusts a new **public early childcare service** to municipalities. The Constitutional Council upheld the fifteen hours subject to adaptation to individual situations and struck down data-sharing provisions (decision no. 2023-858 DC)."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["olivier-dussopt", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048581935",
+          "title": "LOI n° 2023-1196 du 18 décembre 2023 pour le plein emploi - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl22-710.html",
+          "title": "Dossier législatif : plein emploi - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023858DC.htm",
+          "title": "Décision n° 2023-858 DC du 14 décembre 2023 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lfss-2024",
+      "date": "2023-12-26",
+      "title": {
+        "fr": "Loi de financement de la sécurité sociale pour 2024",
+        "en": "2024 social security financing law"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-1250 de financement de la sécurité sociale pour 2024, adoptée par **engagements de responsabilité successifs (article 49.3)** : réforme du **recouvrement des cotisations sociales**, renforcement de la **lutte contre la fraude sociale** et contre les **pénuries de médicaments**. Portée pendant les débats par Aurélien Rousseau, démissionnaire le 20 décembre en désaccord avec la loi immigration. Le Conseil constitutionnel a censuré une dizaine d'articles, pour l'essentiel des cavaliers sociaux (décision n° 2023-860 DC).",
+        "en": "Law no. 2023-1250 on social security financing for 2024, adopted through **successive uses of article 49.3**: reform of **social contribution collection**, stronger action against **social security fraud** and **medicine shortages**. Carried through the debates by Aurélien Rousseau, who resigned on 20 December in disagreement with the immigration law. The Constitutional Council struck down about ten articles, mostly as social riders (decision no. 2023-860 DC)."
+      },
+      "category_ids": ["economie", "sante"],
+      "politician_ids": ["thomas-cazenave", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048668665",
+          "title": "LOI n° 2023-1250 du 26 décembre 2023 de financement de la sécurité sociale pour 2024 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/plfss2024.html",
+          "title": "Dossier législatif : financement de la sécurité sociale pour 2024 - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023860DC.htm",
+          "title": "Décision n° 2023-860 DC du 21 décembre 2023 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-serm-2023",
+      "date": "2023-12-27",
+      "title": {
+        "fr": "Loi sur les services express régionaux métropolitains (RER métropolitains)",
+        "en": "Law on metropolitan regional express services"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-1269 relative aux services express régionaux métropolitains : objectif de créer **au moins dix « RER métropolitains »** hors Île-de-France **en dix ans**, en s'appuyant prioritairement sur un **renforcement de la desserte ferroviaire** ; la **Société du Grand Paris devient la Société des grands projets** et peut assurer la maîtrise d'ouvrage des infrastructures, le statut de SERM étant conféré par arrêté ministériel.",
+        "en": "Law no. 2023-1269 on metropolitan regional express services: goal of creating **at least ten \"metropolitan RER\" networks** outside the Paris region **within ten years**, relying primarily on **strengthened rail service**; the **Société du Grand Paris becomes the Société des grands projets** and can act as project owner for the infrastructure, with SERM status conferred by ministerial order."
+      },
+      "category_ids": ["ecologie", "economie"],
+      "politician_ids": ["clement-beaune", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048678343",
+          "title": "LOI n° 2023-1269 du 27 décembre 2023 relative aux services express régionaux métropolitains - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl22-749.html",
+          "title": "Dossier législatif : services express régionaux métropolitains - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-de-finances-2024",
+      "date": "2023-12-29",
+      "title": {
+        "fr": "Loi de finances pour 2024",
+        "en": "2024 budget law"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-1322 de finances pour 2024, adoptée par **engagements de responsabilité successifs (article 49.3)**, motions de censure rejetées : budget bâti sur un **déficit public de 4,4 % du PIB** et une dette à 109,7 % du PIB, avec l'**indexation du barème de l'impôt sur le revenu sur l'inflation**, le **crédit d'impôt au titre des investissements dans l'industrie verte (C3IV)** et la sortie progressive du bouclier tarifaire sur l'électricité. Le Conseil constitutionnel a censuré l'exonération fiscale des fédérations sportives internationales et douze cavaliers budgétaires (décision n° 2023-862 DC).",
+        "en": "Law no. 2023-1322 on the 2024 budget, adopted through **successive uses of article 49.3** with censure motions rejected: a budget built on a **public deficit of 4.4% of GDP** and debt at 109.7% of GDP, with **income tax brackets indexed to inflation**, the **green industry investment tax credit (C3IV)** and the progressive phase-out of the electricity price shield. The Constitutional Council struck down the tax exemption for international sports federations and twelve budget riders (decision no. 2023-862 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["bruno-le-maire", "thomas-cazenave", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048727345",
+          "title": "LOI n° 2023-1322 du 29 décembre 2023 de finances pour 2024 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2024.html",
+          "title": "Dossier législatif : projet de loi de finances pour 2024 - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023862DC.htm",
+          "title": "Décision n° 2023-862 DC du 28 décembre 2023 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

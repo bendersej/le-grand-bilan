@@ -1,0 +1,66 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2023-05",
+  "decisions": [
+    {
+      "id": "loi-rist-2023",
+      "date": "2023-05-19",
+      "title": {
+        "fr": "Loi Rist sur l'accès aux soins",
+        "en": "Rist law on access to healthcare"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-379, issue de la proposition de la députée Stéphanie Rist : **accès direct**, sans passer par le médecin traitant, aux **infirmiers en pratique avancée**, aux **kinésithérapeutes** (dans la limite de huit séances sans diagnostic préalable) et aux **orthophonistes** dans les structures d'exercice coordonné ; les infirmiers peuvent **prescrire** les examens et produits nécessaires aux soins de plaies, et les **préparateurs en pharmacie vacciner** sous supervision.",
+        "en": "Law no. 2023-379, from a bill by MP Stéphanie Rist: **direct access**, without a referral from the family doctor, to **advanced practice nurses**, **physiotherapists** (up to eight sessions without a prior diagnosis) and **speech therapists** in coordinated care structures; nurses may **prescribe** the tests and products needed for wound care, and **pharmacy technicians may vaccinate** under supervision."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["stephanie-rist", "francois-braun"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047561956",
+          "title": "LOI n° 2023-379 du 19 mai 2023 portant amélioration de l'accès aux soins par la confiance aux professionnels de santé - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-profession-infirmier-2025"
+        }
+      ]
+    },
+    {
+      "id": "loi-jeux-olympiques-2024-2023",
+      "date": "2023-05-19",
+      "title": {
+        "fr": "Loi Jeux Olympiques et Paralympiques 2024",
+        "en": "2024 Olympic and Paralympic Games law"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-380 relative aux jeux Olympiques et Paralympiques de 2024 : expérimentation de la **vidéosurveillance algorithmique** (détection automatisée d'événements prédéterminés, sans reconnaissance faciale) **jusqu'au 31 mars 2025**, **scanners corporels** à l'entrée des enceintes avec consentement, examens **génétiques antidopage** encadrés et nouveaux délits d'intrusion dans les stades. Le Conseil constitutionnel a validé la vidéosurveillance algorithmique sous réserve et censuré l'article 7 comme cavalier (décision n° 2023-850 DC).",
+        "en": "Law no. 2023-380 on the 2024 Olympic and Paralympic Games: experimentation of **algorithmic video surveillance** (automated detection of predefined events, no facial recognition) **until 31 March 2025**, consent-based **body scanners** at venue entrances, regulated **genetic anti-doping tests** and new stadium intrusion offences. The Constitutional Council upheld algorithmic video surveillance with a reservation and struck down article 7 as a rider (decision no. 2023-850 DC)."
+      },
+      "category_ids": ["securite", "sport"],
+      "politician_ids": ["amelie-oudea-castera", "gerald-darmanin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047561974",
+          "title": "LOI n° 2023-380 du 19 mai 2023 relative aux jeux Olympiques et Paralympiques de 2024 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl22-220.html",
+          "title": "Dossier législatif : jeux Olympiques et Paralympiques de 2024 - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023850DC.htm",
+          "title": "Décision n° 2023-850 DC du 17 mai 2023 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-jeux-olympiques-2030"
+        }
+      ]
+    }
+  ]
+}

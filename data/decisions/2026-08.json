@@ -25,7 +25,12 @@
           "title": "Dossier législatif : actualisation de la programmation militaire 2024-2030 - Assemblée nationale"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "loi-programmation-militaire-2023"
+        }
+      ]
     },
     {
       "id": "loi-aide-a-mourir-2026",

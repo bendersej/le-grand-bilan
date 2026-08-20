@@ -1,0 +1,69 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2023-06",
+  "decisions": [
+    {
+      "id": "loi-influenceurs-2023",
+      "date": "2023-06-09",
+      "title": {
+        "fr": "Loi encadrant les influenceurs",
+        "en": "Law regulating social media influencers"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-451, issue de la proposition des députés Arthur Delaporte et Stéphane Vojetta : première **définition légale de l'influence commerciale**, obligation d'afficher les mentions **« Publicité » ou « Collaboration commerciale »** sous peine de pratique commerciale trompeuse (**2 ans d'emprisonnement et 300 000 euros d'amende**), et **interdiction de promouvoir** la chirurgie esthétique, certains produits financiers et crypto-actifs non enregistrés, les produits nicotinés et les pronostics sportifs payants ; les images retouchées ou générées par IA doivent être signalées.",
+        "en": "Law no. 2023-451, from a bill by MPs Arthur Delaporte and Stéphane Vojetta: first **legal definition of commercial influence**, mandatory **\"Advertisement\" or \"Commercial collaboration\" labels** on pain of deceptive marketing charges (**2 years in prison and a 300,000 euro fine**), and a **ban on promoting** cosmetic surgery, certain financial products and unregistered crypto-assets, nicotine products and paid sports betting tips; retouched or AI-generated images must be flagged."
+      },
+      "category_ids": ["economie", "numerique"],
+      "politician_ids": ["arthur-delaporte", "stephane-vojetta", "bruno-le-maire"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047663185",
+          "title": "LOI n° 2023-451 du 9 juin 2023 visant à encadrer l'influence commerciale et à lutter contre les dérives des influenceurs sur les réseaux sociaux - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl22-489.html",
+          "title": "Dossier législatif : influenceurs sur les réseaux sociaux - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-acceleration-nucleaire-2023",
+      "date": "2023-06-22",
+      "title": {
+        "fr": "Loi d'accélération du nucléaire",
+        "en": "Nuclear acceleration law"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-491 relative à l'accélération des procédures liées à la construction de nouvelles installations nucléaires à proximité de sites existants : procédures d'urbanisme et d'expropriation **simplifiées pendant vingt ans** pour les nouveaux réacteurs (dont les **EPR2** et petits réacteurs modulaires) construits près de sites nucléaires existants, qualification de **projet d'intérêt public majeur**, et **suppression de l'objectif de réduction à 50 %** de la part du nucléaire dans le mix électrique. Le Conseil constitutionnel a censuré plusieurs articles, essentiellement comme cavaliers (décision n° 2023-851 DC).",
+        "en": "Law no. 2023-491 accelerating procedures for building new nuclear installations near existing sites: planning and expropriation procedures **streamlined for twenty years** for new reactors (including the **EPR2** and small modular reactors) built next to existing nuclear sites, qualification as **projects of major public interest**, and **removal of the target of cutting nuclear power to 50%** of the electricity mix. The Constitutional Council struck down several articles, mostly as riders (decision no. 2023-851 DC)."
+      },
+      "category_ids": ["energie"],
+      "politician_ids": ["agnes-pannier-runacher", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047715784",
+          "title": "LOI n° 2023-491 du 22 juin 2023 relative à l'accélération des procédures liées à la construction de nouvelles installations nucléaires - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl22-100.html",
+          "title": "Dossier législatif : construction de nouvelles installations nucléaires - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023851DC.htm",
+          "title": "Décision n° 2023-851 DC du 21 juin 2023 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-energies-renouvelables-2023"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-surete-nucleaire-2024"
+        }
+      ]
+    }
+  ]
+}

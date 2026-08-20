@@ -46,7 +46,12 @@
           "title": "Dossier législatif : jeux Olympiques et Paralympiques de 2030 - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-jeux-olympiques-2024-2023"
+        }
+      ]
     }
   ]
 }

@@ -3,6 +3,27 @@
   "month": "2023-04",
   "decisions": [
     {
+      "id": "loi-restauration-etudiante-2023",
+      "date": "2023-04-13",
+      "title": {
+        "fr": "Loi Lévi sur l'accès des étudiants à une restauration à tarif modéré",
+        "en": "Lévi law on students' access to affordable meals"
+      },
+      "summary": {
+        "fr": "Loi n° 2023-265, issue de la proposition du sénateur Pierre-Antoine Lévi : tous les étudiants doivent pouvoir accéder à une **offre de restauration à tarif modéré** près de leur lieu d'études, via les restaurants universitaires ou des **structures conventionnées** ; les étudiants **éloignés des restaurants universitaires** reçoivent une **aide financière** pour leurs repas auprès des organismes agréés.",
+        "en": "Law no. 2023-265, from a bill by senator Pierre-Antoine Lévi: every student must have access to **moderately priced meals** near their place of study, through university restaurants or **partner establishments**; students **living far from any university restaurant** receive **financial help** towards meals from approved providers."
+      },
+      "category_ids": ["education"],
+      "politician_ids": ["pierre-antoine-levi", "sylvie-retailleau"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047439303",
+          "title": "LOI n° 2023-265 du 13 avril 2023 visant à favoriser l'accès de tous les étudiants à une offre de restauration à tarif modéré - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
       "id": "reforme-retraites-2023",
       "date": "2023-04-14",
       "title": {
@@ -10,8 +31,8 @@
         "en": "2023 Pension Reform"
       },
       "summary": {
-        "fr": "Loi n° 2023-270 de financement rectificative de la sécurité sociale pour 2023 : **relèvement progressif de l'âge légal de départ à la retraite de 62 à 64 ans** et accélération de l'allongement de la durée de cotisation. Adoptée après recours à l'**article 49.3** de la Constitution.",
-        "en": "Law no. 2023-270 on supplementary social security financing for 2023: **gradual raising of the legal retirement age from 62 to 64** and accelerated extension of the contribution period. Adopted after use of **article 49.3** of the Constitution."
+        "fr": "Loi n° 2023-270 de financement rectificative de la sécurité sociale pour 2023 : **relèvement progressif de l'âge légal de départ à la retraite de 62 à 64 ans** et accélération de l'allongement de la durée de cotisation. Adoptée après recours à l'**article 49.3** de la Constitution, la motion de censure étant rejetée à **neuf voix près** le 20 mars 2023. Le Conseil constitutionnel a validé le cœur de la réforme mais censuré l'**index seniors** et le **CDI seniors** comme cavaliers sociaux (décision n° 2023-849 DC) et rejeté deux demandes de **référendum d'initiative partagée**.",
+        "en": "Law no. 2023-270 on supplementary social security financing for 2023: **gradual raising of the legal retirement age from 62 to 64** and accelerated extension of the contribution period. Adopted after use of **article 49.3** of the Constitution, with the censure motion falling short by **nine votes** on 20 March 2023. The Constitutional Council upheld the core of the reform but struck down the **senior employment index** and the **senior permanent contract** as social riders (decision no. 2023-849 DC) and rejected two **shared-initiative referendum** requests."
       },
       "category_ids": ["economie", "retraites"],
       "politician_ids": ["elisabeth-borne", "olivier-dussopt", "emmanuel-macron"],
@@ -19,9 +40,26 @@
         {
           "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000047445077",
           "title": "LOI n° 2023-270 du 14 avril 2023 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl22-368.html",
+          "title": "Dossier législatif : réforme des retraites - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2023/2023849DC.htm",
+          "title": "Décision n° 2023-849 DC du 14 avril 2023 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2023/20234RIP.htm",
+          "title": "Décision n° 2023-4 RIP du 14 avril 2023 - Conseil constitutionnel"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "suspension-reforme-retraites-2026"
+        }
+      ]
     }
   ]
 }
