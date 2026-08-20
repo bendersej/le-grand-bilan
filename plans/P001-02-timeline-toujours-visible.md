@@ -1,7 +1,7 @@
 # P001-02 - Timeline toujours visible (pages en modales)
 
 **Type:** FEATURE (amendment of [P001](P001-le-grand-bilan-foundation.md) Phase 3)
-**Status:** In Progress
+**Status:** Completed
 
 ## Context
 
@@ -11,11 +11,11 @@ The same wireframe adds a "profile picture" cluster per decision row: the main d
 
 ## Success Criteria
 
-- [ ] `/decisions/$id`, `/politiciens/$id`, `/categories/$id`, `/about` render as modals over the timeline; the timeline never unmounts and keeps its scroll position
-- [ ] Direct visits to those URLs prerender timeline + open modal (SEO + shareable links intact)
-- [ ] Modal closes to `/` (backdrop click + close button) without scrolling the timeline back to top
-- [ ] The timeline scroll context is persisted in the URL: opening a modal appends the source month as a hash (`/decisions/x#2016-08`), so a shared link scrolls the recipient's timeline to where the modal was opened (native anchor scroll, no JS); in-session clicks don't jump (`hashScrollIntoView={false}`)
-- [ ] Smoketest asserts entity content inside the modal (`role="dialog"` slice), since the always-visible timeline now satisfies naive content markers on every page
+- [x] `/decisions/$id`, `/politiciens/$id`, `/categories/$id`, `/about` render as modals over the timeline; the timeline never unmounts and keeps its scroll position
+- [x] Direct visits to those URLs prerender timeline + open modal (SEO + shareable links intact)
+- [x] Modal closes to `/` (backdrop click + close button) without scrolling the timeline back to top
+- [x] The timeline scroll context is persisted in the URL: opening a modal appends the source month as a hash (`/decisions/x#2016-08`), so a shared link scrolls the recipient's timeline to where the modal was opened (native anchor scroll, no JS); in-session clicks don't jump (`hashScrollIntoView={false}`)
+- [x] Smoketest asserts entity content inside the modal (`role="dialog"` slice), since the always-visible timeline now satisfies naive content markers on every page
 
 ## Implementation Phases
 
@@ -25,11 +25,11 @@ The same wireframe adds a "profile picture" cluster per decision row: the main d
 
 ## Progress Tracker
 
-- [ ] Phase 1: Pathless layout + modal routes
+- [x] Phase 1: Pathless layout + modal routes
 
 ## Remaining Work
 
-Not started.
+None — shipped.
 
 ## Decision Log
 

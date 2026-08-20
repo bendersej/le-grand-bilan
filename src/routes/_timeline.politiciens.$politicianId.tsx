@@ -1,8 +1,14 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 import DecisionRow from '../components/DecisionRow'
 import Modal from '../components/Modal'
+import RichText from '../components/RichText'
 import { formatDateLabel } from '../data/format.ts'
-import { decisionsByPoliticianId, politiciansById } from '../data/registry.ts'
+import { mediaBaseUrl } from '../data/media.ts'
+import {
+  appearancesByPoliticianId,
+  decisionsByPoliticianId,
+  politiciansById,
+} from '../data/registry.ts'
 
 export const Route = createFileRoute('/_timeline/politiciens/$politicianId')({
   loader: ({ params }) => {
@@ -18,21 +24,88 @@ export const Route = createFileRoute('/_timeline/politiciens/$politicianId')({
 function PoliticianPage() {
   const politician = Route.useLoaderData()
   const politicianDecisions = decisionsByPoliticianId.get(politician.id) ?? []
+  const politicianAppearances = appearancesByPoliticianId.get(politician.id) ?? []
+  const profile = politician.profile
 
   return (
     <Modal label={politician.full_name}>
-      <h1 className="display-title m-0 text-2xl font-bold sm:text-3xl">{politician.full_name}</h1>
-      {politician.party ? (
-        <p className="m-0 mt-1 text-[var(--sea-ink-soft)]">{politician.party}</p>
+      <div className="flex items-start gap-4">
+        {profile ? (
+          <img
+            src={profile.photo.path}
+            alt={politician.full_name}
+            className="h-24 w-24 rounded-lg border border-[var(--chip-line)] object-cover"
+          />
+        ) : null}
+        <div>
+          <h1 className="display-title m-0 text-2xl font-bold sm:text-3xl">
+            {politician.full_name}
+          </h1>
+          {politician.party ? (
+            <p className="m-0 mt-1 text-[var(--sea-ink-soft)]">{politician.party}</p>
+          ) : null}
+          <ul className="m-0 mt-3 list-none p-0 text-sm text-[var(--sea-ink-soft)]">
+            {politician.mandates.map((mandate) => (
+              <li key={`${mandate.role.fr}-${mandate.from}`}>
+                {mandate.role.fr} · {formatDateLabel(mandate.from)} –{' '}
+                {mandate.to ? formatDateLabel(mandate.to) : "aujourd'hui"}
+              </li>
+            ))}
+          </ul>
+        </div>
+      </div>
+
+      {profile ? (
+        <>
+          <p className="mt-5 text-sm leading-6 text-[var(--sea-ink-soft)]">
+            <RichText text={profile.summary.fr} />
+          </p>
+          <p className="m-0 mt-2 text-xs text-[var(--sea-ink-soft)]">
+            {'Texte : '}
+            <a href={profile.wikipedia_url} target="_blank" rel="noreferrer">
+              Wikipédia
+            </a>
+            {' (CC BY-SA) · Photo : '}
+            <a href={profile.photo.source_url} target="_blank" rel="noreferrer">
+              {profile.photo.author ?? 'Wikimedia Commons'}
+            </a>
+            {` (${profile.photo.license})`}
+          </p>
+        </>
       ) : null}
-      <ul className="m-0 mt-4 list-none p-0 text-sm text-[var(--sea-ink-soft)]">
-        {politician.mandates.map((mandate) => (
-          <li key={`${mandate.role.fr}-${mandate.from}`}>
-            {mandate.role.fr} · {formatDateLabel(mandate.from)} –{' '}
-            {mandate.to ? formatDateLabel(mandate.to) : "aujourd'hui"}
-          </li>
-        ))}
-      </ul>
+
+      {politicianAppearances.length > 0 ? (
+        <section className="mt-8">
+          <h2 className="kicker m-0">Interventions publiques</h2>
+          <div className="mt-4 space-y-6">
+            {politicianAppearances.map((appearance) => (
+              <article key={appearance.id}>
+                <p className="m-0 text-xs text-[var(--sea-ink-soft)]">
+                  {formatDateLabel(appearance.date)}
+                </p>
+                <h3 className="m-0 mt-0.5 text-sm font-semibold">{appearance.title.fr}</h3>
+                {appearance.media ? (
+                  <video
+                    controls
+                    preload="metadata"
+                    className="mt-2 w-full rounded-lg border border-[var(--line)]"
+                    src={`${mediaBaseUrl}/${appearance.media.r2_key}`}
+                  />
+                ) : null}
+                <p className="m-0 mt-1.5 text-xs">
+                  {'Source : '}
+                  <a href={appearance.source_url} target="_blank" rel="noreferrer">
+                    {new URL(appearance.source_url).hostname}
+                  </a>
+                  {appearance.media
+                    ? ` · archivée le ${formatDateLabel(appearance.media.archived_at)}`
+                    : ''}
+                </p>
+              </article>
+            ))}
+          </div>
+        </section>
+      ) : null}
 
       <section className="mt-8">
         <h2 className="kicker m-0">Décisions</h2>

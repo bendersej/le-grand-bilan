@@ -6,7 +6,9 @@
     "#/*": "./src/*"
   },
   "scripts": {
+    "archive:appearances": "node scripts/archive-appearances.ts",
     "build": "vite build",
+    "capture:profiles": "node scripts/capture-politician-profiles.ts",
     "cf-typegen": "wrangler types",
     "check": "pnpm run generate-routes && pnpm run typecheck && pnpm run lint && pnpm run format:check && pnpm run test",
     "deploy": "pnpm run build && wrangler deploy",

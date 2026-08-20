@@ -1,5 +1,6 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router'
 import Modal from '../components/Modal'
+import RichText from '../components/RichText'
 import { formatDateLabel } from '../data/format.ts'
 import {
   categoriesById,
@@ -104,7 +105,9 @@ function DecisionPage() {
           </Link>
         ))}
       </div>
-      <p className="mt-6 text-base leading-7 text-[var(--sea-ink-soft)]">{decision.summary.fr}</p>
+      <p className="mt-6 text-base leading-7 text-[var(--sea-ink-soft)]">
+        <RichText text={decision.summary.fr} />
+      </p>
 
       <section className="mt-8">
         <h2 className="m-0 text-sm font-semibold">Sources</h2>

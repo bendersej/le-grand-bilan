@@ -4,13 +4,20 @@ The registry is a set of JSON files under `data/`. The single owner of the data 
 
 ## Files
 
-| File                          | Schema (generated)                    | Content                                         |
-| ----------------------------- | ------------------------------------- | ----------------------------------------------- |
-| `data/categories.json`        | `schemas/categories.schema.json`      | Curated category registry (id + fr/en label)    |
-| `data/politicians.json`       | `schemas/politicians.schema.json`     | Politician registry (id, name, party, mandates) |
-| `data/decisions/yyyy-mm.json` | `schemas/decisions-month.schema.json` | All decisions of one month                      |
+| File                            | Schema (generated)                      | Content                                                           |
+| ------------------------------- | --------------------------------------- | ----------------------------------------------------------------- |
+| `data/categories.json`          | `schemas/categories.schema.json`        | Curated category registry (id + fr/en label)                      |
+| `data/politicians.json`         | `schemas/politicians.schema.json`       | Politician registry (id, name, party, mandates)                   |
+| `data/decisions/yyyy-mm.json`   | `schemas/decisions-month.schema.json`   | All decisions of one month                                        |
+| `data/appearances/yyyy-mm.json` | `schemas/appearances-month.schema.json` | Public appearances of one month (source link + archived R2 media) |
 
 Data files use `snake_case` keys. Registry entries (categories, politicians) are ordered lexicographically by id.
+
+Text fields (`summary`, and any future long-form field) support a LIMITED markdown subset rendered by `src/components/RichText.tsx`: `**bold**`, `*italic*`, `[label](https://…)` (http/https links only — anything else stays plain text). No raw HTML, ever: content arrives from public pull requests. Summaries SHOULD bold the keywords or phrases that meaningfully describe the decision (what changed, for whom, by how much).
+
+Politician `profile` objects (photo, summary, license, `wikipedia_url`) are captured by `pnpm run capture:profiles`, never hand-written; photos land in `public/media/politicians/`. Appearance `media` objects are filled by `pnpm run archive:appearances`, which downloads the source video (yt-dlp, ≤20 min) and uploads it to the `le-grand-bilan-media` R2 bucket — run it locally and commit the updated data file with the entry. ALL media is self-hosted; the Wikipedia/Commons/YouTube/INA links stay as the cited sources.
+
+Both scripts are idempotent and take positional ids to target one, several, or (no args) all entries: entries with captured content are skipped, and `--force` re-checks upstream but bails per entry when the content hash is unchanged (`profile.content_hash` for Wikipedia captures, `media.sha256` for archived files).
 
 ## Decision shape
 

@@ -96,6 +96,7 @@ Cloudflare TanStack Start template, prerender enabled (`vite.config.ts`), France
 | Minimal changelog design, no boxes/shadows                       | Operator wireframe; the data is the product — typography-led timeline, template island aesthetic goes              |
 | Spectral (headings) + Inter (body)                               | Marianne is State-reserved; Spectral is by a French foundry (Production Type) on Google Fonts, Inter for data      |
 | Sources must cite the exact document URL                         | Operator requirement; schema rejects site-root URLs, seed uses direct Légifrance jorf/id links                     |
+| Limited markdown in text fields (bold, italic, https links)      | Highlights each decision's meaningful keywords; parsed to React elements, never raw HTML (PR-sourced content)     |
 | Smoketest derives expectations from `data/`                      | Review finding: hand-listed markers were shell-satisfiable; registry-driven assertions scale with backfill         |
 
 ## Risks

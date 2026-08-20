@@ -35,6 +35,7 @@ Root reference docs:
 - **The DSFR (French State design system) is legally reserved to the French State** — never add `@gouvfr/dsfr` or its assets (Marianne font included). The France palette lives as tokens in `src/styles.css`.
 - **Content is French-first**: every `LocalizedText` has a required `fr` and a nullable `en`.
 - **New data structures prefer lexicographic order** (registry entries ordered by id — enforced by tests).
+- **ALL media is self-hosted, never hotlinked**: politician photos live in `public/media/` (captured by `pnpm run capture:profiles`), appearance videos in the `le-grand-bilan-media` R2 bucket (archived by `pnpm run archive:appearances`). The Wikipedia/Commons/YouTube/INA links stay as the cited sources.
 
 ## Repository Structure
 
@@ -42,13 +43,15 @@ Root reference docs:
 lgb/                     (repo name: le-grand-bilan)
 ├── .github/workflows/   CI (tests, lint, format, typecheck, build) + deploy on merge to master
 ├── data/                The registry (open data)
+│   ├── appearances/     Public appearances, one file per month: yyyy-mm.json
 │   ├── categories.json  Curated category registry
-│   ├── politicians.json Politician registry (mandates with roles + dates)
+│   ├── politicians.json Politician registry (mandates, Wikipedia-captured profiles)
 │   └── decisions/       One file per month: yyyy-mm.json
 ├── docs/                Root reference docs (routed from this file)
 ├── plans/               Implementation plans (index: plans/README.md)
+├── public/media/        Self-hosted assets (politician photos captured from Wikipedia)
 ├── schemas/             GENERATED JSON Schemas — never hand-edit
-├── scripts/             One-shot scripts (JSON Schema generation)
+├── scripts/             One-shot scripts (schema generation, profile capture, media archival)
 └── src/
     ├── components/      Shared React components
     ├── data/            schema.ts (Zod owner of the data model) + data validation tests
@@ -72,6 +75,8 @@ Package manager is **pnpm** (pinned via `packageManager`).
 - `pnpm run check` — routes + typecheck + lint + format check + tests (what CI runs)
 - `pnpm run test` — vitest (data validation suite)
 - `pnpm run generate:json-schemas` — regenerate `schemas/` from `src/data/schema.ts`
+- `pnpm run capture:profiles` — capture politician profiles (Wikipedia summary + photo + license) into `data/politicians.json` and `public/media/`
+- `pnpm run archive:appearances` — download appearance media (yt-dlp) and archive to R2, recording the asset in `data/appearances/`
 - `pnpm run smoketest` — assert the prerendered pages contain their expected content (needs a prior `pnpm run build`; CI runs it after every build)
 - `pnpm run deploy` — build + `wrangler deploy` (CI does this on merge to master)
 

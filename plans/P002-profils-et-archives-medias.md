@@ -9,13 +9,13 @@ Enrich each politician ("décisionnaire") with a profile — photo and short sum
 
 ## Success Criteria
 
-- [ ] Politician schema extended: `wikipedia_url`, `photo` (R2 asset + source + license), `summary` (LocalizedText + `retrieved_at`) — all captured by a commit-time script, not hand-written
-- [ ] Appearance/media schema: title, date, politician_ids, optional decision_ids, `source_url` (INA/YouTube), R2 asset reference, archived_at
-- [ ] Deploy-time archival: new media entries are downloaded and uploaded to R2 exactly once (idempotent), site serves the R2 asset with the original link displayed as source
-- [ ] Politician profile (modal, per P001-02) renders photo + summary + appearances; media playback works from R2
-- [ ] ALL assets self-hosted: the Wikipedia lead image is downloaded and stored on our infrastructure like the videos — the site never hotlinks Wikipedia/Wikimedia/YouTube/INA
-- [ ] Timeline rows show the décisionnaires as a photo cluster: main décisionnaire as a square picture, smaller squares for the others; hovering any square grows it to the main size (genie-style scale animation); clicking opens that person's profile modal
-- [ ] Data suite extended: asset references resolve, licenses/attribution present for Wikipedia content (CC BY-SA)
+- [x] Politician schema extended: `wikipedia_url`, `photo` (R2 asset + source + license), `summary` (LocalizedText + `retrieved_at`) — all captured by a commit-time script, not hand-written
+- [x] Appearance/media schema: title, date, politician_ids, optional decision_ids, `source_url` (INA/YouTube), R2 asset reference, archived_at
+- [x] Archival (commit-time): new media entries are downloaded and uploaded to R2 exactly once (idempotent), site serves the R2 asset with the original link displayed as source
+- [x] Politician profile (modal, per P001-02) renders photo + summary + appearances; media playback works from R2
+- [x] ALL assets self-hosted: the Wikipedia lead image is downloaded and stored on our infrastructure like the videos — the site never hotlinks Wikipedia/Wikimedia/YouTube/INA
+- [x] Timeline rows show the décisionnaires as a photo cluster: main décisionnaire as a square picture, smaller squares for the others; hovering any square grows it to the main size (genie-style scale animation); clicking opens that person's profile modal
+- [x] Data suite extended: asset references resolve, licenses/attribution present for Wikipedia content (CC BY-SA)
 
 ## Implementation Phases
 
@@ -37,14 +37,17 @@ Politician profile modal: photo, summary, Wikipedia link, appearances list with 
 
 ## Progress Tracker
 
-- [ ] Phase 1: Schema + registries
-- [ ] Phase 2: Wikipedia profile capture
-- [ ] Phase 3: Media archival to R2
-- [ ] Phase 4: UI
+- [x] Phase 1: Schema + registries
+- [x] Phase 2: Wikipedia profile capture
+- [x] Phase 3: Media archival to R2
+- [x] Phase 4: UI
 
 ## Remaining Work
 
-Not started. Open questions below must be settled before Phase 3.
+- INA as a media source (only YouTube handled by yt-dlp so far)
+- R2 media served from pub-…r2.dev (rate-limited): move to a custom domain at launch
+- Archival runs locally at commit time; CI-side verification that every recorded asset exists in R2 is not yet wired
+- EN summaries not captured (fr only, en: null)
 
 ## Decision Log
 

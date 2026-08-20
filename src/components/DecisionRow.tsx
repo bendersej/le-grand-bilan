@@ -1,7 +1,15 @@
 import { Link } from '@tanstack/react-router'
+import RichText from './RichText'
 import { formatDateLabel } from '../data/format.ts'
 import { categoriesById, politiciansById } from '../data/registry.ts'
 import type { Decision } from '../data/schema.ts'
+
+const initialsOf = (fullName: string): string =>
+  fullName
+    .split(' ')
+    .map((namePart) => namePart.charAt(0))
+    .slice(0, 2)
+    .join('')
 
 export default function DecisionRow({
   decision,
@@ -18,39 +26,64 @@ export default function DecisionRow({
     const politician = politiciansById.get(politicianId)
     return politician ? [politician] : []
   })
+  const mainPolitician = rowPoliticians[0] ?? null
   // The month anchors the timeline scroll position in shared URLs: fresh loads
   // scroll to it natively, in-session clicks skip the jump (hashScrollIntoView).
   const decisionMonth = decision.date.slice(0, 7)
 
   return (
-    <article className="grid gap-2 sm:grid-cols-[200px_minmax(0,1fr)] sm:gap-6">
-      <div className="flex flex-wrap content-start gap-1.5">
-        {rowCategories.map((category) => (
-          <Link
-            key={category.id}
-            to="/categories/$categoryId"
-            params={{ categoryId: category.id }}
-            hash={decisionMonth}
-            hashScrollIntoView={false}
-            resetScroll={false}
-            className="chip"
-          >
-            {category.label.fr}
-          </Link>
-        ))}
-        {rowPoliticians.map((politician) => (
-          <Link
-            key={politician.id}
-            to="/politiciens/$politicianId"
-            params={{ politicianId: politician.id }}
-            hash={decisionMonth}
-            hashScrollIntoView={false}
-            resetScroll={false}
-            className="chip"
-          >
-            {politician.full_name}
-          </Link>
-        ))}
+    <article className="grid gap-2 sm:grid-cols-[240px_minmax(0,1fr)] sm:gap-6">
+      <div className="flex items-start gap-3">
+        <div className="flex items-end">
+          {rowPoliticians.map((politician, politicianIndex) => (
+            <Link
+              key={politician.id}
+              to="/politiciens/$politicianId"
+              params={{ politicianId: politician.id }}
+              hash={decisionMonth}
+              hashScrollIntoView={false}
+              resetScroll={false}
+              aria-label={politician.full_name}
+              title={politician.full_name}
+              className={
+                politicianIndex === 0 ? 'photo-chip photo-chip-main' : 'photo-chip photo-chip-small'
+              }
+            >
+              {politician.profile ? (
+                <img src={politician.profile.photo.path} alt="" />
+              ) : (
+                <span aria-hidden="true">{initialsOf(politician.full_name)}</span>
+              )}
+            </Link>
+          ))}
+        </div>
+        <div className="flex flex-col items-start gap-1.5">
+          {mainPolitician ? (
+            <Link
+              to="/politiciens/$politicianId"
+              params={{ politicianId: mainPolitician.id }}
+              hash={decisionMonth}
+              hashScrollIntoView={false}
+              resetScroll={false}
+              className="chip"
+            >
+              {mainPolitician.full_name}
+            </Link>
+          ) : null}
+          {rowCategories.map((category) => (
+            <Link
+              key={category.id}
+              to="/categories/$categoryId"
+              params={{ categoryId: category.id }}
+              hash={decisionMonth}
+              hashScrollIntoView={false}
+              resetScroll={false}
+              className="chip"
+            >
+              {category.label.fr}
+            </Link>
+          ))}
+        </div>
       </div>
       <div>
         {showDate ? (
@@ -69,7 +102,7 @@ export default function DecisionRow({
           </Link>
         </h3>
         <p className="m-0 mt-1 text-sm leading-6 text-[var(--sea-ink-soft)]">
-          {decision.summary.fr}
+          <RichText text={decision.summary.fr} />
         </p>
         <p className="m-0 mt-1.5 text-xs">
           {'Sources : '}
