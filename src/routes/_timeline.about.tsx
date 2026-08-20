@@ -1,5 +1,5 @@
 import { createFileRoute } from '@tanstack/react-router'
-import Modal from '../components/Modal'
+import Panel from '../components/Panel'
 
 export const Route = createFileRoute('/_timeline/about')({
   component: About,
@@ -7,7 +7,7 @@ export const Route = createFileRoute('/_timeline/about')({
 
 function About() {
   return (
-    <Modal label="À propos">
+    <Panel label="À propos">
       <p className="kicker m-0">À propos</p>
       <h1 className="display-title m-0 mt-2 text-2xl font-bold sm:text-3xl">
         Un bilan factuel, décision par décision.
@@ -19,6 +19,6 @@ function About() {
         source officielle. Les données sont ouvertes : toute contribution passe par une pull request
         publique, relue avant publication.
       </p>
-    </Modal>
+    </Panel>
   )
 }

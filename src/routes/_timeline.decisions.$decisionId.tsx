@@ -1,5 +1,5 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router'
-import Modal from '../components/Modal'
+import Panel from '../components/Panel'
 import RichText from '../components/RichText'
 import { formatDateLabel } from '../data/format.ts'
 import {
@@ -71,10 +71,9 @@ function DecisionPage() {
   })
   const incomingRelations = incomingRelationsByDecisionId.get(decision.id) ?? []
   const hasRelations = outgoingRelations.length > 0 || incomingRelations.length > 0
-  const decisionMonth = decision.date.slice(0, 7)
 
   return (
-    <Modal label={decision.title.fr}>
+    <Panel label={decision.title.fr}>
       <p className="kicker m-0">{formatDateLabel(decision.date)}</p>
       <h1 className="display-title m-0 mt-2 text-2xl font-bold sm:text-3xl">{decision.title.fr}</h1>
       <div className="mt-4 flex flex-wrap gap-1.5">
@@ -95,9 +94,6 @@ function DecisionPage() {
             to="/politiciens/$politicianId"
             params={{ politicianId: politician.id }}
             search={(previousSearch) => previousSearch}
-            hash={decisionMonth}
-            hashScrollIntoView={false}
-            resetScroll={false}
             className="chip"
           >
             {politician.full_name}
@@ -133,9 +129,6 @@ function DecisionPage() {
                   to="/decisions/$decisionId"
                   params={{ decisionId: relation.decision.id }}
                   search={(previousSearch) => previousSearch}
-                  hash={relation.decision.date.slice(0, 7)}
-                  hashScrollIntoView={false}
-                  resetScroll={false}
                 >
                   {relation.decision.title.fr}
                 </Link>
@@ -149,9 +142,6 @@ function DecisionPage() {
                   to="/decisions/$decisionId"
                   params={{ decisionId: relation.decision.id }}
                   search={(previousSearch) => previousSearch}
-                  hash={relation.decision.date.slice(0, 7)}
-                  hashScrollIntoView={false}
-                  resetScroll={false}
                 >
                   {relation.decision.title.fr}
                 </Link>
@@ -160,6 +150,6 @@ function DecisionPage() {
           </ul>
         </section>
       ) : null}
-    </Modal>
+    </Panel>
   )
 }

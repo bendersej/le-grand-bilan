@@ -15,3 +15,4 @@ Template: `template.md`. Work on a plan happens on a branch named after the plan
 ## Completed
 
 - [P001-02 - Timeline toujours visible (pages en modales)](P001-02-timeline-toujours-visible.md)
+- [P001-03 - Contenu en tête de timeline (fin des modales)](P001-03-contenu-en-tete.md)

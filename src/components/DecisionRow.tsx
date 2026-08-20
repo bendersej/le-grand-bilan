@@ -33,9 +33,6 @@ export default function DecisionRow({
   const visibleOtherPoliticians =
     otherPoliticians.length <= 3 ? otherPoliticians : otherPoliticians.slice(0, 2)
   const overflowCount = otherPoliticians.length - visibleOtherPoliticians.length
-  // The month anchors the timeline scroll position in shared URLs: fresh loads
-  // scroll to it natively, in-session clicks skip the jump (hashScrollIntoView).
-  const decisionMonth = decision.date.slice(0, 7)
 
   return (
     <article className="grid gap-2 sm:grid-cols-[240px_minmax(0,1fr)] sm:gap-6">
@@ -46,9 +43,6 @@ export default function DecisionRow({
               to="/politiciens/$politicianId"
               params={{ politicianId: mainPolitician.id }}
               search={(previousSearch) => previousSearch}
-              hash={decisionMonth}
-              hashScrollIntoView={false}
-              resetScroll={false}
               aria-label={mainPolitician.full_name}
               title={mainPolitician.full_name}
               className="photo-chip photo-chip-main"
@@ -67,9 +61,6 @@ export default function DecisionRow({
                     to="/politiciens/$politicianId"
                     params={{ politicianId: politician.id }}
                     search={(previousSearch) => previousSearch}
-                    hash={decisionMonth}
-                    hashScrollIntoView={false}
-                    resetScroll={false}
                     aria-label={politician.full_name}
                     title={politician.full_name}
                     className="photo-chip photo-chip-small"
@@ -86,9 +77,6 @@ export default function DecisionRow({
                     to="/decisions/$decisionId"
                     params={{ decisionId: decision.id }}
                     search={(previousSearch) => previousSearch}
-                    hash={decisionMonth}
-                    hashScrollIntoView={false}
-                    resetScroll={false}
                     aria-label={`${overflowCount} autres décisionnaires`}
                     className="photo-chip photo-chip-small"
                   >
@@ -105,9 +93,6 @@ export default function DecisionRow({
               to="/politiciens/$politicianId"
               params={{ politicianId: mainPolitician.id }}
               search={(previousSearch) => previousSearch}
-              hash={decisionMonth}
-              hashScrollIntoView={false}
-              resetScroll={false}
               className="chip"
             >
               {mainPolitician.full_name}
@@ -135,9 +120,6 @@ export default function DecisionRow({
             to="/decisions/$decisionId"
             params={{ decisionId: decision.id }}
             search={(previousSearch) => previousSearch}
-            hash={decisionMonth}
-            hashScrollIntoView={false}
-            resetScroll={false}
             className="text-[var(--sea-ink)] no-underline hover:text-[var(--lagoon-deep)]"
           >
             {decision.title.fr}

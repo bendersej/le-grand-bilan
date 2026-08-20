@@ -1,13 +1,8 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
-import DecisionRow from '../components/DecisionRow'
-import Modal from '../components/Modal'
+import Panel from '../components/Panel'
 import RichText from '../components/RichText'
 import { formatDateLabel } from '../data/format.ts'
-import {
-  appearancesByPoliticianId,
-  decisionsByPoliticianId,
-  politiciansById,
-} from '../data/registry.ts'
+import { politiciansById } from '../data/registry.ts'
 
 export const Route = createFileRoute('/_timeline/politiciens/$politicianId')({
   loader: ({ params }) => {
@@ -20,14 +15,14 @@ export const Route = createFileRoute('/_timeline/politiciens/$politicianId')({
   component: PoliticianPage,
 })
 
+// The profile renders at the top of the timeline; the timeline below is scoped
+// to this politician (decisions + public appearances) by the _timeline layout.
 function PoliticianPage() {
   const politician = Route.useLoaderData()
-  const politicianDecisions = decisionsByPoliticianId.get(politician.id) ?? []
-  const politicianAppearances = appearancesByPoliticianId.get(politician.id) ?? []
   const profile = politician.profile
 
   return (
-    <Modal label={politician.full_name}>
+    <Panel label={politician.full_name}>
       <div className="flex items-start gap-4">
         {profile ? (
           <img
@@ -72,38 +67,6 @@ function PoliticianPage() {
           </p>
         </>
       ) : null}
-
-      {politicianAppearances.length > 0 ? (
-        <section className="mt-8">
-          <h2 className="kicker m-0">Interventions publiques</h2>
-          <div className="mt-4 space-y-6">
-            {politicianAppearances.map((appearance) => (
-              <article key={appearance.id}>
-                <p className="m-0 text-xs text-[var(--sea-ink-soft)]">
-                  {formatDateLabel(appearance.date)}
-                </p>
-                <h3 className="m-0 mt-0.5 text-sm font-semibold">
-                  <a href={appearance.source_url} target="_blank" rel="noreferrer">
-                    {appearance.title.fr}
-                  </a>
-                </h3>
-                <p className="m-0 mt-1 text-xs text-[var(--sea-ink-soft)]">
-                  {`Regarder sur ${new URL(appearance.source_url).hostname}`}
-                </p>
-              </article>
-            ))}
-          </div>
-        </section>
-      ) : null}
-
-      <section className="mt-8">
-        <h2 className="kicker m-0">Décisions</h2>
-        <div className="mt-4 space-y-7">
-          {politicianDecisions.map((decision) => (
-            <DecisionRow key={decision.id} decision={decision} showDate={true} />
-          ))}
-        </div>
-      </section>
-    </Modal>
+    </Panel>
   )
 }

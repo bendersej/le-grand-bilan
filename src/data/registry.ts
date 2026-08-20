@@ -7,7 +7,7 @@ import {
   DecisionsMonthFile,
   PoliticiansFile,
 } from './schema.ts'
-import type { Decision, DecisionRelationType, IsoDate, YearMonth } from './schema.ts'
+import type { Appearance, Decision, DecisionRelationType, IsoDate, YearMonth } from './schema.ts'
 
 // Build-time load of the whole registry: parsing happens at module init, so a data
 // file that breaks the schema fails the build (on top of the vitest data suite).
@@ -40,30 +40,53 @@ const categoriesById = new Map(categories.map((category) => [category.id, catego
 const politiciansById = new Map(politicians.map((politician) => [politician.id, politician]))
 const decisionsById = new Map(allDecisions.map((decision) => [decision.id, decision]))
 
-type TimelineMonth = { month: YearMonth; decisions: Decision[] }
+type TimelineItem =
+  | { kind: 'appearance'; appearance: Appearance }
+  | { kind: 'decision'; decision: Decision }
+type TimelineMonth = { month: YearMonth; items: TimelineItem[] }
 type TimelineYear = { year: string; months: TimelineMonth[] }
 
-const timelineYears = ((): TimelineYear[] => {
-  const monthsDesc: TimelineMonth[] = decisionsMonthFiles
-    .toSorted((a, b) => b.month.localeCompare(a.month))
-    .map((monthFile) => ({
-      month: monthFile.month,
-      decisions: monthFile.decisions.toSorted((a, b) => b.date.localeCompare(a.date)),
-    }))
+// Builds the newest-first year/month structure from any scope of decisions and
+// appearances (the whole registry, or a single politician's story).
+const buildTimelineYears = (scope: {
+  decisions: Decision[]
+  appearances: Appearance[]
+}): TimelineYear[] => {
+  const datedItems: Array<{ date: IsoDate; item: TimelineItem }> = [
+    ...scope.decisions.map((decision) => ({
+      date: decision.date,
+      item: { kind: 'decision' as const, decision },
+    })),
+    ...scope.appearances.map((appearance) => ({
+      date: appearance.date,
+      item: { kind: 'appearance' as const, appearance },
+    })),
+  ].toSorted((a, b) => b.date.localeCompare(a.date))
+
+  const itemsByMonth = new Map<YearMonth, TimelineItem[]>()
+  for (const datedItem of datedItems) {
+    const month = datedItem.date.slice(0, 7)
+    const monthItems = itemsByMonth.get(month)
+    if (monthItems) {
+      monthItems.push(datedItem.item)
+    } else {
+      itemsByMonth.set(month, [datedItem.item])
+    }
+  }
 
   const monthsByYear = new Map<string, TimelineMonth[]>()
-  for (const timelineMonth of monthsDesc) {
-    const year = timelineMonth.month.slice(0, 4)
+  for (const [month, items] of itemsByMonth.entries()) {
+    const year = month.slice(0, 4)
     const yearMonths = monthsByYear.get(year)
     if (yearMonths) {
-      yearMonths.push(timelineMonth)
+      yearMonths.push({ month, items })
     } else {
-      monthsByYear.set(year, [timelineMonth])
+      monthsByYear.set(year, [{ month, items }])
     }
   }
 
   return [...monthsByYear.entries()].map(([year, months]) => ({ year, months }))
-})()
+}
 
 const groupByIds = <TItem extends { date: IsoDate }>(
   items: TItem[],
@@ -88,7 +111,6 @@ const appearancesByPoliticianId = groupByIds(
   allAppearances,
   (appearance) => appearance.politician_ids,
 )
-const decisionsByCategoryId = groupByIds(allDecisions, (decision) => decision.category_ids)
 const decisionsByPoliticianId = groupByIds(allDecisions, (decision) => decision.politician_ids)
 
 type IncomingRelation = { type: DecisionRelationType; decision: Decision }
@@ -110,12 +132,12 @@ const incomingRelationsByDecisionId = ((): Map<string, IncomingRelation[]> => {
 })()
 
 export {
+  allDecisions,
   appearancesByPoliticianId,
+  buildTimelineYears,
   categoriesById,
-  decisionsByCategoryId,
   decisionsById,
   decisionsByPoliticianId,
   incomingRelationsByDecisionId,
   politiciansById,
-  timelineYears,
 }

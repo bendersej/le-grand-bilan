@@ -30,6 +30,23 @@ export const Route = createRootRoute({
         name: 'theme-color',
         content: '#000091',
       },
+      { property: 'og:title', content: 'Le Grand Bilan — Qui a fait quoi. Quand.' },
+      {
+        property: 'og:description',
+        content:
+          'Le registre ouvert des décisions politiques françaises, mois par mois, sourcées et reliées à leurs responsables.',
+      },
+      { property: 'og:type', content: 'website' },
+      { property: 'og:locale', content: 'fr_FR' },
+      // Absolute URL required by crawlers — swap host when the custom domain lands.
+      { property: 'og:image', content: 'https://le-grand-bilan.ben-24c.workers.dev/og-image.jpg' },
+      { property: 'og:image:width', content: '1200' },
+      { property: 'og:image:height', content: '630' },
+      { name: 'twitter:card', content: 'summary_large_image' },
+      {
+        name: 'twitter:image',
+        content: 'https://le-grand-bilan.ben-24c.workers.dev/og-image.jpg',
+      },
     ],
     links: [
       {

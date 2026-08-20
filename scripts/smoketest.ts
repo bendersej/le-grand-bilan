@@ -7,18 +7,18 @@ import { repositoryRoot } from './utils.ts'
 // go green in CI. Run AFTER `pnpm run build` (CI runs it in checks AND in deploy,
 // on the exact artifact wrangler ships).
 // Expectations derive from the data registry itself: the homepage timeline must
-// list every decision inside <main>, and every reachable entity page must render
-// its content inside its modal (role="dialog") — the always-visible timeline
-// satisfies naive whole-page markers on every URL, so only the dialog slice
-// proves the entity route rendered (a throwing route can emit a shell and still
-// exit 0).
+// list every decision inside <main>, and every entity page must render its
+// content in the in-flow panel at the top of the timeline — sliced between the
+// data-panel and data-timeline sentinels, because the always-visible timeline
+// satisfies naive whole-page markers on every URL (a throwing route can emit a
+// shell and still exit 0).
 
 const EXIT_CODES = {
   empty_registry: 4,
-  missing_dialog: 5,
   missing_main: 3,
   missing_marker: 2,
   missing_page: 1,
+  missing_panel: 5,
   ok: 0,
 } as const
 
@@ -62,7 +62,7 @@ type PageExpectation = {
   path: string
   documentMarkers: string[]
   mainMarkers: string[]
-  dialogMarkers: string[]
+  panelMarkers: string[]
 }
 
 const pageExpectations: PageExpectation[] = [
@@ -73,32 +73,32 @@ const pageExpectations: PageExpectation[] = [
       'Qui a fait quoi. Quand.',
       ...decisions.map((decision) => escapeHtml(decision.title.fr)),
     ],
-    dialogMarkers: [],
+    panelMarkers: [],
   },
   {
     path: 'about/index.html',
     documentMarkers: ['lang="fr"'],
     mainMarkers: [],
-    dialogMarkers: ['Un bilan factuel'],
+    panelMarkers: ['Un bilan factuel'],
   },
   ...decisions.map((decision) => ({
     path: `decisions/${decision.id}/index.html`,
     documentMarkers: ['lang="fr"'],
     mainMarkers: [],
-    dialogMarkers: [escapeHtml(decision.title.fr), ...decision.sources.map((source) => source.url)],
+    panelMarkers: [escapeHtml(decision.title.fr), ...decision.sources.map((source) => source.url)],
   })),
   ...politicians
     .filter((politician) => referencedPoliticianIds.has(politician.id))
     .map((politician) => ({
       path: `politiciens/${politician.id}/index.html`,
       documentMarkers: [],
-      mainMarkers: [],
-      dialogMarkers: [
+      // Appearances render in the politician's scoped timeline (main), not the panel.
+      mainMarkers: appearances
+        .filter((appearance) => appearance.politician_ids.includes(politician.id))
+        .map((appearance) => escapeHtml(appearance.title.fr)),
+      panelMarkers: [
         escapeHtml(politician.full_name),
         ...(politician.profile ? [politician.profile.photo.path] : []),
-        ...appearances
-          .filter((appearance) => appearance.politician_ids.includes(politician.id))
-          .map((appearance) => escapeHtml(appearance.title.fr)),
       ],
     })),
 ]
@@ -159,25 +159,26 @@ const checkPage = (pageExpectation: PageExpectation): void => {
     }
   }
 
-  if (pageExpectation.dialogMarkers.length === 0) {
+  if (pageExpectation.panelMarkers.length === 0) {
     return
   }
 
-  const dialogStart = pageHtml.indexOf('role="dialog"')
-  if (dialogStart === -1) {
+  const panelStart = pageHtml.indexOf('data-panel')
+  const timelineStart = pageHtml.indexOf('data-timeline')
+  if (panelStart === -1 || timelineStart === -1 || panelStart > timelineStart) {
     failures.push({
-      exitCode: EXIT_CODES.missing_dialog,
-      message: `smoketest: ${pageExpectation.path} has no modal (role="dialog") — the route likely failed to render`,
+      exitCode: EXIT_CODES.missing_panel,
+      message: `smoketest: ${pageExpectation.path} has no content panel above the timeline — the route likely failed to render`,
     })
     return
   }
 
-  const dialogHtml = pageHtml.slice(dialogStart)
-  for (const marker of pageExpectation.dialogMarkers) {
-    if (!dialogHtml.includes(marker)) {
+  const panelHtml = pageHtml.slice(panelStart, timelineStart)
+  for (const marker of pageExpectation.panelMarkers) {
+    if (!panelHtml.includes(marker)) {
       failures.push({
         exitCode: EXIT_CODES.missing_marker,
-        message: `smoketest: modal of ${pageExpectation.path} does not contain "${marker}"`,
+        message: `smoketest: panel of ${pageExpectation.path} does not contain "${marker}"`,
       })
     }
   }
