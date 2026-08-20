@@ -74,7 +74,8 @@ Cloudflare TanStack Start template, prerender enabled (`vite.config.ts`), France
 
 - Phase 3 leftover: FR/EN language toggle (site currently renders `fr` only; `en` fields are captured in data but not displayed).
 - Registry ships fully in the client bundle (`src/data/registry.ts`); acceptable now, revisit with route-level data splitting once backfill grows the corpus.
-- Phase 4 is next. GitHub repo does not exist yet (Phase 6 blocks end-to-end merge→deploy proof).
+- Phase 4 (submission UI + `/api/submissions` + Turnstile) and Phase 5 (MCP server) not started.
+- Phase 6: repo exists (github.com/bendersej/le-grand-bilan) and workers.dev deploys are proven from local; the CI deploy job still fails pending the `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` Actions secrets (operator), then branch protection and the custom domain (recommended: legrandbilan.fr, available at AFNIC).
 
 ## Decision Log
 
