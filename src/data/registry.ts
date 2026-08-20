@@ -1,8 +1,13 @@
 import { z } from 'zod'
 import categoriesJson from '../../data/categories.json'
 import politiciansJson from '../../data/politicians.json'
-import { CategoriesFile, DecisionsMonthFile, PoliticiansFile } from './schema.ts'
-import type { Decision, DecisionRelationType, YearMonth } from './schema.ts'
+import {
+  AppearancesMonthFile,
+  CategoriesFile,
+  DecisionsMonthFile,
+  PoliticiansFile,
+} from './schema.ts'
+import type { Decision, DecisionRelationType, IsoDate, YearMonth } from './schema.ts'
 
 // Build-time load of the whole registry: parsing happens at module init, so a data
 // file that breaks the schema fails the build (on top of the vitest data suite).
@@ -18,9 +23,18 @@ const decisionsMonthFiles = Object.values(decisionsMonthModules).map(
   (module) => DecisionsMonthModule.parse(module).default,
 )
 
+const appearancesMonthModules = import.meta.glob('../../data/appearances/*.json', { eager: true })
+
+const AppearancesMonthModule = z.object({ default: AppearancesMonthFile })
+
+const appearancesMonthFiles = Object.values(appearancesMonthModules).map(
+  (module) => AppearancesMonthModule.parse(module).default,
+)
+
 const categories = CategoriesFile.parse(categoriesJson).categories
 const politicians = PoliticiansFile.parse(politiciansJson).politicians
 const allDecisions = decisionsMonthFiles.flatMap((monthFile) => monthFile.decisions)
+const allAppearances = appearancesMonthFiles.flatMap((monthFile) => monthFile.appearances)
 
 const categoriesById = new Map(categories.map((category) => [category.id, category]))
 const politiciansById = new Map(politicians.map((politician) => [politician.id, politician]))
@@ -51,26 +65,31 @@ const timelineYears = ((): TimelineYear[] => {
   return [...monthsByYear.entries()].map(([year, months]) => ({ year, months }))
 })()
 
-const groupDecisionsBy = (
-  getGroupIds: (decision: Decision) => string[],
-): Map<string, Decision[]> => {
-  const decisionsByGroupId = new Map<string, Decision[]>()
-  const decisionsDesc = allDecisions.toSorted((a, b) => b.date.localeCompare(a.date))
-  for (const decision of decisionsDesc) {
-    for (const groupId of getGroupIds(decision)) {
-      const groupDecisions = decisionsByGroupId.get(groupId)
-      if (groupDecisions) {
-        groupDecisions.push(decision)
+const groupByIds = <TItem extends { date: IsoDate }>(
+  items: TItem[],
+  getGroupIds: (item: TItem) => string[],
+): Map<string, TItem[]> => {
+  const itemsByGroupId = new Map<string, TItem[]>()
+  const itemsDesc = items.toSorted((a, b) => b.date.localeCompare(a.date))
+  for (const item of itemsDesc) {
+    for (const groupId of getGroupIds(item)) {
+      const groupItems = itemsByGroupId.get(groupId)
+      if (groupItems) {
+        groupItems.push(item)
       } else {
-        decisionsByGroupId.set(groupId, [decision])
+        itemsByGroupId.set(groupId, [item])
       }
     }
   }
-  return decisionsByGroupId
+  return itemsByGroupId
 }
 
-const decisionsByCategoryId = groupDecisionsBy((decision) => decision.category_ids)
-const decisionsByPoliticianId = groupDecisionsBy((decision) => decision.politician_ids)
+const appearancesByPoliticianId = groupByIds(
+  allAppearances,
+  (appearance) => appearance.politician_ids,
+)
+const decisionsByCategoryId = groupByIds(allDecisions, (decision) => decision.category_ids)
+const decisionsByPoliticianId = groupByIds(allDecisions, (decision) => decision.politician_ids)
 
 type IncomingRelation = { type: DecisionRelationType; decision: Decision }
 
@@ -91,6 +110,7 @@ const incomingRelationsByDecisionId = ((): Map<string, IncomingRelation[]> => {
 })()
 
 export {
+  appearancesByPoliticianId,
   categoriesById,
   decisionsByCategoryId,
   decisionsById,

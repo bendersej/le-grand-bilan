@@ -1,6 +1,11 @@
 import { readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import { CategoriesFile, DecisionsMonthFile, PoliticiansFile } from '../src/data/schema.ts'
+import {
+  AppearancesMonthFile,
+  CategoriesFile,
+  DecisionsMonthFile,
+  PoliticiansFile,
+} from '../src/data/schema.ts'
 import { repositoryRoot } from './utils.ts'
 
 // Validates the prerendered build output so an accidentally-empty site can never
@@ -36,6 +41,13 @@ const decisions = readdirSync(join(dataDirectory, 'decisions'))
   .flatMap(
     (fileName) =>
       DecisionsMonthFile.parse(readJson(join(dataDirectory, 'decisions', fileName))).decisions,
+  )
+const appearances = readdirSync(join(dataDirectory, 'appearances'))
+  .toSorted()
+  .flatMap(
+    (fileName) =>
+      AppearancesMonthFile.parse(readJson(join(dataDirectory, 'appearances', fileName)))
+        .appearances,
   )
 
 // Pages only exist when the prerender crawler can reach them through a link, so
@@ -87,7 +99,13 @@ const pageExpectations: PageExpectation[] = [
       path: `politiciens/${politician.id}/index.html`,
       documentMarkers: [],
       mainMarkers: [],
-      dialogMarkers: [escapeHtml(politician.full_name)],
+      dialogMarkers: [
+        escapeHtml(politician.full_name),
+        ...(politician.profile ? [politician.profile.photo.path] : []),
+        ...appearances
+          .filter((appearance) => appearance.politician_ids.includes(politician.id))
+          .map((appearance) => escapeHtml(appearance.title.fr)),
+      ],
     })),
   ...categories
     .filter((category) => referencedCategoryIds.has(category.id))

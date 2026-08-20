@@ -1,12 +1,19 @@
-import { readdirSync, readFileSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
 import { describe, expect, it } from 'vitest'
 import { z } from 'zod'
-import { CategoriesFile, DecisionsMonthFile, PoliticiansFile } from './schema.ts'
+import {
+  AppearancesMonthFile,
+  CategoriesFile,
+  DecisionsMonthFile,
+  PoliticiansFile,
+} from './schema.ts'
 
 const repositoryRoot = join(import.meta.dirname, '..', '..')
 const dataDirectory = join(repositoryRoot, 'data')
+const appearancesDirectory = join(dataDirectory, 'appearances')
 const decisionsDirectory = join(dataDirectory, 'decisions')
+const publicDirectory = join(repositoryRoot, 'public')
 const schemasDirectory = join(repositoryRoot, 'schemas')
 
 const readJson = (filePath: string): unknown => JSON.parse(readFileSync(filePath, 'utf8'))
@@ -20,7 +27,14 @@ const decisionsMonthFiles = decisionsMonthFileNames.map((fileName) => ({
   parsed: DecisionsMonthFile.parse(readJson(join(decisionsDirectory, fileName))),
 }))
 
+const appearancesMonthFileNames = readdirSync(appearancesDirectory).toSorted()
+const appearancesMonthFiles = appearancesMonthFileNames.map((fileName) => ({
+  fileName,
+  parsed: AppearancesMonthFile.parse(readJson(join(appearancesDirectory, fileName))),
+}))
+
 const allDecisions = decisionsMonthFiles.flatMap(({ parsed }) => parsed.decisions)
+const allAppearances = appearancesMonthFiles.flatMap(({ parsed }) => parsed.appearances)
 
 describe('data files', () => {
   it('only contains yyyy-mm.json files in data/decisions', () => {
@@ -29,9 +43,40 @@ describe('data files', () => {
     }
   })
 
+  it('only contains yyyy-mm.json files in data/appearances', () => {
+    for (const fileName of appearancesMonthFileNames) {
+      expect(fileName).toMatch(/^\d{4}-(0[1-9]|1[0-2])\.json$/)
+    }
+  })
+
   it('has a month field matching each file name', () => {
-    for (const { fileName, parsed } of decisionsMonthFiles) {
+    for (const { fileName, parsed } of [...decisionsMonthFiles, ...appearancesMonthFiles]) {
       expect(parsed.month).toBe(fileName.replace(/\.json$/, ''))
+    }
+  })
+
+  it('only contains appearances dated within their file month', () => {
+    for (const { parsed } of appearancesMonthFiles) {
+      for (const appearance of parsed.appearances) {
+        expect(appearance.date.startsWith(`${parsed.month}-`)).toBe(true)
+      }
+    }
+  })
+
+  it('has globally unique appearance ids', () => {
+    const appearanceIds = allAppearances.map((appearance) => appearance.id)
+    expect(new Set(appearanceIds).size).toBe(appearanceIds.length)
+  })
+
+  it('stores every profile photo in public/', () => {
+    for (const politician of politiciansFile.politicians) {
+      if (politician.profile === null) {
+        continue
+      }
+      expect(
+        existsSync(join(publicDirectory, politician.profile.photo.path)),
+        `photo ${politician.profile.photo.path} of ${politician.id} is missing from public/`,
+      ).toBe(true)
     }
   })
 
@@ -103,10 +148,28 @@ describe('referential integrity', () => {
       }
     }
   })
+
+  it('only references known ids from appearances', () => {
+    for (const appearance of allAppearances) {
+      for (const politicianId of appearance.politician_ids) {
+        expect(
+          knownPoliticianIds,
+          `appearance ${appearance.id} references politician ${politicianId}`,
+        ).toContain(politicianId)
+      }
+      for (const decisionId of appearance.decision_ids) {
+        expect(
+          knownDecisionIds,
+          `appearance ${appearance.id} references decision ${decisionId}`,
+        ).toContain(decisionId)
+      }
+    }
+  })
 })
 
 describe('generated JSON Schemas', () => {
   const expectedJsonSchemasByFileName = {
+    'appearances-month.schema.json': z.toJSONSchema(AppearancesMonthFile),
     'categories.schema.json': z.toJSONSchema(CategoriesFile),
     'decisions-month.schema.json': z.toJSONSchema(DecisionsMonthFile),
     'politicians.schema.json': z.toJSONSchema(PoliticiansFile),

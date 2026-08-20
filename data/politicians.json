@@ -7,11 +7,29 @@
       "party": "Horizons",
       "mandates": [
         {
-          "role": { "fr": "Premier ministre", "en": "Prime Minister" },
+          "role": {
+            "fr": "Premier ministre",
+            "en": "Prime Minister"
+          },
           "from": "2017-05-15",
           "to": "2020-07-03"
         }
-      ]
+      ],
+      "profile": {
+        "content_hash": "a36fdfbad3e7bcc28ffa05d3fe0fc583f86377cf9f48490f2c3358561682c912",
+        "photo": {
+          "path": "/media/politicians/edouard-philippe.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Edouard_Philippe_3x4_crop.jpg",
+          "license": "CC0",
+          "author": "Wasasaq8"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Édouard Philippe, né le 28 novembre 1970 à Rouen (Seine-Maritime), est un homme d'État français. Il est Premier ministre du 15 mai 2017 au 3 juillet 2020.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/%C3%89douard_Philippe"
+      }
     },
     {
       "id": "elisabeth-borne",
@@ -19,11 +37,29 @@
       "party": "Renaissance",
       "mandates": [
         {
-          "role": { "fr": "Première ministre", "en": "Prime Minister" },
+          "role": {
+            "fr": "Première ministre",
+            "en": "Prime Minister"
+          },
           "from": "2022-05-16",
           "to": "2024-01-09"
         }
-      ]
+      ],
+      "profile": {
+        "content_hash": "1565cb9432a8383f8f5f9252c0f4bac7ad778adc9a93f7441287ea43436b4df1",
+        "photo": {
+          "path": "/media/politicians/elisabeth-borne.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:La_Premi%C3%A8re_ministre_fran%C3%A7aise_%C3%89lisabeth_Borne_(cropped).jpg",
+          "license": "Licence Ouverte",
+          "author": "Benoît Granier"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Élisabeth Borne, née le 18 avril 1961 à Paris 15e (Seine), est une haute fonctionnaire et femme d'État française. Elle est Première ministre du 16 mai 2022 au 9 janvier 2024.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_Borne"
+      }
     },
     {
       "id": "emmanuel-macron",
@@ -31,11 +67,29 @@
       "party": "Renaissance",
       "mandates": [
         {
-          "role": { "fr": "Président de la République", "en": "President of the Republic" },
+          "role": {
+            "fr": "Président de la République",
+            "en": "President of the Republic"
+          },
           "from": "2017-05-14",
           "to": null
         }
-      ]
+      ],
+      "profile": {
+        "content_hash": "d7d558f07fc2a5296d92f1e7c23bb71b4c6feb3cc64057ee8de387dc8f4587d0",
+        "photo": {
+          "path": "/media/politicians/emmanuel-macron.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_2025_(cropped).jpg",
+          "license": "Public domain",
+          "author": "Nebojša Tejić"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Emmanuel Macron, né le 21 décembre 1977 à Amiens (Somme), est un homme d'État français. Il est le président de la République française depuis le 14 mai 2017.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Emmanuel_Macron"
+      }
     },
     {
       "id": "francois-hollande",
@@ -43,11 +97,29 @@
       "party": "Parti socialiste",
       "mandates": [
         {
-          "role": { "fr": "Président de la République", "en": "President of the Republic" },
+          "role": {
+            "fr": "Président de la République",
+            "en": "President of the Republic"
+          },
           "from": "2012-05-15",
           "to": "2017-05-14"
         }
-      ]
+      ],
+      "profile": {
+        "content_hash": "2c6f7be3c863045f55f864cb28642590a2a6c29f091de02738bce8582f8bc0d9",
+        "photo": {
+          "path": "/media/politicians/francois-hollande.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Hollande_-_Ceremony_of_Honour_for_Jacques_Delors_-_2024.jpg",
+          "license": "CC BY 4.0",
+          "author": "Christophe Licoppe / European Union, 2024 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "François Hollande [fʁɑ̃swa ɔlɑ̃d], né le 12 août 1954 à Rouen (Seine-Inférieure), est un haut fonctionnaire et homme d'État français. Il est président de la République française du 15 mai 2012 au 14 mai 2017.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Hollande"
+      }
     },
     {
       "id": "manuel-valls",
@@ -55,11 +127,29 @@
       "party": "Parti socialiste",
       "mandates": [
         {
-          "role": { "fr": "Premier ministre", "en": "Prime Minister" },
+          "role": {
+            "fr": "Premier ministre",
+            "en": "Prime Minister"
+          },
           "from": "2014-03-31",
           "to": "2016-12-06"
         }
-      ]
+      ],
+      "profile": {
+        "content_hash": "b981bcf9ee9772c3fa58b5467b9ba58f2fde714fb51e14db5e66c05befb826e3",
+        "photo": {
+          "path": "/media/politicians/manuel-valls.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Manuel_Valls_2025_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Nicolas Kovarik / European Union, 2025 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Manuel Valls, né le 13 août 1962 à Barcelone (Espagne), est un homme d'État français, possédant également la nationalité espagnole. Il est Premier ministre de 2014 à 2016.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Manuel_Valls"
+      }
     },
     {
       "id": "muriel-penicaud",
@@ -67,11 +157,29 @@
       "party": "Renaissance",
       "mandates": [
         {
-          "role": { "fr": "Ministre du Travail", "en": "Minister of Labour" },
+          "role": {
+            "fr": "Ministre du Travail",
+            "en": "Minister of Labour"
+          },
           "from": "2017-05-17",
           "to": "2020-07-06"
         }
-      ]
+      ],
+      "profile": {
+        "content_hash": "54c2296c110912a651aa43259c8fa0dc43fee90c9ca433666cba1b4d82441245",
+        "photo": {
+          "path": "/media/politicians/muriel-penicaud.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_Muriel_P%C3%A9nicaud_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "author": "Frédéric Blanc"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Muriel Pénicaud, née le 31 mars 1955 à Versailles, est une dirigeante d’entreprise, haute fonctionnaire et femme politique française.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Muriel_P%C3%A9nicaud"
+      }
     },
     {
       "id": "myriam-el-khomri",
@@ -79,11 +187,29 @@
       "party": "Parti socialiste",
       "mandates": [
         {
-          "role": { "fr": "Ministre du Travail", "en": "Minister of Labour" },
+          "role": {
+            "fr": "Ministre du Travail",
+            "en": "Minister of Labour"
+          },
           "from": "2015-09-02",
           "to": "2017-05-10"
         }
-      ]
+      ],
+      "profile": {
+        "content_hash": "22320de6a497f023f441cadd744d70256fff3ca44945cccc4eb6abfbdd384a33",
+        "photo": {
+          "path": "/media/politicians/myriam-el-khomri.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Myriam_El_Khomri_par_Claude_Truong-Ngoc_septembre_2014.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Photo Claude TRUONG-NGOC"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Myriam El Khomri, née le 18 février 1978 à Rabat (Maroc), est une femme politique française.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Myriam_El_Khomri"
+      }
     },
     {
       "id": "olivier-dussopt",
@@ -91,11 +217,29 @@
       "party": "Renaissance",
       "mandates": [
         {
-          "role": { "fr": "Ministre du Travail", "en": "Minister of Labour" },
+          "role": {
+            "fr": "Ministre du Travail",
+            "en": "Minister of Labour"
+          },
           "from": "2022-05-20",
           "to": "2024-01-11"
         }
-      ]
+      ],
+      "profile": {
+        "content_hash": "32c4996e3974a908cf8eb426775619354170f4cd09e93c718e6a53d027c7bc01",
+        "photo": {
+          "path": "/media/politicians/olivier-dussopt.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Olivier_Dussopt_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Pierre Antoine"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Olivier Dussopt, né le 16 août 1978 à Annonay (Ardèche), est un homme politique français.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Olivier_Dussopt"
+      }
     }
   ]
 }

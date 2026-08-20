@@ -10,8 +10,8 @@
         "en": "Labour Law (El Khomri Law)"
       },
       "summary": {
-        "fr": "Loi n° 2016-1088 relative au travail, à la modernisation du dialogue social et à la sécurisation des parcours professionnels. Donne la primauté à la négociation collective d'entreprise sur de nombreux sujets (temps de travail notamment) et réécrit une partie du code du travail.",
-        "en": "Law no. 2016-1088 on labour, the modernisation of social dialogue and the securing of professional careers. Gives primacy to company-level collective bargaining on many topics (working time in particular) and rewrites part of the labour code."
+        "fr": "Loi n° 2016-1088 relative au travail, à la modernisation du dialogue social et à la sécurisation des parcours professionnels. Donne la **primauté à la négociation collective d'entreprise** sur de nombreux sujets (**temps de travail** notamment) et **réécrit une partie du code du travail**.",
+        "en": "Law no. 2016-1088 on labour, the modernisation of social dialogue and the securing of professional careers. Gives **primacy to company-level collective bargaining** on many topics (**working time** in particular) and **rewrites part of the labour code**."
       },
       "category_ids": ["economie", "travail"],
       "politician_ids": ["myriam-el-khomri", "manuel-valls", "francois-hollande"],

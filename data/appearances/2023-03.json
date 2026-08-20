@@ -1,0 +1,23 @@
+{
+  "$schema": "../../schemas/appearances-month.schema.json",
+  "month": "2023-03",
+  "appearances": [
+    {
+      "id": "borne-49-3-retraites-2023",
+      "date": "2023-03-16",
+      "title": {
+        "fr": "Élisabeth Borne annonce le recours au 49.3 sur la réforme des retraites",
+        "en": "Élisabeth Borne announces the use of article 49.3 on the pension reform"
+      },
+      "politician_ids": ["elisabeth-borne"],
+      "decision_ids": ["reforme-retraites-2023"],
+      "source_url": "https://www.youtube.com/watch?v=5LObEh9FXSw",
+      "media": {
+        "archived_at": "2026-08-20",
+        "content_type": "video/mp4",
+        "r2_key": "appearances/borne-49-3-retraites-2023.mp4",
+        "sha256": "55af85d5ac88974160062071beb2a6305151bc2af141678edd5a1620396a0f30"
+      }
+    }
+  ]
+}
