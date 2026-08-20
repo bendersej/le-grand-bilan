@@ -41,7 +41,7 @@ export default function DecisionRow({
     <article className="grid gap-2 sm:grid-cols-[240px_minmax(0,1fr)] sm:gap-6">
       <div className="flex items-start gap-3">
         {mainPolitician ? (
-          <div className="flex w-[4.25rem] flex-none flex-col gap-1">
+          <div className="flex w-[4.5rem] flex-none flex-col gap-0.5">
             <Link
               to="/politiciens/$politicianId"
               params={{ politicianId: mainPolitician.id }}
@@ -60,7 +60,7 @@ export default function DecisionRow({
               )}
             </Link>
             {otherPoliticians.length > 0 ? (
-              <div className="flex gap-1">
+              <div className="flex">
                 {visibleOtherPoliticians.map((politician) => (
                   <Link
                     key={politician.id}
