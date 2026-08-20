@@ -39,14 +39,14 @@ export const Route = createRootRoute({
       },
       { property: 'og:type', content: 'website' },
       { property: 'og:locale', content: 'fr_FR' },
-      // Absolute URL required by crawlers: swap host when the custom domain lands.
-      { property: 'og:image', content: 'https://le-grand-bilan.ben-24c.workers.dev/og-image.jpg' },
+      // Absolute URL required by crawlers.
+      { property: 'og:image', content: 'https://legrandbilan.fr/og-image.jpg' },
       { property: 'og:image:width', content: '1200' },
       { property: 'og:image:height', content: '630' },
       { name: 'twitter:card', content: 'summary_large_image' },
       {
         name: 'twitter:image',
-        content: 'https://le-grand-bilan.ben-24c.workers.dev/og-image.jpg',
+        content: 'https://legrandbilan.fr/og-image.jpg',
       },
     ],
     links: [

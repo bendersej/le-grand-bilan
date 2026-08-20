@@ -33,7 +33,7 @@ Set with `wrangler secret put <NAME>`:
 
 ## Domain
 
-Currently served on the `workers.dev` subdomain. When a custom domain is chosen, add a `routes` entry to `wrangler.jsonc`.
+Served on `legrandbilan.fr` (+ `www`) via Worker custom domains (`routes` in `wrangler.jsonc`); Cloudflare manages DNS and TLS. Registration stays at Gandi with nameservers delegated to Cloudflare. The `workers.dev` URL is disabled once the domain is verified.
 
 ## Local
 
