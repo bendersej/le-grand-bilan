@@ -133,12 +133,16 @@ function TimelineLayout() {
         </p>
       ) : null}
 
-      <div data-timeline className="mt-8 space-y-14 border-l border-[var(--line)] pl-5 sm:pl-8">
+      <div
+        data-timeline
+        className="ml-20 mt-8 space-y-14 border-l border-[var(--line)] pl-5 sm:ml-24 sm:pl-8"
+      >
         {visibleYears.map((timelineYear) => (
           <section key={timelineYear.year}>
-            {/* Year and month stick under the header, hugging the right edge so
-                they never cover the politician photos on the left. */}
-            <h2 className="display-title sticky top-16 z-20 m-0 ml-auto w-fit bg-[var(--bg-base)] py-1 pl-2 text-right text-4xl font-bold text-[var(--lagoon-deep)]">
+            {/* Year and month live in the gutter LEFT of the rail (zero-height
+                boxes translated across it) and stick under the header, so the
+                current position reads "Août | [row]" at any scroll depth. */}
+            <h2 className="display-title sticky top-16 z-20 m-0 h-0 w-fit -translate-x-[calc(100%+1.8rem)] text-2xl font-bold text-[var(--lagoon-deep)] sm:-translate-x-[calc(100%+2.5rem)] sm:text-3xl">
               {timelineYear.year}
             </h2>
             {timelineYear.months.map((timelineMonth) => (
@@ -147,7 +151,7 @@ function TimelineLayout() {
                 id={timelineMonth.month}
                 className="mt-6 scroll-mt-4"
               >
-                <p className="kicker sticky top-[6.875rem] z-10 m-0 ml-auto w-fit bg-[var(--bg-base)] py-1 pl-2 text-right">
+                <p className="kicker sticky top-[6.25rem] z-10 m-0 h-0 w-fit -translate-x-[calc(100%+1.8rem)] sm:-translate-x-[calc(100%+2.5rem)]">
                   {formatMonthLabel(timelineMonth.month)}
                 </p>
                 <div className="mt-4 space-y-7">
