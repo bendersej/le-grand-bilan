@@ -28,7 +28,10 @@ export default function DecisionRow({
   })
   const mainPolitician = rowPoliticians[0] ?? null
   const otherPoliticians = rowPoliticians.slice(1)
-  const visibleOtherPoliticians = otherPoliticians.slice(0, 3)
+  // The row below the main photo holds exactly 3 tiles: all others when they
+  // fit, otherwise 2 photos + a "+N" tile.
+  const visibleOtherPoliticians =
+    otherPoliticians.length <= 3 ? otherPoliticians : otherPoliticians.slice(0, 2)
   const overflowCount = otherPoliticians.length - visibleOtherPoliticians.length
   // The month anchors the timeline scroll position in shared URLs: fresh loads
   // scroll to it natively, in-session clicks skip the jump (hashScrollIntoView).
@@ -38,7 +41,7 @@ export default function DecisionRow({
     <article className="grid gap-2 sm:grid-cols-[240px_minmax(0,1fr)] sm:gap-6">
       <div className="flex items-start gap-3">
         {mainPolitician ? (
-          <div className="flex w-20 flex-none flex-col gap-1">
+          <div className="flex w-[4.25rem] flex-none flex-col gap-1">
             <Link
               to="/politiciens/$politicianId"
               params={{ politicianId: mainPolitician.id }}

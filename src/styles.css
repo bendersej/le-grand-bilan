@@ -152,9 +152,10 @@ a:hover {
   color: var(--sea-ink-soft);
 }
 
+/* Main square width = exactly three small tiles + two gaps (3 × 1.25rem + 2 × 0.25rem). */
 .photo-chip-main {
-  width: 5rem;
-  height: 5rem;
+  width: 4.25rem;
+  height: 4.25rem;
 }
 
 .photo-chip-main:hover {
