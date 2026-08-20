@@ -54,6 +54,10 @@
         {
           "type": "related",
           "decision_id": "loi-de-finances-2026"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-speciale-2024"
         }
       ]
     },

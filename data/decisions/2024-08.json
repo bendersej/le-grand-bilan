@@ -1,0 +1,32 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2024-08",
+  "decisions": [
+    {
+      "id": "refus-gouvernement-nfp-2024",
+      "date": "2024-08-26",
+      "title": {
+        "fr": "Refus de nommer un gouvernement du Nouveau Front populaire",
+        "en": "Refusal to appoint a Nouveau Front populaire government"
+      },
+      "summary": {
+        "fr": "À l'issue de deux cycles de **consultations des partis et des présidents des deux chambres**, Emmanuel Macron **écarte la nomination d'un gouvernement fondé sur le seul programme du Nouveau Front populaire**, pourtant arrivé en tête des législatives, au motif qu'il serait **« immédiatement censuré »** par plus de **350 députés** et menacerait la **stabilité institutionnelle** ; les consultations se poursuivent et la gestion des affaires courantes se prolonge, sept semaines après la démission du gouvernement Attal.",
+        "en": "After two rounds of **consultations with party leaders and the presidents of both chambers**, Emmanuel Macron **ruled out appointing a government based solely on the Nouveau Front populaire programme**, although it had come first in the legislative elections, on the grounds that it would be **\"immediately censured\"** by more than **350 MPs** and would threaten **institutional stability**; consultations continued and the caretaker period stretched on, seven weeks after the Attal government's resignation."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2024/08/26/communique-suite-aux-consultations-avec-les-responsables-des-partis-et-les-presidents-des-deux-chambres-des-23-et-26-aout-2024",
+          "title": "Communiqué suite aux consultations des 23 et 26 août 2024 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "demission-gouvernement-attal-2024"
+        }
+      ]
+    }
+  ]
+}

@@ -25,7 +25,16 @@
           "title": "Dossier législatif : projet de loi de finances pour 2025 - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-speciale-2024"
+        },
+        {
+          "type": "related",
+          "decision_id": "censure-gouvernement-barnier-2024"
+        }
+      ]
     },
     {
       "id": "loi-urgence-mayotte-2025",

@@ -1,0 +1,119 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2024-05",
+  "decisions": [
+    {
+      "id": "loi-derives-sectaires-2024",
+      "date": "2024-05-10",
+      "title": {
+        "fr": "Loi contre les dérives sectaires",
+        "en": "Law against sectarian abuse"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-420, portée par Sabrina Agresti-Roubache : création d'un **délit de placement ou de maintien en état de sujétion psychologique ou physique** (jusqu'à **3 ans d'emprisonnement et 375 000 euros d'amende**), d'un **délit de provocation à l'abandon de soins** ou à l'adoption de pratiques dangereuses présentées comme thérapeutiques, visant les « gourous 2.0 », et **consécration législative de la Miviludes**. Le Conseil constitutionnel a censuré un article comme cavalier et validé les deux nouveaux délits (décision n° 2024-865 DC).",
+        "en": "Law no. 2024-420, carried by Sabrina Agresti-Roubache: creation of an **offence of placing or keeping a person in a state of psychological or physical subjection** (up to **3 years in prison and a 375,000 euro fine**), of an **offence of inciting the abandonment of medical treatment** or the adoption of dangerous practices presented as therapeutic, aimed at online \"gurus 2.0\", and **statutory recognition of the Miviludes** watchdog. The Constitutional Council struck one article as a rider and upheld both new offences (decision no. 2024-865 DC)."
+      },
+      "category_ids": ["justice", "sante"],
+      "politician_ids": ["sabrina-agresti-roubache", "gerald-darmanin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049523123",
+          "title": "LOI n° 2024-420 du 10 mai 2024 visant à renforcer la lutte contre les dérives sectaires - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl23-111.html",
+          "title": "Dossier législatif : lutte contre les dérives sectaires - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2024/2024865DC.htm",
+          "title": "Décision n° 2024-865 DC du 7 mai 2024 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "etat-urgence-nouvelle-caledonie-2024",
+      "date": "2024-05-15",
+      "title": {
+        "fr": "État d'urgence en Nouvelle-Calédonie",
+        "en": "State of emergency in New Caledonia"
+      },
+      "summary": {
+        "fr": "Décrets n° 2024-436 et n° 2024-437 : après les **émeutes déclenchées le 13 mai** par l'examen de la révision constitutionnelle sur le **dégel du corps électoral**, l'**état d'urgence** de la loi du 3 avril 1955 est déclaré sur **l'ensemble du territoire de la Nouvelle-Calédonie** à compter du 15 mai à 20 heures (heure de Paris), permettant assignations à résidence, interdictions de réunion et perquisitions. Non prorogé par une loi, il prend fin le **28 mai** ; la révision constitutionnelle ne sera **jamais soumise au Congrès**.",
+        "en": "Decrees no. 2024-436 and no. 2024-437: after the **riots triggered on 13 May** by the constitutional revision **unfreezing the electoral roll**, the **state of emergency** of the law of 3 April 1955 was declared over the **whole territory of New Caledonia** from 15 May at 8 pm Paris time, allowing house arrests, bans on gatherings and searches. Not extended by statute, it lapsed on **28 May**; the constitutional revision was **never submitted to Congress**."
+      },
+      "category_ids": ["institutions", "securite"],
+      "politician_ids": ["emmanuel-macron", "gabriel-attal", "gerald-darmanin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049537533",
+          "title": "Décret n° 2024-436 du 15 mai 2024 portant application de la loi n° 55-385 du 3 avril 1955 - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049537542",
+          "title": "Décret n° 2024-437 du 15 mai 2024 relatif à l'application de la loi n° 55-385 du 3 avril 1955 - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-report-elections-nouvelle-caledonie-2024"
+        }
+      ]
+    },
+    {
+      "id": "loi-sren-2024",
+      "date": "2024-05-21",
+      "title": {
+        "fr": "Loi SREN sur la régulation de l'espace numérique",
+        "en": "SREN law regulating the digital space"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-449, présentée par Jean-Noël Barrot puis portée par Marina Ferrari : l'**Arcom** peut ordonner sans juge le **blocage et le déréférencement des sites pornographiques** qui ne vérifient pas l'âge de leurs visiteurs ; **peine complémentaire de bannissement des réseaux sociaux** jusqu'à 6 mois en cas de condamnation pour cyberharcèlement ; **filtre national anti-arnaques** ; plafonnement des frais de transfert et des avoirs **cloud** contre le verrouillage des clients. Le Conseil constitutionnel a censuré **cinq articles**, dont le **délit d'outrage en ligne**, jugé contraire à la liberté d'expression (décision n° 2024-866 DC).",
+        "en": "Law no. 2024-449, presented by Jean-Noël Barrot and carried through by Marina Ferrari: the **Arcom** regulator can order, without a judge, the **blocking and delisting of pornographic sites** that do not verify visitors' age; an **additional penalty banning convicted cyberharassers from social networks** for up to 6 months; a **national anti-scam filter**; caps on **cloud** transfer fees and credits against vendor lock-in. The Constitutional Council struck down **five articles**, including the **online contempt offence**, held contrary to freedom of expression (decision no. 2024-866 DC)."
+      },
+      "category_ids": ["numerique", "securite"],
+      "politician_ids": ["marina-ferrari", "gabriel-attal"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049563368",
+          "title": "LOI n° 2024-449 du 21 mai 2024 visant à sécuriser et à réguler l'espace numérique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl22-593.html",
+          "title": "Dossier législatif : sécuriser et réguler l'espace numérique - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2024/2024866DC.htm",
+          "title": "Décision n° 2024-866 DC du 17 mai 2024 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-surete-nucleaire-2024",
+      "date": "2024-05-21",
+      "title": {
+        "fr": "Loi fusionnant l'ASN et l'IRSN",
+        "en": "Law merging the ASN and IRSN nuclear safety bodies"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-450 : **fusion de l'Autorité de sûreté nucléaire (ASN) et de l'Institut de radioprotection et de sûreté nucléaire (IRSN)** au sein d'une autorité indépendante unique, l'**ASNR** (environ **2 000 agents**), au **1er janvier 2025**, pour accompagner la relance de la filière nucléaire ; le haut-commissaire à l'énergie atomique est rattaché au Premier ministre. Le texte a été validé en totalité par le Conseil constitutionnel (décision n° 2024-868 DC).",
+        "en": "Law no. 2024-450: **merger of the Nuclear Safety Authority (ASN) and the Institute for Radiation Protection and Nuclear Safety (IRSN)** into a single independent authority, the **ASNR** (around **2,000 staff**), on **1 January 2025**, to support the relaunch of the nuclear industry; the high commissioner for atomic energy is attached to the Prime Minister. The text was upheld in full by the Constitutional Council (decision no. 2024-868 DC)."
+      },
+      "category_ids": ["energie"],
+      "politician_ids": ["roland-lescure", "bruno-le-maire"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049563783",
+          "title": "LOI n° 2024-450 du 21 mai 2024 relative à l'organisation de la gouvernance de la sûreté nucléaire et de la radioprotection - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl23-229.html",
+          "title": "Dossier législatif : gouvernance de la sûreté nucléaire et de la radioprotection - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,176 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2024-12",
+  "decisions": [
+    {
+      "id": "censure-gouvernement-barnier-2024",
+      "date": "2024-12-04",
+      "title": {
+        "fr": "Censure du gouvernement Barnier",
+        "en": "Censure of the Barnier government"
+      },
+      "summary": {
+        "fr": "Après l'engagement de responsabilité (**article 49.3**) de Michel Barnier le 2 décembre sur le projet de loi de financement de la sécurité sociale pour 2025, l'Assemblée nationale adopte la **motion de censure par 331 voix** (seuil de 288), votée par le Nouveau Front populaire et le Rassemblement national : c'est la **première censure aboutie depuis 1962**. Michel Barnier remet sa démission le lendemain ; son gouvernement, **le plus bref de la Ve République**, expédie les affaires courantes, laissant la France **sans budget voté pour 2025**.",
+        "en": "After Michel Barnier staked his government's survival (**article 49.3**) on the 2025 social security financing bill on 2 December, the National Assembly adopted the **censure motion with 331 votes** (288 required), backed by the Nouveau Front populaire and the Rassemblement national: the **first successful censure since 1962**. Michel Barnier resigned the next day; his government, **the shortest-lived of the Fifth Republic**, stayed on in a caretaker role, leaving France **without an enacted 2025 budget**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["michel-barnier", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/17/scrutins/519",
+          "title": "Analyse du scrutin n° 519 du 4 décembre 2024 (motion de censure) - Assemblée nationale"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050748889",
+          "title": "Décret du 5 décembre 2024 relatif à la cessation des fonctions du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "presentation-budget-2025-2024"
+        },
+        {
+          "type": "related",
+          "decision_id": "gouvernement-barnier-2024"
+        }
+      ]
+    },
+    {
+      "id": "loi-fin-gestion-2024",
+      "date": "2024-12-06",
+      "title": {
+        "fr": "Loi de finances de fin de gestion pour 2024",
+        "en": "End-of-year budget adjustment law for 2024"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-1167, promulguée **deux jours après la censure** du gouvernement Barnier : elle arrête les dernières prévisions pour 2024, avec un **déficit public porté à 6,1 % du PIB** pour une **croissance de 1,1 %** et une inflation de 2,1 %, et procède aux ajustements de crédits de fin d'exercice.",
+        "en": "Law no. 2024-1167, promulgated **two days after the censure** of the Barnier government: it sets the final 2024 forecasts, with the **public deficit raised to 6.1% of GDP** on **1.1% growth** and 2.1% inflation, and makes the end-of-year appropriation adjustments."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["antoine-armand", "laurent-saint-martin", "michel-barnier"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050754939",
+          "title": "LOI n° 2024-1167 du 6 décembre 2024 de finances de fin de gestion pour 2024 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl24-155.html",
+          "title": "Dossier législatif : projet de loi de finances de fin de gestion pour 2024 - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "nomination-bayrou-2024",
+      "date": "2024-12-13",
+      "title": {
+        "fr": "Nomination de François Bayrou à Matignon",
+        "en": "Appointment of François Bayrou as Prime Minister"
+      },
+      "summary": {
+        "fr": "Emmanuel Macron nomme Premier ministre **François Bayrou**, président du **MoDem** et allié de la première heure de la majorité présidentielle : **quatrième chef de gouvernement de l'année 2024**, après Élisabeth Borne, Gabriel Attal et Michel Barnier, il est chargé de former un gouvernement capable d'échapper à la censure et de **doter la France d'un budget pour 2025**.",
+        "en": "Emmanuel Macron appointed **François Bayrou**, president of the **MoDem** party and long-standing ally of the presidential majority, Prime Minister: the **fourth head of government of 2024**, after Élisabeth Borne, Gabriel Attal and Michel Barnier, tasked with forming a government able to survive censure and to **give France a 2025 budget**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050774288",
+          "title": "Décret du 13 décembre 2024 portant nomination du Premier ministre - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "censure-gouvernement-barnier-2024"
+        }
+      ]
+    },
+    {
+      "id": "loi-organique-audiovisuel-2024",
+      "date": "2024-12-13",
+      "title": {
+        "fr": "Réforme du financement de l'audiovisuel public",
+        "en": "Reform of public broadcasting funding"
+      },
+      "summary": {
+        "fr": "Loi organique n° 2024-1177, issue de la proposition des sénateurs Cédric Vial et Catherine Morin-Desailly et soutenue par Rachida Dati : la LOLF est modifiée pour permettre l'**affectation pérenne d'une fraction d'imposition** (en pratique une part de **TVA**) à **France Télévisions, Radio France** et aux autres organismes de l'audiovisuel public, en remplacement du dispositif transitoire issu de la **suppression de la redevance**, qui expirait au 31 décembre 2024. Jugée conforme par le Conseil constitutionnel (décision n° 2024-873 DC).",
+        "en": "Organic law no. 2024-1177, from senators Cédric Vial and Catherine Morin-Desailly's bill supported by Rachida Dati: the organic budget law is amended to allow the **permanent allocation of a share of a tax** (in practice a fraction of **VAT**) to **France Télévisions, Radio France** and the other public broadcasters, replacing the stopgap that followed the **abolition of the licence fee** and expired on 31 December 2024. Held constitutional by the Constitutional Council (decision no. 2024-873 DC)."
+      },
+      "category_ids": ["culture"],
+      "politician_ids": ["rachida-dati", "michel-barnier"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050774292",
+          "title": "LOI organique n° 2024-1177 du 13 décembre 2024 portant réforme du financement de l'audiovisuel public - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-720.html",
+          "title": "Dossier législatif : réforme du financement de l'audiovisuel public - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2024/2024873DC.htm",
+          "title": "Décision n° 2024-873 DC du 12 décembre 2024 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-speciale-2024",
+      "date": "2024-12-20",
+      "title": {
+        "fr": "Loi spéciale de continuité budgétaire pour 2025",
+        "en": "Special law ensuring budget continuity for 2025"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-1188, prévue par l'**article 45 de la LOLF** et **première du genre depuis 1979** : faute de budget 2025 adopté après la censure du gouvernement Barnier, elle autorise l'État à **continuer de percevoir les impôts existants**, l'État et la sécurité sociale à **emprunter**, et ouvre environ **45 milliards d'euros** de versements aux collectivités territoriales ; les amendements visant à indexer le barème de l'impôt sur le revenu ont été jugés hors du champ du texte.",
+        "en": "Law no. 2024-1188, provided for by **article 45 of the organic budget law (LOLF)** and the **first of its kind since 1979**: with no 2025 budget adopted after the censure of the Barnier government, it authorises the State to **keep collecting existing taxes**, the State and social security to **borrow**, and opens about **45 billion euros** of payments to local authorities; amendments to index the income tax brackets were ruled outside the scope of the text."
+      },
+      "category_ids": ["economie", "institutions"],
+      "politician_ids": ["antoine-armand", "laurent-saint-martin", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050805059",
+          "title": "LOI n° 2024-1188 du 20 décembre 2024 spéciale prévue par l'article 45 de la LOLF - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl24-207.html",
+          "title": "Dossier législatif : projet de loi spéciale prévue par l'article 45 de la LOLF - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "censure-gouvernement-barnier-2024"
+        }
+      ]
+    },
+    {
+      "id": "gouvernement-bayrou-2024",
+      "date": "2024-12-23",
+      "title": {
+        "fr": "Formation du gouvernement Bayrou",
+        "en": "Formation of the Bayrou government"
+      },
+      "summary": {
+        "fr": "Décret de composition du gouvernement Bayrou, avec quatre **ministres d'État** : **Élisabeth Borne à l'Éducation nationale**, **Manuel Valls aux Outre-mer**, **Gérald Darmanin à la Justice** et **Bruno Retailleau à l'Intérieur** ; **Éric Lombard** est nommé à l'Économie et **Catherine Vautrin** au Travail, à la Santé et aux Solidarités, Sébastien Lecornu restant aux Armées et Rachida Dati à la Culture. La priorité affichée du gouvernement est l'**adoption du budget 2025** au début de l'année.",
+        "en": "Composition decree of the Bayrou government, with four **ministers of State**: **Élisabeth Borne at National Education**, **Manuel Valls at Overseas Territories**, **Gérald Darmanin at Justice** and **Bruno Retailleau at the Interior**; **Éric Lombard** was appointed to the Economy and **Catherine Vautrin** to Labour, Health and Solidarity, with Sébastien Lecornu staying at Defence and Rachida Dati at Culture. The government's stated priority was the **adoption of the 2025 budget** early in the new year."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "francois-bayrou"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050822328",
+          "title": "Décret du 23 décembre 2024 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "nomination-bayrou-2024"
+        }
+      ]
+    }
+  ]
+}

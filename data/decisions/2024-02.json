@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2024-02",
+  "decisions": [
+    {
+      "id": "loi-droit-image-enfants-2024",
+      "date": "2024-02-19",
+      "title": {
+        "fr": "Loi sur le droit à l'image des enfants",
+        "en": "Law on children's image rights"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-120, issue de la proposition du député Bruno Studer : la **protection de la vie privée et du droit à l'image de l'enfant** entre explicitement dans les attributs de l'**autorité parentale** (article 371-1 du code civil), les deux parents doivent **exercer en commun le droit à l'image** de l'enfant en l'associant selon son âge, et le juge peut **interdire à un parent de publier** des contenus le concernant ou, dans les cas les plus graves, **déléguer l'exercice de ce droit** à un tiers.",
+        "en": "Law no. 2024-120, from MP Bruno Studer's bill: the **protection of a child's privacy and image rights** is explicitly written into **parental authority** (article 371-1 of the civil code), both parents must **jointly exercise the child's image rights** and involve the child according to their age, and a judge can **bar one parent from publishing** content about the child or, in the most serious cases, **delegate the exercise of that right** to a third party."
+      },
+      "category_ids": ["justice", "numerique"],
+      "politician_ids": ["bruno-studer", "eric-dupond-moretti"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049163317",
+          "title": "LOI n° 2024-120 du 19 février 2024 visant à garantir le respect du droit à l'image des enfants - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl22-396.html",
+          "title": "Dossier législatif : respect du droit à l'image des enfants - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "decret-annulation-credits-2024",
+      "date": "2024-02-21",
+      "title": {
+        "fr": "Annulation de 10 milliards d'euros de crédits budgétaires",
+        "en": "Cancellation of 10 billion euros of budget appropriations"
+      },
+      "summary": {
+        "fr": "Décret n° 2024-124, pris après l'abaissement de la prévision de croissance pour 2024 de **1,4 % à 1 %** annoncé par Bruno Le Maire : **10 milliards d'euros d'autorisations d'engagement** et **10,18 milliards d'euros de crédits de paiement** sont **annulés** sur le budget 2024, par simple décret au titre de l'**article 14 de la LOLF**, sans loi de finances rectificative.",
+        "en": "Decree no. 2024-124, taken after Bruno Le Maire announced the 2024 growth forecast was cut from **1.4% to 1%**: **10 billion euros of commitment authorisations** and **10.18 billion euros of payment appropriations** were **cancelled** in the 2024 budget by simple decree under **article 14 of the organic budget law (LOLF)**, without an amending budget bill."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["bruno-le-maire", "gabriel-attal"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049180270",
+          "title": "Décret n° 2024-124 du 21 février 2024 portant annulation de crédits - Légifrance"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

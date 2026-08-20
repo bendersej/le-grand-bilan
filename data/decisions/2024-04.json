@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2024-04",
+  "decisions": [
+    {
+      "id": "loi-bien-vieillir-2024",
+      "date": "2024-04-08",
+      "title": {
+        "fr": "Loi bien vieillir",
+        "en": "Healthy ageing law"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-317 : création d'une **Conférence nationale de l'autonomie**, d'une **carte professionnelle pour les aides à domicile** (à compter de 2025) et d'un **circuit de signalement des maltraitances** envers les personnes âgées et handicapées ; les résidents d'EHPAD obtiennent le **droit d'accueillir leur animal de compagnie**. La **loi de programmation sur le grand âge** que le texte prévoyait avant fin 2024 n'a jamais été déposée, la dissolution étant intervenue entre-temps.",
+        "en": "Law no. 2024-317: creation of a **National Autonomy Conference**, of a **professional card for home-care workers** (from 2025) and of a **reporting channel for the mistreatment** of elderly and disabled people; nursing-home residents gain the **right to keep their pets**. The **old-age programming law** the text promised before the end of 2024 was never tabled, as the dissolution intervened."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["catherine-vautrin", "gabriel-attal"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049385823",
+          "title": "LOI n° 2024-317 du 8 avril 2024 portant mesures pour bâtir la société du bien vieillir et de l'autonomie - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-147.html",
+          "title": "Dossier législatif : bâtir la société du bien vieillir - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-habitat-degrade-2024",
+      "date": "2024-04-09",
+      "title": {
+        "fr": "Loi sur l'habitat dégradé",
+        "en": "Degraded housing law"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-322, présentée par Patrice Vergriete puis portée par Guillaume Kasbarian : **nouvelle procédure d'expropriation** des immeubles dégradés **avant qu'ils ne deviennent irrémédiablement insalubres**, **prêt global collectif** garanti par l'État pour les copropriétés en difficulté, **peines aggravées contre les marchands de sommeil** et diagnostics structurels ordonnés par le maire dans les zones d'habitat dégradé.",
+        "en": "Law no. 2024-322, presented by Patrice Vergriete and carried through by Guillaume Kasbarian: a **new expropriation procedure** for degraded buildings **before they become irreversibly uninhabitable**, a State-guaranteed **collective loan** for co-ownerships in difficulty, **tougher penalties against slumlords** and mayor-ordered structural surveys in degraded-housing areas."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["guillaume-kasbarian", "gabriel-attal"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049392425",
+          "title": "LOI n° 2024-322 du 9 avril 2024 visant à l'accélération et à la simplification de la rénovation de l'habitat dégradé - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl23-278.html",
+          "title": "Dossier législatif : rénovation de l'habitat dégradé - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-report-elections-nouvelle-caledonie-2024",
+      "date": "2024-04-15",
+      "title": {
+        "fr": "Report des élections provinciales en Nouvelle-Calédonie",
+        "en": "Postponement of the New Caledonia provincial elections"
+      },
+      "summary": {
+        "fr": "Loi organique n° 2024-343, présentée par Gérald Darmanin : les élections au **congrès et aux assemblées de province** de Nouvelle-Calédonie, prévues au plus tard le 12 mai 2024, sont **reportées au plus tard au 15 décembre 2024**, dans l'attente de la révision constitutionnelle sur le **dégel du corps électoral** calédonien alors en cours d'examen au Parlement. La contestation de cette réforme débouchera sur les **émeutes de mai 2024**.",
+        "en": "Organic law no. 2024-343, presented by Gérald Darmanin: the elections to New Caledonia's **congress and provincial assemblies**, due by 12 May 2024 at the latest, are **postponed to 15 December 2024 at the latest**, pending the constitutional revision **unfreezing the Caledonian electoral roll** then before Parliament. Opposition to that reform would lead to the **May 2024 riots**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["gerald-darmanin", "gabriel-attal"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049418383",
+          "title": "LOI organique n° 2024-343 du 15 avril 2024 portant report du renouvellement général des membres du congrès et des assemblées de province de la Nouvelle-Calédonie - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl23-290.html",
+          "title": "Dossier législatif : congrès et assemblées de province de la Nouvelle-Calédonie - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-ddadue-2024",
+      "date": "2024-04-22",
+      "title": {
+        "fr": "Loi DDADUE 2024 (adaptation au droit de l'Union européenne)",
+        "en": "2024 law adapting French law to EU law (DDADUE)"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-364 : les salariés en **arrêt maladie d'origine non professionnelle acquièrent désormais des congés payés**, à raison de **2 jours ouvrables par mois** dans la limite de **24 jours par an**, avec une **période de report de 15 mois**, mettant le droit français en conformité avec la jurisprudence européenne ; le texte adapte aussi le droit national aux règlements européens sur les **services et marchés numériques (DSA et DMA)** et sur les **crypto-actifs (MiCA)**.",
+        "en": "Law no. 2024-364: employees on **non-occupational sick leave now accrue paid leave**, at **2 working days per month** capped at **24 days per year**, with a **15-month carry-over period**, bringing French law into line with EU case law; the text also adapts national law to the EU **digital services and markets regulations (DSA and DMA)** and to the **crypto-assets regulation (MiCA)**."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["bruno-le-maire", "catherine-vautrin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049453263",
+          "title": "LOI n° 2024-364 du 22 avril 2024 portant diverses dispositions d'adaptation au droit de l'Union européenne - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl23-112.html",
+          "title": "Dossier législatif : diverses dispositions d'adaptation au droit de l'Union européenne - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

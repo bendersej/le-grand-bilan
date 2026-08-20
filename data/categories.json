@@ -6,6 +6,10 @@
       "label": { "fr": "Agriculture", "en": "Agriculture" }
     },
     {
+      "id": "culture",
+      "label": { "fr": "Culture", "en": "Culture" }
+    },
+    {
       "id": "defense",
       "label": { "fr": "Défense", "en": "Defence" }
     },
@@ -36,6 +40,10 @@
     {
       "id": "justice",
       "label": { "fr": "Justice", "en": "Justice" }
+    },
+    {
+      "id": "numerique",
+      "label": { "fr": "Numérique", "en": "Digital" }
     },
     {
       "id": "retraites",

@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2024-10",
+  "decisions": [
+    {
+      "id": "presentation-budget-2025-2024",
+      "date": "2024-10-10",
+      "title": {
+        "fr": "Présentation du projet de budget 2025",
+        "en": "Presentation of the 2025 budget bill"
+      },
+      "summary": {
+        "fr": "Le gouvernement Barnier présente en conseil des ministres et dépose à l'Assemblée nationale le **projet de loi de finances pour 2025** : un effort de redressement de **60 milliards d'euros**, environ **deux tiers d'économies** et **un tiers de hausses de prélèvements** ciblées sur les grandes entreprises et les hauts revenus, pour ramener le **déficit public à 5 % du PIB en 2025** contre environ 7 % sans mesures. **Rejeté en première lecture** à l'Assemblée le 12 novembre, le texte conduira à l'engagement de responsabilité sur le budget de la sécurité sociale et à la **censure du gouvernement**.",
+        "en": "The Barnier government presented in the council of ministers and tabled in the National Assembly the **2025 budget bill**: a **60 billion euro** consolidation effort, roughly **two-thirds spending cuts** and **one-third tax rises** targeted at large companies and high incomes, to bring the **public deficit down to 5% of GDP in 2025** against about 7% without measures. **Rejected at first reading** in the Assembly on 12 November, the text would lead to the government staking its survival on the social security budget and to its **censure**."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["antoine-armand", "laurent-saint-martin", "michel-barnier"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF2025",
+          "title": "Dossier législatif : projet de loi de finances pour 2025 - Assemblée nationale"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2025.html",
+          "title": "Dossier législatif : projet de loi de finances pour 2025 - Sénat"
+        },
+        {
+          "url": "https://www.publicsenat.fr/actualites/economie/budget-2025-le-gouvernement-assume-des-choix-difficiles-et-recuse-tout-matraquage-fiscal-ou-cure-dausterite",
+          "title": "Budget 2025 : le gouvernement assume des choix difficiles - Public Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-de-finances-2025"
+        }
+      ]
+    },
+    {
+      "id": "decret-smic-2024",
+      "date": "2024-10-23",
+      "title": {
+        "fr": "Revalorisation anticipée du SMIC de 2 %",
+        "en": "Anticipated 2% increase of the minimum wage"
+      },
+      "summary": {
+        "fr": "Décret n° 2024-951 : conformément à l'annonce faite par Michel Barnier dans sa déclaration de politique générale, le **SMIC est revalorisé de 2 % par anticipation au 1er novembre 2024**, au lieu du 1er janvier 2025, portant le **taux horaire brut à 11,88 euros** (8,98 euros à Mayotte) et le minimum garanti à 4,22 euros.",
+        "en": "Decree no. 2024-951: as announced by Michel Barnier in his general policy statement, the **minimum wage was raised by 2% in advance, on 1 November 2024** instead of 1 January 2025, bringing the **gross hourly rate to 11.88 euros** (8.98 euros in Mayotte) and the guaranteed minimum to 4.22 euros."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["michel-barnier"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050392683",
+          "title": "Décret n° 2024-951 du 23 octobre 2024 portant relèvement du salaire minimum de croissance - Légifrance"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

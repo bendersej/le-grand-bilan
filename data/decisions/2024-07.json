@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2024-07",
+  "decisions": [
+    {
+      "id": "decrets-application-loi-immigration-2024",
+      "date": "2024-07-09",
+      "title": {
+        "fr": "Décrets d'application de la loi immigration",
+        "en": "Implementing decrees of the immigration law"
+      },
+      "summary": {
+        "fr": "Série de décrets d'application de la loi du 26 janvier 2024 pris avant la démission du gouvernement : le décret n° 2024-799 **réforme le contentieux des étrangers** (règles simplifiées pour l'entrée, le séjour et l'éloignement) et le décret n° 2024-814 instaure une **amende administrative sanctionnant l'emploi d'étrangers non autorisés à travailler**, en remplacement de la contribution spéciale, et **durcit les conditions de délivrance des autorisations de travail**.",
+        "en": "A set of implementing decrees of the 26 January 2024 law issued before the government resigned: decree no. 2024-799 **overhauls immigration litigation** (simplified rules for entry, residence and removal cases) and decree no. 2024-814 creates an **administrative fine punishing the employment of foreign nationals not authorised to work**, replacing the former special contribution, and **tightens the conditions for issuing work permits**."
+      },
+      "category_ids": ["immigration"],
+      "politician_ids": ["gerald-darmanin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049963955",
+          "title": "Décret n° 2024-799 du 2 juillet 2024 relatif à la simplification des règles du contentieux - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049989852",
+          "title": "Décret n° 2024-814 du 9 juillet 2024 relatif à l'amende administrative sanctionnant l'emploi de ressortissants étrangers non autorisés à travailler - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "loi-immigration-2024"
+        }
+      ]
+    },
+    {
+      "id": "demission-gouvernement-attal-2024",
+      "date": "2024-07-16",
+      "title": {
+        "fr": "Démission du gouvernement Attal et affaires courantes",
+        "en": "Resignation of the Attal government and caretaker period"
+      },
+      "summary": {
+        "fr": "Après des **législatives sans majorité absolue** (Nouveau Front populaire **180 sièges**, coalition présidentielle **163**, Rassemblement national et alliés **143** sur 577), Emmanuel Macron accepte par décret la **démission du gouvernement de Gabriel Attal**, présentée le 8 juillet. Le gouvernement démissionnaire expédie les **affaires courantes** pendant les Jeux olympiques de Paris ; cette période durera **67 jours**, une durée sans précédent sous la Ve République.",
+        "en": "After **legislative elections without an absolute majority** (Nouveau Front populaire **180 seats**, presidential coalition **163**, Rassemblement national and allies **143** out of 577), Emmanuel Macron accepted by decree the **resignation of Gabriel Attal's government**, tendered on 8 July. The outgoing government handled **caretaker business** through the Paris Olympics; the caretaker period would last **67 days**, unprecedented under the Fifth Republic."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["gabriel-attal", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050000932",
+          "title": "Décret du 16 juillet 2024 relatif à la cessation des fonctions du Gouvernement - Légifrance"
+        },
+        {
+          "url": "https://www.touteleurope.eu/vie-politique-des-etats-membres/resultats-des-elections-legislatives-2024-le-rassemblement-national-en-echec-l-assemblee-nationale-partagee-en-trois-blocs/",
+          "title": "Résultats des élections législatives 2024 : l'Assemblée nationale partagée en trois blocs - Touteleurope.eu"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "dissolution-assemblee-nationale-2024"
+        }
+      ]
+    },
+    {
+      "id": "loi-ingerences-etrangeres-2024",
+      "date": "2024-07-25",
+      "title": {
+        "fr": "Loi contre les ingérences étrangères",
+        "en": "Law against foreign interference"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-850, issue de la proposition du député Sacha Houlié : création d'un **registre public des activités d'influence pour le compte de puissances étrangères** tenu par la HATVP, sur le modèle américain du FARA, **extension de la technique de renseignement algorithmique** à la détection des ingérences, **gel des avoirs** et peines aggravées pour les infractions commises pour une puissance étrangère. Les deux saisines du Conseil constitutionnel ont été **rejetées comme irrecevables**, le mandat des députés signataires ayant pris fin avec la dissolution (décisions n° 2024-870 et 2024-871 DC).",
+        "en": "Law no. 2024-850, from MP Sacha Houlié's bill: creation of a **public register of influence activities on behalf of foreign powers** kept by the HATVP transparency authority, modelled on the US FARA, **extension of the algorithmic intelligence technique** to the detection of interference, **asset freezes** and aggravated penalties for offences committed for a foreign power. Both referrals to the Constitutional Council were **dismissed as inadmissible**, the signatory MPs' mandates having ended with the dissolution (decisions no. 2024-870 and 2024-871 DC)."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["gerald-darmanin", "gabriel-attal"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050052193",
+          "title": "LOI n° 2024-850 du 25 juillet 2024 visant à prévenir les ingérences étrangères en France - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-479.html",
+          "title": "Dossier législatif : prévenir les ingérences étrangères en France - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2024/2024870DC.htm",
+          "title": "Décision n° 2024-870 DC du 10 juillet 2024 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

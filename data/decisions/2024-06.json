@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2024-06",
+  "decisions": [
+    {
+      "id": "dissolution-assemblee-nationale-2024",
+      "date": "2024-06-09",
+      "title": {
+        "fr": "Dissolution de l'Assemblée nationale",
+        "en": "Dissolution of the National Assembly"
+      },
+      "summary": {
+        "fr": "Le soir des élections européennes, remportées par la liste du **Rassemblement national (31,4 % des voix)**, plus du double de la liste de la majorité présidentielle (**14,6 %**), Emmanuel Macron prononce la **dissolution de l'Assemblée nationale** (article 12 de la Constitution), la **première depuis 1997**, et convoque des **élections législatives anticipées les 30 juin et 7 juillet 2024**.",
+        "en": "On the evening of the European elections, won by the **Rassemblement national list (31.4% of the vote)**, more than double the presidential majority list (**14.6%**), Emmanuel Macron pronounced the **dissolution of the National Assembly** (article 12 of the Constitution), the **first since 1997**, and called **snap legislative elections for 30 June and 7 July 2024**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049689651",
+          "title": "Décret du 9 juin 2024 portant dissolution de l'Assemblée nationale - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049689654",
+          "title": "Décret n° 2024-527 du 9 juin 2024 portant convocation des électeurs - Légifrance"
+        },
+        {
+          "url": "https://touteleurope.eu/vie-politique-des-etats-membres/elections-europeennes-2024-dissolution-de-l-assemblee-nationale-rn-en-tete-ce-qu-il-faut-retenir-des-resultats-en-france/",
+          "title": "Élections européennes 2024 : dissolution de l'Assemblée nationale, RN en tête - Touteleurope.eu"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-attractivite-financiere-2024",
+      "date": "2024-06-13",
+      "title": {
+        "fr": "Loi sur le financement des entreprises et l'attractivité de la France",
+        "en": "Law on corporate financing and France's attractiveness"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-537, issue de la proposition du député Alexandre Holroyd et soutenue par Bercy : les sociétés qui s'introduisent en bourse peuvent émettre des **actions de préférence à droits de vote multiples** (plafonnées à **25 voix par action**, pour **10 ans renouvelables une fois**) afin de laisser le contrôle aux fondateurs ; le texte **dématérialise les titres transférables** du commerce international et comporte 27 articles destinés à renforcer la place financière de Paris.",
+        "en": "Law no. 2024-537, from MP Alexandre Holroyd's bill backed by the finance ministry: companies going public may issue **preference shares with multiple voting rights** (capped at **25 votes per share**, for **10 years renewable once**) to keep founders in control; the text **dematerialises transferable trade instruments** and contains 27 articles aimed at strengthening the Paris financial centre."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["bruno-le-maire"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049707573",
+          "title": "LOI n° 2024-537 du 13 juin 2024 visant à accroître le financement des entreprises et l'attractivité de la France - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-536.html",
+          "title": "Dossier législatif : financement des entreprises et attractivité de la France - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-ordonnance-protection-2024",
+      "date": "2024-06-13",
+      "title": {
+        "fr": "Loi renforçant l'ordonnance de protection",
+        "en": "Law strengthening protection orders"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-536, issue de la proposition de la députée Émilie Chandler : la durée des mesures de l'**ordonnance de protection** des victimes de violences conjugales est **doublée de 6 à 12 mois**, et le texte crée l'**ordonnance provisoire de protection immédiate (OPPI)**, délivrée par le juge aux affaires familiales **sous 24 heures** à la demande du procureur, pour couvrir le délai précédant l'ordonnance de protection classique.",
+        "en": "Law no. 2024-536, from MP Émilie Chandler's bill: the duration of **protection order** measures for victims of domestic violence is **doubled from 6 to 12 months**, and the text creates the **immediate provisional protection order (OPPI)**, issued by the family judge **within 24 hours** at the prosecutor's request, to cover the window before a full protection order."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["eric-dupond-moretti"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049707555",
+          "title": "LOI n° 2024-536 du 13 juin 2024 renforçant l'ordonnance de protection et créant l'ordonnance provisoire de protection immédiate - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-380.html",
+          "title": "Dossier législatif : ordonnance de protection - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "decret-assurance-chomage-prorogation-2024",
+      "date": "2024-06-30",
+      "title": {
+        "fr": "Abandon de la réforme de l'assurance chômage et prorogation des règles",
+        "en": "Abandonment of the unemployment insurance reform and extension of the current rules"
+      },
+      "summary": {
+        "fr": "Décret n° 2024-648 : la **réforme de l'assurance chômage** voulue par Gabriel Attal (durcissement des conditions d'affiliation et de la durée d'indemnisation), qui devait entrer en vigueur le **1er juillet 2024**, est **abandonnée après la dissolution** ; les règles d'indemnisation en vigueur sont **prorogées jusqu'au 31 juillet 2024**, puis **jusqu'au 31 décembre 2024** par le décret n° 2024-963 du 29 octobre 2024.",
+        "en": "Decree no. 2024-648: the **unemployment insurance reform** sought by Gabriel Attal (tightened eligibility conditions and shorter compensation duration), due to enter into force on **1 July 2024**, was **abandoned after the dissolution**; the current compensation rules were **extended until 31 July 2024**, then **until 31 December 2024** by decree no. 2024-963 of 29 October 2024."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["gabriel-attal", "catherine-vautrin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049849562",
+          "title": "Décret n° 2024-648 du 30 juin 2024 relatif au régime d'assurance chômage - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050407358",
+          "title": "Décret n° 2024-963 du 29 octobre 2024 relatif au régime d'assurance chômage - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "dissolution-assemblee-nationale-2024"
+        }
+      ]
+    }
+  ]
+}

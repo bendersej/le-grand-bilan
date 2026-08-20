@@ -62,6 +62,36 @@
       }
     },
     {
+      "id": "annaig-le-meur",
+      "full_name": "Annaïg Le Meur",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Députée de la 1re circonscription du Finistère",
+            "en": "Member of Parliament for Finistère (1st constituency)"
+          },
+          "from": "2017-06-21",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "09052df69e2b16bb8a384ba562d261f0109519a3e8892c51393c1080a09e2dba",
+        "photo": {
+          "path": "/media/politicians/annaig-le-meur.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Anna%C3%AFg_Le_Meur_02.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Antoine Lamielle"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Députée **Renaissance de la 1re circonscription du Finistère** depuis 2017, réélue en 2022 et en 2024, vice-présidente du groupe **Ensemble pour la République** à l'Assemblée nationale. **Kinésithérapeute à Quimper** avant son élection, elle siège à la **commission des Affaires économiques**. Co-auteure et rapporteure, avec Iñaki Echaniz, de la **loi du 19 novembre 2024 sur les meublés de tourisme** (dite « loi Le Meur »), qui durcit la fiscalité et la régulation locale des locations touristiques de courte durée, elle est nommée en décembre 2024 **présidente du Conseil national de l'habitat**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Anna%C3%AFg_Le_Meur"
+      }
+    },
+    {
       "id": "annie-genevard",
       "full_name": "Annie Genevard",
       "party": "Les Républicains",
@@ -89,6 +119,66 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Annie_Genevard"
+      }
+    },
+    {
+      "id": "antoine-armand",
+      "full_name": "Antoine Armand",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Économie, des Finances et de l'Industrie",
+            "en": "Minister of the Economy, Finance and Industry"
+          },
+          "from": "2024-09-21",
+          "to": "2024-12-23"
+        }
+      ],
+      "profile": {
+        "content_hash": "fa4130263c4ba65f51cc34708f6a2852fb85450807b6946271ea20b6ff3ffabf",
+        "photo": {
+          "path": "/media/politicians/antoine-armand.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Antoine_Armand_2024.jpg",
+          "license": "CC BY 4.0",
+          "author": "Unknown authorUnknown author"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Haut fonctionnaire et homme politique **Renaissance**, **ministre de l'Économie, des Finances et de l'Industrie** du gouvernement Barnier de **septembre à décembre 2024**, nommé à **33 ans**. **Inspecteur des finances**, élu **député de la 2e circonscription de la Haute-Savoie** en 2022 et réélu en 2024, il présidait la **commission des Affaires économiques** de l'Assemblée nationale avant d'entrer à Bercy. Après la censure du gouvernement Barnier, Éric Lombard lui succède. Depuis mars 2026, il est **maire d'Annecy**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Antoine_Armand"
+      }
+    },
+    {
+      "id": "bruno-le-maire",
+      "full_name": "Bruno Le Maire",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
+            "en": "Minister of the Economy, Finance and Industrial and Digital Sovereignty"
+          },
+          "from": "2017-05-17",
+          "to": "2024-09-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "bba74e03d01dc7d623781b3a498304258250e7ed84b49efae3ea50212ce606cf",
+        "photo": {
+          "path": "/media/politicians/bruno-le-maire.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:EU2024BE_240223_Informal_meeting_of_economic_and_financial_affairs_ministers_Gent_JNZT_0040_(53545889372).jpg",
+          "license": "CC BY 2.0",
+          "author": "Belgian Presidency of the Council of the EU 2024 from Belgium"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme politique et **écrivain**, normalien et énarque, directeur de cabinet du Premier ministre **Dominique de Villepin** (2006-2007), **député UMP de l'Eure** à partir de 2007, secrétaire d'État aux **Affaires européennes** (2008-2009) puis ministre de l'**Agriculture** (2009-2012). Candidat à la primaire de la droite de 2016 (2,4 % des voix), il rejoint Emmanuel Macron en 2017 et devient **ministre de l'Économie et des Finances**, portefeuille élargi ensuite à la Relance puis à la Souveraineté industrielle et numérique, qu'il conserve **de mai 2017 à septembre 2024**, une **longévité record à Bercy sous la Ve République**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Bruno_Le_Maire"
       }
     },
     {
@@ -122,10 +212,48 @@
       }
     },
     {
+      "id": "bruno-studer",
+      "full_name": "Bruno Studer",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 3e circonscription du Bas-Rhin",
+            "en": "Member of Parliament for Bas-Rhin (3rd constituency)"
+          },
+          "from": "2017-06-21",
+          "to": "2024-06-09"
+        }
+      ],
+      "profile": {
+        "content_hash": "975cc6e54958b345b9338e8809803090bed0d544cb9aa6cb9038750cf189fe75",
+        "photo": {
+          "path": "/media/politicians/bruno-studer.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bruno_Studer_03.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Antoine Lamielle"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Ancien **professeur d'histoire-géographie**, député **LREM puis Renaissance de la 3e circonscription du Bas-Rhin** de **2017 à 2024**, battu aux législatives anticipées de juillet 2024. Président de la **commission des Affaires culturelles et de l'Éducation** de l'Assemblée nationale (2017-2022), il est l'auteur de plusieurs textes sur la protection de l'enfance dans l'espace numérique, dont la **loi du 19 février 2024 garantissant le respect du droit à l'image des enfants**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Bruno_Studer"
+      }
+    },
+    {
       "id": "catherine-vautrin",
       "full_name": "Catherine Vautrin",
       "party": null,
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre du Travail, de la Santé et des Solidarités",
+            "en": "Minister of Labour, Health and Solidarity"
+          },
+          "from": "2024-01-11",
+          "to": "2024-09-21"
+        },
         {
           "role": {
             "fr": "Ministre du Travail, de la Santé, des Solidarités et des Familles",
@@ -280,6 +408,36 @@
       }
     },
     {
+      "id": "eric-dupond-moretti",
+      "full_name": "Éric Dupond-Moretti",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Garde des Sceaux, ministre de la Justice",
+            "en": "Keeper of the Seals, Minister of Justice"
+          },
+          "from": "2020-07-06",
+          "to": "2024-09-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "14c023f233f0bd77af42839618dab668afd9124d353937fe2ffd1395473045d6",
+        "photo": {
+          "path": "/media/politicians/eric-dupond-moretti.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%C3%89ric_Dupond-Moretti_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Linelola54"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Avocat pénaliste pendant plus de trente-quatre ans**, réputé pour le nombre d'**acquittements** obtenus au cours de sa carrière, **garde des Sceaux, ministre de la Justice de juillet 2020 à septembre 2024**. Mis en examen pour **prise illégale d'intérêts** dans l'exercice de ses fonctions ministérielles, il est **relaxé par la Cour de justice de la République en novembre 2023**. Il a porté la **révision constitutionnelle du 8 mars 2024** inscrivant dans la Constitution la liberté de recourir à l'IVG. Également acteur de théâtre, il possède la double nationalité française et italienne.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/%C3%89ric_Dupond-Moretti"
+      }
+    },
+    {
       "id": "eric-lombard",
       "full_name": "Éric Lombard",
       "party": null,
@@ -370,6 +528,44 @@
       }
     },
     {
+      "id": "francois-noel-buffet",
+      "full_name": "François-Noël Buffet",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Sénateur du Rhône",
+            "en": "Senator for the Rhône"
+          },
+          "from": "2004-10-01",
+          "to": "2024-10-21"
+        },
+        {
+          "role": {
+            "fr": "Ministre auprès du Premier ministre, chargé des Outre-mer",
+            "en": "Minister attached to the Prime Minister, for Overseas Territories"
+          },
+          "from": "2024-09-21",
+          "to": "2024-12-23"
+        }
+      ],
+      "profile": {
+        "content_hash": "7999f6757b368884d6ebe9a30963b97929e7d0c4b7b7e4f505d07e33b51a6b72",
+        "photo": {
+          "path": "/media/politicians/francois-noel-buffet.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois-No%C3%ABl_Buffet_Etats_g%C3%A9n%C3%A9raux_de_la_d%C3%A9mocratie_territoriale_2012_(crop).jpg",
+          "license": "CC BY 3.0",
+          "author": "groupe UMP Sénat"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Avocat de formation, **maire d'Oullins (1997-2017)**, **sénateur Les Républicains du Rhône (2004-2024)** et **président de la commission des Lois du Sénat (2020-2024)**. Premier signataire de la proposition devenue la **loi du 21 mars 2024 sur la sécurité des élus locaux**, il est **ministre chargé des Outre-mer** du gouvernement Barnier (septembre-décembre 2024), période du **second report des élections provinciales de Nouvelle-Calédonie**, puis ministre auprès du ministre de l'Intérieur dans le gouvernement Bayrou. Le **23 juillet 2026**, il devient **Défenseur des droits**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois-No%C3%ABl_Buffet"
+      }
+    },
+    {
       "id": "francoise-gatel",
       "full_name": "Françoise Gatel",
       "party": "Union des démocrates et indépendants",
@@ -452,6 +648,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre de l'Intérieur et des Outre-mer",
+            "en": "Minister of the Interior and Overseas Territories"
+          },
+          "from": "2020-07-06",
+          "to": "2024-09-21"
+        },
+        {
+          "role": {
             "fr": "Garde des Sceaux, ministre de la Justice",
             "en": "Minister of Justice"
           },
@@ -474,6 +678,52 @@
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/G%C3%A9rald_Darmanin"
       }
+    },
+    {
+      "id": "guillaume-kasbarian",
+      "full_name": "Guillaume Kasbarian",
+      "party": "Parti de la Liberté",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé du Logement",
+            "en": "Minister Delegate for Housing"
+          },
+          "from": "2024-02-08",
+          "to": "2024-09-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "ffa072562603677ec6f8fcdb1bece4553c657b4739e95f3aeb1c79fd8d060e82",
+        "photo": {
+          "path": "/media/politicians/guillaume-kasbarian.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Guillaume_Kasbarian_May_2025.jpg",
+          "license": "CC0",
+          "author": "總統府"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Consultant en stratégie** avant son entrée en politique, député de la **1re circonscription d'Eure-et-Loir depuis 2017**, président de la **commission des Affaires économiques** de l'Assemblée nationale (2022-2024). Auteur de la **loi « anti-squat » de 2023**, il est **ministre délégué chargé du Logement** du gouvernement Attal (février-septembre 2024), période de la **loi du 9 avril 2024 sur l'habitat dégradé**, puis **ministre de la Fonction publique et de la Simplification** du gouvernement Barnier jusqu'à la censure de décembre 2024. En avril 2026, il annonce la création du **Parti de la Liberté**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Guillaume_Kasbarian"
+      }
+    },
+    {
+      "id": "isabelle-santiago",
+      "full_name": "Isabelle Santiago",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Députée de la 9e circonscription du Val-de-Marne",
+            "en": "Member of Parliament for Val-de-Marne (9th constituency)"
+          },
+          "from": "2020-09-28",
+          "to": null
+        }
+      ],
+      "profile": null
     },
     {
       "id": "jean-pierre-farandou",
@@ -566,6 +816,36 @@
       }
     },
     {
+      "id": "laurent-saint-martin",
+      "full_name": "Laurent Saint-Martin",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre chargé du Budget et des Comptes publics",
+            "en": "Minister for the Budget and Public Accounts"
+          },
+          "from": "2024-09-21",
+          "to": "2024-12-23"
+        }
+      ],
+      "profile": {
+        "content_hash": "aad6a0b5b21bc73721932069cd9488567e3bee56714a7990b12219ba96249fd2",
+        "photo": {
+          "path": "/media/politicians/laurent-saint-martin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Laurent-Saint-Martin.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Lionel Barbe"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Passé par **Bpifrance**, député **du Val-de-Marne (2017-2022)** et **rapporteur général du budget** à l'Assemblée nationale (2020-2022), puis **directeur général de Business France** (2023-2024). **Ministre chargé du Budget et des Comptes publics** du gouvernement Barnier de **septembre à décembre 2024**, il présente avec Antoine Armand le **projet de budget 2025** puis la **loi de finances de fin de gestion pour 2024**, avant d'être nommé ministre délégué chargé du **Commerce extérieur et des Français de l'étranger** dans le gouvernement Bayrou, fonctions qui prennent fin en octobre 2025.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Laurent_Saint-Martin"
+      }
+    },
+    {
       "id": "manuel-valls",
       "full_name": "Manuel Valls",
       "party": "Parti socialiste",
@@ -640,6 +920,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Secrétaire d'État chargée du Numérique",
+            "en": "Secretary of State for Digital Affairs"
+          },
+          "from": "2024-02-08",
+          "to": "2024-09-21"
+        },
+        {
+          "role": {
             "fr": "Ministre des Sports, de la Jeunesse et de la Vie associative",
             "en": "Minister of Sports, Youth and Community Life"
           },
@@ -661,6 +949,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Marina_Ferrari"
+      }
+    },
+    {
+      "id": "michel-barnier",
+      "full_name": "Michel Barnier",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Premier ministre",
+            "en": "Prime Minister"
+          },
+          "from": "2024-09-05",
+          "to": "2024-12-13"
+        }
+      ],
+      "profile": {
+        "content_hash": "3557c2444453db1d82972032b63b798596bb3ee1cea27b0962eb27b97a0b0c22",
+        "photo": {
+          "path": "/media/politicians/michel-barnier.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Barnier_Portrait.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Florian David Pm"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme d'État **Les Républicains**, **Premier ministre du 5 septembre au 13 décembre 2024**, renversé par la **première motion de censure aboutie depuis 1962** : son gouvernement est le **plus bref de la Ve République**. Engagé en politique en Savoie dès 1973, député dès 1978, co-organisateur des **Jeux olympiques d'hiver d'Albertville en 1992**, il est plusieurs fois ministre (**Environnement 1993-1995, Affaires européennes 1995-1997, Affaires étrangères 2004-2005, Agriculture et Pêche 2007-2009**) et **deux fois commissaire européen**, vice-président de la Commission de 2010 à 2014. De 2016 à 2021, il est le **négociateur en chef de l'Union européenne pour le Brexit**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Michel_Barnier"
       }
     },
     {
@@ -920,10 +1238,48 @@
       }
     },
     {
+      "id": "rachida-dati",
+      "full_name": "Rachida Dati",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Culture",
+            "en": "Minister of Culture"
+          },
+          "from": "2024-01-11",
+          "to": "2026-02-25"
+        }
+      ],
+      "profile": {
+        "content_hash": "e6dde5b78a20e6ecf6cb73537d3c9a56d5363df25d57b42cdfb0f1cf7087fd80",
+        "photo": {
+          "path": "/media/politicians/rachida-dati.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rachida_Dati_portrait.jpg",
+          "license": "CC BY-SA 3.0 fr",
+          "author": "Laurent Vu"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Magistrate de profession**, porte-parole de la campagne présidentielle victorieuse de Nicolas Sarkozy en 2007, **garde des Sceaux de 2007 à 2009** : première personnalité née de parents immigrés maghrébins à diriger un ministère régalien, elle instaure les **peines planchers** et réforme la **carte judiciaire**. **Députée européenne (2009-2019)** et **maire du 7e arrondissement de Paris depuis 2008**, membre des Républicains, elle est nommée **ministre de la Culture en janvier 2024** et le reste sous les gouvernements Attal, Barnier, Bayrou et Lecornu, période de la **réforme du financement de l'audiovisuel public de décembre 2024**. Elle quitte le gouvernement en **février 2026** pour la campagne municipale parisienne.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Rachida_Dati"
+      }
+    },
+    {
       "id": "roland-lescure",
       "full_name": "Roland Lescure",
       "party": "Renaissance",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé de l'Industrie et de l'Énergie",
+            "en": "Minister Delegate for Industry and Energy"
+          },
+          "from": "2024-02-08",
+          "to": "2024-09-21"
+        },
         {
           "role": {
             "fr": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique",
@@ -947,6 +1303,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Roland_Lescure"
+      }
+    },
+    {
+      "id": "sabrina-agresti-roubache",
+      "full_name": "Sabrina Agresti-Roubache",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Secrétaire d'État chargée de la Ville et de la Citoyenneté",
+            "en": "Secretary of State for Cities and Citizenship"
+          },
+          "from": "2023-10-10",
+          "to": "2024-09-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "3dbad192193c778af367ca25859cb28f11a60536a15bb5dc76e77a1e0dc12a31",
+        "photo": {
+          "path": "/media/politicians/sabrina-agresti-roubache.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_de_Madame_Sabrina_Agresti-Roubache.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Sacha Vaytet"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Productrice audiovisuelle** marseillaise, élue députée **Renaissance de la 1re circonscription des Bouches-du-Rhône** en 2022. **Secrétaire d'État chargée de la Ville** à partir de juillet 2023, puis **de la Ville et de la Citoyenneté** d'octobre 2023 à septembre 2024, elle a porté la **loi du 10 mai 2024 contre les dérives sectaires**. En février 2026, elle devient **ministre de l'Enseignement et de la Formation professionnels et de l'Apprentissage** dans le gouvernement Lecornu II.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Sabrina_Agresti-Roubache"
       }
     },
     {

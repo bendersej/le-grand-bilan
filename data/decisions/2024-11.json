@@ -1,0 +1,65 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2024-11",
+  "decisions": [
+    {
+      "id": "loi-second-report-elections-nouvelle-caledonie-2024",
+      "date": "2024-11-15",
+      "title": {
+        "fr": "Second report des élections provinciales en Nouvelle-Calédonie",
+        "en": "Second postponement of the New Caledonia provincial elections"
+      },
+      "summary": {
+        "fr": "Loi organique n° 2024-1026 : après l'**abandon de la révision constitutionnelle** sur le dégel du corps électoral et les émeutes de mai, les élections au **congrès et aux assemblées de province**, déjà reportées au 15 décembre 2024, sont **de nouveau reportées au plus tard au 30 novembre 2025** pour permettre la reprise des discussions sur l'avenir institutionnel de l'archipel. Le texte a été validé par le Conseil constitutionnel (décision n° 2024-872 DC).",
+        "en": "Organic law no. 2024-1026: after the **abandonment of the constitutional revision** unfreezing the electoral roll and the May riots, the elections to the **congress and provincial assemblies**, already postponed to 15 December 2024, were **postponed again to 30 November 2025 at the latest** to allow talks on the archipelago's institutional future to resume. The text was upheld by the Constitutional Council (decision no. 2024-872 DC)."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["francois-noel-buffet", "michel-barnier"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050500464",
+          "title": "LOI organique n° 2024-1026 du 15 novembre 2024 visant à reporter le renouvellement général des membres du congrès et des assemblées de province de la Nouvelle-Calédonie - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-759.html",
+          "title": "Dossier législatif : renouvellement du congrès et des assemblées de province de la Nouvelle-Calédonie - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-report-elections-nouvelle-caledonie-2024"
+        },
+        {
+          "type": "related",
+          "decision_id": "etat-urgence-nouvelle-caledonie-2024"
+        }
+      ]
+    },
+    {
+      "id": "loi-meubles-tourisme-2024",
+      "date": "2024-11-19",
+      "title": {
+        "fr": "Loi Le Meur sur les meublés de tourisme",
+        "en": "Le Meur law on short-term tourist rentals"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-1039, issue de la proposition transpartisane portée par Annaïg Le Meur et Iñaki Echaniz : l'**abattement fiscal du micro-BIC est ramené de 71 % à 50 %** pour les meublés de tourisme classés (plafond de recettes abaissé à 77 700 euros) et **de 50 % à 30 %** pour les non classés (plafond 15 000 euros) dès les revenus 2025 ; les maires peuvent **abaisser de 120 à 90 jours** par an la durée maximale de location des résidences principales ; **numéro d'enregistrement national** pour tous les meublés et obligation progressive de **diagnostic de performance énergétique**.",
+        "en": "Law no. 2024-1039, from the cross-party bill carried by Annaïg Le Meur and Iñaki Echaniz: the **micro-BIC tax allowance is cut from 71% to 50%** for classified tourist rentals (revenue ceiling lowered to 77,700 euros) and **from 50% to 30%** for unclassified ones (15,000 euro ceiling) from 2025 income; mayors can **reduce from 120 to 90 days** per year the cap on renting out primary residences; a **national registration number** for all rentals and a phased **energy performance certificate** requirement."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["annaig-le-meur"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050612711",
+          "title": "LOI n° 2024-1039 du 19 novembre 2024 visant à renforcer les outils de régulation des meublés de tourisme à l'échelle locale - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl23-292.html",
+          "title": "Dossier législatif : régulation des meublés de tourisme - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

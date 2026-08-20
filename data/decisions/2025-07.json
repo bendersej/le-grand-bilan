@@ -46,7 +46,12 @@
           "title": "Accord de Bougival, publié au Journal officiel du 6 septembre 2025 - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "etat-urgence-nouvelle-caledonie-2024"
+        }
+      ]
     },
     {
       "id": "loi-antisemitisme-enseignement-superieur-2025",

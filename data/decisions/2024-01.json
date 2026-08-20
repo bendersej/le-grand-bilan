@@ -1,0 +1,64 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2024-01",
+  "decisions": [
+    {
+      "id": "nomination-attal-2024",
+      "date": "2024-01-09",
+      "title": {
+        "fr": "Nomination de Gabriel Attal et formation du gouvernement Attal",
+        "en": "Appointment of Gabriel Attal and formation of the Attal government"
+      },
+      "summary": {
+        "fr": "Après la démission d'Élisabeth Borne, Emmanuel Macron nomme **Gabriel Attal Premier ministre** par décret du 9 janvier : à **34 ans**, il devient le **plus jeune chef de gouvernement de la Ve République**. Le gouvernement formé le 11 janvier maintient **Gérald Darmanin à l'Intérieur**, **Bruno Le Maire à l'Économie** et **Éric Dupond-Moretti à la Justice**, et nomme **Catherine Vautrin** (Travail, Santé et Solidarités), **Amélie Oudéa-Castéra** (Éducation nationale, Jeunesse, Sports) et **Rachida Dati** (Culture) ; il est complété le **8 février**, avec notamment **Nicole Belloubet** à l'Éducation nationale.",
+        "en": "After Élisabeth Borne's resignation, Emmanuel Macron appointed **Gabriel Attal Prime Minister** by decree on 9 January: at **34**, he became the **youngest head of government of the Fifth Republic**. The government formed on 11 January kept **Gérald Darmanin at the Interior**, **Bruno Le Maire at the Economy** and **Éric Dupond-Moretti at Justice**, and appointed **Catherine Vautrin** (Labour, Health and Solidarity), **Amélie Oudéa-Castéra** (Education, Youth, Sports) and **Rachida Dati** (Culture); it was completed on **8 February**, notably with **Nicole Belloubet** at National Education."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "gabriel-attal"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048898747",
+          "title": "Décret du 9 janvier 2024 portant nomination du Premier ministre - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000048931984",
+          "title": "Décret du 11 janvier 2024 relatif à la composition du Gouvernement - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049111524",
+          "title": "Décret du 8 février 2024 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-immigration-2024",
+      "date": "2024-01-26",
+      "title": {
+        "fr": "Loi immigration (loi Darmanin)",
+        "en": "Immigration law (Darmanin law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2024-42, portée par Gérald Darmanin : **examen de langue française** conditionnant la carte de séjour pluriannuelle, **régularisation au cas par cas des travailleurs sans papiers dans les métiers en tension** (expérimentation jusqu'à fin 2026, à la discrétion des préfets) et **levée des protections contre l'expulsion** des étrangers condamnés pour des faits graves. La veille de la promulgation, le Conseil constitutionnel avait **censuré 35 des 86 articles**, dont **32 comme cavaliers législatifs** (délais de carence sur les prestations sociales, caution étudiante, durcissement du regroupement familial) ainsi que les **quotas migratoires** et le relevé d'empreintes par coercition (décision n° 2023-863 DC).",
+        "en": "Law no. 2024-42, carried by Gérald Darmanin: a **French language exam** as a condition for the multi-year residence permit, **case-by-case regularisation of undocumented workers in labour-shortage occupations** (experiment until the end of 2026, at prefects' discretion) and the **lifting of protections against expulsion** for foreign nationals convicted of serious offences. The day before promulgation, the Constitutional Council had **struck down 35 of the 86 articles**, including **32 as legislative riders** (waiting periods for social benefits, a student deposit, tightened family reunification) as well as **migration quotas** and coercive fingerprinting (decision no. 2023-863 DC)."
+      },
+      "category_ids": ["immigration"],
+      "politician_ids": ["gerald-darmanin", "gabriel-attal"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000049040245",
+          "title": "LOI n° 2024-42 du 26 janvier 2024 pour contrôler l'immigration, améliorer l'intégration - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl22-304.html",
+          "title": "Dossier législatif : projet de loi pour contrôler l'immigration, améliorer l'intégration - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2024/2023863DC.htm",
+          "title": "Décision n° 2023-863 DC du 25 janvier 2024 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

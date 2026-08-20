@@ -1,0 +1,62 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2024-09",
+  "decisions": [
+    {
+      "id": "nomination-barnier-2024",
+      "date": "2024-09-05",
+      "title": {
+        "fr": "Nomination de Michel Barnier à Matignon",
+        "en": "Appointment of Michel Barnier as Prime Minister"
+      },
+      "summary": {
+        "fr": "**Cinquante et un jours après la démission** du gouvernement Attal, Emmanuel Macron nomme Premier ministre **Michel Barnier**, ancien ministre, ancien commissaire européen et **négociateur en chef de l'Union européenne pour le Brexit** : à **73 ans**, il est le plus âgé des chefs de gouvernement de la Ve République, chargé de gouverner **sans majorité à l'Assemblée nationale** avec l'appui du bloc présidentiel et des Républicains.",
+        "en": "**Fifty-one days after the resignation** of the Attal government, Emmanuel Macron appointed **Michel Barnier**, former minister, former European commissioner and the **European Union's chief Brexit negotiator**, as Prime Minister: at **73**, the oldest head of government of the Fifth Republic, tasked with governing **without a majority in the National Assembly** with the support of the presidential bloc and Les Républicains."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "michel-barnier"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050185112",
+          "title": "Décret du 5 septembre 2024 portant nomination du Premier ministre - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "dissolution-assemblee-nationale-2024"
+        },
+        {
+          "type": "related",
+          "decision_id": "demission-gouvernement-attal-2024"
+        }
+      ]
+    },
+    {
+      "id": "gouvernement-barnier-2024",
+      "date": "2024-09-21",
+      "title": {
+        "fr": "Formation du gouvernement Barnier",
+        "en": "Formation of the Barnier government"
+      },
+      "summary": {
+        "fr": "Décret de composition du gouvernement Barnier, coalition du **« socle commun »** entre le bloc présidentiel et Les Républicains : **Bruno Retailleau à l'Intérieur**, **Antoine Armand à l'Économie**, **Didier Migaud à la Justice**, **Annie Genevard à l'Agriculture**, Anne Genetet à l'Éducation nationale, Astrid Panosyan-Bouvet au Travail et Geneviève Darrieussecq à la Santé ; Sébastien Lecornu reste aux **Armées**. Sa formation met fin à **67 jours d'affaires courantes**, la plus longue période de gouvernement démissionnaire de la Ve République.",
+        "en": "Composition decree of the Barnier government, a **\"common base\"** coalition of the presidential bloc and Les Républicains: **Bruno Retailleau at the Interior**, **Antoine Armand at the Economy**, **Didier Migaud at Justice**, **Annie Genevard at Agriculture**, Anne Genetet at National Education, Astrid Panosyan-Bouvet at Labour and Geneviève Darrieussecq at Health; Sébastien Lecornu stayed at **Defence**. Its formation ended **67 days of caretaker government**, the longest such period of the Fifth Republic."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["michel-barnier", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000050246032",
+          "title": "Décret du 21 septembre 2024 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "nomination-barnier-2024"
+        }
+      ]
+    }
+  ]
+}
