@@ -36,14 +36,22 @@ More sources is better ("never forget" open-data registry).
 - Signed accords: often published at the JO (search "publication au Journal officiel" + the accord name for a JORFTEXT id).
 - Confidence votes / motions de censure: no standalone JO document exists for the vote; date the decision by the resulting décret (nomination/fin de fonctions, which has a JORFTEXT id) and add the fetch-verifiable Assemblée nationale scrutin/actualité page as a second source.
 - Government formations: the PM nomination décret and the government composition décret both have JORFTEXT ids.
+- A dissolution and the convocation of electors are TWO separate décrets published the same day with distinct JORFTEXT ids (one may be unnumbered).
+- An état d'urgence can end by silent statutory expiry (e.g. the 12-day lapse): there is no "levée" text to hunt at the JO; date the end by the expiry.
+- Caretaker governments ("affaires courantes") still produce registry-worthy decisions: application décrets, stopgap measures. Do not treat those months as dead time.
+- When a bill's arc never reached promulgation (e.g. a budget killed by a censure), the PRESENTATION in conseil des ministres is the citable act: source it with the AN dossier page plus the compte rendu.
 
 ## Conseil constitutionnel censures
 
 When a law was partially censored before promulgation, the summary MUST state what survived and what was censored (with the CC décision as an extra source when relevant). Press and vie-publique summaries often describe the PRE-censure text: verify against the promulgated version.
 
+- CC decision numbers carry the SAISINE year, not the law's year (the January 2024 immigration law is décision 2023-863 DC).
+- A dissolution makes pending saisines inadmissible (deputies lose standing when the décret takes effect): a law can be promulgated with its referrals dismissed, a third outcome besides censored/upheld. State it when it happened.
+
 ## Attribution conventions
 
 - Caretaker/short-lived governments: when a cabinet lives only days inside a caretaker stretch, use the next durable government's start date as the portfolio boundary, aligned with Wikipedia's dates when they differ; keep one convention registry-wide.
+- Censured governments have TWO end dates: the PM's mandate ends at the successor PM's nomination décret; the ministers' mandates end at the next government's composition décret (often days later). Follow that asymmetry.
 - When the minister who carried a bill left office before promulgation, `politician_ids` lists the office-holder at promulgation and the summary NAMES the actual carrier.
 - Budget laws take the BUDGET year in the id (`lfss-2026` promulgated in December 2025 lives in `2025-12.json`).
 

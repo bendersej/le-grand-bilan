@@ -76,3 +76,15 @@ Outcome: 34 decisions across all 12 months of 2025, 11 new politicians, new `ene
 - Wikimedia 429 pattern matched the documented loop exactly (3-4 captures per run).
 
 Next: 2024 backwards, one year per run, same review gate.
+
+## Learnings round 3 (batch 2024, ran 2026-08-20)
+
+Outcome: 35 decisions across all 12 months of the dissolution year, 12 politicians added (11 profiles; Santiago blocked by a Wikipedia page without lead image), 4 politicians' mandates extended, `culture` and `numerique` categories, cross-year relations wired into five 2025 entries. Review gate passed (4/4 sampled sources exact).
+
+- CC traps now in the skill: decision numbers carry the saisine year; a dissolution dismisses pending saisines (third outcome besides censored/upheld).
+- Non-legislative sourcing extended: dissolution + convocation are two same-day décrets with distinct ids; état d'urgence can end by silent statutory expiry; caretaker months still produce registry-worthy decisions; never-promulgated arcs (PLF 2025) are dated by their conseil-des-ministres presentation.
+- Attribution: censured governments have two end dates (PM at successor's nomination, ministers at the next composition décret). Now in the skill.
+- Photo-less Wikipedia pages leave `profile: null` by design; documented as the fallback. Open question for later: should the schema allow photo-less profiles?
+- Government sites (info.gouv.fr, budget.gouv.fr, interieur.gouv.fr) 403 automated fetches: rely on Légifrance/AN/Sénat/Élysée instead.
+
+Next: 2023 backwards.

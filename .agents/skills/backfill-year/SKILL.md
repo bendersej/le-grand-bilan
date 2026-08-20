@@ -40,4 +40,4 @@ If the agent stalls or dies, resume it with "inspect your own partial work first
 ## Known scale marks (update as they move)
 
 - A year takes the agent roughly 25-50 minutes; Wikimedia caps profile captures at ~3-4 per run (60-75s retry loop).
-- Corpus so far: 2024? / 2025 (34) / 2026 (28) + seed years.
+- Corpus so far: 2024 (35) / 2025 (34) / 2026 (28) + seed years. A dense year takes ~40 min.
