@@ -147,7 +147,7 @@ function TimelineLayout() {
                 id={timelineMonth.month}
                 className="mt-6 scroll-mt-4"
               >
-                <p className="kicker sticky top-[7.25rem] z-10 m-0 bg-[var(--bg-base)] py-1">
+                <p className="kicker sticky top-[6.875rem] z-10 m-0 bg-[var(--bg-base)] py-1">
                   {formatMonthLabel(timelineMonth.month)}
                 </p>
                 <div className="mt-4 space-y-7">
