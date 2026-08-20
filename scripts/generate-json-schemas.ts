@@ -1,18 +1,13 @@
 import { mkdirSync, writeFileSync } from 'node:fs'
-import { dirname, join } from 'node:path'
-import { fileURLToPath } from 'node:url'
+import { join } from 'node:path'
 import { z } from 'zod'
 import { CategoriesFile, DecisionsMonthFile, PoliticiansFile } from '../src/data/schema.ts'
+import { repositoryRoot } from './utils.ts'
 
 // Emits the JSON Schemas referenced by the `$schema` key of the data files,
 // giving editor autocomplete + validation to external contributors (open data).
 // CI verifies the emitted files are committed and in sync (src/data/data.test.ts).
 
-const EXIT_CODES = {
-  ok: 0,
-} as const
-
-const repositoryRoot = join(dirname(fileURLToPath(import.meta.url)), '..')
 const schemasDirectory = join(repositoryRoot, 'schemas')
 
 const jsonSchemasByFileName = {
@@ -28,5 +23,3 @@ for (const [fileName, jsonSchema] of Object.entries(jsonSchemasByFileName)) {
   writeFileSync(filePath, `${JSON.stringify(jsonSchema, null, 2)}\n`)
   console.info(`generated ${filePath}`)
 }
-
-process.exit(EXIT_CODES.ok)

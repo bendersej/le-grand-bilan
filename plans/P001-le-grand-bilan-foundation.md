@@ -65,14 +65,16 @@ Cloudflare TanStack Start template, prerender enabled (`vite.config.ts`), France
 
 - [x] Phase 1: Scaffold
 - [x] Phase 2: Data model + seed
-- [ ] Phase 3: Site UI
+- [x] Phase 3: Site UI (done except the FR/EN language toggle — see Remaining Work)
 - [ ] Phase 4: Submission UI + API
 - [ ] Phase 5: MCP server
 - [ ] Phase 6: Launch checklist
 
 ## Remaining Work
 
-Phase 3 is next: data loading + timeline/detail routes. GitHub repo does not exist yet (Phase 6 blocks end-to-end deploy proof).
+- Phase 3 leftover: FR/EN language toggle (site currently renders `fr` only; `en` fields are captured in data but not displayed).
+- Registry ships fully in the client bundle (`src/data/registry.ts`); acceptable now, revisit with route-level data splitting once backfill grows the corpus.
+- Phase 4 is next. GitHub repo does not exist yet (Phase 6 blocks end-to-end merge→deploy proof).
 
 ## Decision Log
 
@@ -92,6 +94,9 @@ Phase 3 is next: data loading + timeline/detail routes. GitHub repo does not exi
 | pnpm, single package                                             | One Worker, one app; no publishable package yet                                                                    |
 | Repo name `le-grand-bilan`                                       | Site name, lowercase-dash convention                                                                               |
 | Minimal changelog design, no boxes/shadows                       | Operator wireframe; the data is the product — typography-led frise chronologique, template island aesthetic goes   |
+| Spectral (headings) + Inter (body)                               | Marianne is State-reserved; Spectral is by a French foundry (Production Type) on Google Fonts, Inter for data      |
+| Sources must cite the exact document URL                         | Operator requirement; schema rejects site-root URLs, seed uses direct Légifrance jorf/id links                     |
+| Smoketest derives expectations from `data/`                      | Review finding: hand-listed markers were shell-satisfiable; registry-driven assertions scale with backfill         |
 
 ## Risks
 

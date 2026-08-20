@@ -12,8 +12,8 @@ One Cloudflare Worker (`wrangler.jsonc`, name `le-grand-bilan`) serves everythin
 
 `.github/workflows/ci.yml`:
 
-- **Pull requests + pushes to master** — `pnpm run check` (route generation, typecheck, oxlint, oxfmt check, vitest data suite) then `pnpm run build`.
-- **Merge to master** — after checks pass, `wrangler deploy` via `cloudflare/wrangler-action`. Merging a data PR is what publishes the site: no separate content pipeline.
+- **Pull requests + pushes to master** — `pnpm run check` (route generation, typecheck, oxlint, oxfmt check, vitest data suite), `pnpm run build`, then `pnpm run smoketest` (derives expectations from `data/` and asserts every registry entry appears in the prerendered `dist/client/` pages).
+- **Merge to master** — after checks pass, the deploy job builds, re-runs `pnpm run smoketest` on the exact artifact it ships, then `wrangler deploy` via `cloudflare/wrangler-action`. Merging a data PR is what publishes the site: no separate content pipeline.
 
 ## Required GitHub Actions secrets
 

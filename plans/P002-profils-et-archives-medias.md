@@ -46,10 +46,10 @@ Not started. Open questions below must be settled before Phase 3.
 
 ## Decision Log
 
-| Decision | Rationale |
-| -------- | --------- |
+| Decision                                         | Rationale                                                      |
+| ------------------------------------------------ | -------------------------------------------------------------- |
 | Original link is the source, R2 serves the asset | Preservation: registry must survive takedowns ("never forget") |
-| Wikipedia capture at commit time, not runtime | Static site; content is versioned data like everything else |
+| Wikipedia capture at commit time, not runtime    | Static site; content is versioned data like everything else    |
 
 ## Risks
 
