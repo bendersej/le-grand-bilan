@@ -97,6 +97,12 @@ main strong {
   color: var(--kicker);
 }
 
+/* Gutter month marker: larger than a regular kicker (declared after .kicker so
+   the size wins the cascade, which a Tailwind utility cannot). */
+.month-marker {
+  font-size: 0.8rem;
+}
+
 .nav-link {
   color: var(--sea-ink-soft);
   text-decoration: none;

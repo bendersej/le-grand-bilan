@@ -122,7 +122,7 @@ function TimelineLayout() {
           // gives it back), so the chips read "under the current month" at rest
           // AND when the stack is stuck; flex-col on the container prevents the
           // negative margin from collapsing into the first year's offset.
-          <div className="sticky top-40 z-10 -mb-[4.7rem] mt-[4.7rem] flex h-0 w-fit -translate-x-[calc(100%+2.3rem)] flex-col items-end gap-1 sm:-translate-x-[calc(100%+3rem)]">
+          <div className="sticky top-[9.85rem] z-10 -mb-[4.9rem] mt-[4.9rem] flex h-0 w-fit -translate-x-[calc(100%+2.3rem)] flex-col items-end gap-1 sm:-translate-x-[calc(100%+3rem)]">
             {activeCategories.map((category) => (
               <Link
                 key={category.id}
@@ -149,10 +149,12 @@ function TimelineLayout() {
               <section
                 key={timelineMonth.month}
                 id={timelineMonth.month}
-                className="mt-[1.2rem] scroll-mt-4"
+                className="mt-[0.6rem] scroll-mt-4"
               >
-                <p className="kicker sticky top-[8.2rem] z-10 m-0 h-0 w-fit -translate-x-[calc(100%+2.3rem)] text-[0.8rem] sm:top-[8.45rem] sm:-translate-x-[calc(100%+3rem)]">
-                  {formatMonthLabel(timelineMonth.month)}
+                <p className="kicker month-marker sticky top-[7.6rem] z-10 m-0 h-0 w-fit -translate-x-[calc(100%+2.3rem)] sm:top-[7.85rem] sm:-translate-x-[calc(100%+3rem)]">
+                  <span className="chip-glass rounded-md px-1.5 py-0.5">
+                    {formatMonthLabel(timelineMonth.month)}
+                  </span>
                 </p>
                 <div className="mt-4 space-y-7">
                   {timelineMonth.items.map((timelineItem) => {
