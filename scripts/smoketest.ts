@@ -1,11 +1,6 @@
 import { readdirSync, readFileSync } from 'node:fs'
 import { join } from 'node:path'
-import {
-  AppearancesMonthFile,
-  CategoriesFile,
-  DecisionsMonthFile,
-  PoliticiansFile,
-} from '../src/data/schema.ts'
+import { AppearancesMonthFile, DecisionsMonthFile, PoliticiansFile } from '../src/data/schema.ts'
 import { repositoryRoot } from './utils.ts'
 
 // Validates the prerendered build output so an accidentally-empty site can never
@@ -32,7 +27,6 @@ const dataDirectory = join(repositoryRoot, 'data')
 
 const readJson = (filePath: string): unknown => JSON.parse(readFileSync(filePath, 'utf8'))
 
-const categories = CategoriesFile.parse(readJson(join(dataDirectory, 'categories.json'))).categories
 const politicians = PoliticiansFile.parse(
   readJson(join(dataDirectory, 'politicians.json')),
 ).politicians
@@ -52,7 +46,7 @@ const appearances = readdirSync(join(dataDirectory, 'appearances'))
 
 // Pages only exist when the prerender crawler can reach them through a link, so
 // only entities referenced by at least one decision are expected to have a page.
-const referencedCategoryIds = new Set(decisions.flatMap((decision) => decision.category_ids))
+// Categories have no pages: they filter the timeline client-side (?categorie=).
 const referencedPoliticianIds = new Set(decisions.flatMap((decision) => decision.politician_ids))
 
 // React escapes text content, so markers derived from data must match its escaping.
@@ -106,14 +100,6 @@ const pageExpectations: PageExpectation[] = [
           .filter((appearance) => appearance.politician_ids.includes(politician.id))
           .map((appearance) => escapeHtml(appearance.title.fr)),
       ],
-    })),
-  ...categories
-    .filter((category) => referencedCategoryIds.has(category.id))
-    .map((category) => ({
-      path: `categories/${category.id}/index.html`,
-      documentMarkers: [],
-      mainMarkers: [],
-      dialogMarkers: [escapeHtml(category.label.fr)],
     })),
 ]
 
@@ -208,6 +194,6 @@ if (failures.length > 0) {
   process.exitCode = failures[0]?.exitCode ?? EXIT_CODES.missing_marker
 } else {
   console.info(
-    `smoketest: ${pageExpectations.length} pages ok (${decisions.length} decisions, ${referencedPoliticianIds.size} politicians, ${referencedCategoryIds.size} categories)`,
+    `smoketest: ${pageExpectations.length} pages ok (${decisions.length} decisions, ${referencedPoliticianIds.size} politicians)`,
   )
 }

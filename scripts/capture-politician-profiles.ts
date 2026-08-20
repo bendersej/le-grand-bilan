@@ -15,6 +15,10 @@ import { repositoryRoot } from './utils.ts'
 // against Wikipedia but bails per politician when the content hash is unchanged.
 // Positional args select specific politician ids; no args = all.
 //   pnpm run capture:profiles [id ...] [--force]
+//
+// `summary` is EDITORIAL: the script seeds it from the article's lead section
+// (truncated to ~300 words) only when capturing a new profile, and preserves it
+// on every re-run — curate it by hand/agent with markdown highlights afterwards.
 
 const EXIT_CODES = {
   capture_failed: 1,
@@ -30,6 +34,12 @@ const WikipediaSummary = z.object({
   extract: z.string().min(1),
   originalimage: z.object({ source: z.url() }).optional(),
   thumbnail: z.object({ source: z.url() }).optional(),
+})
+
+const WikipediaExtract = z.object({
+  query: z.object({
+    pages: z.record(z.string(), z.object({ extract: z.string().min(1) })),
+  }),
 })
 
 const CommonsImageInfo = z.object({
@@ -94,6 +104,11 @@ const fetchJson = async (url: string): Promise<Result<unknown, 'fetch_failed'>> 
 }
 
 const stripHtml = (html: string): string => html.replace(/<[^>]+>/g, '').trim()
+
+const truncateWords = (text: string, maxWords: number): string => {
+  const words = text.split(/\s+/)
+  return words.length <= maxWords ? text : `${words.slice(0, maxWords).join(' ')}…`
+}
 
 // Commons image URLs look like …/commons/a/ab/Name.jpg or …/commons/thumb/a/ab/Name.jpg/512px-Name.jpg
 const commonsFileName = (imageUrl: string): string => {
@@ -228,7 +243,27 @@ const captureProfile = async (
     }
   }
 
-  const contentHash = sha256(`${summaryParsed.data.extract}\n${imageUrl}`)
+  const extractUrl = `https://fr.wikipedia.org/w/api.php?action=query&format=json&prop=extracts&exintro=1&explaintext=1&redirects=1&titles=${encodeURIComponent(politician.full_name)}`
+  const extractResult = await fetchJson(extractUrl)
+  if (!extractResult.success) {
+    return extractResult
+  }
+
+  const extractParsed = WikipediaExtract.safeParse(extractResult.data)
+  const introText = extractParsed.success
+    ? Object.values(extractParsed.data.query.pages)[0]?.extract
+    : undefined
+  if (introText === undefined) {
+    return {
+      success: false,
+      error: {
+        code: 'invalid_summary',
+        message: `${politician.id}: no lead-section extract from Wikipedia`,
+      },
+    }
+  }
+
+  const contentHash = sha256(`${introText}\n${imageUrl}`)
   if (politician.profile?.content_hash === contentHash) {
     return { success: true, data: { changed: false } }
   }
@@ -246,7 +281,8 @@ const captureProfile = async (
         content_hash: contentHash,
         photo: photoResult.data,
         retrieved_at: new Date().toISOString().slice(0, 10),
-        summary: { fr: summaryParsed.data.extract, en: null },
+        // Editorial field: preserved once set, only seeded on first capture.
+        summary: politician.profile?.summary ?? { fr: truncateWords(introText, 300), en: null },
         wikipedia_url: summaryParsed.data.content_urls.desktop.page,
       },
     },

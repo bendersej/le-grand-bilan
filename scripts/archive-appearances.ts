@@ -7,10 +7,12 @@ import { z } from 'zod'
 import { Appearance, AppearanceMedia } from '../src/data/schema.ts'
 import { repositoryRoot } from './utils.ts'
 
-// Archives appearance media to R2 ("never forget", plans/P002): every appearance
-// with `media: null` is downloaded from its source (yt-dlp) and uploaded to the
-// le-grand-bilan-media bucket, then the data file records the asset (with its
-// sha256). Run locally at commit time — commit the updated data file with the entry.
+// PRIVATE cold archive of appearance media ("never forget", plans/P002): the
+// site links the YouTube/INA source directly; this script preserves a copy in
+// the (non-public) le-grand-bilan-media R2 bucket so the record survives a
+// takedown. Every appearance with `media: null` is downloaded (yt-dlp) and
+// uploaded, then the data file records the asset (with its sha256). Run locally
+// at commit time — commit the updated data file with the entry.
 //
 // Idempotent: archived appearances are skipped. `--force` re-downloads them but
 // bails per appearance when the file's sha256 is unchanged (no re-upload).

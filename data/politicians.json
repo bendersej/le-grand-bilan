@@ -16,7 +16,7 @@
         }
       ],
       "profile": {
-        "content_hash": "a36fdfbad3e7bcc28ffa05d3fe0fc583f86377cf9f48490f2c3358561682c912",
+        "content_hash": "fc785b1e895e1462176adbb4e3f6770f285cdf547dbc6fa2b92773932855b087",
         "photo": {
           "path": "/media/politicians/edouard-philippe.jpg",
           "source_url": "https://commons.wikimedia.org/wiki/File:Edouard_Philippe_3x4_crop.jpg",
@@ -25,7 +25,7 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "Édouard Philippe, né le 28 novembre 1970 à Rouen (Seine-Maritime), est un homme d'État français. Il est Premier ministre du 15 mai 2017 au 3 juillet 2020.",
+          "fr": "Homme d'État français, **Premier ministre du 15 mai 2017 au 3 juillet 2020**. Diplômé de **Sciences Po et de l'ENA**, membre du **Conseil d'État**, il participe en 2002 à la création de l'UMP aux côtés d'Alain Juppé. Élu conseiller général de la Seine-Maritime en 2008, **maire du Havre** en 2010, puis député en 2012. Nommé à Matignon par Emmanuel Macron en 2017, il est notamment confronté au **mouvement des Gilets jaunes**, porte un projet contesté et inachevé de **réforme des retraites** et gère les débuts de la **pandémie de Covid-19**. De retour à la mairie du Havre en 2020, il fonde en 2021 le parti **Horizons** et annonce sa **candidature à l'élection présidentielle de 2027**. Il fait l'objet d'une enquête du parquet national financier, ouverte en 2024, pour des soupçons de détournement de fonds publics, favoritisme, prise illégale d'intérêts et concussion à la mairie du Havre.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/%C3%89douard_Philippe"
@@ -46,7 +46,7 @@
         }
       ],
       "profile": {
-        "content_hash": "1565cb9432a8383f8f5f9252c0f4bac7ad778adc9a93f7441287ea43436b4df1",
+        "content_hash": "116d82f584291f9b877c6045924bc19d9951f04e9f713a4d45bdebf28ff0285f",
         "photo": {
           "path": "/media/politicians/elisabeth-borne.jpg",
           "source_url": "https://commons.wikimedia.org/wiki/File:La_Premi%C3%A8re_ministre_fran%C3%A7aise_%C3%89lisabeth_Borne_(cropped).jpg",
@@ -55,7 +55,7 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "Élisabeth Borne, née le 18 avril 1961 à Paris 15e (Seine), est une haute fonctionnaire et femme d'État française. Elle est Première ministre du 16 mai 2022 au 9 janvier 2024.",
+          "fr": "Haute fonctionnaire et femme d'État française, **Première ministre du 16 mai 2022 au 9 janvier 2024** — la **deuxième femme** à occuper ce poste sous la Cinquième République. **Polytechnicienne et ingénieure générale des ponts et chaussées**, elle est préfète de Poitou-Charentes (2013-2014), directrice de cabinet de Ségolène Royal au ministère de l'Écologie, puis **présidente de la RATP** (2015-2017). Ministre des **Transports** (2017), de la **Transition écologique** (2019) puis du **Travail** (2020), elle est nommée à Matignon après la réélection d'Emmanuel Macron. À la tête du premier gouvernement minoritaire depuis 1993, elle recourt **vingt-trois fois à l'article 49.3** en vingt mois — record derrière Michel Rocard — notamment pour faire adopter la très contestée **réforme des retraites de 2023**. Députée du Calvados, elle est nommée fin 2024 ministre d'État chargée de l'Éducation nationale.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_Borne"
@@ -76,7 +76,7 @@
         }
       ],
       "profile": {
-        "content_hash": "d7d558f07fc2a5296d92f1e7c23bb71b4c6feb3cc64057ee8de387dc8f4587d0",
+        "content_hash": "2c968e0ccb98739eaefb865d05a10de55fc1b65c72c46f3afa4d192b8d4d9595",
         "photo": {
           "path": "/media/politicians/emmanuel-macron.jpg",
           "source_url": "https://commons.wikimedia.org/wiki/File:Emmanuel_Macron_2025_(cropped).jpg",
@@ -85,7 +85,7 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "Emmanuel Macron, né le 21 décembre 1977 à Amiens (Somme), est un homme d'État français. Il est le président de la République française depuis le 14 mai 2017.",
+          "fr": "Homme d'État français, **président de la République depuis le 14 mai 2017** — élu à 39 ans, le plus jeune président de l'histoire française. Énarque, **inspecteur des finances**, il rejoint en 2008 la **banque d'affaires Rothschild & Cie**, dont il devient associé-gérant en 2010. Secrétaire général adjoint de l'Élysée sous François Hollande, il est nommé **ministre de l'Économie** en 2014 et fait adopter en 2015 la « **loi Macron** » pour la croissance et l'activité. En 2016, il fonde **En marche** et démissionne du gouvernement Valls. Son premier mandat est marqué par la **réforme du Code du travail par ordonnances**, le mouvement des **Gilets jaunes**, la **pandémie de Covid-19** et un premier projet de réforme des retraites contesté. **Réélu en 2022** face à Marine Le Pen, il gouverne ensuite avec une majorité relative, dans le contexte de l'invasion de l'Ukraine par la Russie.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Emmanuel_Macron"
@@ -106,7 +106,7 @@
         }
       ],
       "profile": {
-        "content_hash": "2c6f7be3c863045f55f864cb28642590a2a6c29f091de02738bce8582f8bc0d9",
+        "content_hash": "ecaf8d8e48a739e7764441727a51dfd4db938f8adb9b57de7069d787da436384",
         "photo": {
           "path": "/media/politicians/francois-hollande.jpg",
           "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Hollande_-_Ceremony_of_Honour_for_Jacques_Delors_-_2024.jpg",
@@ -115,7 +115,7 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "François Hollande [fʁɑ̃swa ɔlɑ̃d], né le 12 août 1954 à Rouen (Seine-Inférieure), est un haut fonctionnaire et homme d'État français. Il est président de la République française du 15 mai 2012 au 14 mai 2017.",
+          "fr": "Haut fonctionnaire et homme d'État français, **président de la République du 15 mai 2012 au 14 mai 2017**. **Magistrat à la Cour des comptes**, député dès 1988, **premier secrétaire du Parti socialiste de 1997 à 2008**, maire de Tulle puis président du conseil général de Corrèze. Élu en 2012 face à Nicolas Sarkozy après avoir déclaré « mon véritable adversaire, c'est le monde de la finance », il opère en 2014 un **virage social-libéral** : pacte de responsabilité, **loi Macron**, puis **loi Travail**, qui provoque une forte contestation sociale. Son quinquennat voit l'adoption du **mariage pour tous**, la **conférence de Paris sur le climat**, des interventions militaires au Mali et au Moyen-Orient, et l'**état d'urgence** après les attentats de 2015. Très impopulaire, il **renonce à briguer un second mandat** — une première sous la Cinquième République — et retrouve son siège de député de Corrèze en 2024.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Hollande"
@@ -136,7 +136,7 @@
         }
       ],
       "profile": {
-        "content_hash": "b981bcf9ee9772c3fa58b5467b9ba58f2fde714fb51e14db5e66c05befb826e3",
+        "content_hash": "32ecf9c42a549b64d840e8dbe9573145e96f8cacd0505510d990c09bf997f404",
         "photo": {
           "path": "/media/politicians/manuel-valls.jpg",
           "source_url": "https://commons.wikimedia.org/wiki/File:Manuel_Valls_2025_(cropped).jpg",
@@ -145,7 +145,7 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "Manuel Valls, né le 13 août 1962 à Barcelone (Espagne), est un homme d'État français, possédant également la nationalité espagnole. Il est Premier ministre de 2014 à 2016.",
+          "fr": "Homme d'État franco-espagnol né à Barcelone, **Premier ministre de 2014 à 2016**. Membre du Parti socialiste dès 1980, **conseiller de Michel Rocard** à Matignon dès 1988, **maire d'Évry** (2001-2012) puis député de l'Essonne. **Ministre de l'Intérieur** de 2012 à 2014 sous François Hollande, il devient Premier ministre après les élections municipales de 2014. Symbole du **tournant social-libéral** du quinquennat, son gouvernement recourt à l'**article 49.3** face aux frondeurs socialistes pour faire adopter les **lois Macron et El Khomri**, provoquant un mouvement social de plusieurs mois ; il affronte aussi les **attentats islamistes de 2015**. Candidat malheureux à la primaire de 2017, il soutient ensuite Emmanuel Macron, quitte le PS, puis se présente aux élections municipales de 2019 à **Barcelone**, sa ville natale.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Manuel_Valls"
@@ -166,7 +166,7 @@
         }
       ],
       "profile": {
-        "content_hash": "54c2296c110912a651aa43259c8fa0dc43fee90c9ca433666cba1b4d82441245",
+        "content_hash": "996a731ae00275d2cbdd90bce9b0efebdafcf94ea7cb7feca8a22bd073ac2847",
         "photo": {
           "path": "/media/politicians/muriel-penicaud.jpg",
           "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_Muriel_P%C3%A9nicaud_(cropped).jpg",
@@ -175,7 +175,7 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "Muriel Pénicaud, née le 31 mars 1955 à Versailles, est une dirigeante d’entreprise, haute fonctionnaire et femme politique française.",
+          "fr": "Dirigeante d'entreprise, haute fonctionnaire et femme politique française, **ministre du Travail de mai 2017 à juillet 2020** (gouvernements Philippe I et II). Avant la politique, elle fait carrière dans le **secteur privé** : directrice générale adjointe de **Dassault Systèmes** (2002-2008), directrice générale des ressources humaines du groupe **Danone** (2008-2014), administratrice d'**Orange, de la SNCF et d'Aéroports de Paris**. En 2014, elle participe à la création de **Business France**, qu'elle dirige jusqu'en 2017. Ministre, elle porte les **ordonnances Travail de 2017**. Nommée en 2020 **ambassadrice auprès de l'OCDE**, elle est mise en examen en 2023 pour « complicité de favoritisme » dans l'affaire Business France.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Muriel_P%C3%A9nicaud"
@@ -196,7 +196,7 @@
         }
       ],
       "profile": {
-        "content_hash": "22320de6a497f023f441cadd744d70256fff3ca44945cccc4eb6abfbdd384a33",
+        "content_hash": "cf764713a4a6f0f396a0334ffcae00c4a1b31bf7d783ef79df4864caf8cc9488",
         "photo": {
           "path": "/media/politicians/myriam-el-khomri.jpg",
           "source_url": "https://commons.wikimedia.org/wiki/File:Myriam_El_Khomri_par_Claude_Truong-Ngoc_septembre_2014.jpg",
@@ -205,7 +205,7 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "Myriam El Khomri, née le 18 février 1978 à Rabat (Maroc), est une femme politique française.",
+          "fr": "Femme politique française née à Rabat. Membre du conseil national du **Parti socialiste** à partir de 2008, **conseillère de Paris** (18e arrondissement) de 2008 à 2020, elle est nommée **secrétaire d'État à la Politique de la ville** en 2014, puis **ministre du Travail de septembre 2015 à mai 2017**. À ce titre, elle porte la **« loi Travail » de 2016** (modernisation du dialogue social et sécurisation des parcours professionnels), adoptée par recours à l'**article 49.3** après un mouvement social de grande ampleur. Battue aux élections législatives de 2017 à Paris, elle se retire de la vie politique en 2020.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Myriam_El_Khomri"
@@ -226,7 +226,7 @@
         }
       ],
       "profile": {
-        "content_hash": "32c4996e3974a908cf8eb426775619354170f4cd09e93c718e6a53d027c7bc01",
+        "content_hash": "874bdb83ebc3cdba9082410acbefbdc799aae540b476351a8f00d0711434fc07",
         "photo": {
           "path": "/media/politicians/olivier-dussopt.jpg",
           "source_url": "https://commons.wikimedia.org/wiki/File:Olivier_Dussopt_(cropped).jpg",
@@ -235,7 +235,7 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "Olivier Dussopt, né le 16 août 1978 à Annonay (Ardèche), est un homme politique français.",
+          "fr": "Homme politique français, **ministre du Travail, du Plein emploi et de l'Insertion de mai 2022 à janvier 2024** dans le gouvernement Borne — il porte la **réforme des retraites de 2023** face aux grèves du mouvement social. **Député de l'Ardèche dès 2007** (benjamin de l'Assemblée nationale), socialiste jusqu'en 2017, il est nommé **secrétaire d'État** en 2017 puis **ministre délégué chargé des Comptes publics** en 2020. Cofondateur et président du parti **Territoires de progrès** (2020), il devient en 2024 **secrétaire général exécutif de Renaissance**. Poursuivi pour favoritisme dans l'attribution de marchés publics, il est relaxé en 2024, condamné après appel du parquet, puis voit sa condamnation **cassée en juin 2026**, l'affaire étant renvoyée pour être de nouveau jugée.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Olivier_Dussopt"
