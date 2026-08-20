@@ -16,7 +16,7 @@ Build "Le Grand Bilan" — Qui a fait quoi. Quand. — a static, open-data regis
 - [ ] Submission UI: a form that validates against the schema, passes Turnstile, and opens a PR via `/api/submissions`
 - [ ] MCP server at `/mcp` exposing a `submit_decision` tool that opens the same kind of PR
 - [ ] Abuse protection live: Turnstile on the UI, Worker rate limiting on `/api/submissions` and `/mcp`
-- [ ] First deploy reachable on workers.dev; merge-to-master deploy proven end to end
+- [x] Deploy reachable (legrandbilan.fr custom domains; workers.dev deliberately disabled); merge-to-master CI deploy proven end to end
 
 ## Implementation Phases
 
@@ -72,9 +72,10 @@ Cloudflare TanStack Start template, prerender enabled (`vite.config.ts`), France
 
 ## Remaining Work
 
-- Registry ships fully in the client bundle (`src/data/registry.ts`); acceptable now, revisit with route-level data splitting once backfill grows the corpus.
-- Phase 4 (submission UI + `/api/submissions` + Turnstile) and Phase 5 (MCP server) not started.
-- Phase 6: repo exists (github.com/bendersej/le-grand-bilan) and workers.dev deploys are proven from local; the CI deploy job still fails pending the `CLOUDFLARE_API_TOKEN` / `CLOUDFLARE_ACCOUNT_ID` Actions secrets (operator), then branch protection and the custom domain (recommended: legrandbilan.fr, available at AFNIC).
+- Phases 4 (submission UI + `/api/submissions` + Turnstile) and 5 (MCP server) POSTPONED by operator decision; next when reactivated.
+- Phase 6 essentially done: legrandbilan.fr + www live via Worker custom domains (registration at Gandi, NS delegated, workers.dev disabled); CI secrets set, merge-to-master auto-deploy proven; branch protection = no force-push/no deletion (strict required-status-checks deferred until the flow becomes PR-based).
+- Registry ships fully in the client bundle (`src/data/registry.ts`): fine at ~100 decisions, revisit with route-level data splitting as backfill grows.
+- og:image now points at legrandbilan.fr; consider a www→apex redirect rule for one canonical host.
 
 ## Decision Log
 

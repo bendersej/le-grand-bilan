@@ -77,6 +77,12 @@ Outcome: 34 decisions across all 12 months of 2025, 11 new politicians, new `ene
 
 Next: 2024 backwards, one year per run, same review gate.
 
+## HANDOVER STATE (2026-08-20, end of session)
+
+- A 2023 research agent is RUNNING IN THE BACKGROUND at handover time (spawned from this session; it dies with the session). Its output lands UNCOMMITTED in the working tree (data/decisions/2023-*.json, politicians, photos). Next session: if output is present, run the backfill-year review gate (format/check/build/smoketest + independently fetch-verify 4+ sampled sources), record LEARNINGS round 4 here, fold them into the sourcing skills, then the two-commit ship (push = CI deploys). If the tree is clean, relaunch the year with .agents/skills/backfill-year.
+- 2023 brief given to the agent: data/decisions/2023-04.json already holds the seed reforme-retraites-2023 (extend around it, never duplicate); Borne ministers largely exist, extend mandates.
+- After 2023: 2022, then backwards to 1958, one backfill-year run each.
+
 ## Learnings round 3 (batch 2024, ran 2026-08-20)
 
 Outcome: 35 decisions across all 12 months of the dissolution year, 12 politicians added (11 profiles; Santiago blocked by a Wikipedia page without lead image), 4 politicians' mandates extended, `culture` and `numerique` categories, cross-year relations wired into five 2025 entries. Review gate passed (4/4 sampled sources exact).
