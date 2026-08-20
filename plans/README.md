@@ -8,4 +8,6 @@ Template: `template.md`. Work on a plan happens on a branch named after the plan
 
 ## Backlog
 
+- [P002 - Profils des décisionnaires et archives médias](P002-profils-et-archives-medias.md)
+
 ## Completed
