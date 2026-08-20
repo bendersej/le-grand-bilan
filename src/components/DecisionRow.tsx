@@ -101,7 +101,7 @@ export default function DecisionRow({
           {rowCategories.map((category) => (
             <Link
               key={category.id}
-              to="/"
+              to="."
               search={{ categorie: category.id }}
               resetScroll={false}
               className="chip"

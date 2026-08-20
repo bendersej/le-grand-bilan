@@ -105,7 +105,7 @@ function TimelineLayout() {
       {activeCategory ? (
         <p className="m-0 mt-6 flex items-center gap-2 text-sm">
           <span className="chip">{activeCategory.label.fr}</span>
-          <Link to="/" resetScroll={false} className="text-xs">
+          <Link to="." search={{}} resetScroll={false} className="text-xs">
             Effacer le filtre
           </Link>
         </p>

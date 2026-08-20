@@ -80,7 +80,7 @@ function DecisionPage() {
         {decisionCategories.map((category) => (
           <Link
             key={category.id}
-            to="/"
+            to="."
             search={{ categorie: category.id }}
             resetScroll={false}
             className="chip"
