@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2022-06",
+  "decisions": [
+    {
+      "id": "statut-candidat-ue-ukraine-moldavie-2022",
+      "date": "2022-06-23",
+      "title": {
+        "fr": "Octroi du statut de candidat à l'UE à l'Ukraine et à la Moldavie",
+        "en": "EU candidate status granted to Ukraine and Moldova"
+      },
+      "summary": {
+        "fr": "Au Conseil européen des 23 et 24 juin 2022, la France, qui exerce la **présidence du Conseil de l'Union européenne**, approuve avec les Vingt-Sept l'octroi du **statut de candidat à l'adhésion à l'Union européenne à l'Ukraine et à la Moldavie**, quatre mois après l'invasion russe ; la Géorgie reçoit une **« perspective européenne »** conditionnée à des réformes.",
+        "en": "At the European Council of 23-24 June 2022, France, then holding the **presidency of the Council of the European Union**, approved with the Twenty-Seven the granting of **EU candidate status to Ukraine and Moldova**, four months after the Russian invasion; Georgia received a **\"European perspective\"** conditional on reforms."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2022/06/24/conseil-europeen-des-23-et-24-juin-2022",
+          "title": "Conseil européen des 23 et 24 juin 2022 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "sommet-otan-madrid-2022",
+      "date": "2022-06-29",
+      "title": {
+        "fr": "Sommet de l'OTAN à Madrid : nouveau concept stratégique et élargissement",
+        "en": "NATO Madrid summit: new Strategic Concept and enlargement"
+      },
+      "summary": {
+        "fr": "Au sommet de Madrid (28-30 juin 2022), la France approuve le **nouveau concept stratégique de l'OTAN**, qui désigne la Russie comme **« la menace la plus importante et la plus directe »** pour la sécurité des Alliés, et l'**invitation de la Finlande et de la Suède** à rejoindre l'Alliance ; la France devient **nation-cadre du bataillon de l'OTAN en Roumanie** et renforce sa présence sur le flanc est.",
+        "en": "At the Madrid summit (28-30 June 2022), France endorsed **NATO's new Strategic Concept**, naming Russia **\"the most significant and direct threat\"** to Allied security, and the **invitation of Finland and Sweden** to join the Alliance; France became the **framework nation of NATO's battlegroup in Romania** and reinforced its presence on the eastern flank."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["emmanuel-macron", "catherine-colonna", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.nato.int/en/about-us/official-texts-and-resources/official-texts/2022/06/29/madrid-summit-declaration",
+          "title": "Madrid Summit Declaration, 29 June 2022 - NATO"
+        },
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2022/06/30/participation-du-president-emmanuel-macron-au-sommet-de-lotan-de-madrid",
+          "title": "Participation du Président Emmanuel Macron au sommet de l'OTAN de Madrid - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-ratification-otan-finlande-suede-2022"
+        }
+      ]
+    }
+  ]
+}

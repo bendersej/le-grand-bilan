@@ -21,7 +21,16 @@
           "title": "Décret n° 2023-2 du 2 janvier 2023 relatif à la création, aux conditions et aux modalités de versement d'une indemnité carburant - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "remise-carburant-2022"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-de-finances-2023"
+        }
+      ]
     },
     {
       "id": "lopmi-2023",

@@ -29,7 +29,12 @@
           "title": "Décision n° 2023-858 DC du 14 décembre 2023 - Conseil constitutionnel"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-marche-travail-2022"
+        }
+      ]
     },
     {
       "id": "lfss-2024",

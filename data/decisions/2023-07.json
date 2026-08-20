@@ -68,7 +68,12 @@
           "title": "Décret du 20 juillet 2023 relatif à la composition du Gouvernement - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "remaniement-gouvernement-borne-juillet-2022"
+        }
+      ]
     },
     {
       "id": "loi-restitution-biens-spolies-2023",
@@ -89,7 +94,12 @@
           "title": "LOI n° 2023-650 du 22 juillet 2023 relative à la restitution des biens culturels ayant fait l'objet de spoliations entre 1933 et 1945 - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-restitution-biens-spolies-2022"
+        }
+      ]
     },
     {
       "id": "loi-reconstruction-emeutes-2023",

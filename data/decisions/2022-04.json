@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2022-04",
+  "decisions": [
+    {
+      "id": "bouclier-tarifaire-habitat-collectif-2022",
+      "date": "2022-04-09",
+      "title": {
+        "fr": "Extension du bouclier tarifaire gaz à l'habitat collectif",
+        "en": "Extension of the gas price shield to collective housing"
+      },
+      "summary": {
+        "fr": "Décret n° 2022-514 : l'équivalent du **bouclier tarifaire sur le gaz** est étendu, sous forme d'aide, à l'**habitat collectif résidentiel** (logements HLM, copropriétés, réseaux de chaleur), dont les contrats collectifs ne bénéficiaient pas du gel des tarifs réglementés ; l'aide, versée via les fournisseurs et gestionnaires par l'Agence de services et de paiement, couvre la période du **1er novembre 2021 au 30 juin 2022**.",
+        "en": "Decree no. 2022-514: the equivalent of the **gas price shield** is extended, as an aid, to **collective residential housing** (social housing, co-owned buildings, district heating networks), whose collective contracts did not benefit from the regulated tariff freeze; the aid, paid through suppliers and managers by the Agence de services et de paiement, covers the period from **1 November 2021 to 30 June 2022**."
+      },
+      "category_ids": ["energie", "economie"],
+      "politician_ids": ["jean-castex", "bruno-le-maire"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045537717",
+          "title": "Décret n° 2022-514 du 9 avril 2022 relatif à l'aide en faveur de l'habitat collectif résidentiel face à l'augmentation du prix du gaz naturel - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "reelection-macron-2022",
+      "date": "2022-04-27",
+      "title": {
+        "fr": "Réélection d'Emmanuel Macron à la présidence de la République",
+        "en": "Re-election of Emmanuel Macron as President of the Republic"
+      },
+      "summary": {
+        "fr": "Le Conseil constitutionnel proclame les résultats du second tour du 24 avril 2022 : **Emmanuel Macron est réélu président de la République avec 58,55 % des suffrages exprimés** (18 768 639 voix) face à **Marine Le Pen (41,45 %)**. Il est le **premier président réélu depuis Jacques Chirac en 2002** et entame son second quinquennat le 14 mai 2022.",
+        "en": "The Constitutional Council proclaims the results of the second round of 24 April 2022: **Emmanuel Macron is re-elected President of the Republic with 58.55% of the valid votes** (18,768,639 ballots) against **Marine Le Pen (41.45%)**. He is the **first president re-elected since Jacques Chirac in 2002** and began his second five-year term on 14 May 2022."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045682724",
+          "title": "Décision n° 2022-197 PDR du 27 avril 2022 portant proclamation des résultats de l'élection du Président de la République - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "nomination-borne-2022"
+        }
+      ]
+    }
+  ]
+}

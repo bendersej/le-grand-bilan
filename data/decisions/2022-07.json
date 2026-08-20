@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2022-07",
+  "decisions": [
+    {
+      "id": "remaniement-gouvernement-borne-juillet-2022",
+      "date": "2022-07-04",
+      "title": {
+        "fr": "Remaniement du gouvernement Borne après les législatives",
+        "en": "Reshuffle of the Borne government after the legislative elections"
+      },
+      "summary": {
+        "fr": "Décret du 4 juillet 2022 relatif à la composition du Gouvernement, après des élections législatives qui ont privé la coalition présidentielle de la **majorité absolue à l'Assemblée nationale** et vu la défaite de plusieurs ministres : **François Braun remplace Brigitte Bourguignon à la Santé**, **Christophe Béchu remplace Amélie de Montchalin à la Transition écologique**, Jean-Christophe Combe succède à Damien Abad aux Solidarités ; **Clément Beaune** (Transports), **Jean-Noël Barrot** (Numérique) et **Roland Lescure** (Industrie) sont nommés ministres délégués.",
+        "en": "Decree of 4 July 2022 on the composition of the Government, after legislative elections that stripped the presidential coalition of its **absolute majority in the National Assembly** and defeated several ministers: **François Braun replaces Brigitte Bourguignon at Health**, **Christophe Béchu replaces Amélie de Montchalin at the Ecological Transition**, Jean-Christophe Combe succeeds Damien Abad at Solidarity; **Clément Beaune** (Transport), **Jean-Noël Barrot** (Digital) and **Roland Lescure** (Industry) are appointed junior ministers."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046013941",
+          "title": "Décret du 4 juillet 2022 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "gouvernement-borne-2022"
+        }
+      ]
+    },
+    {
+      "id": "revalorisation-point-indice-2022",
+      "date": "2022-07-07",
+      "title": {
+        "fr": "Revalorisation du point d'indice de la fonction publique de 3,5 %",
+        "en": "3.5% increase of the civil service index point"
+      },
+      "summary": {
+        "fr": "Décret n° 2022-994 : la valeur du **point d'indice de la fonction publique est majorée de 3,5 % au 1er juillet 2022**, première revalorisation générale depuis 2017, pour les personnels civils et militaires de l'État, des collectivités territoriales et des hôpitaux publics, soit environ **5,7 millions d'agents**, en réponse à l'inflation.",
+        "en": "Decree no. 2022-994: the value of the **civil service index point is raised by 3.5% from 1 July 2022**, the first across-the-board increase since 2017, for civil and military personnel of the State, local governments and public hospitals, about **5.7 million agents**, in response to inflation."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["stanislas-guerini", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046026212",
+          "title": "Décret n° 2022-994 du 7 juillet 2022 portant majoration de la rémunération des personnels civils et militaires de l'État, des personnels des collectivités territoriales et des établissements publics d'hospitalisation - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-fin-regimes-exception-covid-2022",
+      "date": "2022-07-30",
+      "title": {
+        "fr": "Fin des régimes d'exception contre le covid-19",
+        "en": "End of the covid-19 emergency regimes"
+      },
+      "summary": {
+        "fr": "Loi n° 2022-1089 : **abrogation au 1er août 2022 des régimes juridiques de l'état d'urgence sanitaire** et de gestion de la crise, ce qui **met fin au passe sanitaire et au passe vaccinal** ; le Gouvernement conserve seulement, jusqu'au 31 janvier 2023, la possibilité d'**exiger un test négatif aux frontières** en cas de variant dangereux, et la levée de l'obligation vaccinale des soignants reste subordonnée à un décret pris après avis de la Haute Autorité de santé.",
+        "en": "Law no. 2022-1089: **repeal on 1 August 2022 of the legal regimes of the health state of emergency** and crisis management, which **ends the health pass and the vaccine pass**; until 31 January 2023 the Government only keeps the power to **require a negative test at the borders** should a dangerous variant emerge, and lifting the caregivers' vaccination mandate remains subject to a decree taken after an opinion of the High Health Authority."
+      },
+      "category_ids": ["sante", "institutions"],
+      "politician_ids": ["francois-braun", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046114630",
+          "title": "LOI n° 2022-1089 du 30 juillet 2022 mettant fin aux régimes d'exception créés pour lutter contre l'épidémie liée à la covid-19 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl21-779.html",
+          "title": "Dossier législatif : fin des régimes d'exception covid-19 - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "passe-vaccinal-2022"
+        },
+        {
+          "type": "related",
+          "decision_id": "suspension-passe-vaccinal-2022"
+        }
+      ]
+    }
+  ]
+}

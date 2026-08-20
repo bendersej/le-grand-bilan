@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2022-11",
+  "decisions": [
+    {
+      "id": "cheque-energie-fioul-2022",
+      "date": "2022-11-05",
+      "title": {
+        "fr": "Chèque énergie fioul de 100 à 200 euros",
+        "en": "100 to 200 euro heating oil energy voucher"
+      },
+      "summary": {
+        "fr": "Décret n° 2022-1407 : création d'un **chèque énergie exceptionnel pour les ménages se chauffant au fioul domestique**, de **200 euros** pour les foyers dont le revenu fiscal de référence par unité de consommation est inférieur à 10 800 euros et de **100 euros** jusqu'à 20 000 euros, versé automatiquement ou sur demande sur présentation d'une facture de fioul.",
+        "en": "Decree no. 2022-1407: creation of an **exceptional energy voucher for households heating with domestic fuel oil**, worth **200 euros** for households with a reference tax income per consumption unit below 10,800 euros and **100 euros** up to 20,000 euros, paid automatically or on request upon presentation of a heating oil invoice."
+      },
+      "category_ids": ["economie", "energie"],
+      "politician_ids": ["agnes-pannier-runacher", "gabriel-attal", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046528171",
+          "title": "Décret n° 2022-1407 du 5 novembre 2022 relatif au chèque énergie pour les ménages chauffés au fioul domestique - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "fin-operation-barkhane-2022",
+      "date": "2022-11-09",
+      "title": {
+        "fr": "Fin de l'opération Barkhane et Revue nationale stratégique",
+        "en": "End of Operation Barkhane and National Strategic Review"
+      },
+      "summary": {
+        "fr": "À Toulon, à bord du porte-hélicoptères Dixmude, Emmanuel Macron annonce officiellement la **fin de l'opération Barkhane**, engagée au Sahel depuis 2014, au profit de partenariats militaires plus légers avec les États africains, et présente la **Revue nationale stratégique** qui tire les leçons de la guerre en Ukraine : dissuasion nucléaire réaffirmée, objectif d'une **cyberdéfense de premier rang mondial** et préparation de la loi de programmation militaire 2024-2030.",
+        "en": "In Toulon, aboard the helicopter carrier Dixmude, Emmanuel Macron officially announced the **end of Operation Barkhane**, engaged in the Sahel since 2014, in favour of lighter military partnerships with African states, and presented the **National Strategic Review** drawing lessons from the war in Ukraine: nuclear deterrence reaffirmed, the goal of **world-class cyberdefence** and preparation of the 2024-2030 military programming law."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["emmanuel-macron", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2022/11/09/a-toulon-le-president-de-la-republique-presente-la-revue-nationale-strategique",
+          "title": "À Toulon, le Président de la République présente la Revue nationale stratégique - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "retrait-militaire-niger-2023"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-programmation-militaire-2023"
+        }
+      ]
+    }
+  ]
+}

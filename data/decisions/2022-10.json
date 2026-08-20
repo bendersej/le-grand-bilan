@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2022-10",
+  "decisions": [
+    {
+      "id": "plan-sobriete-energetique-2022",
+      "date": "2022-10-06",
+      "title": {
+        "fr": "Plan de sobriété énergétique",
+        "en": "Energy sobriety plan"
+      },
+      "summary": {
+        "fr": "Face au risque de pénurie d'énergie lié à la guerre en Ukraine et à l'indisponibilité d'une partie du parc nucléaire, le Gouvernement présente le **plan de sobriété énergétique** : objectif de **réduction de 10 % de la consommation d'énergie d'ici deux ans** (par rapport à 2019) et de 40 % d'ici 2050, **chauffage limité à 19 °C** dans les bâtiments publics, État exemplaire, et chartes d'engagement des entreprises, collectivités et bailleurs.",
+        "en": "Facing the risk of energy shortages caused by the war in Ukraine and the partial unavailability of the nuclear fleet, the Government presented the **energy sobriety plan**: target of a **10% cut in energy consumption within two years** (compared with 2019) and 40% by 2050, **heating capped at 19°C** in public buildings, an exemplary State, and commitment charters for companies, local authorities and landlords."
+      },
+      "category_ids": ["ecologie", "energie"],
+      "politician_ids": ["agnes-pannier-runacher", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.ecologie.gouv.fr/presse/dossier-presse-plan-sobriete-energetique-mobilisation-generale",
+          "title": "Dossier de presse - Plan sobriété énergétique : une mobilisation générale - Ministère de la Transition écologique"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "premier-49-3-borne-2022",
+      "date": "2022-10-19",
+      "title": {
+        "fr": "Premier recours au 49.3 par Élisabeth Borne sur le budget 2023",
+        "en": "Élisabeth Borne's first use of article 49.3 on the 2023 budget"
+      },
+      "summary": {
+        "fr": "Faute de majorité absolue, Élisabeth Borne engage la responsabilité de son gouvernement (**article 49.3 de la Constitution**) le 19 octobre 2022 pour faire adopter sans vote la première partie du **projet de loi de finances pour 2023** : les deux **motions de censure** déposées par la NUPES et le Rassemblement national sont **rejetées le 24 octobre**. C'est le premier d'une **série de dix 49.3** utilisés sur les textes budgétaires à l'automne 2022.",
+        "en": "Lacking an absolute majority, Élisabeth Borne staked her government's survival (**article 49.3 of the Constitution**) on 19 October 2022 to pass the first part of the **2023 budget bill** without a vote: the two **censure motions** filed by the NUPES and the Rassemblement national were **rejected on 24 October**. It was the first of a **series of ten uses of article 49.3** on the autumn 2022 budget bills."
+      },
+      "category_ids": ["economie", "institutions"],
+      "politician_ids": ["elisabeth-borne", "bruno-le-maire", "gabriel-attal"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/actualites-accueil-hub/rejet-de-2-motions-de-censure-adoption-de-la-1ere-partie-du-plf-2023",
+          "title": "Rejet de 2 motions de censure : adoption de la 1ère partie du PLF 2023 - Assemblée nationale"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/16/comptes-rendus/seance/session-ordinaire-de-2022-2023/premiere-seance-du-lundi-24-octobre-2022",
+          "title": "Compte rendu de la première séance du lundi 24 octobre 2022 (motions de censure) - Assemblée nationale"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-de-finances-2023"
+        },
+        {
+          "type": "related",
+          "decision_id": "lfss-2023"
+        }
+      ]
+    }
+  ]
+}

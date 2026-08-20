@@ -1,0 +1,66 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2022-05",
+  "decisions": [
+    {
+      "id": "nomination-borne-2022",
+      "date": "2022-05-16",
+      "title": {
+        "fr": "Nomination d'Élisabeth Borne à Matignon",
+        "en": "Appointment of Élisabeth Borne as Prime Minister"
+      },
+      "summary": {
+        "fr": "Après la démission du gouvernement de Jean Castex, Emmanuel Macron nomme **Élisabeth Borne Première ministre** par décret du 16 mai 2022 : ancienne ministre des Transports, de la Transition écologique puis du Travail, elle est la **deuxième femme à diriger le gouvernement**, trente et un ans après Édith Cresson.",
+        "en": "After the resignation of Jean Castex's government, Emmanuel Macron appointed **Élisabeth Borne Prime Minister** by decree of 16 May 2022: former minister for Transport, Ecological Transition then Labour, she is the **second woman to head the government**, thirty-one years after Édith Cresson."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045802692",
+          "title": "Décret du 16 mai 2022 portant nomination du Premier ministre - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "reelection-macron-2022"
+        },
+        {
+          "type": "related",
+          "decision_id": "gouvernement-borne-2022"
+        }
+      ]
+    },
+    {
+      "id": "gouvernement-borne-2022",
+      "date": "2022-05-20",
+      "title": {
+        "fr": "Formation du gouvernement Borne",
+        "en": "Formation of the Borne government"
+      },
+      "summary": {
+        "fr": "Décret du 20 mai 2022 relatif à la composition du Gouvernement : **Gérald Darmanin est maintenu à l'Intérieur**, **Bruno Le Maire à l'Économie** et **Éric Dupond-Moretti à la Justice** ; **Catherine Colonna** est nommée aux Affaires étrangères, **Sébastien Lecornu** aux Armées, l'historien **Pap Ndiaye** à l'Éducation nationale, **Brigitte Bourguignon** à la Santé, **Olivier Dussopt** au Travail et **Agnès Pannier-Runacher** à la Transition énergétique.",
+        "en": "Decree of 20 May 2022 on the composition of the Government: **Gérald Darmanin stays at the Interior**, **Bruno Le Maire at the Economy** and **Éric Dupond-Moretti at Justice**; **Catherine Colonna** is appointed to Foreign Affairs, **Sébastien Lecornu** to the Armed Forces, historian **Pap Ndiaye** to National Education, **Brigitte Bourguignon** to Health, **Olivier Dussopt** to Labour and **Agnès Pannier-Runacher** to the Energy Transition."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000045819551",
+          "title": "Décret du 20 mai 2022 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "nomination-borne-2022"
+        },
+        {
+          "type": "related",
+          "decision_id": "remaniement-gouvernement-borne-juillet-2022"
+        }
+      ]
+    }
+  ]
+}

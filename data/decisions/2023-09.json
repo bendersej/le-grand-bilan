@@ -21,7 +21,12 @@
           "title": "Interview du président Emmanuel Macron sur TF1 et France 2, 24 septembre 2023 - Élysée"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "fin-operation-barkhane-2022"
+        }
+      ]
     },
     {
       "id": "planification-ecologique-2023",

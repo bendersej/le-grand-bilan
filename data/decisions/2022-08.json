@@ -1,0 +1,95 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2022-08",
+  "decisions": [
+    {
+      "id": "loi-ratification-otan-finlande-suede-2022",
+      "date": "2022-08-05",
+      "title": {
+        "fr": "Ratification de l'adhésion de la Finlande et de la Suède à l'OTAN",
+        "en": "Ratification of Finland's and Sweden's NATO accession"
+      },
+      "summary": {
+        "fr": "Loi n° 2022-1124 autorisant la **ratification par la France des protocoles d'accession de la Finlande et de la Suède au Traité de l'Atlantique Nord**, signés à Bruxelles le 5 juillet 2022 après l'invitation lancée au sommet de Madrid : l'abandon de décennies de non-alignement des deux pays nordiques constitue le **premier élargissement de l'OTAN depuis 2020**, conséquence directe de l'invasion russe de l'Ukraine.",
+        "en": "Law no. 2022-1124 authorising **France's ratification of the protocols of accession of Finland and Sweden to the North Atlantic Treaty**, signed in Brussels on 5 July 2022 after the invitation issued at the Madrid summit: the two Nordic countries' abandonment of decades of non-alignment is the **first NATO enlargement since 2020**, a direct consequence of the Russian invasion of Ukraine."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["catherine-colonna", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046150407",
+          "title": "LOI n° 2022-1124 du 5 août 2022 autorisant la ratification des protocoles au Traité de l'Atlantique Nord sur l'accession de la Finlande et de la Suède - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "sommet-otan-madrid-2022"
+        }
+      ]
+    },
+    {
+      "id": "loi-pouvoir-achat-2022",
+      "date": "2022-08-16",
+      "title": {
+        "fr": "Loi portant mesures d'urgence pour la protection du pouvoir d'achat",
+        "en": "Emergency law for the protection of purchasing power"
+      },
+      "summary": {
+        "fr": "Loi n° 2022-1158, premier grand texte de la législature à majorité relative : création de la **prime de partage de la valeur** exonérée jusqu'à **3 000 euros** (6 000 euros avec accord d'intéressement), **revalorisation anticipée de 4 % des pensions de retraite et des prestations sociales** au 1er juillet 2022, **plafonnement de la hausse des loyers à 3,5 %** pendant un an, **résiliation « en trois clics »** des contrats en ligne et mesures de sécurisation de l'approvisionnement en gaz pour l'hiver.",
+        "en": "Law no. 2022-1158, the first major text of the hung-parliament legislature: creation of the **value-sharing bonus** tax-free up to **3,000 euros** (6,000 euros with a profit-sharing agreement), **early 4% increase of retirement pensions and social benefits** from 1 July 2022, **rent increases capped at 3.5%** for one year, **\"three-click\" cancellation** of online contracts and measures securing gas supply for the winter."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["bruno-le-maire", "olivier-dussopt", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046186723",
+          "title": "LOI n° 2022-1158 du 16 août 2022 portant mesures d'urgence pour la protection du pouvoir d'achat - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl21-817.html",
+          "title": "Dossier législatif : protection du pouvoir d'achat - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-finances-rectificative-aout-2022",
+      "date": "2022-08-16",
+      "title": {
+        "fr": "Loi de finances rectificative pour 2022 (paquet pouvoir d'achat)",
+        "en": "2022 supplementary budget law (purchasing power package)"
+      },
+      "summary": {
+        "fr": "Loi n° 2022-1157 de finances rectificative, volet budgétaire du paquet pouvoir d'achat : **suppression de la redevance audiovisuelle** (138 euros en métropole), crédits ouverts, dont **12,7 milliards d'euros** de participations financières permettant la **montée de l'État à 100 % du capital d'EDF**, financement de l'**aide exceptionnelle de rentrée** et **renforcement de la remise carburant à 30 centimes par litre** en septembre-octobre puis 10 centimes en novembre-décembre (décret du 22 août 2022).",
+        "en": "Supplementary budget law no. 2022-1157, the budgetary side of the purchasing power package: **abolition of the TV licence fee** (138 euros in mainland France), new appropriations including **12.7 billion euros** of financial holdings enabling the **State to take 100% ownership of EDF**, funding of the **exceptional back-to-school aid** and an **increased fuel rebate of 30 cents per litre** in September-October then 10 cents in November-December (decree of 22 August 2022)."
+      },
+      "category_ids": ["economie", "energie"],
+      "politician_ids": ["gabriel-attal", "bruno-le-maire", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046186661",
+          "title": "LOI n° 2022-1157 du 16 août 2022 de finances rectificative pour 2022 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl21-830.html",
+          "title": "Dossier législatif : première loi de finances rectificative pour 2022 - Sénat"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000046206624",
+          "title": "Décret n° 2022-1168 du 22 août 2022 modifiant le décret n° 2022-423 relatif à l'aide exceptionnelle à l'acquisition de carburants - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "remise-carburant-2022"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-pouvoir-achat-2022"
+        }
+      ]
+    }
+  ]
+}

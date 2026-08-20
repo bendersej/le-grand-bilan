@@ -2,6 +2,36 @@
   "$schema": "../schemas/politicians.schema.json",
   "politicians": [
     {
+      "id": "adrien-taquet",
+      "full_name": "Adrien Taquet",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Secrétaire d'État chargé de la Protection de l'enfance, puis de l'Enfance et des Familles",
+            "en": "State Secretary for Child Protection, then for Children and Families"
+          },
+          "from": "2019-01-25",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "b93c33abb59dcaafde32bb21122279fb73cdeded252c28de5b1d6382e6f69b0d",
+        "photo": {
+          "path": "/media/politicians/adrien-taquet.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Adrien_taquet_16467.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "G.Garitan"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme politique français, **secrétaire d'État chargé de la protection de l'enfance** de janvier 2019 à mai 2022 (chargé de l'Enfance et des Familles à partir de juillet 2020), dans les gouvernements Philippe puis Castex. **Cofondateur d'En marche**, dont il a inventé le **nom et le logo**, il est élu **député des Hauts-de-Seine en 2017** avant de rejoindre le gouvernement. Venu du secteur privé, il a fait carrière dans la **communication et la publicité** avant la politique. Il a porté la **loi du 7 février 2022 relative à la protection des enfants**, dite loi Taquet.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Adrien_Taquet"
+      }
+    },
+    {
       "id": "agnes-pannier-runacher",
       "full_name": "Agnès Pannier-Runacher",
       "party": "Renaissance",
@@ -37,6 +67,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Agn%C3%A8s_Pannier-Runacher"
+      }
+    },
+    {
+      "id": "albane-gaillot",
+      "full_name": "Albane Gaillot",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Députée de la 11e circonscription du Val-de-Marne",
+            "en": "MP for Val-de-Marne's 11th constituency"
+          },
+          "from": "2017-06-21",
+          "to": "2022-06-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "cf5702f6e3fa5ee802d8f23165a92ac1ecac91c527aea64f57d96c6909e7bfa2",
+        "photo": {
+          "path": "/media/politicians/albane-gaillot.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Photo_Albane_Gaillot.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Alicegayraud"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique française, **députée de la 11e circonscription du Val-de-Marne de 2017 à 2022**, élue sous l'étiquette **La République en marche** qu'elle quitte en 2019, puis membre en 2020 de l'éphémère groupe parlementaire **Écologie démocratie solidarité**. Elle est l'auteure de la proposition devenue la **loi du 2 mars 2022 renforçant le droit à l'avortement** (dite loi Gaillot), qui a **allongé le délai légal d'IVG de 12 à 14 semaines**. Depuis décembre 2022, elle est salariée du **Planning familial**, chargée de plaidoyer.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Albane_Gaillot"
       }
     },
     {
@@ -626,6 +686,36 @@
       }
     },
     {
+      "id": "erwan-balanant",
+      "full_name": "Erwan Balanant",
+      "party": "Mouvement démocrate",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 8e circonscription du Finistère",
+            "en": "MP for Finistère's 8th constituency"
+          },
+          "from": "2017-06-21",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "48ad4ecfcee570525cf69308b19b4292759ac30b7f79eb1c82e9f5f9463c8286",
+        "photo": {
+          "path": "/media/politicians/erwan-balanant.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Balanant.jpg",
+          "license": "CC0",
+          "author": "Ella Guarda"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme politique français, membre du **Mouvement démocrate**, **député de la 8e circonscription du Finistère depuis juin 2017**, réélu en 2022 puis en 2024. Il est l'auteur de la proposition devenue la **loi du 2 mars 2022 visant à combattre le harcèlement scolaire** (dite loi Balanant), qui a créé le **délit de harcèlement scolaire**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Erwan_Balanant"
+      }
+    },
+    {
       "id": "francois-bayrou",
       "full_name": "François Bayrou",
       "party": "Mouvement démocrate",
@@ -876,6 +966,36 @@
       }
     },
     {
+      "id": "genevieve-darrieussecq",
+      "full_name": "Geneviève Darrieussecq",
+      "party": "Mouvement démocrate",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre déléguée chargée de la Mémoire et des Anciens combattants",
+            "en": "Minister Delegate for Remembrance and Veterans"
+          },
+          "from": "2020-07-06",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "0796dd0da3d4b693ec0e20850a9afbf2175c9c98b5579565e1b3dcf3a2fe1aa9",
+        "photo": {
+          "path": "/media/politicians/genevieve-darrieussecq.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Genevi%C3%A8ve_Darrieussecq_-_2017.jpg",
+          "license": "CC BY-SA 2.0",
+          "author": "Jérémy Barande"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique française, membre du **Mouvement démocrate** (bureau exécutif national depuis 2009). **Médecin allergologue** de profession, **maire de Mont-de-Marsan de 2008 à 2017**, élue **députée des Landes en 2017**, elle est **secrétaire d'État auprès de la ministre des Armées** (2017-2020) puis **ministre déléguée chargée de la Mémoire et des Anciens combattants** (2020-2022) dans le gouvernement Castex : à ce titre, elle porte la **loi du 23 février 2022 de reconnaissance et de réparation envers les harkis**. Ministre déléguée chargée des **Personnes handicapées** (2022-2023) dans le gouvernement Borne, puis **ministre de la Santé et de l'Accès aux soins** du gouvernement Barnier (septembre-décembre 2024), elle retrouve ensuite son siège de députée des Landes.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Genevi%C3%A8ve_Darrieussecq"
+      }
+    },
+    {
       "id": "gerald-darmanin",
       "full_name": "Gérald Darmanin",
       "party": null,
@@ -968,6 +1088,96 @@
       "profile": null
     },
     {
+      "id": "jacqueline-gourault",
+      "full_name": "Jacqueline Gourault",
+      "party": "Mouvement démocrate",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Cohésion des territoires et des Relations avec les collectivités territoriales",
+            "en": "Minister for Territorial Cohesion and Relations with Local Authorities"
+          },
+          "from": "2018-10-16",
+          "to": "2022-03-05"
+        }
+      ],
+      "profile": {
+        "content_hash": "7b7a9a5b69f749fdbbd41835c673993fe74488873d4ed65b84401370740715dd",
+        "photo": {
+          "path": "/media/politicians/jacqueline-gourault.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Informal_meeting_of_justice_and_home_affairs_ministers.Arrivals_(Home_Affairs)_Jacqueline_Gourault_(34910260564)_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "author": "Arno Mikkor, Aron Urb"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique française, issue de l'**UDF** puis vice-présidente du **Mouvement démocrate**. **Professeure d'histoire-géographie** de formation, maire de La Chaussée-Saint-Victor, **sénatrice du Loir-et-Cher de 2001 à 2017** et vice-présidente du Sénat de 2014 à 2017, elle est nommée en 2017 ministre auprès du ministre de l'Intérieur, puis en 2018 **ministre de la Cohésion des territoires et des Relations avec les collectivités territoriales** : elle y porte la **loi 3DS du 21 février 2022** (différenciation, décentralisation, déconcentration). En mars 2022, elle est nommée membre du **Conseil constitutionnel** par Emmanuel Macron.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jacqueline_Gourault"
+      }
+    },
+    {
+      "id": "jean-castex",
+      "full_name": "Jean Castex",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Premier ministre",
+            "en": "Prime Minister"
+          },
+          "from": "2020-07-03",
+          "to": "2022-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "6d41955f51e4085dda09972108f5714b6ccc117f8566537ed4c9a6d94996529c",
+        "photo": {
+          "path": "/media/politicians/jean-castex.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Castex_Matignon.jpg",
+          "license": "Licence Ouverte",
+          "author": "Service photo de Matignon"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Haut fonctionnaire et homme d'État français, **Premier ministre du 3 juillet 2020 au 16 mai 2022**. Énarque, membre de la **Cour des comptes**, membre de l'UMP puis des Républicains (qu'il quitte en 2020), **maire de Prades de 2008 à 2020** et secrétaire général adjoint de l'Élysée (2011-2012) sous Nicolas Sarkozy. **Délégué interministériel aux Jeux olympiques de Paris 2024** à partir de 2017, il coordonne en 2020 la **sortie du premier confinement** avant d'être nommé à Matignon, où son mandat est dominé par la **crise sanitaire du covid-19** (passe sanitaire puis vaccinal) et les débuts de la réponse à la guerre en Ukraine (plan de résilience). Après l'élection présidentielle de 2022, Élisabeth Borne lui succède ; il est nommé fin 2022 **président-directeur général de la RATP**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean_Castex"
+      }
+    },
+    {
+      "id": "jean-michel-blanquer",
+      "full_name": "Jean-Michel Blanquer",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Éducation nationale, de la Jeunesse et des Sports",
+            "en": "Minister of National Education, Youth and Sports"
+          },
+          "from": "2017-05-17",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "936a0fb6a4d9526d200afe0576bae07f394773eafc99d8f1181450f032960a66",
+        "photo": {
+          "path": "/media/politicians/jean-michel-blanquer.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Blanquer_2022_(cropped).jpg",
+          "license": "Attribution",
+          "author": "Conseil de l'Union Européenne"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Universitaire, haut fonctionnaire et homme politique français, **ministre de l'Éducation nationale de mai 2017 à mai 2022** (avec la Jeunesse, puis les Sports à partir de 2020), l'un des plus longs mandats à ce poste sous la Cinquième République. **Enseignant-chercheur en droit**, recteur d'académie, **directeur général de l'enseignement scolaire** sous Nicolas Sarkozy puis **directeur général de l'ESSEC**, il mène au ministère la **réforme du baccalauréat et du lycée**, le dédoublement des classes en éducation prioritaire et la gestion scolaire de la crise sanitaire. Éliminé au premier tour des législatives de 2022, il se retire de la vie politique et devient professeur de droit public à l'université Paris II.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean-Michel_Blanquer"
+      }
+    },
+    {
       "id": "jean-noel-barrot",
       "full_name": "Jean-Noël Barrot",
       "party": "Mouvement démocrate",
@@ -1055,6 +1265,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Julien_Dive"
+      }
+    },
+    {
+      "id": "laurence-vanceunebrock",
+      "full_name": "Laurence Vanceunebrock",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Députée de la 2e circonscription de l'Allier",
+            "en": "MP for Allier's 2nd constituency"
+          },
+          "from": "2017-06-21",
+          "to": "2022-06-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "96f191d01cdede22182edf3a52584053f608eb1b50453d18c0370a6e78e20ed8",
+        "photo": {
+          "path": "/media/politicians/laurence-vanceunebrock.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Laurence_Vanceunebrock-Mialon_02.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Antoine Lamielle"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique française, membre de **La République en marche**, **députée de la 2e circonscription de l'Allier de 2017 à 2022**. Ancienne **fonctionnaire de police**, elle est l'auteure de la proposition devenue la **loi du 31 janvier 2022 interdisant les pratiques visant à modifier l'orientation sexuelle ou l'identité de genre** (interdiction des « thérapies de conversion »).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Laurence_Vanceunebrock"
       }
     },
     {
@@ -1532,6 +1772,60 @@
       }
     },
     {
+      "id": "olivier-veran",
+      "full_name": "Olivier Véran",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Solidarités et de la Santé",
+            "en": "Minister for Solidarity and Health"
+          },
+          "from": "2020-02-16",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "10176094a5003a54d191d93370ef76133f57a5efabba5f1c90145779bc5c8cd0",
+        "photo": {
+          "path": "/media/politicians/olivier-veran.png",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Olivier_V%C3%A9ran_en_2022_lors_d%27un_d%C3%A9placement_en_Is%C3%A8re.png",
+          "license": "CC BY-SA 4.0",
+          "author": "Audran Demierre"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Médecin **neurologue** et homme politique français, **ministre des Solidarités et de la Santé de février 2020 à mai 2022**, nommé au début de la **pandémie de covid-19** dont il pilote la réponse sanitaire (confinements, campagne vaccinale, passe sanitaire puis vaccinal). **Député de l'Isère** élu en 2017 (rapporteur général de la commission des Affaires sociales) et réélu en 2022, il est ensuite ministre délégué chargé des **Relations avec le Parlement** puis du **Renouveau démocratique et porte-parole du gouvernement** Borne (2022-2024). Battu aux législatives anticipées de 2024, il perd son siège à l'Assemblée nationale.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Olivier_V%C3%A9ran"
+      }
+    },
+    {
+      "id": "patricia-lemoine",
+      "full_name": "Patricia Lemoine",
+      "party": "Agir",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Députée de la 5e circonscription de Seine-et-Marne",
+            "en": "MP for Seine-et-Marne's 5th constituency"
+          },
+          "from": "2018-11-17",
+          "to": "2022-06-21"
+        },
+        {
+          "role": {
+            "fr": "Députée de la 5e circonscription de Seine-et-Marne",
+            "en": "MP for Seine-et-Marne's 5th constituency"
+          },
+          "from": "2022-07-23",
+          "to": "2024-06-09"
+        }
+      ],
+      "profile": null
+    },
+    {
       "id": "philippe-baptiste",
       "full_name": "Philippe Baptiste",
       "party": null,
@@ -1736,6 +2030,36 @@
       }
     },
     {
+      "id": "roselyne-bachelot",
+      "full_name": "Roselyne Bachelot",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Culture",
+            "en": "Minister of Culture"
+          },
+          "from": "2020-07-06",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "b9420772b6959b5b6323e5defac117798aa5e02f90f639af552517b63e199a2a",
+        "photo": {
+          "path": "/media/politicians/roselyne-bachelot.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Roselyne_Bachelot_(1)_(cropped).JPG",
+          "license": "CC BY-SA 3.0",
+          "author": "Remi Jouan"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique et animatrice de radio et de télévision française, **ministre de la Culture du gouvernement Castex de 2020 à 2022** : elle y porte la **loi du 21 février 2022 de restitution de biens culturels spoliés** pendant la Seconde Guerre mondiale. **Docteure en pharmacie** de formation, elle fut **ministre de l'Écologie** (2002-2004) sous Jacques Chirac, puis **ministre de la Santé et des Sports** (2007-2010), où elle gère la pandémie de grippe H1N1, et ministre des Solidarités (2010-2012) sous Nicolas Sarkozy. Entre ses mandats gouvernementaux, elle mène une carrière de **chroniqueuse et animatrice** (D8, RMC, LCI, RTL, BFM TV).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Roselyne_Bachelot"
+      }
+    },
+    {
       "id": "sabrina-agresti-roubache",
       "full_name": "Sabrina Agresti-Roubache",
       "party": "Renaissance",
@@ -1804,6 +2128,36 @@
       }
     },
     {
+      "id": "stanislas-guerini",
+      "full_name": "Stanislas Guerini",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Transformation et de la Fonction publiques",
+            "en": "Minister for Transformation and the Civil Service"
+          },
+          "from": "2022-05-20",
+          "to": "2024-09-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "d778c754425a3c9ef7234a9d00828d01a83ee19d815c1a5201340f84059f1721",
+        "photo": {
+          "path": "/media/politicians/stanislas-guerini.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Stanislas_guerini_AN_16475.JPG",
+          "license": "CC BY 4.0",
+          "author": "G.Garitan"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme politique français, **ministre de la Transformation et de la Fonction publiques de mai 2022 à septembre 2024** (gouvernements Borne puis Attal) : il signe à ce titre la **revalorisation de 3,5 % du point d'indice de juillet 2022**. Diplômé d'HEC, **cofondateur d'En marche** et **délégué général de LREM de 2018 à 2022**, il avait auparavant cofondé une entreprise de conseil et dirigé l'expérience client d'Elis, dans le **secteur privé**. **Député de Paris de 2017 à 2024**, il perd son siège aux législatives anticipées de 2024.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Stanislas_Guerini"
+      }
+    },
+    {
       "id": "stephane-vojetta",
       "full_name": "Stéphane Vojetta",
       "party": null,
@@ -1869,6 +2223,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/St%C3%A9phanie_Rist"
+      }
+    },
+    {
+      "id": "sylvain-waserman",
+      "full_name": "Sylvain Waserman",
+      "party": "Mouvement démocrate",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 2e circonscription du Bas-Rhin",
+            "en": "MP for Bas-Rhin's 2nd constituency"
+          },
+          "from": "2017-06-21",
+          "to": "2022-06-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "8a5bf5101ff84632ef52b4fc7eef156740bacb2ef000ffddf80ac4ae62ee2c20",
+        "photo": {
+          "path": "/media/politicians/sylvain-waserman.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Sylvain_Waserman.jpg",
+          "license": "CC BY 4.0",
+          "author": "UserOfTheWorldFrance"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Personnalité politique française, membre du **Mouvement démocrate**, **député de la 2e circonscription du Bas-Rhin de 2017 à 2022** et **vice-président de l'Assemblée nationale**. Il est l'auteur de la proposition devenue la **loi du 21 mars 2022 améliorant la protection des lanceurs d'alerte** (dite loi Waserman). **Dirigeant d'entreprise** avant la politique (directeur général de Réseau GDS à Strasbourg) et maire de Quatzenheim de 2008 à 2017, il préside l'**Ademe** (Agence de la transition écologique) depuis 2023.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Sylvain_Waserman"
       }
     },
     {
