@@ -162,11 +162,22 @@ a:hover {
   position: relative;
   width: 1.5rem;
   height: 1.5rem;
+  transform-origin: bottom center;
 }
 
 .photo-chip-small:hover {
   z-index: 10;
   transform: scale(2);
+}
+
+/* Neighbors spread away from the magnified tile (left ones left, right ones
+   right, ~20% gap) so every tile stays hoverable in one sweep. */
+.photo-chip-small:has(~ .photo-chip-small:hover) {
+  transform: translateX(-1.05rem);
+}
+
+.photo-chip-small:hover ~ .photo-chip-small {
+  transform: translateX(1.05rem);
 }
 
 /* Light/dark pill toggle: knob slides over the active icon (sun left, moon right). */
