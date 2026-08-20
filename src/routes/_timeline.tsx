@@ -113,36 +113,35 @@ function TimelineLayout() {
 
       <Outlet />
 
-      {activeCategories.length > 0 ? (
-        <p className="m-0 mt-6 flex flex-wrap items-center gap-2 text-sm">
-          {activeCategories.map((category) => (
-            <Link
-              key={category.id}
-              to="."
-              search={(previousSearch) => searchWithCategoryRemoved(previousSearch, category.id)}
-              resetScroll={false}
-              className="chip"
-              aria-label={`Retirer le filtre ${category.label.fr}`}
-            >
-              {localize(category.label)} ✕
-            </Link>
-          ))}
-          <Link to="." search={{}} resetScroll={false} className="text-xs">
-            Effacer le filtre
-          </Link>
-        </p>
-      ) : null}
-
       <div
         data-timeline
         className="ml-20 mt-8 space-y-14 border-l border-[var(--line)] pl-5 sm:ml-24 sm:pl-8"
       >
+        {activeCategories.length > 0 ? (
+          <div className="sticky top-40 z-10 flex h-0 w-fit -translate-x-[calc(100%+2.3rem)] flex-col items-end gap-1 sm:top-[10.25rem] sm:-translate-x-[calc(100%+3rem)]">
+            {activeCategories.map((category) => (
+              <Link
+                key={category.id}
+                to="."
+                search={(previousSearch) => searchWithCategoryRemoved(previousSearch, category.id)}
+                resetScroll={false}
+                className="chip"
+                aria-label={`Retirer le filtre ${category.label.fr}`}
+              >
+                {localize(category.label)} ✕
+              </Link>
+            ))}
+            <Link to="." search={{}} resetScroll={false} className="whitespace-nowrap text-xs">
+              {activeCategories.length > 1 ? 'Effacer les filtres' : 'Effacer le filtre'}
+            </Link>
+          </div>
+        ) : null}
         {visibleYears.map((timelineYear) => (
           <section key={timelineYear.year}>
             {/* Year and month live in the gutter LEFT of the rail (zero-height
                 boxes translated across it) and stick under the header, so the
                 current position reads "Août | [row]" at any scroll depth. */}
-            <h2 className="display-title sticky top-16 z-20 m-0 h-0 w-fit -translate-x-[calc(100%+1.8rem)] text-2xl font-bold text-[var(--lagoon-deep)] sm:-translate-x-[calc(100%+2.5rem)] sm:text-3xl">
+            <h2 className="display-title sticky top-20 z-20 m-0 w-fit -translate-x-[calc(100%+2.3rem)] text-2xl font-bold text-[var(--lagoon-deep)] sm:-translate-x-[calc(100%+3rem)] sm:text-3xl">
               {timelineYear.year}
             </h2>
             {timelineYear.months.map((timelineMonth) => (
@@ -151,7 +150,7 @@ function TimelineLayout() {
                 id={timelineMonth.month}
                 className="mt-6 scroll-mt-4"
               >
-                <p className="kicker sticky top-[6.25rem] z-10 m-0 h-0 w-fit -translate-x-[calc(100%+1.8rem)] sm:-translate-x-[calc(100%+2.5rem)]">
+                <p className="kicker sticky top-[8.5rem] z-10 m-0 h-0 w-fit -translate-x-[calc(100%+2.3rem)] sm:top-[8.75rem] sm:-translate-x-[calc(100%+3rem)]">
                   {formatMonthLabel(timelineMonth.month)}
                 </p>
                 <div className="mt-4 space-y-7">
