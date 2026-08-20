@@ -4,6 +4,7 @@ import { formatDateLabel } from '../data/format.ts'
 import { useLocalized } from './LanguageProvider'
 import { categoriesById, politiciansById } from '../data/registry.ts'
 import type { Decision } from '../data/schema.ts'
+import { searchWithCategoryAdded } from '../utils.ts'
 
 const initialsOf = (fullName: string): string =>
   fullName
@@ -104,7 +105,7 @@ export default function DecisionRow({
             <Link
               key={category.id}
               to="."
-              search={{ categorie: category.id }}
+              search={(previousSearch) => searchWithCategoryAdded(previousSearch, category.id)}
               resetScroll={false}
               className="chip"
             >

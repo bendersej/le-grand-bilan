@@ -10,6 +10,7 @@ import {
   decisionsByPoliticianId,
 } from '../data/registry.ts'
 import type { Appearance } from '../data/schema.ts'
+import { parseCategoryFilter, searchWithCategoryRemoved } from '../utils.ts'
 
 export const Route = createFileRoute('/_timeline')({
   component: TimelineLayout,
@@ -76,7 +77,11 @@ function TimelineLayout() {
     (match) => match.routeId.startsWith('/_timeline/') && match.routeId !== '/_timeline/',
   )
   const localize = useLocalized()
-  const activeCategory = categorie ? (categoriesById.get(categorie) ?? null) : null
+  const activeCategories = parseCategoryFilter(categorie).flatMap((categoryId) => {
+    const category = categoriesById.get(categoryId)
+    return category ? [category] : []
+  })
+  const activeCategoryIds = new Set(activeCategories.map((category) => category.id))
   const activePoliticianId = routeParams.politicianId
 
   const scopedDecisions = activePoliticianId
@@ -85,14 +90,17 @@ function TimelineLayout() {
   const scopedAppearances = activePoliticianId
     ? (appearancesByPoliticianId.get(activePoliticianId) ?? [])
     : []
-  const filteredDecisions = activeCategory
-    ? scopedDecisions.filter((decision) => decision.category_ids.includes(activeCategory.id))
-    : scopedDecisions
+  const filteredDecisions =
+    activeCategoryIds.size > 0
+      ? scopedDecisions.filter((decision) =>
+          decision.category_ids.some((categoryId) => activeCategoryIds.has(categoryId)),
+        )
+      : scopedDecisions
   const visibleYears = buildTimelineYears({
     decisions: filteredDecisions,
     appearances: scopedAppearances,
   })
-  const showHero = !activeCategory && !hasPanel
+  const showHero = activeCategories.length === 0 && !hasPanel
 
   return (
     <main className="page-wrap px-4 py-10">
@@ -105,9 +113,20 @@ function TimelineLayout() {
 
       <Outlet />
 
-      {activeCategory ? (
-        <p className="m-0 mt-6 flex items-center gap-2 text-sm">
-          <span className="chip">{localize(activeCategory.label)}</span>
+      {activeCategories.length > 0 ? (
+        <p className="m-0 mt-6 flex flex-wrap items-center gap-2 text-sm">
+          {activeCategories.map((category) => (
+            <Link
+              key={category.id}
+              to="."
+              search={(previousSearch) => searchWithCategoryRemoved(previousSearch, category.id)}
+              resetScroll={false}
+              className="chip"
+              aria-label={`Retirer le filtre ${category.label.fr}`}
+            >
+              {localize(category.label)} ✕
+            </Link>
+          ))}
           <Link to="." search={{}} resetScroll={false} className="text-xs">
             Effacer le filtre
           </Link>
@@ -117,7 +136,9 @@ function TimelineLayout() {
       <div data-timeline className="mt-8 space-y-14 border-l border-[var(--line)] pl-5 sm:pl-8">
         {visibleYears.map((timelineYear) => (
           <section key={timelineYear.year}>
-            <h2 className="display-title m-0 text-4xl font-bold text-[var(--lagoon-deep)]">
+            {/* Year and month stick under the header so the current position is
+                always readable in the top-left corner while scrolling. */}
+            <h2 className="display-title sticky top-16 z-20 m-0 bg-[var(--bg-base)] py-1 text-4xl font-bold text-[var(--lagoon-deep)]">
               {timelineYear.year}
             </h2>
             {timelineYear.months.map((timelineMonth) => (
@@ -126,7 +147,9 @@ function TimelineLayout() {
                 id={timelineMonth.month}
                 className="mt-6 scroll-mt-4"
               >
-                <p className="kicker m-0">{formatMonthLabel(timelineMonth.month)}</p>
+                <p className="kicker sticky top-[7.25rem] z-10 m-0 bg-[var(--bg-base)] py-1">
+                  {formatMonthLabel(timelineMonth.month)}
+                </p>
                 <div className="mt-4 space-y-7">
                   {timelineMonth.items.map((timelineItem) => {
                     switch (timelineItem.kind) {

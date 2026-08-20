@@ -10,6 +10,7 @@ import {
   politiciansById,
 } from '../data/registry.ts'
 import type { DecisionRelationType } from '../data/schema.ts'
+import { searchWithCategoryAdded } from '../utils.ts'
 
 const outgoingRelationLabelFr = (relationType: DecisionRelationType): string => {
   switch (relationType) {
@@ -85,7 +86,7 @@ function DecisionPage() {
           <Link
             key={category.id}
             to="."
-            search={{ categorie: category.id }}
+            search={(previousSearch) => searchWithCategoryAdded(previousSearch, category.id)}
             resetScroll={false}
             className="chip"
           >
