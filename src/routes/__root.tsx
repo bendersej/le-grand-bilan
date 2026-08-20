@@ -26,12 +26,21 @@ export const Route = createRootRoute({
         content:
           'Le registre ouvert des décisions politiques françaises, mois par mois, sourcées et reliées à leurs responsables.',
       },
+      {
+        name: 'theme-color',
+        content: '#000091',
+      },
     ],
     links: [
       {
         rel: 'stylesheet',
         href: appCss,
       },
+      { rel: 'icon', href: '/favicon.ico', sizes: '48x48' },
+      { rel: 'icon', type: 'image/png', sizes: '32x32', href: '/favicon-32x32.png' },
+      { rel: 'icon', type: 'image/png', sizes: '16x16', href: '/favicon-16x16.png' },
+      { rel: 'apple-touch-icon', sizes: '180x180', href: '/apple-touch-icon.png' },
+      { rel: 'manifest', href: '/site.webmanifest' },
     ],
   }),
   notFoundComponent: NotFound,
