@@ -26,9 +26,26 @@ More sources is better ("never forget" open-data registry).
 ## Research strategy (proven on the 2026 batch)
 
 - Start each year from the Sénat index of promulgated laws (`senat.fr/dossiers-legislatifs/lois-promulguees-<year>.html`): it is exhaustive and reliable. Press searches only help rank significance.
-- Harvest exact JORFTEXT ids from Légifrance JORF sommaire pages (fetch the sommaire, extract ids, fetch each id) — never guess an id.
+- The Sénat index's Légifrance links are legacy `UnTexteDeJorf.do?numjo=NOR` redirects behind a bot wall: do NOT follow them. The efficient id-harvesting route: web-search `"n° <year>-<number>" <date> legifrance JORFTEXT`, then fetch the JORFTEXT page to verify. Never guess an id.
 - When coordinating subagents, the coordinator re-fetches EVERY url itself before writing it into data; a subagent's "verified" claim is not a guarantee.
 - Expect Wikimedia/Légifrance rate limits: pace requests, and on 429 wait about 60 seconds and retry (all scripts are idempotent).
+
+## Non-legislative decisions (often the year's biggest events)
+
+- Circulaires: `legifrance.gouv.fr/circulaire/id/<n>` (fetch-verifiable).
+- Signed accords: often published at the JO (search "publication au Journal officiel" + the accord name for a JORFTEXT id).
+- Confidence votes / motions de censure: no standalone JO document exists for the vote; date the decision by the resulting décret (nomination/fin de fonctions, which has a JORFTEXT id) and add the fetch-verifiable Assemblée nationale scrutin/actualité page as a second source.
+- Government formations: the PM nomination décret and the government composition décret both have JORFTEXT ids.
+
+## Conseil constitutionnel censures
+
+When a law was partially censored before promulgation, the summary MUST state what survived and what was censored (with the CC décision as an extra source when relevant). Press and vie-publique summaries often describe the PRE-censure text: verify against the promulgated version.
+
+## Attribution conventions
+
+- Caretaker/short-lived governments: when a cabinet lives only days inside a caretaker stretch, use the next durable government's start date as the portfolio boundary, aligned with Wikipedia's dates when they differ; keep one convention registry-wide.
+- When the minister who carried a bill left office before promulgation, `politician_ids` lists the office-holder at promulgation and the summary NAMES the actual carrier.
+- Budget laws take the BUDGET year in the id (`lfss-2026` promulgated in December 2025 lives in `2025-12.json`).
 
 ## Entry checklist
 

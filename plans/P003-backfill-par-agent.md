@@ -37,7 +37,7 @@ Recurring runs; monitor PR quality; expand to appearances (P002 data).
 
 ## Remaining Work
 
-Phase 3: run the 2025 batch with the updated skills, then scale backwards year by year. Add vie-publique dossier links by hand where valuable (not fetch-verifiable by agents). Consider an `energie` category before the 2025 run.
+Phase 3 in progress: 2025 and 2026 done and reviewed. Next: 2024 backwards, one year per run. Add vie-publique dossier links by hand where valuable (not fetch-verifiable by agents).
 
 ## Decision Log
 
@@ -64,3 +64,15 @@ Outcome: 28 decisions (2026-01..08), 15 politicians captured+curated, 3 new cate
 - **Modeling calls made**: décrets forming one policy act grouped as one decision (AME, suspension retraites); common-name slugs suffixed with the year; PPL author added as décisionnaire only when the law carries their name.
 - **Deliberately excluded** (second-tier, verified to exist): lois 2026-630, 2026-725, 2026-795, 2026-797, méga-décret simplification, loi SDIS, loi indivision. The January 49.3/censure sequence has no standalone JO document: folded into the LF 2026 summary.
 - Skills updated with all of the above (research strategy, vie-publique caveat, date rule, PPL rule, rate-limit loop, Wikipedia-only profile facts).
+
+## Learnings round 2 (batch 2025, ran 2026-08-20)
+
+Outcome: 34 decisions across all 12 months of 2025, 11 new politicians, new `energie` category (retro-applied to two 2026 decisions), cross-year relations wired (LFSS 2026 chain to the 2023 retraites reform, Bougival/Oudinot, loi spéciale/LF 2026). One stall: the agent hit the 600s silence watchdog mid-run and needed a resume; long waits must be broken into 60s sleeps.
+
+- Sénat index held (62 laws in one fetch) BUT its Légifrance links are bot-walled NOR redirects: the working route is search "n° YYYY-XXX" + legifrance, then fetch-verify the JORFTEXT page. Skill updated.
+- 2025's biggest events were non-legislative (circulaire Retailleau, accord de Bougival, chute Bayrou, gouvernements Lecornu): sourcing patterns for circulaires, JO-published accords, AN scrutin pages and nomination décrets are now in the skill.
+- 6 of 34 decisions were partially censored by the Conseil constitutionnel: summaries must state what survived; press describes pre-censure texts. Now in the skill.
+- Attribution conventions pinned in the skill: caretaker-government portfolio boundaries, naming the real carrier when they left before promulgation, budget-year ids.
+- Wikimedia 429 pattern matched the documented loop exactly (3-4 captures per run).
+
+Next: 2024 backwards, one year per run, same review gate.
