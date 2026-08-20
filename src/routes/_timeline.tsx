@@ -131,9 +131,6 @@ function TimelineLayout() {
                 {localize(category.label)} ✕
               </Link>
             ))}
-            <Link to="." search={{}} resetScroll={false} className="whitespace-nowrap text-xs">
-              {activeCategories.length > 1 ? 'Effacer les filtres' : 'Effacer le filtre'}
-            </Link>
           </div>
         ) : null}
         {visibleYears.map((timelineYear) => (
