@@ -16,7 +16,7 @@ function About() {
       </h1>
 
       <div className="mt-6 max-w-2xl space-y-8 text-base leading-7 text-[var(--sea-ink-soft)]">
-        <p className="m-0">
+        <p className="m-0 pb-8">
           Le Grand Bilan recense{' '}
           <strong>
             les décisions appliquées ou validées par les responsables politiques français depuis le
@@ -24,7 +24,10 @@ function About() {
           </strong>
           . Chaque entrée est{' '}
           <strong>datée, catégorisée, rattachée aux personnes qui l&apos;ont portée</strong> et
-          appuyée par <strong>au moins une source officielle</strong>.
+          appuyée par <strong>au moins une source officielle</strong>. Le site{' '}
+          <strong>n&apos;est pas partisan</strong> : l&apos;idée est d&apos;apporter{' '}
+          <strong>transparence et visibilité</strong>, en rendant l&apos;information publique facile
+          à digérer.
         </p>
 
         <section>
@@ -34,7 +37,7 @@ function About() {
           <p className="m-0 mt-2">
             Le site rassemble{' '}
             <strong>toute l&apos;information publiquement disponible en un seul endroit</strong> :
-            décisions, responsables, sources officielles. Il s&apos;adresse
+            décisions, responsables, sources officielles. Il s&apos;adresse{' '}
             <strong>autant aux personnes qu&apos;aux agents d&apos;IA</strong> : les données sont
             publiées en <strong>JSON, avec des schémas documentés</strong>, prêtes à être lues et
             réutilisées par n&apos;importe quel outil.
