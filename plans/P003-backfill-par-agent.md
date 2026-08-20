@@ -94,3 +94,16 @@ Outcome: 35 decisions across all 12 months of the dissolution year, 12 politicia
 - Government sites (info.gouv.fr, budget.gouv.fr, interieur.gouv.fr) 403 automated fetches: rely on Légifrance/AN/Sénat/Élysée instead.
 
 Next: 2023 backwards.
+
+## Learnings round 4 (batch 2023, ran 2026-08-21)
+
+Outcome: 33 decisions across all 12 months (32 new + the seed reforme-retraites-2023 extended in place with its CC censure, RIP rejections and censure motion), 17 politicians added, 6 extended, no new categories needed, cross-year relations in both directions (retraites↔2026 suspension, LPM↔2026 actualisation, APER↔PPE3, majorité numérique↔SREN...). Review gate passed (4/4 sampled sources exact). One resume needed: the agent parked on a Monitor again.
+
+- Légifrance's own search (`/search/all?query=`) is now the PRIMARY id-harvesting route (server-rendered, returns JORFTEXT ids); web search demoted to fallback (session budgets exhaust; DDG captcha-walled).
+- Conseil d'État arianeweb URLs anchor UNPUBLISHED administrative acts (abaya note de service, Darmanin télégramme); education.gouv.fr's BO is Cloudflare-walled.
+- elysee.fr sitemaps are the way to find exact speech/announcement URLs.
+- Sénat dossier URLs bulk-verify with one curl title sweep.
+- Wikipedia infobox via action API pins deputies' mandate dates; `--data-urlencode` required for accented titles.
+- The monitor-parking failure finally has a fix: the backfill-year skill now mandates verbatim "single-run agent, no notification will EVER reach you, in-call foreground sleeps only" wording, plus the literal-ids-not-$VAR rule for backgrounded commands.
+
+Next: 2022.

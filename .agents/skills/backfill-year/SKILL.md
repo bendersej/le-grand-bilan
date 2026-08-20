@@ -16,7 +16,7 @@ Spawn ONE research agent for the year with a prompt that mandates, in this order
 3. Check `data/politicians.json` before adding people; EXTEND existing politicians' mandates for the year's portfolios rather than duplicating.
 4. Cross-year relations both directions (edit adjacent years' files when the relation belongs there).
 5. Validate with `pnpm run test` until green; never build, deploy, or commit.
-6. Work continuously; never wait silently more than ~5 minutes (the watchdog kills silent stretches); break long waits into 60s `node -e "setTimeout(()=>{}, 60000)"` sleeps.
+6. Tell the agent verbatim: "You are a single-run agent: no background-task, monitor, or watchdog notification will EVER reach you. Waiting mechanisms other than in-call sleeps are unavailable to you. Any retry loop must run in the foreground of a Bash call, sleeping via node -e "setTimeout(()=>{},70000)" (bare sleep is blocked), sized to finish within that call." Also: pass id lists as literal arguments, never through a shell $VAR inside a backgrounded command (it silently collapses into one argument).
 7. Report: counts per month, politicians/categories added or changed, the unsourceable, and a LEARNINGS section on what the skills still get wrong.
 
 If the agent stalls or dies, resume it with "inspect your own partial work first (git status, existing month files), then continue without duplicating".
@@ -40,4 +40,4 @@ If the agent stalls or dies, resume it with "inspect your own partial work first
 ## Known scale marks (update as they move)
 
 - A year takes the agent roughly 25-50 minutes; Wikimedia caps profile captures at ~3-4 per run (60-75s retry loop).
-- Corpus so far: 2024 (35) / 2025 (34) / 2026 (28) + seed years. A dense year takes ~40 min.
+- Corpus so far: 2023 (33) / 2024 (35) / 2025 (34) / 2026 (28) + seed years. A dense year takes ~40 min. Next: 2022.

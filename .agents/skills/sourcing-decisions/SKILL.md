@@ -26,13 +26,16 @@ More sources is better ("never forget" open-data registry).
 ## Research strategy (proven on the 2026 batch)
 
 - Start each year from the Sénat index of promulgated laws (`senat.fr/dossiers-legislatifs/lois-promulguees-<year>.html`): it is exhaustive and reliable. Press searches only help rank significance.
-- The Sénat index's Légifrance links are legacy `UnTexteDeJorf.do?numjo=NOR` redirects behind a bot wall: do NOT follow them. The efficient id-harvesting route: web-search `"n° <year>-<number>" <date> legifrance JORFTEXT`, then fetch the JORFTEXT page to verify. Never guess an id.
+- The Sénat index's Légifrance links are legacy `UnTexteDeJorf.do?numjo=NOR` redirects behind a bot wall: do NOT follow them. PRIMARY id-harvesting route: Légifrance's own search, `legifrance.gouv.fr/search/all?query=…` (server-rendered, fetch-verifiable, returns JORFTEXT ids directly). Web search is the fallback only (session budgets can be exhausted; DuckDuckGo-html is captcha-walled, Mojeek 403s). Always fetch the JORFTEXT page to verify; never guess an id.
+- Bulk-verify the Sénat index's dossier-legislatif URLs with one curl `<title>` sweep (server-rendered) instead of fetching them one by one.
 - When coordinating subagents, the coordinator re-fetches EVERY url itself before writing it into data; a subagent's "verified" claim is not a guarantee.
 - Expect Wikimedia/Légifrance rate limits: pace requests, and on 429 wait about 60 seconds and retry (all scripts are idempotent).
 
 ## Non-legislative decisions (often the year's biggest events)
 
 - Circulaires: `legifrance.gouv.fr/circulaire/id/<n>` (fetch-verifiable).
+- Conseil d'État decisions: `conseil-etat.fr/fr/arianeweb/CE/decision/YYYY-MM-DD/NNNNNN` (stable, fetchable). They are the anchor for UNPUBLISHED administrative acts (notes de service, télégrammes): date the entry by the act, cite the CE decision that quotes it. education.gouv.fr's BO is Cloudflare-walled; do not try to fetch it.
+- elysee.fr has no search endpoint, but its sitemaps (`sitemap.publication.xml` etc.) are curl-able and grep-able by date to find exact speech/announcement URLs.
 - Signed accords: often published at the JO (search "publication au Journal officiel" + the accord name for a JORFTEXT id).
 - Confidence votes / motions de censure: no standalone JO document exists for the vote; date the decision by the resulting décret (nomination/fin de fonctions, which has a JORFTEXT id) and add the fetch-verifiable Assemblée nationale scrutin/actualité page as a second source.
 - Government formations: the PM nomination décret and the government composition décret both have JORFTEXT ids.
