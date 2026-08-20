@@ -80,6 +80,11 @@ a:hover {
   margin-inline: auto;
 }
 
+main strong {
+  color: var(--sea-ink);
+  font-weight: 600;
+}
+
 .display-title {
   font-family: 'Spectral', Georgia, serif;
 }

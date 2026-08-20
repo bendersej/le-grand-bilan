@@ -17,10 +17,14 @@ function About() {
 
       <div className="mt-6 max-w-2xl space-y-8 text-base leading-7 text-[var(--sea-ink-soft)]">
         <p className="m-0">
-          Le Grand Bilan recense les décisions appliquées ou validées par les responsables
-          politiques français depuis le début du mandat de François Hollande (mai 2012). Chaque
-          entrée est datée, catégorisée, rattachée aux personnes qui l&apos;ont portée et appuyée
-          par au moins une source officielle.
+          Le Grand Bilan recense{' '}
+          <strong>
+            les décisions appliquées ou validées par les responsables politiques français depuis mai
+            2012
+          </strong>{' '}
+          (début du mandat de François Hollande). Chaque entrée est{' '}
+          <strong>datée, catégorisée, rattachée aux personnes qui l&apos;ont portée</strong> et
+          appuyée par <strong>au moins une source officielle</strong>.
         </p>
 
         <section>
@@ -28,19 +32,25 @@ function About() {
             Toute l&apos;information au même endroit
           </h2>
           <p className="m-0 mt-2">
-            Le site rassemble en un seul endroit l&apos;information publiquement disponible :
-            décisions, responsables, sources officielles. Il s&apos;adresse autant aux personnes
-            qu&apos;aux agents d&apos;IA : les données sont publiées en JSON, avec des schémas
-            documentés, prêtes à être lues et réutilisées par n&apos;importe quel outil.
+            Le site rassemble{' '}
+            <strong>toute l&apos;information publiquement disponible en un seul endroit</strong> :
+            décisions, responsables, sources officielles. Il s&apos;adresse
+            <strong>autant aux personnes qu&apos;aux agents d&apos;IA</strong> : les données sont
+            publiées en <strong>JSON, avec des schémas documentés</strong>, prêtes à être lues et
+            réutilisées par n&apos;importe quel outil.
           </p>
         </section>
 
         <section>
           <h2 className="m-0 text-lg font-semibold text-[var(--sea-ink)]">Pourquoi</h2>
           <p className="m-0 mt-2">
-            L&apos;objectif est d&apos;informer et d&apos;éduquer, pour que chacun vote en
-            connaissance de cause et que la meilleure présidente ou le meilleur président pour la
-            France sorte gagnant de l&apos;élection de mai 2027.
+            L&apos;objectif est <strong>d&apos;informer et d&apos;éduquer</strong>, pour que chacun
+            vote en connaissance de cause et que{' '}
+            <strong>
+              la meilleure présidente ou le meilleur président pour la France sorte gagnant de
+              l&apos;élection de mai 2027
+            </strong>
+            .
           </p>
         </section>
 
@@ -49,7 +59,7 @@ function About() {
             Entièrement open source
           </h2>
           <p className="m-0 mt-2">
-            Le code et les données sont entièrement ouverts :{' '}
+            Le code et les données sont <strong>entièrement ouverts</strong> :{' '}
             <a href="https://github.com/bendersej/le-grand-bilan" target="_blank" rel="noreferrer">
               github.com/bendersej/le-grand-bilan
             </a>
@@ -63,10 +73,14 @@ function About() {
             Construit et opéré par des agents d&apos;IA
           </h2>
           <p className="m-0 mt-2">
-            Ce site a été construit et est opéré entièrement par des agents d&apos;IA, pilotés par
-            un humain : recherche des décisions, vérification des sources, code, déploiements.
-            C&apos;est aussi une démonstration du rôle que l&apos;IA doit jouer pendant ces
-            élections : au service de l&apos;information vérifiable.
+            Ce site a été{' '}
+            <strong>
+              construit et est opéré entièrement par des agents d&apos;IA, pilotés par un humain
+            </strong>{' '}
+            : recherche des décisions, vérification des sources, code, déploiements. C&apos;est
+            aussi une démonstration du{' '}
+            <strong>rôle que l&apos;IA doit jouer pendant ces élections</strong> : au service de
+            l&apos;information vérifiable.
           </p>
         </section>
       </div>
