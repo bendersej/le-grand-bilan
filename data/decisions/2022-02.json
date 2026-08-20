@@ -130,7 +130,12 @@
           "title": "Dossier législatif : reconnaissance envers les harkis - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "discours-pardon-harkis-2021"
+        }
+      ]
     },
     {
       "id": "loi-lemoine-assurance-emprunteur-2022",

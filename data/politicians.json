@@ -106,6 +106,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre de la Transformation et de la Fonction publiques",
+            "en": "Minister for Transformation and the Civil Service"
+          },
+          "from": "2020-07-06",
+          "to": "2022-05-20"
+        },
+        {
+          "role": {
             "fr": "Ministre chargée des Comptes publics",
             "en": "Minister for Public Accounts"
           },
@@ -188,6 +196,22 @@
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Anna%C3%AFg_Le_Meur"
       }
+    },
+    {
+      "id": "annick-billon",
+      "full_name": "Annick Billon",
+      "party": "Union des démocrates et indépendants",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Sénatrice de la Vendée",
+            "en": "Senator for Vendée"
+          },
+          "from": "2014-10-01",
+          "to": null
+        }
+      ],
+      "profile": null
     },
     {
       "id": "annie-genevard",
@@ -277,6 +301,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Arthur_Delaporte"
+      }
+    },
+    {
+      "id": "barbara-pompili",
+      "full_name": "Barbara Pompili",
+      "party": "En commun",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Transition écologique",
+            "en": "Minister for the Ecological Transition"
+          },
+          "from": "2020-07-06",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "39174df9cb12fb13b0df4b25c5e286d99182d4f3ac038582227e442e55b5c4fa",
+        "photo": {
+          "path": "/media/politicians/barbara-pompili.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Barbara_Pompili_-_img_42140_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Pmau"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique française, **ministre de la Transition écologique de juillet 2020 à mai 2022** dans le gouvernement Castex, où elle a porté la **loi Climat et résilience** issue de la Convention citoyenne pour le climat. Militante écologiste venue des Verts puis d'**EELV**, collaboratrice parlementaire à partir de 2002, elle est élue **députée de la Somme en 2012** et devient la **première femme à coprésider un groupe parlementaire** à l'Assemblée nationale. **Secrétaire d'État chargée de la Biodiversité** (2016-2017) sous François Hollande, elle fait adopter la loi pour la reconquête de la biodiversité. Réélue en 2017 avec le soutien de LREM, elle préside la commission du Développement durable, puis fonde en 2020 **« En commun »**, courant écologiste de la majorité présidentielle.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Barbara_Pompili"
       }
     },
     {
@@ -572,6 +626,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre du Travail, de l'Emploi et de l'Insertion",
+            "en": "Minister of Labour, Employment and Economic Inclusion"
+          },
+          "from": "2020-07-06",
+          "to": "2022-05-16"
+        },
+        {
+          "role": {
             "fr": "Première ministre",
             "en": "Prime Minister"
           },
@@ -713,6 +775,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Erwan_Balanant"
+      }
+    },
+    {
+      "id": "florence-parly",
+      "full_name": "Florence Parly",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Armées",
+            "en": "Minister for the Armed Forces"
+          },
+          "from": "2017-06-21",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "7904db7c75e20bff8287c9baf3949cf0c6441e847aa965d0b28b70bc2921c7dc",
+        "photo": {
+          "path": "/media/politicians/florence-parly.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Florence_Parly_190907-D-BN624-0170_(48694393657)_(cropped).jpg",
+          "license": "Public domain",
+          "author": "U.S. Secretary of Defense"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Haute fonctionnaire, dirigeante d'entreprise et femme politique française, **ministre des Armées de juin 2017 à mai 2022** dans les gouvernements Philippe et Castex, période couvrant l'opération Barkhane au Sahel et sa transformation annoncée en 2021. Administratrice civile à la direction du Budget puis conseillère ministérielle, elle rejoint en 1997 le cabinet de Lionel Jospin et devient **secrétaire d'État au Budget (2000-2002)**. Dans le secteur privé, elle fait carrière chez **Air France** (directrice générale adjointe de 2008 à 2014) puis à la **SNCF**, comme directrice générale stratégie et finances puis directrice générale de SNCF Mobilités Voyageurs en 2016.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Florence_Parly"
       }
     },
     {
@@ -1238,6 +1330,36 @@
       }
     },
     {
+      "id": "julien-denormandie",
+      "full_name": "Julien Denormandie",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Agriculture et de l'Alimentation",
+            "en": "Minister of Agriculture and Food"
+          },
+          "from": "2020-07-06",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "29d1f8fd1c8dc3c359cd280305be01c37ad90dc87264d2a4ddd8b76207d0c3b3",
+        "photo": {
+          "path": "/media/politicians/julien-denormandie.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Julien_Denormandie_2021_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Natichou39"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Haut fonctionnaire et homme politique français, **ministre de l'Agriculture et de l'Alimentation de juillet 2020 à mai 2022** dans le gouvernement Castex, où il a porté la **loi Egalim 2 sur la rémunération des agriculteurs**. Ingénieur des ponts, des eaux et des forêts, conseiller ministériel puis **directeur de cabinet adjoint d'Emmanuel Macron à Bercy**, il démissionne en 2016 pour participer à la **création d'En marche**, dont il devient secrétaire général adjoint. Secrétaire d'État à la Cohésion des territoires en 2017, il est **ministre chargé de la Ville et du Logement de 2018 à 2020**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Julien_Denormandie"
+      }
+    },
+    {
       "id": "julien-dive",
       "full_name": "Julien Dive",
       "party": "Les Républicains",
@@ -1516,6 +1638,36 @@
       }
     },
     {
+      "id": "marie-pierre-rixain",
+      "full_name": "Marie-Pierre Rixain",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Députée de la 4e circonscription de l'Essonne",
+            "en": "MP for Essonne's 4th constituency"
+          },
+          "from": "2017-06-21",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "7c4871abe8e006b403dbe52914a7c30e22940cc5e588a741c0dd1c48a31acc90",
+        "photo": {
+          "path": "/media/politicians/marie-pierre-rixain.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marie-Pierre_Rixain.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Antoine Lamielle"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique française, **députée de la 4e circonscription de l'Essonne depuis 2017** (La République en marche, puis Renaissance et Ensemble pour la République), réélue en 2022 et en 2024. **Présidente de la Délégation aux droits des femmes** de l'Assemblée nationale de 2017 à 2022, elle est l'**autrice de la loi du 24 décembre 2021 visant à accélérer l'égalité économique et professionnelle** (loi Rixain), qui impose notamment des quotas de femmes parmi les cadres dirigeants des grandes entreprises.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Marie-Pierre_Rixain"
+      }
+    },
+    {
       "id": "marina-ferrari",
       "full_name": "Marina Ferrari",
       "party": "Mouvement démocrate",
@@ -1708,6 +1860,14 @@
       "full_name": "Olivier Dussopt",
       "party": "Renaissance",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé des Comptes publics",
+            "en": "Minister Delegate for Public Accounts"
+          },
+          "from": "2020-07-06",
+          "to": "2022-05-20"
+        },
         {
           "role": {
             "fr": "Ministre du Travail",

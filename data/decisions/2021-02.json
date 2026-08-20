@@ -1,0 +1,81 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2021-02",
+  "decisions": [
+    {
+      "id": "prorogation-etat-urgence-sanitaire-2021",
+      "date": "2021-02-15",
+      "title": {
+        "fr": "Prorogation de l'état d'urgence sanitaire jusqu'au 1er juin 2021",
+        "en": "Extension of the state of health emergency until 1 June 2021"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-160 : l'**état d'urgence sanitaire**, déclaré en octobre 2020 face à la deuxième vague de covid-19, est **prorogé jusqu'au 1er juin 2021**, permettant le maintien du couvre-feu et des restrictions de déplacement ; le **cadre légal de l'état d'urgence sanitaire est prolongé jusqu'au 31 décembre 2021**.",
+        "en": "Law no. 2021-160: the **state of health emergency**, declared in October 2020 against the second covid-19 wave, is **extended until 1 June 2021**, allowing the curfew and movement restrictions to remain in force; the **legal framework of the state of health emergency is extended until 31 December 2021**."
+      },
+      "category_ids": ["sante", "institutions"],
+      "politician_ids": ["olivier-veran", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043134078",
+          "title": "LOI n° 2021-160 du 15 février 2021 prorogeant l'état d'urgence sanitaire - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-296.html",
+          "title": "Dossier législatif : prorogation de l'état d'urgence sanitaire - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "report-elections-juin-2021",
+      "date": "2021-02-22",
+      "title": {
+        "fr": "Report des élections départementales et régionales à juin 2021",
+        "en": "Postponement of the departmental and regional elections to June 2021"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-191 : en raison de l'épidémie de covid-19, le renouvellement général des **conseils départementaux, des conseils régionaux et des assemblées de Corse, de Guyane et de Martinique est reporté de mars à juin 2021** ; les mandats en cours sont prolongés d'autant.",
+        "en": "Law no. 2021-191: because of the covid-19 epidemic, the general renewal of **departmental councils, regional councils and the assemblies of Corsica, French Guiana and Martinique is postponed from March to June 2021**; current terms of office are extended accordingly."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["gerald-darmanin", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043168354",
+          "title": "LOI n° 2021-191 du 22 février 2021 portant report, de mars à juin 2021, du renouvellement général des conseils départementaux, des conseils régionaux et des assemblées de Corse, de Guyane et de Martinique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-254.html",
+          "title": "Dossier législatif : renouvellement des conseils départementaux et régionaux - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "code-justice-penale-mineurs-2021",
+      "date": "2021-02-26",
+      "title": {
+        "fr": "Ratification du code de la justice pénale des mineurs",
+        "en": "Ratification of the juvenile criminal justice code"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-218 ratifiant l'ordonnance du 11 septembre 2019 : le **code de la justice pénale des mineurs** remplace l'ordonnance de 1945, avec une **entrée en vigueur fixée au 30 septembre 2021**. Il instaure une **présomption de non-discernement avant 13 ans** et une procédure en deux temps : jugement rapide sur la culpabilité, puis période de mise à l'épreuve éducative avant le prononcé de la sanction, dans des **délais encadrés**.",
+        "en": "Law no. 2021-218 ratifying the ordinance of 11 September 2019: the **juvenile criminal justice code** replaces the 1945 ordinance, **entering into force on 30 September 2021**. It creates a **presumption of lack of discernment under age 13** and a two-step procedure: a swift ruling on guilt, then an educational probation period before sentencing, within **strict time limits**."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["eric-dupond-moretti", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043189286",
+          "title": "LOI n° 2021-218 du 26 février 2021 ratifiant l'ordonnance n° 2019-950 du 11 septembre 2019 portant partie législative du code de la justice pénale des mineurs - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-228.html",
+          "title": "Dossier législatif : code de la justice pénale des mineurs - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

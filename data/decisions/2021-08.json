@@ -1,0 +1,131 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2021-08",
+  "decisions": [
+    {
+      "id": "loi-bioethique-pma-2021",
+      "date": "2021-08-02",
+      "title": {
+        "fr": "Loi de bioéthique : PMA pour toutes",
+        "en": "Bioethics law: assisted reproduction for all women"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-1017 relative à la bioéthique : **ouverture de la procréation médicalement assistée aux couples de femmes et aux femmes seules**, prise en charge par l'assurance maladie ; **droit d'accès aux origines** pour les personnes nées d'un don (identité du donneur accessible à la majorité) ; **autoconservation des gamètes** élargie hors motif médical. Le Conseil constitutionnel a validé la loi (décision n° 2021-821 DC).",
+        "en": "Law no. 2021-1017 on bioethics: **assisted reproduction opened to female couples and single women**, covered by health insurance; **right of access to origins** for donor-conceived people (donor identity accessible at adulthood); **egg and sperm freezing** extended beyond medical grounds. The Constitutional Council upheld the law (decision no. 2021-821 DC)."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["olivier-veran", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043884384",
+          "title": "LOI n° 2021-1017 du 2 août 2021 relative à la bioéthique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl19-063.html",
+          "title": "Dossier législatif : bioéthique - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2021/2021821DC.htm",
+          "title": "Décision n° 2021-821 DC du 29 juillet 2021 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-passe-sanitaire-obligation-vaccinale-2021",
+      "date": "2021-08-05",
+      "title": {
+        "fr": "Loi de gestion de la crise sanitaire : passe sanitaire étendu et obligation vaccinale des soignants",
+        "en": "Health crisis management law: extended health pass and mandatory vaccination for caregivers"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-1040 : **extension du passe sanitaire** aux cafés, restaurants, foires, transports interrégionaux et, sur décision préfectorale, aux grands centres commerciaux, à partir du 9 août ; **obligation vaccinale des soignants et professionnels au contact des personnes fragiles** au 15 septembre, sous peine de **suspension sans rémunération**. Le Conseil constitutionnel a censuré l'**isolement obligatoire des personnes testées positives** et la **rupture anticipée des CDD et missions d'intérim** pour défaut de passe (décision n° 2021-824 DC).",
+        "en": "Law no. 2021-1040: **extension of the health pass** to cafés, restaurants, trade fairs, interregional transport and, by prefectoral decision, large shopping centres, from 9 August; **mandatory vaccination for caregivers and professionals in contact with vulnerable people** by 15 September, on pain of **suspension without pay**. The Constitutional Council struck down the **mandatory isolation of people testing positive** and the **early termination of fixed-term and temp contracts** for lack of a pass (decision no. 2021-824 DC)."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["olivier-veran", "jean-castex", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043909676",
+          "title": "LOI n° 2021-1040 du 5 août 2021 relative à la gestion de la crise sanitaire - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-796.html",
+          "title": "Dossier législatif : gestion de la crise sanitaire - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2021/2021824DC.htm",
+          "title": "Décision n° 2021-824 DC du 5 août 2021 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "loi-sortie-crise-sanitaire-2021"
+        },
+        {
+          "type": "implements",
+          "decision_id": "annonce-obligation-vaccinale-passe-2021"
+        }
+      ]
+    },
+    {
+      "id": "loi-climat-resilience-2021",
+      "date": "2021-08-22",
+      "title": {
+        "fr": "Loi climat et résilience",
+        "en": "Climate and resilience law"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-1104, issue des travaux de la Convention citoyenne pour le climat : **interdiction de louer les passoires thermiques** (classe G en 2025, F en 2028), **suppression des vols intérieurs en cas d'alternative en train de moins de 2h30**, généralisation des **zones à faibles émissions** dans les agglomérations de plus de 150 000 habitants, fin de la **publicité pour les énergies fossiles**, création d'un **délit d'écocide** et objectif de **division par deux de l'artificialisation des sols** en dix ans. Le Conseil constitutionnel a validé la loi (décision n° 2021-825 DC).",
+        "en": "Law no. 2021-1104, born of the Citizens' Climate Convention: **ban on renting out energy-sieve homes** (class G in 2025, F in 2028), **abolition of domestic flights where a train alternative under 2h30 exists**, generalisation of **low-emission zones** in cities over 150,000 inhabitants, end of **advertising for fossil fuels**, creation of an **ecocide offence** and a target of **halving land take** within ten years. The Constitutional Council upheld the law (decision no. 2021-825 DC)."
+      },
+      "category_ids": ["ecologie", "energie"],
+      "politician_ids": ["barbara-pompili", "jean-castex", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043956924",
+          "title": "LOI n° 2021-1104 du 22 août 2021 portant lutte contre le dérèglement climatique et renforcement de la résilience face à ses effets - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-551.html",
+          "title": "Dossier législatif : lutte contre le dérèglement climatique - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2021/2021825DC.htm",
+          "title": "Décision n° 2021-825 DC du 13 août 2021 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-separatisme-2021",
+      "date": "2021-08-24",
+      "title": {
+        "fr": "Loi confortant le respect des principes de la République (loi « séparatisme »)",
+        "en": "Law reinforcing respect for the principles of the Republic (\"separatism\" law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-1109 : **contrat d'engagement républicain** imposé aux associations subventionnées, **instruction en famille soumise à autorisation préalable**, création du délit de **mise en danger de la vie d'autrui par divulgation d'informations personnelles** (à la suite de l'assassinat de Samuel Paty), contrôle renforcé des cultes et de leurs **financements étrangers**, extension de la neutralité aux salariés des délégataires de service public. Le Conseil constitutionnel a censuré la **suspension à titre conservatoire des activités d'une association visée par une dissolution** et la disposition **subordonnant le séjour des étrangers à l'absence de rejet des principes de la République** (décision n° 2021-823 DC).",
+        "en": "Law no. 2021-1109: a **republican engagement contract** imposed on subsidised associations, **homeschooling subject to prior authorisation**, creation of the offence of **endangering someone's life by disclosing personal information** (after the murder of Samuel Paty), tighter control of religious organisations and their **foreign funding**, neutrality extended to employees of public service contractors. The Constitutional Council struck down the **precautionary suspension of an association facing dissolution** and the provision **making foreigners' residence conditional on not rejecting the principles of the Republic** (decision no. 2021-823 DC)."
+      },
+      "category_ids": ["institutions", "securite"],
+      "politician_ids": ["gerald-darmanin", "jean-castex", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043964778",
+          "title": "LOI n° 2021-1109 du 24 août 2021 confortant le respect des principes de la République - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-369.html",
+          "title": "Dossier législatif : respect des principes de la République - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2021/2021823DC.htm",
+          "title": "Décision n° 2021-823 DC du 13 août 2021 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

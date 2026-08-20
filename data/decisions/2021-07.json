@@ -1,0 +1,82 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2021-07",
+  "decisions": [
+    {
+      "id": "annonce-obligation-vaccinale-passe-2021",
+      "date": "2021-07-12",
+      "title": {
+        "fr": "Annonce de l'obligation vaccinale des soignants et de l'extension du passe sanitaire",
+        "en": "Announcement of mandatory vaccination for caregivers and the extension of the health pass"
+      },
+      "summary": {
+        "fr": "Adresse aux Français d'Emmanuel Macron face au variant Delta : annonce de la **vaccination obligatoire des personnels soignants et des professionnels au contact des personnes fragiles**, et de l'**extension du passe sanitaire** aux cafés, restaurants, centres commerciaux, hôpitaux et transports de longue distance. L'allocution est suivie de **plusieurs millions de prises de rendez-vous de vaccination en quelques jours**.",
+        "en": "Emmanuel Macron's address to the French facing the Delta variant: announcement of **mandatory vaccination for caregivers and professionals in contact with vulnerable people**, and of the **extension of the health pass** to cafés, restaurants, shopping centres, hospitals and long-distance transport. The address was followed by **several million vaccination appointments booked within days**."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2021/07/12/adresse-aux-francais-12-juillet-2021",
+          "title": "Adresse aux Français du 12 juillet 2021 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-passe-sanitaire-obligation-vaccinale-2021"
+        }
+      ]
+    },
+    {
+      "id": "loi-finances-rectificative-juillet-2021",
+      "date": "2021-07-19",
+      "title": {
+        "fr": "Loi de finances rectificative de sortie du « quoi qu'il en coûte »",
+        "en": "Supplementary budget law winding down the \"whatever it costs\" policy"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-953 de finances rectificative pour 2021 : elle finance l'accompagnement de la réouverture en organisant la **sortie progressive des aides d'urgence** : **fonds de solidarité prolongé jusqu'au 31 août 2021** puis remplacé par un dispositif de prise en charge des coûts fixes, **activité partielle de crise** maintenue puis réduite, et **prêts garantis par l'État prolongés jusqu'à la fin 2021**.",
+        "en": "Law no. 2021-953, supplementary budget for 2021: it funds the reopening phase while organising the **gradual wind-down of emergency aid**: **solidarity fund extended until 31 August 2021** then replaced by a fixed-costs scheme, crisis **short-time work** maintained then reduced, and **state-guaranteed loans extended until the end of 2021**."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["bruno-le-maire", "olivier-dussopt", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043805899",
+          "title": "LOI n° 2021-953 du 19 juillet 2021 de finances rectificative pour 2021 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-682.html",
+          "title": "Dossier législatif : loi de finances rectificative pour 2021 (1) - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-terrorisme-renseignement-2021",
+      "date": "2021-07-30",
+      "title": {
+        "fr": "Loi de prévention des actes de terrorisme et relative au renseignement",
+        "en": "Law on terrorism prevention and intelligence"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-998 : elle **pérennise les mesures de la loi SILT de 2017** (périmètres de protection, fermeture des lieux de culte, MICAS, visites domiciliaires) et **la technique de surveillance par algorithme**, étendue aux **adresses URL** ; elle crée une **mesure judiciaire de prévention de la récidive terroriste** à la sortie de détention et réforme l'accès aux **archives classifiées**.",
+        "en": "Law no. 2021-998: it **makes permanent the measures of the 2017 SILT law** (protection perimeters, closure of places of worship, individual control measures, home visits) and the **algorithmic surveillance technique**, extended to **URL addresses**; it creates a **judicial measure to prevent terrorist reoffending** after release and reforms access to **classified archives**."
+      },
+      "category_ids": ["securite", "justice"],
+      "politician_ids": ["gerald-darmanin", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043876100",
+          "title": "LOI n° 2021-998 du 30 juillet 2021 relative à la prévention d'actes de terrorisme et au renseignement - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-672.html",
+          "title": "Dossier législatif : prévention d'actes de terrorisme et renseignement - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

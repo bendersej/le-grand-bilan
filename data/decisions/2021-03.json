@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2021-03",
+  "decisions": [
+    {
+      "id": "confinement-16-departements-2021",
+      "date": "2021-03-19",
+      "title": {
+        "fr": "Confinement territorial dans 16 départements",
+        "en": "Territorial lockdown in 16 départements"
+      },
+      "summary": {
+        "fr": "Décret n° 2021-296 : face à la troisième vague, des **mesures renforcées s'appliquent dans 16 départements** dont l'Île-de-France et les Hauts-de-France : **fermeture des commerces non essentiels** (et des rayons non essentiels des grandes surfaces), sorties limitées à un **rayon de 10 kilomètres** autour du domicile pour la promenade, interdiction de quitter un périmètre de 30 kilomètres sans motif ; sur tout le territoire, le **couvre-feu est repoussé de 18 à 19 heures**.",
+        "en": "Decree no. 2021-296: facing the third wave, **reinforced measures apply in 16 départements** including Île-de-France and Hauts-de-France: **closure of non-essential shops** (and non-essential aisles of large stores), outings limited to a **10-kilometre radius** around home for walks, ban on leaving a 30-kilometre perimeter without a valid reason; nationwide, the **curfew is pushed back from 6 pm to 7 pm**."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["jean-castex", "olivier-veran"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043268538",
+          "title": "Décret n° 2021-296 du 19 mars 2021 modifiant le décret n° 2020-1310 du 29 octobre 2020 prescrivant les mesures générales nécessaires pour faire face à l'épidémie de covid-19 - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "couvre-feu-18h-2021"
+        }
+      ]
+    },
+    {
+      "id": "loi-organique-election-presidentielle-2021",
+      "date": "2021-03-29",
+      "title": {
+        "fr": "Loi organique préparant l'élection présidentielle de 2022",
+        "en": "Organic law preparing the 2022 presidential election"
+      },
+      "summary": {
+        "fr": "Loi organique n° 2021-335 : elle adapte les règles de l'élection présidentielle avant le scrutin de 2022 : **vote par correspondance pour les personnes détenues**, **dématérialisation** du dépôt des comptes de campagne et des reçus-dons, période de financement de campagne ramenée à **neuf mois**, accessibilité de la propagande électorale aux personnes handicapées et publication des **marges d'erreur des sondages**.",
+        "en": "Organic law no. 2021-335: it adapts the presidential election rules ahead of the 2022 vote: **postal voting for detainees**, **digital filing** of campaign accounts and donation receipts, campaign financing period reduced to **nine months**, accessibility of electoral material for people with disabilities and publication of **poll margins of error**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["gerald-darmanin", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043302367",
+          "title": "LOI organique n° 2021-335 du 29 mars 2021 portant diverses mesures relatives à l'élection du Président de la République - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-285.html",
+          "title": "Dossier législatif : élection du Président de la République - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

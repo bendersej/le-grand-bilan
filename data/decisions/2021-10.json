@@ -1,0 +1,77 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2021-10",
+  "decisions": [
+    {
+      "id": "plan-france-2030-2021",
+      "date": "2021-10-12",
+      "title": {
+        "fr": "Plan d'investissement France 2030",
+        "en": "France 2030 investment plan"
+      },
+      "summary": {
+        "fr": "Emmanuel Macron présente **France 2030**, un plan d'investissement de **30 milliards d'euros** poursuivant **10 objectifs** pour réindustrialiser la France : **petits réacteurs nucléaires innovants (SMR)**, leadership sur l'**hydrogène vert**, décarbonation de l'industrie, production de **2 millions de véhicules électriques et hybrides**, **premier avion bas-carbone**, biomédicaments, alimentation, culture, espace et fonds marins.",
+        "en": "Emmanuel Macron unveiled **France 2030**, a **30-billion-euro** investment plan pursuing **10 objectives** to reindustrialise France: **innovative small modular nuclear reactors (SMR)**, leadership in **green hydrogen**, industrial decarbonisation, production of **2 million electric and hybrid vehicles**, the **first low-carbon aircraft**, biomedicines, food, culture, space and the seabed."
+      },
+      "category_ids": ["economie", "energie"],
+      "politician_ids": ["emmanuel-macron", "bruno-le-maire"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2021/10/12/presentation-du-plan-france-2030",
+          "title": "Présentation du plan France 2030 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-egalim-2-2021",
+      "date": "2021-10-18",
+      "title": {
+        "fr": "Loi protégeant la rémunération des agriculteurs (Egalim 2)",
+        "en": "Law protecting farmers' pay (Egalim 2)"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-1357, dite Egalim 2 : la **contractualisation écrite pluriannuelle** (trois ans minimum) devient la règle entre agriculteurs et acheteurs, avec des prix tenant compte des **indicateurs de coûts de production** ; le **prix des matières premières agricoles devient non négociable** dans les négociations commerciales avec la grande distribution, et un **comité de règlement des différends commerciaux agricoles** est créé.",
+        "en": "Law no. 2021-1357, known as Egalim 2: **written multi-year contracts** (three years minimum) become the rule between farmers and buyers, with prices reflecting **production cost indicators**; the **price of agricultural raw materials becomes non-negotiable** in commercial negotiations with mass retail, and an **agricultural trade dispute committee** is created."
+      },
+      "category_ids": ["agriculture", "economie"],
+      "politician_ids": ["julien-denormandie", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044220683",
+          "title": "LOI n° 2021-1357 du 18 octobre 2021 visant à protéger la rémunération des agriculteurs - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl20-718.html",
+          "title": "Dossier législatif : protéger la rémunération des agriculteurs - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "creation-arcom-2021",
+      "date": "2021-10-25",
+      "title": {
+        "fr": "Loi créant l'ARCOM et renforçant la lutte contre le piratage",
+        "en": "Law creating ARCOM and stepping up the fight against piracy"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-1382 : **fusion du CSA et de la Hadopi** au 1er janvier 2022 dans l'**Autorité de régulation de la communication audiovisuelle et numérique (ARCOM)** ; lutte renforcée contre le **piratage** (liste noire des sites contrefaisants, blocage des **sites miroirs**, référé contre le piratage des **retransmissions sportives**) et protection de l'accès du public aux **catalogues d'œuvres françaises**.",
+        "en": "Law no. 2021-1382: **merger of the CSA and Hadopi** on 1 January 2022 into the **Autorité de régulation de la communication audiovisuelle et numérique (ARCOM)**; a stronger fight against **piracy** (blacklist of infringing sites, blocking of **mirror sites**, fast-track action against pirated **sports broadcasts**) and protection of public access to **French works catalogues**."
+      },
+      "category_ids": ["culture", "numerique"],
+      "politician_ids": ["roselyne-bachelot", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044245615",
+          "title": "LOI n° 2021-1382 du 25 octobre 2021 relative à la régulation et à la protection de l'accès aux œuvres culturelles à l'ère numérique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-523.html",
+          "title": "Dossier législatif : œuvres culturelles à l'ère numérique - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

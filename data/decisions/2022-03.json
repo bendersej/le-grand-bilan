@@ -94,6 +94,10 @@
       ],
       "relations": [
         {
+          "type": "amends",
+          "decision_id": "decret-sortie-crise-sanitaire-2021"
+        },
+        {
           "type": "related",
           "decision_id": "passe-vaccinal-2022"
         }
@@ -147,6 +151,14 @@
         {
           "type": "related",
           "decision_id": "indemnite-carburant-2023"
+        },
+        {
+          "type": "related",
+          "decision_id": "indemnite-inflation-2021"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-de-finances-2022"
         }
       ]
     }

@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2021-05",
+  "decisions": [
+    {
+      "id": "reouverture-terrasses-2021",
+      "date": "2021-05-18",
+      "title": {
+        "fr": "Réouverture des terrasses, commerces et lieux culturels",
+        "en": "Reopening of terraces, shops and cultural venues"
+      },
+      "summary": {
+        "fr": "Décret n° 2021-606, deuxième étape du calendrier de déconfinement : à compter du **19 mai 2021**, réouverture des **terrasses des cafés et restaurants à 50 % de leur capacité**, des **commerces**, des **musées, cinémas et théâtres** avec jauges, et **report du couvre-feu de 19 à 21 heures**.",
+        "en": "Decree no. 2021-606, second step of the reopening calendar: from **19 May 2021**, reopening of **café and restaurant terraces at 50% capacity**, of **shops**, and of **museums, cinemas and theatres** with capacity limits, and the **curfew is pushed back from 7 pm to 9 pm**."
+      },
+      "category_ids": ["economie", "sante"],
+      "politician_ids": ["jean-castex", "olivier-veran"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043508596",
+          "title": "Décret n° 2021-606 du 18 mai 2021 modifiant les décrets n° 2020-1262 et n° 2020-1310 prescrivant les mesures générales nécessaires pour faire face à l'épidémie de covid-19 - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "confinement-national-avril-2021"
+        }
+      ]
+    },
+    {
+      "id": "loi-securite-globale-2021",
+      "date": "2021-05-25",
+      "title": {
+        "fr": "Loi pour une sécurité globale",
+        "en": "Global security law"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-646 : renforcement des pouvoirs des **polices municipales** et de la **sécurité privée**, généralisation des **caméras-piétons**, durcissement des peines pour les atteintes aux forces de l'ordre. Le Conseil constitutionnel a **censuré l'expérimentation confiant des attributions de police judiciaire aux polices municipales (article 1er)**, **l'essentiel de l'encadrement des drones de surveillance** et le **délit de provocation à l'identification des policiers issu de l'ex-article 24** (décision n° 2021-817 DC).",
+        "en": "Law no. 2021-646: stronger powers for **municipal police** and **private security**, generalisation of **body cameras**, harsher penalties for attacks on law enforcement. The Constitutional Council **struck down the experiment giving judicial police powers to municipal police (article 1)**, **most of the framework for surveillance drones** and the **offence of provoking the identification of police officers derived from former article 24** (decision no. 2021-817 DC)."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["gerald-darmanin", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043530276",
+          "title": "LOI n° 2021-646 du 25 mai 2021 pour une sécurité globale préservant les libertés - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2021/2021817DC.htm",
+          "title": "Décision n° 2021-817 DC du 20 mai 2021 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl20-150.html",
+          "title": "Dossier législatif : sécurité globale - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-sortie-crise-sanitaire-2021",
+      "date": "2021-05-31",
+      "title": {
+        "fr": "Loi de gestion de la sortie de crise sanitaire (création du passe sanitaire)",
+        "en": "Law managing the exit from the health crisis (creation of the health pass)"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-689 : elle organise un **régime transitoire de sortie de l'état d'urgence sanitaire du 2 juin au 30 septembre 2021**, pendant lequel le Premier ministre peut encore restreindre déplacements, rassemblements et ouverture des établissements, et **crée le passe sanitaire** (vaccination, test négatif ou certificat de rétablissement) pour l'accès aux **grands rassemblements** de personnes.",
+        "en": "Law no. 2021-689: it sets up a **transitional regime out of the state of health emergency from 2 June to 30 September 2021**, during which the Prime Minister can still restrict travel, gatherings and venue openings, and **creates the health pass** (vaccination, negative test or recovery certificate) for access to **large gatherings**."
+      },
+      "category_ids": ["sante", "institutions"],
+      "politician_ids": ["olivier-veran", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043567200",
+          "title": "LOI n° 2021-689 du 31 mai 2021 relative à la gestion de la sortie de crise sanitaire - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-571.html",
+          "title": "Dossier législatif : gestion de la sortie de crise sanitaire - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "prorogation-etat-urgence-sanitaire-2021"
+        }
+      ]
+    }
+  ]
+}

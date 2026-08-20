@@ -21,7 +21,12 @@
           "title": "Décret n° 2022-514 du 9 avril 2022 relatif à l'aide en faveur de l'habitat collectif résidentiel face à l'augmentation du prix du gaz naturel - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-de-finances-2022"
+        }
+      ]
     },
     {
       "id": "reelection-macron-2022",

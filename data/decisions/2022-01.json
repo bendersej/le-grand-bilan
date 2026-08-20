@@ -29,7 +29,16 @@
           "title": "Décision n° 2022-835 DC du 21 janvier 2022 - Conseil constitutionnel"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "loi-passe-sanitaire-obligation-vaccinale-2021"
+        },
+        {
+          "type": "amends",
+          "decision_id": "loi-sortie-crise-sanitaire-2021"
+        }
+      ]
     },
     {
       "id": "loi-responsabilite-penale-2022",

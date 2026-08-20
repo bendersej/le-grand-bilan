@@ -1,0 +1,53 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2021-09",
+  "decisions": [
+    {
+      "id": "cloture-beauvau-securite-2021",
+      "date": "2021-09-14",
+      "title": {
+        "fr": "Clôture du Beauvau de la sécurité",
+        "en": "Closing of the Beauvau security conference"
+      },
+      "summary": {
+        "fr": "À l'École nationale de police de Roubaix, Emmanuel Macron clôt huit mois de concertation sur la police et la gendarmerie : **hausse du budget de l'Intérieur de près de 1,5 milliard d'euros en 2022**, dont **500 millions pour les premières mesures du Beauvau**, doublement de la présence des forces de l'ordre sur la voie publique en dix ans, généralisation des **caméras-piétons**, et annonce d'une **loi de programmation pour les sécurités intérieures début 2022** (future LOPMI).",
+        "en": "At the national police academy in Roubaix, Emmanuel Macron closed eight months of consultations on the police and gendarmerie: **interior ministry budget up by nearly 1.5 billion euros in 2022**, including **500 million for the first Beauvau measures**, doubling of law enforcement presence on the streets within ten years, generalisation of **body cameras**, and the announcement of an **interior security programming law for early 2022** (the future LOPMI)."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["emmanuel-macron", "gerald-darmanin"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2021/09/13/cloture-du-beauvau-de-la-securite-par-le-president-emmanuel-macron",
+          "title": "Clôture du Beauvau de la sécurité par le président Emmanuel Macron - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "lopmi-2023"
+        }
+      ]
+    },
+    {
+      "id": "discours-pardon-harkis-2021",
+      "date": "2021-09-20",
+      "title": {
+        "fr": "Demande de pardon aux harkis",
+        "en": "Request for forgiveness addressed to the harkis"
+      },
+      "summary": {
+        "fr": "Lors d'une réception à l'Élysée consacrée à la mémoire des harkis, Emmanuel Macron **demande pardon** au nom de la France aux combattants harkis abandonnés après 1962 et à leurs familles qui ont subi les camps, et annonce un **projet de loi de reconnaissance et de réparation**, qui deviendra la loi du 23 février 2022.",
+        "en": "At an Élysée reception devoted to the memory of the harkis, Emmanuel Macron **asked for forgiveness** in France's name from the harki fighters abandoned after 1962 and their families who endured the camps, and announced a **bill of recognition and reparation**, which became the law of 23 February 2022."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2021/09/20/reception-consacree-a-la-memoire-des-harkis",
+          "title": "Réception consacrée à la mémoire des harkis - Élysée"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

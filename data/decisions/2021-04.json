@@ -1,0 +1,82 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2021-04",
+  "decisions": [
+    {
+      "id": "confinement-national-avril-2021",
+      "date": "2021-04-02",
+      "title": {
+        "fr": "Extension du confinement à toute la métropole (troisième confinement)",
+        "en": "Extension of the lockdown to all of mainland France (third lockdown)"
+      },
+      "summary": {
+        "fr": "Décret n° 2021-384, à la suite de l'allocution d'Emmanuel Macron du 31 mars : les mesures renforcées sont **étendues à l'ensemble du territoire métropolitain à compter du 3 avril**, pour quatre semaines : commerces non essentiels fermés, déplacements limités à **10 kilomètres** autour du domicile en journée ; les **écoles, collèges et lycées ferment** pour trois à quatre semaines avec des vacances de printemps unifiées.",
+        "en": "Decree no. 2021-384, following Emmanuel Macron's address of 31 March: the reinforced measures are **extended to all of mainland France from 3 April**, for four weeks: non-essential shops closed, travel limited to a **10-kilometre radius** around home during the day; **schools close** for three to four weeks with unified spring holidays."
+      },
+      "category_ids": ["sante", "education"],
+      "politician_ids": ["emmanuel-macron", "jean-castex", "olivier-veran"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043327303",
+          "title": "Décret n° 2021-384 du 2 avril 2021 modifiant les décrets n° 2020-1262 et n° 2020-1310 prescrivant les mesures générales nécessaires pour faire face à l'épidémie de covid-19 - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "confinement-16-departements-2021"
+        }
+      ]
+    },
+    {
+      "id": "loi-protection-mineurs-inceste-2021",
+      "date": "2021-04-21",
+      "title": {
+        "fr": "Loi protégeant les mineurs des crimes sexuels et de l'inceste (loi Billon)",
+        "en": "Law protecting minors from sexual crimes and incest (Billon law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-478, issue de la proposition de la sénatrice Annick Billon : **tout acte de pénétration sexuelle commis par un adulte sur un mineur de moins de 15 ans est un viol**, sans que la question du consentement se pose (sous condition d'un écart d'âge d'au moins cinq ans), et le **seuil est porté à 18 ans en cas d'inceste** ; la loi crée aussi un délit de **« sextorsion »** de mineurs en ligne.",
+        "en": "Law no. 2021-478, from a bill by senator Annick Billon: **any act of sexual penetration by an adult on a minor under 15 is rape**, with no question of consent (subject to an age gap of at least five years), and the **threshold is raised to 18 in cases of incest**; the law also creates an offence of online **\"sextortion\"** of minors."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["annick-billon", "eric-dupond-moretti"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043403203",
+          "title": "LOI n° 2021-478 du 21 avril 2021 visant à protéger les mineurs des crimes et délits sexuels et de l'inceste - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl20-158.html",
+          "title": "Dossier législatif : protéger les mineurs des crimes et délits sexuels et de l'inceste - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-rist-2021",
+      "date": "2021-04-26",
+      "title": {
+        "fr": "Loi améliorant le système de santé par la confiance et la simplification (loi Rist)",
+        "en": "Law improving the health system through trust and simplification (Rist law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-502, issue de la proposition de la députée Stéphanie Rist et prolongeant le Ségur de la santé : **plafonnement des rémunérations de l'intérim médical** à l'hôpital, **le service redevient l'échelon central de la gouvernance hospitalière**, extension des compétences des **sages-femmes et des professions paramédicales**, et simplification du recrutement des praticiens hospitaliers.",
+        "en": "Law no. 2021-502, from a bill by MP Stéphanie Rist extending the Ségur de la santé: **cap on medical temp pay** in hospitals, **the ward becomes the central unit of hospital governance again**, extended powers for **midwives and allied health professions**, and simplified recruitment of hospital practitioners."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["stephanie-rist", "olivier-veran"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000043421566",
+          "title": "LOI n° 2021-502 du 26 avril 2021 visant à améliorer le système de santé par la confiance et la simplification - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl20-200.html",
+          "title": "Dossier législatif : améliorer le système de santé par la confiance et la simplification - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2021-12",
+  "decisions": [
+    {
+      "id": "indemnite-inflation-2021",
+      "date": "2021-12-01",
+      "title": {
+        "fr": "Indemnité inflation de 100 euros",
+        "en": "100-euro inflation allowance"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-1549 de finances rectificative pour 2021 (article 13) et décret n° 2021-1623 : une **aide exceptionnelle de 100 euros**, l'« indemnité inflation », est versée à partir de décembre 2021 aux personnes de 16 ans et plus dont les ressources les rendent **particulièrement vulnérables à la hausse du coût de la vie** (environ **38 millions de bénéficiaires** : salariés, indépendants, retraités, demandeurs d'emploi, étudiants), en réponse à la flambée des prix de l'énergie.",
+        "en": "Law no. 2021-1549, supplementary budget for 2021 (article 13), and decree no. 2021-1623: an **exceptional 100-euro payment**, the \"inflation allowance\", is paid from December 2021 to people aged 16 and over whose income makes them **particularly vulnerable to the rising cost of living** (about **38 million recipients**: employees, self-employed, pensioners, jobseekers, students), in response to surging energy prices."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["jean-castex", "bruno-le-maire", "olivier-dussopt"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044394364",
+          "title": "LOI n° 2021-1549 du 1er décembre 2021 de finances rectificative pour 2021 - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044471405",
+          "title": "Décret n° 2021-1623 du 11 décembre 2021 relatif aux modalités de versement de l'aide exceptionnelle prévue à l'article 13 de la loi n° 2021-1549 du 1er décembre 2021 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl21-147.html",
+          "title": "Dossier législatif : loi de finances rectificative pour 2021 (2) - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-confiance-institution-judiciaire-2021",
+      "date": "2021-12-22",
+      "title": {
+        "fr": "Loi pour la confiance dans l'institution judiciaire",
+        "en": "Law for trust in the judicial institution"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-1729 portée par Éric Dupond-Moretti : autorisation de l'**enregistrement et de la diffusion des audiences** pour un motif d'intérêt public, **généralisation des cours criminelles départementales** (cinq magistrats professionnels, sans jury) pour les crimes punis de 15 à 20 ans, **réforme des réductions de peine** (jusqu'à six mois par an, liées à la bonne conduite et aux efforts de réinsertion), encadrement des enquêtes préliminaires et **protection renforcée du secret professionnel de l'avocat**.",
+        "en": "Law no. 2021-1729 carried by Éric Dupond-Moretti: **recording and broadcasting of court hearings** authorised for public-interest reasons, **generalisation of departmental criminal courts** (five professional judges, no jury) for crimes punishable by 15 to 20 years, **reform of sentence reductions** (up to six months per year, tied to good conduct and rehabilitation efforts), stricter limits on preliminary investigations and **stronger protection of lawyers' professional secrecy**."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["eric-dupond-moretti", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044545992",
+          "title": "LOI n° 2021-1729 du 22 décembre 2021 pour la confiance dans l'institution judiciaire - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl20-630.html",
+          "title": "Dossier législatif : confiance dans l'institution judiciaire - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-rixain-egalite-economique-2021",
+      "date": "2021-12-24",
+      "title": {
+        "fr": "Loi accélérant l'égalité économique et professionnelle (loi Rixain)",
+        "en": "Law accelerating economic and professional equality (Rixain law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-1774, issue de la proposition de la députée Marie-Pierre Rixain : **quota minimal de 30 % puis 40 % de femmes parmi les cadres dirigeants et les instances dirigeantes** des entreprises de plus de 1 000 salariés, sous peine de pénalité financière ; **versement du salaire sur un compte dont la salariée ou le salarié est titulaire**, renforcement de l'index de l'égalité professionnelle et objectifs de mixité pour les financements de Bpifrance.",
+        "en": "Law no. 2021-1774, from a bill by MP Marie-Pierre Rixain: **minimum quota of 30% then 40% of women among senior executives and governing bodies** of companies with more than 1,000 employees, on pain of financial penalty; **salary must be paid into an account held by the employee**, a strengthened gender equality index and gender-balance targets for Bpifrance financing."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["marie-pierre-rixain", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044559192",
+          "title": "LOI n° 2021-1774 du 24 décembre 2021 visant à accélérer l'égalité économique et professionnelle - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl20-592.html",
+          "title": "Dossier législatif : accélérer l'égalité économique et professionnelle - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-de-finances-2022",
+      "date": "2021-12-30",
+      "title": {
+        "fr": "Budget 2022 : bouclier tarifaire sur l'énergie",
+        "en": "2022 budget: energy price shield"
+      },
+      "summary": {
+        "fr": "Loi n° 2021-1900 de finances pour 2022 : mise en place du **bouclier tarifaire** face à la flambée des prix de l'énergie, avec le **gel des tarifs réglementés du gaz** et la **limitation à 4 % de la hausse des tarifs réglementés de l'électricité** début 2022 (par baisse de la taxe intérieure sur l'électricité) ; le budget ouvre aussi les **premiers crédits du plan France 2030** (34 milliards d'euros d'autorisations d'engagement) et prolonge les prêts garantis par l'État jusqu'à mi-2022. Le Conseil constitutionnel a validé l'essentiel de la loi (décision n° 2021-833 DC).",
+        "en": "Law no. 2021-1900, budget for 2022: creation of the **price shield** against surging energy prices, with a **freeze on regulated gas tariffs** and a **4% cap on the rise in regulated electricity tariffs** in early 2022 (through a cut in the domestic electricity tax); the budget also opens the **first appropriations of the France 2030 plan** (34 billion euros in commitment authorisations) and extends state-guaranteed loans to mid-2022. The Constitutional Council upheld most of the law (decision no. 2021-833 DC)."
+      },
+      "category_ids": ["economie", "energie"],
+      "politician_ids": ["bruno-le-maire", "olivier-dussopt", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000044637640",
+          "title": "LOI n° 2021-1900 du 30 décembre 2021 de finances pour 2022 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2022.html",
+          "title": "Dossier législatif : budget 2022 - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2021/2021833DC.htm",
+          "title": "Décision n° 2021-833 DC du 28 décembre 2021 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "plan-france-2030-2021"
+        },
+        {
+          "type": "related",
+          "decision_id": "indemnite-inflation-2021"
+        }
+      ]
+    }
+  ]
+}

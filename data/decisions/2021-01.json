@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2021-01",
+  "decisions": [
+    {
+      "id": "couvre-feu-18h-2021",
+      "date": "2021-01-15",
+      "title": {
+        "fr": "Généralisation du couvre-feu à 18 heures",
+        "en": "Nationwide curfew brought forward to 6 pm"
+      },
+      "summary": {
+        "fr": "Décret n° 2021-31 : à compter du **16 janvier 2021**, le **couvre-feu est avancé de 20 heures à 18 heures sur l'ensemble du territoire métropolitain**, pour une durée d'au moins quinze jours, afin de freiner l'épidémie de covid-19 ; les déplacements entre 18 heures et 6 heures ne sont autorisés que sur attestation, pour des motifs limités.",
+        "en": "Decree no. 2021-31: from **16 January 2021**, the **curfew is brought forward from 8 pm to 6 pm across all of mainland France**, for at least fifteen days, to slow the covid-19 epidemic; travel between 6 pm and 6 am is allowed only with a certificate, for a limited set of reasons."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["jean-castex", "olivier-veran"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042993250",
+          "title": "Décret n° 2021-31 du 15 janvier 2021 modifiant les décrets n° 2020-1262 et n° 2020-1310 prescrivant les mesures générales nécessaires pour faire face à l'épidémie de covid-19 - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "reforme-cese-2021",
+      "date": "2021-01-15",
+      "title": {
+        "fr": "Réforme du Conseil économique, social et environnemental",
+        "en": "Reform of the Economic, Social and Environmental Council"
+      },
+      "summary": {
+        "fr": "Loi organique n° 2021-27 : le nombre de membres du CESE est **réduit de 233 à 175**, l'institution devient le carrefour des consultations publiques et peut **organiser des conventions citoyennes tirées au sort** (sur le modèle de la Convention citoyenne pour le climat) ; le seuil de saisine par pétition est **abaissé de 500 000 à 150 000 signatures**, ouvertes **dès 16 ans**.",
+        "en": "Organic law no. 2021-27: the number of CESE members is **cut from 233 to 175**, the institution becomes the hub for public consultations and may **organise citizens' conventions drawn by lot** (on the model of the Citizens' Climate Convention); the petition referral threshold is **lowered from 500,000 to 150,000 signatures**, open **from age 16**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["eric-dupond-moretti", "jean-castex", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042992836",
+          "title": "LOI organique n° 2021-27 du 15 janvier 2021 relative au Conseil économique, social et environnemental - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl19-712.html",
+          "title": "Dossier législatif : Conseil économique, social et environnemental - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}
