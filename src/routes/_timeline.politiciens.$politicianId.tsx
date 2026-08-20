@@ -22,7 +22,7 @@ function PoliticianPage() {
   const profile = politician.profile
 
   return (
-    <Panel label={politician.full_name}>
+    <Panel label={politician.full_name} backLabel="Retour à la frise" bordered={false}>
       <div className="flex items-start gap-4">
         {profile ? (
           <img

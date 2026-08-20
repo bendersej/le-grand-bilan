@@ -20,26 +20,43 @@ export const Route = createFileRoute('/_timeline')({
   },
 })
 
-function AppearanceRow({ appearance }: { appearance: Appearance }) {
+function AppearanceRow({
+  appearance,
+  interactive,
+}: {
+  appearance: Appearance
+  interactive: boolean
+}) {
+  const sourceHostname = new URL(appearance.source_url).hostname
   return (
     <article className="grid gap-2 sm:grid-cols-[240px_minmax(0,1fr)] sm:gap-6">
       <div className="flex items-start">
-        <span className="chip">Intervention publique</span>
+        {interactive ? (
+          <span className="chip">Intervention publique</span>
+        ) : (
+          <span className="text-xs font-semibold text-[var(--sea-ink-soft)]">
+            Intervention publique
+          </span>
+        )}
       </div>
       <div>
         <p className="m-0 text-xs text-[var(--sea-ink-soft)]">{formatDateLabel(appearance.date)}</p>
         <h3 className="m-0 text-base font-semibold">
-          <a
-            href={appearance.source_url}
-            target="_blank"
-            rel="noreferrer"
-            className="text-[var(--sea-ink)] no-underline hover:text-[var(--lagoon-deep)]"
-          >
-            {appearance.title.fr}
-          </a>
+          {interactive ? (
+            <a
+              href={appearance.source_url}
+              target="_blank"
+              rel="noreferrer"
+              className="text-[var(--sea-ink)] no-underline hover:text-[var(--lagoon-deep)]"
+            >
+              {appearance.title.fr}
+            </a>
+          ) : (
+            appearance.title.fr
+          )}
         </h3>
         <p className="m-0 mt-1 text-xs text-[var(--sea-ink-soft)]">
-          Regarder sur {new URL(appearance.source_url).hostname}
+          {interactive ? `Regarder sur ${sourceHostname}` : `Source : ${sourceHostname}`}
         </p>
       </div>
     </article>
@@ -115,6 +132,7 @@ function TimelineLayout() {
                           <AppearanceRow
                             key={`appearance-${timelineItem.appearance.id}`}
                             appearance={timelineItem.appearance}
+                            interactive={false}
                           />
                         )
                       case 'decision':

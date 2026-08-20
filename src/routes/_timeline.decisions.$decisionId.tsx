@@ -73,7 +73,7 @@ function DecisionPage() {
   const hasRelations = outgoingRelations.length > 0 || incomingRelations.length > 0
 
   return (
-    <Panel label={decision.title.fr}>
+    <Panel label={decision.title.fr} backLabel="Retour à la frise" bordered={true}>
       <p className="kicker m-0">{formatDateLabel(decision.date)}</p>
       <h1 className="display-title m-0 mt-2 text-2xl font-bold sm:text-3xl">{decision.title.fr}</h1>
       <div className="mt-4 flex flex-wrap gap-1.5">

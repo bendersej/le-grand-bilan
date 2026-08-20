@@ -7,7 +7,7 @@ export const Route = createFileRoute('/_timeline/about')({
 
 function About() {
   return (
-    <Panel label="À propos">
+    <Panel label="À propos" backLabel="Retour à la frise" bordered={true}>
       <p className="kicker m-0">À propos</p>
       <h1 className="display-title m-0 mt-2 text-2xl font-bold sm:text-3xl">
         Un bilan factuel, décision par décision.
