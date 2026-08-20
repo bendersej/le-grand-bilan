@@ -5,7 +5,7 @@
 
 ## Overview
 
-Delegate the sourcing of the registry (decisions since 2012-05, and later appearances) to an agent instead of manual entry. The agent researches one month at a time, writes `data/decisions/yyyy-mm.json` entries with verified exact source URLs, runs the data suite, and submits the result as a pull request for human review — the same editorial gate as every other contribution.
+Delegate the sourcing of the registry (decisions back to the start of the Cinquième République in 1958, and later appearances) to an agent instead of manual entry. The agent researches one month at a time, writes `data/decisions/yyyy-mm.json` entries with verified exact source URLs, runs the data suite, and submits the result as a pull request for human review — the same editorial gate as every other contribution.
 
 ## Success Criteria
 

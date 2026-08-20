@@ -2,7 +2,7 @@
 
 **Qui a fait quoi. Quand.**
 
-Le registre ouvert des décisions politiques françaises : mois par mois, depuis mai 2012, chaque décision est datée, catégorisée, reliée aux responsables qui l'ont portée et appuyée par au moins une source officielle.
+Le registre ouvert des décisions politiques françaises : mois par mois, depuis le début de la Cinquième République (1958), chaque décision est datée, catégorisée, reliée aux responsables qui l'ont portée et appuyée par au moins une source officielle.
 
 _Plus de visibilité pour les élections de mai 2027._
 

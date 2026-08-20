@@ -19,10 +19,10 @@ function About() {
         <p className="m-0">
           Le Grand Bilan recense{' '}
           <strong>
-            les décisions appliquées ou validées par les responsables politiques français depuis mai
-            2012
-          </strong>{' '}
-          (début du mandat de François Hollande). Chaque entrée est{' '}
+            les décisions appliquées ou validées par les responsables politiques français depuis le
+            début de la Cinquième République (1958)
+          </strong>
+          . Chaque entrée est{' '}
           <strong>datée, catégorisée, rattachée aux personnes qui l&apos;ont portée</strong> et
           appuyée par <strong>au moins une source officielle</strong>.
         </p>

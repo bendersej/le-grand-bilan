@@ -1,8 +1,8 @@
 # Le Grand Bilan
 
-**Qui a fait quoi. Quand.** — Le registre ouvert des décisions politiques françaises, mois par mois, depuis mai 2012. Plus de visibilité pour les élections de mai 2027.
+**Qui a fait quoi. Quand.** — Le registre ouvert des décisions politiques françaises, mois par mois, depuis le début de la Cinquième République (1958). Plus de visibilité pour les élections de mai 2027.
 
-A static, open-data changelog of decisions applied or validated by French politicians: each decision is dated, categorized, linked to the politicians responsible, backed by at least one official source (the more the better), and optionally related to other decisions (amends / implements / repeals / related). Contributions arrive as pull requests — from the site's submission UI or from the public MCP server — and merging to master deploys the site.
+A static, open-data changelog of decisions applied or validated by French politicians since 1958: each decision is dated, categorized, linked to the politicians responsible, backed by at least one official source (the more the better), and optionally related to other decisions (amends / implements / repeals / related). Contributions arrive as pull requests — from the site's submission UI or from the public MCP server — and merging to master deploys the site.
 
 **Simplicity is a write-time gate, not an aspiration.** Before writing code that introduces ANY new construct — a function, type, hook, flag, parameter, file, branch, layer, or abstraction — run this check and abort the construct if it fails:
 
@@ -32,6 +32,7 @@ Sourcing skills (for humans and AI agents adding content — committed, agent-ag
 
 - `.agents/skills/sourcing-decisions/SKILL.md` — research + add decisions (exact sources, references, highlighted summaries)
 - `.agents/skills/sourcing-decisionnaires/SKILL.md` — add politicians, capture profiles, curate editorial summaries, appearances
+- `.agents/skills/backfill-year/SKILL.md` — the yearly batch loop: launch the research agent, review gate, learnings, ship
 
 ## Always-binding pointers
 
