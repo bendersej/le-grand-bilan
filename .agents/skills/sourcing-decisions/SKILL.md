@@ -17,18 +17,27 @@ How to add decisions to `data/decisions/yyyy-mm.json`. Used by humans and AI age
 ## Finding sources (best to weakest)
 
 - Légifrance (`legifrance.gouv.fr/jorf/id/JORFTEXT…`) — the promulgated text; also `dossierlegislatif/JORFDOLE…` for the legislative history
-- Journal officiel / vie-publique.fr dossiers
-- assemblee-nationale.fr / senat.fr dossiers
+- Journal officiel, assemblee-nationale.fr `/dyn/…/dossiers/…` and senat.fr `dossier-legislatif/…` pages (all fetch-verifiable)
+- vie-publique.fr is a great INDEX but is JS-rendered and cannot be fetch-verified: use it via search snippets to find things, then cite Légifrance + Sénat/AN instead
 - Reputable press ONLY as a supplementary source, never the sole one
 
-More sources is better ("never forget" open-data registry): text + dossier législatif + vie-publique dossier is a great triplet.
+More sources is better ("never forget" open-data registry).
+
+## Research strategy (proven on the 2026 batch)
+
+- Start each year from the Sénat index of promulgated laws (`senat.fr/dossiers-legislatifs/lois-promulguees-<year>.html`): it is exhaustive and reliable. Press searches only help rank significance.
+- Harvest exact JORFTEXT ids from Légifrance JORF sommaire pages (fetch the sommaire, extract ids, fetch each id) — never guess an id.
+- When coordinating subagents, the coordinator re-fetches EVERY url itself before writing it into data; a subagent's "verified" claim is not a guarantee.
+- Expect Wikimedia/Légifrance rate limits: pace requests, and on 429 wait about 60 seconds and retry (all scripts are idempotent).
 
 ## Entry checklist
 
 For each decision in the month file (`month` must match the filename):
 
-- `id` — unique lowercase-dash slug, stable forever (e.g. `loi-travail-2016`)
-- `date` — the decision's authoritative date (promulgation for laws), `yyyy-mm-dd`, inside the file's month
+- `id` — unique lowercase-dash slug, stable forever; prefer the COMMON name over the official title (`loi-philippine-2026`, not the long formal wording), suffixed with the year
+- `date` — the decision's authoritative date (`yyyy-mm-dd`, inside the file's month): promulgation for laws, signature/publication for décrets and accords, NOT the JO publication date
+- Several décrets that form one policy act are ONE decision (e.g. a pair of décrets implementing the same measure)
+- For a proposition de loi, add the author deputy as a décisionnaire only when the law genuinely carries their name/initiative; verify their mandate dates cover it
 - `title` — `fr` required, short, commonly-used name first ("Loi Travail (loi El Khomri)"); `en` translation or `null`
 - `summary` — 1-3 sentences of what materially changed. **Bold the meaningful facts** with the limited markdown (`**bold**`, `*italic*`, `[label](https://…)`): what changed, for whom, by how much (e.g. "**relèvement de l'âge légal de 62 à 64 ans**", "**article 49.3**")
 - `category_ids` — from `data/categories.json`; add a new category (lexicographic order, fr/en label) only when none fits

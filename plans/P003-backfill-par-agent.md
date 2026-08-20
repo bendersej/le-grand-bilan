@@ -1,7 +1,7 @@
 # P003 - Backfill par agent
 
 **Type:** FEATURE
-**Status:** Backlog
+**Status:** In Progress
 
 ## Overview
 
@@ -31,13 +31,13 @@ Recurring runs; monitor PR quality; expand to appearances (P002 data).
 
 ## Progress Tracker
 
-- [ ] Phase 1: Agent workflow definition
-- [ ] Phase 2: Pilot months + review checklist
+- [x] Phase 1: Agent workflow definition
+- [x] Phase 2: Pilot months + review checklist (pilot ran on 2026-01..08)
 - [ ] Phase 3: Scale + scheduling
 
 ## Remaining Work
 
-Not started. Depends on the GitHub PR path (repo now exists) and benefits from P001 Phases 4-5.
+Phase 3: run the 2025 batch with the updated skills, then scale backwards year by year. Add vie-publique dossier links by hand where valuable (not fetch-verifiable by agents). Consider an `energie` category before the 2025 run.
 
 ## Decision Log
 
@@ -52,3 +52,15 @@ Not started. Depends on the GitHub PR path (repo now exists) and benefits from P
 ## Appendix A: Artifacts
 
 None yet.
+
+## Learnings (batch 2026, ran 2026-08-20)
+
+Outcome: 28 decisions (2026-01..08), 15 politicians captured+curated, 3 new categories (agriculture, defense, sport), every source fetch-verified, all tests green. Coordinator + 4 parallel research subagents (2 months each), ~50 min end to end.
+
+- **Research strategy that worked**: start each year from the Sénat index of promulgated laws (`senat.fr/dossiers-legislatifs/lois-promulguees-<year>.html`), then harvest exact JORFTEXT ids from Légifrance JORF sommaire pages; press searches only to rank significance.
+- **Verification**: the coordinator re-fetches EVERY url itself; never trust a subagent's "verified". vie-publique.fr is JS-rendered and cannot be fetch-verified: use it via search snippets, cite Légifrance + Sénat/AN dossiers instead (both fetchable).
+- **Wikipedia capture**: ~3 profiles succeed per run before 429; loop capture, sleep 60-75s, retry until no nulls (~10 min per 15 profiles).
+- **Mandate-date traps**: short-lived governments (Lecornu I lasted one day with different portfolios); use the date the current portfolio started; check PPL authors are still in office at promulgation (Falorni case).
+- **Modeling calls made**: décrets forming one policy act grouped as one decision (AME, suspension retraites); common-name slugs suffixed with the year; PPL author added as décisionnaire only when the law carries their name.
+- **Deliberately excluded** (second-tier, verified to exist): lois 2026-630, 2026-725, 2026-795, 2026-797, méga-décret simplification, loi SDIS, loi indivision. The January 49.3/censure sequence has no standalone JO document: folded into the LF 2026 summary.
+- Skills updated with all of the above (research strategy, vie-publique caveat, date rule, PPL rule, rate-limit loop, Wikipedia-only profile facts).

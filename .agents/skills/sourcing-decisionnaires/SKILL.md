@@ -14,7 +14,7 @@ Insert in lexicographic id order:
 - `id` — lowercase-dash slug of the full name (`myriam-el-khomri`)
 - `full_name` — with accents ("Édouard Philippe"); it doubles as the French Wikipedia page title the capture script queries, so it must match that page name
 - `party` — current main party, or `null`
-- `mandates` — the roles RELEVANT to decisions in the registry, with `from`/`to` dates (`to: null` when in office); role label fr + en
+- `mandates` — the roles RELEVANT to decisions in the registry, with `from`/`to` dates (`to: null` when in office); role label fr + en. Verify the ACTUAL portfolio dates: short-lived governments are a trap (a reshuffled cabinet can last a day with different portfolios), so date the mandate from when the person got the CURRENT portfolio; and check a law's author/carrier was still in office at promulgation
 - `profile: null` — the capture script fills it, never write it by hand
 
 ## 2. Profile capture (scripted, idempotent)
@@ -29,7 +29,7 @@ The script pulls, from the French Wikipedia REST + Commons APIs:
 - the lead image → downloaded to `public/media/politicians/<id>.jpg` (self-hosted, NEVER hotlinked) with its per-file Commons license + author
 - the article's lead section → seeds `summary.fr` (≤300 words), records `wikipedia_url`, `retrieved_at` and a `content_hash`
 
-Rate limits: Wikimedia 429s on bursts — the script paces itself; on residual 429s just re-run after ~1 min (idempotent, only failures retry).
+Rate limits: Wikimedia 429s on bursts — expect roughly 3 successful captures per run. Loop: capture, count remaining `profile: null`, sleep 60-75s, retry until none remain (budget ~10 min per 15 profiles; the script is idempotent, only failures retry).
 
 ## 3. Curate the summary (editorial — the script never overwrites it)
 
