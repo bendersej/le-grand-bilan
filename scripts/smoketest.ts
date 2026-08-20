@@ -75,11 +75,12 @@ const pageExpectations: PageExpectation[] = [
     ],
     panelMarkers: [],
   },
+  // About is a standalone page (no timeline below), so its content lives in <main>.
   {
     path: 'about/index.html',
     documentMarkers: ['lang="fr"'],
-    mainMarkers: [],
-    panelMarkers: ['Un bilan factuel'],
+    mainMarkers: ['Un bilan factuel', 'github.com/bendersej/le-grand-bilan'],
+    panelMarkers: [],
   },
   ...decisions.map((decision) => ({
     path: `decisions/${decision.id}/index.html`,
