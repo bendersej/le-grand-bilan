@@ -27,6 +27,9 @@ export default function DecisionRow({
     return politician ? [politician] : []
   })
   const mainPolitician = rowPoliticians[0] ?? null
+  const otherPoliticians = rowPoliticians.slice(1)
+  const visibleOtherPoliticians = otherPoliticians.slice(0, 3)
+  const overflowCount = otherPoliticians.length - visibleOtherPoliticians.length
   // The month anchors the timeline scroll position in shared URLs: fresh loads
   // scroll to it natively, in-session clicks skip the jump (hashScrollIntoView).
   const decisionMonth = decision.date.slice(0, 7)
@@ -34,34 +37,71 @@ export default function DecisionRow({
   return (
     <article className="grid gap-2 sm:grid-cols-[240px_minmax(0,1fr)] sm:gap-6">
       <div className="flex items-start gap-3">
-        <div className="flex items-end">
-          {rowPoliticians.map((politician, politicianIndex) => (
+        {mainPolitician ? (
+          <div className="flex w-20 flex-none flex-col gap-1">
             <Link
-              key={politician.id}
               to="/politiciens/$politicianId"
-              params={{ politicianId: politician.id }}
+              params={{ politicianId: mainPolitician.id }}
+              search={(previousSearch) => previousSearch}
               hash={decisionMonth}
               hashScrollIntoView={false}
               resetScroll={false}
-              aria-label={politician.full_name}
-              title={politician.full_name}
-              className={
-                politicianIndex === 0 ? 'photo-chip photo-chip-main' : 'photo-chip photo-chip-small'
-              }
+              aria-label={mainPolitician.full_name}
+              title={mainPolitician.full_name}
+              className="photo-chip photo-chip-main"
             >
-              {politician.profile ? (
-                <img src={politician.profile.photo.path} alt="" />
+              {mainPolitician.profile ? (
+                <img src={mainPolitician.profile.photo.path} alt="" />
               ) : (
-                <span aria-hidden="true">{initialsOf(politician.full_name)}</span>
+                <span aria-hidden="true">{initialsOf(mainPolitician.full_name)}</span>
               )}
             </Link>
-          ))}
-        </div>
+            {otherPoliticians.length > 0 ? (
+              <div className="flex gap-1">
+                {visibleOtherPoliticians.map((politician) => (
+                  <Link
+                    key={politician.id}
+                    to="/politiciens/$politicianId"
+                    params={{ politicianId: politician.id }}
+                    search={(previousSearch) => previousSearch}
+                    hash={decisionMonth}
+                    hashScrollIntoView={false}
+                    resetScroll={false}
+                    aria-label={politician.full_name}
+                    title={politician.full_name}
+                    className="photo-chip photo-chip-small"
+                  >
+                    {politician.profile ? (
+                      <img src={politician.profile.photo.path} alt="" />
+                    ) : (
+                      <span aria-hidden="true">{initialsOf(politician.full_name)}</span>
+                    )}
+                  </Link>
+                ))}
+                {overflowCount > 0 ? (
+                  <Link
+                    to="/decisions/$decisionId"
+                    params={{ decisionId: decision.id }}
+                    search={(previousSearch) => previousSearch}
+                    hash={decisionMonth}
+                    hashScrollIntoView={false}
+                    resetScroll={false}
+                    aria-label={`${overflowCount} autres décisionnaires`}
+                    className="photo-chip photo-chip-small"
+                  >
+                    <span>+{overflowCount}</span>
+                  </Link>
+                ) : null}
+              </div>
+            ) : null}
+          </div>
+        ) : null}
         <div className="flex flex-col items-start gap-1.5">
           {mainPolitician ? (
             <Link
               to="/politiciens/$politicianId"
               params={{ politicianId: mainPolitician.id }}
+              search={(previousSearch) => previousSearch}
               hash={decisionMonth}
               hashScrollIntoView={false}
               resetScroll={false}
@@ -73,10 +113,8 @@ export default function DecisionRow({
           {rowCategories.map((category) => (
             <Link
               key={category.id}
-              to="/categories/$categoryId"
-              params={{ categoryId: category.id }}
-              hash={decisionMonth}
-              hashScrollIntoView={false}
+              to="/"
+              search={{ categorie: category.id }}
               resetScroll={false}
               className="chip"
             >
@@ -93,6 +131,7 @@ export default function DecisionRow({
           <Link
             to="/decisions/$decisionId"
             params={{ decisionId: decision.id }}
+            search={(previousSearch) => previousSearch}
             hash={decisionMonth}
             hashScrollIntoView={false}
             resetScroll={false}

@@ -81,10 +81,8 @@ function DecisionPage() {
         {decisionCategories.map((category) => (
           <Link
             key={category.id}
-            to="/categories/$categoryId"
-            params={{ categoryId: category.id }}
-            hash={decisionMonth}
-            hashScrollIntoView={false}
+            to="/"
+            search={{ categorie: category.id }}
             resetScroll={false}
             className="chip"
           >
@@ -96,6 +94,7 @@ function DecisionPage() {
             key={politician.id}
             to="/politiciens/$politicianId"
             params={{ politicianId: politician.id }}
+            search={(previousSearch) => previousSearch}
             hash={decisionMonth}
             hashScrollIntoView={false}
             resetScroll={false}
@@ -133,6 +132,7 @@ function DecisionPage() {
                 <Link
                   to="/decisions/$decisionId"
                   params={{ decisionId: relation.decision.id }}
+                  search={(previousSearch) => previousSearch}
                   hash={relation.decision.date.slice(0, 7)}
                   hashScrollIntoView={false}
                   resetScroll={false}
@@ -148,6 +148,7 @@ function DecisionPage() {
                 <Link
                   to="/decisions/$decisionId"
                   params={{ decisionId: relation.decision.id }}
+                  search={(previousSearch) => previousSearch}
                   hash={relation.decision.date.slice(0, 7)}
                   hashScrollIntoView={false}
                   resetScroll={false}

@@ -10,6 +10,7 @@ Template: `template.md`. Work on a plan happens on a branch named after the plan
 ## Backlog
 
 - [P003 - Backfill par agent](P003-backfill-par-agent.md)
+- [P004 - Promis vs Tenu](P004-promis-vs-tenu.md)
 
 ## Completed
 

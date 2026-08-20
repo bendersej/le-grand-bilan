@@ -28,6 +28,11 @@ Root reference docs:
 - `docs/data-model.md` — the data files, the Zod schema owner, validation rules, how to add a decision
 - `docs/deployment.md` — Cloudflare Workers architecture, CI/CD, required secrets
 
+Sourcing skills (for humans and AI agents adding content — committed, agent-agnostic):
+
+- `.agents/skills/sourcing-decisions/SKILL.md` — research + add decisions (exact sources, references, highlighted summaries)
+- `.agents/skills/sourcing-decisionnaires/SKILL.md` — add politicians, capture profiles, curate editorial summaries, appearances
+
 ## Always-binding pointers
 
 - **Touching `data/`, `schemas/`, or `src/data/schema.ts`**: run `pnpm run test` — the data suite enforces schema conformance, referential integrity, and JSON Schema drift. Schema changes MUST regenerate `schemas/` (`pnpm run generate:json-schemas`). Details: `docs/data-model.md`.
@@ -35,7 +40,7 @@ Root reference docs:
 - **The DSFR (French State design system) is legally reserved to the French State** — never add `@gouvfr/dsfr` or its assets (Marianne font included). The France palette lives as tokens in `src/styles.css`.
 - **Content is French-first**: every `LocalizedText` has a required `fr` and a nullable `en`.
 - **New data structures prefer lexicographic order** (registry entries ordered by id — enforced by tests).
-- **ALL media is self-hosted, never hotlinked**: politician photos live in `public/media/` (captured by `pnpm run capture:profiles`), appearance videos in the `le-grand-bilan-media` R2 bucket (archived by `pnpm run archive:appearances`). The Wikipedia/Commons/YouTube/INA links stay as the cited sources.
+- **Politician photos are self-hosted, never hotlinked**: they live in `public/media/` (captured by `pnpm run capture:profiles`); the Wikipedia/Commons pages stay the cited sources. **Appearance videos are linked on YouTube/INA** (with the exact timestamp where the person speaks) while `pnpm run archive:appearances` keeps a private R2 cold archive against takedowns — the site never serves the archived copy.
 
 ## Repository Structure
 

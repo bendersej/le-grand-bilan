@@ -17,6 +17,9 @@ const config = defineConfig({
       prerender: {
         enabled: true,
         crawlLinks: true,
+        // Filter links (?categorie=…) are client-side views of the same page:
+        // crawling them clobbers the static output and loops on relative hrefs.
+        filter: (page) => !page.path.includes('?'),
       },
     }),
     viteReact(),

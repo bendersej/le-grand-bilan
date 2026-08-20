@@ -45,16 +45,17 @@ Politician profile modal: photo, summary, Wikipedia link, appearances list with 
 ## Remaining Work
 
 - INA as a media source (only YouTube handled by yt-dlp so far)
-- R2 media served from pub-…r2.dev (rate-limited): move to a custom domain at launch
+- Timestamps: seed appearance links YouTube without a start time — add `t=` offsets as they are verified (P003 agent task)
 - Archival runs locally at commit time; CI-side verification that every recorded asset exists in R2 is not yet wired
 - EN summaries not captured (fr only, en: null)
 
 ## Decision Log
 
-| Decision                                         | Rationale                                                      |
-| ------------------------------------------------ | -------------------------------------------------------------- |
-| Original link is the source, R2 serves the asset | Preservation: registry must survive takedowns ("never forget") |
-| Wikipedia capture at commit time, not runtime    | Static site; content is versioned data like everything else    |
+| Decision                                                       | Rationale                                                                                             |
+| -------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| Original link is the source; R2 is a PRIVATE cold archive      | Operator call: site links YouTube (exact timestamp) — legally safer; archive still survives takedowns |
+| Cluster per wireframe 4: main square, small row below, +N tile | Operator wireframe; borderless images                                                                 |
+| Wikipedia capture at commit time, not runtime                  | Static site; content is versioned data like everything else                                           |
 
 ## Risks
 

@@ -3,7 +3,6 @@ import DecisionRow from '../components/DecisionRow'
 import Modal from '../components/Modal'
 import RichText from '../components/RichText'
 import { formatDateLabel } from '../data/format.ts'
-import { mediaBaseUrl } from '../data/media.ts'
 import {
   appearancesByPoliticianId,
   decisionsByPoliticianId,
@@ -34,7 +33,7 @@ function PoliticianPage() {
           <img
             src={profile.photo.path}
             alt={politician.full_name}
-            className="h-24 w-24 rounded-lg border border-[var(--chip-line)] object-cover"
+            className="h-24 w-24 rounded-md object-cover"
           />
         ) : null}
         <div>
@@ -83,23 +82,13 @@ function PoliticianPage() {
                 <p className="m-0 text-xs text-[var(--sea-ink-soft)]">
                   {formatDateLabel(appearance.date)}
                 </p>
-                <h3 className="m-0 mt-0.5 text-sm font-semibold">{appearance.title.fr}</h3>
-                {appearance.media ? (
-                  <video
-                    controls
-                    preload="metadata"
-                    className="mt-2 w-full rounded-lg border border-[var(--line)]"
-                    src={`${mediaBaseUrl}/${appearance.media.r2_key}`}
-                  />
-                ) : null}
-                <p className="m-0 mt-1.5 text-xs">
-                  {'Source : '}
+                <h3 className="m-0 mt-0.5 text-sm font-semibold">
                   <a href={appearance.source_url} target="_blank" rel="noreferrer">
-                    {new URL(appearance.source_url).hostname}
+                    {appearance.title.fr}
                   </a>
-                  {appearance.media
-                    ? ` · archivée le ${formatDateLabel(appearance.media.archived_at)}`
-                    : ''}
+                </h3>
+                <p className="m-0 mt-1 text-xs text-[var(--sea-ink-soft)]">
+                  {`Regarder sur ${new URL(appearance.source_url).hostname}`}
                 </p>
               </article>
             ))}
