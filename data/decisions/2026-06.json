@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2026-06",
+  "decisions": [
+    {
+      "id": "assurance-chomage-rupture-conventionnelle-2026",
+      "date": "2026-06-11",
+      "title": {
+        "fr": "Loi sur l'indemnisation chômage après rupture conventionnelle",
+        "en": "Law on unemployment benefits after mutually agreed terminations"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-470 transposant l'avenant n° 3 du 25 février 2026 conclu par les partenaires sociaux : à partir du **1er septembre 2026**, la durée maximale d'indemnisation chômage après une **rupture conventionnelle** passe de **18 à 15 mois** pour les moins de 55 ans et de **27 à 20,5 mois** pour les 57 ans et plus (en métropole).",
+        "en": "Law no. 2026-470 transposing amendment no. 3 of 25 February 2026 agreed by the social partners: from **1 September 2026**, the maximum unemployment benefit duration after a **mutually agreed termination** drops from **18 to 15 months** for under-55s and from **27 to 20.5 months** for those 57 and over (mainland France)."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["jean-pierre-farandou", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054237287",
+          "title": "LOI n° 2026-470 du 11 juin 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53981",
+          "title": "Dossier législatif : transposition de l'avenant n° 3 relatif à l'assurance chômage - Assemblée nationale"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-chlordecone-2026",
+      "date": "2026-06-12",
+      "title": {
+        "fr": "Loi de reconnaissance de la responsabilité de l'État dans le scandale du chlordécone",
+        "en": "Law recognising State responsibility in the chlordecone scandal"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-491 : l'État **reconnaît sa responsabilité** dans les préjudices sanitaires, écologiques et économiques causés en **Guadeloupe et en Martinique** par l'usage du **chlordécone** dans les bananeraies de **1972 à 1993**. Elle fixe l'objectif d'**indemniser l'ensemble des victimes**, sans créer de fonds d'indemnisation à ce stade, et fait de la recherche et de la dépollution des sols une **priorité nationale**.",
+        "en": "Law no. 2026-491: the State **recognises its responsibility** for the health, environmental and economic damage caused in **Guadeloupe and Martinique** by the use of **chlordecone** in banana plantations from **1972 to 1993**. It sets the objective of **compensating all victims**, without creating a compensation fund at this stage, and makes research and soil decontamination a **national priority**."
+      },
+      "category_ids": ["ecologie", "sante"],
+      "politician_ids": ["naima-moutchou", "stephanie-rist"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054245243",
+          "title": "LOI n° 2026-491 du 12 juin 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/responsabilite_indemnisation_chlordecone",
+          "title": "Dossier législatif : responsabilité de l'État et indemnisation des victimes du chlordécone - Assemblée nationale"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-fraudes-sociales-fiscales-2026",
+      "date": "2026-06-25",
+      "title": {
+        "fr": "Loi contre les fraudes sociales et fiscales",
+        "en": "Law against social and tax fraud"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-534 (168 articles) : **croisement des données entre administrations** (vérification des comptes bancaires, accès des départements aux données fiscales contre la fraude au RSA), **plaintes obligatoires** des organismes sociaux au-delà d'un seuil, pénalités jusqu'à **25 % des sommes indûment perçues** et allongement des délais de prescription. Le gouvernement attend environ **1,5 Md€ par an** de recettes supplémentaires. Censure partielle du Conseil constitutionnel (décision n° 2026-904 DC).",
+        "en": "Law no. 2026-534 (168 articles): **data sharing between administrations** (bank account verification, departmental access to tax data against RSA fraud), **mandatory criminal complaints** by social security bodies above a threshold, penalties up to **25% of unduly received sums** and longer limitation periods. The government expects about **1.5bn euros per year** in additional recovered money. Partially struck down by the Constitutional Council (decision no. 2026-904 DC)."
+      },
+      "category_ids": ["economie", "justice"],
+      "politician_ids": ["david-amiel", "jean-pierre-farandou", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054309429",
+          "title": "LOI n° 2026-534 du 25 juin 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl25-024.html",
+          "title": "Dossier législatif : lutte contre les fraudes sociales et fiscales - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-hydroelectricite-2026",
+      "date": "2026-06-29",
+      "title": {
+        "fr": "Loi de relance de l'hydroélectricité",
+        "en": "Hydropower revival law"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-554 mettant fin à environ **quinze ans de contentieux avec la Commission européenne** sur les concessions hydroélectriques : le régime des concessions est remplacé par un nouveau cadre d'exploitation avec un **droit réel de 70 ans** sur les installations, couvrant environ **340 installations et près de 25 GW**, assorti d'une **redevance progressive** indexée sur les résultats.",
+        "en": "Law no. 2026-554 ending about **fifteen years of litigation with the European Commission** over hydropower concessions: the concession regime is replaced by a new operating framework with a **70-year property right** over installations, covering about **340 installations and nearly 25 GW**, together with a **progressive royalty** indexed on profits."
+      },
+      "category_ids": ["ecologie", "economie"],
+      "politician_ids": ["roland-lescure"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054340720",
+          "title": "LOI n° 2026-554 du 29 juin 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl25-359.html",
+          "title": "Dossier législatif : relance des investissements dans l'hydroélectricité - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -100,6 +100,47 @@ describe('data files', () => {
     expect(new Set(politicianIds).size).toBe(politicianIds.length)
   })
 
+  it('contains no em dashes in content text fields', () => {
+    const contentTexts: Array<{ owner: string; text: string }> = [
+      ...allDecisions.flatMap((decision) => [
+        {
+          owner: `decision ${decision.id} title`,
+          text: `${decision.title.fr} ${decision.title.en ?? ''}`,
+        },
+        {
+          owner: `decision ${decision.id} summary`,
+          text: `${decision.summary.fr} ${decision.summary.en ?? ''}`,
+        },
+      ]),
+      ...allAppearances.map((appearance) => ({
+        owner: `appearance ${appearance.id} title`,
+        text: `${appearance.title.fr} ${appearance.title.en ?? ''}`,
+      })),
+      ...categoriesFile.categories.map((category) => ({
+        owner: `category ${category.id} label`,
+        text: `${category.label.fr} ${category.label.en ?? ''}`,
+      })),
+      ...politiciansFile.politicians.flatMap((politician) => [
+        ...politician.mandates.map((mandate) => ({
+          owner: `politician ${politician.id} mandate role`,
+          text: `${mandate.role.fr} ${mandate.role.en ?? ''}`,
+        })),
+        ...(politician.profile
+          ? [
+              {
+                owner: `politician ${politician.id} profile summary`,
+                text: `${politician.profile.summary.fr} ${politician.profile.summary.en ?? ''}`,
+              },
+            ]
+          : []),
+      ]),
+    ]
+
+    for (const contentText of contentTexts) {
+      expect(contentText.text.includes('—'), `${contentText.owner} contains an em dash`).toBe(false)
+    }
+  })
+
   it('lists categories and politicians in lexicographic id order', () => {
     const categoryIds = categoriesFile.categories.map((category) => category.id)
     const politicianIds = politiciansFile.politicians.map((politician) => politician.id)

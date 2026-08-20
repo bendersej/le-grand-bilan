@@ -1,0 +1,102 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2026-02",
+  "decisions": [
+    {
+      "id": "decrets-ame-2026",
+      "date": "2026-02-06",
+      "title": {
+        "fr": "Réforme de l'aide médicale de l'État (AME)",
+        "en": "Reform of State Medical Aid (AME)"
+      },
+      "summary": {
+        "fr": "Décrets n° 2026-66 et n° 2026-67 du 6 février 2026 durcissant l'accès à l'**aide médicale de l'État** : les demandeurs majeurs doivent produire un **document d'identité avec photographie**, les justificatifs de résidence et de soins sont renforcés (en vigueur le **1er avril 2026**), et les **agents consulaires instruisant les demandes de visa** peuvent consulter le fichier des demandeurs et bénéficiaires de l'AME.",
+        "en": "Decrees no. 2026-66 and no. 2026-67 of 6 February 2026 tightening access to **State Medical Aid (AME)**: adult applicants must provide a **photo identity document**, residence and care documentation requirements are reinforced (in force **1 April 2026**), and **consular agents processing visa applications** may consult the file of AME applicants and beneficiaries."
+      },
+      "category_ids": ["immigration", "sante"],
+      "politician_ids": ["stephanie-rist", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053449009",
+          "title": "Décret n° 2026-66 du 6 février 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053449019",
+          "title": "Décret n° 2026-67 du 6 février 2026 - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "decret-ppe3-2026",
+      "date": "2026-02-12",
+      "title": {
+        "fr": "Programmation pluriannuelle de l'énergie 2026-2035 (PPE 3)",
+        "en": "Multiannual energy programme 2026-2035 (PPE 3)"
+      },
+      "summary": {
+        "fr": "Décret n° 2026-76 fixant la **stratégie énergétique de la France pour 2026-2035**, adopté **par décret faute de loi de programmation votée**. Jusqu'à fin 2028, il **plafonne le soutien public à l'éolien terrestre et au photovoltaïque** au niveau du décret précédent et donne la priorité au **renouvellement des parcs éoliens existants** ; une **clause de revoyure** est prévue en 2027.",
+        "en": "Decree no. 2026-76 setting **France's energy strategy for 2026-2035**, adopted **by decree in the absence of an energy programming law**. Until the end of 2028 it **caps public support for onshore wind and solar power** at the previous decree's level and prioritises the **repowering of existing wind farms**; a **review clause** is scheduled for 2027."
+      },
+      "category_ids": ["ecologie"],
+      "politician_ids": ["roland-lescure", "monique-barbut", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053464980",
+          "title": "Décret n° 2026-76 du 12 février 2026 relatif à la programmation pluriannuelle de l'énergie - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-de-finances-2026",
+      "date": "2026-02-19",
+      "title": {
+        "fr": "Loi de finances pour 2026 (budget 2026)",
+        "en": "2026 Budget Act"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-103 du 19 février 2026 : budget de l'État adopté après **quatre mois de blocage** et **trois recours à l'article 49.3**, les motions de censure ayant été rejetées. Cible de **déficit public de 5,0 % du PIB** (après 5,4 % en 2025), **indexation du barème de l'impôt sur le revenu sur l'inflation**, prolongation de la **contribution différentielle sur les hauts revenus**, création d'une **taxe sur les actifs non opérationnels des holdings patrimoniales** et hausse d'environ **6,5 Md€ du budget des armées**. Validée par le Conseil constitutionnel (décision n° 2026-901 DC).",
+        "en": "Law no. 2026-103 of 19 February 2026: the State budget, adopted after **four months of deadlock** and **three uses of article 49.3**, the no-confidence motions having been rejected. Targets a **public deficit of 5.0% of GDP** (after 5.4% in 2025), **indexes the income tax brackets to inflation**, extends the **differential contribution on high incomes**, creates a **tax on non-operational assets of family holding companies** and raises the **defence budget by about 6.5bn euros**. Upheld by the Constitutional Council (decision no. 2026-901 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["roland-lescure", "amelie-de-montchalin", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053508155",
+          "title": "LOI n° 2026-103 du 19 février 2026 de finances pour 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/PLF_2026",
+          "title": "Projet de loi de finances pour 2026 - Assemblée nationale"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-confidentialite-juristes-entreprise-2026",
+      "date": "2026-02-23",
+      "title": {
+        "fr": "Loi sur la confidentialité des consultations des juristes d'entreprise",
+        "en": "Law on the confidentiality of in-house counsel legal opinions"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-122 instaurant un « legal privilege » à la française : les **consultations juridiques écrites des juristes d'entreprise** (environ **20 000 juristes** concernés) deviennent **confidentielles et insaisissables en matière civile, commerciale et administrative**. La confidentialité n'est **pas opposable en matière pénale et fiscale**.",
+        "en": "Law no. 2026-122 creating a French-style legal privilege: **written legal opinions of in-house counsel** (around **20,000 company lawyers** concerned) become **confidential and non-seizable in civil, commercial and administrative matters**. The privilege does **not apply in criminal and tax matters**."
+      },
+      "category_ids": ["economie", "justice"],
+      "politician_ids": ["gerald-darmanin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053568123",
+          "title": "LOI n° 2026-122 du 23 février 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/confidentialite_consultations_juristes_entreprise",
+          "title": "Dossier législatif : confidentialité des consultations des juristes d'entreprise - Assemblée nationale"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

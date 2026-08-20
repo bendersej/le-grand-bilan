@@ -2,6 +2,126 @@
   "$schema": "../schemas/politicians.schema.json",
   "politicians": [
     {
+      "id": "amelie-de-montchalin",
+      "full_name": "Amélie de Montchalin",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre chargée des Comptes publics",
+            "en": "Minister for Public Accounts"
+          },
+          "from": "2024-12-23",
+          "to": "2026-02-22"
+        }
+      ],
+      "profile": {
+        "content_hash": "4fa281c7d74ab09794fea50f524eb07d7fba5889cc6eb10ebd14285d4274d7b7",
+        "photo": {
+          "path": "/media/politicians/amelie-de-montchalin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Montchalin_Portrait_2025_(cropped).jpg",
+          "license": "Licence Ouverte",
+          "author": "Ministère de l'Action et des Comptes publics"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique française, **ministre chargée des Comptes publics du 23 décembre 2024 au 22 février 2026** (gouvernements Bayrou puis Lecornu, ministre de plein exercice à partir d'octobre 2025). **Économiste de formation**, elle travaille dans le **secteur privé chez Axa** avant de s'engager en 2016 avec En Marche et d'être élue **députée de l'Essonne** en 2017. Elle est ensuite **secrétaire d'État chargée des Affaires européennes** (2019), **ministre de la Transformation et de la Fonction publiques** (2020) puis **ministre de la Transition écologique et de la Cohésion des territoires** (2022), avant de quitter le gouvernement après sa défaite aux législatives de 2022. Le 23 février 2026, elle prend la **présidence de la Cour des comptes**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Am%C3%A9lie_de_Montchalin"
+      }
+    },
+    {
+      "id": "annie-genevard",
+      "full_name": "Annie Genevard",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Agriculture et de la Souveraineté alimentaire",
+            "en": "Minister of Agriculture and Food Sovereignty"
+          },
+          "from": "2024-09-21",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "b22398fc7070e0a786bf877063cbf70416af3a23ae2aa45e8f82b043f191913a",
+        "photo": {
+          "path": "/media/politicians/annie-genevard.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Agriculture_and_Fisheries_Council._Bilateral_meeting,_FR-HR._2025-07-14_-_Annie_Genevard_(cropped).jpg",
+          "license": "CC0",
+          "author": "Yladda"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique française, **ministre de l'Agriculture et de la Souveraineté alimentaire depuis le 21 septembre 2024** (gouvernements Barnier, Bayrou, Lecornu I et II, avec l'Agroalimentaire depuis octobre 2025). Membre du RPR, de l'UMP puis de **LR**, elle est **maire de Morteau** (2002-2017), **députée du Doubs** (2012-2024) et **vice-présidente de l'Assemblée nationale** (2017-2022, puis en 2024). Cadre dirigeante de LR (**secrétaire générale** en 2017-2019 et 2023-2025, présidente par intérim en 2022), elle est **suspendue de ses activités au sein du parti** après son maintien dans le gouvernement Lecornu II, LR ayant décidé de quitter le gouvernement.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Annie_Genevard"
+      }
+    },
+    {
+      "id": "catherine-vautrin",
+      "full_name": "Catherine Vautrin",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Armées et des Anciens combattants",
+            "en": "Minister of the Armed Forces and Veterans"
+          },
+          "from": "2025-10-12",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "ef537181089932cd8286581cba44e1cc79bfee1680dbcbb78e2f189e8da2843f",
+        "photo": {
+          "path": "/media/politicians/catherine-vautrin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_officiel_de_Catherine_Vautrin_-_%C2%A9ECPAD.jpg",
+          "license": "Licence Ouverte",
+          "author": "Lara PRIOLET/ECPAD/DEFENSE"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme d'État française, **ministre des Armées et des Anciens combattants depuis le 12 octobre 2025** (gouvernement Lecornu II). Engagée en politique dès 1983 comme conseillère municipale de Reims, membre de l'UMP puis de LR (quitté en 2019), elle est **députée de la Marne** (2002-2004, 2007-2017), **vice-présidente de l'Assemblée nationale** (2008-2017), **présidente du Grand Reims** (2014-2024) et de l'**Agence nationale pour la rénovation urbaine** (2022-2024). Revenue au gouvernement en janvier 2024, elle est successivement **ministre du Travail, de la Santé et des Solidarités** (gouvernements Attal, Bayrou, Lecornu I) et ministre du Partenariat avec les territoires (gouvernement Barnier), avant de recevoir le portefeuille des Armées.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Catherine_Vautrin"
+      }
+    },
+    {
+      "id": "david-amiel",
+      "full_name": "David Amiel",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Action et des Comptes publics",
+            "en": "Minister of Public Action and Accounts"
+          },
+          "from": "2026-02-22",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "ddf85eb5ff3a213a6c153caacb03a12ab6f9a746e2ccb75cdcde206cbe19155d",
+        "photo": {
+          "path": "/media/politicians/david-amiel.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:David-amiel_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "B.MODIFICATEUR"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme politique français, membre de **Renaissance**, **ministre de l'Action et des Comptes publics depuis le 22 février 2026**, en remplacement d'Amélie de Montchalin. Élu **député de Paris en 2022**, il entre au gouvernement Lecornu II le 12 octobre 2025 comme **ministre délégué chargé de la Fonction publique et de la Réforme de l'État**, avant d'être promu ministre de plein exercice.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/David_Amiel"
+      }
+    },
+    {
       "id": "edouard-philippe",
       "full_name": "Édouard Philippe",
       "party": "Horizons",
@@ -55,7 +175,7 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "Haute fonctionnaire et femme d'État française, **Première ministre du 16 mai 2022 au 9 janvier 2024** — la **deuxième femme** à occuper ce poste sous la Cinquième République. **Polytechnicienne et ingénieure générale des ponts et chaussées**, elle est préfète de Poitou-Charentes (2013-2014), directrice de cabinet de Ségolène Royal au ministère de l'Écologie, puis **présidente de la RATP** (2015-2017). Ministre des **Transports** (2017), de la **Transition écologique** (2019) puis du **Travail** (2020), elle est nommée à Matignon après la réélection d'Emmanuel Macron. À la tête du premier gouvernement minoritaire depuis 1993, elle recourt **vingt-trois fois à l'article 49.3** en vingt mois — record derrière Michel Rocard — notamment pour faire adopter la très contestée **réforme des retraites de 2023**. Députée du Calvados, elle est nommée fin 2024 ministre d'État chargée de l'Éducation nationale.",
+          "fr": "Haute fonctionnaire et femme d'État française, **Première ministre du 16 mai 2022 au 9 janvier 2024**, la **deuxième femme** à occuper ce poste sous la Cinquième République. **Polytechnicienne et ingénieure générale des ponts et chaussées**, elle est préfète de Poitou-Charentes (2013-2014), directrice de cabinet de Ségolène Royal au ministère de l'Écologie, puis **présidente de la RATP** (2015-2017). Ministre des **Transports** (2017), de la **Transition écologique** (2019) puis du **Travail** (2020), elle est nommée à Matignon après la réélection d'Emmanuel Macron. À la tête du premier gouvernement minoritaire depuis 1993, elle recourt **vingt-trois fois à l'article 49.3** en vingt mois (record derrière Michel Rocard), notamment pour faire adopter la très contestée **réforme des retraites de 2023**. Députée du Calvados, elle est nommée fin 2024 ministre d'État chargée de l'Éducation nationale.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/%C3%89lisabeth_Borne"
@@ -85,7 +205,7 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "Homme d'État français, **président de la République depuis le 14 mai 2017** — élu à 39 ans, le plus jeune président de l'histoire française. Énarque, **inspecteur des finances**, il rejoint en 2008 la **banque d'affaires Rothschild & Cie**, dont il devient associé-gérant en 2010. Secrétaire général adjoint de l'Élysée sous François Hollande, il est nommé **ministre de l'Économie** en 2014 et fait adopter en 2015 la « **loi Macron** » pour la croissance et l'activité. En 2016, il fonde **En marche** et démissionne du gouvernement Valls. Son premier mandat est marqué par la **réforme du Code du travail par ordonnances**, le mouvement des **Gilets jaunes**, la **pandémie de Covid-19** et un premier projet de réforme des retraites contesté. **Réélu en 2022** face à Marine Le Pen, il gouverne ensuite avec une majorité relative, dans le contexte de l'invasion de l'Ukraine par la Russie.",
+          "fr": "Homme d'État français, **président de la République depuis le 14 mai 2017**, élu à 39 ans, le plus jeune président de l'histoire française. Énarque, **inspecteur des finances**, il rejoint en 2008 la **banque d'affaires Rothschild & Cie**, dont il devient associé-gérant en 2010. Secrétaire général adjoint de l'Élysée sous François Hollande, il est nommé **ministre de l'Économie** en 2014 et fait adopter en 2015 la « **loi Macron** » pour la croissance et l'activité. En 2016, il fonde **En marche** et démissionne du gouvernement Valls. Son premier mandat est marqué par la **réforme du Code du travail par ordonnances**, le mouvement des **Gilets jaunes**, la **pandémie de Covid-19** et un premier projet de réforme des retraites contesté. **Réélu en 2022** face à Marine Le Pen, il gouverne ensuite avec une majorité relative, dans le contexte de l'invasion de l'Ukraine par la Russie.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Emmanuel_Macron"
@@ -115,10 +235,100 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "Haut fonctionnaire et homme d'État français, **président de la République du 15 mai 2012 au 14 mai 2017**. **Magistrat à la Cour des comptes**, député dès 1988, **premier secrétaire du Parti socialiste de 1997 à 2008**, maire de Tulle puis président du conseil général de Corrèze. Élu en 2012 face à Nicolas Sarkozy après avoir déclaré « mon véritable adversaire, c'est le monde de la finance », il opère en 2014 un **virage social-libéral** : pacte de responsabilité, **loi Macron**, puis **loi Travail**, qui provoque une forte contestation sociale. Son quinquennat voit l'adoption du **mariage pour tous**, la **conférence de Paris sur le climat**, des interventions militaires au Mali et au Moyen-Orient, et l'**état d'urgence** après les attentats de 2015. Très impopulaire, il **renonce à briguer un second mandat** — une première sous la Cinquième République — et retrouve son siège de député de Corrèze en 2024.",
+          "fr": "Haut fonctionnaire et homme d'État français, **président de la République du 15 mai 2012 au 14 mai 2017**. **Magistrat à la Cour des comptes**, député dès 1988, **premier secrétaire du Parti socialiste de 1997 à 2008**, maire de Tulle puis président du conseil général de Corrèze. Élu en 2012 face à Nicolas Sarkozy après avoir déclaré « mon véritable adversaire, c'est le monde de la finance », il opère en 2014 un **virage social-libéral** : pacte de responsabilité, **loi Macron**, puis **loi Travail**, qui provoque une forte contestation sociale. Son quinquennat voit l'adoption du **mariage pour tous**, la **conférence de Paris sur le climat**, des interventions militaires au Mali et au Moyen-Orient, et l'**état d'urgence** après les attentats de 2015. Très impopulaire, il **renonce à briguer un second mandat**, une première sous la Cinquième République, et retrouve son siège de député de Corrèze en 2024.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Hollande"
+      }
+    },
+    {
+      "id": "gerald-darmanin",
+      "full_name": "Gérald Darmanin",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Garde des Sceaux, ministre de la Justice",
+            "en": "Minister of Justice"
+          },
+          "from": "2024-12-23",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "2c28c06f53976c5643a3ecb03a0b26d57018bc01da0c2968176c032979efc325",
+        "photo": {
+          "path": "/media/politicians/gerald-darmanin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:French_Justice_Minister_G%C3%A9rald_Darmanin_in_2025_(cropped_2).jpg",
+          "license": "CC BY 2.0",
+          "author": "UK Home Office"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme d'État français, **garde des Sceaux, ministre de la Justice depuis décembre 2024** (gouvernements Bayrou puis Lecornu), avec rang de **ministre d'État**. Membre du RPR, de l'UMP puis de LR avant de rejoindre LREM, il est élu **député du Nord en 2012** et **maire de Tourcoing** en 2014. Nommé **ministre de l'Action et des Comptes publics** en 2017 (gouvernements Philippe), il est ensuite **ministre de l'Intérieur de 2020 à 2024** (gouvernements Castex puis Borne, portefeuille élargi aux Outre-mer en 2022). Membre de **Renaissance**, il lance le think tank Populaires.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/G%C3%A9rald_Darmanin"
+      }
+    },
+    {
+      "id": "jean-pierre-farandou",
+      "full_name": "Jean-Pierre Farandou",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre du Travail et des Solidarités",
+            "en": "Minister of Labour and Solidarity"
+          },
+          "from": "2025-10-12",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "bd0e355bb9e9e215a589b7481a46f47c1c98ed4c1b839f2555e80b6ac65b04dc",
+        "photo": {
+          "path": "/media/politicians/jean-pierre-farandou.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Farandou_Portrait_officiel_(cropped).jpg",
+          "license": "Licence Ouverte",
+          "author": "Matthieu Raffard"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Dirigeant d'entreprise et homme politique français, **ministre du Travail et des Solidarités depuis le 12 octobre 2025** (gouvernement Lecornu II). Avant la politique, il fait presque toute sa carrière à la **SNCF**, qu'il intègre en 1981 : **président de Keolis** (2012-2019), puis **président de la SNCF** à partir de 2019 et **président-directeur général** du groupe jusqu'au 12 octobre 2025.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean-Pierre_Farandou"
+      }
+    },
+    {
+      "id": "laurent-nunez",
+      "full_name": "Laurent Nuñez",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Intérieur",
+            "en": "Minister of the Interior"
+          },
+          "from": "2025-10-12",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "6d97e5f65a562a8ede9963ed6409de94367d579853c3f69944d72021d64007e8",
+        "photo": {
+          "path": "/media/politicians/laurent-nunez.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Nunez_Beauvau_(cropped).jpg",
+          "license": "Licence Ouverte",
+          "author": "Ministère de l'Intérieur"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Préfet, haut fonctionnaire et homme politique français, **ministre de l'Intérieur depuis le 12 octobre 2025** (gouvernement Lecornu II). **Préfet de police des Bouches-du-Rhône** (2015), **directeur général de la Sécurité intérieure** (2017), il est **secrétaire d'État auprès du ministre de l'Intérieur** de 2018 à 2020 (gouvernement Philippe II), **coordonnateur national du renseignement et de la lutte contre le terrorisme** (2020-2022), puis **préfet de police de Paris** (2022-2025).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Laurent_Nu%C3%B1ez"
       }
     },
     {
@@ -149,6 +359,66 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Manuel_Valls"
+      }
+    },
+    {
+      "id": "marina-ferrari",
+      "full_name": "Marina Ferrari",
+      "party": "Mouvement démocrate",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Sports, de la Jeunesse et de la Vie associative",
+            "en": "Minister of Sports, Youth and Community Life"
+          },
+          "from": "2025-10-12",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "23481faab039a31eb8c7ebbbe80c03837aaf79b503d6e653e9e0c1b68477163b",
+        "photo": {
+          "path": "/media/politicians/marina-ferrari.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:20240221_Marina_Ferrari_Portrait_PhotoGezelinGree_131_(cropped).jpg",
+          "license": "Licence Ouverte",
+          "author": "Gezelin Gree - MEFSIN"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Femme politique française, **ministre des Sports, de la Jeunesse et de la Vie associative depuis le 5 octobre 2025** (gouvernements Lecornu I et II). Élue locale de Savoie (conseillère municipale puis **première adjointe au maire d'Aix-les-Bains**, **vice-présidente du conseil départemental de la Savoie** de 2015 à 2021), elle est élue **députée de la Savoie** en 2022. Elle entre au gouvernement en février 2024 comme **secrétaire d'État chargée du Numérique** (gouvernement Attal), puis devient ministre déléguée chargée de l'**Économie du tourisme** (gouvernement Barnier).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Marina_Ferrari"
+      }
+    },
+    {
+      "id": "monique-barbut",
+      "full_name": "Monique Barbut",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Transition écologique",
+            "en": "Minister of Ecological Transition"
+          },
+          "from": "2025-10-12",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "baed76a3a472bcc6d178bed6c5a9509f5c2d0fc44a775c8e5618ba295d0b62ac",
+        "photo": {
+          "path": "/media/politicians/monique-barbut.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Monique_Barbut_Portrait_(cropped).jpg",
+          "license": "Licence Ouverte",
+          "author": "Arnaud Bouissou / Terra"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Dirigeante d'organisation non gouvernementale et femme politique française, **ministre de la Transition écologique, de la Biodiversité et des Négociations internationales sur le climat et la nature depuis le 12 octobre 2025** (gouvernement Lecornu II). Avant la politique, elle fait carrière dans les institutions environnementales : **présidente du WWF France** et **secrétaire exécutive de la Convention des Nations unies sur la lutte contre la désertification** (2013-2019).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Monique_Barbut"
       }
     },
     {
@@ -212,6 +482,36 @@
       }
     },
     {
+      "id": "naima-moutchou",
+      "full_name": "Naïma Moutchou",
+      "party": "Horizons",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Outre-mer",
+            "en": "Minister for Overseas Territories"
+          },
+          "from": "2025-10-12",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "683bce1e3da5fcd63ab56214e29c7cbe8ca95746e20d29346c79c5bb76d5a9bc",
+        "photo": {
+          "path": "/media/politicians/naima-moutchou.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Minist%C3%A8re_des_Outre-mer_-_DICOM_(cropped).jpg",
+          "license": "Licence Ouverte",
+          "author": "Ministère des Outre-mer - DICOM"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Avocate et femme politique française, **ministre des Outre-mer depuis octobre 2025** (gouvernement Lecornu II), après un premier portefeuille de la Transformation et de la Fonction publiques, de l'Intelligence artificielle et du Numérique dans le gouvernement Lecornu I. **Avocate** de profession, élue à l'Assemblée nationale, coordinatrice du groupe LREM à la **commission des Lois** puis vice-présidente de cette commission en 2020, elle rejoint le parti **Horizons** d'Édouard Philippe et est **vice-présidente de l'Assemblée nationale de 2022 à 2025**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Na%C3%AFma_Moutchou"
+      }
+    },
+    {
       "id": "olivier-dussopt",
       "full_name": "Olivier Dussopt",
       "party": "Renaissance",
@@ -235,10 +535,168 @@
         },
         "retrieved_at": "2026-08-20",
         "summary": {
-          "fr": "Homme politique français, **ministre du Travail, du Plein emploi et de l'Insertion de mai 2022 à janvier 2024** dans le gouvernement Borne — il porte la **réforme des retraites de 2023** face aux grèves du mouvement social. **Député de l'Ardèche dès 2007** (benjamin de l'Assemblée nationale), socialiste jusqu'en 2017, il est nommé **secrétaire d'État** en 2017 puis **ministre délégué chargé des Comptes publics** en 2020. Cofondateur et président du parti **Territoires de progrès** (2020), il devient en 2024 **secrétaire général exécutif de Renaissance**. Poursuivi pour favoritisme dans l'attribution de marchés publics, il est relaxé en 2024, condamné après appel du parquet, puis voit sa condamnation **cassée en juin 2026**, l'affaire étant renvoyée pour être de nouveau jugée.",
+          "fr": "Homme politique français, **ministre du Travail, du Plein emploi et de l'Insertion de mai 2022 à janvier 2024** dans le gouvernement Borne : il porte la **réforme des retraites de 2023** face aux grèves du mouvement social. **Député de l'Ardèche dès 2007** (benjamin de l'Assemblée nationale), socialiste jusqu'en 2017, il est nommé **secrétaire d'État** en 2017 puis **ministre délégué chargé des Comptes publics** en 2020. Cofondateur et président du parti **Territoires de progrès** (2020), il devient en 2024 **secrétaire général exécutif de Renaissance**. Poursuivi pour favoritisme dans l'attribution de marchés publics, il est relaxé en 2024, condamné après appel du parquet, puis voit sa condamnation **cassée en juin 2026**, l'affaire étant renvoyée pour être de nouveau jugée.",
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Olivier_Dussopt"
+      }
+    },
+    {
+      "id": "olivier-falorni",
+      "full_name": "Olivier Falorni",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la Charente-Maritime",
+            "en": "Member of Parliament for Charente-Maritime"
+          },
+          "from": "2012-06-20",
+          "to": "2026-04-26"
+        },
+        {
+          "role": {
+            "fr": "Maire de La Rochelle",
+            "en": "Mayor of La Rochelle"
+          },
+          "from": "2026-03-28",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "b768b73ab3da76aad2e4bca399f0dc0b30ff3ec2c085ee51ecaa401a749be51a",
+        "photo": {
+          "path": "/media/politicians/olivier-falorni.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Olivier_Falorni_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Antoine Lamielle"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme politique français, **maire de La Rochelle depuis le 28 mars 2026** et **député de la Charente-Maritime de 2012 à 2026**. Ancien cadre du **Parti socialiste**, élu en 2012 en **dissident face à Ségolène Royal**, ce qui lui vaut son exclusion du parti, il rejoint le Parti radical de gauche puis siège au groupe **Les Démocrates**. Réélu député en 2017, 2022 et 2024, il est l'auteur de la proposition de loi créant un **droit à l'aide à mourir**, promulguée en **août 2026**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Olivier_Falorni"
+      }
+    },
+    {
+      "id": "roland-lescure",
+      "full_name": "Roland Lescure",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique",
+            "en": "Minister of the Economy, Finance and Industrial, Energy and Digital Sovereignty"
+          },
+          "from": "2025-10-12",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "867eaba4be42498ac8ea68b25af2b8cde50b4e04cc0bc2c5da0494660d8abfb1",
+        "photo": {
+          "path": "/media/politicians/roland-lescure.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Visit_of_Roland_Lescure,_Minister_attached_to_the_French_Minister_for_Economics,_to_the_European_Commission_-_2022_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Lukasz Kobus / European Union, 2022 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Économiste, homme d'affaires et homme politique franco-canadien, **ministre de l'Économie, des Finances et de la Souveraineté industrielle, énergétique et numérique depuis octobre 2025** (gouvernements Lecornu I et II). Élu **député des Français de l'étranger** (Amérique du Nord) en 2017, **président de la commission des Affaires économiques** et rapporteur général de la **loi Pacte** (2019), il est **ministre délégué chargé de l'Industrie** de 2022 à 2024, portefeuille élargi à l'**Énergie** en 2024, puis vice-président de l'Assemblée nationale (2024-2025).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Roland_Lescure"
+      }
+    },
+    {
+      "id": "sebastien-lecornu",
+      "full_name": "Sébastien Lecornu",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Premier ministre",
+            "en": "Prime Minister"
+          },
+          "from": "2025-09-09",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "492a2486f3ef23d37aae2b18f228216e0f081a36134d7c743d9e0c3bd8d546b7",
+        "photo": {
+          "path": "/media/politicians/sebastien-lecornu.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_officiel_de_S%C3%A9bastien_Lecornu_-_Ministre_des_Arm%C3%A9es.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "© Patrice Normand/Leextra via opale"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme d'État français, **Premier ministre depuis le 9 septembre 2025**, nommé le jour de la démission de François Bayrou dans un contexte de **crise politique issue de la dissolution de juin 2024**. D'abord membre de l'UMP puis de LR, **maire de Vernon** (2014-2015) et **président du conseil départemental de l'Eure**, il rejoint LREM en 2017 et participe à **tous les gouvernements de la présidence Macron** : secrétaire d'État auprès du ministre de la Transition écologique (2017), ministre chargé des Collectivités territoriales (2018), **ministre des Outre-mer** (2020) puis **ministre des Armées de 2022 à 2025**. Démissionnaire le 6 octobre 2025 au lendemain de l'annonce de son premier gouvernement, il est reconduit et forme le **gouvernement Lecornu II le 12 octobre 2025**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/S%C3%A9bastien_Lecornu"
+      }
+    },
+    {
+      "id": "stephanie-rist",
+      "full_name": "Stéphanie Rist",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Santé, des Familles, de l'Autonomie et des Personnes handicapées",
+            "en": "Minister of Health, Families, Autonomy and Disabled People"
+          },
+          "from": "2025-10-12",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "b77aa313bf29131ba1f2d06d15aa46d41b0a1efe2d0d4ee724f1f3c1d56ba24a",
+        "photo": {
+          "path": "/media/politicians/stephanie-rist.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Rist_Minist%C3%A8re_Sant%C3%A9_(cropped).jpg",
+          "license": "Licence Ouverte",
+          "author": "Cédric Bufkens / SIPA"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "**Médecin rhumatologue** et femme politique française, membre de **Renaissance**, **ministre de la Santé, des Familles, de l'Autonomie et des Personnes handicapées depuis le 12 octobre 2025** (gouvernement Lecornu II). **Députée du Loiret depuis 2017** et conseillère municipale d'Orléans depuis 2020.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/St%C3%A9phanie_Rist"
+      }
+    },
+    {
+      "id": "vincent-jeanbrun",
+      "full_name": "Vincent Jeanbrun",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Ville et du Logement",
+            "en": "Minister for Cities and Housing"
+          },
+          "from": "2025-10-12",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "0e8715e35f9902deeb970e59020dee7d014ce234a4eb358be37c22e2f8175356",
+        "photo": {
+          "path": "/media/politicians/vincent-jeanbrun.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Vincent_Jeanbrun,_French_Minister_for_Urban_Affairs_and_Housing_-_2026_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Thomas Padilla / European Union, 2026 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-20",
+        "summary": {
+          "fr": "Homme politique français, membre des **Républicains**, **ministre de la Ville et du Logement depuis le 12 octobre 2025** (gouvernement Lecornu II), où il succède à Éric Woerth. **Maire de L'Haÿ-les-Roses de 2014 à 2024**, conseiller départemental du Val-de-Marne en 2015 et conseiller régional d'Île-de-France depuis 2015, il est élu **député du Val-de-Marne en 2024**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Vincent_Jeanbrun"
       }
     }
   ]

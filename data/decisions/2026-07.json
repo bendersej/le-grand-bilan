@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2026-07",
+  "decisions": [
+    {
+      "id": "loi-fast-fashion-2026",
+      "date": "2026-07-08",
+      "title": {
+        "fr": "Loi contre la fast fashion",
+        "en": "Anti-fast-fashion law"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-602 visant à réduire l'impact environnemental de l'industrie textile : définition légale de la « **mode ultra express** » ciblant les plateformes comme **Shein et Temu**, **malus environnemental de 0,25 € à 20 € par produit** entre 2026 et 2030 (plafonné à 50 % du prix), **interdiction de la publicité** pour ces enseignes au **1er janvier 2027**, y compris via les influenceurs, et **affichage obligatoire du pays de fabrication**.",
+        "en": "Law no. 2026-602 to reduce the environmental impact of the textile industry: a legal definition of \"**ultra-express fashion**\" targeting platforms such as **Shein and Temu**, an **environmental malus of 0.25 to 20 euros per product** between 2026 and 2030 (capped at 50% of the price), an **advertising ban** for these brands from **1 January 2027**, including via influencers, and **mandatory display of the country of manufacture**."
+      },
+      "category_ids": ["ecologie", "economie"],
+      "politician_ids": ["monique-barbut"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054399113",
+          "title": "LOI n° 2026-602 du 8 juillet 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/travaux-parlementaires/textes-legislatifs/la-loi-en-clair/proposition-de-loi-visant-a-reduire-limpact-environnemental-de-lindustrie-textile.html",
+          "title": "La loi en clair : réduire l'impact environnemental de l'industrie textile - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-justice-criminelle-2026",
+      "date": "2026-07-23",
+      "title": {
+        "fr": "Loi sur la justice criminelle et le respect des victimes",
+        "en": "Law on criminal justice and respect for victims"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-651, présentée comme la plus importante réforme de la procédure criminelle depuis 2019 : **réorganisation des cours d'assises et cours criminelles** (réattribution des affaires en cas de délais excessifs, avocats honoraires appelés à juger dès 2027), **renforcement des droits des victimes** et **extension du fichier des empreintes génétiques** à douze nouvelles catégories d'infractions. Le Conseil constitutionnel a **censuré la « généalogie génétique »** et le portrait-robot génétique (décision n° 2026-909 DC).",
+        "en": "Law no. 2026-651, presented as the biggest criminal-procedure reform since 2019: **reorganisation of assize and criminal courts** (case reassignment when delays become excessive, honorary lawyers sitting as judges from 2027), **stronger victims' rights** and **extension of the DNA database** to twelve new offence categories. The Constitutional Council **struck down \"genetic genealogy\"** and DNA-based composite portraits (decision no. 2026-909 DC)."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["gerald-darmanin", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054470584",
+          "title": "LOI n° 2026-651 du 23 juillet 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl25-456.html",
+          "title": "Dossier législatif : justice criminelle et respect des victimes - Sénat"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/17/dossiers/DLR5L17N53940",
+          "title": "Dossier législatif : justice criminelle et respect des victimes - Assemblée nationale"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-philippine-2026",
+      "date": "2026-07-27",
+      "title": {
+        "fr": "Loi Philippine (rétention administrative)",
+        "en": "Philippine law (administrative detention)"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-667, dite « **loi Philippine** » : la durée maximale de **rétention administrative** des étrangers en instance d'éloignement passe à **90 jours** en régime général et jusqu'à **210 jours** pour les personnes condamnées pour des faits graves ou liées au terrorisme ; création d'une **rétention de sûreté « terroriste »** après la peine et **contrôle renforcé des changements de nom** à l'état civil.",
+        "en": "Law no. 2026-667, known as the \"**Philippine law**\": the maximum **administrative detention** of foreigners awaiting removal rises to **90 days** in the standard regime and up to **210 days** for people convicted of serious offences or linked to terrorism; creation of a post-sentence **\"terrorist\" preventive detention** and **tighter control of civil-status name changes**."
+      },
+      "category_ids": ["immigration", "securite"],
+      "politician_ids": ["laurent-nunez"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054496919",
+          "title": "LOI n° 2026-667 du 27 juillet 2026 - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-maladies-cardio-neuro-vasculaires-2026",
+      "date": "2026-07-27",
+      "title": {
+        "fr": "Loi de stratégie nationale contre les maladies cardio-neuro-vasculaires",
+        "en": "National strategy law against cardio-neuro-vascular diseases"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-668 dotant la France d'une **stratégie nationale de lutte contre les maladies cardio-neuro-vasculaires**, l'une des premières causes de mortalité : **dépistage obligatoire des enfants dans l'année suivant leur sixième anniversaire**, dépistage intégré à la santé au travail, **pharmaciens et kinésithérapeutes habilités à mesurer la tension artérielle**. Économies attendues par le gouvernement : **0,8 à 1,2 Md€ par an**.",
+        "en": "Law no. 2026-668 giving France a **national strategy against cardio-neuro-vascular diseases**, among the leading causes of death: **mandatory screening of children in the year after their sixth birthday**, screening integrated into occupational health, and **pharmacists and physiotherapists empowered to measure blood pressure**. Government-expected savings: **0.8 to 1.2bn euros per year**."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["stephanie-rist"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054496977",
+          "title": "LOI n° 2026-668 du 27 juillet 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl25-529.html",
+          "title": "Dossier législatif : stratégie nationale contre les maladies cardio-neuro-vasculaires - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

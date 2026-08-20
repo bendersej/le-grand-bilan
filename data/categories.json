@@ -2,6 +2,14 @@
   "$schema": "../schemas/categories.schema.json",
   "categories": [
     {
+      "id": "agriculture",
+      "label": { "fr": "Agriculture", "en": "Agriculture" }
+    },
+    {
+      "id": "defense",
+      "label": { "fr": "Défense", "en": "Defence" }
+    },
+    {
       "id": "ecologie",
       "label": { "fr": "Écologie", "en": "Environment" }
     },
@@ -36,6 +44,10 @@
     {
       "id": "securite",
       "label": { "fr": "Sécurité", "en": "Security" }
+    },
+    {
+      "id": "sport",
+      "label": { "fr": "Sport", "en": "Sport" }
     },
     {
       "id": "travail",

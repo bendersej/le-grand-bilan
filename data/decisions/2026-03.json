@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2026-03",
+  "decisions": [
+    {
+      "id": "decret-assouplissement-re2020-2026",
+      "date": "2026-03-18",
+      "title": {
+        "fr": "Assouplissement de la réglementation environnementale RE2020",
+        "en": "Easing of the RE2020 environmental building regulation"
+      },
+      "summary": {
+        "fr": "Décret n° 2026-200 assouplissant les **exigences de performance énergétique et environnementale (RE2020)** des constructions : **extensions et surélévations de moins de 150 m² exemptées**, nouveaux coefficients de modulation des seuils (hauteur sous plafond, espaces extérieurs, réseaux urbains de froid). Applicable aux **permis déposés à partir du 1er juillet 2026**, dans l'objectif affiché de **réduire les coûts de construction**.",
+        "en": "Decree no. 2026-200 easing the **RE2020 energy and environmental performance requirements** for buildings: **extensions and vertical additions under 150 m² exempted**, new modulation coefficients for the thresholds (ceiling height, outdoor spaces, urban cooling networks). Applies to **permits filed from 1 July 2026**, with the stated aim of **lowering construction costs**."
+      },
+      "category_ids": ["ecologie"],
+      "politician_ids": ["vincent-jeanbrun", "monique-barbut", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053703809",
+          "title": "Décret n° 2026-200 du 18 mars 2026 - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-jeux-olympiques-2030",
+      "date": "2026-03-20",
+      "title": {
+        "fr": "Loi d'organisation des JO d'hiver 2030 (Alpes françaises)",
+        "en": "2030 Winter Olympics organisation law (French Alps)"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-201 posant le cadre juridique des **jeux Olympiques et Paralympiques d'hiver de 2030** dans les Alpes françaises : protection des propriétés olympiques, **permis de construire couvrant les états provisoire et définitif**, **voies de circulation réservées** dans les départements hôtes début 2030, dérogations publicitaires pour les partenaires, et obligations de **bilan environnemental** et de contrôle (Cour des comptes, rapport annuel au Parlement).",
+        "en": "Law no. 2026-201 setting the legal framework for the **2030 Olympic and Paralympic Winter Games** in the French Alps: protection of Olympic properties, **building permits covering both provisional and permanent states**, **reserved traffic lanes** in host departments in early 2030, advertising derogations for partners, and **environmental assessment** and oversight obligations (Court of Auditors, annual report to Parliament)."
+      },
+      "category_ids": ["sport"],
+      "politician_ids": ["marina-ferrari", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000053707088",
+          "title": "LOI n° 2026-201 du 20 mars 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl24-630.html",
+          "title": "Dossier législatif : jeux Olympiques et Paralympiques de 2030 - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

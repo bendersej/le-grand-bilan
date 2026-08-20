@@ -1,0 +1,137 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2026-05",
+  "decisions": [
+    {
+      "id": "suspension-reforme-retraites-2026",
+      "date": "2026-05-07",
+      "title": {
+        "fr": "Décrets de suspension de la réforme des retraites",
+        "en": "Decrees suspending the 2023 pension reform"
+      },
+      "summary": {
+        "fr": "Décrets n° 2026-344 et n° 2026-345 appliquant l'article 105 de la loi de financement de la sécurité sociale pour 2026 : **gel du calendrier de la réforme des retraites de 2023** pour les pensions prenant effet à compter du **1er septembre 2026**. L'**âge légal est abaissé jusqu'à 6 mois** pour certaines générations **1964-1968** et la durée de cotisation est adaptée (**171 trimestres pour la génération 1970**), y compris pour les carrières longues et la fonction publique.",
+        "en": "Decrees no. 2026-344 and no. 2026-345 implementing article 105 of the social security financing law for 2026: **freeze of the 2023 pension reform's schedule** for pensions taking effect from **1 September 2026**. The **legal retirement age is lowered by up to 6 months** for some **1964-1968 cohorts** and the contribution period is adjusted (**171 quarters for those born in 1970**), including for long careers and the civil service."
+      },
+      "category_ids": ["retraites"],
+      "politician_ids": ["jean-pierre-farandou", "david-amiel", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054047709",
+          "title": "Décret n° 2026-344 du 7 mai 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054047736",
+          "title": "Décret n° 2026-345 du 7 mai 2026 - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "reforme-retraites-2023"
+        }
+      ]
+    },
+    {
+      "id": "loi-inondations-2026",
+      "date": "2026-05-19",
+      "title": {
+        "fr": "Loi sur la prévention et la gestion des inondations",
+        "en": "Law on flood prevention and management"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-381 soutenant les collectivités face aux inondations : consécration législative des **programmes d'actions de prévention des inondations (PAPI)**, **simplification de l'entretien des cours d'eau** et des travaux post-crue, **expropriation accélérée** lorsque des travaux de prévention sont retardés et qu'un risque pour la sécurité existe, et création d'une **réserve d'ingénierie publique** au profit des communes sinistrées.",
+        "en": "Law no. 2026-381 supporting local authorities against floods: legislative recognition of the **flood prevention action programmes (PAPI)**, **simplified watercourse maintenance** and post-flood works, **expedited expropriation** where prevention works are delayed and a safety risk exists, and creation of a **public engineering reserve** for flood-hit municipalities."
+      },
+      "category_ids": ["ecologie"],
+      "politician_ids": ["monique-barbut", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054113360",
+          "title": "LOI n° 2026-381 du 19 mai 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl24-226.html",
+          "title": "Dossier législatif : prévention et gestion des inondations - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-simplification-vie-economique-2026",
+      "date": "2026-05-26",
+      "title": {
+        "fr": "Loi de simplification de la vie économique (loi SVE)",
+        "en": "Economic life simplification law (SVE law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-403 : **relèvement des seuils de contrôle des concentrations** (chiffre d'affaires cumulé porté de **150 à 250 M€**), **marchés publics de travaux sans publicité préalable jusqu'à 140 000 € HT** au 1er janvier 2027, réduction des obligations déclaratives des entreprises et **accélération des projets industriels, énergétiques et numériques** (centres de données).",
+        "en": "Law no. 2026-403: **merger-control notification thresholds raised** (combined turnover from **150 to 250m euros**), **public works contracts without prior publicity up to 140,000 euros excl. VAT** from 1 January 2027, fewer corporate reporting obligations and **faster industrial, energy and digital projects** (data centres)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["roland-lescure", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054131304",
+          "title": "LOI n° 2026-403 du 26 mai 2026 de simplification de la vie économique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl23-550.html",
+          "title": "Dossier législatif : simplification de la vie économique - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-soins-palliatifs-2026",
+      "date": "2026-05-26",
+      "title": {
+        "fr": "Loi sur l'accompagnement et les soins palliatifs",
+        "en": "Law on palliative and accompaniment care"
+      },
+      "summary": {
+        "fr": "Loi n° 2026-404 créant un **droit opposable à l'accompagnement et aux soins palliatifs**, qui n'est plus limité à la fin de vie : **financement programmé d'environ 150 à 244 M€ par an jusqu'en 2034**, **au moins deux unités de soins palliatifs par région d'ici fin 2030** et création des **maisons d'accompagnement et de soins palliatifs**.",
+        "en": "Law no. 2026-404 creating an **enforceable right to palliative and accompaniment care**, no longer limited to the end of life: **programmed funding of about 150 to 244m euros per year until 2034**, **at least two palliative care units per region by the end of 2030** and creation of **palliative accompaniment homes**."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["stephanie-rist", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054131776",
+          "title": "LOI n° 2026-404 du 26 mai 2026 - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "corps-electoral-nouvelle-caledonie-2026",
+      "date": "2026-05-28",
+      "title": {
+        "fr": "Loi organique sur le corps électoral de Nouvelle-Calédonie",
+        "en": "Organic law on New Caledonia's electoral roll"
+      },
+      "summary": {
+        "fr": "Loi organique n° 2026-410 modifiant la loi organique du 19 mars 1999 : les personnes **nées en Nouvelle-Calédonie** et inscrites sur la liste électorale générale sont **inscrites au corps électoral spécial** des élections provinciales, soit environ **10 500 électeurs supplémentaires**, avant les élections provinciales prévues d'ici fin 2026. Validée par le Conseil constitutionnel (décision n° 2026-905 DC).",
+        "en": "Organic law no. 2026-410 amending the organic law of 19 March 1999: people **born in New Caledonia** and registered on the general electoral list are **added to the special electoral roll** for provincial elections, about **10,500 additional voters**, ahead of the provincial elections due by the end of 2026. Upheld by the Constitutional Council (decision no. 2026-905 DC)."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["naima-moutchou", "laurent-nunez"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000054148972",
+          "title": "LOI organique n° 2026-410 du 28 mai 2026 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl24-636.html",
+          "title": "Dossier législatif : régularisation des natifs dans le corps électoral - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "accord-elysee-oudinot-2026"
+        }
+      ]
+    }
+  ]
+}
