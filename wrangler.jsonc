@@ -9,6 +9,7 @@
     { "pattern": "legrandbilan.fr", "custom_domain": true },
     { "pattern": "www.legrandbilan.fr", "custom_domain": true },
   ],
+  "workers_dev": false,
   "compatibility_date": "2025-09-02",
   "compatibility_flags": ["nodejs_compat"],
   "main": "@tanstack/react-start/server-entry",
