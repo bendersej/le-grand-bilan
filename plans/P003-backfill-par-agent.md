@@ -121,3 +121,16 @@ Outcome: 37 decisions across all 12 months of the double-election year, 13 polit
 - Unsourceable and accepted as such: réquisitions des raffineries (arrêtés préfectoraux hors JO), accueil de l'Ocean Viking (communiqués only).
 
 Next: 2021.
+
+## Learnings round 6 (batch 2021, ran 2026-08-21)
+
+Outcome: 34 decisions across all 12 months of the Covid/Castex year (couvre-feux, 3e confinement, passe sanitaire, climat et résilience, séparatisme, bioéthique/PMA, France 2030, LFI 2022), 5 politicians added (4 profiles; annick-billon null, no lead image), 3 mandates extended (Montchalin, Dussopt, Borne au Travail), no new categories, cross-year relations wired into four 2022 files plus forward links (fin Barkhane, Beauvau→LOPMI). Review gate passed (5/5 sampled sources exact, 286 pages, format/check/build/smoketest green). One editorial fix at review: "ruée historique sur la vaccination" neutralized to the factual appointment count. No stall.
+
+- JO sommaire page (`jorf/jo/YYYY/MM/DD/NNNN`) added as the second id-harvesting route: Légifrance search sometimes returns only a law's "(rectificatif)" JORFTEXT.
+- The web-fetch summarizer misattributes articles/dates in omnibus texts: cross-check via `jorf/article_jo/JORFARTI…` or drop the disputed detail. Now in the skill.
+- CC censure specifics extract cleanly by curl + grep of the "Sont contraires à la Constitution" dispositif; conseil-constitutionnel.fr is fully curl-able.
+- diplomatie.gouv.fr rots (old communiqués 301 to country pages): the AUKUS ambassador recall was dropped as unsourceable. Élysée URL path dates can be off by one vs the event: date from page content.
+- politicians.json round-trips cleanly through scripts; decisions month files (inline arrays) must be edited surgically. Now in the skill.
+- Candidate 2020 backward relations recorded in the batch report: 2021 confinement décrets amend décret 2020-1310, prorogation EUS amends loi 2020-1379, loi Rist implements the Ségur de la santé, décret sortie de crise repeals 2020-1310.
+
+Next: 2020.

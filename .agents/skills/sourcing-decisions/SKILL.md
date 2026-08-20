@@ -27,7 +27,9 @@ More sources is better ("never forget" open-data registry).
 
 - Start each year from the Sénat index of promulgated laws (`senat.fr/dossiers-legislatifs/lois-promulguees-<year>.html`): it is exhaustive and reliable. Press searches only help rank significance.
 - The Sénat index's Légifrance links are legacy `UnTexteDeJorf.do?numjo=NOR` redirects behind a bot wall: do NOT follow them. PRIMARY id-harvesting route: Légifrance's own search, `legifrance.gouv.fr/search/all?query=…` (server-rendered, returns JORFTEXT ids directly). Web search is the fallback only (session budgets can be exhausted; DuckDuckGo-html is captcha-walled, Mojeek 403s). Always fetch the JORFTEXT page to verify; never guess an id.
-- Légifrance (search, `jorf/id/…`, `circulaire/id/…`) is Cloudflare-walled to curl even with a browser UA: verify Légifrance URLs with the agent's web-fetch tool. Keep curl for senat.fr, assemblee-nationale.fr and elysee.fr, which fetch fine.
+- Légifrance (search, `jorf/id/…`, `circulaire/id/…`) is Cloudflare-walled to curl even with a browser UA: verify Légifrance URLs with the agent's web-fetch tool. Keep curl for senat.fr, assemblee-nationale.fr, elysee.fr and conseil-constitutionnel.fr, which fetch fine.
+- Légifrance search sometimes returns only a law's "(rectificatif)" JORFTEXT. Second harvesting route: the JO sommaire page `legifrance.gouv.fr/jorf/jo/YYYY/MM/DD/NNNN` (the issue number is printed in the Sénat index as "JO n°X du date") links the exact JORFTEXT of every text of that day.
+- The web-fetch summarizer can misread which article of an omnibus text does what (wrong article/date attributions). Cross-check any date/number claim with a targeted fetch of the specific `jorf/article_jo/JORFARTI…` URL, or write the summary without the disputed detail.
 - The Sénat "lois promulguées" index OMITS treaty-ratification laws (e.g. loi 2022-1124 autorisant la ratification OTAN). A year with a major geopolitical arc needs an explicit Légifrance search for "autorisant la ratification"/"autorisant l'approbation" laws.
 - Election-year months are structurally thin (March-July): the sourcable acts are CC proclamation decisions (they have JORFTEXT ids), government formation décrets and summit decisions, not laws. Do not burn time hunting non-existent legislation there.
 - Bulk-verify the Sénat index's dossier-legislatif URLs with one curl `<title>` sweep (server-rendered) instead of fetching them one by one.
@@ -39,7 +41,8 @@ More sources is better ("never forget" open-data registry).
 
 - Circulaires: `legifrance.gouv.fr/circulaire/id/<n>` — the id can be a short number (e.g. `45302`); like all of Légifrance it 403s under curl, use the web-fetch tool.
 - Conseil d'État decisions: `conseil-etat.fr/fr/arianeweb/CE/decision/YYYY-MM-DD/NNNNNN` (stable, fetchable). They are the anchor for UNPUBLISHED administrative acts (notes de service, télégrammes): date the entry by the act, cite the CE decision that quotes it. education.gouv.fr's BO is Cloudflare-walled; do not try to fetch it.
-- elysee.fr has no search endpoint, but its sitemaps (`sitemap.publication.xml` etc.) are curl-able and grep-able by date to find exact speech/announcement URLs.
+- elysee.fr has no search endpoint, but its sitemaps (`sitemap.publication.xml` etc.) are curl-able and grep-able by date to find exact speech/announcement URLs. The date in an elysee.fr URL path can be off by one vs the event: date the entry from the page content, not the URL.
+- diplomatie.gouv.fr is rot-prone: old communiqué URLs 301 to generic country pages. A diplomatic act with no JO or Élysée trace may end up unsourceable; drop it rather than cite a redirect.
 - EU-summit and NATO decisions have no French JO document: the elysee.fr publication page (found via the sitemap date-grep) is the citable French source. consilium.europa.eu hard-403s all automated fetches; nato.int works but 301s to its new URL scheme (`nato.int/en/about-us/official-texts-and-resources/official-texts/…`), cite the redirect target.
 - Most ministry sites 403 automated fetches (info.gouv.fr, budget.gouv.fr, interieur.gouv.fr, education.gouv.fr) but ecologie.gouv.fr does NOT: its `presse/…` HTML pages fetch fine and anchor government plans. Prefer the HTML press page over `sites/default/files/…` PDF paths, which rot.
 - Signed accords: often published at the JO (search "publication au Journal officiel" + the accord name for a JORFTEXT id).
@@ -56,6 +59,7 @@ When a law was partially censored before promulgation, the summary MUST state wh
 
 - CC decision numbers carry the SAISINE year, not the law's year (the January 2024 immigration law is décision 2023-863 DC).
 - A dissolution makes pending saisines inadmissible (deputies lose standing when the décret takes effect): a law can be promulgated with its referrals dismissed, a third outcome besides censored/upheld. State it when it happened.
+- Extract censure specifics by curl + grep of the decision page for the "Sont contraires à la Constitution" dispositif and surrounding paragraphs (conseil-constitutionnel.fr is fully curl-able).
 
 ## Attribution conventions
 
@@ -85,5 +89,7 @@ For each decision in the month file (`month` must match the filename):
 pnpm run test      # schema, referential integrity, month/filename, ordering
 pnpm run check     # full CI-equivalent gate
 ```
+
+`data/politicians.json` is in standard 2-space JSON style, so a script round-trip produces a clean minimal diff; the decisions month files use inline arrays and must be edited surgically, never round-tripped.
 
 A red data suite means the entry is wrong, not the suite.
