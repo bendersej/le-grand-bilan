@@ -20,7 +20,7 @@ export const Route = createRootRoute({
         content: 'width=device-width, initial-scale=1',
       },
       {
-        title: 'Le Grand Bilan — Qui a fait quoi. Quand.',
+        title: 'Le Grand Bilan | Qui a fait quoi. Quand.',
       },
       {
         name: 'description',
@@ -31,7 +31,7 @@ export const Route = createRootRoute({
         name: 'theme-color',
         content: '#000091',
       },
-      { property: 'og:title', content: 'Le Grand Bilan — Qui a fait quoi. Quand.' },
+      { property: 'og:title', content: 'Le Grand Bilan | Qui a fait quoi. Quand.' },
       {
         property: 'og:description',
         content:
@@ -39,7 +39,7 @@ export const Route = createRootRoute({
       },
       { property: 'og:type', content: 'website' },
       { property: 'og:locale', content: 'fr_FR' },
-      // Absolute URL required by crawlers — swap host when the custom domain lands.
+      // Absolute URL required by crawlers: swap host when the custom domain lands.
       { property: 'og:image', content: 'https://le-grand-bilan.ben-24c.workers.dev/og-image.jpg' },
       { property: 'og:image:width', content: '1200' },
       { property: 'og:image:height', content: '630' },
