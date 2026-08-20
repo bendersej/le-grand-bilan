@@ -125,7 +125,7 @@ function TimelineLayout() {
                 to="."
                 search={(previousSearch) => searchWithCategoryRemoved(previousSearch, category.id)}
                 resetScroll={false}
-                className="chip"
+                className="chip chip-glass"
                 aria-label={`Retirer le filtre ${category.label.fr}`}
               >
                 {localize(category.label)} ✕

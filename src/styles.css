@@ -126,6 +126,20 @@ main strong {
   color: var(--lagoon-deep);
 }
 
+/* Liquid-glass variant for the sticky filter chips: rows scrolling beneath show
+   through a blur. Opaque fallback (white in light theme) when unsupported. */
+.chip-glass {
+  background: var(--bg-base);
+}
+
+@supports (backdrop-filter: blur(10px)) or (-webkit-backdrop-filter: blur(10px)) {
+  .chip-glass {
+    background: color-mix(in srgb, var(--bg-base) 40%, transparent);
+    -webkit-backdrop-filter: blur(10px) saturate(1.4);
+    backdrop-filter: blur(10px) saturate(1.4);
+  }
+}
+
 /* Décisionnaire photo cluster (plans/P002, wireframe 4): borderless main square
    with a row of small squares below it (+N overflow tile); genie-style hover
    grows a small square toward the main size. */
