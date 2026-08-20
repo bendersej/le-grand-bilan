@@ -115,10 +115,14 @@ function TimelineLayout() {
 
       <div
         data-timeline
-        className="ml-20 mt-8 space-y-14 border-l border-[var(--line)] pl-5 sm:ml-24 sm:pl-8"
+        className="ml-20 mt-8 flex flex-col space-y-14 border-l border-[var(--line)] pl-5 sm:ml-24 sm:pl-8"
       >
         {activeCategories.length > 0 ? (
-          <div className="sticky top-40 z-10 flex h-0 w-fit -translate-x-[calc(100%+2.3rem)] flex-col items-end gap-1 sm:top-[10.25rem] sm:-translate-x-[calc(100%+3rem)]">
+          // Flow slot sits just below the first month label (negative margin
+          // gives it back), so the chips read "under the current month" at rest
+          // AND when the stack is stuck; flex-col on the container prevents the
+          // negative margin from collapsing into the first year's offset.
+          <div className="sticky top-40 z-10 -mb-[4.7rem] mt-[4.7rem] flex h-0 w-fit -translate-x-[calc(100%+2.3rem)] flex-col items-end gap-1 sm:-translate-x-[calc(100%+3rem)]">
             {activeCategories.map((category) => (
               <Link
                 key={category.id}
@@ -145,9 +149,9 @@ function TimelineLayout() {
               <section
                 key={timelineMonth.month}
                 id={timelineMonth.month}
-                className="mt-6 scroll-mt-4"
+                className="mt-[1.2rem] scroll-mt-4"
               >
-                <p className="kicker sticky top-[8.5rem] z-10 m-0 h-0 w-fit -translate-x-[calc(100%+2.3rem)] sm:top-[8.75rem] sm:-translate-x-[calc(100%+3rem)]">
+                <p className="kicker sticky top-[8.2rem] z-10 m-0 h-0 w-fit -translate-x-[calc(100%+2.3rem)] text-[0.8rem] sm:top-[8.45rem] sm:-translate-x-[calc(100%+3rem)]">
                   {formatMonthLabel(timelineMonth.month)}
                 </p>
                 <div className="mt-4 space-y-7">
