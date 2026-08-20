@@ -168,3 +168,51 @@ a:hover {
   z-index: 10;
   transform: scale(3);
 }
+
+/* Light/dark pill toggle: knob slides over the active icon (sun left, moon right). */
+.theme-toggle {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem;
+  border: 0;
+  border-radius: 999px;
+  background: var(--sea-ink);
+  cursor: pointer;
+}
+
+.theme-toggle-knob {
+  position: absolute;
+  left: 0.25rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  border-radius: 999px;
+  background: var(--bg-base);
+  transition: transform 180ms cubic-bezier(0.2, 0.8, 0.3, 1.2);
+}
+
+.theme-toggle[data-resolved='dark'] .theme-toggle-knob {
+  transform: translateX(1.75rem);
+}
+
+.theme-toggle-icon {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  align-items: center;
+  justify-content: center;
+  color: var(--bg-base);
+  opacity: 0.6;
+  transition:
+    color 180ms ease,
+    opacity 180ms ease;
+}
+
+.theme-toggle[data-resolved='light'] .theme-toggle-icon-sun,
+.theme-toggle[data-resolved='dark'] .theme-toggle-icon-moon {
+  color: var(--sea-ink);
+  opacity: 1;
+}
