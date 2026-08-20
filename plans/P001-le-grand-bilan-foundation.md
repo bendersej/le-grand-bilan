@@ -30,7 +30,7 @@ Cloudflare TanStack Start template, prerender enabled (`vite.config.ts`), France
 
 ### Phase 3: Site UI
 
-- **Design direction (operator wireframe: `artifacts/plan-001-timeline-wireframe.png`): MINIMAL changelog / frise chronologique. The data is the interface.**
+- **Design direction (operator wireframe: `artifacts/plan-001-timeline-wireframe.png`): MINIMAL changelog / timeline. The data is the interface.**
   - One vertical timeline rail; year as large heading, month as subheading beneath it
   - Per decision: category chip(s) + politician chip(s) on the left, decision title + short description + inline source links on the right
   - No cards, no shadows, no glassmorphism: strip the template's island-shell aesthetic (`.island-shell`, `.feature-card`, hero gradients, `.demo-*` styles) as part of this phase — typography and whitespace only, France palette kept for accents
@@ -93,7 +93,7 @@ Cloudflare TanStack Start template, prerender enabled (`vite.config.ts`), France
 | FR + EN (`LocalizedText`: fr required, en nullable)              | International visibility; en falls back to fr when absent                                                          |
 | pnpm, single package                                             | One Worker, one app; no publishable package yet                                                                    |
 | Repo name `le-grand-bilan`                                       | Site name, lowercase-dash convention                                                                               |
-| Minimal changelog design, no boxes/shadows                       | Operator wireframe; the data is the product — typography-led frise chronologique, template island aesthetic goes   |
+| Minimal changelog design, no boxes/shadows                       | Operator wireframe; the data is the product — typography-led timeline, template island aesthetic goes              |
 | Spectral (headings) + Inter (body)                               | Marianne is State-reserved; Spectral is by a French foundry (Production Type) on Google Fonts, Inter for data      |
 | Sources must cite the exact document URL                         | Operator requirement; schema rejects site-root URLs, seed uses direct Légifrance jorf/id links                     |
 | Smoketest derives expectations from `data/`                      | Review finding: hand-listed markers were shell-satisfiable; registry-driven assertions scale with backfill         |

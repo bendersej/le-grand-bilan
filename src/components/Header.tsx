@@ -12,7 +12,12 @@ export default function Header() {
           <span className="h-2 w-2 rounded-full bg-[linear-gradient(90deg,#000091_33%,#ffffff_33%,#ffffff_66%,#e1000f_66%)]" />
           Le Grand Bilan
         </Link>
-        <Link to="/about" className="nav-link" activeProps={{ className: 'nav-link is-active' }}>
+        <Link
+          to="/about"
+          resetScroll={false}
+          className="nav-link"
+          activeProps={{ className: 'nav-link is-active' }}
+        >
           À propos
         </Link>
         <div className="ml-auto">

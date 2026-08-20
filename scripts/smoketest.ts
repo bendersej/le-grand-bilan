@@ -6,14 +6,16 @@ import { repositoryRoot } from './utils.ts'
 // Validates the prerendered build output so an accidentally-empty site can never
 // go green in CI. Run AFTER `pnpm run build` (CI runs it in checks AND in deploy,
 // on the exact artifact wrangler ships).
-// Expectations derive from the data registry itself: every reachable entity must
-// have a prerendered page whose <main> contains its title, and the homepage
-// timeline must list every decision. Content markers are asserted inside <main>
-// because the header/footer shell satisfies page-agnostic markers even when a
-// route renders nothing (a throwing route can emit a shell and still exit 0).
+// Expectations derive from the data registry itself: the homepage timeline must
+// list every decision inside <main>, and every reachable entity page must render
+// its content inside its modal (role="dialog") — the always-visible timeline
+// satisfies naive whole-page markers on every URL, so only the dialog slice
+// proves the entity route rendered (a throwing route can emit a shell and still
+// exit 0).
 
 const EXIT_CODES = {
   empty_registry: 4,
+  missing_dialog: 5,
   missing_main: 3,
   missing_marker: 2,
   missing_page: 1,
@@ -50,7 +52,12 @@ const escapeHtml = (text: string): string =>
     .replaceAll('"', '&quot;')
     .replaceAll("'", '&#x27;')
 
-type PageExpectation = { path: string; documentMarkers: string[]; mainMarkers: string[] }
+type PageExpectation = {
+  path: string
+  documentMarkers: string[]
+  mainMarkers: string[]
+  dialogMarkers: string[]
+}
 
 const pageExpectations: PageExpectation[] = [
   {
@@ -60,30 +67,35 @@ const pageExpectations: PageExpectation[] = [
       'Qui a fait quoi. Quand.',
       ...decisions.map((decision) => escapeHtml(decision.title.fr)),
     ],
+    dialogMarkers: [],
   },
   {
     path: 'about/index.html',
     documentMarkers: ['lang="fr"'],
-    mainMarkers: ['Un bilan factuel'],
+    mainMarkers: [],
+    dialogMarkers: ['Un bilan factuel'],
   },
   ...decisions.map((decision) => ({
     path: `decisions/${decision.id}/index.html`,
     documentMarkers: ['lang="fr"'],
-    mainMarkers: [escapeHtml(decision.title.fr), ...decision.sources.map((source) => source.url)],
+    mainMarkers: [],
+    dialogMarkers: [escapeHtml(decision.title.fr), ...decision.sources.map((source) => source.url)],
   })),
   ...politicians
     .filter((politician) => referencedPoliticianIds.has(politician.id))
     .map((politician) => ({
       path: `politiciens/${politician.id}/index.html`,
       documentMarkers: [],
-      mainMarkers: [escapeHtml(politician.full_name)],
+      mainMarkers: [],
+      dialogMarkers: [escapeHtml(politician.full_name)],
     })),
   ...categories
     .filter((category) => referencedCategoryIds.has(category.id))
     .map((category) => ({
       path: `categories/${category.id}/index.html`,
       documentMarkers: [],
-      mainMarkers: [escapeHtml(category.label.fr)],
+      mainMarkers: [],
+      dialogMarkers: [escapeHtml(category.label.fr)],
     })),
 ]
 
@@ -139,6 +151,29 @@ const checkPage = (pageExpectation: PageExpectation): void => {
       failures.push({
         exitCode: EXIT_CODES.missing_marker,
         message: `smoketest: <main> of ${pageExpectation.path} does not contain "${marker}"`,
+      })
+    }
+  }
+
+  if (pageExpectation.dialogMarkers.length === 0) {
+    return
+  }
+
+  const dialogStart = pageHtml.indexOf('role="dialog"')
+  if (dialogStart === -1) {
+    failures.push({
+      exitCode: EXIT_CODES.missing_dialog,
+      message: `smoketest: ${pageExpectation.path} has no modal (role="dialog") — the route likely failed to render`,
+    })
+    return
+  }
+
+  const dialogHtml = pageHtml.slice(dialogStart)
+  for (const marker of pageExpectation.dialogMarkers) {
+    if (!dialogHtml.includes(marker)) {
+      failures.push({
+        exitCode: EXIT_CODES.missing_marker,
+        message: `smoketest: modal of ${pageExpectation.path} does not contain "${marker}"`,
       })
     }
   }

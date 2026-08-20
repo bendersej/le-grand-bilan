@@ -18,6 +18,9 @@ export default function DecisionRow({
     const politician = politiciansById.get(politicianId)
     return politician ? [politician] : []
   })
+  // The month anchors the timeline scroll position in shared URLs: fresh loads
+  // scroll to it natively, in-session clicks skip the jump (hashScrollIntoView).
+  const decisionMonth = decision.date.slice(0, 7)
 
   return (
     <article className="grid gap-2 sm:grid-cols-[200px_minmax(0,1fr)] sm:gap-6">
@@ -27,6 +30,9 @@ export default function DecisionRow({
             key={category.id}
             to="/categories/$categoryId"
             params={{ categoryId: category.id }}
+            hash={decisionMonth}
+            hashScrollIntoView={false}
+            resetScroll={false}
             className="chip"
           >
             {category.label.fr}
@@ -37,6 +43,9 @@ export default function DecisionRow({
             key={politician.id}
             to="/politiciens/$politicianId"
             params={{ politicianId: politician.id }}
+            hash={decisionMonth}
+            hashScrollIntoView={false}
+            resetScroll={false}
             className="chip"
           >
             {politician.full_name}
@@ -51,6 +60,9 @@ export default function DecisionRow({
           <Link
             to="/decisions/$decisionId"
             params={{ decisionId: decision.id }}
+            hash={decisionMonth}
+            hashScrollIntoView={false}
+            resetScroll={false}
             className="text-[var(--sea-ink)] no-underline hover:text-[var(--lagoon-deep)]"
           >
             {decision.title.fr}

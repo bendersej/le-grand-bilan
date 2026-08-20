@@ -43,7 +43,7 @@ function NotFound() {
     <main className="page-wrap px-4 py-12">
       <h1 className="display-title m-0 text-3xl font-bold">Page introuvable</h1>
       <p className="mt-3 text-[var(--sea-ink-soft)]">
-        <Link to="/">Retour à la frise chronologique</Link>
+        <Link to="/">Retour à la timeline</Link>
       </p>
     </main>
   )

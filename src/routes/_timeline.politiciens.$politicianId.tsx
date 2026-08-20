@@ -1,9 +1,10 @@
 import { createFileRoute, notFound } from '@tanstack/react-router'
 import DecisionRow from '../components/DecisionRow'
+import Modal from '../components/Modal'
 import { formatDateLabel } from '../data/format.ts'
 import { decisionsByPoliticianId, politiciansById } from '../data/registry.ts'
 
-export const Route = createFileRoute('/politiciens/$politicianId')({
+export const Route = createFileRoute('/_timeline/politiciens/$politicianId')({
   loader: ({ params }) => {
     const politician = politiciansById.get(params.politicianId)
     if (!politician) {
@@ -19,8 +20,8 @@ function PoliticianPage() {
   const politicianDecisions = decisionsByPoliticianId.get(politician.id) ?? []
 
   return (
-    <main className="page-wrap px-4 py-12">
-      <h1 className="display-title m-0 text-3xl font-bold sm:text-4xl">{politician.full_name}</h1>
+    <Modal label={politician.full_name}>
+      <h1 className="display-title m-0 text-2xl font-bold sm:text-3xl">{politician.full_name}</h1>
       {politician.party ? (
         <p className="m-0 mt-1 text-[var(--sea-ink-soft)]">{politician.party}</p>
       ) : null}
@@ -33,7 +34,7 @@ function PoliticianPage() {
         ))}
       </ul>
 
-      <section className="mt-10">
+      <section className="mt-8">
         <h2 className="kicker m-0">Décisions</h2>
         <div className="mt-4 space-y-7">
           {politicianDecisions.map((decision) => (
@@ -41,6 +42,6 @@ function PoliticianPage() {
           ))}
         </div>
       </section>
-    </main>
+    </Modal>
   )
 }

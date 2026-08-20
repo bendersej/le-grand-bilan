@@ -1,4 +1,5 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router'
+import Modal from '../components/Modal'
 import { formatDateLabel } from '../data/format.ts'
 import {
   categoriesById,
@@ -42,7 +43,7 @@ const incomingRelationLabelFr = (relationType: DecisionRelationType): string => 
   }
 }
 
-export const Route = createFileRoute('/decisions/$decisionId')({
+export const Route = createFileRoute('/_timeline/decisions/$decisionId')({
   loader: ({ params }) => {
     const decision = decisionsById.get(params.decisionId)
     if (!decision) {
@@ -69,17 +70,21 @@ function DecisionPage() {
   })
   const incomingRelations = incomingRelationsByDecisionId.get(decision.id) ?? []
   const hasRelations = outgoingRelations.length > 0 || incomingRelations.length > 0
+  const decisionMonth = decision.date.slice(0, 7)
 
   return (
-    <main className="page-wrap px-4 py-12">
+    <Modal label={decision.title.fr}>
       <p className="kicker m-0">{formatDateLabel(decision.date)}</p>
-      <h1 className="display-title m-0 mt-2 text-3xl font-bold sm:text-4xl">{decision.title.fr}</h1>
+      <h1 className="display-title m-0 mt-2 text-2xl font-bold sm:text-3xl">{decision.title.fr}</h1>
       <div className="mt-4 flex flex-wrap gap-1.5">
         {decisionCategories.map((category) => (
           <Link
             key={category.id}
             to="/categories/$categoryId"
             params={{ categoryId: category.id }}
+            hash={decisionMonth}
+            hashScrollIntoView={false}
+            resetScroll={false}
             className="chip"
           >
             {category.label.fr}
@@ -90,15 +95,16 @@ function DecisionPage() {
             key={politician.id}
             to="/politiciens/$politicianId"
             params={{ politicianId: politician.id }}
+            hash={decisionMonth}
+            hashScrollIntoView={false}
+            resetScroll={false}
             className="chip"
           >
             {politician.full_name}
           </Link>
         ))}
       </div>
-      <p className="mt-6 max-w-2xl text-base leading-7 text-[var(--sea-ink-soft)]">
-        {decision.summary.fr}
-      </p>
+      <p className="mt-6 text-base leading-7 text-[var(--sea-ink-soft)]">{decision.summary.fr}</p>
 
       <section className="mt-8">
         <h2 className="m-0 text-sm font-semibold">Sources</h2>
@@ -121,7 +127,13 @@ function DecisionPage() {
               <li key={`out-${relation.type}-${relation.decision.id}`}>
                 {outgoingRelationLabelFr(relation.type)}
                 {' : '}
-                <Link to="/decisions/$decisionId" params={{ decisionId: relation.decision.id }}>
+                <Link
+                  to="/decisions/$decisionId"
+                  params={{ decisionId: relation.decision.id }}
+                  hash={relation.decision.date.slice(0, 7)}
+                  hashScrollIntoView={false}
+                  resetScroll={false}
+                >
                   {relation.decision.title.fr}
                 </Link>
               </li>
@@ -130,7 +142,13 @@ function DecisionPage() {
               <li key={`in-${relation.type}-${relation.decision.id}`}>
                 {incomingRelationLabelFr(relation.type)}
                 {' : '}
-                <Link to="/decisions/$decisionId" params={{ decisionId: relation.decision.id }}>
+                <Link
+                  to="/decisions/$decisionId"
+                  params={{ decisionId: relation.decision.id }}
+                  hash={relation.decision.date.slice(0, 7)}
+                  hashScrollIntoView={false}
+                  resetScroll={false}
+                >
                   {relation.decision.title.fr}
                 </Link>
               </li>
@@ -138,6 +156,6 @@ function DecisionPage() {
           </ul>
         </section>
       ) : null}
-    </main>
+    </Modal>
   )
 }
