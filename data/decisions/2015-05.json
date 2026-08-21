@@ -46,7 +46,12 @@
           "title": "Déclaration de François Hollande en hommage aux quatre anciens résistants, Panthéon, 27 mai 2015 - Élysée"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "annonce-pantheonisation-resistants-2014"
+        }
+      ]
     }
   ]
 }

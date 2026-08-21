@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2014-11",
+  "decisions": [
+    {
+      "id": "loi-terrorisme-cazeneuve-2014",
+      "date": "2014-11-13",
+      "title": {
+        "fr": "Loi antiterroriste Cazeneuve : interdiction de sortie du territoire et blocage de sites",
+        "en": "Cazeneuve anti-terrorism law: travel bans and website blocking"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-1353 renforçant les dispositions relatives à la lutte contre le terrorisme, répondant aux départs de djihadistes vers la Syrie et l'Irak : création de l'**interdiction administrative de sortie du territoire** (avec retrait du passeport et de la carte d'identité), **blocage administratif des sites** provoquant au terrorisme ou en faisant l'apologie, création du délit d'**entreprise terroriste individuelle** et transfert de l'apologie du terrorisme dans le code pénal.",
+        "en": "Law no. 2014-1353 strengthening anti-terrorism provisions, responding to jihadist departures to Syria and Iraq: creation of the **administrative ban on leaving the territory** (with passport and identity card withdrawal), **administrative blocking of websites** inciting or glorifying terrorism, creation of the offence of **individual terrorist enterprise** and transfer of the glorification of terrorism into the penal code."
+      },
+      "category_ids": ["numerique", "securite"],
+      "politician_ids": ["bernard-cazeneuve", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029754374",
+          "title": "LOI n° 2014-1353 du 13 novembre 2014 renforçant les dispositions relatives à la lutte contre le terrorisme - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-807.html",
+          "title": "Dossier législatif : lutte contre le terrorisme - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-renseignement-2015"
+        }
+      ]
+    },
+    {
+      "id": "loi-organique-destitution-2014",
+      "date": "2014-11-24",
+      "title": {
+        "fr": "Loi organique sur la destitution du président de la République",
+        "en": "Organic law on the removal of the President of the Republic"
+      },
+      "summary": {
+        "fr": "Loi organique n° 2014-1392 portant application de l'article 68 de la Constitution : sept ans après la révision constitutionnelle de 2007, elle rend enfin opérante la **procédure de destitution du chef de l'État** « en cas de manquement à ses devoirs manifestement incompatible avec l'exercice de son mandat » : proposition de réunion de la **Haute Cour** signée par au moins un dixième des membres d'une assemblée, examen dans chaque chambre puis **décision de la Haute Cour à la majorité des deux tiers**.",
+        "en": "Organic law no. 2014-1392 implementing article 68 of the Constitution: seven years after the 2007 constitutional revision, it finally makes operational the **procedure for removing the head of State** \"in the event of a breach of duties manifestly incompatible with the exercise of the mandate\": a motion to convene the **High Court** signed by at least one tenth of the members of a chamber, examination in each house, then a **High Court decision by a two-thirds majority**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["christiane-taubira", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029796562",
+          "title": "LOI organique n° 2014-1392 du 24 novembre 2014 portant application de l'article 68 de la Constitution - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl11-288.html",
+          "title": "Dossier législatif : statut pénal du chef de l'État - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

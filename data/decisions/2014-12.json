@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2014-12",
+  "decisions": [
+    {
+      "id": "presentation-loi-macron-2014",
+      "date": "2014-12-11",
+      "title": {
+        "fr": "Présentation du projet de loi pour la croissance et l'activité (loi Macron)",
+        "en": "Presentation of the growth and activity bill (Macron law)"
+      },
+      "summary": {
+        "fr": "Présenté en conseil des ministres le 10 décembre et déposé le 11 décembre à l'Assemblée nationale, le projet de loi pour la croissance et l'activité est le **premier grand texte d'Emmanuel Macron** : extension du **travail du dimanche** et en soirée, ouverture des lignes d'**autocar longue distance**, réforme des **professions réglementées du droit**, du permis de conduire et de la justice prud'homale. Il sera adopté au moyen de l'**article 49.3** en février 2015 et promulgué en août 2015.",
+        "en": "Presented in the Council of Ministers on 10 December and tabled at the National Assembly on 11 December, the growth and activity bill is **Emmanuel Macron's first major text**: extension of **Sunday and evening work**, opening of **long-distance coach lines**, reform of the **regulated legal professions**, of the driving licence and of labour courts. It will be adopted through **article 49.3** in February 2015 and promulgated in August 2015."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["emmanuel-macron", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/14/dossiers/croissance_activite.asp",
+          "title": "Dossier législatif : projet de loi pour la croissance, l'activité et l'égalité des chances économiques - Assemblée nationale"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-macron-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "49-3-loi-macron-2015"
+        }
+      ]
+    },
+    {
+      "id": "loi-de-finances-2015",
+      "date": "2014-12-29",
+      "title": {
+        "fr": "Loi de finances pour 2015",
+        "en": "2015 budget law"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-1654 de finances pour 2015 : **suppression de la première tranche de l'impôt sur le revenu au taux de 5,5 %** pour alléger l'imposition des ménages modestes, et première annuité du **plan de 50 milliards d'euros d'économies 2015-2017** du pacte de responsabilité. Promulguée le même jour que la loi de programmation des finances publiques 2014-2019 et qu'une seconde loi de finances rectificative pour 2014, après une **censure limitée à trois articles** par le Conseil constitutionnel (décision n° 2014-707 DC).",
+        "en": "Law no. 2014-1654 on the 2015 budget: **abolition of the first 5.5% income tax bracket** to ease taxation on modest households, and first instalment of the responsibility pact's **50 billion euro savings plan for 2015-2017**. Promulgated the same day as the 2014-2019 public finances programming law and a second amending finance law for 2014, after the Constitutional Council **struck down only three articles** (decision no. 2014-707 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["michel-sapin", "christian-eckert", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029988857",
+          "title": "LOI n° 2014-1654 du 29 décembre 2014 de finances pour 2015 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2015.html",
+          "title": "Dossier législatif : projet de loi de finances pour 2015 - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2014/2014707DC.htm",
+          "title": "Décision n° 2014-707 DC du 29 décembre 2014, loi de finances pour 2015 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "programme-stabilite-2014"
+        }
+      ]
+    }
+  ]
+}

@@ -393,7 +393,21 @@
           "to": "2014-08-26"
         }
       ],
-      "profile": null
+      "profile": {
+        "content_hash": "b1f235828f197a9b68b61efc4f93a9f7d8dcd21bffb77abcee789b9211484cdc",
+        "photo": {
+          "path": "/media/politicians/arnaud-montebourg.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Arnaud_Montebourg_-_2022_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Thomas Padilla / European Union, 2023 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Avocat de profession, **Arnaud Montebourg** est une figure de l'aile gauche souverainiste du Parti socialiste. **Député de Saône-et-Loire (1997-2012)** et président du conseil général de Saône-et-Loire (2008-2012), il se fait connaître comme avocat puis comme promoteur de la « démondialisation ». Troisième de la primaire socialiste de 2011, il devient **ministre du Redressement productif (2012-2014)** dans les gouvernements Ayrault, défenseur du « made in France », puis **ministre de l'Économie, du Redressement productif et du Numérique** dans le premier gouvernement Valls (avril-août 2014). Ses critiques publiques contre la politique d'austérité provoquent son **départ du gouvernement en août 2014**, Emmanuel Macron lui succédant à Bercy. Candidat aux primaires de 2017 (troisième au premier tour), il se retire ensuite de la vie politique et **crée plusieurs entreprises dans l'agroalimentaire**, avant une candidature présidentielle pour 2022 abandonnée trois mois avant le scrutin.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Arnaud_Montebourg"
+      }
     },
     {
       "id": "arthur-delaporte",
@@ -545,7 +559,21 @@
           "to": "2014-08-26"
         }
       ],
-      "profile": null
+      "profile": {
+        "content_hash": "fdfc11c5b6cb5737250292b9d503c500ed6f6abdc929afedb554e7608e1217ee",
+        "photo": {
+          "path": "/media/politicians/benoit-hamon.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Beno%C3%AEt_Hamon_place_de_R%C3%A9publique_plan_serr%C3%A9_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Marion Germa"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "**Benoît Hamon** est une figure de l'aile gauche du Parti socialiste. Président du Mouvement des jeunes socialistes (1993-1995), **député européen (2004-2009)** puis porte-parole du PS (2008-2012), il est élu député en 2012 et entre au gouvernement comme **ministre délégué à l'Économie sociale et solidaire et à la Consommation (2012-2014)**, où il porte la **loi consommation de mars 2014** (action de groupe) et prépare la loi sur l'économie sociale et solidaire, puis comme **ministre de l'Éducation nationale (avril-août 2014)**. Écarté du gouvernement Valls II avec Arnaud Montebourg, il devient l'un des « frondeurs ». Vainqueur de la **primaire de 2017 face à Manuel Valls**, il est le candidat du PS à l'élection présidentielle et recueille **6,4 % des voix**. Il quitte ensuite le PS pour fonder **Génération.s** et, retiré de la vie politique partisane, préside **ESS France** depuis 2024.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Beno%C3%AEt_Hamon"
+      }
     },
     {
       "id": "bernard-cazeneuve",
@@ -719,7 +747,21 @@
           "to": "2015-06-17"
         }
       ],
-      "profile": null
+      "profile": {
+        "content_hash": "4d39b708514dcec90e8e9e56dc23621e285b056223e6273c58cd9ee7fd1809b5",
+        "photo": {
+          "path": "/media/politicians/carole-delga.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Delga-Toulouse-Occitanie_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Francois Carbonnel"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "**Fonctionnaire territoriale** de profession, **Carole Delga** rejoint le Parti socialiste en 2004, à l'aile droite du parti. Maire de Martres-Tolosane (2008-2014) et **députée de la Haute-Garonne (2012-2017)**, elle est **secrétaire d'État chargée du Commerce, de l'Artisanat, de la Consommation et de l'Économie sociale et solidaire (2014-2015)** dans les gouvernements Valls. Élue **présidente du conseil régional d'Occitanie en 2015** (réélue en 2021), elle abandonne son siège de députée en 2017 en application du non-cumul des mandats et préside l'association **Régions de France** depuis 2021. Restée au PS, elle s'oppose en interne à la ligne d'union avec La France insoumise.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Carole_Delga"
+      }
     },
     {
       "id": "catherine-colonna",
@@ -811,7 +853,21 @@
           "to": "2014-04-02"
         }
       ],
-      "profile": null
+      "profile": {
+        "content_hash": "8a3eb6f840a69fa5753e84cb062e3dca23dcae28c0639fda0b32e11cdc371064",
+        "photo": {
+          "path": "/media/politicians/cecile-duflot.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Europe_Ecologie_closing_rally_regional_elections_2010-03-10_n11_(cropped).jpg",
+          "license": "CC BY 3.0",
+          "author": "Marie-Lan Nguyen"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "**Cécile Duflot** a dirigé les partis écologistes **Les Verts (2006-2010)** puis **Europe Écologie Les Verts (2010-2012)** comme secrétaire nationale. Conseillère municipale de Villeneuve-Saint-Georges (2004-2014) et conseillère régionale d'Île-de-France (2010-2012), elle devient en 2012 **ministre de l'Égalité des territoires et du Logement**, où elle porte la **loi ALUR de mars 2014** (encadrement des loyers). Elle **quitte le gouvernement en avril 2014**, refusant de participer au gouvernement Valls, et retrouve son siège de **députée de Paris**, coprésidant le groupe écologiste à partir de 2015. Battue à la primaire écologiste de 2016 puis aux législatives de 2017, elle **abandonne la politique en 2018** pour diriger l'ONG **Oxfam France**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/C%C3%A9cile_Duflot"
+      }
     },
     {
       "id": "cedric-o",
@@ -857,7 +913,21 @@
           "to": "2017-05-17"
         }
       ],
-      "profile": null
+      "profile": {
+        "content_hash": "35733eee4b27c607625a37a3d3d8387419a6bde6f90ff061128fe75eef7e0130",
+        "photo": {
+          "path": "/media/politicians/christian-eckert.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Christian_Eckert_(22_mai_2014).jpg",
+          "license": "CC BY-SA 3.0 fr",
+          "author": "Ministère de l’Économie et des Finances"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Membre du Parti socialiste de 1981 à 2021, **Christian Eckert** est **député de Meurthe-et-Moselle (2007-2014)**, où il s'impose comme spécialiste des finances publiques ; il donne son nom à la **loi du 13 juin 2014 sur les comptes bancaires inactifs et l'assurance vie en déshérence**. Il est ensuite **secrétaire d'État chargé du Budget (2014-2017)** auprès du ministre des Finances dans les gouvernements Valls I, Valls II et Cazeneuve, où il conduit les budgets de la fin du quinquennat Hollande.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Christian_Eckert"
+      }
     },
     {
       "id": "christiane-taubira",
@@ -1513,7 +1583,21 @@
           "to": "2014-04-02"
         }
       ],
-      "profile": null
+      "profile": {
+        "content_hash": "4aeda1b24946ca1d4fea4464c822efa74e0deef2551fb0201320dc99b862ce88",
+        "photo": {
+          "path": "/media/politicians/francois-lamy.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Lamy_-_F%C3%A9vrier_2013_(2).jpg",
+          "license": "CC BY 3.0",
+          "author": "Matthieu Riegler"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Membre du Parti socialiste et proche de Martine Aubry, **François Lamy** est **député de l'Essonne (1997-2012, puis 2014-2017)** et **maire de Palaiseau (2001-2012)**. **Ministre délégué à la Ville (2012-2014)** dans les gouvernements Ayrault, il porte la **loi de programmation pour la ville et la cohésion urbaine de février 2014** qui refonde la géographie prioritaire et lance le nouveau programme national de renouvellement urbain. Battu aux législatives de 2017 dans le Nord, il est depuis 2023 **conseiller spécial auprès du maire de Marseille** Benoît Payan.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Lamy"
+      }
     },
     {
       "id": "francois-noel-buffet",
@@ -1643,7 +1727,21 @@
           "to": "2014-08-26"
         }
       ],
-      "profile": null
+      "profile": {
+        "content_hash": "2856a88aff9ea98c97845ccbc2633cbc1ac85b84542b44940256d49503f57946",
+        "photo": {
+          "path": "/media/politicians/frederic-cuvillier.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fr%C3%A9d%C3%A9ric_CUVILLIER,_D%C3%A9put%C3%A9-Maire_de_Boulogne-sur-mer_(crop).jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Frédéric_CUVILLIER,_Député-Maire_de_Boulogne-sur-mer.jpg: Championnet\nderivative work: Jack Rabbit Slim's"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "**Juriste** de formation et membre du Parti socialiste, **Frédéric Cuvillier** est **maire de Boulogne-sur-Mer** (2002-2012, puis de nouveau depuis 2014). **Ministre délégué chargé des Transports, de la Mer et de la Pêche (2012-2014)** dans les gouvernements Ayrault, puis **secrétaire d'État chargé des Transports (avril-août 2014)** dans le gouvernement Valls I, il porte la **réforme ferroviaire d'août 2014** qui crée le groupe public SNCF réunissant SNCF Réseau et SNCF Mobilités.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Cuvillier"
+      }
     },
     {
       "id": "frederic-descrozaille",
@@ -1809,7 +1907,7 @@
           "path": "/media/politicians/george-pau-langevin.jpg",
           "source_url": "https://commons.wikimedia.org/wiki/File:George_Pau-Langevin_-_F%C3%A9vrier_2013_(2).jpg",
           "license": "CC BY 3.0",
-          "author": "English : This photo has been taken by Matthieu Riegler  (User:Kyro) and released under the licenses stated below. You are free to use it for any purpose as long as you credit me as author, Wikimedia Commons as site and follow the terms of the licenses. Could you be kind enough to leave me a message on this page to inform me about your use of this picture.\nExample: © Matthieu Riegler, CC-BY\n\nFrançais : Cette photo a été prise par Matthieu Riegler (User:Kyro) et placée sous les licences ci-dessous. Vous êtes libre de la réutiliser, pour n'importe quelle utilisation, tant que vous me citez en tant qu'auteur, Wikimedia Commons en tant que site et suivez les instructions des licences. Pourriez-vous avoir l'amabilité de me laisser un message sur cette page pour m'informer de votre utilisation de cette image.\nExemple : © Matthieu Riegler, CC-BY\n\n\n\n\nThis file is licensed under the Creative Commons Attribution 3.0 Unported license.Attribution: Matthieu Riegler, CC-by\nYou are free:\nto share – to copy, distribute and transmit the work\nto remix – to adapt the work\nUnder the following conditions:\nattribution – You must give appropriate credit, provide a link to the license, and indicate if changes were made. You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use.\nhttps://creativecommons.org/licenses/by/3.0CC BY 3.0 Creative Commons Attribution 3.0 truetrue\n\n\n\n\nVous souhaitez faire apparaitre cette photo sans crédit ? Contactez moi ! \nIf you want to use the photo without credit, please contact me."
+          "author": "Matthieu Riegler"
         },
         "retrieved_at": "2026-08-21",
         "summary": {
@@ -3835,7 +3933,21 @@
           "to": "2017-05-17"
         }
       ],
-      "profile": null
+      "profile": {
+        "content_hash": "9d7ac280a5806e1c2ab855a4fb17b9f0898554e941274ff3acd41cbeede5f169",
+        "photo": {
+          "path": "/media/politicians/stephane-le-foll.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:St%C3%A9phane_Le_Foll_(2014).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "StagiaireMGIMO"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Membre du Parti socialiste et proche de François Hollande, **Stéphane Le Foll** est **député européen (2004-2012)** puis **député de la Sarthe** à partir de 2012. **Ministre de l'Agriculture, de l'Agroalimentaire et de la Forêt pendant tout le quinquennat Hollande (2012-2017)**, il porte la **loi d'avenir pour l'agriculture d'octobre 2014** et le projet agro-écologique, et cumule cette fonction avec celle de **porte-parole du Gouvernement à partir de 2014**. Réélu député en 2017, il quitte l'Assemblée nationale après son élection comme **maire du Mans en 2018**. Il est battu à la primaire socialiste de 2021.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/St%C3%A9phane_Le_Foll"
+      }
     },
     {
       "id": "stephane-travert",
@@ -4032,14 +4144,28 @@
       "mandates": [
         {
           "role": {
-            "fr": "Député de la 6e circonscription de Saône-et-Loire",
-            "en": "Member of Parliament for Saône-et-Loire's 6th constituency"
+            "fr": "Député de la 1re circonscription de Saône-et-Loire",
+            "en": "Member of Parliament for Saône-et-Loire's 1st constituency"
           },
           "from": "2012-06-20",
           "to": "2017-06-20"
         }
       ],
-      "profile": null
+      "profile": {
+        "content_hash": "1ea70717caae7e4b47add8f8095bc8683f17edf434dd73b0eefc361e6b015131",
+        "photo": {
+          "path": "/media/politicians/thomas-thevenoud.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Thomas_Thevenoud_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Tthevenoud"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Membre du Parti socialiste, **Thomas Thévenoud** est conseiller général de Saône-et-Loire (2008) puis **député de la 1re circonscription de Saône-et-Loire (2012-2017)**. Il donne son nom à la **loi du 1er octobre 2014 sur les taxis et les voitures de transport avec chauffeur**, issue de sa médiation dans le conflit taxis-VTC. Nommé **secrétaire d'État chargé du Commerce extérieur le 26 août 2014**, il est contraint de **démissionner neuf jours plus tard** en raison de ses manquements fiscaux, qu'il attribue à une « phobie administrative », l'un des mandats ministériels les plus courts de la Cinquième République. Il annonce la fin de sa carrière politique en 2017 et rejoint en 2023 un cabinet d'affaires publiques.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Thomas_Th%C3%A9venoud"
+      }
     },
     {
       "id": "valerie-letard",

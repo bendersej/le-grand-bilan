@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2014-02",
+  "decisions": [
+    {
+      "id": "loi-non-cumul-mandats-2014",
+      "date": "2014-02-14",
+      "title": {
+        "fr": "Lois sur le non-cumul des mandats",
+        "en": "Laws banning the accumulation of mandates"
+      },
+      "summary": {
+        "fr": "La loi organique n° 2014-125 et la loi n° 2014-126 **interdisent le cumul d'une fonction exécutive locale** (maire, président ou vice-président d'exécutif local) **avec un mandat de député, de sénateur ou de représentant au Parlement européen**. L'interdiction s'applique à compter du premier renouvellement des assemblées concernées suivant le **31 mars 2017**, mettant fin à une pratique emblématique de la vie politique française.",
+        "en": "Organic law no. 2014-125 and law no. 2014-126 **prohibit combining a local executive office** (mayor, president or vice-president of a local executive) **with a mandate as deputy, senator or member of the European Parliament**. The ban applies from the first renewal of the relevant assemblies after **31 March 2017**, ending an emblematic practice of French political life."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028600521",
+          "title": "LOI organique n° 2014-125 du 14 février 2014 interdisant le cumul de fonctions exécutives locales avec le mandat de député ou de sénateur - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028600565",
+          "title": "LOI n° 2014-126 du 14 février 2014 interdisant le cumul de fonctions exécutives locales avec le mandat de représentant au Parlement européen - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-734.html",
+          "title": "Dossier législatif : cumul des fonctions - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "refonte-vigipirate-2014",
+      "date": "2014-02-20",
+      "title": {
+        "fr": "Refonte du plan Vigipirate",
+        "en": "Overhaul of the Vigipirate plan"
+      },
+      "summary": {
+        "fr": "Un nouveau plan Vigipirate de vigilance, de prévention et de protection entre en vigueur : il **abandonne le code de quatre couleurs** (jaune, orange, rouge, écarlate) au profit de **deux niveaux** (vigilance permanente et alerte attentat), matérialisés par une nouvelle signalétique en triangle rouge, et **rend publique une partie du plan** pour associer collectivités, opérateurs économiques et citoyens.",
+        "en": "A new Vigipirate vigilance, prevention and protection plan comes into force: it **abandons the four-colour code** (yellow, orange, red, scarlet) in favour of **two levels** (permanent vigilance and attack alert), marked by new red-triangle signage, and **makes part of the plan public** to involve local authorities, economic operators and citizens."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE51733.pdf",
+          "title": "Question écrite n° 51733 sur le nouveau plan Vigipirate mis en place le 20 février 2014 - Assemblée nationale"
+        },
+        {
+          "url": "https://www.interieur.gouv.fr/Archives/Archives-des-actualites/2014-Actualites/Un-nouveau-plan-Vigipirate",
+          "title": "Un nouveau plan Vigipirate (2014) - Ministère de l'Intérieur",
+          "bot_walled": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "operation-sentinelle-2015"
+        }
+      ]
+    },
+    {
+      "id": "loi-ville-cohesion-urbaine-2014",
+      "date": "2014-02-21",
+      "title": {
+        "fr": "Loi de programmation pour la ville (loi Lamy)",
+        "en": "Urban policy programming law (Lamy law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-173 de programmation pour la ville et la cohésion urbaine : elle **resserre la géographie prioritaire** de la politique de la ville autour d'un **critère unique de concentration des bas revenus**, remplace les anciens zonages par les **quartiers prioritaires**, crée les **contrats de ville** conclus à l'échelle intercommunale et lance le **nouveau programme national de renouvellement urbain (NPNRU)** pour la période 2014-2024.",
+        "en": "Law no. 2014-173 on urban planning and cohesion: it **tightens the priority geography** of urban policy around a **single criterion of low-income concentration**, replaces the former zonings with **priority neighbourhoods**, creates **city contracts** signed at inter-municipal level and launches the **new national urban renewal programme (NPNRU)** for 2014-2024."
+      },
+      "category_ids": ["economie", "institutions"],
+      "politician_ids": ["francois-lamy", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028636804",
+          "title": "LOI n° 2014-173 du 21 février 2014 de programmation pour la ville et la cohésion urbaine - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-178.html",
+          "title": "Dossier législatif : ville et cohésion urbaine - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "annonce-pantheonisation-resistants-2014",
+      "date": "2014-02-21",
+      "title": {
+        "fr": "Annonce de l'entrée au Panthéon de quatre figures de la Résistance",
+        "en": "Announcement of four Resistance figures entering the Panthéon"
+      },
+      "summary": {
+        "fr": "Au Mont-Valérien, François Hollande annonce sa décision de faire entrer au **Panthéon** quatre grandes figures de l'esprit de résistance : **Germaine Tillion, Geneviève de Gaulle-Anthonioz, Pierre Brossolette et Jean Zay**. La cérémonie d'entrée aura lieu le **27 mai 2015**, journée nationale de la Résistance.",
+        "en": "At Mont-Valérien, François Hollande announces his decision to bring four great figures of the spirit of resistance into the **Panthéon**: **Germaine Tillion, Geneviève de Gaulle-Anthonioz, Pierre Brossolette and Jean Zay**. The induction ceremony will take place on **27 May 2015**, the national day of the Resistance."
+      },
+      "category_ids": ["culture"],
+      "politician_ids": ["francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2014/02/21/declaration-de-m-francois-hollande-president-de-la-republique-en-hommage-a-la-resistance-a-suresnes-le-21-fevrier-2014",
+          "title": "Déclaration de François Hollande en hommage à la Résistance, Suresnes (Mont-Valérien), 21 février 2014 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "pantheon-resistants-2015"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2014-01",
+  "decisions": [
+    {
+      "id": "circulaire-dieudonne-2014",
+      "date": "2014-01-06",
+      "title": {
+        "fr": "Circulaire Valls sur l'interdiction des spectacles de Dieudonné",
+        "en": "Valls circular on banning Dieudonné's shows"
+      },
+      "summary": {
+        "fr": "Manuel Valls adresse aux préfets une circulaire relative à la lutte contre le racisme et l'antisémitisme rappelant les moyens d'**interdire les spectacles de Dieudonné M'Bala M'Bala**. Le 9 janvier, le Conseil d'État, saisi en référé, **valide l'interdiction du spectacle « Le Mur » à Saint-Herblain** (ordonnance n° 374508), en admettant qu'une atteinte à la **dignité de la personne humaine** peut justifier l'interdiction préventive d'une réunion, un infléchissement notable de la jurisprudence sur la police des spectacles.",
+        "en": "Manuel Valls sends prefects a circular on fighting racism and antisemitism recalling the means to **ban shows by Dieudonné M'Bala M'Bala**. On 9 January, the Conseil d'État, ruling in interim proceedings, **upholds the ban on the show \"Le Mur\" in Saint-Herblain** (order no. 374508), accepting that a breach of **human dignity** can justify the preventive ban of a gathering, a notable shift in the case law on policing performances."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2014-01-09/374508",
+          "title": "Ordonnance du 9 janvier 2014, n° 374508, Ministre de l'intérieur c/ Société Les Productions de la Plume - Conseil d'État"
+        },
+        {
+          "url": "https://mobile.interieur.gouv.fr/Archives/Archives-ministres-de-l-Interieur/Archives-Manuel-Valls-mai-2012-avril-2014/Communiques-du-ministre/Circulaire-relative-a-la-lutte-contre-le-racisme-et-l-antisemitisme-lors-de-la-tenue-de-spectacles",
+          "title": "Circulaire du 6 janvier 2014 relative à la lutte contre le racisme et l'antisémitisme lors de la tenue de spectacles - Ministère de l'Intérieur",
+          "bot_walled": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "annonce-pacte-responsabilite-2014",
+      "date": "2014-01-14",
+      "title": {
+        "fr": "Annonce du pacte de responsabilité",
+        "en": "Announcement of the responsibility pact"
+      },
+      "summary": {
+        "fr": "Lors de sa conférence de presse de janvier, François Hollande assume un tournant de politique économique de l'offre : le **pacte de responsabilité** propose aux entreprises d'**alléger leurs charges et leurs contraintes** en échange d'objectifs chiffrés d'embauches, avec la **suppression des cotisations familiales d'ici 2017** (environ **30 milliards d'euros**) et un plan d'**au moins 50 milliards d'euros d'économies** de dépenses publiques sur 2015-2017.",
+        "en": "At his January press conference, François Hollande embraces a supply-side economic turn: the **responsibility pact** offers companies **lighter charges and constraints** in exchange for quantified hiring commitments, with the **elimination of family contributions by 2017** (about **30 billion euros**) and a plan of **at least 50 billion euros in public spending savings** over 2015-2017."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["francois-hollande", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2014/01/14/declaration-de-m-francois-hollande-president-de-la-republique-en-introduction-a-sa-conference-de-presse-sur-la-feuille-de-route-du-gouvernement-pour-2014-a-paris-le-14-janvier-2014",
+          "title": "Déclaration de François Hollande en introduction à sa conférence de presse sur la feuille de route du Gouvernement pour 2014, 14 janvier 2014 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "programme-stabilite-2014"
+        },
+        {
+          "type": "related",
+          "decision_id": "budget-pacte-responsabilite-2014"
+        }
+      ]
+    },
+    {
+      "id": "loi-retraites-touraine-2014",
+      "date": "2014-01-20",
+      "title": {
+        "fr": "Réforme des retraites (loi Touraine)",
+        "en": "Pension reform (Touraine law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-40 garantissant l'avenir et la justice du système de retraites : **allongement progressif de la durée de cotisation à 43 annuités** (172 trimestres) pour les générations nées à partir de 1973, **hausse des cotisations** vieillesse, et création du **compte personnel de prévention de la pénibilité** permettant aux salariés exposés de partir plus tôt, de se former ou de passer à temps partiel.",
+        "en": "Law no. 2014-40 guaranteeing the future and fairness of the pension system: **gradual extension of the contribution period to 43 years** (172 quarters) for generations born from 1973, **increase in pension contributions**, and creation of the **personal arduous-work prevention account** allowing exposed employees to retire earlier, train or move to part time."
+      },
+      "category_ids": ["retraites"],
+      "politician_ids": ["marisol-touraine", "jean-marc-ayrault", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028493476",
+          "title": "LOI n° 2014-40 du 20 janvier 2014 garantissant l'avenir et la justice du système de retraites - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-071.html",
+          "title": "Dossier législatif : garantir l'avenir et la justice du système de retraites - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-maptam-2014",
+      "date": "2014-01-27",
+      "title": {
+        "fr": "Loi MAPTAM : affirmation des métropoles",
+        "en": "MAPTAM law: affirmation of the metropolises"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-58 de modernisation de l'action publique territoriale et d'affirmation des métropoles : création des **métropoles du Grand Paris et d'Aix-Marseille-Provence au 1er janvier 2016**, de la **métropole de Lyon** (collectivité à statut particulier) et de métropoles de droit commun au 1er janvier 2015, **rétablissement de la clause de compétence générale** des départements et régions et désignation de **collectivités chefs de file** par domaine.",
+        "en": "Law no. 2014-58 on the modernisation of territorial public action and the affirmation of metropolises: creation of the **Greater Paris and Aix-Marseille-Provence metropolises on 1 January 2016**, of the **Lyon metropolis** (a special-status authority) and of ordinary metropolises on 1 January 2015, **restoration of the general competence clause** for departments and regions and designation of **lead authorities** per policy area."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["marylise-lebranchu", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028526298",
+          "title": "LOI n° 2014-58 du 27 janvier 2014 de modernisation de l'action publique territoriale et d'affirmation des métropoles - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-495.html",
+          "title": "Dossier législatif : modernisation de l'action publique territoriale et affirmation des métropoles - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "annonce-reforme-territoriale-2014"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-delimitation-regions-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-notre-2015"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2014-05",
+  "decisions": [
+    {
+      "id": "loi-don-jours-repos-2014",
+      "date": "2014-05-09",
+      "title": {
+        "fr": "Loi Mathys : don de jours de repos à un parent d'enfant gravement malade",
+        "en": "Mathys law: donating rest days to the parent of a seriously ill child"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-459 : un salarié peut, **anonymement et sans contrepartie**, **renoncer à des jours de repos non pris au bénéfice d'un collègue** dont l'enfant de moins de vingt ans est atteint d'une maladie, d'un handicap ou victime d'un accident d'une particulière gravité. Le salarié bénéficiaire conserve sa rémunération pendant son absence.",
+        "en": "Law no. 2014-459: an employee may, **anonymously and without compensation**, **give up untaken rest days to a colleague** whose child under twenty is affected by a particularly serious illness, disability or accident. The receiving employee keeps their pay during the absence."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["francois-rebsamen"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028909824",
+          "title": "LOI n° 2014-459 du 9 mai 2014 permettant le don de jours de repos à un parent d'un enfant gravement malade - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl11-301.html",
+          "title": "Dossier législatif : don de jours de repos à un parent d'un enfant gravement malade - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "decret-investissements-etrangers-2014",
+      "date": "2014-05-14",
+      "title": {
+        "fr": "Décret Alstom sur le contrôle des investissements étrangers",
+        "en": "Alstom decree on the control of foreign investments"
+      },
+      "summary": {
+        "fr": "Décret n° 2014-479, dit « décret Alstom » ou « décret Montebourg », pris en pleine bataille autour du rachat de la branche énergie d'Alstom par General Electric : il **étend l'autorisation préalable du ministre de l'Économie** aux investissements étrangers dans les secteurs de l'**énergie, de l'eau, des transports, des communications électroniques et de la santé publique**, ainsi que dans les opérateurs d'importance vitale.",
+        "en": "Decree no. 2014-479, known as the \"Alstom decree\" or \"Montebourg decree\", issued at the height of the battle over General Electric's takeover of Alstom's energy branch: it **extends the Economy Minister's prior authorisation** to foreign investments in **energy, water, transport, electronic communications and public health**, as well as in operators of vital importance."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["arnaud-montebourg", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028933611",
+          "title": "Décret n° 2014-479 du 14 mai 2014 relatif aux investissements étrangers soumis à autorisation préalable - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-florange-2014"
+        }
+      ]
+    },
+    {
+      "id": "loi-droit-information-penale-2014",
+      "date": "2014-05-27",
+      "title": {
+        "fr": "Loi sur le droit à l'information dans les procédures pénales",
+        "en": "Law on the right to information in criminal proceedings"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-535 transposant la directive 2012/13/UE : création du statut de **suspect entendu librement** avec notification de ses droits (assistance d'un avocat, interprète, droit au silence), **information renforcée des personnes gardées à vue** par un document écrit énonçant leurs droits, et **accès élargi des parties au dossier** de la procédure.",
+        "en": "Law no. 2014-535 transposing directive 2012/13/EU: creation of the status of **freely interviewed suspect** with notification of rights (assistance of a lawyer, interpreter, right to remain silent), **strengthened information for persons in police custody** through a written statement of their rights, and **wider access of the parties to the case file**."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["christiane-taubira"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028989964",
+          "title": "LOI n° 2014-535 du 27 mai 2014 portant transposition de la directive 2012/13/UE relative au droit à l'information dans le cadre des procédures pénales - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-303.html",
+          "title": "Dossier législatif : droit à l'information dans le cadre des procédures pénales - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

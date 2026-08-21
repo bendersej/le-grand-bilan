@@ -1,0 +1,58 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2014-09",
+  "decisions": [
+    {
+      "id": "confiance-valls-2-2014",
+      "date": "2014-09-16",
+      "title": {
+        "fr": "Vote de confiance au gouvernement Valls II",
+        "en": "Confidence vote for the second Valls government"
+      },
+      "summary": {
+        "fr": "Cinq mois après le précédent vote, Manuel Valls engage à nouveau la responsabilité de son gouvernement (article 49, alinéa 1) sur une déclaration de politique générale assumant le cap de l'offre. La confiance est votée par **269 voix contre 244**, avec **53 abstentions** : une majorité absolue manquée qui matérialise l'ampleur de la fronde socialiste.",
+        "en": "Five months after the previous vote, Manuel Valls again puts his government's responsibility on the line (article 49, paragraph 1) with a general policy statement upholding the supply-side course. Confidence is granted by **269 votes to 244**, with **53 abstentions**: a missed absolute majority that shows the extent of the Socialist revolt."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/14/cri/2013-2014-extra2/20142009.asp",
+          "title": "Déclaration de politique générale, débat et vote, première séance du 16 septembre 2014 - Assemblée nationale"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "gouvernement-valls-2-2014"
+        }
+      ]
+    },
+    {
+      "id": "engagement-chammal-irak-2014",
+      "date": "2014-09-19",
+      "title": {
+        "fr": "Premières frappes de l'opération Chammal en Irak",
+        "en": "First strikes of Operation Chammal in Iraq"
+      },
+      "summary": {
+        "fr": "François Hollande annonce que des **Rafale ont détruit le matin même un dépôt logistique de Daech dans le nord-est de l'Irak**, premières frappes françaises de l'opération Chammal menées **à la demande des autorités irakiennes**, en appui des forces irakiennes et des peshmergas kurdes. Le Président exclut alors tout engagement de **troupes au sol** et limite l'intervention au territoire irakien, avant son extension à la Syrie en septembre 2015.",
+        "en": "François Hollande announces that **Rafale jets destroyed that morning a Daesh logistics depot in northeastern Iraq**, the first French strikes of Operation Chammal conducted **at the request of the Iraqi authorities**, in support of Iraqi forces and Kurdish peshmerga. The President rules out any **ground troops** and limits the intervention to Iraqi territory, before its extension to Syria in September 2015."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["francois-hollande", "jean-yves-le-drian"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2014/09/19/declaration-de-m-francois-hollande-president-de-la-republique-sur-lintervention-militaire-francaise-en-irak-a-paris-le-19-septembre-2014",
+          "title": "Déclaration de François Hollande sur l'intervention militaire française en Irak, 19 septembre 2014 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "engagement-chammal-syrie-2015"
+        }
+      ]
+    }
+  ]
+}

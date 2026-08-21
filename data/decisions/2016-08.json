@@ -93,7 +93,12 @@
           "title": "Décret du 30 août 2016 relatif à la composition du Gouvernement - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "gouvernement-valls-2-2014"
+        }
+      ]
     }
   ]
 }

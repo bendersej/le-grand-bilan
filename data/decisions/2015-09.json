@@ -60,6 +60,10 @@
         {
           "type": "related",
           "decision_id": "congres-versailles-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "engagement-chammal-irak-2014"
         }
       ]
     },

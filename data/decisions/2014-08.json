@@ -1,0 +1,165 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2014-08",
+  "decisions": [
+    {
+      "id": "loi-reforme-ferroviaire-2014",
+      "date": "2014-08-04",
+      "title": {
+        "fr": "Réforme ferroviaire : création du groupe public SNCF",
+        "en": "Rail reform: creation of the SNCF public group"
+      },
+      "summary": {
+        "fr": "La loi n° 2014-872 portant réforme ferroviaire, adoptée malgré une grève de plusieurs semaines en juin, réunit au **1er janvier 2015** la SNCF et Réseau ferré de France dans un **groupe public ferroviaire** composé de l'EPIC de tête SNCF, de **SNCF Réseau** (gestion unifiée des infrastructures) et de **SNCF Mobilités** (exploitation), avec une règle de maîtrise de l'endettement du réseau ; la loi organique n° 2014-871 encadre la **nomination des dirigeants de la SNCF**.",
+        "en": "Law no. 2014-872 on rail reform, adopted despite a weeks-long strike in June, merges on **1 January 2015** SNCF and Réseau ferré de France into a **public rail group** made of the parent SNCF, **SNCF Réseau** (unified infrastructure management) and **SNCF Mobilités** (operations), with a rule to control network debt; organic law no. 2014-871 governs the **appointment of SNCF executives**."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["frederic-cuvillier", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029330511",
+          "title": "LOI n° 2014-872 du 4 août 2014 portant réforme ferroviaire - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029330506",
+          "title": "LOI organique n° 2014-871 du 4 août 2014 relative à la nomination des dirigeants de la SNCF - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-650.html",
+          "title": "Dossier législatif : réforme ferroviaire - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-egalite-femmes-hommes-2014",
+      "date": "2014-08-04",
+      "title": {
+        "fr": "Loi pour l'égalité réelle entre les femmes et les hommes",
+        "en": "Law for real equality between women and men"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-873, portée par Najat Vallaud-Belkacem : réforme du congé parental avec la **prestation partagée d'éducation de l'enfant** incitant au partage entre les deux parents, **suppression de la condition de « détresse » pour l'IVG** (remplacée par la volonté de la femme), expérimentation d'une **garantie contre les impayés de pensions alimentaires**, **ordonnance de protection allongée de quatre à six mois** pour les victimes de violences et extension des règles de parité.",
+        "en": "Law no. 2014-873, carried by Najat Vallaud-Belkacem: parental leave reform with the **shared child-rearing benefit** encouraging both parents to share leave, **removal of the \"distress\" condition for abortion** (replaced by the woman's choice), an experiment with a **guarantee against unpaid child support**, **protection orders extended from four to six months** for victims of violence and wider parity rules."
+      },
+      "category_ids": ["justice", "travail"],
+      "politician_ids": ["najat-vallaud-belkacem", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029330832",
+          "title": "LOI n° 2014-873 du 4 août 2014 pour l'égalité réelle entre les femmes et les hommes - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-717.html",
+          "title": "Dossier législatif : égalité femmes-hommes - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "budget-pacte-responsabilite-2014",
+      "date": "2014-08-08",
+      "title": {
+        "fr": "Collectifs budgétaires d'août 2014 : première étape du pacte de responsabilité",
+        "en": "August 2014 amending budgets: first stage of the responsibility pact"
+      },
+      "summary": {
+        "fr": "La loi de finances rectificative n° 2014-891 et la loi de financement rectificative de la sécurité sociale n° 2014-892 traduisent le pacte de responsabilité : **réduction d'impôt exceptionnelle pour les ménages modestes**, **allègements renforcés de cotisations patronales au niveau du SMIC** au 1er janvier 2015 et **baisse de la contribution sociale de solidarité des sociétés (C3S)**. Le Conseil constitutionnel **censure la réduction dégressive des cotisations salariales** entre 1 et 1,3 SMIC, jugée contraire à l'égalité (décision n° 2014-698 DC).",
+        "en": "Amending finance law no. 2014-891 and amending social security financing law no. 2014-892 implement the responsibility pact: an **exceptional income tax cut for modest households**, **stronger employer contribution relief at minimum-wage level** from 1 January 2015 and a **cut in the corporate social solidarity contribution (C3S)**. The Constitutional Council **strikes down the degressive employee contribution cut** between 1 and 1.3 times the minimum wage as contrary to equality (decision no. 2014-698 DC)."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["michel-sapin", "christian-eckert", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029349482",
+          "title": "LOI n° 2014-891 du 8 août 2014 de finances rectificative pour 2014 - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029349687",
+          "title": "LOI n° 2014-892 du 8 août 2014 de financement rectificative de la sécurité sociale pour 2014 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2014/2014698DC.htm",
+          "title": "Décision n° 2014-698 DC du 6 août 2014, loi de financement rectificative de la sécurité sociale pour 2014 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "annonce-pacte-responsabilite-2014"
+        }
+      ]
+    },
+    {
+      "id": "loi-individualisation-peines-2014",
+      "date": "2014-08-15",
+      "title": {
+        "fr": "Réforme pénale Taubira : contrainte pénale et fin des peines planchers",
+        "en": "Taubira penal reform: community constraint and end of minimum sentences"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-896 relative à l'individualisation des peines et renforçant l'efficacité des sanctions pénales : création de la **contrainte pénale**, peine de probation en milieu ouvert pour les délits, **suppression des peines planchers** instaurées en 2007 pour les récidivistes, création de la **libération sous contrainte** examinée aux deux tiers de la peine et suppression de la révocation automatique du sursis simple.",
+        "en": "Law no. 2014-896 on the individualisation of sentences and the effectiveness of criminal sanctions: creation of the **community constraint**, an open-environment probation sentence for offences, **repeal of the minimum sentences** introduced in 2007 for repeat offenders, creation of **release under constraint** reviewed at two thirds of the sentence and removal of the automatic revocation of suspended sentences."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["christiane-taubira", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029362502",
+          "title": "LOI n° 2014-896 du 15 août 2014 relative à l'individualisation des peines et renforçant l'efficacité des sanctions pénales - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-596.html",
+          "title": "Dossier législatif : efficacité des sanctions pénales - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "gouvernement-valls-2-2014",
+      "date": "2014-08-26",
+      "title": {
+        "fr": "Gouvernement Valls II : Emmanuel Macron à l'Économie",
+        "en": "Second Valls government: Emmanuel Macron at the Economy"
+      },
+      "summary": {
+        "fr": "Après les critiques publiques d'Arnaud Montebourg contre la politique d'austérité lors de la fête de la rose de Frangy-en-Bresse, François Hollande accepte le 25 août la **démission du gouvernement** et renomme aussitôt Manuel Valls. Le décret du 26 août compose un gouvernement dont sont **écartés les frondeurs Montebourg, Hamon et Filippetti** : **Emmanuel Macron**, ex-banquier d'affaires et secrétaire général adjoint de l'Élysée, devient **ministre de l'Économie, de l'Industrie et du Numérique**, Najat Vallaud-Belkacem première femme ministre de l'Éducation nationale et Fleur Pellerin ministre de la Culture.",
+        "en": "After Arnaud Montebourg's public attacks on austerity policy at the Frangy-en-Bresse rose festival, François Hollande accepts the **government's resignation** on 25 August and immediately reappoints Manuel Valls. The decree of 26 August forms a government **excluding the rebels Montebourg, Hamon and Filippetti**: **Emmanuel Macron**, a former investment banker and deputy secretary-general of the Élysée, becomes **Minister of the Economy, Industry and Digital Affairs**, Najat Vallaud-Belkacem the first woman Minister of National Education and Fleur Pellerin Minister of Culture."
+      },
+      "category_ids": ["economie", "institutions"],
+      "politician_ids": ["francois-hollande", "manuel-valls", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029401541",
+          "title": "Décret du 25 août 2014 relatif à la cessation des fonctions du Gouvernement - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029401544",
+          "title": "Décret du 25 août 2014 portant nomination du Premier ministre - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029405481",
+          "title": "Décret du 26 août 2014 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "gouvernement-valls-1-2014"
+        },
+        {
+          "type": "related",
+          "decision_id": "confiance-valls-2-2014"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-macron-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "demission-macron-2016"
+        }
+      ]
+    }
+  ]
+}

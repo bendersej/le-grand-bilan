@@ -41,6 +41,14 @@
         {
           "type": "related",
           "decision_id": "plan-tout-pour-emploi-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "presentation-loi-macron-2014"
+        },
+        {
+          "type": "related",
+          "decision_id": "gouvernement-valls-2-2014"
         }
       ]
     },
@@ -75,6 +83,10 @@
         {
           "type": "related",
           "decision_id": "loi-communes-nouvelles-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-maptam-2014"
         }
       ]
     },

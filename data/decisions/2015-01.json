@@ -29,6 +29,10 @@
         {
           "type": "related",
           "decision_id": "actualisation-lpm-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "refonte-vigipirate-2014"
         }
       ]
     },
@@ -64,6 +68,14 @@
         {
           "type": "related",
           "decision_id": "loi-notre-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-maptam-2014"
+        },
+        {
+          "type": "related",
+          "decision_id": "annonce-reforme-territoriale-2014"
         }
       ]
     },

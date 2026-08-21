@@ -1,0 +1,178 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2014-03",
+  "decisions": [
+    {
+      "id": "loi-formation-professionnelle-2014",
+      "date": "2014-03-05",
+      "title": {
+        "fr": "Loi sur la formation professionnelle : création du compte personnel de formation",
+        "en": "Vocational training law: creation of the personal training account"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-288 relative à la formation professionnelle, à l'emploi et à la démocratie sociale : création du **compte personnel de formation (CPF)** au **1er janvier 2015**, attaché à la personne et remplaçant le droit individuel à la formation (DIF), **contribution formation unique de 1 %** de la masse salariale pour les entreprises d'au moins dix salariés, **entretien professionnel obligatoire tous les deux ans** et réforme du financement des organisations syndicales et patronales.",
+        "en": "Law no. 2014-288 on vocational training, employment and social democracy: creation of the **personal training account (CPF)** on **1 January 2015**, attached to the person and replacing the individual right to training (DIF), a **single 1% training contribution** on payroll for companies with at least ten employees, a **mandatory career interview every two years** and a reform of the financing of trade unions and employers' organisations."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["michel-sapin", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028683576",
+          "title": "LOI n° 2014-288 du 5 mars 2014 relative à la formation professionnelle, à l'emploi et à la démocratie sociale - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-349.html",
+          "title": "Dossier législatif : formation professionnelle - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-consommation-hamon-2014",
+      "date": "2014-03-17",
+      "title": {
+        "fr": "Loi consommation (loi Hamon) : l'action de groupe",
+        "en": "Consumer law (Hamon law): class actions"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-344 relative à la consommation : introduction de l'**action de groupe** en droit français pour les litiges de consommation, **résiliation des contrats d'assurance à tout moment après un an**, allongement du **délai de rétractation à quatorze jours** pour la vente à distance, encadrement du démarchage téléphonique (liste d'opposition) et renforcement des sanctions contre les clauses abusives. Le Conseil constitutionnel a **censuré le registre national des crédits aux particuliers** (« fichier positif », articles 67 à 72) pour atteinte disproportionnée à la vie privée (décision n° 2014-690 DC).",
+        "en": "Law no. 2014-344 on consumer affairs: introduction of **class actions** into French law for consumer disputes, **termination of insurance contracts at any time after one year**, extension of the **withdrawal period to fourteen days** for distance selling, regulation of telephone canvassing (opt-out list) and stronger sanctions against unfair terms. The Constitutional Council **struck down the national register of consumer credits** (\"positive file\", articles 67 to 72) as a disproportionate breach of privacy (decision no. 2014-690 DC)."
+      },
+      "category_ids": ["economie", "justice"],
+      "politician_ids": ["benoit-hamon", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028738036",
+          "title": "LOI n° 2014-344 du 17 mars 2014 relative à la consommation - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-725.html",
+          "title": "Dossier législatif : consommation - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2014/2014690DC.htm",
+          "title": "Décision n° 2014-690 DC du 13 mars 2014, loi relative à la consommation - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-alur-2014",
+      "date": "2014-03-24",
+      "title": {
+        "fr": "Loi ALUR : accès au logement et urbanisme rénové",
+        "en": "ALUR law: access to housing and renewed urban planning"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-366 pour l'accès au logement et un urbanisme rénové, portée par Cécile Duflot : **encadrement des loyers dans les zones tendues** autour d'un loyer de référence, création de la **garantie universelle des loyers**, **plafonnement des honoraires d'agence** payés par les locataires, lutte renforcée contre l'**habitat indigne** et les marchands de sommeil, et **transfert du plan local d'urbanisme à l'intercommunalité**. Le Conseil constitutionnel a censuré ponctuellement des éléments du dispositif d'encadrement des loyers (décision n° 2014-691 DC).",
+        "en": "Law no. 2014-366 for access to housing and renewed urban planning, carried by Cécile Duflot: **rent control in high-demand areas** around a reference rent, creation of a **universal rent guarantee**, **cap on agency fees** paid by tenants, a stronger fight against **substandard housing** and slumlords, and **transfer of local urban planning to inter-municipal bodies**. The Constitutional Council struck down specific elements of the rent-control mechanism (decision no. 2014-691 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["cecile-duflot", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028772256",
+          "title": "LOI n° 2014-366 du 24 mars 2014 pour l'accès au logement et un urbanisme rénové - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-851.html",
+          "title": "Dossier législatif : logement et urbanisme - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2014/2014691DC.htm",
+          "title": "Décision n° 2014-691 DC du 20 mars 2014, loi pour l'accès au logement et un urbanisme rénové - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-geolocalisation-2014",
+      "date": "2014-03-28",
+      "title": {
+        "fr": "Loi encadrant la géolocalisation judiciaire",
+        "en": "Law regulating judicial geolocation"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-372 relative à la géolocalisation : après deux arrêts de la Cour de cassation du 22 octobre 2013 privant les enquêteurs de base légale, elle **encadre la géolocalisation en temps réel** des téléphones et des véhicules dans les enquêtes, en la réservant aux **infractions d'une gravité suffisante** et en la plaçant **sous le contrôle de l'autorité judiciaire**, l'autorisation du juge des libertés et de la détention devenant nécessaire au-delà des premiers jours en enquête de police.",
+        "en": "Law no. 2014-372 on geolocation: after two Court of Cassation rulings of 22 October 2013 deprived investigators of a legal basis, it **regulates real-time geolocation** of phones and vehicles in investigations, reserving it for **sufficiently serious offences** and placing it **under the control of the judicial authority**, with the liberty and custody judge's authorisation required beyond the first days of a police inquiry."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["christiane-taubira"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028790796",
+          "title": "LOI n° 2014-372 du 28 mars 2014 relative à la géolocalisation - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-257.html",
+          "title": "Dossier législatif : géolocalisation - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-florange-2014",
+      "date": "2014-03-29",
+      "title": {
+        "fr": "Loi Florange sur la reprise des sites rentables",
+        "en": "Florange law on the takeover of profitable sites"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-384 visant à reconquérir l'économie réelle, issue de l'engagement de campagne pris après l'affaire ArcelorMittal à Florange : les entreprises d'au moins mille salariés qui envisagent de fermer un établissement ont l'**obligation de rechercher un repreneur**. Le Conseil constitutionnel a toutefois **censuré les sanctions pécuniaires** et le contrôle du refus de cession par le tribunal de commerce, vidant le dispositif d'une large part de sa portée contraignante (décision n° 2014-692 DC). La loi instaure aussi des **droits de vote double** pour les actionnaires de long terme.",
+        "en": "Law no. 2014-384 to reclaim the real economy, born of the campaign pledge made after the ArcelorMittal Florange affair: companies with at least a thousand employees planning to close a site must **search for a buyer**. The Constitutional Council however **struck down the financial penalties** and the commercial court's review of refusals to sell, stripping the scheme of much of its binding force (decision no. 2014-692 DC). The law also introduces **double voting rights** for long-term shareholders."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["arnaud-montebourg", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028811102",
+          "title": "LOI n° 2014-384 du 29 mars 2014 visant à reconquérir l'économie réelle - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl13-007.html",
+          "title": "Dossier législatif : économie réelle - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2014/2014692DC.htm",
+          "title": "Décision n° 2014-692 DC du 27 mars 2014, loi visant à reconquérir l'économie réelle - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "decret-investissements-etrangers-2014"
+        }
+      ]
+    },
+    {
+      "id": "nomination-valls-premier-ministre-2014",
+      "date": "2014-03-31",
+      "title": {
+        "fr": "Nomination de Manuel Valls à Matignon",
+        "en": "Appointment of Manuel Valls as Prime Minister"
+      },
+      "summary": {
+        "fr": "Au lendemain de la **lourde défaite de la gauche aux élections municipales** des 23 et 30 mars, François Hollande accepte la **démission du gouvernement de Jean-Marc Ayrault** et nomme **Manuel Valls Premier ministre**. Le ministre de l'Intérieur, figure de l'aile droite du Parti socialiste, est chargé de mettre en œuvre le pacte de responsabilité.",
+        "en": "The day after the **left's heavy defeat in the municipal elections** of 23 and 30 March, François Hollande accepts the **resignation of Jean-Marc Ayrault's government** and appoints **Manuel Valls Prime Minister**. The Interior Minister, a figure of the Socialist Party's right wing, is tasked with implementing the responsibility pact."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["francois-hollande", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028811095",
+          "title": "Décret du 31 mars 2014 relatif à la cessation des fonctions du Gouvernement - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028811098",
+          "title": "Décret du 31 mars 2014 portant nomination du Premier ministre - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "gouvernement-valls-1-2014"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2014-10",
+  "decisions": [
+    {
+      "id": "loi-taxis-vtc-2014",
+      "date": "2014-10-01",
+      "title": {
+        "fr": "Loi Thévenoud sur les taxis et les VTC",
+        "en": "Thévenoud law on taxis and chauffeur-driven vehicles"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-1104, issue de la proposition de Thomas Thévenoud après le conflit taxis-VTC du début 2014 : elle **réserve aux taxis la maraude**, y compris électronique, avec un **registre national de disponibilité**, impose aux **voitures de transport avec chauffeur (VTC) la réservation préalable** et le retour à leur base entre deux courses, crée une immatriculation des exploitants VTC et rend incessibles les nouvelles licences de taxi, délivrées gratuitement.",
+        "en": "Law no. 2014-1104, from Thomas Thévenoud's bill after the early 2014 taxi-VTC conflict: it **reserves street hailing for taxis**, including electronic hailing, with a **national availability register**, requires **chauffeur-driven vehicles (VTC) to take prior bookings** and return to base between rides, creates a registration of VTC operators and makes new taxi licences non-transferable and free of charge."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["thomas-thevenoud", "bernard-cazeneuve"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029527162",
+          "title": "LOI n° 2014-1104 du 1er octobre 2014 relative aux taxis et aux voitures de transport avec chauffeur - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl13-720.html",
+          "title": "Dossier législatif : taxis et voitures de transport avec chauffeur - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "abandon-ecotaxe-2014",
+      "date": "2014-10-09",
+      "title": {
+        "fr": "Abandon de l'écotaxe poids lourds et résiliation du contrat Ecomouv'",
+        "en": "Abandonment of the heavy goods vehicle ecotax and termination of the Ecomouv' contract"
+      },
+      "summary": {
+        "fr": "Ségolène Royal annonce le 9 octobre la **suspension sine die de l'écotaxe poids lourds**, déjà gelée depuis octobre 2013 face au mouvement des bonnets rouges, puis le Gouvernement **résilie le 30 octobre le contrat avec la société Ecomouv'** chargée de sa collecte. L'État renonce à un **produit brut attendu de 1,2 milliard d'euros par an**, dont **760 millions destinés à l'AFITF** (financement des infrastructures), compensé pour 2015 par une **hausse de 2 centimes de la TICPE sur le gazole**.",
+        "en": "On 9 October Ségolène Royal announces the **indefinite suspension of the heavy goods vehicle ecotax**, already frozen since October 2013 in the face of the \"bonnets rouges\" movement, then on 30 October the Government **terminates the contract with Ecomouv'**, the company in charge of collection. The State forgoes an **expected gross yield of 1.2 billion euros per year**, including **760 million for the AFITF** (infrastructure financing), offset for 2015 by a **2-cent rise in the TICPE diesel tax**."
+      },
+      "category_ids": ["ecologie", "economie"],
+      "politician_ids": ["segolene-royal", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/14/pdf/cr-dvp/14-15/c1415014.pdf",
+          "title": "Audition d'Alain Vidalies sur les conséquences de la suppression de l'écotaxe poids lourds, commissions du développement durable et des finances, 18 novembre 2014 - Assemblée nationale"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-avenir-agriculture-2014",
+      "date": "2014-10-13",
+      "title": {
+        "fr": "Loi d'avenir pour l'agriculture, l'alimentation et la forêt",
+        "en": "Law on the future of agriculture, food and forestry"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-1170, portée par Stéphane Le Foll : elle inscrit l'**agro-écologie** dans le projet agricole français avec les **groupements d'intérêt économique et environnemental (GIEE)**, **encadre plus strictement les produits phytosanitaires** (interdiction de la publicité grand public) et les antibiotiques vétérinaires, crée le **registre des actifs agricoles**, réforme le contrôle des structures et l'installation des jeunes agriculteurs et renforce la gouvernance de la forêt.",
+        "en": "Law no. 2014-1170, carried by Stéphane Le Foll: it embeds **agro-ecology** in French farm policy with **economic and environmental interest groupings (GIEE)**, **tightens the rules on plant protection products** (ban on advertising to the general public) and veterinary antibiotics, creates the **register of active farmers**, reforms land-structure control and the setting-up of young farmers and strengthens forest governance."
+      },
+      "category_ids": ["agriculture", "ecologie"],
+      "politician_ids": ["stephane-le-foll", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029573022",
+          "title": "LOI n° 2014-1170 du 13 octobre 2014 d'avenir pour l'agriculture, l'alimentation et la forêt - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-279.html",
+          "title": "Dossier législatif : agriculture, alimentation et forêt - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

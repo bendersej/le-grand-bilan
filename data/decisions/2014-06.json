@@ -1,0 +1,90 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2014-06",
+  "decisions": [
+    {
+      "id": "annonce-reforme-territoriale-2014",
+      "date": "2014-06-03",
+      "title": {
+        "fr": "Annonce de la réforme territoriale : de 22 à 14 régions",
+        "en": "Announcement of the territorial reform: from 22 to 14 regions"
+      },
+      "summary": {
+        "fr": "Dans une tribune à la presse quotidienne régionale, « Réformer les territoires pour réformer la France », François Hollande annonce le **passage de 22 à 14 régions métropolitaines** de taille européenne, la **suppression des conseils départementaux à l'horizon 2020**, le relèvement du seuil des intercommunalités à **20 000 habitants au 1er janvier 2017** et le report des élections régionales et départementales à l'**automne 2015**.",
+        "en": "In an op-ed for the regional daily press, \"Reforming the territories to reform France\", François Hollande announces the **reduction from 22 to 14 metropolitan regions** of European scale, the **abolition of departmental councils by 2020**, the raising of the inter-municipality threshold to **20,000 inhabitants on 1 January 2017** and the postponement of regional and departmental elections to **autumn 2015**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["francois-hollande", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2014/06/03/tribune-de-m-francois-hollande-president-de-la-republique-dans-la-presse-quotidienne-regionale-du-3-juin-2014-sur-la-reforme-territoriale-intitulee-reformer-les-territoires-pour-reformer-la-france",
+          "title": "Tribune de François Hollande dans la presse quotidienne régionale sur la réforme territoriale, 3 juin 2014 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-maptam-2014"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-delimitation-regions-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-notre-2015"
+        }
+      ]
+    },
+    {
+      "id": "loi-comptes-inactifs-2014",
+      "date": "2014-06-13",
+      "title": {
+        "fr": "Loi Eckert sur les comptes bancaires inactifs et l'assurance vie en déshérence",
+        "en": "Eckert law on dormant bank accounts and unclaimed life insurance"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-617, issue de la proposition de Christian Eckert : banques et assureurs doivent **recenser chaque année les comptes inactifs et les contrats d'assurance vie non réclamés**, en informer les titulaires, puis **transférer les avoirs à la Caisse des dépôts et consignations** après dix ans d'inactivité (les sommes non réclamées revenant à l'État après trente ans). Entrée en vigueur au **1er janvier 2016**.",
+        "en": "Law no. 2014-617, from Christian Eckert's bill: banks and insurers must **identify dormant accounts and unclaimed life insurance contracts each year**, inform the holders, then **transfer the assets to the Caisse des dépôts et consignations** after ten years of inactivity (unclaimed sums reverting to the State after thirty years). Entry into force on **1 January 2016**."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["christian-eckert", "michel-sapin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029095362",
+          "title": "LOI n° 2014-617 du 13 juin 2014 relative aux comptes bancaires inactifs et aux contrats d'assurance vie en déshérence - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl13-385.html",
+          "title": "Dossier législatif : comptes bancaires inactifs - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-artisanat-commerce-tpe-2014",
+      "date": "2014-06-18",
+      "title": {
+        "fr": "Loi artisanat, commerce et très petites entreprises (loi Pinel)",
+        "en": "Crafts, commerce and very small businesses law (Pinel law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2014-626, préparée par Sylvia Pinel : réforme des **baux commerciaux** avec **plafonnement à 10 % par an des hausses de loyer** lors des révisions et un **droit de préférence du locataire** en cas de vente du local, clarification de la **qualité d'artisan**, rapprochement des régimes du micro-entrepreneur, et rénovation du fonds d'intervention pour les services, l'artisanat et le commerce (FISAC).",
+        "en": "Law no. 2014-626, prepared by Sylvia Pinel: reform of **commercial leases** with a **10% yearly cap on rent increases** upon review and a **tenant's right of first refusal** when the premises are sold, clarification of **craftsman status**, alignment of micro-entrepreneur regimes, and overhaul of the intervention fund for services, crafts and commerce (FISAC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["carole-delga", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000029101502",
+          "title": "LOI n° 2014-626 du 18 juin 2014 relative à l'artisanat, au commerce et aux très petites entreprises - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-376.html",
+          "title": "Dossier législatif : artisanat, commerce et très petites entreprises - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

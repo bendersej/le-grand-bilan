@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2014-04",
+  "decisions": [
+    {
+      "id": "gouvernement-valls-1-2014",
+      "date": "2014-04-02",
+      "title": {
+        "fr": "Formation du gouvernement Valls I",
+        "en": "Formation of the first Valls government"
+      },
+      "summary": {
+        "fr": "Le décret du 2 avril 2014 compose un **gouvernement resserré de seize ministres, strictement paritaire** : **Ségolène Royal** revient à l'Écologie, à l'Énergie et à la Mer, **Arnaud Montebourg** obtient une grande fonction Économie, Redressement productif et Numérique, **Benoît Hamon** l'Éducation nationale et **Michel Sapin** les Finances. Le 8 avril, Manuel Valls obtient la **confiance de l'Assemblée nationale par 306 voix contre 239**.",
+        "en": "The decree of 2 April 2014 forms a **tightened government of sixteen ministers with strict gender parity**: **Ségolène Royal** returns to Ecology, Energy and the Sea, **Arnaud Montebourg** obtains an enlarged Economy, Industrial Renewal and Digital portfolio, **Benoît Hamon** National Education and **Michel Sapin** Finance. On 8 April, Manuel Valls wins the **National Assembly's confidence by 306 votes to 239**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028819395",
+          "title": "Décret du 2 avril 2014 relatif à la composition du Gouvernement - Légifrance"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/14/cri/2013-2014/20140186.asp",
+          "title": "Déclaration de politique générale et vote de confiance, première séance du 8 avril 2014 - Assemblée nationale"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "nomination-valls-premier-ministre-2014"
+        },
+        {
+          "type": "related",
+          "decision_id": "gouvernement-valls-2-2014"
+        }
+      ]
+    },
+    {
+      "id": "programme-stabilite-2014",
+      "date": "2014-04-29",
+      "title": {
+        "fr": "Programme de stabilité 2014-2017 : le plan d'économies de 50 milliards",
+        "en": "2014-2017 stability programme: the 50 billion savings plan"
+      },
+      "summary": {
+        "fr": "En application de l'article 50-1 de la Constitution, l'Assemblée nationale approuve **par 265 voix contre 232** la déclaration du Gouvernement sur le programme de stabilité 2014-2017, qui décline le **plan d'économies de 50 milliards d'euros** sur les dépenses publiques pour 2015-2017 destiné à financer le pacte de responsabilité et le redressement des comptes ; l'abstention d'une partie des députés socialistes révèle la fronde naissante contre la politique de l'offre.",
+        "en": "Under article 50-1 of the Constitution, the National Assembly approves **by 265 votes to 232** the Government's declaration on the 2014-2017 stability programme, which sets out the **50 billion euro savings plan** on public spending for 2015-2017 to finance the responsibility pact and deficit reduction; the abstention of part of the Socialist deputies reveals the nascent revolt against the supply-side policy."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["manuel-valls", "michel-sapin"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/14/cri/2013-2014/20140193.asp",
+          "title": "Déclaration du Gouvernement sur le projet de programme de stabilité 2014-2017, débat et vote, première séance du 29 avril 2014 - Assemblée nationale"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "annonce-pacte-responsabilite-2014"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-de-finances-2015"
+        }
+      ]
+    }
+  ]
+}
