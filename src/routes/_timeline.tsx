@@ -3,6 +3,7 @@ import { useCallback, useState } from 'react'
 import { fr } from 'date-fns/locale'
 import DecisionRow from '../components/DecisionRow'
 import { useLocalized } from '../components/LanguageProvider'
+import { Button } from '../components/ui/button'
 import { Calendar } from '../components/ui/calendar'
 import { Popover, PopoverContent, PopoverTrigger } from '../components/ui/popover'
 import { formatDateLabel, formatMonthLabel } from '../data/format.ts'
@@ -94,9 +95,13 @@ const nearestAvailableMonth = (months: string[], target: Date): string | null =>
   }, null)
 }
 
-// A sticky year/month marker that opens a month+year date picker; picking a day
-// jumps the timeline to the nearest month that has entries. The dropdowns only
-// change the visible grid so browsing never yanks the popover's anchor away.
+const monthKeyOf = (date: Date): string =>
+  `${date.getFullYear()}-${String(date.getMonth() + 1).padStart(2, '0')}`
+
+// A sticky year/month marker that opens a month+year picker (the day grid is
+// hidden: the registry's grain is the month). The dropdowns and chevrons only
+// browse; the button commits the jump to the nearest month that has entries,
+// closing first because the jump scrolls the popover's own anchor away.
 function TimelineMonthPicker({
   months,
   month,
@@ -121,31 +126,29 @@ function TimelineMonthPicker({
   const handleMonthChange = useCallback((nextMonth: Date) => {
     setVisibleMonth(nextMonth)
   }, [])
-  const handleSelect = useCallback(
-    (selectedDay: Date | undefined) => {
-      if (!selectedDay) return
-      const targetMonth = nearestAvailableMonth(months, selectedDay)
-      if (targetMonth === null) return
-      setOpen(false)
-      document.getElementById(targetMonth)?.scrollIntoView()
-    },
-    [months],
-  )
+  const handleJump = useCallback(() => {
+    const targetMonth = nearestAvailableMonth(months, visibleMonth)
+    if (targetMonth === null) return
+    setOpen(false)
+    document.getElementById(targetMonth)?.scrollIntoView()
+  }, [months, visibleMonth])
 
   return (
     <Popover open={open} onOpenChange={handleOpenChange}>
       <PopoverTrigger className={triggerClassName}>{children}</PopoverTrigger>
       <PopoverContent align="start" className="w-auto">
         <Calendar
-          mode="single"
           captionLayout="dropdown"
           locale={fr}
           month={visibleMonth}
           onMonthChange={handleMonthChange}
-          onSelect={handleSelect}
           startMonth={TIMELINE_START}
           endMonth={new Date()}
+          classNames={{ month_grid: 'hidden' }}
         />
+        <Button size="sm" onClick={handleJump}>
+          {`Aller à ${formatMonthLabel(monthKeyOf(visibleMonth))} ${visibleMonth.getFullYear()}`}
+        </Button>
       </PopoverContent>
     </Popover>
   )
@@ -235,11 +238,14 @@ function TimelineLayout() {
                 stick as one "2022 [mai]" line. The sm: top offsets assume the
                 header sits OUTSIDE the scroll container (they are container-
                 relative, not viewport-relative). */}
-            <h2 className="chip-glass display-title sticky top-2 z-20 m-0 w-fit text-2xl font-bold text-[var(--lagoon-deep)] max-sm:rounded-md max-sm:px-1.5 sm:top-4 sm:-translate-x-[calc(100%+3rem)] sm:text-3xl">
+            {/* Font classes sit on the trigger buttons, not the wrappers: the
+                shadcn base stylesheet resets button typography, so inherited
+                marker styles do not survive into the <button>. */}
+            <h2 className="chip-glass sticky top-2 z-20 m-0 w-fit max-sm:rounded-md sm:top-4 sm:-translate-x-[calc(100%+3rem)]">
               <TimelineMonthPicker
                 months={availableMonths}
                 month={timelineYear.months[0]?.month ?? `${timelineYear.year}-01`}
-                triggerClassName="cursor-pointer"
+                triggerClassName="display-title cursor-pointer text-2xl font-bold text-[var(--lagoon-deep)] max-sm:px-1.5 sm:text-3xl"
               >
                 {timelineYear.year}
               </TimelineMonthPicker>
@@ -253,11 +259,11 @@ function TimelineLayout() {
                 {/* Mobile: the marker flows above the rows, indented to land
                     beside the stuck year so the pair reads "2022 [mai]" on one
                     line. Desktop (sm:) keeps the zero-height gutter placement. */}
-                <p className="kicker month-marker sticky top-[0.85rem] z-10 m-0 w-fit pl-[4.5rem] sm:top-[3.8rem] sm:h-0 sm:-translate-x-[calc(100%+3rem)] sm:pl-0">
+                <p className="sticky top-[0.85rem] z-10 m-0 w-fit pl-[4.5rem] sm:top-[3.8rem] sm:h-0 sm:-translate-x-[calc(100%+3rem)] sm:pl-0">
                   <TimelineMonthPicker
                     months={availableMonths}
                     month={timelineMonth.month}
-                    triggerClassName="chip-glass cursor-pointer rounded-md px-1.5 py-0.5"
+                    triggerClassName="kicker month-marker chip-glass cursor-pointer rounded-md px-1.5 py-0.5"
                   >
                     {formatMonthLabel(timelineMonth.month)}
                   </TimelineMonthPicker>
