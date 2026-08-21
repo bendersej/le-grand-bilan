@@ -257,6 +257,18 @@ Shipped alongside: `pnpm run verify:sources`, the committed review-gate verifier
 
 Next: 2012.
 
+## Learnings round 15 (batch 2012, ran 2026-08-21)
+
+Outcome: 43 decisions across all 12 months of the double-transition year (LFR1 TVA sociale, TSCG signature puis ratification + LO HCFP, MES, élection Hollande + proclamations CC PDR, gouvernements Ayrault I/II, retrait d'Afghanistan, abrogation de la circulaire Guéant, décret carrières longues, LFR2 d'août avec l'abrogation de la TVA sociale et la fin des heures sup TEPA, conférence environnementale, censure totale CC 2012-655, emplois d'avenir, pacte de compétitivité → CICE, présentation du mariage pour tous, circulaire Valls, LFSS/LF 2013 + censure de la taxe à 75 %, loi BPI), 7 politicians added with full profiles — the first Sarkozy-side entries (Sarkozy, Fillon, Baroin, Pécresse, Guéant, Mercier) plus Lurel. Two new `bot_walled` sources (pacte de compétitivité PDF, circulaire Valls). Cross-year edges wired on 2013/2017 acting sides (LF 2014 ← LF 2013, Duflot I ← censure 2012-655, mariage pour tous implements sa présentation, Fessenheim ← conférence environnementale). Review gate passed: verify:sources over the changed files = 101 sources, 0 mismatch, 0 unreachable; 5/5 sampled walled Légifrance URLs web-fetch-verified exact; the LFR3/CICE omnibus truncation resolved via CC 2012-661 (article 66 quoted); 683 pages, 537 decisions, 144 politicians. No stall, no neutrality edits.
+
+- CC decision URL casing is era-inconsistent in BOTH directions (2012 DC 301 lowercase→uppercase, some 2012 PDR only lowercase): the round-14 "lowercase for earlier eras" rule was wrong — curl-check both casings per decision. Skill corrected.
+- elysee.fr also carries the full Sarkozy archive (`/nicolas-sarkozy/…`), with truncated transcripts as a trap; Élysée CM compte rendus don't exist for the 2012 era — legacy AN dossier `.asp` pages carry the "Extrait du compte rendu du Conseil des ministres" inline. Both in the skill.
+- Sénat `-syn.pdf` rapport syntheses anchor omnibus headline measures when the Légifrance fetch truncates; AN question PDFs also live on `questions.assemblee-nationale.fr`; image-only préfecture PDF scans are citable but not greppable. All in the skill.
+- Florange (accord Mittal) and la commission du dialogue NDDL left out as unsourceable — candidates for the human pass. Densification candidates recorded: loi retenue-séjour 2012-1560, suspension du bisphénol A.
+- Candidate 2011 backward relations recorded in the batch report (plan de rigueur Fillon ← TVA sociale/LO campagne, circulaire Guéant du 31 mai 2011 ← son abrogation `repeals`, décret encadrement des loyers 2011, réforme des retraites 2010 ← décret carrières longues `amends`, Conseil européen déc. 2011 ← TSCG, LOPPSI 2 ← loi protection de l'identité).
+
+Next: 2011.
+
 ## HANDOVER STATE (2026-08-21, end of session)
 
 - Working tree CLEAN, everything committed and pushed through `[P001] feat: rename politician route slug to responsables`; CI green; live site verified (2014 entries up, `/responsables/` slug serving, old `/politiciens/` 404s by design, "Abroge" labels rendering). No background agent is running.

@@ -41,5 +41,5 @@ If the agent stalls or dies, resume it with "inspect your own partial work first
 ## Known scale marks (update as they move)
 
 - A year takes the agent roughly 25-50 minutes; Wikimedia caps profile captures at ~3-4 per run (60-75s retry loop).
-- Corpus so far: 2013 (32) / 2014 (38) / 2015 (35) / 2016 (32 incl. seed) / 2017 (33 incl. seed) / 2018 (38) / 2019 (37) / 2020 (42) / 2021 (35) / 2022 (39) / 2023 (33) / 2024 (35) / 2025 (34) / 2026 (28). A dense year takes ~40 min. Next: 2012.
+- Corpus so far: 2012 (43) / 2013 (32) / 2014 (38) / 2015 (35) / 2016 (32 incl. seed) / 2017 (33 incl. seed) / 2018 (38) / 2019 (37) / 2020 (42) / 2021 (35) / 2022 (39) / 2023 (33) / 2024 (35) / 2025 (34) / 2026 (28). A dense year takes ~40 min. Next: 2011.
 - Election/transition years cannot honestly fill 2-6 decisions EVERY month (April 2017 yields one): quality keeps priority over the floor.
