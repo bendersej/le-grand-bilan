@@ -1,0 +1,65 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2013-10",
+  "decisions": [
+    {
+      "id": "lois-transparence-vie-publique-2013",
+      "date": "2013-10-11",
+      "title": {
+        "fr": "Lois sur la transparence de la vie publique : création de la HATVP",
+        "en": "Public life transparency laws: creation of the HATVP"
+      },
+      "summary": {
+        "fr": "La loi n° 2013-907 et la loi organique n° 2013-906, réponse législative à l'affaire Cahuzac, créent la **Haute Autorité pour la transparence de la vie publique (HATVP)** : ministres, parlementaires, principaux élus locaux et hauts responsables publics doivent lui adresser des **déclarations de patrimoine et d'intérêts**. Les déclarations d'intérêts sont publiées, le **patrimoine des parlementaires est consultable en préfecture** par les électeurs, et les manquements sont pénalement sanctionnés (jusqu'à trois ans d'emprisonnement et 45 000 euros d'amende). Le Conseil constitutionnel a partiellement censuré les textes le 9 octobre 2013, notamment l'extension des déclarations aux enfants et parents des déclarants.",
+        "en": "Law no. 2013-907 and organic law no. 2013-906, the legislative response to the Cahuzac affair, create the **High Authority for the Transparency of Public Life (HATVP)**: ministers, parliamentarians, main local officials and senior public managers must file **asset and interest declarations** with it. Interest declarations are published, **parliamentarians' assets can be consulted in préfectures** by voters, and breaches carry criminal penalties (up to three years in prison and a 45,000 euro fine). The Constitutional Council partially censored the texts on 9 October 2013, notably the extension of declarations to declarants' children and parents."
+      },
+      "category_ids": ["institutions", "justice"],
+      "politician_ids": ["jean-marc-ayrault", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028056315",
+          "title": "LOI n° 2013-907 du 11 octobre 2013 relative à la transparence de la vie publique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028056223",
+          "title": "LOI organique n° 2013-906 du 11 octobre 2013 relative à la transparence de la vie publique - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2013/2013676DC.htm",
+          "title": "Décision n° 2013-676 DC du 9 octobre 2013 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-689.html",
+          "title": "Dossier législatif : transparence de la vie publique - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "annonce-moralisation-vie-publique-2013"
+        }
+      ]
+    },
+    {
+      "id": "suspension-ecotaxe-2013",
+      "date": "2013-10-29",
+      "title": {
+        "fr": "Suspension de l'écotaxe poids lourds face aux bonnets rouges",
+        "en": "Suspension of the heavy goods vehicle ecotax facing the bonnets rouges"
+      },
+      "summary": {
+        "fr": "Face au mouvement des **bonnets rouges** en Bretagne (manifestations, destructions de portiques de contrôle), Jean-Marc Ayrault annonce le 29 octobre la **suspension de l'écotaxe poids lourds**, qui devait entrer en vigueur au 1er janvier 2014, \"le temps nécessaire à un dialogue au niveau national et régional\". Le **contrat avec la société Écomouv'**, chargée de la collecte, continue cependant de s'exécuter, l'État supportant les coûts du dispositif à l'arrêt.",
+        "en": "Facing the **bonnets rouges** movement in Brittany (demonstrations, destruction of control gantries), Jean-Marc Ayrault announces on 29 October the **suspension of the heavy goods vehicle ecotax**, which was due to enter into force on 1 January 2014, \"for the time needed for a national and regional dialogue\". The **contract with Écomouv'**, the collection company, nevertheless continues to run, with the State bearing the costs of the idle system."
+      },
+      "category_ids": ["ecologie", "economie"],
+      "politician_ids": ["jean-marc-ayrault", "frederic-cuvillier"],
+      "sources": [
+        {
+          "url": "https://www.senat.fr/rap/r13-543-1/r13-543-1_mono.html",
+          "title": "Rapport de la commission d'enquête sur les modalités du montage juridique et financier du contrat Écomouv' - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

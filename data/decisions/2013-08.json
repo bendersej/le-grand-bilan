@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2013-08",
+  "decisions": [
+    {
+      "id": "loi-election-senateurs-2013",
+      "date": "2013-08-02",
+      "title": {
+        "fr": "Réforme de l'élection des sénateurs",
+        "en": "Reform of senatorial elections"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-702, portée par Manuel Valls : la **représentation proportionnelle est étendue aux départements élisant trois sénateurs ou plus** (au lieu de quatre auparavant), ce qui accroît la part des sièges à la proportionnelle et la féminisation du Sénat ; les **binômes candidat-remplaçant doivent être de sexe différent** au scrutin majoritaire et le collège électoral est ajusté pour mieux refléter la population des communes.",
+        "en": "Law no. 2013-702, carried by Manuel Valls: **proportional representation is extended to départements electing three senators or more** (instead of four before), increasing the share of proportional seats and the feminisation of the Senate; **candidate-substitute pairs must be of different sexes** in majority voting and the electoral college is adjusted to better reflect municipal populations."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["manuel-valls", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027799541",
+          "title": "LOI n° 2013-702 du 2 août 2013 relative à l'élection des sénateurs - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-377.html",
+          "title": "Dossier législatif : élection des sénateurs - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-recherche-embryon-2013",
+      "date": "2013-08-06",
+      "title": {
+        "fr": "Autorisation encadrée de la recherche sur l'embryon",
+        "en": "Regulated authorisation of embryo research"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-715 : elle remplace le régime d'**interdiction avec dérogations** de la recherche sur l'embryon et les cellules souches embryonnaires, issu de la loi de bioéthique de 2011, par un régime d'**autorisation encadrée délivrée par l'Agence de la biomédecine**, sous quatre conditions (pertinence scientifique, finalité médicale, absence d'alternative, respect de principes éthiques). La recherche ne porte que sur des **embryons surnuméraires issus de FIV, sans projet parental, avec le consentement écrit du couple**. Le Conseil constitutionnel a jugé la loi conforme (décision n° 2013-674 DC).",
+        "en": "Law no. 2013-715: it replaces the **ban-with-exemptions regime** for research on embryos and embryonic stem cells, inherited from the 2011 bioethics law, with a regime of **regulated authorisation issued by the Biomedicine Agency**, under four conditions (scientific relevance, medical purpose, no alternative, compliance with ethical principles). Research may only involve **surplus IVF embryos with no parental project, with the couple's written consent**. The Constitutional Council upheld the law (decision no. 2013-674 DC)."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["genevieve-fioraso", "marisol-touraine"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027811435",
+          "title": "LOI n° 2013-715 du 6 août 2013 tendant à modifier la loi n° 2011-814 du 7 juillet 2011 relative à la bioéthique en autorisant sous certaines conditions la recherche sur l'embryon et les cellules souches embryonnaires - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2013/2013674DC.htm",
+          "title": "Décision n° 2013-674 DC du 1er août 2013 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl11-576.html",
+          "title": "Dossier législatif : bioéthique - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

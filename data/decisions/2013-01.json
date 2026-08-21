@@ -1,0 +1,77 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2013-01",
+  "decisions": [
+    {
+      "id": "operation-serval-2013",
+      "date": "2013-01-11",
+      "title": {
+        "fr": "Lancement de l'opération Serval au Mali",
+        "en": "Launch of Operation Serval in Mali"
+      },
+      "summary": {
+        "fr": "François Hollande annonce le 11 janvier que les **forces armées françaises interviennent au Mali**, en réponse à la demande d'aide du président malien face à l'offensive de groupes armés djihadistes venus du Nord. L'opération **Serval**, appuyée par les pays d'Afrique de l'Ouest, vise à **stopper l'avancée des groupes terroristes**, sécuriser Bamako où vivent **6 000 ressortissants français** et permettre au Mali de recouvrer son intégrité territoriale.",
+        "en": "On 11 January François Hollande announces that the **French armed forces are intervening in Mali**, in response to the Malian president's request for help against the offensive of jihadist armed groups from the North. Operation **Serval**, backed by West African countries, aims to **stop the advance of terrorist groups**, secure Bamako where **6,000 French nationals** live and allow Mali to recover its territorial integrity."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["francois-hollande", "jean-yves-le-drian"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2013/01/11/declaration-de-m-francois-hollande-president-de-la-republique-sur-lintervention-militaire-au-mali-a-paris-le-11-janvier-2013",
+          "title": "Déclaration de François Hollande sur l'intervention militaire au Mali, 11 janvier 2013 - Élysée"
+        },
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2013/01/12/declaration-de-m-francois-hollande-president-de-la-republique-sur-lintervention-militaire-francaise-au-mali-a-paris-le-12-janvier-2013",
+          "title": "Déclaration de François Hollande sur l'intervention militaire française au Mali, 12 janvier 2013 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-duflot-1-2013",
+      "date": "2013-01-18",
+      "title": {
+        "fr": "Loi Duflot I sur le foncier public et le logement social",
+        "en": "Duflot I law on public land and social housing"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-61, portée par Cécile Duflot : elle **relève de 20 % à 25 % la part de logements sociaux** imposée aux communes par la loi SRU, avec échéance en **2025**, et permet la **cession de terrains publics de l'État avec une décote pouvant atteindre 100 %** de leur valeur lorsqu'ils accueillent du logement social, l'avantage devant être intégralement répercuté sur le prix des logements. Le Conseil constitutionnel a validé le texte le 17 janvier 2013, après avoir censuré pour vice de procédure une première version adoptée en octobre 2012.",
+        "en": "Law no. 2013-61, carried by Cécile Duflot: it **raises from 20% to 25% the share of social housing** required of municipalities under the SRU law, with a **2025** deadline, and allows the **sale of State-owned land with a discount of up to 100%** of its value when social housing is built on it, the benefit having to be passed on in full to housing prices. The Constitutional Council upheld the text on 17 January 2013, after striking down a first version adopted in October 2012 on procedural grounds."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["cecile-duflot", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026954420",
+          "title": "LOI n° 2013-61 du 18 janvier 2013 relative à la mobilisation du foncier public en faveur du logement et au renforcement des obligations de production de logement social - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2013/2012660dc.htm",
+          "title": "Décision n° 2012-660 DC du 17 janvier 2013 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "decret-rythmes-scolaires-2013",
+      "date": "2013-01-24",
+      "title": {
+        "fr": "Réforme des rythmes scolaires : la semaine de 4,5 jours",
+        "en": "School schedule reform: the 4.5-day week"
+      },
+      "summary": {
+        "fr": "Le décret n° 2013-77, pris par Vincent Peillon, réorganise le temps scolaire dans les **écoles maternelles et élémentaires** : retour à une **semaine de vingt-quatre heures d'enseignement réparties sur neuf demi-journées, mercredi matin inclus**, journées limitées et **activités pédagogiques complémentaires** organisées par les communes. La réforme s'applique à la rentrée 2013, avec un report possible à la rentrée 2014 sur demande des communes.",
+        "en": "Decree no. 2013-77, issued by Vincent Peillon, reorganises teaching time in **nursery and elementary schools**: return to a **week of twenty-four teaching hours spread over nine half-days, including Wednesday morning**, capped daily hours and **complementary educational activities** organised by municipalities. The reform applies from the start of the 2013 school year, with a possible deferral to 2014 at the request of municipalities."
+      },
+      "category_ids": ["education"],
+      "politician_ids": ["vincent-peillon", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026979035",
+          "title": "Décret n° 2013-77 du 24 janvier 2013 relatif à l'organisation du temps scolaire dans les écoles maternelles et élémentaires - Légifrance"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

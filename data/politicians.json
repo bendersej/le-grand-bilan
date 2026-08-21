@@ -470,6 +470,36 @@
       }
     },
     {
+      "id": "aurelie-filippetti",
+      "full_name": "Aurélie Filippetti",
+      "party": "Place publique",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Culture et de la Communication",
+            "en": "Minister of Culture and Communication"
+          },
+          "from": "2012-05-16",
+          "to": "2014-08-26"
+        }
+      ],
+      "profile": {
+        "content_hash": "7468b41817da801f62105586523de3489b650f35c27cf01822b10ff7ce4b9b31",
+        "photo": {
+          "path": "/media/politicians/aurelie-filippetti.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Aur%C3%A9lie_Filippetti,_ministre_de_la_Culture_et_de_la_Communication.jpg",
+          "license": "CC BY-SA 3.0 fr",
+          "author": "Didier Plowy/Ministère de la Culture et de la Communication"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique et romancière, membre des Verts puis du Parti socialiste, de Génération.s et enfin de Place publique. **Députée de la Moselle de 2007 à 2012**, elle est **ministre de la Culture et de la Communication de mai 2012 à août 2014** dans les gouvernements Ayrault puis Valls, où elle porte la loi sur l'indépendance de l'audiovisuel public de novembre 2013. Professeure agrégée, elle enseigne à Sciences Po depuis 2017 et devient en 2022 **directrice des affaires culturelles de la ville de Paris**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Aur%C3%A9lie_Filippetti"
+      }
+    },
+    {
       "id": "axelle-lemaire",
       "full_name": "Axelle Lemaire",
       "party": "Parti socialiste",
@@ -580,6 +610,14 @@
       "full_name": "Bernard Cazeneuve",
       "party": null,
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé du Budget",
+            "en": "Minister Delegate for the Budget"
+          },
+          "from": "2013-03-19",
+          "to": "2014-04-02"
+        },
         {
           "role": {
             "fr": "Ministre de l'Intérieur",
@@ -1080,6 +1118,36 @@
       }
     },
     {
+      "id": "delphine-batho",
+      "full_name": "Delphine Batho",
+      "party": "Génération écologie",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Écologie, du Développement durable et de l'Énergie",
+            "en": "Minister of Ecology, Sustainable Development and Energy"
+          },
+          "from": "2012-06-21",
+          "to": "2013-07-02"
+        }
+      ],
+      "profile": {
+        "content_hash": "328050a3a71947267aa3d791abd29803fb53663f2c90316b99bb39822a2b46b3",
+        "photo": {
+          "path": "/media/politicians/delphine-batho.png",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Delphine_Batho_(cropped-2).png",
+          "license": "CC BY-SA 4.0",
+          "author": "DeuxSevres79"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique, d'abord dirigeante syndicale lycéenne (FIDL) et vice-présidente de SOS Racisme, puis cadre du Parti socialiste spécialiste des questions de sécurité. **Députée des Deux-Sèvres depuis 2007**, où elle succède à Ségolène Royal, elle est porte-parole de la campagne de François Hollande en 2012, ministre déléguée à la Justice puis **ministre de l'Écologie, du Développement durable et de l'Énergie de juin 2012 au 2 juillet 2013**, date à laquelle elle est **relevée de ses fonctions après avoir critiqué le budget de son ministère**. De retour à l'Assemblée nationale, elle quitte le PS en 2018 et prend la présidence de **Génération écologie**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Delphine_Batho"
+      }
+    },
+    {
       "id": "didier-guillaume",
       "full_name": "Didier Guillaume",
       "party": null,
@@ -1358,6 +1426,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre déléguée chargée des Petites et Moyennes Entreprises, de l'Innovation et de l'Économie numérique",
+            "en": "Minister Delegate for Small and Medium-Sized Enterprises, Innovation and the Digital Economy"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-09"
+        },
+        {
+          "role": {
             "fr": "Ministre de la Culture et de la Communication",
             "en": "Minister of Culture and Communication"
           },
@@ -1499,6 +1575,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Braun"
+      }
+    },
+    {
+      "id": "francois-brottes",
+      "full_name": "François Brottes",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 5e circonscription de l'Isère",
+            "en": "Member of Parliament for Isère's 5th constituency"
+          },
+          "from": "2012-06-20",
+          "to": "2015-09-01"
+        }
+      ],
+      "profile": {
+        "content_hash": "76aaf909ec8e526a9166393100f191e0ecf1361f2e88d0070105735fae05f163",
+        "photo": {
+          "path": "/media/politicians/francois-brottes.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Brottes_-_Janvier_2012.jpg",
+          "license": "CC BY 3.0",
+          "author": null
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique puis chef d'entreprise, membre du Parti socialiste. **Député de la 5e circonscription de l'Isère de 1997 à 2015** et maire de Crolles de 2005 à 2014, spécialiste des services publics et de l'énergie, il préside la **commission des Affaires économiques de l'Assemblée nationale de 2012 à 2015**. Il donne son nom à la **loi Brottes d'avril 2013** sur la tarification de l'énergie et l'éolien. Il quitte l'Assemblée en 2015 pour présider le **directoire de RTE**, gestionnaire du réseau de transport d'électricité, jusqu'en 2020.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Brottes"
       }
     },
     {
@@ -1885,6 +1991,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Genevi%C3%A8ve_Darrieussecq"
+      }
+    },
+    {
+      "id": "genevieve-fioraso",
+      "full_name": "Geneviève Fioraso",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Enseignement supérieur et de la Recherche",
+            "en": "Minister of Higher Education and Research"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-02"
+        }
+      ],
+      "profile": {
+        "content_hash": "a523ca19a6cd90a6b06b54db1723b66677701de880a0e4574ce0e5c526fcbad9",
+        "photo": {
+          "path": "/media/politicians/genevieve-fioraso.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Genevi%C3%A8ve_Fioraso_-_F%C3%A9vrier_2013.jpg",
+          "license": "CC BY 3.0",
+          "author": null
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique, membre du Parti socialiste de 1983 à 2018, **députée de la 1re circonscription de l'Isère de 2007 à 2017**. Avant ses fonctions nationales, elle dirige la Sem Minatec Entreprises, plateforme de valorisation industrielle dédiée aux micro et nanotechnologies à Grenoble, et est adjointe au maire de Grenoble chargée de l'université et de la recherche. **Ministre de l'Enseignement supérieur et de la Recherche des gouvernements Ayrault (2012-2014)**, elle porte la **loi ESR de juillet 2013**, puis reste secrétaire d'État chargée du même portefeuille dans les gouvernements Valls jusqu'en 2015.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Genevi%C3%A8ve_Fioraso"
       }
     },
     {
@@ -3648,6 +3784,36 @@
       }
     },
     {
+      "id": "pierre-moscovici",
+      "full_name": "Pierre Moscovici",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Économie et des Finances",
+            "en": "Minister of the Economy and Finance"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-02"
+        }
+      ],
+      "profile": {
+        "content_hash": "8d0c7e8b60f8e2a0047d767d7e767e156529f9f6f2d4fcb4c11bc6e08f5a8942",
+        "photo": {
+          "path": "/media/politicians/pierre-moscovici.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Moscovici_EC_Portrait_2014.jpg",
+          "license": "CC BY 4.0",
+          "author": "Georges Boulougouris"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Haut fonctionnaire et homme politique, membre du Parti socialiste jusqu'en 2020. Député européen puis **ministre chargé des Affaires européennes du gouvernement Jospin (1997-2002)**, député du Doubs, il dirige la campagne présidentielle de François Hollande en 2012 avant de devenir **ministre de l'Économie et des Finances des gouvernements Ayrault (2012-2014)**, où il porte la loi de séparation bancaire et les budgets 2013 et 2014. Il est ensuite **commissaire européen aux Affaires économiques et financières (2014-2019)**, puis nommé **premier président de la Cour des comptes** en 2020.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Pierre_Moscovici"
+      }
+    },
+    {
       "id": "rachida-dati",
       "full_name": "Rachida Dati",
       "party": "Les Républicains",
@@ -4233,6 +4399,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Vincent_Jeanbrun"
+      }
+    },
+    {
+      "id": "vincent-peillon",
+      "full_name": "Vincent Peillon",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Éducation nationale",
+            "en": "Minister of National Education"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-02"
+        }
+      ],
+      "profile": {
+        "content_hash": "0e7751c82a70793d82dd3b574ad8059070499f25e84fe8494bc3f7a85edf25e7",
+        "photo": {
+          "path": "/media/politicians/vincent-peillon.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Vincent_Peillon_le_1er_juin_2012_au_rectorat_d%27Orl%C3%A9ans.JPG",
+          "license": "CC0",
+          "author": "Rectorat45"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique et professeur de philosophie, membre dirigeant du Parti socialiste. **Ministre de l'Éducation nationale des gouvernements Ayrault, de mai 2012 à mars 2014**, il porte la **loi de refondation de l'école de juillet 2013** et la réforme des rythmes scolaires. **Député européen de 2004 à 2012 puis de 2014 à 2019**, il est candidat à la primaire citoyenne de 2017, remportée par Benoît Hamon.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Vincent_Peillon"
       }
     },
     {

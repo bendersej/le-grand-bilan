@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2013-09",
+  "decisions": [
+    {
+      "id": "plans-nouvelle-france-industrielle-2013",
+      "date": "2013-09-12",
+      "title": {
+        "fr": "Lancement des 34 plans de la Nouvelle France industrielle",
+        "en": "Launch of the 34 plans of the New Industrial France"
+      },
+      "summary": {
+        "fr": "François Hollande lance à l'Élysée les **34 plans de reconquête industrielle** de la Nouvelle France industrielle, pilotés par Arnaud Montebourg : chaque plan (voiture pour tous consommant moins de 2 litres, usine du futur, objets connectés, santé numérique...) fédère industriels et pouvoirs publics autour d'une filière d'avenir, avec une **revue d'avancement tous les six mois** par le Gouvernement, pour répondre à un **déficit commercial de 60 milliards d'euros** et à la désindustrialisation.",
+        "en": "François Hollande launches at the Élysée the **34 industrial recovery plans** of the New Industrial France, steered by Arnaud Montebourg: each plan (a car for all consuming under 2 litres, factory of the future, connected objects, digital health...) federates industry and public authorities around a future-oriented sector, with a **progress review every six months** by the Government, to address a **60 billion euro trade deficit** and deindustrialisation."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["francois-hollande", "arnaud-montebourg"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2013/09/12/declaration-de-m-francois-hollande-president-de-la-republique-sur-les-priorites-de-politique-industrielle-de-la-france-a-paris-le-12-septembre-2013",
+          "title": "Déclaration de François Hollande sur les priorités de politique industrielle de la France, 12 septembre 2013 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-soins-psychiatriques-2013",
+      "date": "2013-09-27",
+      "title": {
+        "fr": "Réforme des soins psychiatriques sans consentement",
+        "en": "Reform of involuntary psychiatric care"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-869, révisant le régime des soins sans consentement issu de la loi du 5 juillet 2011 : le **juge des libertés et de la détention doit statuer sous douze jours** sur toute hospitalisation complète sans consentement, avec libération automatique au-delà du délai, des **sorties de courte durée** sont organisées (12 heures accompagnées, 48 heures non accompagnées au maximum) et la prise en charge peut prendre des **formes ambulatoires ou à domicile** au-delà de la seule hospitalisation complète.",
+        "en": "Law no. 2013-869, revising the involuntary care regime of the law of 5 July 2011: the **liberty and custody judge must rule within twelve days** on any full involuntary hospitalisation, with automatic release beyond that deadline, **short-term leaves** are organised (up to 12 hours accompanied, 48 hours unaccompanied) and care can take **outpatient or home-based forms** beyond full hospitalisation alone."
+      },
+      "category_ids": ["sante", "justice"],
+      "politician_ids": ["marisol-touraine"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027996629",
+          "title": "LOI n° 2013-869 du 27 septembre 2013 modifiant certaines dispositions issues de la loi n° 2011-803 du 5 juillet 2011 relative aux droits et à la protection des personnes faisant l'objet de soins psychiatriques et aux modalités de leur prise en charge - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl12-817.html",
+          "title": "Dossier législatif : soins psychiatriques - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

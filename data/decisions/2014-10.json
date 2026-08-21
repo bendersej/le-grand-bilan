@@ -46,7 +46,12 @@
           "title": "Audition d'Alain Vidalies sur les conséquences de la suppression de l'écotaxe poids lourds, commissions du développement durable et des finances, 18 novembre 2014 - Assemblée nationale"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "suspension-ecotaxe-2013"
+        }
+      ]
     },
     {
       "id": "loi-avenir-agriculture-2014",

@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2013-03",
+  "decisions": [
+    {
+      "id": "loi-contrat-generation-2013",
+      "date": "2013-03-01",
+      "title": {
+        "fr": "Loi créant le contrat de génération",
+        "en": "Law creating the generation contract"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-185, portée par Michel Sapin : le contrat de génération associe l'**embauche en CDI d'un jeune de moins de 26 ans** (30 ans s'il est reconnu handicapé) au **maintien dans l'emploi d'un salarié de 57 ans ou plus**, avec transmission des compétences. Les entreprises de **moins de 50 salariés** touchent une aide financière, celles de 50 à 299 salariés doivent conclure un accord ou un plan d'action pour en bénéficier, et celles de **300 salariés et plus s'exposent à une pénalité pouvant atteindre 1 % de la masse salariale** à défaut d'accord.",
+        "en": "Law no. 2013-185, carried by Michel Sapin: the generation contract combines the **permanent hiring of a young person under 26** (30 if recognised as disabled) with the **retention in employment of a worker aged 57 or over**, with skills transfer. Companies with **fewer than 50 employees** receive financial aid, those with 50 to 299 employees must conclude an agreement or action plan to qualify, and those with **300 or more employees face a penalty of up to 1% of payroll** without an agreement."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["michel-sapin", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027123803",
+          "title": "LOI n° 2013-185 du 1er mars 2013 portant création du contrat de génération - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-289.html",
+          "title": "Dossier législatif : contrat de génération - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "demission-cahuzac-2013",
+      "date": "2013-03-19",
+      "title": {
+        "fr": "Démission de Jérôme Cahuzac, ministre du Budget",
+        "en": "Resignation of Budget Minister Jérôme Cahuzac"
+      },
+      "summary": {
+        "fr": "Par décret du 19 mars 2013, il est **mis fin aux fonctions de Jérôme Cahuzac**, ministre délégué chargé du Budget, après l'**ouverture d'une information judiciaire pour blanchiment de fraude fiscale** visant un compte bancaire étranger non déclaré. **Bernard Cazeneuve** le remplace au Budget. Le 2 avril, Jérôme Cahuzac avoue publiquement avoir détenu un compte à l'étranger, déclenchant une crise politique majeure et le chantier des lois sur la transparence de la vie publique.",
+        "en": "By decree of 19 March 2013, **Jérôme Cahuzac's duties as Minister Delegate for the Budget are terminated**, after the **opening of a judicial investigation for laundering of tax fraud proceeds** over an undeclared foreign bank account. **Bernard Cazeneuve** replaces him at the Budget. On 2 April, Jérôme Cahuzac publicly admits having held a foreign account, triggering a major political crisis and the drive for the public life transparency laws."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["francois-hollande", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027193988",
+          "title": "Décret du 19 mars 2013 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

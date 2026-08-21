@@ -90,6 +90,10 @@
       ],
       "relations": [
         {
+          "type": "amends",
+          "decision_id": "lpm-2014-2019"
+        },
+        {
           "type": "related",
           "decision_id": "operation-sentinelle-2015"
         }

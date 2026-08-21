@@ -1,0 +1,173 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2013-12",
+  "decisions": [
+    {
+      "id": "operation-sangaris-2013",
+      "date": "2013-12-05",
+      "title": {
+        "fr": "Lancement de l'opération Sangaris en Centrafrique",
+        "en": "Launch of Operation Sangaris in the Central African Republic"
+      },
+      "summary": {
+        "fr": "Le jour de l'adoption à l'unanimité de la **résolution 2127 du Conseil de sécurité de l'ONU**, qui mandate une force africaine pour rétablir la sécurité en Centrafrique, François Hollande annonce l'engagement immédiat de la France en appui : les **600 militaires français déjà sur place** voient leur effectif **doublé en quelques jours**. L'opération **Sangaris**, présentée comme rapide et sans vocation à durer, vise à éviter une catastrophe humanitaire après le renversement du régime et les massacres intercommunautaires.",
+        "en": "On the day the **UN Security Council unanimously adopts resolution 2127**, mandating an African force to restore security in the Central African Republic, François Hollande announces France's immediate engagement in support: the **600 French soldiers already on the ground** see their number **doubled within days**. Operation **Sangaris**, presented as rapid and not meant to last, aims to avert a humanitarian catastrophe after the regime's overthrow and intercommunal massacres."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["francois-hollande", "jean-yves-le-drian"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2013/12/05/declaration-de-m-francois-hollande-president-de-la-republique-sur-la-situation-en-centrafrique-a-paris-le-5-decembre-2013",
+          "title": "Déclaration de François Hollande sur la situation en Centrafrique, 5 décembre 2013 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-fraude-fiscale-pnf-2013",
+      "date": "2013-12-06",
+      "title": {
+        "fr": "Loi contre la fraude fiscale et création du parquet national financier",
+        "en": "Law against tax fraud and creation of the national financial prosecutor's office"
+      },
+      "summary": {
+        "fr": "La loi n° 2013-1117 et la loi organique n° 2013-1115, second volet législatif de l'après-Cahuzac : la **fraude fiscale en bande organisée ou via des comptes à l'étranger** devient une circonstance aggravante punie de **sept ans d'emprisonnement et 2 millions d'euros d'amende**, les **lanceurs d'alerte** signalant des faits de fraude sont protégés contre les représailles professionnelles, les associations anticorruption peuvent se constituer partie civile, et un **procureur de la République financier à compétence nationale** est créé pour la grande délinquance économique et financière. Le Conseil constitutionnel a censuré plusieurs dispositions ponctuelles (décision n° 2013-679 DC).",
+        "en": "Law no. 2013-1117 and organic law no. 2013-1115, the second legislative instalment of the post-Cahuzac drive: **tax fraud in organised groups or through foreign accounts** becomes an aggravating circumstance punished by **seven years in prison and a 2 million euro fine**, **whistleblowers** reporting fraud are protected against professional retaliation, anti-corruption associations can join proceedings as civil parties, and a **national financial public prosecutor** is created for serious economic and financial crime. The Constitutional Council struck down several specific provisions (decision no. 2013-679 DC)."
+      },
+      "category_ids": ["justice", "economie"],
+      "politician_ids": ["christiane-taubira", "bernard-cazeneuve", "pierre-moscovici"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028278976",
+          "title": "LOI n° 2013-1117 du 6 décembre 2013 relative à la lutte contre la fraude fiscale et la grande délinquance économique et financière - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028278945",
+          "title": "LOI organique n° 2013-1115 du 6 décembre 2013 relative au procureur de la République financier - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2013/2013679DC.htm",
+          "title": "Décision n° 2013-679 DC du 4 décembre 2013 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-690.html",
+          "title": "Dossier législatif : lutte contre la fraude fiscale - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "annonce-moralisation-vie-publique-2013"
+        }
+      ]
+    },
+    {
+      "id": "referendum-initiative-partagee-2013",
+      "date": "2013-12-06",
+      "title": {
+        "fr": "Création du référendum d'initiative partagée",
+        "en": "Creation of the shared-initiative referendum"
+      },
+      "summary": {
+        "fr": "La loi organique n° 2013-1114 et la loi n° 2013-1116 mettent en œuvre l'article 11 de la Constitution issu de la révision de 2008 : une proposition de loi soutenue par **au moins un cinquième des parlementaires** puis par **un dixième des électeurs inscrits**, recueillis en neuf mois, doit être examinée par le Parlement dans les six mois, faute de quoi le **président de la République la soumet au référendum**. Le dispositif entre en vigueur le **1er janvier 2015**.",
+        "en": "Organic law no. 2013-1114 and law no. 2013-1116 implement article 11 of the Constitution as revised in 2008: a bill backed by **at least one fifth of parliamentarians** then by **one tenth of registered voters**, collected within nine months, must be examined by Parliament within six months, failing which the **President of the Republic submits it to a referendum**. The mechanism enters into force on **1 January 2015**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["jean-marc-ayrault", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028278925",
+          "title": "LOI organique n° 2013-1114 du 6 décembre 2013 portant application de l'article 11 de la Constitution - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl11-242.html",
+          "title": "Dossier législatif : référendum (application de l'article 11 de la Constitution) - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lpm-2014-2019",
+      "date": "2013-12-18",
+      "title": {
+        "fr": "Loi de programmation militaire 2014-2019",
+        "en": "2014-2019 military programming law"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-1168, portée par Jean-Yves Le Drian : elle programme **185,86 milliards d'euros de crédits budgétaires** pour la mission Défense sur 2014-2019, complétés par **6,1 milliards de ressources exceptionnelles**, et une **réduction de 33 675 équivalents temps plein** des effectifs du ministère sur la période. Son **article 20 organise l'accès administratif aux données de connexion** (identification, factures détaillées, localisation des équipements) pour les services de renseignement, applicable au 1er janvier 2015, disposition vivement contestée par les défenseurs des libertés numériques.",
+        "en": "Law no. 2013-1168, carried by Jean-Yves Le Drian: it programmes **185.86 billion euros of budget appropriations** for the Defence mission over 2014-2019, topped up by **6.1 billion in exceptional resources**, and a **reduction of 33,675 full-time equivalents** in the ministry's workforce over the period. Its **article 20 organises administrative access to connection data** (identification, itemised billing, equipment location) for intelligence services, applicable from 1 January 2015, a provision strongly contested by digital liberties advocates."
+      },
+      "category_ids": ["defense", "numerique"],
+      "politician_ids": ["jean-yves-le-drian", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028338825",
+          "title": "LOI n° 2013-1168 du 18 décembre 2013 relative à la programmation militaire pour les années 2014 à 2019 et portant diverses dispositions concernant la défense et la sécurité nationale - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-822.html",
+          "title": "Dossier législatif : programmation militaire 2014-2019 - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lfss-2014",
+      "date": "2013-12-23",
+      "title": {
+        "fr": "Loi de financement de la sécurité sociale pour 2014",
+        "en": "Social security financing law for 2014"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-1203, portée par Marisol Touraine et Bernard Cazeneuve : elle fixe l'**objectif national de dépenses d'assurance maladie (ONDAM) 2014 à 174,8 milliards d'euros**, dans un contexte de **déficit de la branche maladie estimé à 7,7 milliards d'euros pour 2013**, réforme les prélèvements sur les revenus du placement et instaure de nouvelles contributions de l'industrie pharmaceutique. Le Conseil constitutionnel a censuré plusieurs articles, dont des dispositions sur les clauses de recommandation en prévoyance (décision n° 2013-682 DC).",
+        "en": "Law no. 2013-1203, carried by Marisol Touraine and Bernard Cazeneuve: it sets the **2014 national health insurance spending target (ONDAM) at 174.8 billion euros**, against a **health branch deficit estimated at 7.7 billion euros for 2013**, reforms levies on investment income and introduces new contributions from the pharmaceutical industry. The Constitutional Council struck down several articles, including provisions on recommendation clauses in group insurance (decision no. 2013-682 DC)."
+      },
+      "category_ids": ["sante", "economie"],
+      "politician_ids": ["marisol-touraine", "bernard-cazeneuve"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028372809",
+          "title": "LOI n° 2013-1203 du 23 décembre 2013 de financement de la sécurité sociale pour 2014 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2013/2013682DC.htm",
+          "title": "Décision n° 2013-682 DC du 19 décembre 2013 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/plfss2014.html",
+          "title": "Dossier législatif : loi de financement de la sécurité sociale pour 2014 - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-de-finances-2014",
+      "date": "2013-12-29",
+      "title": {
+        "fr": "Loi de finances pour 2014",
+        "en": "2014 budget law"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-1278, portée par Pierre Moscovici et Bernard Cazeneuve : le budget 2014 crée la **taxe exceptionnelle de 50 % sur la part des rémunérations dépassant 1 million d'euros**, versée par les entreprises pour 2013 et 2014 et plafonnée à 5 % du chiffre d'affaires, version remaniée de la \"taxe à 75 %\" censurée fin 2012, et **abaisse le plafond de l'avantage du quotient familial de 2 000 à 1 500 euros** par demi-part. Le Conseil constitutionnel a validé la taxe sur les hautes rémunérations mais censuré plusieurs articles (décision n° 2013-685 DC).",
+        "en": "Law no. 2013-1278, carried by Pierre Moscovici and Bernard Cazeneuve: the 2014 budget creates the **exceptional 50% tax on the portion of remuneration above 1 million euros**, paid by companies for 2013 and 2014 and capped at 5% of turnover, a reworked version of the \"75% tax\" struck down in late 2012, and **lowers the family quotient tax advantage cap from 2,000 to 1,500 euros** per half-share. The Constitutional Council upheld the high-pay tax but struck down several articles (decision no. 2013-685 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["pierre-moscovici", "bernard-cazeneuve"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028399511",
+          "title": "LOI n° 2013-1278 du 29 décembre 2013 de finances pour 2014 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2013/2013685DC.htm",
+          "title": "Décision n° 2013-685 DC du 29 décembre 2013 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2014.html",
+          "title": "Dossier législatif : budget 2014 - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2013-07",
+  "decisions": [
+    {
+      "id": "limogeage-batho-2013",
+      "date": "2013-07-02",
+      "title": {
+        "fr": "Limogeage de Delphine Batho, ministre de l'Écologie",
+        "en": "Dismissal of Ecology Minister Delphine Batho"
+      },
+      "summary": {
+        "fr": "Par décret du 2 juillet 2013, il est **mis fin aux fonctions de Delphine Batho**, ministre de l'Écologie, du Développement durable et de l'Énergie, au lendemain de ses déclarations qualifiant de **\"mauvais\" le budget 2014 de son ministère**, en baisse. **Philippe Martin** la remplace. C'est le premier renvoi d'un ministre du quinquennat Hollande pour désaccord public avec les arbitrages budgétaires.",
+        "en": "By decree of 2 July 2013, **Delphine Batho's duties as Minister of Ecology, Sustainable Development and Energy are terminated**, the day after she called her ministry's shrinking **2014 budget \"bad\"**. **Philippe Martin** replaces her. It is the first dismissal of a minister of the Hollande presidency for public disagreement with budget decisions."
+      },
+      "category_ids": ["ecologie", "institutions"],
+      "politician_ids": ["francois-hollande", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027650341",
+          "title": "Décret du 2 juillet 2013 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-refondation-ecole-2013",
+      "date": "2013-07-08",
+      "title": {
+        "fr": "Loi Peillon de refondation de l'école de la République",
+        "en": "Peillon law on rebuilding the schools of the Republic"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-595, portée par Vincent Peillon : elle programme la **création de 60 000 postes dans l'enseignement sur cinq ans**, donne la **priorité au primaire**, développe la **scolarisation des enfants de moins de trois ans** dans les territoires défavorisés, crée les **écoles supérieures du professorat et de l'éducation (ESPE)** pour la formation des enseignants et un **service public du numérique éducatif**.",
+        "en": "Law no. 2013-595, carried by Vincent Peillon: it programmes the **creation of 60,000 teaching posts over five years**, gives **priority to primary school**, develops **schooling for children under three** in disadvantaged areas, creates the **higher schools of teaching and education (ESPE)** for teacher training and a **public digital education service**."
+      },
+      "category_ids": ["education"],
+      "politician_ids": ["vincent-peillon", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027677984",
+          "title": "LOI n° 2013-595 du 8 juillet 2013 d'orientation et de programmation pour la refondation de l'école de la République - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-441.html",
+          "title": "Dossier législatif : refondation de l'école de la République - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "decret-rythmes-scolaires-2013"
+        }
+      ]
+    },
+    {
+      "id": "loi-fioraso-esr-2013",
+      "date": "2013-07-22",
+      "title": {
+        "fr": "Loi Fioraso sur l'enseignement supérieur et la recherche",
+        "en": "Fioraso law on higher education and research"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-660, portée par Geneviève Fioraso : elle organise les **regroupements d'universités**, notamment via les **communautés d'universités et établissements (COMUE)**, instaure des **quotas d'accès prioritaires des bacheliers professionnels et technologiques en STS et IUT**, élargit les possibilités d'**enseignement en langue étrangère** dans le cadre de cursus internationaux et crée une **stratégie nationale de la recherche** révisée tous les cinq ans.",
+        "en": "Law no. 2013-660, carried by Geneviève Fioraso: it organises **university groupings**, notably through the **communities of universities and institutions (COMUE)**, sets **priority access quotas for vocational and technological baccalaureate holders in STS and IUT programmes**, broadens **teaching in foreign languages** within international curricula and creates a **national research strategy** revised every five years."
+      },
+      "category_ids": ["education"],
+      "politician_ids": ["genevieve-fioraso", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027735009",
+          "title": "LOI n° 2013-660 du 22 juillet 2013 relative à l'enseignement supérieur et à la recherche - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-614.html",
+          "title": "Dossier législatif : enseignement supérieur et recherche - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-separation-bancaire-2013",
+      "date": "2013-07-26",
+      "title": {
+        "fr": "Loi de séparation et de régulation des activités bancaires",
+        "en": "Law on the separation and regulation of banking activities"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-672, portée par Pierre Moscovici, traduction de l'engagement de campagne de François Hollande sur la séparation bancaire : les banques doivent **cantonner leurs activités spéculatives pour compte propre dans une filiale dédiée**, l'Autorité de contrôle prudentiel devient l'**ACPR, dotée d'un pouvoir de résolution des crises bancaires** (plans préventifs de rétablissement, administrateur provisoire), et les banques sont soumises à une **transparence pays par pays** sur leurs activités et impôts. La loi encadre aussi le trading à haute fréquence et la spéculation sur matières premières agricoles.",
+        "en": "Law no. 2013-672, carried by Pierre Moscovici, delivering François Hollande's campaign pledge on bank separation: banks must **ring-fence their proprietary speculative activities in a dedicated subsidiary**, the prudential supervisor becomes the **ACPR, endowed with bank crisis resolution powers** (preventive recovery plans, provisional administrator), and banks are subject to **country-by-country transparency** on their activities and taxes. The law also regulates high-frequency trading and speculation on agricultural commodities."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["pierre-moscovici", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027754539",
+          "title": "LOI n° 2013-672 du 26 juillet 2013 de séparation et de régulation des activités bancaires - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-365.html",
+          "title": "Dossier législatif : activités bancaires - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

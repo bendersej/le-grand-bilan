@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2013-11",
+  "decisions": [
+    {
+      "id": "loi-silence-vaut-accord-2013",
+      "date": "2013-11-12",
+      "title": {
+        "fr": "Le silence de l'administration vaut désormais acceptation",
+        "en": "Administrative silence now means acceptance"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-1005, portée par Marylise Lebranchu : elle renverse un principe administratif ancien en posant que le **silence gardé pendant deux mois par l'administration sur une demande vaut décision d'acceptation**, et non plus rejet, sauf exceptions (demandes financières, sécurité nationale, décisions non individuelles). La règle s'applique **un an après la promulgation pour l'État** et ses établissements, deux ans pour les collectivités territoriales et les organismes de sécurité sociale. La loi habilite aussi le Gouvernement à simplifier par ordonnances les échanges électroniques avec l'administration.",
+        "en": "Law no. 2013-1005, carried by Marylise Lebranchu: it reverses a long-standing administrative principle by providing that the **administration's silence on a request for two months is deemed acceptance**, no longer rejection, with exceptions (financial requests, national security, non-individual decisions). The rule applies **one year after promulgation for the State** and its bodies, two years for local authorities and social security organisations. The law also empowers the Government to simplify electronic exchanges with the administration by ordinance."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["marylise-lebranchu", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028183023",
+          "title": "LOI n° 2013-1005 du 12 novembre 2013 habilitant le Gouvernement à simplifier les relations entre l'administration et les citoyens - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-664.html",
+          "title": "Dossier législatif : relations entre l'administration et les citoyens - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-independance-audiovisuel-2013",
+      "date": "2013-11-15",
+      "title": {
+        "fr": "Loi sur l'indépendance de l'audiovisuel public",
+        "en": "Law on the independence of public broadcasting"
+      },
+      "summary": {
+        "fr": "La loi n° 2013-1028 et sa loi organique n° 2013-1026, portées par Aurélie Filippetti, retirent au président de la République le pouvoir de nommer les dirigeants de l'audiovisuel public, instauré en 2009 : les **présidents de France Télévisions, Radio France et France Médias Monde sont désormais nommés par le CSA**. Le CSA devient une **autorité publique indépendante** dont les membres sont désignés par le président de la République (une nomination) et, pour six d'entre eux, par les présidents de l'Assemblée nationale et du Sénat.",
+        "en": "Law no. 2013-1028 and its organic law no. 2013-1026, carried by Aurélie Filippetti, strip the President of the Republic of the power, introduced in 2009, to appoint the heads of public broadcasting: the **presidents of France Télévisions, Radio France and France Médias Monde are now appointed by the CSA**. The CSA becomes an **independent public authority** whose members are designated by the President of the Republic (one appointment) and, for six of them, by the presidents of the National Assembly and the Senate."
+      },
+      "category_ids": ["culture", "institutions"],
+      "politician_ids": ["aurelie-filippetti", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000028199587",
+          "title": "LOI n° 2013-1028 du 15 novembre 2013 relative à l'indépendance de l'audiovisuel public - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-816.html",
+          "title": "Dossier législatif : indépendance de l'audiovisuel - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

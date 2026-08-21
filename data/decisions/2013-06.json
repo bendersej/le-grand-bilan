@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2013-06",
+  "decisions": [
+    {
+      "id": "loi-securisation-emploi-2013",
+      "date": "2013-06-14",
+      "title": {
+        "fr": "Loi de sécurisation de l'emploi (transposition de l'ANI)",
+        "en": "Employment security law (transposing the national inter-professional agreement)"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-504, portée par Michel Sapin, transposant l'accord national interprofessionnel du 11 janvier 2013 : **généralisation de la complémentaire santé d'entreprise à tous les salariés d'ici le 1er janvier 2016**, création des **droits rechargeables à l'assurance chômage** et du **compte personnel de formation** transférable, **accords de maintien de l'emploi** en cas de graves difficultés conjoncturelles, refonte des licenciements collectifs avec **validation ou homologation administrative des plans de sauvegarde de l'emploi**, et entrée de représentants des salariés dans les conseils d'administration des grandes entreprises. Le Conseil constitutionnel a censuré les **clauses de désignation** des organismes de prévoyance (décision n° 2013-672 DC).",
+        "en": "Law no. 2013-504, carried by Michel Sapin, transposing the national inter-professional agreement of 11 January 2013: **company-based complementary health coverage extended to all employees by 1 January 2016**, creation of **rechargeable unemployment benefit rights** and of the transferable **personal training account**, **job preservation agreements** in case of serious economic difficulties, an overhaul of collective redundancies with **administrative validation or approval of job protection plans**, and employee representatives joining the boards of large companies. The Constitutional Council struck down the **designation clauses** for group insurance providers (decision no. 2013-672 DC)."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["michel-sapin", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027546648",
+          "title": "LOI n° 2013-504 du 14 juin 2013 relative à la sécurisation de l'emploi - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2013/2013672DC.htm",
+          "title": "Décision n° 2013-672 DC du 13 juin 2013 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-489.html",
+          "title": "Dossier législatif : sécurisation de l'emploi - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-deblocage-participation-2013",
+      "date": "2013-06-28",
+      "title": {
+        "fr": "Déblocage exceptionnel de la participation et de l'intéressement",
+        "en": "Exceptional early release of profit-sharing savings"
+      },
+      "summary": {
+        "fr": "Loi n° 2013-561 : pour soutenir la consommation, les salariés peuvent **débloquer par anticipation, entre le 1er juillet et le 31 décembre 2013, jusqu'à 20 000 euros** de participation et d'intéressement affectés avant le 1er janvier 2013, nets de prélèvements sociaux, en une seule fois, pour financer l'**achat de biens ou de prestations de services**. Les sommes investies en entreprises solidaires sont exclues du dispositif.",
+        "en": "Law no. 2013-561: to support consumption, employees can make an **early withdrawal, between 1 July and 31 December 2013, of up to 20,000 euros** of profit-sharing and incentive savings allocated before 1 January 2013, net of social levies, in a single operation, to finance the **purchase of goods or services**. Sums invested in solidarity enterprises are excluded from the scheme."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["michel-sapin", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000027625094",
+          "title": "LOI n° 2013-561 du 28 juin 2013 portant déblocage exceptionnel de la participation et de l'intéressement - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl12-559.html",
+          "title": "Dossier législatif : déblocage exceptionnel de la participation et de l'intéressement - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -46,7 +46,12 @@
           "title": "Déclaration de François Hollande sur les interventions militaires françaises en Afrique, N'Djamena, 19 juillet 2014 - Élysée"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "repeals",
+          "decision_id": "operation-serval-2013"
+        }
+      ]
     },
     {
       "id": "loi-ess-2014",

@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2013-02",
+  "decisions": [
+    {
+      "id": "accord-budget-ue-2014-2020-2013",
+      "date": "2013-02-08",
+      "title": {
+        "fr": "Accord européen sur le cadre financier pluriannuel 2014-2020",
+        "en": "European agreement on the 2014-2020 multiannual financial framework"
+      },
+      "summary": {
+        "fr": "Au Conseil européen des 7 et 8 février, François Hollande accepte pour la France un budget pluriannuel de l'Union européenne 2014-2020 fixé à **960 milliards d'euros d'engagements** et **908,4 milliards d'euros de crédits de paiement**, un cadre en baisse par rapport à la demande initiale de la Commission, assorti d'une **clause de flexibilité maximale** entre exercices et entre catégories de dépenses défendue par Paris.",
+        "en": "At the European Council of 7 and 8 February, François Hollande accepts for France a 2014-2020 European Union multiannual budget set at **960 billion euros in commitments** and **908.4 billion euros in payment appropriations**, a framework lower than the Commission's initial request, together with a **maximum flexibility clause** across years and spending categories championed by Paris."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2013/02/09/conference-de-presse-de-m-francois-hollande-president-de-la-republique-sur-le-budget-de-lunion-europeenne-a-bruxelles-le-9-fevrier-2013",
+          "title": "Conférence de presse de François Hollande sur le budget de l'Union européenne, Bruxelles, 9 février 2013 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "plan-france-tres-haut-debit-2013",
+      "date": "2013-02-20",
+      "title": {
+        "fr": "Lancement du plan France Très Haut Débit",
+        "en": "Launch of the France Très Haut Débit broadband plan"
+      },
+      "summary": {
+        "fr": "À Clermont-Ferrand, François Hollande lance le plan France Très Haut Débit : **20 milliards d'euros d'investissements sur dix ans** pour couvrir l'intégralité du territoire en très haut débit, partagés entre les opérateurs privés pour les zones rentables, les **réseaux d'initiative publique des collectivités** et **plus de 6 milliards d'euros de l'État et des collectivités** pour les zones les moins denses. Le pilotage opérationnel est confié à la ministre déléguée à l'Économie numérique, Fleur Pellerin.",
+        "en": "In Clermont-Ferrand, François Hollande launches the France Très Haut Débit plan: **20 billion euros of investment over ten years** to cover the whole country with superfast broadband, shared between private operators for profitable areas, **publicly initiated local networks** and **more than 6 billion euros from the State and local authorities** for the least dense areas. Operational steering is entrusted to the Minister Delegate for the Digital Economy, Fleur Pellerin."
+      },
+      "category_ids": ["numerique"],
+      "politician_ids": ["francois-hollande", "fleur-pellerin"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2013/02/20/declaration-de-m-francois-hollande-president-de-la-republique-sur-la-politique-economique-du-gouvernement-et-sur-le-developpement-du-tres-haut-debit-a-clermont-ferrand-puy-de-dome-le-20-fevrier-2013",
+          "title": "Déclaration de François Hollande sur le développement du très haut débit, Clermont-Ferrand, 20 février 2013 - Élysée"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}
