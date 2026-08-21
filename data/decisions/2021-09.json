@@ -29,6 +29,30 @@
       ]
     },
     {
+      "id": "rappel-ambassadeurs-aukus-2021",
+      "date": "2021-09-17",
+      "title": {
+        "fr": "Rappel des ambassadeurs aux États-Unis et en Australie (crise AUKUS)",
+        "en": "Recall of the ambassadors to the United States and Australia (AUKUS crisis)"
+      },
+      "summary": {
+        "fr": "À la suite de l'annonce du pacte de sécurité **AUKUS** (États-Unis, Royaume-Uni, Australie) et de la **rupture par l'Australie du contrat des 12 sous-marins** commandés à Naval Group, la France **rappelle pour consultations ses ambassadeurs à Washington et à Canberra**, une **première dans l'histoire des relations franco-américaines**. La décision est annoncée par Jean-Yves Le Drian à la demande du président de la République ; les ambassadeurs regagnent leur poste après l'entretien Macron-Biden du 22 septembre.",
+        "en": "Following the announcement of the **AUKUS** security pact (United States, United Kingdom, Australia) and **Australia's cancellation of the 12-submarine contract** placed with Naval Group, France **recalled its ambassadors to Washington and Canberra for consultations, a first in the history of Franco-American relations**. The decision was announced by Jean-Yves Le Drian at the request of the President; the ambassadors returned after the Macron-Biden call of 22 September."
+      },
+      "category_ids": ["defense", "institutions"],
+      "politician_ids": ["jean-yves-le-drian", "emmanuel-macron"],
+      "sources": [],
+      "missing_sources": {
+        "reason": "link_rot",
+        "note": {
+          "fr": "Le communiqué de Jean-Yves Le Drian du 17 septembre 2021 publié sur diplomatie.gouv.fr redirige désormais vers une page générique du site ; aucune copie officielle exacte n'est restée en ligne.",
+          "en": "The 17 September 2021 communiqué by Jean-Yves Le Drian published on diplomatie.gouv.fr now redirects to a generic page of the site; no exact official copy remains online."
+        },
+        "expired_url": "https://www.diplomatie.gouv.fr/fr/dossiers-pays/etats-unis/evenements/article/communique-de-jean-yves-le-drian-ministre-de-l-europe-et-des-affaires"
+      },
+      "relations": []
+    },
+    {
       "id": "discours-pardon-harkis-2021",
       "date": "2021-09-20",
       "title": {
