@@ -1,0 +1,168 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2010-03",
+  "decisions": [
+    {
+      "id": "arrete-catastrophe-naturelle-xynthia-2010",
+      "date": "2010-03-01",
+      "title": {
+        "fr": "État de catastrophe naturelle après la tempête Xynthia",
+        "en": "State of natural disaster after storm Xynthia"
+      },
+      "summary": {
+        "fr": "Deux jours après la tempête Xynthia, qui a fait **47 morts** dans la nuit du 27 au 28 février, l'arrêté interministériel du 1er mars 2010 **reconnaît l'état de catastrophe naturelle** pour les inondations, coulées de boue et chocs mécaniques liés à l'action des vagues dans les départements de **Charente-Maritime, Vendée, Deux-Sèvres et Vienne**, ouvrant l'indemnisation des sinistrés au titre du régime des catastrophes naturelles.",
+        "en": "Two days after storm Xynthia, which killed **47 people** in the night of 27 to 28 February, the interministerial order of 1 March 2010 **recognises a state of natural disaster** for the floods, mudslides and wave impacts in the départements of **Charente-Maritime, Vendée, Deux-Sèvres and Vienne**, opening compensation for victims under the natural disaster insurance scheme."
+      },
+      "category_ids": ["ecologie", "securite"],
+      "politician_ids": ["brice-hortefeux", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021889160",
+          "title": "Arrêté du 1er mars 2010 portant reconnaissance de l'état de catastrophe naturelle - Légifrance"
+        },
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2010/03/01/declaration-de-m-nicolas-sarkozy-president-de-la-republique-sur-laction-du-gouvernement-en-faveur-des-victimes-de-la-tempete-xintia-la-rochelle-le-1er-mars-2010",
+          "title": "Déclaration de Nicolas Sarkozy sur l'action du gouvernement en faveur des victimes de la tempête Xynthia, La Rochelle, 1er mars 2010 - Élysée"
+        },
+        {
+          "url": "https://www.senat.fr/rap/r09-647-1/r09-647-1_mono.html",
+          "title": "Rapport n° 647 (2009-2010) de la mission commune d'information sur les conséquences de la tempête Xynthia - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-anti-bandes-2010",
+      "date": "2010-03-02",
+      "title": {
+        "fr": "Loi anti-bandes : délit de participation à un groupement violent",
+        "en": "Anti-gang law: offence of taking part in a violent group"
+      },
+      "summary": {
+        "fr": "La loi n° 2010-201, portée par Brice Hortefeux, crée un **délit de participation à un groupement, même temporaire, formé en vue de commettre des violences contre les personnes ou des destructions de biens**, puni d'**un an d'emprisonnement et 15 000 euros d'amende**, et renforce la protection pénale des personnes chargées d'une mission de service public. Le Conseil constitutionnel a censuré l'article 5, qui permettait la transmission à la police des images de vidéosurveillance des parties communes d'immeubles d'habitation (décision n° 2010-604 DC).",
+        "en": "Law no. 2010-201, carried by Brice Hortefeux, creates an **offence of taking part in a group, even a temporary one, formed to prepare violence against persons or destruction of property**, punishable by **one year in prison and a 15,000 euro fine**, and strengthens the criminal protection of public service workers. The Constitutional Council struck down article 5, which allowed CCTV footage of residential buildings' common areas to be passed to the police (decision no. 2010-604 DC)."
+      },
+      "category_ids": ["securite", "justice"],
+      "politician_ids": ["brice-hortefeux", "michele-alliot-marie", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021897659",
+          "title": "LOI n° 2010-201 du 2 mars 2010 renforçant la lutte contre les violences de groupes et la protection des personnes chargées d'une mission de service public - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2010/2010604DC.htm",
+          "title": "Décision n° 2010-604 DC du 25 février 2010 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl08-506.html",
+          "title": "Dossier législatif : violences de groupe - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lfr-investissements-avenir-2010",
+      "date": "2010-03-09",
+      "title": {
+        "fr": "Grand emprunt : 35 milliards d'euros d'investissements d'avenir",
+        "en": "National loan: 35 billion euros of future investments"
+      },
+      "summary": {
+        "fr": "La première loi de finances rectificative pour 2010 (n° 2010-237) met en œuvre le **grand emprunt national** voulu par Nicolas Sarkozy : elle ouvre **près de 35 milliards d'euros de crédits pour les « investissements d'avenir »**, fléchés vers l'enseignement supérieur et la recherche, les filières industrielles, le numérique et le développement durable. Les fonds, gérés par conventions avec des opérateurs comme l'ANR ou la Caisse des dépôts, sont placés sous la surveillance d'un **commissariat général à l'investissement** et d'un comité associant des parlementaires.",
+        "en": "The first amending budget law for 2010 (no. 2010-237) implements the **national loan** championed by Nicolas Sarkozy: it opens **close to 35 billion euros of appropriations for \"future investments\"**, directed to higher education and research, industrial sectors, digital technology and sustainable development. The funds, managed through agreements with operators such as the ANR or the Caisse des dépôts, are overseen by a **general commissariat for investment** and a committee including members of Parliament."
+      },
+      "category_ids": ["economie", "education"],
+      "politician_ids": ["eric-woerth", "christine-lagarde", "nicolas-sarkozy"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021943745",
+          "title": "LOI n° 2010-237 du 9 mars 2010 de finances rectificative pour 2010 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/rap/l09-278/l09-278_mono.html",
+          "title": "Rapport n° 278 (2009-2010) de la commission des finances sur la loi de finances rectificative (emprunt national) - Sénat"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-276.html",
+          "title": "Dossier législatif : loi de finances rectificative pour 2010 - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-service-civique-2010",
+      "date": "2010-03-10",
+      "title": {
+        "fr": "Création du service civique",
+        "en": "Creation of the civic service"
+      },
+      "summary": {
+        "fr": "La loi n° 2010-241, portée par Martin Hirsch, crée le **service civique** : un **engagement volontaire de six à douze mois ouvert aux jeunes de 16 à 25 ans** auprès d'associations ou de collectivités, **indemnisé chaque mois** et valorisé dans les parcours de formation. Une **Agence du service civique** est chargée de l'agrément des missions, de la promotion du dispositif et de la mixité sociale des volontaires.",
+        "en": "Law no. 2010-241, carried by Martin Hirsch, creates the **civic service**: a **voluntary commitment of six to twelve months open to young people aged 16 to 25** with charities or local authorities, **paid a monthly allowance** and recognised in education pathways. A **Civic Service Agency** is tasked with approving missions, promoting the scheme and ensuring the social diversity of volunteers."
+      },
+      "category_ids": ["education"],
+      "politician_ids": ["martin-hirsch", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021954325",
+          "title": "LOI n° 2010-241 du 10 mars 2010 relative au service civique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl08-612.html",
+          "title": "Dossier législatif : service civique - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-recidive-criminelle-2010",
+      "date": "2010-03-10",
+      "title": {
+        "fr": "Loi sur la récidive criminelle : surveillance de sûreté élargie",
+        "en": "Criminal recidivism law: broader post-sentence supervision"
+      },
+      "summary": {
+        "fr": "Adoptée après l'affaire de Milly-la-Forêt, la loi n° 2010-242, portée par Michèle Alliot-Marie, durcit le suivi des criminels jugés dangereux : la **surveillance de sûreté est portée d'un à deux ans renouvelables** et son seuil abaissé aux peines d'au moins quinze ans de réclusion, la **rétention de sûreté** reste possible en dernier recours, et le **refus d'un traitement inhibiteur de libido** (dit de castration chimique) proposé dans le cadre d'une injonction de soins peut entraîner la réincarcération. Elle crée aussi un répertoire des expertises des personnes poursuivies et interdit aux condamnés de paraître au domicile de leur victime.",
+        "en": "Passed after the Milly-la-Forêt case, law no. 2010-242, carried by Michèle Alliot-Marie, tightens the monitoring of offenders deemed dangerous: **post-sentence supervision is extended from one to two renewable years** and its threshold lowered to sentences of at least fifteen years, **preventive detention** remains available as a last resort, and **refusing a libido-inhibiting treatment** (so-called chemical castration) offered under a care injunction can lead back to prison. It also creates a register of expert assessments and bans convicted offenders from appearing at their victim's home."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["michele-alliot-marie", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021954436",
+          "title": "LOI n° 2010-242 du 10 mars 2010 tendant à amoindrir le risque de récidive criminelle et portant diverses dispositions de procédure pénale - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-111.html",
+          "title": "Dossier législatif : récidive criminelle - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "abandon-taxe-carbone-2010",
+      "date": "2010-03-24",
+      "title": {
+        "fr": "Abandon de la taxe carbone",
+        "en": "Abandonment of the carbon tax"
+      },
+      "summary": {
+        "fr": "Au lendemain de la défaite de la majorité aux élections régionales, le gouvernement **renonce à la taxe carbone**, annoncée comme une réforme majeure du quinquennat et déjà **censurée par le Conseil constitutionnel le 29 décembre 2009** pour ses exemptions massives. François Fillon l'annonce aux députés UMP le 23 mars ; Nicolas Sarkozy confirme le lendemain qu'il **subordonne toute taxe carbone intérieure à la création d'une taxe aux frontières de l'Europe**, renvoyant le projet sine die.",
+        "en": "The day after the majority's defeat in the regional elections, the government **drops the carbon tax**, announced as a flagship reform of the presidential term and already **struck down by the Constitutional Council on 29 December 2009** over its massive exemptions. François Fillon announced it to UMP deputies on 23 March; Nicolas Sarkozy confirmed the next day that he **makes any domestic carbon tax conditional on a carbon tax at Europe's borders**, shelving the project indefinitely."
+      },
+      "category_ids": ["ecologie", "economie"],
+      "politician_ids": ["nicolas-sarkozy", "francois-fillon", "jean-louis-borloo"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2010/03/24/declaration-de-m-nicolas-sarkozy-president-de-la-republique-sur-la-poursuite-des-reformes-engagees-par-le-gouvernement-depuis-2007-a-paris-le-24-mars-2010",
+          "title": "Déclaration de Nicolas Sarkozy sur la poursuite des réformes, Paris, 24 mars 2010 - Élysée"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2009/2009599DC.htm",
+          "title": "Décision n° 2009-599 DC du 29 décembre 2009 (censure de la taxe carbone) - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

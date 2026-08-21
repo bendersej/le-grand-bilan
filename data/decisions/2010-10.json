@@ -1,0 +1,65 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2010-10",
+  "decisions": [
+    {
+      "id": "loi-interdiction-dissimulation-visage-2010",
+      "date": "2010-10-11",
+      "title": {
+        "fr": "Interdiction de la dissimulation du visage dans l'espace public (loi burqa)",
+        "en": "Ban on face concealment in public spaces (burqa ban)"
+      },
+      "summary": {
+        "fr": "La loi n° 2010-1192, portée par Michèle Alliot-Marie, **interdit de dissimuler son visage dans l'ensemble de l'espace public**, visant notamment le voile intégral (burqa, niqab). La méconnaissance de l'interdiction, applicable après six mois de pédagogie (avril 2011), est punie de l'**amende prévue pour les contraventions de deuxième classe** et d'un éventuel stage de citoyenneté ; **imposer à autrui de se dissimuler le visage devient un délit puni d'un an d'emprisonnement et 30 000 euros d'amende** (doublés si la victime est mineure). Le Conseil constitutionnel a validé la loi sous réserve des lieux de culte ouverts au public (décision n° 2010-613 DC).",
+        "en": "Law no. 2010-1192, carried by Michèle Alliot-Marie, **bans concealing one's face anywhere in public space**, targeting in particular the full-face veil (burqa, niqab). Breaching the ban, applicable after a six-month education period (April 2011), is punished by the **fine for second-class petty offences** and a possible citizenship course; **forcing someone to cover their face becomes an offence punishable by one year in prison and a 30,000 euro fine** (doubled when the victim is a minor). The Constitutional Council upheld the law with a reservation for places of worship open to the public (decision no. 2010-613 DC)."
+      },
+      "category_ids": ["institutions", "securite"],
+      "politician_ids": ["michele-alliot-marie", "francois-fillon", "nicolas-sarkozy"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022911670",
+          "title": "LOI n° 2010-1192 du 11 octobre 2010 interdisant la dissimulation du visage dans l'espace public - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2010/2010613DC.htm",
+          "title": "Décision n° 2010-613 DC du 7 octobre 2010 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-675.html",
+          "title": "Dossier législatif : dissimulation du visage dans l'espace public - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-regulation-bancaire-financiere-2010",
+      "date": "2010-10-22",
+      "title": {
+        "fr": "Loi de régulation bancaire et financière",
+        "en": "Banking and financial regulation law"
+      },
+      "summary": {
+        "fr": "Traduisant les engagements du G20 après la crise financière, la loi n° 2010-1249, portée par Christine Lagarde, crée un **conseil de régulation financière et du risque systémique**, place les **agences de notation sous le contrôle de l'AMF**, **encadre les ventes à découvert** en exigeant du vendeur des assurances raisonnables sur sa capacité à livrer les titres, renforce les pouvoirs de sanction de l'AMF et ratifie l'ordonnance créant l'**Autorité de contrôle prudentiel**.",
+        "en": "Translating G20 commitments after the financial crisis, law no. 2010-1249, carried by Christine Lagarde, creates a **council for financial regulation and systemic risk**, places **rating agencies under the AMF's supervision**, **regulates short selling** by requiring sellers to have reasonable assurance they can deliver the securities, strengthens the AMF's sanctioning powers and ratifies the ordinance creating the **Prudential Supervisory Authority**."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["christine-lagarde", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022940663",
+          "title": "LOI n° 2010-1249 du 22 octobre 2010 de régulation bancaire et financière - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-555.html",
+          "title": "Dossier législatif : régulation bancaire - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "ordonnance-autorite-controle-prudentiel-2010"
+        }
+      ]
+    }
+  ]
+}

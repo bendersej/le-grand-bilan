@@ -104,7 +104,12 @@
           "title": "Rapport n° 787 (2010-2011) de la commission des finances sur la deuxième LFR 2011, détaillant les décisions du 21 juillet - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "creation-fesf-2010"
+        }
+      ]
     },
     {
       "id": "prime-partage-profits-2011",
@@ -158,7 +163,12 @@
           "title": "Dossier législatif : première loi de finances rectificative pour 2011 - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "lfr-garantie-fesf-2010"
+        }
+      ]
     }
   ]
 }

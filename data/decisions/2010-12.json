@@ -1,0 +1,169 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2010-12",
+  "decisions": [
+    {
+      "id": "loi-nome-2010",
+      "date": "2010-12-07",
+      "title": {
+        "fr": "Loi NOME : nouvelle organisation du marché de l'électricité",
+        "en": "NOME law: new organisation of the electricity market"
+      },
+      "summary": {
+        "fr": "Pour répondre aux exigences européennes d'ouverture du marché, la loi n° 2010-1488 crée l'**accès régulé à l'électricité nucléaire historique (ARENH)** : EDF est tenue de **céder une part de sa production nucléaire à ses concurrents** à un prix régulé reflétant les coûts du parc, afin qu'ils puissent proposer des offres compétitives. La loi programme aussi la **fin des tarifs réglementés pour les grands consommateurs professionnels au 31 décembre 2015**, seuls les sites de moins de 36 kVA les conservant.",
+        "en": "To meet European market-opening requirements, law no. 2010-1488 creates **regulated access to historical nuclear electricity (ARENH)**: EDF must **sell part of its nuclear output to its competitors** at a regulated price reflecting the fleet's costs, so they can offer competitive deals. The law also schedules the **end of regulated tariffs for large business consumers on 31 December 2015**, with only sites below 36 kVA keeping them."
+      },
+      "category_ids": ["energie", "economie"],
+      "politician_ids": ["eric-besson", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023174854",
+          "title": "LOI n° 2010-1488 du 7 décembre 2010 portant nouvelle organisation du marché de l'électricité - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-556.html",
+          "title": "Dossier législatif : marché de l'électricité - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lois-departementalisation-mayotte-2010",
+      "date": "2010-12-07",
+      "title": {
+        "fr": "Départementalisation de Mayotte",
+        "en": "Mayotte becomes a département"
+      },
+      "summary": {
+        "fr": "La loi organique n° 2010-1486 et la loi n° 2010-1487, portées par Marie-Luce Penchard, organisent la **départementalisation de Mayotte**, approuvée par les Mahorais lors de la consultation de 2009 : à compter de la première réunion suivant le **renouvellement de son conseil général en 2011**, le **Département de Mayotte** remplace la collectivité départementale, avec une **assemblée unique exerçant à la fois les compétences d'un département et d'une région** et une convergence progressive vers le droit commun.",
+        "en": "Organic law no. 2010-1486 and law no. 2010-1487, carried by Marie-Luce Penchard, organise **Mayotte's transformation into a département**, approved by its voters in the 2009 referendum: from the first meeting after the **renewal of its general council in 2011**, the **Département de Mayotte** replaces the previous collectivity, with a **single assembly exercising both departmental and regional powers** and a progressive alignment on mainland law."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["marie-luce-penchard", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023174540",
+          "title": "LOI organique n° 2010-1486 du 7 décembre 2010 relative au Département de Mayotte - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023174577",
+          "title": "LOI n° 2010-1487 du 7 décembre 2010 relative au Département de Mayotte - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-687.html",
+          "title": "Dossier législatif : Département de Mayotte (loi organique) - Sénat"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-688.html",
+          "title": "Dossier législatif : Département de Mayotte - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-reforme-collectivites-territoriales-2010",
+      "date": "2010-12-16",
+      "title": {
+        "fr": "Réforme des collectivités territoriales : conseiller territorial et métropoles",
+        "en": "Territorial reform: territorial councillor and métropoles"
+      },
+      "summary": {
+        "fr": "La loi n° 2010-1563 crée le **conseiller territorial**, élu unique appelé à remplacer en 2014 les conseillers généraux et régionaux, institue les **métropoles** pour les agglomérations de plus de 500 000 habitants et les **communes nouvelles**, impose l'**achèvement de la carte intercommunale**, et spécialise les compétences des départements et des régions. Le Conseil constitutionnel a validé l'essentiel mais censuré le **tableau de répartition des conseillers territoriaux** pour rupture d'égalité démographique (décision n° 2010-618 DC), corrigé par une loi de juillet 2011 ; le conseiller territorial sera finalement abrogé en 2013 avant toute élection.",
+        "en": "Law no. 2010-1563 creates the **territorial councillor**, a single official meant to replace departmental and regional councillors in 2014, establishes **métropoles** for urban areas above 500,000 inhabitants and **new communes**, mandates the **completion of the intermunicipal map**, and specialises the powers of départements and regions. The Constitutional Council upheld the core of the law but struck down the **seat-allocation table for territorial councillors** over demographic inequality (decision no. 2010-618 DC), fixed by a July 2011 law; the territorial councillor was ultimately repealed in 2013 before any election."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["brice-hortefeux", "francois-fillon", "nicolas-sarkozy"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023239624",
+          "title": "LOI n° 2010-1563 du 16 décembre 2010 de réforme des collectivités territoriales - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2010/2010618DC.htm",
+          "title": "Décision n° 2010-618 DC du 9 décembre 2010 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-060.html",
+          "title": "Dossier législatif : collectivités territoriales - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-concomitance-mandats-locaux-2010"
+        }
+      ]
+    },
+    {
+      "id": "lfss-2011",
+      "date": "2010-12-20",
+      "title": {
+        "fr": "Loi de financement de la sécurité sociale pour 2011",
+        "en": "Social security financing law for 2011"
+      },
+      "summary": {
+        "fr": "La loi n° 2010-1594, portée par Xavier Bertrand et François Baroin, organise l'apurement des déficits de crise : elle autorise le **transfert à la CADES de 68 milliards d'euros de déficits 2009-2011** et de **62 milliards supplémentaires des branches vieillesse entre 2011 et 2018** (dans la limite de 10 milliards par an), en utilisant l'allongement de quatre ans permis par la loi organique du 13 novembre. Elle fixe l'**objectif national de dépenses d'assurance maladie à 162,4 milliards d'euros** et amorce le basculement des ressources du fonds de réserve des retraites vers la CADES. Le Conseil constitutionnel a validé la loi (décision n° 2010-620 DC).",
+        "en": "Law no. 2010-1594, carried by Xavier Bertrand and François Baroin, deals with the crisis-era deficits: it authorises the **transfer to CADES of 68 billion euros of 2009-2011 deficits** and **62 billion more from the pension branches between 2011 and 2018** (capped at 10 billion a year), using the four-year extension allowed by the 13 November organic law. It sets the **national health spending objective at 162.4 billion euros** and starts redirecting the pension reserve fund's resources to CADES. The Constitutional Council upheld the law (decision no. 2010-620 DC)."
+      },
+      "category_ids": ["sante", "economie"],
+      "politician_ids": ["xavier-bertrand", "francois-baroin", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023261006",
+          "title": "LOI n° 2010-1594 du 20 décembre 2010 de financement de la sécurité sociale pour 2011 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2010/2010620DC.htm",
+          "title": "Décision n° 2010-620 DC du 16 décembre 2010 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/rap/l10-088-1/l10-088-1_mono.html",
+          "title": "Rapport n° 88 (2010-2011) de la commission des affaires sociales sur le projet de loi de financement de la sécurité sociale pour 2011 - Sénat"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/plfss2011.html",
+          "title": "Dossier législatif : loi de financement de la sécurité sociale pour 2011 - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "loi-organique-dette-sociale-2010"
+        }
+      ]
+    },
+    {
+      "id": "loi-de-finances-2011",
+      "date": "2010-12-29",
+      "title": {
+        "fr": "Loi de finances pour 2011 : premier budget de rigueur",
+        "en": "2011 budget law: first austerity budget"
+      },
+      "summary": {
+        "fr": "La loi n° 2010-1657, portée par François Baroin, engage la réduction du déficit creusé par la crise, avec un **déficit budgétaire prévu de 91,6 milliards d'euros** (198,2 milliards de recettes nettes pour 286,4 milliards de dépenses nettes) : elle applique un **« rabot » réduisant l'avantage de nombreuses niches fiscales** et met en œuvre la règle du **« gel en valeur » des dépenses** posée par la loi de programmation des finances publiques 2011-2014. Le Conseil constitutionnel a censuré plusieurs cavaliers budgétaires (décision n° 2010-622 DC).",
+        "en": "Law no. 2010-1657, carried by François Baroin, starts reducing the crisis-driven deficit, with a **planned budget deficit of 91.6 billion euros** (198.2 billion of net revenue against 286.4 billion of net spending): it applies an across-the-board **\"shave\" cutting the benefit of many tax breaks** and implements the **nominal spending freeze** set by the 2011-2014 public finance programming law. The Constitutional Council struck down several budget riders (decision no. 2010-622 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["francois-baroin", "christine-lagarde", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023314376",
+          "title": "LOI n° 2010-1657 du 29 décembre 2010 de finances pour 2011 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2010/2010622DC.htm",
+          "title": "Décision n° 2010-622 DC du 28 décembre 2010 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/rap/l10-111-1/l10-111-1_mono.html",
+          "title": "Rapport général n° 111 (2010-2011) de la commission des finances sur le projet de loi de finances pour 2011 - Sénat"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2011.html",
+          "title": "Dossier législatif : loi de finances pour 2011 - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

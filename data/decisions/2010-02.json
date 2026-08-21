@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2010-02",
+  "decisions": [
+    {
+      "id": "loi-inceste-code-penal-2010",
+      "date": "2010-02-08",
+      "title": {
+        "fr": "Inscription de l'inceste dans le code pénal",
+        "en": "Writing incest into the criminal code"
+      },
+      "summary": {
+        "fr": "La loi n° 2010-121 **inscrit pour la première fois la notion d'inceste dans le code pénal** : les viols et agressions sexuelles sont qualifiés d'incestueux lorsqu'ils sont commis au sein de la famille par un ascendant, un frère, une sœur ou toute personne ayant une autorité sur le mineur. Elle rend obligatoire la désignation d'un **administrateur ad hoc** pour représenter l'enfant victime et impose aux juridictions de se prononcer sur le **retrait de l'autorité parentale**. La définition de l'inceste sera censurée en septembre 2011 par une décision QPC pour imprécision, avant d'être réécrite en 2016.",
+        "en": "Law no. 2010-121 **writes the notion of incest into the criminal code for the first time**: rape and sexual assault are qualified as incestuous when committed within the family by an ascendant, sibling or any person with authority over the minor. It makes the appointment of an **ad hoc administrator** to represent the child victim mandatory and requires courts to rule on the **withdrawal of parental authority**. The definition of incest was struck down in September 2011 by a QPC ruling for vagueness, before being rewritten in 2016."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["michele-alliot-marie", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021794951",
+          "title": "LOI n° 2010-121 du 8 février 2010 tendant à inscrire l'inceste commis sur les mineurs dans le code pénal - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl08-372.html",
+          "title": "Dossier législatif : inceste sur les mineurs - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-la-poste-societe-anonyme-2010",
+      "date": "2010-02-09",
+      "title": {
+        "fr": "Transformation de La Poste en société anonyme",
+        "en": "Transformation of La Poste into a public limited company"
+      },
+      "summary": {
+        "fr": "La loi n° 2010-123, portée par Christian Estrosi, **transforme l'établissement public La Poste en société anonyme au 1er mars 2010**, dont le **capital reste détenu par l'État et des personnes publiques**, en préparation de l'**ouverture totale du marché postal à la concurrence au 1er janvier 2011** imposée par les directives européennes. La Poste demeure le prestataire du **service universel postal pour quinze ans** et doit maintenir au moins **17 000 points de contact** sur le territoire.",
+        "en": "Law no. 2010-123, carried by Christian Estrosi, **turns the public operator La Poste into a public limited company on 1 March 2010**, whose **capital remains held by the State and public entities**, ahead of the **full opening of the postal market to competition on 1 January 2011** required by European directives. La Poste remains the **universal postal service provider for fifteen years** and must maintain at least **17,000 contact points** across the country."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["christian-estrosi", "christine-lagarde", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021801431",
+          "title": "LOI n° 2010-123 du 9 février 2010 relative à l'entreprise publique La Poste et aux activités postales - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl08-599.html",
+          "title": "Dossier législatif : Poste et activités postales - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-concomitance-mandats-locaux-2010",
+      "date": "2010-02-16",
+      "title": {
+        "fr": "Réduction des mandats locaux pour préparer le conseiller territorial",
+        "en": "Shortening local mandates to prepare the territorial councillor"
+      },
+      "summary": {
+        "fr": "Premier volet de la réforme territoriale, la loi n° 2010-145 **ramène à mars 2014 la fin des mandats des conseillers régionaux élus en 2010 et des conseillers généraux élus en 2011**, afin de faire coïncider les deux renouvellements avec la création programmée du **conseiller territorial**, élu unique appelé à siéger à la fois au département et à la région. Le Conseil constitutionnel a validé le texte (décision n° 2010-603 DC).",
+        "en": "First step of the territorial reform, law no. 2010-145 **shortens to March 2014 the mandates of regional councillors elected in 2010 and departmental councillors elected in 2011**, so that both renewals coincide with the planned creation of the **territorial councillor**, a single elected official meant to sit in both the département and the region. The Constitutional Council upheld the text (decision no. 2010-603 DC)."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["brice-hortefeux", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000021838381",
+          "title": "LOI n° 2010-145 du 16 février 2010 organisant la concomitance des renouvellements des conseils généraux et des conseils régionaux - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2010/2010603DC.htm",
+          "title": "Décision n° 2010-603 DC du 11 février 2010 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-063.html",
+          "title": "Dossier législatif : renouvellements des conseils généraux et des conseils régionaux - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

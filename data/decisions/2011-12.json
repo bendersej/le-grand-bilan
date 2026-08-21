@@ -54,6 +54,10 @@
         {
           "type": "implements",
           "decision_id": "plan-rigueur-novembre-2011"
+        },
+        {
+          "type": "amends",
+          "decision_id": "loi-reforme-retraites-2010"
         }
       ]
     },

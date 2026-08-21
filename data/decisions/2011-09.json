@@ -37,6 +37,10 @@
         {
           "type": "implements",
           "decision_id": "plan-antideficit-aout-2011"
+        },
+        {
+          "type": "amends",
+          "decision_id": "lfr-garantie-fesf-2010"
         }
       ]
     }

@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2010-05",
+  "decisions": [
+    {
+      "id": "plan-aide-grece-2010",
+      "date": "2010-05-07",
+      "title": {
+        "fr": "Participation française au premier plan d'aide à la Grèce",
+        "en": "French share of the first Greek rescue package"
+      },
+      "summary": {
+        "fr": "La deuxième loi de finances rectificative pour 2010 (n° 2010-463) engage la France dans le premier plan de sauvetage de la Grèce, menacée de défaut : elle ouvre **16,8 milliards d'euros d'autorisations d'engagement de prêts bilatéraux sur trois ans**, dont **3,9 milliards versés dès 2010**, dans le cadre du paquet de 110 milliards d'euros coordonné avec la zone euro et le FMI en contrepartie d'un plan d'austérité grec.",
+        "en": "The second amending budget law for 2010 (no. 2010-463) commits France to the first rescue of Greece, then facing default: it opens **16.8 billion euros of bilateral loan commitments over three years**, including **3.9 billion euros paid out in 2010**, as part of the 110 billion euro package coordinated with the euro area and the IMF in exchange for a Greek austerity plan."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["christine-lagarde", "francois-baroin", "nicolas-sarkozy"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022179990",
+          "title": "LOI n° 2010-463 du 7 mai 2010 de finances rectificative pour 2010 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/rap/l09-428/l09-428_mono.html",
+          "title": "Rapport n° 428 (2009-2010) de la commission des finances sur la deuxième loi de finances rectificative pour 2010 (prêts à la Grèce) - Sénat"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-424.html",
+          "title": "Dossier législatif : deuxième loi de finances rectificative pour 2010 - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "creation-fesf-2010",
+      "date": "2010-05-09",
+      "title": {
+        "fr": "Création du Fonds européen de stabilité financière (FESF)",
+        "en": "Creation of the European Financial Stability Facility (EFSF)"
+      },
+      "summary": {
+        "fr": "Face à la contagion de la crise grecque, Nicolas Sarkozy et ses homologues de la zone euro décident au sommet du 7 mai, puis au Conseil Ecofin extraordinaire des 9 et 10 mai 2010, la mise en place d'un **mécanisme européen de stabilisation de 750 milliards d'euros** : un fonds communautaire de 60 milliards, une **entité ad hoc garantie par les États de la zone euro à hauteur de 440 milliards d'euros**, bientôt baptisée **Fonds européen de stabilité financière (FESF)**, et 250 milliards du FMI. Ce filet de sécurité préfigure le futur Mécanisme européen de stabilité.",
+        "en": "Facing contagion from the Greek crisis, Nicolas Sarkozy and his euro area counterparts decided at the 7 May summit, then at the extraordinary Ecofin Council of 9-10 May 2010, to set up a **750 billion euro European stabilisation mechanism**: a 60 billion community fund, a **special purpose vehicle guaranteed by euro area states up to 440 billion euros**, soon named the **European Financial Stability Facility (EFSF)**, and 250 billion from the IMF. This safety net prefigured the future European Stability Mechanism."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["nicolas-sarkozy", "christine-lagarde"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2010/05/08/conference-de-presse-de-m-nicolas-sarkozy-president-de-la-republique-sur-la-confirmation-du-plan-de-soutien-financier-a-la-grece-et-sur-la-mise-en-place-dun-mecanisme-europeen-dintervention-pour-preserver-la-stabilisation-financiere-en-europe-a-bru",
+          "title": "Conférence de presse de Nicolas Sarkozy sur le plan de soutien à la Grèce et le mécanisme européen d'intervention, Bruxelles, 8 mai 2010 - Élysée"
+        },
+        {
+          "url": "https://www.senat.fr/rap/l09-513/l09-513_mono.html",
+          "title": "Rapport n° 513 (2009-2010) de la commission des finances détaillant le mécanisme décidé au Conseil Ecofin des 9 et 10 mai 2010 - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "plan-aide-grece-2010"
+        }
+      ]
+    },
+    {
+      "id": "loi-jeux-en-ligne-2010",
+      "date": "2010-05-12",
+      "title": {
+        "fr": "Ouverture des jeux d'argent en ligne et création de l'ARJEL",
+        "en": "Opening of online gambling and creation of ARJEL"
+      },
+      "summary": {
+        "fr": "Préparée par Éric Woerth et promulguée sous François Baroin, la loi n° 2010-476 **ouvre à la concurrence les paris sportifs, les paris hippiques et le poker en ligne**, jusque-là monopole de la Française des jeux et du PMU, sous un régime d'agrément. Elle crée l'**Autorité de régulation des jeux en ligne (ARJEL)**, chargée de délivrer les licences, de lutter contre les sites illégaux et l'addiction, à quelques semaines de la Coupe du monde de football. Le Conseil constitutionnel a validé la loi (décision n° 2010-605 DC).",
+        "en": "Prepared by Éric Woerth and promulgated under François Baroin, law no. 2010-476 **opens online sports betting, horse-race betting and poker to competition**, previously a monopoly of Française des jeux and PMU, under a licensing regime. It creates the **online gambling regulator ARJEL**, tasked with issuing licences and fighting illegal sites and addiction, weeks before the football World Cup. The Constitutional Council upheld the law (decision no. 2010-605 DC)."
+      },
+      "category_ids": ["economie", "numerique"],
+      "politician_ids": ["francois-baroin", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022204510",
+          "title": "LOI n° 2010-476 du 12 mai 2010 relative à l'ouverture à la concurrence et à la régulation du secteur des jeux d'argent et de hasard en ligne - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2010/2010605DC.htm",
+          "title": "Décision n° 2010-605 DC du 12 mai 2010 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-029.html",
+          "title": "Dossier législatif : jeux d'argent et de hasard en ligne - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

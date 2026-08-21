@@ -136,6 +136,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre d'État, ministre de la Défense et des Anciens combattants",
+            "en": "Minister of State, Minister of Defence and Veterans"
+          },
+          "from": "2010-11-14",
+          "to": "2011-02-27"
+        },
+        {
+          "role": {
             "fr": "Ministre d'État, ministre des Affaires étrangères et européennes",
             "en": "Minister of State, Minister of Foreign and European Affairs"
           },
@@ -682,10 +690,56 @@
       }
     },
     {
+      "id": "brice-hortefeux",
+      "full_name": "Brice Hortefeux",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Intérieur, de l'Outre-mer et des Collectivités territoriales",
+            "en": "Minister of the Interior, Overseas France and Local Authorities"
+          },
+          "from": "2009-06-23",
+          "to": "2010-11-14"
+        },
+        {
+          "role": {
+            "fr": "Ministre de l'Intérieur, de l'Outre-mer, des Collectivités territoriales et de l'Immigration",
+            "en": "Minister of the Interior, Overseas France, Local Authorities and Immigration"
+          },
+          "from": "2010-11-14",
+          "to": "2011-02-27"
+        }
+      ],
+      "profile": {
+        "content_hash": "179b32d09be14471697a24b5587d4e1fa6a4a00d5cf37efe80f4a8c50dfaf3ba",
+        "photo": {
+          "path": "/media/politicians/brice-hortefeux.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Hortefeux,_Brice-1264.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Foto-AG Gymnasium Melle"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Proche de Nicolas Sarkozy et membre successivement du RPR, de l'UMP puis de LR, il est **ministre de l'Intérieur et de l'Outre-mer de 2009 à 2011**, après avoir été ministre délégué aux Collectivités territoriales (2005-2007), **ministre de l'Immigration, de l'Intégration et de l'Identité nationale** (2007-2009) et ministre du Travail (2009). À l'Intérieur, il porte notamment la loi anti-bandes de 2010 et la politique d'évacuation des campements illicites de l'été 2010. Dans le cadre de l'affaire Sarkozy-Kadhafi, il est jugé à partir de janvier 2025 pour complicité de financement illégal de campagne et association de malfaiteurs : en septembre 2025, il est **reconnu coupable d'association de malfaiteurs et condamné à deux ans de prison ferme**, 50 000 euros d'amende et cinq ans d'inéligibilité avec exécution provisoire.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Brice_Hortefeux"
+      }
+    },
+    {
       "id": "bruno-le-maire",
       "full_name": "Bruno Le Maire",
       "party": "Renaissance",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Alimentation, de l'Agriculture et de la Pêche",
+            "en": "Minister of Food, Agriculture and Fisheries"
+          },
+          "from": "2009-06-23",
+          "to": "2010-11-14"
+        },
         {
           "role": {
             "fr": "Ministre de l'Économie, des Finances et de la Souveraineté industrielle et numérique",
@@ -968,6 +1022,36 @@
       }
     },
     {
+      "id": "christian-blanc",
+      "full_name": "Christian Blanc",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Secrétaire d'État chargé du Développement de la région capitale",
+            "en": "Secretary of State for the Development of the Capital Region"
+          },
+          "from": "2008-03-18",
+          "to": "2010-07-04"
+        }
+      ],
+      "profile": {
+        "content_hash": "188699c0e8d9d265deaea807c95051fcca3971d3c5c1c1c619585e9ae6b03693",
+        "photo": {
+          "path": "/media/politicians/christian-blanc.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Christian_Blanc_p1190645.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": null
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Haut fonctionnaire, chef d'entreprise et homme politique, **secrétaire d'État chargé du développement de la région capitale de 2008 à 2010**, il porte la **loi du 3 juin 2010 relative au Grand Paris** avant de démissionner en juillet 2010. Préfet, il dirige en 1988 la **mission du dialogue en Nouvelle-Calédonie** qui aboutit aux accords de Matignon. Il fait ensuite carrière dans l'entreprise : il dirige la **RATP** (1989-1992), **Air France** (1993-1997), qu'il redresse, puis la banque Merrill Lynch France (2000-2002). Proche de Michel Rocard, il est élu député des Yvelines avant de rejoindre le gouvernement Fillon.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Christian_Blanc"
+      }
+    },
+    {
       "id": "christian-eckert",
       "full_name": "Christian Eckert",
       "party": "Parti socialiste",
@@ -998,6 +1082,36 @@
       }
     },
     {
+      "id": "christian-estrosi",
+      "full_name": "Christian Estrosi",
+      "party": "Horizons",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre chargé de l'Industrie",
+            "en": "Minister for Industry"
+          },
+          "from": "2009-06-23",
+          "to": "2010-11-14"
+        }
+      ],
+      "profile": {
+        "content_hash": "a2fe6d3318b847713c8f38b36f70ec3308bb6519454593cca1c5c46c0c74c581",
+        "photo": {
+          "path": "/media/politicians/christian-estrosi.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Christian_Estrosi_-_2017_(24778920307)_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "author": "Joao Pedro Correia - www.joaomakesphotos.com"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Ancien pilote motocycliste devenu homme politique, **maire de Nice** de 2008 à 2016 puis de 2017 à 2026 et président de la métropole Nice Côte d'Azur, il est **ministre chargé de l'Industrie de 2009 à 2010** : il porte notamment la loi de février 2010 transformant La Poste en société anonyme. Membre du RPR puis de l'UMP et de LR, ancien président du conseil général des Alpes-Maritimes et ancien député, il quitte LR en 2021 après avoir prôné le rapprochement avec la majorité d'Emmanuel Macron et devient en 2022 **vice-président du parti Horizons**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Christian_Estrosi"
+      }
+    },
+    {
       "id": "christiane-taubira",
       "full_name": "Christiane Taubira",
       "party": "Walwari",
@@ -1025,6 +1139,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Christiane_Taubira"
+      }
+    },
+    {
+      "id": "christine-lagarde",
+      "full_name": "Christine Lagarde",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Économie, de l'Industrie et de l'Emploi",
+            "en": "Minister of the Economy, Industry and Employment"
+          },
+          "from": "2007-06-19",
+          "to": "2011-06-29"
+        }
+      ],
+      "profile": {
+        "content_hash": "8f0fb3998358b941ea196ef7eaa0893ab7abde67a6d3b2de5d25c03e66a82d9b",
+        "photo": {
+          "path": "/media/politicians/christine-lagarde.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Lagarde_ECB_Portrait_2019.jpg",
+          "license": "Attribution",
+          "author": "Lemrich / European Central Bank"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Avocate d'affaires au barreau de Paris, elle fait carrière au sein du cabinet américain **Baker McKenzie**, dont elle préside le comité exécutif mondial, avant d'entrer au gouvernement comme ministre déléguée au Commerce extérieur (2005-2007). **Ministre de l'Économie, de l'Industrie et de l'Emploi de 2007 à 2011**, première femme à ce poste, elle gère la **crise financière de 2008** et la crise de la zone euro, et porte les lois de 2010 sur le crédit à la consommation et la régulation bancaire. Elle quitte le gouvernement en 2011 pour devenir **directrice générale du Fonds monétaire international (FMI)**, puis prend en 2019 la **présidence de la Banque centrale européenne**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Christine_Lagarde"
       }
     },
     {
@@ -1390,6 +1534,74 @@
       }
     },
     {
+      "id": "eric-besson",
+      "full_name": "Éric Besson",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Immigration, de l'Intégration, de l'Identité nationale et du Développement solidaire",
+            "en": "Minister of Immigration, Integration, National Identity and Co-development"
+          },
+          "from": "2009-01-15",
+          "to": "2010-11-14"
+        },
+        {
+          "role": {
+            "fr": "Ministre chargé de l'Industrie, de l'Énergie et de l'Économie numérique",
+            "en": "Minister for Industry, Energy and the Digital Economy"
+          },
+          "from": "2010-11-14",
+          "to": "2012-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "c6b35f15b7d97aea76b4294a45d5007a01dca53f3b1e87b85fd0128970e21dee",
+        "photo": {
+          "path": "/media/politicians/eric-besson.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Besson2.jpg",
+          "license": "CC BY 2.0",
+          "author": "priceminister - Crédits : Patrick Verdrune - MINEFI"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme d'affaires et homme politique, il quitte le Parti socialiste, dont il était secrétaire national à l'économie, pour rejoindre l'équipe de campagne de Nicolas Sarkozy en 2007. **Ministre de l'Immigration, de l'Intégration, de l'Identité nationale et du Développement solidaire de janvier 2009 à novembre 2010**, il conduit le débat sur l'identité nationale, puis devient **ministre chargé de l'Industrie, de l'Énergie et de l'Économie numérique** (2010-2012), portant notamment la loi NOME sur le marché de l'électricité. Auparavant député de la Drôme (1997-2007) et maire de Donzère (1995-2020), il quitte la politique après 2012.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/%C3%89ric_Besson"
+      }
+    },
+    {
+      "id": "eric-ciotti",
+      "full_name": "Éric Ciotti",
+      "party": "Union des droites pour la République",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 1re circonscription des Alpes-Maritimes",
+            "en": "Member of Parliament for Alpes-Maritimes' 1st constituency"
+          },
+          "from": "2007-06-20",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "a055f9ccf8b0d9ad4ec37c28f6babe94efed798548c24eb15ca029d4ffa353d0",
+        "photo": {
+          "path": "/media/politicians/eric-ciotti.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%C3%89ric_Ciotti_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "author": "European People's Party"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "**Député de la première circonscription des Alpes-Maritimes depuis 2007**, président du conseil général puis départemental des Alpes-Maritimes de 2008 à 2017, il est l'auteur de la **loi de 2010 sur l'absentéisme scolaire** instaurant la suspension des allocations familiales. Figure de l'aile droite de l'UMP puis de LR, questeur de l'Assemblée nationale de 2018 à 2024, il est **élu président des Républicains en 2022**. En 2024, il provoque une scission du parti en concluant une **alliance électorale avec le Rassemblement national** et fonde l'**Union des droites pour la République (UDR)**, qu'il préside.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/%C3%89ric_Ciotti"
+      }
+    },
+    {
       "id": "eric-dupond-moretti",
       "full_name": "Éric Dupond-Moretti",
       "party": null,
@@ -1447,6 +1659,44 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/%C3%89ric_Lombard"
+      }
+    },
+    {
+      "id": "eric-woerth",
+      "full_name": "Éric Woerth",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre du Budget, des Comptes publics et de la Fonction publique",
+            "en": "Minister of the Budget, Public Accounts and the Civil Service"
+          },
+          "from": "2007-05-18",
+          "to": "2010-03-22"
+        },
+        {
+          "role": {
+            "fr": "Ministre du Travail, de la Solidarité et de la Fonction publique",
+            "en": "Minister of Labour, Solidarity and the Civil Service"
+          },
+          "from": "2010-03-22",
+          "to": "2010-11-14"
+        }
+      ],
+      "profile": {
+        "content_hash": "5f69a42a385d019223a321a1fb059c11073d634e4732c2ca90045ae62be871d9",
+        "photo": {
+          "path": "/media/politicians/eric-woerth.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:%C3%89ric_Woerth_2.jpg",
+          "license": "CC BY-SA 2.0",
+          "author": "MEDEF"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Membre successivement du RPR, de l'UMP et de LR avant de rejoindre la majorité d'Emmanuel Macron en 2022, il est **ministre du Budget et des Comptes publics (2007-2010) puis ministre du Travail (2010)** : il porte la **réforme des retraites de 2010** faisant passer l'âge légal de 60 à 62 ans, avant de quitter le gouvernement en novembre 2010 sur fond d'affaire Woerth-Bettencourt. Maire de Chantilly de 1995 à 2017, député de l'Oise, il préside la **commission des Finances de l'Assemblée nationale de 2017 à 2022**, devient questeur de l'Assemblée (2022-2024) et brièvement ministre de l'Aménagement du territoire en octobre 2025.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/%C3%89ric_Woerth"
       }
     },
     {
@@ -1582,6 +1832,14 @@
       "full_name": "François Baroin",
       "party": "Les Républicains",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre du Budget, des Comptes publics et de la Réforme de l'État, porte-parole du Gouvernement",
+            "en": "Minister of the Budget, Public Accounts and State Reform, Government Spokesman"
+          },
+          "from": "2010-03-22",
+          "to": "2011-06-29"
+        },
         {
           "role": {
             "fr": "Ministre de l'Économie, des Finances et de l'Industrie",
@@ -2378,6 +2636,36 @@
       }
     },
     {
+      "id": "herve-morin",
+      "full_name": "Hervé Morin",
+      "party": "Les Centristes",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Défense",
+            "en": "Minister of Defence"
+          },
+          "from": "2007-05-18",
+          "to": "2010-11-14"
+        }
+      ],
+      "profile": {
+        "content_hash": "7c82e45280507a59ee6f25cac2cfaadf996a40dc264029d7e17c370802c8e7c3",
+        "photo": {
+          "path": "/media/politicians/herve-morin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Herv%C3%A9_Morin_EC_2025_2_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Kyriakos Samartzidis / European Commission"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Centriste, **ministre de la Défense de 2007 à 2010** dans les deux premiers gouvernements Fillon, il donne son nom à la **loi du 5 janvier 2010 d'indemnisation des victimes des essais nucléaires**. Député de l'Eure de 1998 à 2007, président du **Nouveau Centre** puis du parti **Les Centristes**, il est **président du conseil régional de Normandie depuis 2016**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Herv%C3%A9_Morin"
+      }
+    },
+    {
       "id": "isabelle-santiago",
       "full_name": "Isabelle Santiago",
       "party": "Parti socialiste",
@@ -2579,6 +2867,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean_Leonetti"
+      }
+    },
+    {
+      "id": "jean-louis-borloo",
+      "full_name": "Jean-Louis Borloo",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre d'État, ministre de l'Écologie, de l'Énergie, du Développement durable et de la Mer",
+            "en": "Minister of State, Minister of Ecology, Energy, Sustainable Development and the Sea"
+          },
+          "from": "2007-06-19",
+          "to": "2010-11-14"
+        }
+      ],
+      "profile": {
+        "content_hash": "efb4eae6647e549d79cddbfa8e4d1d84e218d1027c64831dfac7f9e0eb2a2dc5",
+        "photo": {
+          "path": "/media/politicians/jean-louis-borloo.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Louis_Borloo_HD_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Energies pour l'Afrique"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Avocat d'affaires, ancien président du Valenciennes Football Club, maire de Valenciennes à partir de 1989 et longtemps député du Nord, il est **ministre sans interruption de mai 2002 à novembre 2010**, notamment numéro deux du gouvernement à partir de 2007 comme **ministre d'État chargé de l'Écologie, de l'Énergie et du Développement durable** : il porte le **Grenelle de l'environnement** et ses lois d'application, dont la loi Grenelle 2 de juillet 2010. Président du Parti radical à partir de 2005, fondateur et président de l'**UDI** en 2012, il quitte la politique pour raisons de santé en 2014. Il préside depuis 2015 une fondation dédiée à l'électrification de l'Afrique et a siégé au conseil d'administration de Huawei Technologies France jusqu'en 2020.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean-Louis_Borloo"
       }
     },
     {
@@ -3154,6 +3472,36 @@
       }
     },
     {
+      "id": "luc-chatel",
+      "full_name": "Luc Chatel",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Éducation nationale",
+            "en": "Minister of National Education"
+          },
+          "from": "2009-06-23",
+          "to": "2012-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "35ae5941c2199fd49ea92afe0e17e723c8a0003ddf4fbe980e36b79658182eae",
+        "photo": {
+          "path": "/media/politicians/luc-chatel.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Luc_Chatel_par_Claude_Truong-Ngoc_ao%C3%BBt_2015.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Photo Claude TRUONG-NGOC"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique et homme d'affaires, **ministre de l'Éducation nationale de 2009 à 2012** et porte-parole du gouvernement sous Nicolas Sarkozy, après avoir été secrétaire d'État chargé de la Consommation puis de l'Industrie (2007-2009). Député de la Haute-Marne (2002-2007, 2012-2017) et maire de Chaumont (2008-2013), il est vice-président délégué puis secrétaire général de l'UMP et porte-parole de la campagne présidentielle de François Fillon en 2017, avant de rejoindre le privé : il dirige depuis décembre 2017 la **Plateforme de l'automobile (PFA)**, l'organisation représentant la filière automobile française.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Luc_Chatel"
+      }
+    },
+    {
       "id": "manuel-valls",
       "full_name": "Manuel Valls",
       "party": "Parti socialiste",
@@ -3290,6 +3638,36 @@
       }
     },
     {
+      "id": "marie-luce-penchard",
+      "full_name": "Marie-Luce Penchard",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre chargée de l'Outre-mer",
+            "en": "Minister for Overseas France"
+          },
+          "from": "2009-11-06",
+          "to": "2012-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "332aac46fe8dcea3ac23e68a8a29cee527270199f85c173cbb8dc5aebe7cfc72",
+        "photo": {
+          "path": "/media/politicians/marie-luce-penchard.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marie-Luce_Penchard.jpg",
+          "license": "Public domain",
+          "author": "Sarachan"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique guadeloupéenne, **secrétaire d'État puis ministre chargée de l'Outre-mer de 2009 à 2012** : elle porte notamment les lois de décembre 2010 organisant la **départementalisation de Mayotte**. Conseillère régionale de la Guadeloupe depuis 2010, vice-présidente du conseil régional depuis 2015, elle est **maire de Basse-Terre de 2014 à 2020**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Marie-Luce_Penchard"
+      }
+    },
+    {
       "id": "marie-pierre-rixain",
       "full_name": "Marie-Pierre Rixain",
       "party": "Renaissance",
@@ -3415,6 +3793,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Marl%C3%A8ne_Schiappa"
+      }
+    },
+    {
+      "id": "martin-hirsch",
+      "full_name": "Martin Hirsch",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Haut-commissaire aux solidarités actives contre la pauvreté, puis haut-commissaire à la jeunesse",
+            "en": "High Commissioner for Active Solidarity against Poverty, then High Commissioner for Youth"
+          },
+          "from": "2007-05-18",
+          "to": "2010-03-22"
+        }
+      ],
+      "profile": {
+        "content_hash": "02cad299f4326090e9c3a46c8be546c4b7972c0a3c3cbead26b5b1369b9694aa",
+        "photo": {
+          "path": "/media/politicians/martin-hirsch.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Martin_Hirsch_par_Claude_Truong-Ngoc_avril_2013.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Claude TRUONG-NGOC"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Haut fonctionnaire, ancien président d'**Emmaüs France**, il est **haut-commissaire aux solidarités actives contre la pauvreté** dans le gouvernement Fillon de 2007 à 2010, poste cumulé à partir de 2009 avec celui de **haut-commissaire à la jeunesse** : père du revenu de solidarité active (RSA), il porte la **loi du 10 mars 2010 créant le service civique** puis quitte le gouvernement pour présider l'**Agence du service civique**. Il dirige ensuite l'**Assistance publique-Hôpitaux de Paris (AP-HP) de 2013 à 2022**, passe par le secteur privé, puis réintègre le Conseil d'État en 2024.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Martin_Hirsch"
       }
     },
     {
@@ -3559,6 +3967,44 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Michel_Sapin"
+      }
+    },
+    {
+      "id": "michele-alliot-marie",
+      "full_name": "Michèle Alliot-Marie",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Garde des Sceaux, ministre de la Justice et des Libertés",
+            "en": "Keeper of the Seals, Minister of Justice and Liberties"
+          },
+          "from": "2009-06-23",
+          "to": "2010-11-14"
+        },
+        {
+          "role": {
+            "fr": "Ministre d'État, ministre des Affaires étrangères et européennes",
+            "en": "Minister of State, Minister of Foreign and European Affairs"
+          },
+          "from": "2010-11-14",
+          "to": "2011-02-27"
+        }
+      ],
+      "profile": {
+        "content_hash": "182e19954f99c522511d9e423e7bbab1b27580dd10d29a83b3546aee5afdcbc9",
+        "photo": {
+          "path": "/media/politicians/michele-alliot-marie.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Mich%C3%A8le_Alliot-Marie,_French_Minister_of_Foreign_and_European_Affairs_(5277700729)_(cropped).jpg",
+          "license": "OGL v1.0",
+          "author": "Foreign and Commonwealth Office"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Dite MAM, gaulliste, députée des Pyrénées-Atlantiques entre 1986 et 2012 et présidente du **RPR de 1999 à 2002**, elle occupe **sans interruption des portefeuilles régaliens de 2002 à 2011** : première femme **ministre de la Défense** (2002-2007), **ministre de l'Intérieur** (2007-2009), **garde des Sceaux, ministre de la Justice et des Libertés** (2009-2010), période où elle porte la loi pénitentiaire, la loi sur la récidive criminelle et la loi interdisant la dissimulation du visage, puis **ministre d'État chargée des Affaires étrangères** (2010-2011). Elle démissionne en février 2011 après la polémique sur ses liens avec la Tunisie de Ben Ali pendant la révolution. Maire de Saint-Jean-de-Luz de 1995 à 2002, elle est aussi députée européenne (1989-1993, 2014-2019).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Mich%C3%A8le_Alliot-Marie"
       }
     },
     {
@@ -4254,6 +4700,14 @@
       "full_name": "Roselyne Bachelot",
       "party": null,
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Santé et des Sports",
+            "en": "Minister of Health and Sports"
+          },
+          "from": "2009-06-23",
+          "to": "2010-11-14"
+        },
         {
           "role": {
             "fr": "Ministre de la Culture",

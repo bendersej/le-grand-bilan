@@ -1,0 +1,115 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2010-06",
+  "decisions": [
+    {
+      "id": "loi-grand-paris-2010",
+      "date": "2010-06-03",
+      "title": {
+        "fr": "Loi relative au Grand Paris",
+        "en": "Greater Paris law"
+      },
+      "summary": {
+        "fr": "Portée par Christian Blanc, la loi n° 2010-597 lance le projet du Grand Paris : elle décide la construction d'un **métro automatique de grande capacité en rocade** autour de la capitale (futur Grand Paris Express) reliant les grands pôles urbains, scientifiques et économiques, crée la **Société du Grand Paris**, établissement public chargé de réaliser le réseau, et institue des **contrats de développement territorial** avec l'objectif de construire **70 000 logements par an** en Île-de-France.",
+        "en": "Carried by Christian Blanc, law no. 2010-597 launches the Greater Paris project: it decides the construction of a **high-capacity automatic orbital metro** around the capital (the future Grand Paris Express) linking major urban, scientific and economic hubs, creates the **Société du Grand Paris**, a public body tasked with building the network, and institutes **territorial development contracts** with the goal of building **70,000 homes per year** in Île-de-France."
+      },
+      "category_ids": ["institutions", "economie"],
+      "politician_ids": ["christian-blanc", "francois-fillon", "nicolas-sarkozy"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022308227",
+          "title": "LOI n° 2010-597 du 3 juin 2010 relative au Grand Paris - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-123.html",
+          "title": "Dossier législatif : Grand Paris - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lfr-garantie-fesf-2010",
+      "date": "2010-06-07",
+      "title": {
+        "fr": "Garantie de la France au FESF : 111 milliards d'euros",
+        "en": "France's guarantee to the EFSF: 111 billion euros"
+      },
+      "summary": {
+        "fr": "La troisième loi de finances rectificative pour 2010 (n° 2010-606) traduit en droit français la création du FESF : elle autorise l'État à **garantir jusqu'à 111 milliards d'euros** les financements levés par l'entité européenne ad hoc, sur les **440 milliards d'euros de prêts** que le fonds peut accorder aux États de la zone euro en difficulté. La garantie ne peut être octroyée après le 30 juin 2013.",
+        "en": "The third amending budget law for 2010 (no. 2010-606) transposes the creation of the EFSF into French law: it authorises the State to **guarantee up to 111 billion euros** of the financing raised by the European special purpose vehicle, out of the **440 billion euros of loans** the fund can grant to euro area states in difficulty. The guarantee cannot be granted after 30 June 2013."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["christine-lagarde", "francois-baroin", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022318021",
+          "title": "LOI n° 2010-606 du 7 juin 2010 de finances rectificative pour 2010 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/rap/l09-513/l09-513_mono.html",
+          "title": "Rapport n° 513 (2009-2010) de la commission des finances sur la troisième loi de finances rectificative pour 2010 - Sénat"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-511.html",
+          "title": "Dossier législatif : troisième loi de finances rectificative pour 2010 - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "creation-fesf-2010"
+        }
+      ]
+    },
+    {
+      "id": "loi-eirl-2010",
+      "date": "2010-06-15",
+      "title": {
+        "fr": "Création de l'entrepreneur individuel à responsabilité limitée (EIRL)",
+        "en": "Creation of the limited-liability sole trader (EIRL)"
+      },
+      "summary": {
+        "fr": "Portée par Hervé Novelli sous l'autorité de Christine Lagarde, la loi n° 2010-658 crée le statut d'**entrepreneur individuel à responsabilité limitée** : tout entrepreneur peut désormais constituer un **patrimoine affecté à son activité professionnelle, séparé de son patrimoine personnel**, sans créer de société. En cas de faillite, les **créanciers professionnels ne peuvent saisir que le patrimoine affecté**, mettant la résidence et les biens personnels à l'abri.",
+        "en": "Carried by Hervé Novelli under Christine Lagarde's authority, law no. 2010-658 creates the **limited-liability sole trader** status: any entrepreneur can now set up a **pool of assets dedicated to the business, separate from personal assets**, without creating a company. In case of bankruptcy, **business creditors can only seize the dedicated assets**, shielding the home and personal property."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["christine-lagarde", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022355229",
+          "title": "LOI n° 2010-658 du 15 juin 2010 relative à l'entrepreneur individuel à responsabilité limitée - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-302.html",
+          "title": "Dossier législatif : entrepreneur individuel à responsabilité limitée - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-bisphenol-biberons-2010",
+      "date": "2010-06-30",
+      "title": {
+        "fr": "Suspension des biberons au bisphénol A",
+        "en": "Suspension of bisphenol A baby bottles"
+      },
+      "summary": {
+        "fr": "Issue d'une proposition sénatoriale et soutenue par Roselyne Bachelot, la loi n° 2010-729 **suspend la fabrication, l'importation, l'exportation et la mise sur le marché des biberons produits à base de bisphénol A**, perturbateur endocrinien suspecté, jusqu'à ce que l'agence de sécurité sanitaire autorise leur reprise. C'est la première interdiction française visant le bisphénol A, avant son extension à tous les contenants alimentaires en 2012.",
+        "en": "Born of a Senate bill and backed by Roselyne Bachelot, law no. 2010-729 **suspends the manufacture, import, export and marketing of baby bottles made with bisphenol A**, a suspected endocrine disruptor, until the food safety agency authorises their return. It is France's first ban on bisphenol A, before its extension to all food containers in 2012."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["roselyne-bachelot", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022414734",
+          "title": "LOI n° 2010-729 du 30 juin 2010 tendant à suspendre la commercialisation de biberons produits à base de bisphénol A - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl08-595.html",
+          "title": "Dossier législatif : bisphénol A - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

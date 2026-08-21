@@ -1,0 +1,135 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2010-07",
+  "decisions": [
+    {
+      "id": "loi-credit-consommation-2010",
+      "date": "2010-07-01",
+      "title": {
+        "fr": "Réforme du crédit à la consommation (loi Lagarde)",
+        "en": "Consumer credit reform (Lagarde law)"
+      },
+      "summary": {
+        "fr": "La loi n° 2010-737, portée par Christine Lagarde, encadre le crédit à la consommation pour lutter contre le surendettement : chaque échéance de **crédit renouvelable doit désormais rembourser une part du capital**, la publicité doit afficher le taux effectif global et la mention **« un crédit vous engage et doit être remboursé »**, le prêteur doit vérifier la **solvabilité de l'emprunteur**, le délai de rétractation passe à **quatorze jours** et l'emprunteur immobilier peut **choisir librement son assurance** à garanties équivalentes.",
+        "en": "Law no. 2010-737, carried by Christine Lagarde, regulates consumer credit to curb over-indebtedness: every **revolving credit instalment must now repay part of the principal**, advertising must display the APR and the warning **\"credit commits you and must be repaid\"**, lenders must check the **borrower's solvency**, the withdrawal period is extended to **fourteen days** and mortgage borrowers can **freely choose their loan insurance** with equivalent cover."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["christine-lagarde", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022419094",
+          "title": "LOI n° 2010-737 du 1er juillet 2010 portant réforme du crédit à la consommation - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl08-364.html",
+          "title": "Dossier législatif : crédit à la consommation - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-violences-femmes-2010",
+      "date": "2010-07-09",
+      "title": {
+        "fr": "Loi contre les violences faites aux femmes : ordonnance de protection",
+        "en": "Law against violence towards women: protection order"
+      },
+      "summary": {
+        "fr": "La loi n° 2010-769 crée l'**ordonnance de protection** : le juge aux affaires familiales peut, en urgence, évincer le conjoint violent du domicile, interdire tout contact et statuer sur les enfants avant même une plainte pénale. Elle institue le **délit de harcèlement moral au sein du couple**, puni jusqu'à cinq ans d'emprisonnement et 75 000 euros d'amende, et permet le **placement sous surveillance électronique mobile** des conjoints violents ainsi que l'expérimentation du téléphone grand danger.",
+        "en": "Law no. 2010-769 creates the **protection order**: the family judge can urgently remove a violent partner from the home, ban any contact and rule on the children even before a criminal complaint. It establishes the **offence of psychological harassment within the couple**, punishable by up to five years in prison and a 75,000 euro fine, and allows **mobile electronic monitoring** of violent partners as well as trials of an emergency phone for victims."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["michele-alliot-marie", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022454032",
+          "title": "LOI n° 2010-769 du 9 juillet 2010 relative aux violences faites spécifiquement aux femmes, aux violences au sein des couples et aux incidences de ces dernières sur les enfants - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl09-338.html",
+          "title": "Dossier législatif : violences faites aux femmes - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-grenelle-2-2010",
+      "date": "2010-07-12",
+      "title": {
+        "fr": "Loi Grenelle 2 : engagement national pour l'environnement",
+        "en": "Grenelle 2 law: national commitment for the environment"
+      },
+      "summary": {
+        "fr": "La loi n° 2010-788, portée par Jean-Louis Borloo, décline en plusieurs centaines d'articles les engagements du Grenelle de l'environnement : renforcement des **normes énergétiques du bâtiment**, développement des transports collectifs, encadrement de l'**éolien**, création de la **trame verte et bleue** pour la biodiversité, certification environnementale des exploitations agricoles, **affichage environnemental** des produits et obligation de **bilan d'émissions de gaz à effet de serre** pour les grandes entreprises et collectivités.",
+        "en": "Law no. 2010-788, carried by Jean-Louis Borloo, turns the Grenelle environmental round table commitments into several hundred articles: stronger **building energy standards**, development of public transport, a framework for **wind power**, creation of the **green and blue corridor network** for biodiversity, environmental certification of farms, **environmental labelling** of products and mandatory **greenhouse gas emissions audits** for large companies and local authorities."
+      },
+      "category_ids": ["ecologie", "energie"],
+      "politician_ids": ["jean-louis-borloo", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022470434",
+          "title": "LOI n° 2010-788 du 12 juillet 2010 portant engagement national pour l'environnement - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl08-155.html",
+          "title": "Dossier législatif : Grenelle II - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-modernisation-agriculture-2010",
+      "date": "2010-07-27",
+      "title": {
+        "fr": "Loi de modernisation de l'agriculture et de la pêche",
+        "en": "Farming and fisheries modernisation law"
+      },
+      "summary": {
+        "fr": "Après la crise du lait de 2009, la loi n° 2010-874, portée par Bruno Le Maire, cherche à stabiliser le revenu des agriculteurs : elle permet de rendre obligatoires les **contrats écrits entre producteurs et acheteurs** (durée minimale, volumes, prix), crée l'**Observatoire de la formation des prix et des marges des produits alimentaires**, développe l'**assurance récolte** contre les aléas climatiques et institue des **commissions départementales de la consommation des espaces agricoles** pour freiner la disparition des terres.",
+        "en": "After the 2009 milk crisis, law no. 2010-874, carried by Bruno Le Maire, seeks to stabilise farmers' income: it allows **written contracts between producers and buyers** to be made mandatory (minimum duration, volumes, prices), creates the **Observatory of food price and margin formation**, develops **harvest insurance** against climate hazards and sets up **departmental commissions on farmland consumption** to slow the loss of agricultural land."
+      },
+      "category_ids": ["agriculture"],
+      "politician_ids": ["bruno-le-maire", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000022521587",
+          "title": "LOI n° 2010-874 du 27 juillet 2010 de modernisation de l'agriculture et de la pêche - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/rap/l09-654/l09-654_mono.html",
+          "title": "Rapport n° 654 (2009-2010) de la commission de l'économie sur la loi de modernisation de l'agriculture et de la pêche - Sénat"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-200.html",
+          "title": "Dossier législatif : modernisation de l'agriculture et de la pêche - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "discours-de-grenoble-2010",
+      "date": "2010-07-30",
+      "title": {
+        "fr": "Discours de Grenoble : tournant sécuritaire",
+        "en": "Grenoble speech: security hardening"
+      },
+      "summary": {
+        "fr": "Après des violences urbaines à Grenoble, Nicolas Sarkozy prononce un discours qui durcit la politique de sécurité et d'immigration : il annonce vouloir **étendre la déchéance de la nationalité française** aux personnes d'origine étrangère ayant attenté à la vie d'un policier ou d'un gendarme, déclare engager une **« guerre » contre les trafiquants et les délinquants** et demande la **fin des implantations sauvages de campements de Roms**, qualifiées de zones de non-droit. Ce discours, très critiqué jusqu'au sein de la majorité, ouvre la séquence des démantèlements de camps de l'été 2010.",
+        "en": "After urban violence in Grenoble, Nicolas Sarkozy delivered a speech hardening security and immigration policy: he announced plans to **extend the stripping of French nationality** to people of foreign origin who attempt to kill a police officer or gendarme, declared a **\"war\" on traffickers and criminals** and demanded an **end to illegal Roma camp settlements**, described as lawless zones. The speech, heavily criticised even within the majority, opened the summer 2010 wave of camp dismantlements."
+      },
+      "category_ids": ["securite", "immigration"],
+      "politician_ids": ["nicolas-sarkozy"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2010/07/30/declaration-de-m-nicolas-sarkozy-president-de-la-republique-sur-la-lutte-contre-la-criminalite-la-delinquance-et-limmigration-illegale-a-grenoble-le-30-juillet-2010",
+          "title": "Déclaration de Nicolas Sarkozy sur la lutte contre la criminalité, la délinquance et l'immigration illégale, Grenoble, 30 juillet 2010 - Élysée"
+        },
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2010/07/21/declaration-en-conseil-des-ministres-de-m-nicolas-sarkozy-president-de-la-republique-sur-les-questions-de-securite-notamment-lannonce-de-la-nomination-dun-nouveau-prefet-de-lisere-et-de-la-tenue-dune-reunion-sur-les-gens-du-voyage-et-les-roms-a",
+          "title": "Déclaration en Conseil des ministres de Nicolas Sarkozy sur les questions de sécurité, les gens du voyage et les Roms, 21 juillet 2010 - Élysée"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

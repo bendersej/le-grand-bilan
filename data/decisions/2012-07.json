@@ -21,7 +21,12 @@
           "title": "Décret n° 2012-847 du 2 juillet 2012 relatif à l'âge d'ouverture du droit à pension de vieillesse - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "loi-reforme-retraites-2010"
+        }
+      ]
     },
     {
       "id": "conference-sociale-2012",

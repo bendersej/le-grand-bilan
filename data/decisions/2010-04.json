@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2010-04",
+  "decisions": [
+    {
+      "id": "zones-noires-xynthia-2010",
+      "date": "2010-04-07",
+      "title": {
+        "fr": "Xynthia : délimitation des « zones noires » à déconstruire",
+        "en": "Xynthia: drawing of the \"black zones\" slated for demolition"
+      },
+      "summary": {
+        "fr": "Suivant l'engagement pris par Nicolas Sarkozy le 16 mars, le gouvernement rend publique les 7 et 8 avril 2010 la délimitation des **« zones noires »**, rebaptisées **« zones de solidarité »**, des littoraux vendéen et charentais frappés par Xynthia : **plus de 1 500 habitations** (dont 915 en Vendée et environ 600 en Charente-Maritime), réparties sur une vingtaine de communes, sont jugées exposées à un danger mortel de submersion et vouées au **rachat amiable par l'État**, préalable à leur démolition. Le zonage, élaboré sans concertation, sera partiellement révisé après les expertises complémentaires.",
+        "en": "Following the commitment made by Nicolas Sarkozy on 16 March, on 7 and 8 April 2010 the government published the boundaries of the **\"black zones\"**, renamed **\"solidarity zones\"**, on the Vendée and Charente coastlines struck by Xynthia: **more than 1,500 homes** (915 in Vendée and about 600 in Charente-Maritime), across some twenty municipalities, were deemed exposed to deadly flooding risk and slated for **amicable buyout by the State** ahead of demolition. The zoning, drawn without consultation, was later partially revised after further expert reviews."
+      },
+      "category_ids": ["ecologie", "securite"],
+      "politician_ids": ["francois-fillon", "jean-louis-borloo", "brice-hortefeux"],
+      "sources": [
+        {
+          "url": "https://www.senat.fr/rap/r09-647-1/r09-647-1_mono.html",
+          "title": "Rapport n° 647 (2009-2010) de la mission commune d'information sur les conséquences de la tempête Xynthia - Sénat"
+        },
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2010/03/16/declaration-de-m-nicolas-sarkozy-president-de-la-republique-sur-les-actions-en-faveur-des-victimes-de-la-tempete-xynthia-a-la-roche-sur-yon-le-16-mars-2010",
+          "title": "Déclaration de Nicolas Sarkozy sur les actions en faveur des victimes de la tempête Xynthia, La Roche-sur-Yon, 16 mars 2010 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "arrete-catastrophe-naturelle-xynthia-2010"
+        }
+      ]
+    }
+  ]
+}

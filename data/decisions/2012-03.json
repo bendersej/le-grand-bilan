@@ -59,6 +59,10 @@
         {
           "type": "implements",
           "decision_id": "conseil-europeen-mars-2011"
+        },
+        {
+          "type": "related",
+          "decision_id": "creation-fesf-2010"
         }
       ]
     },
