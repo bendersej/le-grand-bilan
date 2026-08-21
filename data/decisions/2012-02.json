@@ -46,7 +46,12 @@
           "title": "Dossier législatif : remboursement des dépenses de campagne de l'élection présidentielle - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "plan-rigueur-novembre-2011"
+        }
+      ]
     }
   ]
 }

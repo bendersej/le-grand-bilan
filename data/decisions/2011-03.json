@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2011-03",
+  "decisions": [
+    {
+      "id": "loppsi-2-2011",
+      "date": "2011-03-14",
+      "title": {
+        "fr": "LOPPSI 2 et censure partielle du Conseil constitutionnel",
+        "en": "LOPPSI 2 security law and its partial constitutional censure"
+      },
+      "summary": {
+        "fr": "La loi n° 2011-267 d'orientation et de programmation pour la performance de la sécurité intérieure, préparée par Brice Hortefeux et promulguée sous Claude Guéant, généralise la **« vidéoprotection »**, autorise le **blocage administratif des sites pédopornographiques**, la **captation à distance de données informatiques** sous contrôle du juge et crée un **délit d'usurpation d'identité en ligne**. Le Conseil constitutionnel a **censuré treize articles** avant promulgation, dont l'**extension des peines planchers aux primo-délinquants** et la procédure d'**évacuation forcée des campements illicites** sous quarante-huit heures (décision n° 2011-625 DC).",
+        "en": "Law no. 2011-267 on orientation and programming for the performance of internal security, prepared by Brice Hortefeux and promulgated under Claude Guéant, generalises **\"video-protection\"**, authorises the **administrative blocking of child-pornography websites** and the judge-supervised **remote capture of computer data**, and creates an **offence of online identity theft**. The Constitutional Council **struck down thirteen articles** before promulgation, including the **extension of minimum sentences to first-time offenders** and the **forced eviction of illegal camps** within forty-eight hours (decision no. 2011-625 DC)."
+      },
+      "category_ids": ["securite", "numerique"],
+      "politician_ids": ["claude-gueant", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023707312",
+          "title": "LOI n° 2011-267 du 14 mars 2011 d'orientation et de programmation pour la performance de la sécurité intérieure - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2011/2011625DC.htm",
+          "title": "Décision n° 2011-625 DC du 10 mars 2011 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-292.html",
+          "title": "Dossier législatif : LOPPSI 2 - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "intervention-libye-2011",
+      "date": "2011-03-19",
+      "title": {
+        "fr": "Intervention militaire en Libye (opération Harmattan)",
+        "en": "Military intervention in Libya (Operation Harmattan)"
+      },
+      "summary": {
+        "fr": "En application de la **résolution 1973 du Conseil de sécurité de l'ONU** du 17 mars, dont la France a été l'un des principaux promoteurs avec le Royaume-Uni, Nicolas Sarkozy annonce à l'issue du sommet de Paris du 19 mars que **les avions français interviennent en Libye** pour protéger la population civile de Benghazi contre les forces de Mouammar Kadhafi : c'est le début de l'**opération Harmattan**, première frappe de la coalition. Le Parlement, informé au titre de l'article 35 de la Constitution, **autorise la prolongation de l'intervention le 12 juillet** (311 voix pour, 24 contre au Sénat) ; l'opération s'achève avec la fin de la mission de l'OTAN le 31 octobre 2011.",
+        "en": "Pursuant to **UN Security Council resolution 1973** of 17 March, which France championed alongside the United Kingdom, Nicolas Sarkozy announces at the close of the 19 March Paris summit that **French aircraft are intervening in Libya** to protect Benghazi's civilian population from Muammar Gaddafi's forces: the start of **Operation Harmattan** and the coalition's first strike. Parliament, informed under article 35 of the Constitution, **authorised the extension of the intervention on 12 July** (311 votes to 24 in the Senate); the operation ended with NATO's mission on 31 October 2011."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["nicolas-sarkozy", "alain-juppe", "gerard-longuet"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2011/03/19/declaration-de-m-nicolas-sarkozy-president-de-la-republique-sur-lapplication-de-la-resolution-du-conseil-de-securite-de-lonu-exigeant-un-cessez-le-feu-immediat-et-larret-des-violences-contre-les-populations-civiles-en-libye-a-paris-le-19-mars-2011",
+          "title": "Déclaration de Nicolas Sarkozy sur l'application de la résolution 1973 en Libye, 19 mars 2011 - Élysée"
+        },
+        {
+          "url": "https://www.senat.fr/scrutin-public/2010/scr2010-271.html",
+          "title": "Scrutin n° 271 du 12 juillet 2011 sur l'autorisation de la prolongation de l'intervention en Libye - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "conseil-europeen-mars-2011",
+      "date": "2011-03-25",
+      "title": {
+        "fr": "Pacte pour l'euro plus et révision de l'article 136 du TFUE",
+        "en": "Euro Plus Pact and revision of article 136 TFEU"
+      },
+      "summary": {
+        "fr": "Au Conseil européen des 24 et 25 mars 2011, Nicolas Sarkozy approuve avec ses homologues le **Pacte pour l'euro plus**, engagement de coordination des politiques de compétitivité, d'emploi et de finances publiques auquel adhèrent six États hors zone euro, et la **décision révisant l'article 136 du traité sur le fonctionnement de l'UE**, base juridique du futur **Mécanisme européen de stabilité (MES)**, fonds de secours permanent appelé à succéder au FESF en 2013.",
+        "en": "At the European Council of 24-25 March 2011, Nicolas Sarkozy approves with his counterparts the **Euro Plus Pact**, a commitment to coordinate competitiveness, employment and public finance policies joined by six non-euro states, and the **decision revising article 136 of the Treaty on the Functioning of the EU**, the legal basis of the future **European Stability Mechanism (ESM)**, the permanent rescue fund set to succeed the EFSF in 2013."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["nicolas-sarkozy"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2011/03/25/conference-de-presse-de-m-nicolas-sarkozy-president-de-la-republique-notamment-sur-le-pacte-pour-leuro-la-securite-nucleaire-et-sur-lintervention-militaire-en-libye-a-bruxelles-le-25-mars-2011",
+          "title": "Conférence de presse de Nicolas Sarkozy sur le pacte pour l'euro, Bruxelles, 25 mars 2011 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lois-defenseur-des-droits-2011",
+      "date": "2011-03-29",
+      "title": {
+        "fr": "Création du Défenseur des droits",
+        "en": "Creation of the Defender of Rights"
+      },
+      "summary": {
+        "fr": "Les lois organique n° 2011-333 et ordinaire n° 2011-334, portées par Michel Mercier en application de la révision constitutionnelle de 2008, créent le **Défenseur des droits**, autorité constitutionnelle indépendante qui **absorbe le Médiateur de la République, le Défenseur des enfants, la HALDE et la Commission nationale de déontologie de la sécurité (CNDS)**. Nommé pour six ans par le Président de la République, il peut être saisi gratuitement par toute personne s'estimant lésée par un service public ou victime de discrimination. Le Conseil constitutionnel a validé l'essentiel du dispositif (décision n° 2011-626 DC).",
+        "en": "Organic law no. 2011-333 and ordinary law no. 2011-334, carried by Michel Mercier pursuant to the 2008 constitutional revision, create the **Defender of Rights**, an independent constitutional authority that **absorbs the Republic's Ombudsman, the Children's Defender, the anti-discrimination authority HALDE and the security ethics commission CNDS**. Appointed for six years by the President, it can be seized free of charge by anyone wronged by a public service or facing discrimination. The Constitutional Council upheld the core of the scheme (decision no. 2011-626 DC)."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["michel-mercier", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023781167",
+          "title": "LOI organique n° 2011-333 du 29 mars 2011 relative au Défenseur des droits - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023781252",
+          "title": "LOI n° 2011-334 du 29 mars 2011 relative au Défenseur des droits - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2011/2011626DC.htm",
+          "title": "Décision n° 2011-626 DC du 29 mars 2011 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl08-610.html",
+          "title": "Dossier législatif : Défenseur des droits - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

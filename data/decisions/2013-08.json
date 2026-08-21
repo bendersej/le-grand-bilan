@@ -54,7 +54,12 @@
           "title": "Dossier législatif : bioéthique - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "loi-bioethique-2011"
+        }
+      ]
     }
   ]
 }

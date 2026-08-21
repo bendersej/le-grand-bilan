@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2011-02",
+  "decisions": [
+    {
+      "id": "remaniement-fevrier-2011",
+      "date": "2011-02-27",
+      "title": {
+        "fr": "Remaniement du 27 février 2011 : Juppé au Quai d'Orsay",
+        "en": "27 February 2011 reshuffle: Juppé to the Foreign Ministry"
+      },
+      "summary": {
+        "fr": "Après la démission de Michèle Alliot-Marie, critiquée pour ses liens avec le régime tunisien de Ben Ali pendant la révolution, Nicolas Sarkozy réorganise les ministères régaliens par décret du 27 février 2011 : **Alain Juppé quitte la Défense pour les Affaires étrangères** avec rang de ministre d'État, **Gérard Longuet devient ministre de la Défense** et **Claude Guéant, secrétaire général de l'Élysée, prend l'Intérieur** à la place de Brice Hortefeux.",
+        "en": "After the resignation of Michèle Alliot-Marie, criticised for her ties to Ben Ali's Tunisian regime during the revolution, Nicolas Sarkozy reorganises the sovereign ministries by decree of 27 February 2011: **Alain Juppé leaves Defence for Foreign Affairs** with the rank of Minister of State, **Gérard Longuet becomes Defence Minister** and **Claude Guéant, secretary general of the Élysée, takes the Interior Ministry** in place of Brice Hortefeux."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["nicolas-sarkozy", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023645773",
+          "title": "Décret du 27 février 2011 relatif à la composition du Gouvernement - Légifrance"
+        },
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2011/02/27/allocution-radiotelevisee-de-m-nicolas-sarkozy-president-de-la-republique-sur-la-situation-internationale-notamment-levolution-politique-dans-les-pays-arabes-le-27-fevrier-2011",
+          "title": "Allocution radiotélévisée de Nicolas Sarkozy annonçant la réorganisation des ministères, 27 février 2011 - Élysée"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

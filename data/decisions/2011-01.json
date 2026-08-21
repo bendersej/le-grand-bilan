@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2011-01",
+  "decisions": [
+    {
+      "id": "loi-suppression-avoues-2011",
+      "date": "2011-01-25",
+      "title": {
+        "fr": "Suppression de la profession d'avoué près les cours d'appel",
+        "en": "Abolition of the profession of avoué before the courts of appeal"
+      },
+      "summary": {
+        "fr": "La loi n° 2011-94, portée par Michel Mercier, **supprime la profession d'avoué près les cours d'appel** et l'intègre à celle d'avocat au **1er janvier 2012** : les avocats peuvent désormais représenter eux-mêmes leurs clients en appel. Les avoués deviennent avocats de plein droit, avec un régime d'indemnisation de leurs offices et des passerelles vers d'autres professions judiciaires.",
+        "en": "Law no. 2011-94, carried by Michel Mercier, **abolishes the profession of avoué before the courts of appeal** and merges it into the legal profession on **1 January 2012**: avocats can now represent their clients on appeal themselves. Avoués become avocats by right, with compensation for their offices and gateways to other judicial professions."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["michel-mercier", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023474278",
+          "title": "LOI n° 2011-94 du 25 janvier 2011 portant réforme de la représentation devant les cours d'appel - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl09-016.html",
+          "title": "Dossier législatif : réforme de la représentation devant les cours d'appel - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-cope-zimmermann-2011",
+      "date": "2011-01-27",
+      "title": {
+        "fr": "Loi Copé-Zimmermann sur la parité dans les conseils d'administration",
+        "en": "Copé-Zimmermann law on gender balance in company boards"
+      },
+      "summary": {
+        "fr": "La loi n° 2011-103, issue de la proposition des députés Jean-François Copé et Marie-Jo Zimmermann, impose un **quota d'au moins 40 % de chaque sexe dans les conseils d'administration et de surveillance au 1er janvier 2017**, avec un palier de **20 % en 2014**. Elle s'applique aux **sociétés cotées** et aux sociétés d'au moins **500 salariés permanents et 50 millions d'euros de chiffre d'affaires ou de total de bilan** ; les nominations irrégulières sont frappées de nullité.",
+        "en": "Law no. 2011-103, born of the bill by MPs Jean-François Copé and Marie-Jo Zimmermann, imposes a **quota of at least 40% of each gender on boards of directors and supervisory boards by 1 January 2017**, with an interim step of **20% in 2014**. It applies to **listed companies** and to companies with at least **500 permanent employees and 50 million euros in revenue or total assets**; irregular appointments are void."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["jean-francois-cope", "marie-jo-zimmermann"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023487662",
+          "title": "LOI n° 2011-103 du 27 janvier 2011 relative à la représentation équilibrée des femmes et des hommes au sein des conseils d'administration et de surveillance et à l'égalité professionnelle - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl09-223.html",
+          "title": "Dossier législatif : représentation équilibrée des femmes et des hommes au sein des conseils d'administration - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

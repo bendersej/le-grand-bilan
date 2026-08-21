@@ -1,0 +1,77 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2011-05",
+  "decisions": [
+    {
+      "id": "loi-prix-livre-numerique-2011",
+      "date": "2011-05-26",
+      "title": {
+        "fr": "Prix unique du livre numérique",
+        "en": "Single price for digital books"
+      },
+      "summary": {
+        "fr": "La loi n° 2011-590, issue d'une proposition sénatoriale soutenue par Frédéric Mitterrand, étend au livre numérique le principe de la loi Lang de 1981 : **l'éditeur fixe le prix de vente au public du livre numérique**, qui s'impose à **tous les vendeurs proposant l'ouvrage aux acheteurs situés en France**, plateformes étrangères comprises. Le texte vise à protéger le réseau de librairies et la diversité éditoriale face aux géants de la vente en ligne.",
+        "en": "Law no. 2011-590, born of a Senate bill supported by Frédéric Mitterrand, extends the principle of the 1981 Lang law to e-books: **the publisher sets the retail price of the digital book**, which is binding on **all sellers offering the work to buyers located in France**, foreign platforms included. The text aims to protect the bookshop network and editorial diversity against online retail giants."
+      },
+      "category_ids": ["culture", "numerique"],
+      "politician_ids": ["frederic-mitterrand", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000024079563",
+          "title": "LOI n° 2011-590 du 26 mai 2011 relative au prix du livre numérique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl09-695.html",
+          "title": "Dossier législatif : prix du livre numérique - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "g8-deauville-2011",
+      "date": "2011-05-27",
+      "title": {
+        "fr": "Sommet du G8 de Deauville et partenariat avec les printemps arabes",
+        "en": "Deauville G8 summit and partnership with the Arab Spring"
+      },
+      "summary": {
+        "fr": "Sous présidence française, le sommet du G8 réuni à Deauville les 26 et 27 mai 2011 lance le **« partenariat de Deauville » avec les pays du printemps arabe** : Nicolas Sarkozy annonce **20 milliards de dollars d'engagements des banques multilatérales pour la Tunisie et l'Égypte**, portés à **40 milliards** avec les engagements bilatéraux et ceux des pays du Golfe, en soutien des transitions démocratiques.",
+        "en": "Under French presidency, the G8 summit held in Deauville on 26-27 May 2011 launches the **\"Deauville partnership\" with Arab Spring countries**: Nicolas Sarkozy announces **20 billion dollars of multilateral bank commitments for Tunisia and Egypt**, raised to **40 billion** with bilateral and Gulf-state pledges, in support of democratic transitions."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["nicolas-sarkozy"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2011/05/27/conference-de-presse-de-m-nicolas-sarkozy-president-de-la-republique-notamment-sur-la-situation-en-libye-et-dans-les-pays-arabes-la-crise-au-sein-de-la-zone-euro-la-succession-de-dominique-strauss-kahn-au-fmi-et-sur-la-vente-de-navires-militaires-a",
+          "title": "Conférence de presse de clôture du G8 de Deauville, 27 mai 2011 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "circulaire-gueant-2011",
+      "date": "2011-05-31",
+      "title": {
+        "fr": "Circulaire Guéant sur l'immigration professionnelle",
+        "en": "Guéant circular on labour immigration"
+      },
+      "summary": {
+        "fr": "Par la circulaire du 31 mai 2011 relative à la maîtrise de l'immigration professionnelle, Claude Guéant et Xavier Bertrand demandent aux préfets un **examen restrictif des demandes d'autorisation de travail**, durcissant notamment le **changement de statut des étudiants étrangers diplômés en France** vers le salariat. Vivement contestée par les grandes écoles, les universités et les employeurs, la circulaire laisse des diplômés munis de promesses d'embauche sans autorisation de travail ; elle sera **abrogée le 31 mai 2012** par le gouvernement Ayrault.",
+        "en": "With the 31 May 2011 circular on controlling labour immigration, Claude Guéant and Xavier Bertrand instruct prefects to apply a **restrictive review of work permit applications**, notably tightening the **change of status of foreign graduates of French universities** into employment. Strongly contested by elite schools, universities and employers, the circular left graduates holding job offers without work permits; it was **repealed on 31 May 2012** by the Ayrault government."
+      },
+      "category_ids": ["immigration", "travail"],
+      "politician_ids": ["claude-gueant", "xavier-bertrand"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/13/questions/QANR5L13QE120020.pdf",
+          "title": "Question écrite n° 120020 sur la circulaire du 31 mai 2011 relative à la maîtrise de l'immigration professionnelle - Assemblée nationale"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/13/questions/QANR5L13QE130833.pdf",
+          "title": "Question écrite n° 130833 sur les conséquences de la circulaire du 31 mai 2011 - Assemblée nationale"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2011-04",
+  "decisions": [
+    {
+      "id": "intervention-cote-divoire-2011",
+      "date": "2011-04-04",
+      "title": {
+        "fr": "Engagement de la force Licorne en Côte d'Ivoire",
+        "en": "Engagement of the Licorne force in Ivory Coast"
+      },
+      "summary": {
+        "fr": "À la demande écrite du secrétaire général de l'ONU Ban Ki-moon, Nicolas Sarkozy **autorise le 4 avril 2011 la force française Licorne à appuyer les opérations de l'ONUCI** contre les armes lourdes du régime de Laurent Gbagbo, qui refuse de reconnaître la victoire d'Alassane Ouattara à l'élection présidentielle ivoirienne. Les frappes françaises et onusiennes sur Abidjan conduisent à l'**arrestation de Laurent Gbagbo le 11 avril**.",
+        "en": "At the written request of UN secretary-general Ban Ki-moon, on 4 April 2011 Nicolas Sarkozy **authorises the French Licorne force to support UNOCI operations** against the heavy weapons of Laurent Gbagbo's regime, which refused to recognise Alassane Ouattara's victory in the Ivorian presidential election. The French and UN strikes on Abidjan led to **Laurent Gbagbo's arrest on 11 April**."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["nicolas-sarkozy", "gerard-longuet", "alain-juppe"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2011/04/04/lettre-de-m-nicolas-sarkozy-president-de-la-republique-adressee-a-m-ban-ki-moon-secretaire-general-des-nations-unies-sur-le-soutien-des-forces-francaises-aux-operations-militaires-de-lonuci-en-cote-divoire",
+          "title": "Lettre de Nicolas Sarkozy à Ban Ki-moon sur le soutien des forces françaises à l'ONUCI, 4 avril 2011 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-garde-a-vue-2011",
+      "date": "2011-04-14",
+      "title": {
+        "fr": "Réforme de la garde à vue",
+        "en": "Reform of police custody"
+      },
+      "summary": {
+        "fr": "Contrainte par la censure du régime antérieur par le Conseil constitutionnel (décision QPC du 30 juillet 2010) et par la jurisprudence de la Cour européenne des droits de l'homme, la loi n° 2011-392, portée par Michel Mercier, garantit à toute personne gardée à vue **l'assistance d'un avocat dès le début de la mesure et pendant les auditions** ainsi que la **notification du droit de se taire**. La garde à vue est réservée aux infractions punies d'emprisonnement et placée sous le contrôle renforcé du procureur.",
+        "en": "Forced by the Constitutional Council's censure of the previous regime (QPC ruling of 30 July 2010) and by the European Court of Human Rights' case law, law no. 2011-392, carried by Michel Mercier, guarantees anyone in police custody **the assistance of a lawyer from the start of the measure and during questioning** and the **notification of the right to remain silent**. Custody is reserved for offences punishable by imprisonment, under strengthened prosecutor oversight."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["michel-mercier", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000023860729",
+          "title": "LOI n° 2011-392 du 14 avril 2011 relative à la garde à vue - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2010/201014_22QPC.htm",
+          "title": "Décision n° 2010-14/22 QPC du 30 juillet 2010 (garde à vue) - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl10-253.html",
+          "title": "Dossier législatif : garde à vue - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

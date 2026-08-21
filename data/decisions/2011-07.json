@@ -1,0 +1,164 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2011-07",
+  "decisions": [
+    {
+      "id": "loi-psychiatrie-2011",
+      "date": "2011-07-05",
+      "title": {
+        "fr": "Réforme des soins psychiatriques sans consentement",
+        "en": "Reform of involuntary psychiatric care"
+      },
+      "summary": {
+        "fr": "Imposée par une décision QPC du Conseil constitutionnel de novembre 2010, la loi n° 2011-803, portée par Xavier Bertrand, réforme l'hospitalisation d'office : elle crée les **soins sans consentement en ambulatoire**, hors de l'hôpital, et soumet toute **hospitalisation complète au contrôle du juge des libertés et de la détention avant quinze jours**, puis tous les six mois. Les patients ayant séjourné en unité pour malades difficiles relèvent d'un régime de sortie renforcé.",
+        "en": "Required by a Constitutional Council QPC ruling of November 2010, law no. 2011-803, carried by Xavier Bertrand, reforms involuntary hospitalisation: it creates **involuntary outpatient psychiatric care** outside hospital and subjects any **full hospitalisation to review by the liberty and custody judge within fifteen days**, then every six months. Patients formerly held in units for difficult patients face a reinforced discharge regime."
+      },
+      "category_ids": ["sante", "justice"],
+      "politician_ids": ["xavier-bertrand", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000024312722",
+          "title": "LOI n° 2011-803 du 5 juillet 2011 relative aux droits et à la protection des personnes faisant l'objet de soins psychiatriques - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2010/201071QPC.htm",
+          "title": "Décision n° 2010-71 QPC du 26 novembre 2010 (hospitalisation sans consentement) - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl10-361.html",
+          "title": "Dossier législatif : soins psychiatriques - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-bioethique-2011",
+      "date": "2011-07-07",
+      "title": {
+        "fr": "Loi de bioéthique de 2011",
+        "en": "2011 bioethics law"
+      },
+      "summary": {
+        "fr": "La loi n° 2011-814, portée par Xavier Bertrand, révise les lois de bioéthique : elle **maintient l'interdiction de la recherche sur l'embryon**, assortie de dérogations encadrées, et l'**anonymat du don de gamètes**, autorise le **don croisé d'organes** entre paires donneur-receveur incompatibles et la **vitrification des ovocytes**. L'assistance médicale à la procréation reste réservée aux couples homme-femme confrontés à une infertilité médicalement constatée.",
+        "en": "Law no. 2011-814, carried by Xavier Bertrand, revises the bioethics laws: it **maintains the ban on embryo research**, subject to framed exemptions, and the **anonymity of gamete donation**, while authorising **paired organ donation** between incompatible donor-recipient pairs and **egg vitrification**. Assisted reproduction remains reserved for male-female couples with medically established infertility."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["xavier-bertrand", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000024323102",
+          "title": "LOI n° 2011-814 du 7 juillet 2011 relative à la bioéthique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl10-304.html",
+          "title": "Dossier législatif : bioéthique - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-gaz-de-schiste-2011",
+      "date": "2011-07-13",
+      "title": {
+        "fr": "Interdiction de la fracturation hydraulique (gaz de schiste)",
+        "en": "Ban on hydraulic fracturing (shale gas)"
+      },
+      "summary": {
+        "fr": "Issue d'une proposition du député Christian Jacob et soutenue par Nathalie Kosciusko-Morizet, la loi n° 2011-835 fait de la France le premier pays à **interdire l'exploration et l'exploitation des hydrocarbures par fracturation hydraulique**. Les titulaires de permis doivent déclarer sous deux mois les techniques employées : les **permis exclusifs de recherches recourant à la fracturation sont abrogés** et le recours non déclaré à la technique devient un délit.",
+        "en": "Born of a bill by MP Christian Jacob and backed by Nathalie Kosciusko-Morizet, law no. 2011-835 makes France the first country to **ban the exploration and exploitation of hydrocarbons by hydraulic fracturing**. Permit holders must declare within two months the techniques they use: **exclusive research permits relying on fracturing are revoked**, and undeclared use of the technique becomes a criminal offence."
+      },
+      "category_ids": ["ecologie", "energie"],
+      "politician_ids": ["nathalie-kosciusko-morizet", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000024361355",
+          "title": "LOI n° 2011-835 du 13 juillet 2011 visant à interdire l'exploration et l'exploitation des mines d'hydrocarbures par fracturation hydraulique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl10-510.html",
+          "title": "Dossier législatif : gaz de schiste - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "sommet-zone-euro-juillet-2011",
+      "date": "2011-07-21",
+      "title": {
+        "fr": "Sommet de la zone euro : deuxième plan d'aide à la Grèce",
+        "en": "Euro area summit: second Greek rescue package"
+      },
+      "summary": {
+        "fr": "Au sommet des chefs d'État et de gouvernement de la zone euro du 21 juillet 2011, Nicolas Sarkozy approuve un **deuxième plan d'aide à la Grèce de 109 milliards d'euros de financements publics**, complété par une **participation volontaire des créanciers privés**, avec des taux abaissés à 3,5 % et des maturités allongées. Le **FESF est profondément renforcé** : il peut désormais intervenir à titre préventif, racheter de la dette sur le marché secondaire et financer la recapitalisation des banques, préfigurant le futur Mécanisme européen de stabilité.",
+        "en": "At the euro area summit of 21 July 2011, Nicolas Sarkozy approves a **second Greek rescue package of 109 billion euros in public financing**, supplemented by a **voluntary contribution from private creditors**, with rates lowered to 3.5% and longer maturities. The **EFSF is deeply strengthened**: it can now intervene preventively, buy debt on the secondary market and fund bank recapitalisations, prefiguring the future European Stability Mechanism."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["nicolas-sarkozy"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2011/07/25/lettre-de-m-nicolas-sarkozy-president-de-la-republique-adressee-aux-parlementaires-sur-laide-europeenne-apportee-a-la-grece-la-necessite-de-doter-la-zone-euro-dun-veritable-gouvernement-economique-et-sur-lassainissement-des-finances-publiques-fra",
+          "title": "Lettre de Nicolas Sarkozy aux parlementaires sur l'aide européenne à la Grèce, 25 juillet 2011 - Élysée"
+        },
+        {
+          "url": "https://www.senat.fr/rap/l10-787/l10-787_mono.html",
+          "title": "Rapport n° 787 (2010-2011) de la commission des finances sur la deuxième LFR 2011, détaillant les décisions du 21 juillet - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "prime-partage-profits-2011",
+      "date": "2011-07-28",
+      "title": {
+        "fr": "Prime de partage des profits (prime dividendes)",
+        "en": "Profit-sharing bonus (dividend bonus)"
+      },
+      "summary": {
+        "fr": "La loi n° 2011-894 de financement rectificative de la sécurité sociale crée la **prime de partage des profits** : les sociétés commerciales d'**au moins 50 salariés** dont les **dividendes par action augmentent** par rapport à la moyenne des deux exercices précédents doivent négocier le versement d'une prime à l'ensemble de leurs salariés, **exonérée de cotisations sociales dans la limite de 1 200 euros par salarié et par an**.",
+        "en": "Law no. 2011-894, an amending social security financing law, creates the **profit-sharing bonus**: commercial companies with **at least 50 employees** whose **dividends per share increase** compared with the average of the two previous years must negotiate a bonus for all their employees, **exempt from social contributions up to 1,200 euros per employee per year**."
+      },
+      "category_ids": ["travail", "economie"],
+      "politician_ids": ["xavier-bertrand", "francois-baroin", "valerie-pecresse"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000024409075",
+          "title": "LOI n° 2011-894 du 28 juillet 2011 de financement rectificative de la sécurité sociale pour 2011 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl10-653.html",
+          "title": "Dossier législatif : loi de financement rectificative de la sécurité sociale pour 2011 - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "reforme-fiscalite-patrimoine-2011",
+      "date": "2011-07-29",
+      "title": {
+        "fr": "Réforme de la fiscalité du patrimoine : fin du bouclier fiscal",
+        "en": "Wealth taxation reform: end of the tax shield"
+      },
+      "summary": {
+        "fr": "Préparée par Christine Lagarde et promulguée sous François Baroin, la loi n° 2011-900 de finances rectificative **supprime le bouclier fiscal** instauré en 2006 et réforme l'**impôt de solidarité sur la fortune** : le seuil d'entrée est relevé à **1,3 million d'euros de patrimoine**, avec deux taux de **0,25 % et 0,50 %** remplaçant le barème progressif. Elle crée une **« exit tax »** sur les plus-values latentes des contribuables transférant leur domicile hors de France et institue une taxation des biens placés dans les trusts. La loi porte aussi la **garantie de la France au FESF de 111 à 159 milliards d'euros**.",
+        "en": "Prepared by Christine Lagarde and promulgated under François Baroin, amending budget law no. 2011-900 **abolishes the tax shield** created in 2006 and reforms the **wealth tax (ISF)**: the entry threshold rises to **1.3 million euros of assets**, with two rates of **0.25% and 0.50%** replacing the progressive scale. It creates an **\"exit tax\"** on the unrealised gains of taxpayers moving their residence out of France and taxes assets held in trusts. The law also raises **France's guarantee to the EFSF from 111 to 159 billion euros**."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["francois-baroin", "valerie-pecresse", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000024413775",
+          "title": "LOI n° 2011-900 du 29 juillet 2011 de finances rectificative pour 2011 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2011/2011638DC.htm",
+          "title": "Décision n° 2011-638 DC du 28 juillet 2011 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl10-612.html",
+          "title": "Dossier législatif : première loi de finances rectificative pour 2011 - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

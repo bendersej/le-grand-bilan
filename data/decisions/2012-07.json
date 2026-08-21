@@ -63,7 +63,12 @@
           "title": "Décret n° 2012-894 du 20 juillet 2012 relatif à l'évolution de certains loyers - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "repeals",
+          "decision_id": "decret-loyers-paris-2011"
+        }
+      ]
     },
     {
       "id": "plan-automobile-2012",

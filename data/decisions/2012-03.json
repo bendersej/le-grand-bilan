@@ -25,7 +25,12 @@
           "title": "Conférence de presse de Nicolas Sarkozy au Conseil européen de Bruxelles, 2 mars 2012 - Élysée"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "conseil-europeen-decembre-2011"
+        }
+      ]
     },
     {
       "id": "ratification-mes-2012",
@@ -50,7 +55,12 @@
           "title": "LOI n° 2012-323 du 7 mars 2012 autorisant la ratification de la décision du Conseil européen modifiant l'article 136 du traité sur le fonctionnement de l'Union européenne - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "conseil-europeen-mars-2011"
+        }
+      ]
     },
     {
       "id": "tva-sociale-2012",
@@ -159,7 +169,12 @@
           "title": "Dossier législatif : protection de l'identité - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loppsi-2-2011"
+        }
+      ]
     }
   ]
 }

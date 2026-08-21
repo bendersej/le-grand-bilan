@@ -89,7 +89,12 @@
           "title": "Point de presse de François Hollande au sommet de l'OTAN à Chicago, 21 mai 2012 - Élysée"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "annonce-retrait-afghanistan-2011"
+        }
+      ]
     },
     {
       "id": "abrogation-circulaire-gueant-2012",
@@ -114,7 +119,12 @@
           "title": "Question écrite sur la mise en œuvre de la circulaire du 31 mai 2012 - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "repeals",
+          "decision_id": "circulaire-gueant-2011"
+        }
+      ]
     }
   ]
 }

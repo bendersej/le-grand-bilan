@@ -130,6 +130,36 @@
       }
     },
     {
+      "id": "alain-juppe",
+      "full_name": "Alain Juppé",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre d'État, ministre des Affaires étrangères et européennes",
+            "en": "Minister of State, Minister of Foreign and European Affairs"
+          },
+          "from": "2011-02-27",
+          "to": "2012-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "cb565c6968e90819541c5f04f69c507c5f390ee52f546847319eb86ed30f15cf",
+        "photo": {
+          "path": "/media/politicians/alain-juppe.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Alain_Jupp%C3%A9_%C3%A0_Qu%C3%A9bec_en_2015_(cropped_2).jpg",
+          "license": "CC BY 4.0",
+          "author": "Florencecassisi"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme d'État de la droite chiraquienne, **ministre d'État, ministre des Affaires étrangères et européennes de février 2011 à mai 2012**, après avoir été brièvement ministre de la Défense (2010-2011). Il porte la diplomatie française pendant les **interventions en Libye et en Côte d'Ivoire** et la crise de la zone euro. Ancien élève de l'**École normale supérieure et de l'ENA**, inspecteur des finances, collaborateur de Jacques Chirac dès 1976, il est ministre du Budget (1986-1988), ministre des Affaires étrangères (1993-1995), puis **Premier ministre de 1995 à 1997** : son plan sur les retraites et la Sécurité sociale déclenche les grandes grèves de l'hiver 1995. **Maire de Bordeaux de 1995 à 2019** et président du RPR puis de l'UMP, condamné en 2004 dans l'affaire des emplois fictifs de la mairie de Paris, il revient au gouvernement en 2007 puis en 2010. Candidat malheureux à la primaire de la droite de 2016, il est nommé au **Conseil constitutionnel en 2019**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Alain_Jupp%C3%A9"
+      }
+    },
+    {
       "id": "albane-gaillot",
       "full_name": "Albane Gaillot",
       "party": null,
@@ -1970,6 +2000,36 @@
       }
     },
     {
+      "id": "frederic-mitterrand",
+      "full_name": "Frédéric Mitterrand",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Culture et de la Communication",
+            "en": "Minister of Culture and Communication"
+          },
+          "from": "2009-06-23",
+          "to": "2012-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "07c3bbd871e1dd3b1e9382c36ba09ce0d3c208d309cca4456b8474d989a05178",
+        "photo": {
+          "path": "/media/politicians/frederic-mitterrand.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:R%C3%A9ception_pour_les_Fran%C3%A7ais_de_Shanghai_20100430_-_10.jpg",
+          "license": "CC BY 3.0",
+          "author": null
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Écrivain, réalisateur et animateur de télévision, **ministre de la Culture et de la Communication de juin 2009 à mai 2012** dans les gouvernements Fillon. Il porte notamment la **loi de 2011 sur le prix du livre numérique** et défend le régime français d'exception culturelle. **Neveu du président François Mitterrand**, il a fait carrière hors de la politique : exploitant de salles de cinéma, producteur et animateur de télévision, réalisateur de documentaires, puis **directeur de la Villa Médicis à Rome (2008-2009)**. Élu à l'**Académie des beaux-arts en 2019**, il est mort en mars 2024.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9ric_Mitterrand"
+      }
+    },
+    {
       "id": "frederique-vidal",
       "full_name": "Frédérique Vidal",
       "party": null,
@@ -2220,6 +2280,36 @@
       }
     },
     {
+      "id": "gerard-longuet",
+      "full_name": "Gérard Longuet",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Défense et des Anciens combattants",
+            "en": "Minister of Defence and Veterans"
+          },
+          "from": "2011-02-27",
+          "to": "2012-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "721a4f366a63ded359a75c9c649c25be9bfd5dfa65c66f05438feda2adba9a2f",
+        "photo": {
+          "path": "/media/politicians/gerard-longuet.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Gerard_Longuet_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Mike-tango"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Haut fonctionnaire et homme politique libéral-conservateur, **ministre de la Défense et des Anciens combattants de février 2011 à mai 2012** : il conduit les opérations françaises en **Libye (Harmattan)**, en **Côte d'Ivoire (Licorne)** et en Afghanistan. **Député puis sénateur de la Meuse** et élu lorrain de longue date, il est ministre des P&T puis de l'Industrie sous les deux premières cohabitations (1986-1988, 1993-1995), président du **Parti républicain** dans les années 1990 et président du groupe UMP au Sénat avant d'entrer au gouvernement Fillon.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/G%C3%A9rard_Longuet"
+      }
+    },
+    {
       "id": "guillaume-garot",
       "full_name": "Guillaume Garot",
       "party": "Parti socialiste",
@@ -2399,6 +2489,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean_Castex"
+      }
+    },
+    {
+      "id": "jean-francois-cope",
+      "full_name": "Jean-François Copé",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 6e circonscription de Seine-et-Marne",
+            "en": "Member of Parliament for Seine-et-Marne's 6th constituency"
+          },
+          "from": "2007-06-20",
+          "to": "2017-06-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "e7bea7230bebf01a9205e234fc1912ba88c1e24e69e0de522acde7c8f64bf99e",
+        "photo": {
+          "path": "/media/politicians/jean-francois-cope.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Photo_JFC.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "175Nell"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Haut fonctionnaire et homme politique, **député de Seine-et-Marne** et **maire de Meaux depuis 1995**. Président du groupe UMP à l'Assemblée nationale (2007-2010), puis **secrétaire général de l'UMP** (2010-2012) et président du parti (2012-2014), il donne son nom à la **loi Copé-Zimmermann du 27 janvier 2011** imposant un quota de 40 % de femmes dans les conseils d'administration des grandes entreprises. Sous les gouvernements Raffarin et Villepin, il est secrétaire d'État aux Relations avec le Parlement, **porte-parole du Gouvernement**, ministre délégué à l'Intérieur puis **ministre délégué au Budget** (2004-2007). Sa présidence de l'UMP, acquise de justesse face à François Fillon en 2012, s'achève en 2014 avec l'affaire Bygmalion.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean-Fran%C3%A7ois_Cop%C3%A9"
       }
     },
     {
@@ -3140,6 +3260,36 @@
       }
     },
     {
+      "id": "marie-jo-zimmermann",
+      "full_name": "Marie-Jo Zimmermann",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Députée de la 3e circonscription de la Moselle",
+            "en": "Member of Parliament for Moselle's 3rd constituency"
+          },
+          "from": "1998-02-02",
+          "to": "2017-06-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "a0caf6a27cffc1c0616aca631240473027c8a6caaaa7947db3d55b94d99b43d6",
+        "photo": {
+          "path": "/media/politicians/marie-jo-zimmermann.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marie_Jo_Zimmermann.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Garnivirgile"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "**Députée de la Moselle de 1998 à 2017** (UMP puis Les Républicains), spécialiste des droits des femmes : présidente de la **Délégation de l'Assemblée nationale aux droits des femmes**, elle est à l'origine, avec Jean-François Copé, de la **loi Copé-Zimmermann du 27 janvier 2011** qui impose un **quota de 40 % de chaque sexe dans les conseils d'administration et de surveillance** des grandes entreprises, après le rejet de ses propositions antérieures sur la parité économique.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Marie-Jo_Zimmermann"
+      }
+    },
+    {
       "id": "marie-pierre-rixain",
       "full_name": "Marie-Pierre Rixain",
       "party": "Renaissance",
@@ -3567,6 +3717,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Najat_Vallaud-Belkacem"
+      }
+    },
+    {
+      "id": "nathalie-kosciusko-morizet",
+      "full_name": "Nathalie Kosciusko-Morizet",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Écologie, du Développement durable, des Transports et du Logement",
+            "en": "Minister of Ecology, Sustainable Development, Transport and Housing"
+          },
+          "from": "2010-11-14",
+          "to": "2012-02-22"
+        }
+      ],
+      "profile": {
+        "content_hash": "648a32e597e33fef74917f15474db055de4bea73eed3d8688cca2ab8e494d9da",
+        "photo": {
+          "path": "/media/politicians/nathalie-kosciusko-morizet.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Nathalie_Kosciusko-Morizet,_2014_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Arnaud Perrin"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique souvent désignée par ses initiales **NKM**, **ministre de l'Écologie, du Développement durable, des Transports et du Logement de novembre 2010 à février 2012**, date à laquelle elle quitte le gouvernement pour devenir **porte-parole de la campagne présidentielle de Nicolas Sarkozy**. À ce poste, elle met en oeuvre l'**interdiction de la fracturation hydraulique** votée en 2011 et l'abrogation des premiers permis de gaz de schiste. Polytechnicienne, **députée de l'Essonne de 2002 à 2017** et maire de Longjumeau (2008-2013), elle avait été secrétaire d'État chargée de l'Écologie puis de l'Économie numérique. Candidate à la mairie de Paris en 2014, battue par Anne Hidalgo, elle se retire de la vie politique en 2018 pour rejoindre le secteur privé.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Nathalie_Kosciusko-Morizet"
       }
     },
     {
@@ -4639,6 +4819,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Vincent_Peillon"
+      }
+    },
+    {
+      "id": "xavier-bertrand",
+      "full_name": "Xavier Bertrand",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre du Travail, de l'Emploi et de la Santé",
+            "en": "Minister of Labour, Employment and Health"
+          },
+          "from": "2010-11-14",
+          "to": "2012-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "ef4413165781fc09c9d24b61607f2198fadeace29285c17ee6e5fa80e7c8e704",
+        "photo": {
+          "path": "/media/politicians/xavier-bertrand.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Xavier_Bertrand_-_2025_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Claudio Centonze / European Union, 2025 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "**Ministre du Travail, de l'Emploi et de la Santé de novembre 2010 à mai 2012**, il porte en 2011 la **loi bioéthique**, la réforme des **soins psychiatriques sans consentement**, la **prime de partage des profits** et la **loi sur la sécurité sanitaire du médicament** votée après le scandale du Mediator. Ancien agent d'assurances, **député de l'Aisne** (2002-2016) et maire de Saint-Quentin, il avait déjà été ministre de la Santé (2005-2007), porteur de la réforme de l'assurance maladie de 2004, puis ministre du Travail (2007-2009) et **secrétaire général de l'UMP** (2008-2010). Il préside le **conseil régional des Hauts-de-France depuis 2016** et a quitté Les Républicains de 2017 à 2021.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Xavier_Bertrand"
       }
     },
     {

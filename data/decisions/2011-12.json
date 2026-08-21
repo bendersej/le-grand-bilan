@@ -1,0 +1,154 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2011-12",
+  "decisions": [
+    {
+      "id": "conseil-europeen-decembre-2011",
+      "date": "2011-12-09",
+      "title": {
+        "fr": "Conseil européen des 8-9 décembre : accord sur le futur pacte budgétaire",
+        "en": "8-9 December European Council: agreement on the future fiscal compact"
+      },
+      "summary": {
+        "fr": "Au Conseil européen des 8 et 9 décembre 2011, Nicolas Sarkozy et Angela Merkel obtiennent un accord sur un **nouveau traité intergouvernemental de discipline budgétaire**, le futur TSCG, après le **veto britannique** à une révision des traités européens : les 17 États de la zone euro, rejoints par la plupart des autres membres, s'engagent sur des **règles d'équilibre budgétaire inscrites au niveau constitutionnel** et des sanctions plus automatiques. Le sommet décide aussi l'**exclusion de toute nouvelle participation du secteur privé** dans les futurs sauvetages et l'anticipation de l'entrée en vigueur du **Mécanisme européen de stabilité**. Le traité sera signé le 2 mars 2012.",
+        "en": "At the European Council of 8-9 December 2011, Nicolas Sarkozy and Angela Merkel secure agreement on a **new intergovernmental treaty of budgetary discipline**, the future TSCG, after the **British veto** on revising the EU treaties: the 17 euro area states, joined by most other members, commit to **balanced-budget rules enshrined at constitutional level** and more automatic sanctions. The summit also rules out **any new private sector involvement** in future rescues and brings forward the **European Stability Mechanism**. The treaty was signed on 2 March 2012."
+      },
+      "category_ids": ["economie", "institutions"],
+      "politician_ids": ["nicolas-sarkozy"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2011/12/09/conference-de-presse-de-m-nicolas-sarkozy-president-de-la-republique-sur-les-decisions-du-conseil-europeen-concernant-le-renforcement-de-la-zone-euro-a-bruxelles-le-9-decembre-2011",
+          "title": "Conférence de presse de Nicolas Sarkozy sur les décisions du Conseil européen, Bruxelles, 9 décembre 2011 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lfss-2012",
+      "date": "2011-12-21",
+      "title": {
+        "fr": "Loi de financement de la sécurité sociale pour 2012 : retraite à 62 ans dès 2017",
+        "en": "Social security financing law for 2012: retirement at 62 from 2017"
+      },
+      "summary": {
+        "fr": "La loi n° 2011-1906, portée par Xavier Bertrand et Valérie Pécresse, **accélère la réforme des retraites de 2010 : l'âge légal atteint 62 ans dès la génération 1955, en 2017 au lieu de 2018** (article 88, issu du plan du 7 novembre). Elle fixe l'**ONDAM à 2,5 %**, l'un des taux les plus bas depuis sa création, dans un contexte de déficit du régime général encore proche de **18 milliards d'euros en 2011**. Le Conseil constitutionnel n'a censuré qu'une disposition ponctuelle (décision n° 2011-642 DC).",
+        "en": "Law no. 2011-1906, carried by Xavier Bertrand and Valérie Pécresse, **accelerates the 2010 pension reform: the legal retirement age reaches 62 for those born from 1955, in 2017 instead of 2018** (article 88, from the 7 November plan). It sets **health spending growth (ONDAM) at 2.5%**, one of the lowest rates since its creation, against a general scheme deficit still close to **18 billion euros in 2011**. The Constitutional Council struck down only one narrow provision (decision no. 2011-642 DC)."
+      },
+      "category_ids": ["sante", "retraites", "economie"],
+      "politician_ids": ["xavier-bertrand", "valerie-pecresse", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025005833",
+          "title": "LOI n° 2011-1906 du 21 décembre 2011 de financement de la sécurité sociale pour 2012 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2011/2011642DC.htm",
+          "title": "Décision n° 2011-642 DC du 15 décembre 2011 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/rap/l11-074-1/l11-074-1-syn.pdf",
+          "title": "Rapport de la commission des affaires sociales sur le PLFSS 2012, synthèse - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "plan-rigueur-novembre-2011"
+        }
+      ]
+    },
+    {
+      "id": "loi-de-finances-2012",
+      "date": "2011-12-28",
+      "title": {
+        "fr": "Loi de finances pour 2012 : taxe sur les hauts revenus, taxe sodas, jour de carence",
+        "en": "2012 budget law: high-income surtax, soda tax, sick-day waiting period"
+      },
+      "summary": {
+        "fr": "Dernier budget du quinquennat Sarkozy, la loi n° 2011-1977 crée la **contribution exceptionnelle sur les hauts revenus** (**3 % au-delà de 250 000 euros de revenu fiscal de référence, 4 % au-delà de 500 000 euros** pour un célibataire), maintenue jusqu'au retour à l'équilibre des comptes publics, ainsi que les deux **contributions sur les boissons sucrées et édulcorées** dites « taxe sodas ». Elle instaure un **jour de carence pour les arrêts maladie des fonctionnaires** (article 105). Le Conseil constitutionnel a censuré sept articles, dont six cavaliers budgétaires (décision n° 2011-644 DC).",
+        "en": "The last budget of the Sarkozy presidency, law no. 2011-1977 creates the **exceptional contribution on high incomes** (**3% above 250,000 euros of reference income, 4% above 500,000 euros** for a single person), maintained until public accounts return to balance, together with the two **contributions on sugary and sweetened drinks** known as the \"soda tax\". It introduces a **one-day waiting period for civil servants' sick leave** (article 105). The Constitutional Council struck down seven articles, six of them budgetary riders (decision no. 2011-644 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["valerie-pecresse", "francois-baroin", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025044460",
+          "title": "LOI n° 2011-1977 du 28 décembre 2011 de finances pour 2012 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2011/2011644DC.htm",
+          "title": "Décision n° 2011-644 DC du 28 décembre 2011 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2012.html",
+          "title": "Dossier législatif : budget 2012 - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "plan-antideficit-aout-2011"
+        }
+      ]
+    },
+    {
+      "id": "lfr-decembre-2011",
+      "date": "2011-12-28",
+      "title": {
+        "fr": "Quatrième loi de finances rectificative : TVA à 7 % et gel du barème",
+        "en": "Fourth amending budget law: 7% VAT and frozen tax scale"
+      },
+      "summary": {
+        "fr": "Principal véhicule du plan de rigueur du 7 novembre, la loi n° 2011-1978 **porte le taux réduit de TVA de 5,5 % à 7 %**, sauf pour les produits de première nécessité, **gèle le barème de l'impôt sur le revenu** en supprimant son indexation sur l'inflation dès l'imposition des revenus de 2011, et institue une **contribution exceptionnelle de 5 % sur l'impôt sur les sociétés des grandes entreprises** réalisant plus de 250 millions d'euros de chiffre d'affaires. Le Conseil constitutionnel a censuré quatre dispositions, essentiellement des cavaliers (décision n° 2011-645 DC).",
+        "en": "The main vehicle of the 7 November austerity plan, law no. 2011-1978 **raises the reduced VAT rate from 5.5% to 7%**, except for essential goods, **freezes the income tax scale** by ending its inflation indexation from the taxation of 2011 income, and creates an **exceptional 5% surcharge on the corporate tax of large companies** with revenue above 250 million euros. The Constitutional Council struck down four provisions, essentially riders (decision no. 2011-645 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["valerie-pecresse", "francois-baroin", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025045613",
+          "title": "LOI n° 2011-1978 du 28 décembre 2011 de finances rectificative pour 2011 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2011/2011645DC.htm",
+          "title": "Décision n° 2011-645 DC du 28 décembre 2011 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl11-160.html",
+          "title": "Dossier législatif : quatrième loi de finances rectificative pour 2011 - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "plan-rigueur-novembre-2011"
+        }
+      ]
+    },
+    {
+      "id": "loi-securite-medicament-2011",
+      "date": "2011-12-29",
+      "title": {
+        "fr": "Loi sur la sécurité du médicament après le scandale du Mediator",
+        "en": "Drug safety law after the Mediator scandal"
+      },
+      "summary": {
+        "fr": "Tirant les leçons du scandale du Mediator, la loi n° 2011-2012, portée par Xavier Bertrand, **remplace l'Afssaps par l'Agence nationale de sécurité du médicament et des produits de santé (ANSM)**, dotée de pouvoirs de sanction renforcés. Elle impose la **déclaration publique des liens d'intérêts** des experts sanitaires et la **publication des avantages consentis par les laboratoires** aux professionnels de santé (« sunshine act » à la française), renforce la **pharmacovigilance** et encadre la prescription **hors autorisation de mise sur le marché**.",
+        "en": "Drawing the lessons of the Mediator scandal, law no. 2011-2012, carried by Xavier Bertrand, **replaces the Afssaps agency with the National Agency for the Safety of Medicines and Health Products (ANSM)**, endowed with stronger sanctioning powers. It imposes **public declarations of health experts' interests** and the **publication of benefits granted by pharmaceutical companies** to health professionals (a French-style \"sunshine act\"), strengthens **pharmacovigilance** and regulates **off-label prescribing**."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["xavier-bertrand", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025053440",
+          "title": "LOI n° 2011-2012 du 29 décembre 2011 relative au renforcement de la sécurité sanitaire du médicament et des produits de santé - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl11-005.html",
+          "title": "Dossier législatif : sécurité sanitaire du médicament - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

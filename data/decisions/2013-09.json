@@ -46,7 +46,12 @@
           "title": "Dossier législatif : soins psychiatriques - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "loi-psychiatrie-2011"
+        }
+      ]
     }
   ]
 }

@@ -1,0 +1,44 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2011-09",
+  "decisions": [
+    {
+      "id": "lfr-septembre-2011",
+      "date": "2011-09-19",
+      "title": {
+        "fr": "Deuxième loi de finances rectificative : FESF renforcé et tour de vis fiscal",
+        "en": "Second amending budget law: strengthened EFSF and fiscal tightening"
+      },
+      "summary": {
+        "fr": "Votée en session extraordinaire, la loi n° 2011-1117 **étend la garantie de la France, plafonnée à 159 milliards d'euros, aux nouvelles modalités d'intervention du FESF** décidées au sommet du 21 juillet (intervention préventive, rachat de dette sur le marché secondaire, recapitalisation des banques). Première traduction du plan du 24 août, elle **porte les prélèvements sociaux sur les revenus du capital de 12,3 % à 13,5 %** et **durcit l'imposition des plus-values immobilières** hors résidence principale, l'exonération n'étant acquise qu'après trente ans de détention.",
+        "en": "Passed in extraordinary session, law no. 2011-1117 **extends France's guarantee, capped at 159 billion euros, to the EFSF's new intervention tools** agreed at the 21 July summit (preventive action, secondary-market debt purchases, bank recapitalisation). As the first translation of the 24 August plan, it **raises social levies on capital income from 12.3% to 13.5%** and **toughens the taxation of real estate capital gains** outside the main residence, with full exemption only after thirty years of ownership."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["valerie-pecresse", "francois-baroin", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000024574328",
+          "title": "LOI n° 2011-1117 du 19 septembre 2011 de finances rectificative pour 2011 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/rap/l10-787/l10-787_mono.html",
+          "title": "Rapport n° 787 (2010-2011) de la commission des finances sur la deuxième LFR 2011 - Sénat"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl10-786.html",
+          "title": "Dossier législatif : deuxième loi de finances rectificative pour 2011 - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "sommet-zone-euro-juillet-2011"
+        },
+        {
+          "type": "implements",
+          "decision_id": "plan-antideficit-aout-2011"
+        }
+      ]
+    }
+  ]
+}
