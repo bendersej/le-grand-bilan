@@ -1,0 +1,120 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2020-03",
+  "decisions": [
+    {
+      "id": "premier-confinement-2020",
+      "date": "2020-03-16",
+      "title": {
+        "fr": "Premier confinement national face au covid-19",
+        "en": "First national covid-19 lockdown"
+      },
+      "summary": {
+        "fr": "Après la fermeture des restaurants, bars et commerces non indispensables (arrêté du 14 mars) et l'annonce d'Emmanuel Macron (\"nous sommes en guerre\"), le décret n° 2020-260 **interdit tout déplacement hors du domicile** à compter du 17 mars à 12 heures, sauf exceptions limitatives sur **attestation** (travail, achats de première nécessité, santé, motif familial impérieux, activité physique de proximité). Ce confinement général, une première en France, durera **55 jours**, jusqu'au 11 mai 2020.",
+        "en": "After the closure of restaurants, bars and non-essential shops (order of 14 March) and Emmanuel Macron's address (\"we are at war\"), decree no. 2020-260 **bans all movement outside the home** from 17 March at noon, with limited exceptions requiring a **self-certification form** (work, essential shopping, health, imperative family reasons, local exercise). This general lockdown, a first in France, lasts **55 days**, until 11 May 2020."
+      },
+      "category_ids": ["sante", "securite"],
+      "politician_ids": ["edouard-philippe", "olivier-veran", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041728476",
+          "title": "Décret n° 2020-260 du 16 mars 2020 portant réglementation des déplacements dans le cadre de la lutte contre la propagation du virus covid-19 - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041722917",
+          "title": "Arrêté du 14 mars 2020 portant diverses mesures relatives à la lutte contre la propagation du virus covid-19 - Légifrance"
+        },
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2020/03/16/adresse-aux-francais-covid19",
+          "title": "Adresse aux Français du 16 mars 2020 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-urgence-covid-19-2020",
+      "date": "2020-03-23",
+      "title": {
+        "fr": "Loi d'urgence créant l'état d'urgence sanitaire",
+        "en": "Emergency law creating the state of health emergency"
+      },
+      "summary": {
+        "fr": "Loi n° 2020-290 : elle crée dans le code de la santé publique le régime de l'**état d'urgence sanitaire**, déclaré immédiatement pour **deux mois** sur tout le territoire, qui permet au Premier ministre de restreindre par décret les déplacements, les rassemblements et l'ouverture des établissements. Elle **reporte le second tour des élections municipales** au plus tard en juin 2020 et **habilite le Gouvernement à légiférer par ordonnances** pour faire face aux conséquences économiques et sociales de l'épidémie.",
+        "en": "Law no. 2020-290: it writes into the public health code the **state of health emergency** regime, immediately declared for **two months** nationwide, letting the Prime Minister restrict by decree movement, gatherings and the opening of establishments. It **postpones the second round of the municipal elections** to June 2020 at the latest and **authorises the Government to legislate by ordinances** to address the epidemic's economic and social fallout."
+      },
+      "category_ids": ["institutions", "sante"],
+      "politician_ids": ["edouard-philippe", "olivier-veran"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041746313",
+          "title": "LOI n° 2020-290 du 23 mars 2020 d'urgence pour faire face à l'épidémie de covid-19 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl19-376.html",
+          "title": "Dossier législatif : faire face à l'épidémie de covid-19 - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "premier-confinement-2020"
+        }
+      ]
+    },
+    {
+      "id": "loi-finances-rectificative-mars-2020",
+      "date": "2020-03-23",
+      "title": {
+        "fr": "Premier budget d'urgence covid-19 (garantie de l'État de 300 milliards)",
+        "en": "First covid-19 emergency budget (300 billion state guarantee)"
+      },
+      "summary": {
+        "fr": "Loi n° 2020-289 de finances rectificative : première réponse budgétaire à la crise, elle autorise une **garantie de l'État de 300 milliards d'euros** sur les **prêts garantis par l'État (PGE)** aux entreprises et ouvre les premiers crédits d'urgence, dont le financement du **chômage partiel** et du **fonds de solidarité** pour les très petites entreprises.",
+        "en": "Amending finance law no. 2020-289: the first budgetary response to the crisis, it authorises a **300 billion euro state guarantee** on **state-guaranteed loans (PGE)** to businesses and opens the first emergency appropriations, including funding for **short-time work** and the **solidarity fund** for very small businesses."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["bruno-le-maire", "gerald-darmanin", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041746298",
+          "title": "LOI n° 2020-289 du 23 mars 2020 de finances rectificative pour 2020 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl19-384.html",
+          "title": "Dossier législatif : loi de finances rectificative pour 2020 (1) - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "ordonnances-urgence-economique-2020",
+      "date": "2020-03-25",
+      "title": {
+        "fr": "25 ordonnances d'urgence économique et sociale",
+        "en": "25 emergency economic and social ordinances"
+      },
+      "summary": {
+        "fr": "Sur le fondement de la loi d'urgence du 23 mars, le Gouvernement adopte en un seul conseil des ministres **25 ordonnances** : création du **fonds de solidarité** versant une aide aux TPE et indépendants, **élargissement massif de l'activité partielle** (chômage partiel pris en charge par l'État), report des loyers et factures pour les entreprises en difficulté, adaptation des délais de procédure et prolongation de la **trêve hivernale**.",
+        "en": "Under the emergency law of 23 March, the Government adopts **25 ordinances** in a single council of ministers: creation of the **solidarity fund** paying aid to micro-businesses and the self-employed, **massive extension of short-time work** (state-funded furlough), deferral of rents and utility bills for struggling businesses, adaptation of procedural deadlines and extension of the **winter eviction ban**."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["edouard-philippe", "bruno-le-maire", "muriel-penicaud"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041755852",
+          "title": "Ordonnance n° 2020-317 du 25 mars 2020 portant création d'un fonds de solidarité à destination des entreprises particulièrement touchées par les conséquences de l'épidémie de covid-19 - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041762506",
+          "title": "Ordonnance n° 2020-346 du 27 mars 2020 portant mesures d'urgence en matière d'activité partielle - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "loi-urgence-covid-19-2020"
+        }
+      ]
+    }
+  ]
+}

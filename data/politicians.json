@@ -32,6 +32,36 @@
       }
     },
     {
+      "id": "agnes-buzyn",
+      "full_name": "Agnès Buzyn",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Solidarités et de la Santé",
+            "en": "Minister of Solidarity and Health"
+          },
+          "from": "2017-05-17",
+          "to": "2020-02-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "38de4e2997f9fb970718e7fabfc815203085903ad90db2a85aae6c21cd1773e1",
+        "photo": {
+          "path": "/media/politicians/agnes-buzyn.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Agn%C3%A8s_Buzyn_2018-04-06_lancement_strat%C3%A9gie_autisme_2018-2022_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Amélie Tsaag Valren"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Médecin hématologue et femme politique, **ministre des Solidarités et de la Santé de mai 2017 à février 2020** dans les gouvernements Philippe. Professeure des universités et praticienne hospitalière, elle fait carrière à l'université Paris-Descartes et à l'hôpital Necker, préside l'**Institut national du cancer** (2011-2016) puis la **Haute Autorité de santé** (2016-2017). Au ministère, elle porte notamment l'extension à **11 vaccins obligatoires**, le plan Ma santé 2022 et signe les **premières mesures face au covid-19** en janvier 2020. En pleine épidémie, elle quitte le Gouvernement pour reprendre la candidature LREM à la mairie de Paris après le retrait de Benjamin Griveaux ; ses listes terminent troisièmes (13 %). Nommée en 2021 envoyée du directeur général de l'**OMS** pour les affaires multilatérales, elle devient **conseillère maître à la Cour des comptes** en 2022.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Agn%C3%A8s_Buzyn"
+      }
+    },
+    {
       "id": "agnes-pannier-runacher",
       "full_name": "Agnès Pannier-Runacher",
       "party": "Renaissance",
@@ -500,6 +530,36 @@
       }
     },
     {
+      "id": "cedric-o",
+      "full_name": "Cédric O",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Secrétaire d'État chargé du Numérique",
+            "en": "Junior Minister for Digital Affairs"
+          },
+          "from": "2019-03-31",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "6135fa15b99dc061b3abd9c73b2bbf8f81b7b13603496368e5156a34bfb2bada",
+        "photo": {
+          "path": "/media/politicians/cedric-o.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:20190401_Cedric_O_Portraits_PhotoG%C3%A9zelinGr%C3%A9e_02.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Tamaya20"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique, **secrétaire d'État chargé du Numérique de mars 2019 à mai 2022** (gouvernements Philippe puis Castex, où le portefeuille devient Transition numérique et Communications électroniques). Diplômé de HEC, directeur adjoint de la campagne de François Hollande en 2012, il participe au **lancement d'En Marche en 2016** dont il est le premier trésorier, puis conseiller d'Emmanuel Macron et d'Édouard Philippe chargé des **participations publiques et de l'économie numérique** (2017-2019). Au Gouvernement, il porte notamment l'application de traçage **StopCovid**, soutient la **loi Avia** contre la haine en ligne et pilote le déploiement de la **5G**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/C%C3%A9dric_O"
+      }
+    },
+    {
       "id": "christophe-bechu",
       "full_name": "Christophe Béchu",
       "party": "Horizons",
@@ -527,6 +587,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Christophe_B%C3%A9chu"
+      }
+    },
+    {
+      "id": "christophe-castaner",
+      "full_name": "Christophe Castaner",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Intérieur",
+            "en": "Minister of the Interior"
+          },
+          "from": "2018-10-16",
+          "to": "2020-07-06"
+        }
+      ],
+      "profile": {
+        "content_hash": "960587671ba324a5661a5b1e49e11fd59790f0f41e7dae5df18e2977adb02c07",
+        "photo": {
+          "path": "/media/politicians/christophe-castaner.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Christophe_Castaner_en_2019_(cropped_2).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Arthur Empereur"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique, **ministre de l'Intérieur d'octobre 2018 à juillet 2020**. Membre du Parti socialiste à partir de 1986, passé par les cabinets ministériels du gouvernement Jospin, **maire de Forcalquier** puis député des Alpes-de-Haute-Provence à partir de 2012, il rejoint **En marche en 2016** et devient porte-parole de la campagne d'Emmanuel Macron. Secrétaire d'État chargé des Relations avec le Parlement et porte-parole du Gouvernement en 2017, **délégué général de LREM** (2017-2018), il gère ensuite place Beauvau la crise des **Gilets jaunes** puis l'application du **premier confinement** de 2020. Non reconduit dans le gouvernement Castex, il préside le **groupe LREM à l'Assemblée nationale** (2020-2022), avant d'être battu aux législatives de 2022. Il devient ensuite conseiller RSE de Shein et président du conseil de surveillance du Grand Port maritime de Marseille.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Christophe_Castaner"
       }
     },
     {
@@ -624,6 +714,14 @@
       "full_name": "Élisabeth Borne",
       "party": "Renaissance",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Transition écologique et solidaire",
+            "en": "Minister of the Ecological and Inclusive Transition"
+          },
+          "from": "2019-07-16",
+          "to": "2020-07-06"
+        },
         {
           "role": {
             "fr": "Ministre du Travail, de l'Emploi et de l'Insertion",
@@ -1004,6 +1102,36 @@
       }
     },
     {
+      "id": "frederique-vidal",
+      "full_name": "Frédérique Vidal",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Enseignement supérieur, de la Recherche et de l'Innovation",
+            "en": "Minister of Higher Education, Research and Innovation"
+          },
+          "from": "2017-05-17",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "b286eb686e44cb4073b19b2f371d5e8134006094d47b53bb2b2221caea7c78b6",
+        "photo": {
+          "path": "/media/politicians/frederique-vidal.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fr%C3%A9d%C3%A9rique_Vidal_INRIA.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Vilenath"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Enseignante-chercheuse en biochimie et femme politique, **ministre de l'Enseignement supérieur, de la Recherche et de l'Innovation de mai 2017 à mai 2022**, pendant toute la première présidence d'Emmanuel Macron. Professeure des universités, spécialiste de **génétique moléculaire**, elle préside l'**université Nice-Sophia-Antipolis** de 2012 à 2017. Au ministère, elle porte la réforme de l'accès à l'université (**Parcoursup**, loi ORE de 2018) et la **loi de programmation de la recherche 2021-2030** qui engage 25 milliards d'euros supplémentaires sur dix ans.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fr%C3%A9d%C3%A9rique_Vidal"
+      }
+    },
+    {
       "id": "gabriel-attal",
       "full_name": "Gabriel Attal",
       "party": "Renaissance",
@@ -1092,6 +1220,14 @@
       "full_name": "Gérald Darmanin",
       "party": null,
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Action et des Comptes publics",
+            "en": "Minister of Public Action and Accounts"
+          },
+          "from": "2017-05-17",
+          "to": "2020-07-06"
+        },
         {
           "role": {
             "fr": "Ministre de l'Intérieur et des Outre-mer",
@@ -1390,6 +1526,36 @@
       }
     },
     {
+      "id": "laetitia-avia",
+      "full_name": "Laetitia Avia",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Députée de la 8e circonscription de Paris",
+            "en": "Member of Parliament for Paris' 8th constituency"
+          },
+          "from": "2017-06-21",
+          "to": "2022-06-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "a59639ddf8e8ca03901becd2458cb66e3d432c71b9196ae76767391292a695ec",
+        "photo": {
+          "path": "/media/politicians/laetitia-avia.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Laetitia_avia_AN_16441.JPG",
+          "license": "CC BY-SA 4.0",
+          "author": "G.Garitan"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Avocate et femme politique, **députée de la 8e circonscription de Paris de 2017 à 2022**. Membre d'**En marche dès 2016**, porte-parole puis membre du bureau exécutif de LREM, elle est co-rapporteure de la loi de programmation et de réforme pour la justice, et donne son nom à la **proposition de loi contre les contenus haineux sur internet (loi Avia)**, adoptée en 2020 mais **en grande partie censurée par le Conseil constitutionnel**. Accusée par d'anciens assistants parlementaires de comportements racistes, sexistes, homophobes et violents, elle est **condamnée en 2023 à six mois de prison avec sursis et deux ans d'inéligibilité pour harcèlement moral**, peine confirmée en appel en juillet 2025.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Laetitia_Avia"
+      }
+    },
+    {
       "id": "laurence-vanceunebrock",
       "full_name": "Laurence Vanceunebrock",
       "party": null,
@@ -1507,6 +1673,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Laurent_Nu%C3%B1ez"
+      }
+    },
+    {
+      "id": "laurent-pietraszewski",
+      "full_name": "Laurent Pietraszewski",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Secrétaire d'État chargé des Retraites",
+            "en": "Junior Minister for Pensions"
+          },
+          "from": "2019-12-18",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "16f65d3dbf34b5688eba2f202e9f952e41ab7d4d73a8b7b21640cdaf697fc40c",
+        "photo": {
+          "path": "/media/politicians/laurent-pietraszewski.png",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Laurent_Pietraszewski_2019_(cropped).png",
+          "license": "CC BY-SA 4.0",
+          "author": "Own work"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique, **secrétaire d'État chargé des Retraites de décembre 2019 à mai 2022** (puis également de la Santé au travail sous le gouvernement Castex). Avant la politique, il fait carrière comme **cadre du groupe Auchan**, notamment dans les ressources humaines. **Député LREM du Nord** à partir de 2017, rapporteur de la ratification des **ordonnances réformant le code du travail**, il est nommé au Gouvernement en remplacement de Jean-Paul Delevoye pour **porter la réforme des retraites par points**, adoptée en première lecture par 49.3 en février 2020 puis abandonnée avec la crise sanitaire. Tête de liste LREM aux régionales de 2021 dans les Hauts-de-France, il est éliminé au premier tour (9,1 %).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Laurent_Pietraszewski"
       }
     },
     {

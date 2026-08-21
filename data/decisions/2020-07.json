@@ -1,0 +1,141 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2020-07",
+  "decisions": [
+    {
+      "id": "nomination-castex-premier-ministre-2020",
+      "date": "2020-07-03",
+      "title": {
+        "fr": "Jean Castex nommé Premier ministre",
+        "en": "Jean Castex appointed Prime Minister"
+      },
+      "summary": {
+        "fr": "Au lendemain du second tour des municipales, Emmanuel Macron accepte la **démission du Gouvernement d'Édouard Philippe** et nomme **Jean Castex**, haut fonctionnaire qui avait coordonné le déconfinement, Premier ministre. Le gouvernement formé le 6 juillet fait notamment entrer **Éric Dupond-Moretti à la Justice**, **Gérald Darmanin à l'Intérieur**, **Roselyne Bachelot à la Culture** et **Barbara Pompili à la Transition écologique**.",
+        "en": "The day after the municipal runoff, Emmanuel Macron accepts the **resignation of Édouard Philippe's Government** and appoints **Jean Castex**, the senior official who coordinated the reopening, as Prime Minister. The government formed on 6 July notably brings **Éric Dupond-Moretti to Justice**, **Gérald Darmanin to the Interior**, **Roselyne Bachelot to Culture** and **Barbara Pompili to the Ecological Transition**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042079117",
+          "title": "Décret du 3 juillet 2020 portant nomination du Premier ministre - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042079114",
+          "title": "Décret du 3 juillet 2020 relatif à la cessation des fonctions du Gouvernement - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042088964",
+          "title": "Décret du 6 juillet 2020 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-sortie-etat-urgence-sanitaire-2020",
+      "date": "2020-07-09",
+      "title": {
+        "fr": "Sortie de l'état d'urgence sanitaire, régime transitoire",
+        "en": "Exit from the state of health emergency, transitional regime"
+      },
+      "summary": {
+        "fr": "Loi n° 2020-856 : l'état d'urgence sanitaire prend fin le 10 juillet, remplacé du **11 juillet au 30 octobre 2020** par un **régime transitoire** qui autorise le Premier ministre à continuer de réglementer les déplacements, l'ouverture des établissements recevant du public et les rassemblements pour lutter contre l'épidémie.",
+        "en": "Law no. 2020-856: the state of health emergency ends on 10 July, replaced from **11 July to 30 October 2020** by a **transitional regime** allowing the Prime Minister to keep regulating movement, the opening of public establishments and gatherings to fight the epidemic."
+      },
+      "category_ids": ["institutions", "sante"],
+      "politician_ids": ["olivier-veran", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042101318",
+          "title": "LOI n° 2020-856 du 9 juillet 2020 organisant la sortie de l'état d'urgence sanitaire - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl19-537.html",
+          "title": "Dossier législatif : organiser la sortie de l'état d'urgence sanitaire - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "prorogation-etat-urgence-sanitaire-mai-2020"
+        }
+      ]
+    },
+    {
+      "id": "plan-relance-europeen-2020",
+      "date": "2020-07-21",
+      "title": {
+        "fr": "Accord européen sur le plan de relance de 750 milliards d'euros",
+        "en": "European agreement on the 750 billion euro recovery plan"
+      },
+      "summary": {
+        "fr": "Après quatre jours de négociations au Conseil européen, les Vingt-Sept adoptent le plan de relance **Next Generation EU de 750 milliards d'euros**, dont **390 milliards de subventions** financées pour la première fois par un **emprunt commun** de l'Union européenne. Emmanuel Macron, qui portait ce projet avec Angela Merkel depuis leur initiative du 18 mai, obtient environ **40 milliards d'euros** pour financer le plan de relance français.",
+        "en": "After four days of European Council negotiations, the Twenty-Seven adopt the **750 billion euro Next Generation EU recovery plan**, including **390 billion in grants** financed for the first time by **joint EU borrowing**. Emmanuel Macron, who had championed the project with Angela Merkel since their 18 May initiative, secures around **40 billion euros** to fund the French recovery plan."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2020/07/21/jour-historique-pour-leurope",
+          "title": "Jour historique pour l'Europe : accord au Conseil européen sur le plan de relance, 21 juillet 2020 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-violences-conjugales-2020",
+      "date": "2020-07-30",
+      "title": {
+        "fr": "Loi de protection des victimes de violences conjugales",
+        "en": "Law protecting victims of domestic violence"
+      },
+      "summary": {
+        "fr": "Loi n° 2020-936, d'initiative parlementaire dans le prolongement du Grenelle des violences conjugales : elle permet la **levée du secret médical en cas de danger immédiat** pour la victime, la **suspension du droit de visite et d'hébergement** du parent violent, la **saisie des armes**, alourdit les peines pour **harcèlement au sein du couple (10 ans en cas de suicide ou tentative)**, pénalise la **géolocalisation sans consentement** et exclut la médiation familiale en cas de violences.",
+        "en": "Law no. 2020-936, a parliamentary initiative following the Grenelle on domestic violence: it allows **lifting medical confidentiality when the victim is in immediate danger**, **suspension of the violent parent's visitation rights**, **weapons seizure**, raises penalties for **harassment within couples (10 years where suicide is attempted)**, criminalises **location tracking without consent** and bars family mediation in violence cases."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["eric-dupond-moretti", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042176652",
+          "title": "LOI n° 2020-936 du 30 juillet 2020 visant à protéger les victimes de violences conjugales - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl19-285.html",
+          "title": "Dossier législatif : protéger les victimes de violences conjugales - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-finances-rectificative-juillet-2020",
+      "date": "2020-07-30",
+      "title": {
+        "fr": "Troisième budget d'urgence : plans de soutien sectoriels",
+        "en": "Third emergency budget: sector support plans"
+      },
+      "summary": {
+        "fr": "Loi n° 2020-935 de finances rectificative : elle finance les **plans de soutien sectoriels** annoncés au printemps (**tourisme, automobile, aéronautique**, culture, technologies), des **exonérations de cotisations sociales** pour les secteurs les plus touchés, une aide exceptionnelle aux jeunes et crée les **aides à l'embauche des apprentis**, portant l'ensemble des mesures d'urgence à plus de 130 milliards d'euros.",
+        "en": "Amending finance law no. 2020-935: it funds the **sector support plans** announced in the spring (**tourism, automotive, aerospace**, culture, tech), **social contribution exemptions** for the hardest-hit sectors, exceptional aid for young people, and creates the **apprentice hiring subsidies**, bringing total emergency measures above 130 billion euros."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["bruno-le-maire", "olivier-dussopt", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042176557",
+          "title": "LOI n° 2020-935 du 30 juillet 2020 de finances rectificative pour 2020 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl19-624.html",
+          "title": "Dossier législatif : loi de finances rectificative pour 2020 (3) - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-finances-rectificative-avril-2020"
+        }
+      ]
+    }
+  ]
+}

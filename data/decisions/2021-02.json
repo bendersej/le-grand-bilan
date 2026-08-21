@@ -25,7 +25,16 @@
           "title": "Dossier législatif : prorogation de l'état d'urgence sanitaire - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "prorogation-etat-urgence-sanitaire-novembre-2020"
+        },
+        {
+          "type": "related",
+          "decision_id": "etat-urgence-sanitaire-octobre-2020"
+        }
+      ]
     },
     {
       "id": "report-elections-juin-2021",

@@ -1,0 +1,78 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2020-02",
+  "decisions": [
+    {
+      "id": "loi-anti-gaspillage-economie-circulaire-2020",
+      "date": "2020-02-10",
+      "title": {
+        "fr": "Loi anti-gaspillage pour une économie circulaire (AGEC)",
+        "en": "Anti-waste law for a circular economy (AGEC)"
+      },
+      "summary": {
+        "fr": "Loi n° 2020-105 : elle fixe la **fin des emballages plastiques à usage unique d'ici 2040** (avec des objectifs intermédiaires de réduction), **interdit la destruction des invendus non alimentaires** (réemploi ou recyclage obligatoires), instaure un **indice de réparabilité** affiché sur les produits électroniques et prévoit la fin progressive de la vaisselle jetable et des tickets de caisse systématiques. Le texte a été porté par la secrétaire d'État Brune Poirson.",
+        "en": "Law no. 2020-105: it sets the **end of single-use plastic packaging by 2040** (with intermediate reduction targets), **bans the destruction of unsold non-food goods** (mandatory reuse or recycling), creates a **repairability index** displayed on electronic products and phases out disposable tableware and systematic paper receipts. The bill was carried by junior minister Brune Poirson."
+      },
+      "category_ids": ["ecologie"],
+      "politician_ids": ["elisabeth-borne", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041553759",
+          "title": "LOI n° 2020-105 du 10 février 2020 relative à la lutte contre le gaspillage et à l'économie circulaire - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl18-660.html",
+          "title": "Dossier législatif : économie circulaire - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "nomination-veran-sante-2020",
+      "date": "2020-02-16",
+      "title": {
+        "fr": "Olivier Véran nommé ministre des Solidarités et de la Santé",
+        "en": "Olivier Véran appointed Minister of Solidarity and Health"
+      },
+      "summary": {
+        "fr": "Décret du 16 février 2020 : **Olivier Véran remplace Agnès Buzyn** au ministère des Solidarités et de la Santé, **au début de l'épidémie de covid-19**. Agnès Buzyn quitte le Gouvernement pour reprendre la candidature de La République en marche à la mairie de Paris après le retrait de Benjamin Griveaux.",
+        "en": "Decree of 16 February 2020: **Olivier Véran replaces Agnès Buzyn** as Minister of Solidarity and Health, **at the onset of the covid-19 epidemic**. Agnès Buzyn leaves the Government to take over La République en marche's bid for the Paris mayoralty after Benjamin Griveaux's withdrawal."
+      },
+      "category_ids": ["institutions", "sante"],
+      "politician_ids": ["emmanuel-macron", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041593820",
+          "title": "Décret du 16 février 2020 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "49-3-reforme-retraites-2020",
+      "date": "2020-02-29",
+      "title": {
+        "fr": "Article 49.3 sur la réforme des retraites",
+        "en": "Article 49.3 on the pension reform"
+      },
+      "summary": {
+        "fr": "Édouard Philippe engage la **responsabilité du Gouvernement (article 49, alinéa 3 de la Constitution)** pour faire adopter sans vote, en première lecture, le projet de loi instituant un système universel de retraite, face à plus de **40 000 amendements** déposés en grande partie par les oppositions. Les **motions de censure sont rejetées le 3 mars** et le texte est considéré comme adopté ; la réforme est ensuite **suspendue le 16 mars 2020** en raison de l'épidémie de covid-19 et ne sera jamais reprise.",
+        "en": "Édouard Philippe invokes the **Government's responsibility (article 49, paragraph 3 of the Constitution)** to pass the universal pension system bill at first reading without a vote, facing more than **40,000 amendments** largely tabled by the opposition. The **censure motions are rejected on 3 March** and the text is deemed adopted; the reform is then **suspended on 16 March 2020** because of the covid-19 epidemic and never resumed."
+      },
+      "category_ids": ["retraites", "institutions"],
+      "politician_ids": ["edouard-philippe", "laurent-pietraszewski"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/15/dossiers/systeme_universel_de_retraite",
+          "title": "Dossier législatif : projet de loi instituant un système universel de retraite (engagement de responsabilité du 29 février 2020) - Assemblée nationale"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "presentation-reforme-retraites-2020"
+        }
+      ]
+    }
+  ]
+}

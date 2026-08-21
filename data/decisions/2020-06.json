@@ -1,0 +1,81 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2020-06",
+  "decisions": [
+    {
+      "id": "loi-conge-deuil-enfant-2020",
+      "date": "2020-06-08",
+      "title": {
+        "fr": "Allongement du congé pour deuil d'un enfant",
+        "en": "Longer bereavement leave after the death of a child"
+      },
+      "summary": {
+        "fr": "Loi n° 2020-692, issue d'une proposition du député Guy Bricout : le congé pour décès d'un enfant de moins de 25 ans est porté de 5 à **7 jours ouvrés**, complété par un **congé de deuil de 8 jours fractionnable** dans l'année. La loi **maintient les allocations familiales** pendant une période après le décès et **protège le salarié contre le licenciement pendant 13 semaines**.",
+        "en": "Law no. 2020-692, from a bill by MP Guy Bricout: leave after the death of a child under 25 rises from 5 to **7 working days**, plus an **additional 8-day grief leave** that can be split over a year. The law **maintains family allowances** for a period after the death and **protects the employee from dismissal for 13 weeks**."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["muriel-penicaud", "adrien-taquet"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041975976",
+          "title": "LOI n° 2020-692 du 8 juin 2020 visant à améliorer les droits des travailleurs et l'accompagnement des familles après le décès d'un enfant - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl19-288.html",
+          "title": "Dossier législatif : congé pour le décès d'un enfant - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-avia-2020",
+      "date": "2020-06-24",
+      "title": {
+        "fr": "Loi Avia contre la haine en ligne, largement censurée",
+        "en": "Avia law against online hate, largely struck down"
+      },
+      "summary": {
+        "fr": "Loi n° 2020-766, issue de la proposition de la députée Laetitia Avia : le texte voté imposait aux plateformes le **retrait en 24 heures des contenus haineux** signalés et en **1 heure des contenus terroristes ou pédopornographiques**, sous peine d'amende. Le Conseil constitutionnel (décision 2020-801 DC du 18 juin) **censure l'essentiel du dispositif** comme portant une atteinte disproportionnée à la liberté d'expression ; la loi promulguée conserve pour l'essentiel la création d'un **observatoire de la haine en ligne**.",
+        "en": "Law no. 2020-766, from MP Laetitia Avia's bill: the adopted text required platforms to **remove flagged hateful content within 24 hours** and **terrorist or child-abuse content within 1 hour**, on pain of fines. The Constitutional Council (decision 2020-801 DC of 18 June) **strikes down the core of the mechanism** as a disproportionate infringement of free speech; the promulgated law essentially retains the creation of an **online hate observatory**."
+      },
+      "category_ids": ["justice", "numerique"],
+      "politician_ids": ["laetitia-avia", "cedric-o"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042031970",
+          "title": "LOI n° 2020-766 du 24 juin 2020 visant à lutter contre les contenus haineux sur internet - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2020/2020801DC.htm",
+          "title": "Décision n° 2020-801 DC du 18 juin 2020 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl18-645.html",
+          "title": "Dossier législatif : lutte contre la haine sur internet - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "convention-citoyenne-climat-2020",
+      "date": "2020-06-29",
+      "title": {
+        "fr": "Réponse aux 149 propositions de la Convention citoyenne pour le climat",
+        "en": "Response to the 149 proposals of the Citizens' Climate Convention"
+      },
+      "summary": {
+        "fr": "Recevant les 150 citoyens tirés au sort, Emmanuel Macron annonce retenir **146 des 149 propositions** de la Convention citoyenne pour le climat (il écarte notamment la limitation à 110 km/h sur autoroute et la taxe de 4 % sur les dividendes), promet **15 milliards d'euros supplémentaires** pour la transition écologique et l'examen d'un **référendum** sur l'introduction du climat dans la Constitution. Ces engagements déboucheront sur la loi Climat et résilience d'août 2021.",
+        "en": "Receiving the 150 randomly selected citizens, Emmanuel Macron announces he retains **146 of the 149 proposals** of the Citizens' Climate Convention (notably discarding the 110 km/h motorway limit and a 4% dividend tax), pledges an **additional 15 billion euros** for the ecological transition and consideration of a **referendum** on writing climate protection into the Constitution. These commitments lead to the August 2021 Climate and Resilience law."
+      },
+      "category_ids": ["ecologie", "institutions"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2020/06/29/le-president-emmanuel-macron-repond-aux-150-citoyens-de-la-convention-citoyenne-pour-le-climat",
+          "title": "Le Président Emmanuel Macron répond aux 150 citoyens de la Convention citoyenne pour le climat - Élysée"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

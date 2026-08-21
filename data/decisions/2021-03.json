@@ -25,6 +25,10 @@
         {
           "type": "related",
           "decision_id": "couvre-feu-18h-2021"
+        },
+        {
+          "type": "amends",
+          "decision_id": "deuxieme-confinement-2020"
         }
       ]
     },

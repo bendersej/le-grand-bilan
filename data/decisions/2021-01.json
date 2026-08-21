@@ -21,7 +21,16 @@
           "title": "Décret n° 2021-31 du 15 janvier 2021 modifiant les décrets n° 2020-1262 et n° 2020-1310 prescrivant les mesures générales nécessaires pour faire face à l'épidémie de covid-19 - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "deuxieme-confinement-2020"
+        },
+        {
+          "type": "related",
+          "decision_id": "couvre-feu-decembre-2020"
+        }
+      ]
     },
     {
       "id": "reforme-cese-2021",

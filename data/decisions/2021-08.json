@@ -96,7 +96,12 @@
           "title": "Décision n° 2021-825 DC du 13 août 2021 - Conseil constitutionnel"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "convention-citoyenne-climat-2020"
+        }
+      ]
     },
     {
       "id": "loi-separatisme-2021",

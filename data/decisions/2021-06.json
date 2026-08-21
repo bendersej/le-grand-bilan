@@ -25,6 +25,10 @@
         {
           "type": "implements",
           "decision_id": "loi-sortie-crise-sanitaire-2021"
+        },
+        {
+          "type": "repeals",
+          "decision_id": "deuxieme-confinement-2020"
         }
       ]
     },

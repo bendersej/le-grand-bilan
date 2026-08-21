@@ -25,6 +25,10 @@
         {
           "type": "related",
           "decision_id": "confinement-16-departements-2021"
+        },
+        {
+          "type": "amends",
+          "decision_id": "deuxieme-confinement-2020"
         }
       ]
     },
@@ -76,7 +80,12 @@
           "title": "Dossier législatif : améliorer le système de santé par la confiance et la simplification - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "segur-de-la-sante-2020"
+        }
+      ]
     }
   ]
 }

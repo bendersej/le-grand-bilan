@@ -1,0 +1,117 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2020-05",
+  "decisions": [
+    {
+      "id": "prorogation-etat-urgence-sanitaire-mai-2020",
+      "date": "2020-05-11",
+      "title": {
+        "fr": "Prorogation de l'état d'urgence sanitaire jusqu'au 10 juillet",
+        "en": "Extension of the state of health emergency until 10 July"
+      },
+      "summary": {
+        "fr": "Loi n° 2020-546 : elle **proroge l'état d'urgence sanitaire jusqu'au 10 juillet 2020**, encadre la **mise en quarantaine et l'isolement**, et crée les **systèmes d'information de traçage des malades et cas contacts (SI-DEP et Contact Covid)**. Le Conseil constitutionnel (décision 2020-800 DC) valide l'essentiel sous réserves (contrôle du juge sur les quarantaines prolongées) mais **censure des dispositions sur le partage des données de santé** et l'article 13.",
+        "en": "Law no. 2020-546: it **extends the state of health emergency until 10 July 2020**, regulates **quarantine and isolation**, and creates the **contact-tracing information systems (SI-DEP and Contact Covid)**. The Constitutional Council (decision 2020-800 DC) upholds most of it with reservations (judicial control of extended quarantines) but **strikes down provisions on health data sharing** and article 13."
+      },
+      "category_ids": ["institutions", "sante"],
+      "politician_ids": ["olivier-veran", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041865244",
+          "title": "LOI n° 2020-546 du 11 mai 2020 prorogeant l'état d'urgence sanitaire et complétant ses dispositions - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2020/2020800DC.htm",
+          "title": "Décision n° 2020-800 DC du 11 mai 2020 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl19-414.html",
+          "title": "Dossier législatif : prorogation de l'état d'urgence sanitaire - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "loi-urgence-covid-19-2020"
+        }
+      ]
+    },
+    {
+      "id": "deconfinement-mai-2020",
+      "date": "2020-05-11",
+      "title": {
+        "fr": "Déconfinement progressif à partir du 11 mai",
+        "en": "Gradual reopening from 11 May"
+      },
+      "summary": {
+        "fr": "Décret n° 2020-548 : fin du confinement général après 55 jours. Le territoire est classé en **zones verte et rouge** selon la circulation du virus ; les **déplacements restent limités à 100 kilomètres** du domicile sauf motif impérieux ; les **commerces rouvrent** (hors cafés et restaurants), les écoles rouvrent progressivement et le **port du masque devient obligatoire dans les transports en commun**.",
+        "en": "Decree no. 2020-548: end of the general lockdown after 55 days. The territory is classified into **green and red zones** based on virus circulation; **travel remains capped at 100 kilometres** from home except for imperative reasons; **shops reopen** (except cafés and restaurants), schools reopen gradually and **face masks become compulsory on public transport**."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["edouard-philippe", "olivier-veran"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041865329",
+          "title": "Décret n° 2020-548 du 11 mai 2020 prescrivant les mesures générales nécessaires pour faire face à l'épidémie de covid-19 dans le cadre de l'état d'urgence sanitaire - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "premier-confinement-2020"
+        },
+        {
+          "type": "implements",
+          "decision_id": "prorogation-etat-urgence-sanitaire-mai-2020"
+        }
+      ]
+    },
+    {
+      "id": "convocation-second-tour-municipales-2020",
+      "date": "2020-05-27",
+      "title": {
+        "fr": "Second tour des municipales fixé au 28 juin",
+        "en": "Second round of municipal elections set for 28 June"
+      },
+      "summary": {
+        "fr": "Décret n° 2020-642 : après le report décidé par la loi d'urgence du 23 mars, le Gouvernement **convoque les électeurs le dimanche 28 juin 2020** pour le second tour des élections municipales et communautaires dans les quelque **4 800 communes** où le premier tour du 15 mars n'avait pas été conclusif. Le scrutin, marqué par une **abstention record (environ 58 %)**, verra une poussée des listes écologistes dans plusieurs grandes villes.",
+        "en": "Decree no. 2020-642: after the postponement enacted by the emergency law of 23 March, the Government **summons voters on Sunday 28 June 2020** for the second round of municipal elections in the roughly **4,800 communes** where the 15 March first round was not conclusive. The vote, marked by **record abstention (around 58%)**, delivers gains for green-led lists in several major cities."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["christophe-castaner", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041923824",
+          "title": "Décret n° 2020-642 du 27 mai 2020 fixant la date du second tour du renouvellement général des conseillers municipaux et communautaires, des conseillers de Paris et des conseillers métropolitains de Lyon, et portant convocation des électeurs - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-urgence-covid-19-2020"
+        }
+      ]
+    },
+    {
+      "id": "stopcovid-2020",
+      "date": "2020-05-29",
+      "title": {
+        "fr": "Lancement de l'application de traçage StopCovid",
+        "en": "Launch of the StopCovid tracing app"
+      },
+      "summary": {
+        "fr": "Décret n° 2020-650 : après un débat au Parlement, le Gouvernement autorise le traitement de données **StopCovid**, application mobile de **traçage des contacts par Bluetooth**, téléchargeable à partir du 2 juin sur la **base du volontariat**. Faute d'adoption par la population, elle sera remplacée en octobre 2020 par TousAntiCovid.",
+        "en": "Decree no. 2020-650: after a parliamentary debate, the Government authorises the **StopCovid** data processing, a mobile app for **Bluetooth contact tracing**, available from 2 June on a **voluntary basis**. With low uptake, it is replaced in October 2020 by TousAntiCovid."
+      },
+      "category_ids": ["numerique", "sante"],
+      "politician_ids": ["cedric-o", "olivier-veran"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041936881",
+          "title": "Décret n° 2020-650 du 29 mai 2020 relatif au traitement de données dénommé « StopCovid » - Légifrance"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

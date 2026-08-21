@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2020-08",
+  "decisions": [
+    {
+      "id": "aides-embauche-jeunes-apprentis-2020",
+      "date": "2020-08-05",
+      "title": {
+        "fr": "Plan « 1 jeune, 1 solution » : aides à l'embauche des jeunes et des apprentis",
+        "en": "\"1 jeune, 1 solution\" plan: hiring aid for young people and apprentices"
+      },
+      "summary": {
+        "fr": "Deux décrets déploient le volet emploi du plan « 1 jeune, 1 solution » : une **aide de 4 000 euros pour l'embauche d'un jeune de moins de 26 ans** (contrats conclus entre le 1er août 2020 et le 31 janvier 2021, jusqu'à 2 SMIC) et une **aide exceptionnelle aux employeurs d'apprentis de 5 000 euros (mineur) ou 8 000 euros (majeur)** pour la première année des contrats d'apprentissage.",
+        "en": "Two decrees roll out the employment pillar of the \"1 jeune, 1 solution\" plan: a **4,000 euro subsidy for hiring a person under 26** (contracts signed between 1 August 2020 and 31 January 2021, up to twice the minimum wage) and an **exceptional aid to apprentice employers of 5,000 euros (minors) or 8,000 euros (adults)** for the first year of apprenticeship contracts."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["elisabeth-borne", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042211189",
+          "title": "Décret n° 2020-982 du 5 août 2020 instituant une aide à l'embauche des jeunes de moins de 26 ans - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042259606",
+          "title": "Décret n° 2020-1085 du 24 août 2020 relatif à l'aide aux employeurs d'apprentis prévue à l'article 76 de la loi n° 2020-935 du 30 juillet 2020 de finances rectificative pour 2020 - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "loi-finances-rectificative-juillet-2020"
+        }
+      ]
+    },
+    {
+      "id": "loi-dette-sociale-autonomie-2020",
+      "date": "2020-08-07",
+      "title": {
+        "fr": "Dette sociale et création de la 5e branche autonomie",
+        "en": "Social debt and creation of the 5th branch for autonomy"
+      },
+      "summary": {
+        "fr": "Lois organique n° 2020-991 et ordinaire n° 2020-992 : elles organisent le **transfert de 136 milliards d'euros de dette sociale à la CADES** (dont 92 milliards de déficits liés à la crise sanitaire), prolongeant la caisse jusqu'en 2033, et créent une **cinquième branche de la sécurité sociale consacrée à l'autonomie** (perte d'autonomie des personnes âgées et handicapées), gérée par la CNSA.",
+        "en": "Organic law no. 2020-991 and ordinary law no. 2020-992: they organise the **transfer of 136 billion euros of social debt to CADES** (including 92 billion of health-crisis deficits), extending the fund until 2033, and create a **fifth social security branch dedicated to autonomy** (loss of autonomy of the elderly and disabled), managed by the CNSA."
+      },
+      "category_ids": ["economie", "sante"],
+      "politician_ids": ["olivier-veran", "olivier-dussopt", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042219376",
+          "title": "LOI n° 2020-992 du 7 août 2020 relative à la dette sociale et à l'autonomie - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042219373",
+          "title": "LOI organique n° 2020-991 du 7 août 2020 relative à la dette sociale et à l'autonomie - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl19-518.html",
+          "title": "Dossier législatif : dette sociale et autonomie - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-mesures-surete-terroristes-2020",
+      "date": "2020-08-10",
+      "title": {
+        "fr": "Mesures de sûreté contre les sortants de prison terroristes, censurées",
+        "en": "Security measures for released terrorist convicts, struck down"
+      },
+      "summary": {
+        "fr": "Loi n° 2020-1023, issue d'une proposition de la députée Yaël Braun-Pivet : le texte instaurait des **mesures de sûreté (pointage, interdictions de paraître, suivi) applicables aux condamnés terroristes à leur sortie de prison**, jusqu'à dix ans. Le Conseil constitutionnel (décision 2020-805 DC du 7 août) **censure les articles 1er, 2 et 4, soit le cœur du dispositif**, jugé non nécessaire et disproportionné ; la loi promulguée est réduite à des dispositions résiduelles.",
+        "en": "Law no. 2020-1023, from a bill by MP Yaël Braun-Pivet: the text created **post-sentence security measures (check-ins, area bans, monitoring) for terrorist convicts upon release**, for up to ten years. The Constitutional Council (decision 2020-805 DC of 7 August) **strikes down articles 1, 2 and 4, the core of the mechanism**, deemed unnecessary and disproportionate; the promulgated law is reduced to residual provisions."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["eric-dupond-moretti", "gerald-darmanin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042225084",
+          "title": "LOI n° 2020-1023 du 10 août 2020 instaurant des mesures de sûreté à l'encontre des auteurs d'infractions terroristes à l'issue de leur peine - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2020/2020805DC.htm",
+          "title": "Décision n° 2020-805 DC du 7 août 2020 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl19-544.html",
+          "title": "Dossier législatif : mesures de sûreté contre les auteurs d'infractions terroristes - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

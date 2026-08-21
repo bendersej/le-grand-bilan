@@ -1,0 +1,66 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2020-04",
+  "decisions": [
+    {
+      "id": "prolongation-confinement-avril-2020",
+      "date": "2020-04-14",
+      "title": {
+        "fr": "Prolongation du confinement jusqu'au 11 mai",
+        "en": "Extension of the lockdown until 11 May"
+      },
+      "summary": {
+        "fr": "Après l'allocution d'Emmanuel Macron du 13 avril annonçant la **prolongation du confinement jusqu'au 11 mai 2020** et un déconfinement progressif à partir de cette date (réouverture des écoles, mais pas des cafés ni des restaurants), le décret n° 2020-423 **reporte au 11 mai** le terme des mesures générales de confinement.",
+        "en": "After Emmanuel Macron's address of 13 April announcing the **extension of the lockdown until 11 May 2020** and a gradual reopening from that date (schools reopening, but not cafés or restaurants), decree no. 2020-423 **pushes back to 11 May** the end date of the general lockdown measures."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["emmanuel-macron", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041797938",
+          "title": "Décret n° 2020-423 du 14 avril 2020 complétant le décret n° 2020-293 du 23 mars 2020 prescrivant les mesures générales nécessaires pour faire face à l'épidémie de covid-19 - Légifrance"
+        },
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2020/04/13/adresse-aux-francais-13-avril-2020",
+          "title": "Adresse aux Français du 13 avril 2020 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "premier-confinement-2020"
+        }
+      ]
+    },
+    {
+      "id": "loi-finances-rectificative-avril-2020",
+      "date": "2020-04-25",
+      "title": {
+        "fr": "Deuxième budget d'urgence covid-19 (plan porté à 110 milliards)",
+        "en": "Second covid-19 emergency budget (plan raised to 110 billion)"
+      },
+      "summary": {
+        "fr": "Loi n° 2020-473 de finances rectificative : elle porte le plan d'urgence économique à environ **110 milliards d'euros** : renforcement du **fonds de solidarité**, financement de l'**activité partielle**, **20 milliards d'euros** pour renforcer les participations de l'État dans les entreprises stratégiques en difficulté (dont Air France) et aides aux plus précaires.",
+        "en": "Amending finance law no. 2020-473: it raises the emergency economic plan to around **110 billion euros**: a stronger **solidarity fund**, funding for **short-time work**, **20 billion euros** to shore up state equity stakes in struggling strategic companies (including Air France) and aid for the most vulnerable."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["bruno-le-maire", "gerald-darmanin", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000041820860",
+          "title": "LOI n° 2020-473 du 25 avril 2020 de finances rectificative pour 2020 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl19-403.html",
+          "title": "Dossier législatif : loi de finances rectificative pour 2020 (2) - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-finances-rectificative-mars-2020"
+        }
+      ]
+    }
+  ]
+}

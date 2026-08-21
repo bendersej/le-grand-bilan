@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2020-09",
+  "decisions": [
+    {
+      "id": "plan-france-relance-2020",
+      "date": "2020-09-03",
+      "title": {
+        "fr": "Plan France Relance de 100 milliards d'euros",
+        "en": "100 billion euro France Relance plan"
+      },
+      "summary": {
+        "fr": "Jean Castex présente **France Relance, un plan de 100 milliards d'euros sur deux ans**, dont **40 milliards financés par le plan de relance européen**, organisé en trois volets : **écologie (30 milliards)**, **compétitivité (34 milliards, dont la baisse de 10 milliards par an des impôts de production)** et **cohésion (36 milliards)**, avec pour objectif affiché de retrouver le niveau d'activité d'avant-crise en 2022.",
+        "en": "Jean Castex unveils **France Relance, a 100 billion euro two-year plan**, including **40 billion funded by the European recovery plan**, structured around three pillars: **ecology (30 billion)**, **competitiveness (34 billion, including a 10 billion per year cut in production taxes)** and **cohesion (36 billion)**, with the stated goal of returning to pre-crisis activity by 2022."
+      },
+      "category_ids": ["ecologie", "economie"],
+      "politician_ids": ["jean-castex", "bruno-le-maire"],
+      "sources": [
+        {
+          "url": "https://www.tresor.economie.gouv.fr/Articles/53c71f49-efc7-4bd0-ac6e-e9138efc0656/files/60d3f689-3c28-41aa-8cd8-613ae4a88ab9",
+          "title": "France Relance, dossier de presse du 3 septembre 2020 - Direction générale du Trésor"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "plan-relance-europeen-2020"
+        }
+      ]
+    },
+    {
+      "id": "segur-de-la-sante-2020",
+      "date": "2020-09-19",
+      "title": {
+        "fr": "Ségur de la santé : revalorisation des personnels hospitaliers",
+        "en": "Ségur de la santé: pay rise for hospital staff"
+      },
+      "summary": {
+        "fr": "Le décret n° 2020-1152 crée le **complément de traitement indiciaire** qui traduit les **accords du Ségur de la santé signés le 13 juillet 2020** par Jean Castex et Olivier Véran avec une majorité de syndicats (**8,2 milliards d'euros par an**) : **183 euros nets de plus par mois** pour les agents des hôpitaux publics et des EHPAD, versés en deux étapes (septembre 2020, puis décembre 2020 par anticipation sur le calendrier initial).",
+        "en": "Decree no. 2020-1152 creates the **index-based salary supplement** implementing the **Ségur de la santé agreements signed on 13 July 2020** by Jean Castex and Olivier Véran with a majority of unions (**8.2 billion euros per year**): an extra **183 euros net per month** for public hospital and care-home staff, paid in two steps (September 2020, then December 2020, ahead of the initial schedule)."
+      },
+      "category_ids": ["sante", "travail"],
+      "politician_ids": ["olivier-veran", "jean-castex"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042345102",
+          "title": "Décret n° 2020-1152 du 19 septembre 2020 relatif au versement d'un complément de traitement indiciaire aux agents des établissements publics de santé, des groupements de coopération sanitaire et des établissements d'hébergement pour personnes âgées dépendantes de la fonction publique hospitalière - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000042483596",
+          "title": "Arrêté du 31 octobre 2020 modifiant l'arrêté du 19 septembre 2020 fixant le montant du complément de traitement indiciaire - Légifrance"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}
