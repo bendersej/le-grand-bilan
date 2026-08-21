@@ -1,0 +1,86 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2018-08",
+  "decisions": [
+    {
+      "id": "loi-telephone-portable-ecole-2018",
+      "date": "2018-08-03",
+      "title": {
+        "fr": "Loi interdisant le téléphone portable à l'école et au collège",
+        "en": "Law banning mobile phones in primary and middle schools"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-698 : l'**utilisation du téléphone portable est interdite dans les écoles et les collèges** dès la rentrée 2018, sauf usages pédagogiques et exceptions prévues par le règlement intérieur ; les **lycées peuvent adopter la même interdiction**. Engagement de campagne d'Emmanuel Macron, la mesure est portée par Jean-Michel Blanquer.",
+        "en": "Law no. 2018-698: **mobile phone use is banned in primary and middle schools** from September 2018, except for educational uses and exceptions set by school rules; **high schools may adopt the same ban**. A campaign pledge of Emmanuel Macron, the measure is carried by Jean-Michel Blanquer."
+      },
+      "category_ids": ["education"],
+      "politician_ids": ["jean-michel-blanquer"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037284333",
+          "title": "LOI n° 2018-698 du 3 août 2018 relative à l'encadrement de l'utilisation du téléphone portable dans les établissements d'enseignement scolaire - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl17-558.html",
+          "title": "Dossier législatif : utilisation encadrée du portable dans les écoles et collèges - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-schiappa-2018",
+      "date": "2018-08-03",
+      "title": {
+        "fr": "Loi Schiappa contre les violences sexuelles et sexistes",
+        "en": "Schiappa law against sexual and sexist violence"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-703 : elle **allonge de 20 à 30 ans après la majorité de la victime le délai de prescription des crimes sexuels commis sur mineurs**, renforce la répression des atteintes sexuelles sur les mineurs de 15 ans (la contrainte morale pouvant résulter de l'écart d'âge, sans instaurer de présomption de non-consentement), crée l'**outrage sexiste** verbalisant le harcèlement de rue et réprime les **raids numériques** de harcèlement en ligne.",
+        "en": "Law no. 2018-703: it **extends from 20 to 30 years after the victim's majority the limitation period for sexual crimes against minors**, strengthens the repression of sexual abuse of children under 15 (moral coercion may result from the age gap, without creating a presumption of non-consent), creates the offence of **sexist outrage** to fine street harassment and punishes coordinated **online harassment raids**."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["marlene-schiappa", "nicole-belloubet"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037284450",
+          "title": "LOI n° 2018-703 du 3 août 2018 renforçant la lutte contre les violences sexuelles et sexistes - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-487.html",
+          "title": "Dossier législatif : lutte contre les violences sexuelles et sexistes - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "lancement-grenelle-violences-conjugales-2019"
+        }
+      ]
+    },
+    {
+      "id": "loi-essoc-droit-erreur-2018",
+      "date": "2018-08-10",
+      "title": {
+        "fr": "Loi ESSOC : le droit à l'erreur face à l'administration",
+        "en": "ESSOC law: the right to error before the administration"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-727 pour un État au service d'une société de confiance : elle instaure un **droit à l'erreur** généralisé, l'administration présumant désormais la **bonne foi** de l'usager qui se trompe pour la première fois, élargit le rescrit, expérimente la **limitation à 9 mois sur 3 ans de la durée cumulée des contrôles** sur les PME et crée le référent unique et diverses expérimentations de simplification.",
+        "en": "Law no. 2018-727 for a State at the service of a society of trust: it establishes a general **right to error**, the administration now presuming the **good faith** of a user who errs for the first time, broadens advance rulings, experiments with a **9-months-in-3-years cap on cumulative inspections** of SMEs and creates single points of contact and various simplification experiments."
+      },
+      "category_ids": ["economie", "institutions"],
+      "politician_ids": ["gerald-darmanin", "olivier-dussopt", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037307624",
+          "title": "LOI n° 2018-727 du 10 août 2018 pour un Etat au service d'une société de confiance - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-259.html",
+          "title": "Dossier législatif : État au service d'une société de confiance - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

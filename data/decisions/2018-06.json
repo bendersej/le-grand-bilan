@@ -1,0 +1,111 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2018-06",
+  "decisions": [
+    {
+      "id": "decret-80-kmh-2018",
+      "date": "2018-06-15",
+      "title": {
+        "fr": "Décret abaissant la vitesse à 80 km/h sur les routes secondaires",
+        "en": "Decree lowering the speed limit to 80 km/h on secondary roads"
+      },
+      "summary": {
+        "fr": "Décret n° 2018-487 : la vitesse maximale autorisée est **abaissée de 90 à 80 km/h** sur les routes bidirectionnelles sans séparateur central à compter du **1er juillet 2018**, mesure décidée par Édouard Philippe au comité interministériel de la sécurité routière du 9 janvier 2018 pour réduire la mortalité routière. Massivement contestée dans les territoires ruraux, la mesure devient l'un des griefs fondateurs du mouvement des gilets jaunes.",
+        "en": "Decree no. 2018-487: the maximum speed is **lowered from 90 to 80 km/h** on two-way roads without a central divider from **1 July 2018**, a measure decided by Édouard Philippe at the road safety interministerial committee of 9 January 2018 to reduce road deaths. Widely contested in rural areas, the measure becomes one of the founding grievances of the yellow vests movement."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["edouard-philippe", "gerard-collomb"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037076517",
+          "title": "Décret n° 2018-487 du 15 juin 2018 relatif aux vitesses maximales autorisées des véhicules - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-protection-donnees-personnelles-2018",
+      "date": "2018-06-20",
+      "title": {
+        "fr": "Loi protection des données personnelles (adaptation au RGPD)",
+        "en": "Personal data protection law (GDPR adaptation)"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-493 : elle **adapte la loi Informatique et libertés de 1978 au règlement européen RGPD** entré en application le 25 mai 2018 et transpose la directive police-justice : **pouvoirs de contrôle et de sanction de la CNIL renforcés** (amendes jusqu'à 20 millions d'euros ou 4 % du chiffre d'affaires mondial), **action de groupe** en réparation des dommages, et **âge du consentement numérique fixé à 15 ans**. Le Conseil constitutionnel a validé le texte pour l'essentiel (décision n° 2018-765 DC).",
+        "en": "Law no. 2018-493: it **adapts the 1978 French data protection law to the EU GDPR** applicable since 25 May 2018 and transposes the police-justice directive: **strengthened CNIL supervision and sanction powers** (fines up to 20 million euros or 4% of worldwide turnover), **class actions** for damages, and the **digital age of consent set at 15**. The Constitutional Council upheld most of the text (decision no. 2018-765 DC)."
+      },
+      "category_ids": ["justice", "numerique"],
+      "politician_ids": ["nicole-belloubet", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037085952",
+          "title": "LOI n° 2018-493 du 20 juin 2018 relative à la protection des données personnelles - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-296.html",
+          "title": "Dossier législatif : protection des données personnelles - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2018/2018765DC.htm",
+          "title": "Décision n° 2018-765 DC du 12 juin 2018 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-listes-nationales-europeennes-2018",
+      "date": "2018-06-25",
+      "title": {
+        "fr": "Loi rétablissant la circonscription nationale pour les européennes",
+        "en": "Law restoring the national constituency for European elections"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-509 : elle **supprime les huit circonscriptions régionales** créées en 2003 pour l'élection des députés européens et **rétablit une circonscription nationale unique** avec des listes nationales dès le scrutin de mai 2019, et réorganise les règles de répartition du temps d'antenne de la campagne officielle.",
+        "en": "Law no. 2018-509: it **abolishes the eight regional constituencies** created in 2003 for electing MEPs and **restores a single national constituency** with national lists from the May 2019 election, and reorganises the allocation of official campaign broadcasting time."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["gerard-collomb", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037102048",
+          "title": "LOI n° 2018-509 du 25 juin 2018 relative à l'élection des représentants au Parlement européen - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-314.html",
+          "title": "Dossier législatif : élection des représentants au Parlement européen - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-pacte-ferroviaire-2018",
+      "date": "2018-06-27",
+      "title": {
+        "fr": "Loi pour un nouveau pacte ferroviaire (réforme de la SNCF)",
+        "en": "New railway pact law (SNCF reform)"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-515, adoptée après **trois mois de grève perlée des cheminots** : elle transforme la SNCF en **société anonyme à capitaux publics intégralement détenue par l'État** au 1er janvier 2020, met **fin au recrutement au statut de cheminot** à la même date et organise l'**ouverture à la concurrence** du transport ferroviaire de voyageurs. En parallèle, le Gouvernement s'engage à la **reprise de 35 milliards d'euros de dette de SNCF Réseau** (25 milliards en 2020, 10 milliards en 2022).",
+        "en": "Law no. 2018-515, adopted after **three months of rolling railway strikes**: it turns the SNCF into a **state-owned joint-stock company** on 1 January 2020, **ends hiring under the special railway workers' status** on the same date and organises the **opening of passenger rail to competition**. In parallel the Government commits to **taking over 35 billion euros of SNCF Réseau debt** (25 billion in 2020, 10 billion in 2022)."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["elisabeth-borne", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037111503",
+          "title": "LOI n° 2018-515 du 27 juin 2018 pour un nouveau pacte ferroviaire - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-435.html",
+          "title": "Dossier législatif : nouveau pacte ferroviaire - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "ordonnance-groupe-sncf-2019"
+        }
+      ]
+    }
+  ]
+}

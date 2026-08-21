@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2018-05",
+  "decisions": [
+    {
+      "id": "maintien-accord-vienne-iran-2018",
+      "date": "2018-05-08",
+      "title": {
+        "fr": "Maintien de la France dans l'accord de Vienne sur le nucléaire iranien",
+        "en": "France remains in the Vienna agreement on Iran's nuclear programme"
+      },
+      "summary": {
+        "fr": "Après l'annonce du **retrait des États-Unis de l'accord de Vienne (JCPoA)** par Donald Trump, Emmanuel Macron, Theresa May et Angela Merkel déclarent conjointement leur \"regret et préoccupation\" et le **maintien de leurs pays dans l'accord** : la France s'engage à en préserver le cadre, appelle l'Iran à continuer d'en respecter les obligations et à négocier sur le programme balistique et la stabilité régionale.",
+        "en": "After Donald Trump announces the **withdrawal of the United States from the Vienna agreement (JCPoA)**, Emmanuel Macron, Theresa May and Angela Merkel jointly declare their \"regret and concern\" and that **their countries remain in the agreement**: France commits to preserving its framework, calls on Iran to keep meeting its obligations and to negotiate on its ballistic programme and regional stability."
+      },
+      "category_ids": ["defense", "institutions"],
+      "politician_ids": ["emmanuel-macron", "jean-yves-le-drian"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2018/05/08/declaration-conjointe-du-president-de-la-republique-emmanuel-macron-de-la-premiere-ministre-theresa-may-et-de-la-chanceliere-angela-merkel",
+          "title": "Déclaration conjointe d'Emmanuel Macron, Theresa May et Angela Merkel sur l'accord de Vienne - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "annonces-politique-de-la-ville-2018",
+      "date": "2018-05-22",
+      "title": {
+        "fr": "Annonces sur la politique de la ville après le rapport Borloo",
+        "en": "Announcements on urban policy after the Borloo report"
+      },
+      "summary": {
+        "fr": "Recevant le plan de Jean-Louis Borloo pour les banlieues, Emmanuel Macron **écarte l'idée d'un nouveau \"plan banlieues\"** et présente sa \"mobilisation nationale\" pour les quartiers prioritaires : **testing anti-discriminations à l'embauche** des grandes entreprises (40 sociétés du SBF 120 testées dès la première vague), extension des **emplois francs** lancés en avril, **stages de troisième** garantis aux collégiens de l'éducation prioritaire et poursuite du déploiement des **quartiers de reconquête républicaine**.",
+        "en": "Receiving Jean-Louis Borloo's plan for the suburbs, Emmanuel Macron **rejects the idea of a new top-down \"banlieues plan\"** and presents his \"national mobilisation\" for priority neighbourhoods: **anti-discrimination hiring tests** of large companies (40 SBF 120 firms tested in the first wave), extension of the **\"emplois francs\"** hiring subsidies launched in April, guaranteed **work-experience placements** for pupils of priority-education schools and continued rollout of **\"republican reconquest\" police districts**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2018/05/23/la-france-une-chance-pour-chacun",
+          "title": "Discours \"La France, une chance pour chacun\" sur la politique de la ville - Élysée"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -21,7 +21,12 @@
           "title": "Ordonnance n° 2019-552 du 3 juin 2019 portant diverses dispositions relatives au groupe SNCF - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "loi-pacte-ferroviaire-2018"
+        }
+      ]
     },
     {
       "id": "declaration-politique-generale-acte-2-2019",

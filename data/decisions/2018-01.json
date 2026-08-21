@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2018-01",
+  "decisions": [
+    {
+      "id": "abandon-notre-dame-des-landes-2018",
+      "date": "2018-01-17",
+      "title": {
+        "fr": "Abandon du projet d'aéroport de Notre-Dame-des-Landes",
+        "en": "Abandonment of the Notre-Dame-des-Landes airport project"
+      },
+      "summary": {
+        "fr": "Le Premier ministre Édouard Philippe annonce l'**abandon définitif du projet d'aéroport du Grand Ouest à Notre-Dame-des-Landes**, près de cinquante ans après les premières réservations foncières et malgré la consultation locale de juin 2016 favorable au transfert. Le Gouvernement décide en contrepartie le **réaménagement de l'aéroport existant de Nantes-Atlantique** et exige l'évacuation de la ZAD : les occupants sans titre doivent partir avant le printemps 2018.",
+        "en": "Prime Minister Édouard Philippe announces the **definitive abandonment of the Grand Ouest airport project at Notre-Dame-des-Landes**, nearly fifty years after the first land reservations and despite the June 2016 local consultation in favour of the transfer. In return the Government decides to **redevelop the existing Nantes-Atlantique airport** and demands the evacuation of the ZAD: occupants without title must leave before spring 2018."
+      },
+      "category_ids": ["ecologie", "economie"],
+      "politician_ids": ["edouard-philippe", "nicolas-hulot", "elisabeth-borne"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2018/01/17/decision-du-gouvernement-sur-lavenir-du-projet-aeroportuaire-du-grand-ouest",
+          "title": "Décision du Gouvernement sur l'avenir du projet aéroportuaire du Grand Ouest - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-programmation-finances-publiques-2018",
+      "date": "2018-01-22",
+      "title": {
+        "fr": "Loi de programmation des finances publiques 2018-2022",
+        "en": "Public finances programming law 2018-2022"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-32 : elle fixe la trajectoire budgétaire du quinquennat, avec un **déficit public maintenu sous 3 % du PIB** dès 2017 puis ramené à 0,3 % en 2022, une **baisse d'environ 3 points de PIB de la dépense publique**, une **baisse d'un point des prélèvements obligatoires** et un objectif de réduction de la dette publique de 5 points de PIB d'ici 2022.",
+        "en": "Law no. 2018-32: it sets the budget trajectory for the five-year term, with the **public deficit kept below 3% of GDP** from 2017 then brought down to 0.3% in 2022, a **reduction of about 3 GDP points in public spending**, a **one-point cut in the tax burden** and a target of cutting public debt by 5 GDP points by 2022."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["bruno-le-maire", "gerald-darmanin", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036526027",
+          "title": "LOI n° 2018-32 du 22 janvier 2018 de programmation des finances publiques pour les années 2018 à 2022 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-040.html",
+          "title": "Dossier législatif : programmation des finances publiques de 2018 à 2022 - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

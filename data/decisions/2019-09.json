@@ -29,7 +29,12 @@
           "title": "Victime de violences conjugales : sachez que vous n'êtes pas seul(e) - Élysée"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-schiappa-2018"
+        }
+      ]
     },
     {
       "id": "ordonnance-code-justice-penale-mineurs-2019",

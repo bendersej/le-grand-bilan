@@ -1,0 +1,184 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2018-12",
+  "decisions": [
+    {
+      "id": "annulation-hausse-taxe-carbone-2018",
+      "date": "2018-12-05",
+      "title": {
+        "fr": "Annulation de la hausse de la taxe carbone pour 2019",
+        "en": "Cancellation of the 2019 carbon tax increase"
+      },
+      "summary": {
+        "fr": "Face au mouvement des gilets jaunes, Édouard Philippe annonce le 4 décembre un **moratoire de six mois sur la hausse de la fiscalité des carburants** et le gel des tarifs du gaz et de l'électricité prévus au 1er janvier 2019, puis confirme le 5 décembre devant l'Assemblée nationale l'**abandon de la hausse de la taxe carbone pour l'ensemble de l'année 2019**. L'annulation est entérinée dans la loi de finances pour 2019.",
+        "en": "Facing the yellow vests movement, Édouard Philippe announces on 4 December a **six-month moratorium on the fuel tax increase** and a freeze of gas and electricity tariffs planned for 1 January 2019, then confirms on 5 December before the National Assembly the **abandonment of the carbon tax increase for the whole of 2019**. The cancellation is enacted in the 2019 budget law."
+      },
+      "category_ids": ["ecologie", "economie"],
+      "politician_ids": ["edouard-philippe", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/15/comptes-rendus/seance/session-ordinaire-de-2018-2019/premiere-seance-du-mercredi-05-decembre-2018",
+          "title": "Déclaration du Gouvernement sur la fiscalité écologique et ses conséquences sur le pouvoir d'achat, compte rendu de la première séance du mercredi 5 décembre 2018 - Assemblée nationale"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "allocution-10-decembre-2018",
+      "date": "2018-12-10",
+      "title": {
+        "fr": "Allocution du 10 décembre : état d'urgence économique et sociale",
+        "en": "10 December address: state of economic and social emergency"
+      },
+      "summary": {
+        "fr": "Dans une allocution télévisée suivie par plus de 21 millions de téléspectateurs après quatre semaines de crise des gilets jaunes, Emmanuel Macron décrète un \"**état d'urgence économique et sociale**\" : **hausse de 100 euros par mois au niveau du SMIC** dès 2019 via la prime d'activité, **heures supplémentaires sans impôts ni charges**, **prime exceptionnelle de fin d'année** défiscalisée demandée aux employeurs et **annulation de la hausse de CSG pour les retraités percevant moins de 2 000 euros par mois**. Il annonce aussi un grand débat national dans les territoires.",
+        "en": "In a televised address watched by over 21 million viewers after four weeks of the yellow vests crisis, Emmanuel Macron declares a \"**state of economic and social emergency**\": a **100-euro monthly increase at the minimum wage level** from 2019 through the activity bonus, **tax-free and charge-free overtime**, a tax-exempt **exceptional end-of-year bonus** requested from employers and the **cancellation of the CSG increase for pensioners earning under 2,000 euros a month**. He also announces a national debate across the country."
+      },
+      "category_ids": ["economie", "institutions"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2018/12/10/adresse-du-president-de-la-republique-du-lundi-10-decembre-2018",
+          "title": "Adresse du Président de la République du lundi 10 décembre 2018 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "lancement-grand-debat-national-2019"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-anticasseurs-2019"
+        }
+      ]
+    },
+    {
+      "id": "loi-manipulation-information-2018",
+      "date": "2018-12-22",
+      "title": {
+        "fr": "Loi contre la manipulation de l'information (loi \"fake news\")",
+        "en": "Law against information manipulation (\"fake news\" law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-1202, portée initialement par Françoise Nyssen et promulguée sous Franck Riester : pendant les **trois mois précédant un scrutin national**, un candidat ou un parti peut saisir le **juge des référés pour faire cesser la diffusion de fausses informations** manifestes diffusées de manière artificielle et massive ; les **plateformes doivent rendre transparents les contenus sponsorisés** et le CSA peut **suspendre des chaînes contrôlées par un État étranger** qui diffusent de fausses informations. Le Conseil constitutionnel a validé le dispositif en l'encadrant de réserves strictes (décision n° 2018-773 DC).",
+        "en": "Law no. 2018-1202, initially carried by Françoise Nyssen and promulgated under Franck Riester: during the **three months before a national election**, a candidate or party can ask the **interim relief judge to stop the spread of manifestly false information** disseminated artificially and massively; **platforms must make sponsored content transparent** and the CSA can **suspend channels controlled by a foreign state** spreading false information. The Constitutional Council upheld the mechanism while framing it with strict reservations (decision no. 2018-773 DC)."
+      },
+      "category_ids": ["institutions", "numerique"],
+      "politician_ids": ["franck-riester", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037847559",
+          "title": "LOI n° 2018-1202 du 22 décembre 2018 relative à la lutte contre la manipulation de l'information - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl17-623.html",
+          "title": "Dossier législatif : lutte contre la manipulation de l'information - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2018/2018773DC.htm",
+          "title": "Décision n° 2018-773 DC du 20 décembre 2018 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lfss-2019",
+      "date": "2018-12-22",
+      "title": {
+        "fr": "Loi de financement de la sécurité sociale pour 2019",
+        "en": "Social security financing law for 2019"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-1203 : elle engage le \"**100 % santé**\", remboursement intégral progressif de paniers de soins en **optique, dentaire et audiologie** d'ici 2021, **exonère de cotisations salariales les heures supplémentaires** à partir de 2019, limite à **0,3 % la revalorisation des pensions et de plusieurs prestations** en 2019 et supprime le forfait social sur l'intéressement dans les PME.",
+        "en": "Law no. 2018-1203: it launches the \"**100% health**\" reform, phasing in full reimbursement of care baskets in **optics, dental care and hearing aids** by 2021, **exempts overtime from employee social contributions** from 2019, caps the **2019 uprating of pensions and several benefits at 0.3%** and abolishes the social package on profit-sharing in SMEs."
+      },
+      "category_ids": ["economie", "sante"],
+      "politician_ids": ["agnes-buzyn", "gerald-darmanin", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037847585",
+          "title": "LOI n° 2018-1203 du 22 décembre 2018 de financement de la sécurité sociale pour 2019 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/plfss2019.html",
+          "title": "Dossier législatif : financement de la sécurité sociale pour 2019 - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-mues-2018",
+      "date": "2018-12-24",
+      "title": {
+        "fr": "Loi portant mesures d'urgence économiques et sociales (MUES)",
+        "en": "Emergency economic and social measures law (MUES)"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-1213, adoptée en quelques jours pour traduire les annonces du 10 décembre : **prime exceptionnelle de pouvoir d'achat** exonérée d'impôt et de cotisations jusqu'à **1 000 euros** pour les salariés gagnant moins de 3 SMIC, **défiscalisation des heures supplémentaires** dès le 1er janvier 2019 dans la limite de 5 000 euros par an, et **rétablissement du taux de CSG à 6,6 %** pour les retraités percevant moins de 2 000 euros mensuels.",
+        "en": "Law no. 2018-1213, adopted within days to enact the 10 December announcements: an **exceptional purchasing power bonus** exempt from tax and contributions up to **1,000 euros** for employees earning under three times the minimum wage, **tax-free overtime** from 1 January 2019 up to 5,000 euros a year, and the **restoration of the 6.6% CSG rate** for pensioners earning under 2,000 euros a month."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": [
+        "edouard-philippe",
+        "muriel-penicaud",
+        "bruno-le-maire",
+        "emmanuel-macron"
+      ],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037851899",
+          "title": "LOI n° 2018-1213 du 24 décembre 2018 portant mesures d'urgence économiques et sociales - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl18-230.html",
+          "title": "Dossier législatif : mesures d'urgence économiques et sociales - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "allocution-10-decembre-2018"
+        },
+        {
+          "type": "related",
+          "decision_id": "lancement-grand-debat-national-2019"
+        }
+      ]
+    },
+    {
+      "id": "loi-de-finances-2019",
+      "date": "2018-12-28",
+      "title": {
+        "fr": "Loi de finances pour 2019",
+        "en": "2019 budget law"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-1317 : le budget 2019 met en oeuvre le **prélèvement à la source de l'impôt sur le revenu au 1er janvier 2019**, **gèle la fiscalité des carburants** en annulant la hausse de la taxe carbone prévue, poursuit la **suppression progressive de la taxe d'habitation** (dégrèvement porté à 65 % en 2019 pour 80 % des foyers) et **transforme le CICE en baisse pérenne de cotisations patronales**. Le déficit public prévu remonte à environ 3,2 % du PIB sous l'effet des mesures d'urgence et de la bascule du CICE. Le Conseil constitutionnel a censuré plusieurs dispositions ponctuelles (décision n° 2018-777 DC).",
+        "en": "Law no. 2018-1317: the 2019 budget implements **income tax withholding at source from 1 January 2019**, **freezes fuel taxation** by cancelling the planned carbon tax increase, continues the **phase-out of the housing tax** (relief raised to 65% in 2019 for 80% of households) and **turns the CICE tax credit into a permanent cut in employer contributions**. The projected public deficit rises to about 3.2% of GDP under the effect of the emergency measures and the CICE conversion. The Constitutional Council struck down several specific provisions (decision no. 2018-777 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["bruno-le-maire", "gerald-darmanin", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037882341",
+          "title": "LOI n° 2018-1317 du 28 décembre 2018 de finances pour 2019 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2019.html",
+          "title": "Dossier législatif : budget 2019 - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2018/2018777DC.htm",
+          "title": "Décision n° 2018-777 DC du 28 décembre 2018 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "annulation-hausse-taxe-carbone-2018"
+        }
+      ]
+    }
+  ]
+}

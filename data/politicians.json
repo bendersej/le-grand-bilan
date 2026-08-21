@@ -244,6 +244,36 @@
       "profile": null
     },
     {
+      "id": "annick-girardin",
+      "full_name": "Annick Girardin",
+      "party": "Parti radical de gauche",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Outre-mer",
+            "en": "Minister for Overseas Territories"
+          },
+          "from": "2017-05-17",
+          "to": "2020-07-06"
+        }
+      ],
+      "profile": {
+        "content_hash": "752487cd68ae92667e0c3076ac180abeac0fc34210e4f86ac0c8afb24f611343",
+        "photo": {
+          "path": "/media/politicians/annick-girardin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Portrait_d%27Annick_Girardin.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Ministère de l'Intérieur/DICOM/Y/MALENFER."
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique française, membre du **Parti radical de gauche** puis du Mouvement radical, **ministre des Outre-mer de 2017 à 2020** dans les gouvernements Philippe, où elle gère notamment les suites de l'**ouragan Irma** et les crises sociales de **Mayotte et de La Réunion**, et porte l'organisation du référendum de Nouvelle-Calédonie de 2018. **Députée de Saint-Pierre-et-Miquelon de 2007 à 2014**, elle est secrétaire d'État chargée du Développement et de la Francophonie (2014-2016) puis **ministre de la Fonction publique (2016-2017)** sous François Hollande, et **ministre de la Mer (2020-2022)** dans le gouvernement Castex. Élue **sénatrice de Saint-Pierre-et-Miquelon en 2023**, elle perd son mandat en 2024 à la suite d'une peine d'inéligibilité d'un an, avant d'être réélue l'année suivante.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Annick_Girardin"
+      }
+    },
+    {
       "id": "annie-genevard",
       "full_name": "Annie Genevard",
       "party": "Les Républicains",
@@ -677,6 +707,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/David_Amiel"
+      }
+    },
+    {
+      "id": "didier-guillaume",
+      "full_name": "Didier Guillaume",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Agriculture et de l'Alimentation",
+            "en": "Minister of Agriculture and Food"
+          },
+          "from": "2018-10-16",
+          "to": "2020-07-06"
+        }
+      ],
+      "profile": {
+        "content_hash": "ea5e033ebdaad758ea61518673a13017e137526dff542e924b6b76ae13044cd1",
+        "photo": {
+          "path": "/media/politicians/didier-guillaume.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Didier_Guillaume_during_the_Paris_Agricultural_Show_-_2019_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Thomas Padilla / European Union, 2019 / EC - Audiovisual Service"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français (1959-2025), **ministre de l'Agriculture et de l'Alimentation de 2018 à 2020** dans le second gouvernement Philippe, nommé au lendemain de la loi EGalim dont il pilote la mise en oeuvre. **Sénateur de la Drôme de 2008 à 2020**, il préside le **groupe socialiste au Sénat de 2014 à 2018** avant de rejoindre le RDSE. En 2024, le prince Albert II le désigne **ministre d'État de Monaco**, fonction qu'il occupe jusqu'à sa mort en janvier 2025.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Didier_Guillaume"
       }
     },
     {
@@ -1338,6 +1398,36 @@
       }
     },
     {
+      "id": "gerard-collomb",
+      "full_name": "Gérard Collomb",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre d'État, ministre de l'Intérieur",
+            "en": "Minister of State, Minister of the Interior"
+          },
+          "from": "2017-05-17",
+          "to": "2018-10-03"
+        }
+      ],
+      "profile": {
+        "content_hash": "717d6c070d55df2a687769696e8df7f83eca58a9d44c5f7095797f723c60420a",
+        "photo": {
+          "path": "/media/politicians/gerard-collomb.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:G%C3%A9rard_Collomb_%C3%A0_La_Confluence_(Lyon)_(cropped).jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Arthur Empereur"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français (1947-2023), **ministre d'État, ministre de l'Intérieur de 2017 à 2018** dans les gouvernements Philippe : il porte la **loi asile et immigration de 2018** et lance la police de sécurité du quotidien, avant de démissionner en octobre 2018 pour reconquérir Lyon. Longtemps membre du **Parti socialiste**, il est **maire de Lyon de 2001 à 2017 puis de 2018 à 2020** et président de la métropole de Lyon (2015-2017), après avoir été député (1981-1988) et **sénateur du Rhône (1999-2017)**. Soutien de la première heure d'**Emmanuel Macron** en 2017, il rejoint La République en marche puis prend ses distances avec le chef de l'État à la fin de sa vie.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/G%C3%A9rard_Collomb"
+      }
+    },
+    {
       "id": "guillaume-kasbarian",
       "full_name": "Guillaume Kasbarian",
       "party": "Parti de la Liberté",
@@ -1608,6 +1698,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre chargé de la Ville et du Logement",
+            "en": "Minister for Cities and Housing"
+          },
+          "from": "2018-10-16",
+          "to": "2020-07-06"
+        },
+        {
+          "role": {
             "fr": "Ministre de l'Agriculture et de l'Alimentation",
             "en": "Minister of Agriculture and Food"
           },
@@ -1689,6 +1787,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Laetitia_Avia"
+      }
+    },
+    {
+      "id": "laura-flessel",
+      "full_name": "Laura Flessel",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Sports",
+            "en": "Minister of Sports"
+          },
+          "from": "2017-05-17",
+          "to": "2018-09-04"
+        }
+      ],
+      "profile": {
+        "content_hash": "76570c53ae53886a25e6a7afbf10dfc3d0e537e51fdf3e6ee2ff4ab93f6bc5a0",
+        "photo": {
+          "path": "/media/politicians/laura-flessel.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Team_trophy_presentation_Challenge_international_de_Saint-Maur_2013_t161423.jpg",
+          "license": "CC BY 2.5",
+          "author": "Marie-Lan Nguyen"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Escrimeuse et femme politique française, **ministre des Sports de mai 2017 à septembre 2018** dans les gouvernements Philippe, où elle porte la **loi olympique de 2018** préparant les Jeux de Paris 2024, avant de démissionner pour raisons personnelles. Avant la politique, elle est l'**escrimeuse française la plus décorée de l'histoire** : **quintuple médaillée olympique** à l'épée, dont deux titres à Atlanta en 1996, six fois championne du monde, et **porte-drapeau de l'équipe de France** aux Jeux de Londres en 2012.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Laura_Flessel"
       }
     },
     {
@@ -2215,6 +2343,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Na%C3%AFma_Moutchou"
+      }
+    },
+    {
+      "id": "nicolas-hulot",
+      "full_name": "Nicolas Hulot",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre d'État, ministre de la Transition écologique et solidaire",
+            "en": "Minister of State, Minister for the Ecological and Solidarity Transition"
+          },
+          "from": "2017-05-17",
+          "to": "2018-09-04"
+        }
+      ],
+      "profile": {
+        "content_hash": "caf11877a5e058c0aef0ed73d3907e3128e22840dce8bdf2c45d70cff55e6d3a",
+        "photo": {
+          "path": "/media/politicians/nicolas-hulot.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Nicolas_Hulot_2015_(cropped).jpg",
+          "license": "CC0",
+          "author": "COP PARIS"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Journaliste, animateur et militant écologiste français, **ministre d'État, ministre de la Transition écologique et solidaire de mai 2017 à septembre 2018**. Connu du grand public pour l'émission **Ushuaïa** sur TF1, il crée en 1990 la fondation devenue **Fondation Nicolas-Hulot pour la nature et l'homme** et obtient en 2007 la signature de son **Pacte écologique** par les principaux candidats à la présidentielle. Après avoir refusé le ministère de l'Écologie proposé par Jacques Chirac, Nicolas Sarkozy puis François Hollande, il accepte en 2017 celui d'Emmanuel Macron : il obtient l'abandon de Notre-Dame-des-Landes et présente le Plan biodiversité, mais, en désaccord avec les arbitrages du Gouvernement, il **annonce sa démission en direct à la radio le 28 août 2018**, sans avoir prévenu l'exécutif.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Nicolas_Hulot"
       }
     },
     {

@@ -71,7 +71,12 @@
           "title": "Dossier législatif : organisation du système de santé - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "plan-ma-sante-2022-2018"
+        }
+      ]
     },
     {
       "id": "loi-ecole-de-la-confiance-2019",
@@ -125,6 +130,10 @@
         {
           "type": "implements",
           "decision_id": "declaration-politique-generale-acte-2-2019"
+        },
+        {
+          "type": "implements",
+          "decision_id": "loi-avenir-professionnel-2018"
         }
       ]
     },

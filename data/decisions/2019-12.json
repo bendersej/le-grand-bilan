@@ -143,6 +143,10 @@
         {
           "type": "implements",
           "decision_id": "lancement-grenelle-violences-conjugales-2019"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-schiappa-2018"
         }
       ]
     }

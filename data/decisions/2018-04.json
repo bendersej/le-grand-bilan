@@ -1,0 +1,85 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2018-04",
+  "decisions": [
+    {
+      "id": "frappes-syrie-2018",
+      "date": "2018-04-14",
+      "title": {
+        "fr": "Frappes françaises contre le programme chimique syrien",
+        "en": "French strikes against the Syrian chemical weapons programme"
+      },
+      "summary": {
+        "fr": "En réponse à l'**attaque chimique de Douma du 7 avril 2018** attribuée au régime syrien, Emmanuel Macron ordonne des **frappes aériennes ciblées, menées dans la nuit du 13 au 14 avril avec les États-Unis et le Royaume-Uni**, contre trois sites du programme d'armement chimique clandestin syrien. C'est le premier engagement militaire français direct contre le régime de Damas depuis le début de la guerre civile.",
+        "en": "In response to the **7 April 2018 Douma chemical attack** attributed to the Syrian regime, Emmanuel Macron orders **targeted airstrikes, carried out on the night of 13-14 April with the United States and the United Kingdom**, against three sites of Syria's clandestine chemical weapons programme. It is the first direct French military engagement against the Damascus regime since the start of the civil war."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["emmanuel-macron", "florence-parly", "jean-yves-le-drian"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2018/04/14/communique-de-presse-du-president-de-la-republique-sur-l-intervention-des-forces-armees-francaises-en-reponse-a-l-emploi-d-armes-chimiques-en-syrie",
+          "title": "Communiqué de presse du Président de la République sur l'intervention des forces armées françaises en réponse à l'emploi d'armes chimiques en Syrie - Élysée"
+        },
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2018/04/14/declaration-conjointe-du-ministre-de-leurope-et-des-affaires-etrangeres-et-de-la-ministre-des-armees",
+          "title": "Déclaration conjointe du ministre de l'Europe et des Affaires étrangères et de la ministre des Armées - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-organique-consultation-nouvelle-caledonie-2018",
+      "date": "2018-04-19",
+      "title": {
+        "fr": "Loi organique organisant le référendum de Nouvelle-Calédonie",
+        "en": "Organic law organising the New Caledonia referendum"
+      },
+      "summary": {
+        "fr": "Loi organique n° 2018-280 : elle organise la **consultation sur l'accession de la Nouvelle-Calédonie à la pleine souveraineté** prévue par l'accord de Nouméa de 1998, en permettant l'**inscription d'office sur la liste électorale référendaire** des électeurs remplissant les conditions et en encadrant procurations et bureaux de vote. Le référendum se tient le **4 novembre 2018** : le Non à l'indépendance l'emporte avec **56,7 % des voix** et une participation supérieure à 80 %.",
+        "en": "Organic law no. 2018-280: it organises the **referendum on New Caledonia's accession to full sovereignty** provided for by the 1998 Nouméa Accord, allowing **automatic registration on the special electoral roll** of qualifying voters and regulating proxies and polling stations. The referendum is held on **4 November 2018**: the No to independence wins with **56.7% of the vote** on a turnout above 80%."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["edouard-philippe", "annick-girardin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036819029",
+          "title": "LOI organique n° 2018-280 du 19 avril 2018 relative à l'organisation de la consultation sur l'accession à la pleine souveraineté de la Nouvelle-Calédonie - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-152.html",
+          "title": "Dossier législatif : accession à la pleine souveraineté de la Nouvelle-Calédonie - Sénat"
+        },
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2018/11/04/declaration-du-president-de-la-republique-referendum-de-la-nouvelle-caledonie-du-4-novembre-2018",
+          "title": "Déclaration du Président de la République, référendum de la Nouvelle-Calédonie du 4 novembre 2018 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-ratification-reforme-droit-contrats-2018",
+      "date": "2018-04-20",
+      "title": {
+        "fr": "Loi de ratification de la réforme du droit des contrats",
+        "en": "Law ratifying the reform of contract law"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-287 : elle **ratifie l'ordonnance du 10 février 2016 portant réforme du droit des contrats**, première refonte d'ensemble de cette partie du code civil **depuis 1804**, qui consacre notamment la bonne foi précontractuelle, la **révision pour imprévision** et la sanction de l'**abus de l'état de dépendance**. La loi ajuste plusieurs dispositions, dont la définition du contrat d'adhésion, et exclut l'imprévision pour les opérations sur titres et contrats financiers.",
+        "en": "Law no. 2018-287: it **ratifies the 10 February 2016 ordinance reforming contract law**, the first comprehensive overhaul of that part of the civil code **since 1804**, which notably enshrines pre-contractual good faith, **revision for unforeseen change of circumstances** and the sanction of **abuse of a state of dependence**. The law adjusts several provisions, including the definition of adhesion contracts, and excludes hardship revision for securities and financial contracts."
+      },
+      "category_ids": ["economie", "justice"],
+      "politician_ids": ["nicole-belloubet", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036825602",
+          "title": "LOI n° 2018-287 du 20 avril 2018 ratifiant l'ordonnance n° 2016-131 du 10 février 2016 portant réforme du droit des contrats, du régime général et de la preuve des obligations - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl16-578.html",
+          "title": "Dossier législatif : réforme du droit des contrats - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

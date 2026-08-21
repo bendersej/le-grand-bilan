@@ -1,0 +1,86 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2018-10",
+  "decisions": [
+    {
+      "id": "remaniement-castaner-interieur-2018",
+      "date": "2018-10-16",
+      "title": {
+        "fr": "Christophe Castaner nommé à l'Intérieur après la démission de Gérard Collomb",
+        "en": "Christophe Castaner appointed to the Interior after Gérard Collomb's resignation"
+      },
+      "summary": {
+        "fr": "Après la **démission de Gérard Collomb**, acceptée le 3 octobre 2018 (Édouard Philippe assurant l'intérim), le décret du 16 octobre nomme **Christophe Castaner ministre de l'Intérieur**, secondé par **Laurent Nunez**, ancien directeur général de la sécurité intérieure, comme secrétaire d'État. Le même remaniement nomme **Didier Guillaume à l'Agriculture** (remplaçant Stéphane Travert), **Franck Riester à la Culture** (remplaçant Françoise Nyssen) et Marc Fesneau aux Relations avec le Parlement.",
+        "en": "After the **resignation of Gérard Collomb**, accepted on 3 October 2018 (with Édouard Philippe handling the interim), the 16 October decree appoints **Christophe Castaner Minister of the Interior**, seconded by **Laurent Nunez**, former head of domestic intelligence, as secretary of state. The same reshuffle appoints **Didier Guillaume to Agriculture** (replacing Stéphane Travert), **Franck Riester to Culture** (replacing Françoise Nyssen) and Marc Fesneau to Parliamentary Relations."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": [
+        "christophe-castaner",
+        "gerard-collomb",
+        "emmanuel-macron",
+        "edouard-philippe"
+      ],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037501223",
+          "title": "Décret du 16 octobre 2018 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-lutte-contre-la-fraude-2018",
+      "date": "2018-10-23",
+      "title": {
+        "fr": "Loi relative à la lutte contre la fraude fiscale",
+        "en": "Law on the fight against tax fraud"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-898 : elle crée une **police fiscale** rattachée à Bercy, instaure la **publication des sanctions** infligées aux fraudeurs (\"name and shame\"), rend pénalement responsables les plateformes et les tiers qui fournissent des montages frauduleux et **assouplit le \"verrou de Bercy\"** : les dossiers de fraude dépassant 100 000 euros de droits éludés, assortis de majorations, sont désormais **transmis automatiquement au parquet**.",
+        "en": "Law no. 2018-898: it creates a **tax police** attached to the finance ministry, introduces the **publication of sanctions** against fraudsters (\"name and shame\"), makes platforms and third parties providing fraudulent schemes criminally liable and **loosens the \"verrou de Bercy\"**: fraud cases exceeding 100,000 euros of evaded tax, with surcharges, are now **automatically referred to prosecutors**."
+      },
+      "category_ids": ["economie", "justice"],
+      "politician_ids": ["gerald-darmanin", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037518803",
+          "title": "LOI n° 2018-898 du 23 octobre 2018 relative à la lutte contre la fraude - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-385.html",
+          "title": "Dossier législatif : lutte contre la fraude - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-egalim-2018",
+      "date": "2018-10-30",
+      "title": {
+        "fr": "Loi EGalim sur l'alimentation et le revenu des agriculteurs",
+        "en": "EGalim law on food and farmers' income"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-938, issue des États généraux de l'alimentation et portée par Stéphane Travert avant le remaniement : elle **inverse la construction du prix agricole**, désormais proposé par le producteur à partir d'**indicateurs de coûts de production**, autorise par ordonnance le **relèvement de 10 % du seuil de revente à perte** et l'encadrement des promotions, impose en restauration collective **50 % de produits durables dont 20 % de bio d'ici 2022** et interdit certains contenants plastiques. Le Conseil constitutionnel a censuré 23 articles comme cavaliers législatifs (décision n° 2018-771 DC).",
+        "en": "Law no. 2018-938, born of the États généraux de l'alimentation and carried by Stéphane Travert before the reshuffle: it **reverses the construction of farm prices**, now proposed by the producer from **production cost indicators**, authorises by ordinance a **10% increase in the resale-at-loss threshold** and a cap on promotions, requires collective catering to serve **50% sustainable products including 20% organic by 2022** and bans certain plastic containers. The Constitutional Council struck down 23 articles as legislative riders (decision no. 2018-771 DC)."
+      },
+      "category_ids": ["agriculture", "economie"],
+      "politician_ids": ["didier-guillaume", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037547946",
+          "title": "LOI n° 2018-938 du 30 octobre 2018 pour l'équilibre des relations commerciales dans le secteur agricole et alimentaire et une alimentation saine, durable et accessible à tous - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-525.html",
+          "title": "Dossier législatif : relations commerciales dans le secteur agricole et alimentaire - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2018/2018771DC.htm",
+          "title": "Décision n° 2018-771 DC du 25 octobre 2018 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

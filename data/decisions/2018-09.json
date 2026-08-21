@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2018-09",
+  "decisions": [
+    {
+      "id": "demission-hulot-nomination-rugy-2018",
+      "date": "2018-09-04",
+      "title": {
+        "fr": "Démission de Nicolas Hulot, remplacé par François de Rugy",
+        "en": "Resignation of Nicolas Hulot, replaced by François de Rugy"
+      },
+      "summary": {
+        "fr": "Le 28 août 2018, Nicolas Hulot annonce en direct sur France Inter, **sans avoir prévenu l'exécutif**, sa démission du ministère de la Transition écologique, disant ne plus vouloir \"se mentir\" sur l'insuffisance des \"petits pas\" écologiques. Le décret du 4 septembre met fin à ses fonctions et nomme **François de Rugy**, président de l'Assemblée nationale, **ministre d'État chargé de la Transition écologique et solidaire** ; le même décret remplace Laura Flessel, démissionnaire, par **Roxana Maracineanu** aux Sports.",
+        "en": "On 28 August 2018 Nicolas Hulot announces live on France Inter, **without warning the executive**, his resignation from the ecology ministry, saying he no longer wanted to \"lie to himself\" about the inadequacy of small ecological steps. The 4 September decree ends his functions and appoints **François de Rugy**, president of the National Assembly, **Minister of State for the Ecological and Solidarity Transition**; the same decree replaces Laura Flessel, who resigned, with **Roxana Maracineanu** as sports minister."
+      },
+      "category_ids": ["ecologie", "institutions"],
+      "politician_ids": [
+        "nicolas-hulot",
+        "francois-de-rugy",
+        "emmanuel-macron",
+        "edouard-philippe"
+      ],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037365283",
+          "title": "Décret du 4 septembre 2018 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-avenir-professionnel-2018",
+      "date": "2018-09-05",
+      "title": {
+        "fr": "Loi avenir professionnel (apprentissage, formation, assurance chômage)",
+        "en": "Professional future law (apprenticeship, training, unemployment insurance)"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-771 pour la liberté de choisir son avenir professionnel : elle **réforme l'apprentissage** (financement au contrat, libéralisation de l'ouverture des CFA, aide unique aux employeurs), **monétise le compte personnel de formation en euros**, crée l'agence **France compétences**, ouvre sous conditions l'assurance chômage aux **démissionnaires et aux indépendants** et impose l'**index de l'égalité salariale femmes-hommes** aux entreprises. Le Conseil constitutionnel a censuré plus d'une dizaine de dispositions, pour l'essentiel des cavaliers, dont l'article 70 sur une habilitation jugée trop imprécise (décision n° 2018-769 DC).",
+        "en": "Law no. 2018-771 on the freedom to choose one's professional future: it **reforms apprenticeship** (per-contract funding, liberalised opening of training centres, single employer subsidy), **converts the personal training account into euros**, creates the **France compétences** agency, opens unemployment insurance under conditions to **resigning employees and the self-employed** and imposes the **gender pay equality index** on companies. The Constitutional Council struck down about fifteen provisions, mostly riders, including article 70 on an overly vague enabling clause (decision no. 2018-769 DC)."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["muriel-penicaud", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037367660",
+          "title": "LOI n° 2018-771 du 5 septembre 2018 pour la liberté de choisir son avenir professionnel - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-583.html",
+          "title": "Dossier législatif : liberté de choisir son avenir professionnel - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2018/2018769DC.htm",
+          "title": "Décision n° 2018-769 DC du 4 septembre 2018 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "reforme-assurance-chomage-2019"
+        }
+      ]
+    },
+    {
+      "id": "loi-asile-immigration-2018",
+      "date": "2018-09-10",
+      "title": {
+        "fr": "Loi asile et immigration (loi Collomb)",
+        "en": "Asylum and immigration law (Collomb law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2018-778 pour une immigration maîtrisée, un droit d'asile effectif et une intégration réussie : elle vise à **réduire à six mois le délai moyen d'instruction des demandes d'asile** (délai de dépôt ramené de 120 à 90 jours, recours devant la CNDA en 15 jours), **double de 45 à 90 jours la durée maximale de rétention administrative**, facilite les éloignements et étend la **réunification familiale aux frères et soeurs des mineurs réfugiés**. Le Conseil constitutionnel a censuré quatre dispositions ponctuelles et validé le reste avec réserves (décision n° 2018-770 DC).",
+        "en": "Law no. 2018-778 for controlled immigration, an effective right of asylum and successful integration: it aims to **cut the average processing of asylum claims to six months** (filing window reduced from 120 to 90 days, CNDA appeals within 15 days), **doubles the maximum administrative detention from 45 to 90 days**, eases removals and extends **family reunification to the siblings of refugee minors**. The Constitutional Council struck down four specific provisions and upheld the rest with reservations (decision no. 2018-770 DC)."
+      },
+      "category_ids": ["immigration"],
+      "politician_ids": ["gerard-collomb", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000037381808",
+          "title": "LOI n° 2018-778 du 10 septembre 2018 pour une immigration maîtrisée, un droit d'asile effectif et une intégration réussie - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-464.html",
+          "title": "Dossier législatif : immigration, droit d'asile et intégration - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2018/2018770DC.htm",
+          "title": "Décision n° 2018-770 DC du 6 septembre 2018 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "strategie-pauvrete-2018",
+      "date": "2018-09-13",
+      "title": {
+        "fr": "Stratégie nationale de lutte contre la pauvreté",
+        "en": "National anti-poverty strategy"
+      },
+      "summary": {
+        "fr": "Emmanuel Macron présente la **stratégie nationale de prévention et de lutte contre la pauvreté**, centrée sur l'enfance et l'insertion : **petits-déjeuners gratuits** dans les écoles des territoires fragiles et **cantine à 1 euro** encouragée dans les petites communes, **obligation de formation jusqu'à 18 ans** à la rentrée 2020, et annonce d'un **revenu universel d'activité** fusionnant le plus grand nombre possible de prestations sociales, qui devait faire l'objet d'une loi en 2020 et n'a jamais abouti.",
+        "en": "Emmanuel Macron presents the **national strategy for preventing and fighting poverty**, focused on childhood and employment integration: **free breakfasts** in schools of disadvantaged areas and **1-euro school meals** encouraged in small towns, **compulsory training until age 18** from September 2020, and the announcement of a **universal activity income** merging as many social benefits as possible, planned for a 2020 law that never materialised."
+      },
+      "category_ids": ["economie", "sante"],
+      "politician_ids": ["emmanuel-macron", "agnes-buzyn", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2018/09/13/transcription-de-la-presentation-par-le-president-de-la-republique-de-la-strategie-nationale-de-prevention-de-lutte-contre-la-pauvrete",
+          "title": "Présentation par le Président de la République de la stratégie nationale de prévention et de lutte contre la pauvreté - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "plan-ma-sante-2022-2018",
+      "date": "2018-09-18",
+      "title": {
+        "fr": "Plan \"Ma santé 2022\"",
+        "en": "\"Ma santé 2022\" health plan"
+      },
+      "summary": {
+        "fr": "Emmanuel Macron présente la stratégie de transformation du système de santé \"Ma santé 2022\" : **suppression annoncée du numerus clausus** pour cesser d'entretenir une rareté artificielle de médecins, création de postes d'**assistants médicaux** pour libérer du temps de soin, labellisation d'**hôpitaux de proximité**, déploiement des communautés professionnelles de territoire et fin progressive de la tarification au tout-activité. Ces orientations sont traduites par la loi santé du 24 juillet 2019.",
+        "en": "Emmanuel Macron presents the \"Ma santé 2022\" health system transformation strategy: the **announced abolition of the numerus clausus** to stop maintaining an artificial scarcity of doctors, the creation of **medical assistant** posts to free up care time, the labelling of **local hospitals**, the rollout of territorial professional communities and the gradual end of purely activity-based funding. These orientations are enacted by the health law of 24 July 2019."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["emmanuel-macron", "agnes-buzyn"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2018/09/18/discours-sur-la-transformation-du-systeme-de-sante-prendre-soin-de-chacun-du-president-de-la-republique-emmanuel-macron",
+          "title": "Discours sur la transformation du système de santé \"Prendre soin de chacun\" - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-sante-2019"
+        }
+      ]
+    }
+  ]
+}

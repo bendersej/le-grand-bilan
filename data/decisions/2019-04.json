@@ -29,7 +29,12 @@
           "title": "Décision n° 2019-780 DC du 4 avril 2019 - Conseil constitutionnel"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "allocution-10-decembre-2018"
+        }
+      ]
     },
     {
       "id": "engagement-reconstruction-notre-dame-2019",

@@ -50,7 +50,16 @@
           "title": "Tout savoir sur le grand débat national - Élysée"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "allocution-10-decembre-2018"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-mues-2018"
+        }
+      ]
     },
     {
       "id": "loi-habilitation-brexit-2019",
