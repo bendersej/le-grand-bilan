@@ -111,11 +111,11 @@ function PoliticianCombobox() {
       onValueChange={handleValueChange}
     >
       <ComboboxInput
-        placeholder="Rechercher un décisionnaire"
+        placeholder="Responsable politique"
         className="w-64 border-[var(--lagoon-deep)] has-[[data-slot=input-group-control]:focus-visible]:border-[var(--lagoon-deep)] has-[[data-slot=input-group-control]:focus-visible]:ring-[var(--lagoon-deep)]/30"
       />
       <ComboboxContent>
-        <ComboboxEmpty>Aucun décisionnaire trouvé.</ComboboxEmpty>
+        <ComboboxEmpty>Aucun responsable politique trouvé.</ComboboxEmpty>
         <ComboboxList>
           {(politician: Politician) => (
             <ComboboxItem key={politician.id} value={politician}>
