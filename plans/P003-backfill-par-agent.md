@@ -242,6 +242,21 @@ Outcome: 38 decisions across all 12 months of the Valls-nomination year (retrait
 
 Corpus now covers 2014-2026 continuously (462 decisions). Next: 2013.
 
+## Learnings round 14 (batch 2013, ran 2026-08-21)
+
+Outcome: 32 decisions across all 12 months of the Cahuzac/mariage-pour-tous year (Serval, Duflot I, rythmes scolaires, contrat de génération, démission Cahuzac, mariage pour tous + CC 2013-669, sécurisation de l'emploi, limogeage Batho, Peillon, Fioraso, séparation bancaire, transparence de la vie publique + HATVP, suspension de l'écotaxe, silence vaut accord, Sangaris, fraude fiscale + PNF, RIP, LPM 2014-2019, LFSS/LF 2014), 6 politicians added with full profiles (Filippetti, Batho, Brottes, Fioraso, Moscovici, Peillon), Cazeneuve (Budget) et Pellerin (PME) extended backwards, no new categories, no missing_sources/bot_walled entries. Cross-year edges wired on the acting side: abandon-ecotaxe-2014 amends la suspension de 2013, actualisation-lpm-2015 amends la LPM 2014-2019, Barkhane repeals Serval. Review gate passed (5/5 sampled Légifrance sources exact via web-fetch, incl. the two composition-du-Gouvernement décrets; 633 pages, 494 decisions, 137 politicians). One neutralization at review ("révolte" → "mouvement des bonnets rouges", FR + EN). No stall.
+
+Shipped alongside: `pnpm run verify:sources`, the committed review-gate verifier (this batch: 39 verified, 26 Légifrance-walled all individually web-fetch-verified, 0 mismatch). Its matching went through an adversarial review round: VERIFIED requires act numbers or title words in the page headline (title/h1) with boundaries; body-only matches demote to spot-check, because a live repro showed same-site chrome "verifying" a wrong Sénat dossier.
+
+- The Sénat index's dossier links are NOT adjacency-reliable when regex-scraped (4/26 pointed at a neighboring law): title-sweep every dossier URL, recover mismatches by pjl-number guess + sweep. Now in the skill.
+- `senat.fr/scrutin-public/YYYY/scrNNNN.html` is curl-fetchable with exact tallies: the anchor for article 35 prolongation votes, paired with the legacy AN cri page. Now in the skill.
+- CC URL case sensitivity: 2013+ decisions accept uppercase `2013666DC.htm`; a 2012-numbered decision published in 2013 301s on uppercase — cite lowercase. Now in the skill.
+- Sénat commission-d'enquête notice pages only carry the TOC; cite `*_mono.html` for the operative passage. Now in the skill.
+- A single "décret relatif à la composition du Gouvernement" can carry both the fin de fonctions and the successor: no separate cessation décret to hunt. Now in the skill.
+- Candidate 2012 backward relations recorded in the batch report (CC 2012-662 censure taxe 75 % ← LF 2014, CC 2012-655 ← Duflot I, création BPI ← plans industriels/THD, CICE as its own 2012-12 entry).
+
+Next: 2012.
+
 ## HANDOVER STATE (2026-08-21, end of session)
 
 - Working tree CLEAN, everything committed and pushed through `[P001] feat: rename politician route slug to responsables`; CI green; live site verified (2014 entries up, `/responsables/` slug serving, old `/politiciens/` 404s by design, "Abroge" labels rendering). No background agent is running.
