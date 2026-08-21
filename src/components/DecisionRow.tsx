@@ -1,4 +1,5 @@
 import { Link } from '@tanstack/react-router'
+import MissingSourcesNote from './MissingSourcesNote'
 import RichText from './RichText'
 import { formatDateLabel } from '../data/format.ts'
 import { useLocalized } from './LanguageProvider'
@@ -132,15 +133,25 @@ export default function DecisionRow({
           <RichText text={localize(decision.summary)} />
         </p>
         <p className="m-0 mt-1.5 text-xs">
-          {'Sources : '}
-          {decision.sources.map((source, sourceIndex) => (
-            <span key={source.url}>
-              {sourceIndex > 0 ? ', ' : ''}
-              <a href={source.url} target="_blank" rel="noreferrer">
-                {source.title}
-              </a>
-            </span>
-          ))}
+          {decision.sources.length > 0 ? (
+            <>
+              {'Sources : '}
+              {decision.sources.map((source, sourceIndex) => (
+                <span key={source.url}>
+                  {sourceIndex > 0 ? ', ' : ''}
+                  <a href={source.url} target="_blank" rel="noreferrer">
+                    {source.title}
+                  </a>
+                </span>
+              ))}
+            </>
+          ) : null}
+          {decision.missing_sources !== undefined ? (
+            <>
+              {decision.sources.length > 0 ? ' · ' : ''}
+              <MissingSourcesNote missingSources={decision.missing_sources} />
+            </>
+          ) : null}
         </p>
       </div>
     </article>

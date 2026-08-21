@@ -105,17 +105,41 @@ const DecisionSource = z.object({
 })
 type DecisionSource = z.infer<typeof DecisionSource>
 
-const Decision = z.object({
-  id: Slug,
-  date: IsoDate,
-  title: LocalizedText,
-  summary: LocalizedText,
-  category_ids: z.array(Slug).min(1),
-  politician_ids: z.array(Slug).min(1),
-  // Open-data registry: at least one source is mandatory, the more the better.
-  sources: z.array(DecisionSource).min(1),
-  relations: z.array(DecisionRelation),
+// Some registry-worthy decisions have no citable official document. They are
+// surfaced anyway, with the reason sourcing failed stated in the open:
+// - link_rot: the official document HAD an exact URL that now redirects or
+//   404s; `expired_url` keeps the dead location as proof.
+// - never_published: the act exists but was never published officially (e.g.
+//   arrêtés préfectoraux absent from the Journal officiel).
+// - no_official_document: the decision produced no standalone official
+//   document at all (oral commitments, negotiation outcomes).
+const MissingSourcesReason = z.enum(['link_rot', 'never_published', 'no_official_document'])
+type MissingSourcesReason = z.infer<typeof MissingSourcesReason>
+
+const MissingSources = z.object({
+  reason: MissingSourcesReason,
+  note: LocalizedText,
+  expired_url: ExactUrl.nullable(),
 })
+type MissingSources = z.infer<typeof MissingSources>
+
+const Decision = z
+  .object({
+    id: Slug,
+    date: IsoDate,
+    title: LocalizedText,
+    summary: LocalizedText,
+    category_ids: z.array(Slug).min(1),
+    politician_ids: z.array(Slug).min(1),
+    // Open-data registry: at least one source is mandatory (the more the
+    // better), unless `missing_sources` states why none can exist.
+    sources: z.array(DecisionSource),
+    missing_sources: MissingSources.optional(),
+    relations: z.array(DecisionRelation),
+  })
+  .refine((decision) => decision.sources.length > 0 || decision.missing_sources !== undefined, {
+    message: 'a decision needs at least one source, or missing_sources stating why none exists',
+  })
 type Decision = z.infer<typeof Decision>
 
 // One file per month: data/decisions/yyyy-mm.json, `month` must match the filename.
@@ -172,6 +196,8 @@ export {
   IsoDate,
   LocalizedText,
   Mandate,
+  MissingSources,
+  MissingSourcesReason,
   Politician,
   PoliticianProfile,
   PoliticiansFile,

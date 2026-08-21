@@ -10,7 +10,7 @@ How to add decisions to `data/decisions/yyyy-mm.json`. Used by humans and AI age
 ## Non-negotiables
 
 1. **Every claim is sourced with the EXACT document URL.** For a law/ordinance/decree, that is the Légifrance text page (`https://www.legifrance.gouv.fr/jorf/id/JORFTEXT…`) — never a homepage, search page, or article ABOUT the decision as the only source. The schema rejects site-root URLs; the reviewer rejects imprecise ones. VERIFY every URL resolves to the named document before submitting (fetch it; never guess an id).
-2. **Never submit an entry you could not source.** No source found = no entry.
+2. **Never submit an entry with an unverified source.** When a registry-worthy decision genuinely has no citable official document, enter it WITH `missing_sources: { reason, note, expired_url }` instead of dropping it (reasons: `link_rot` with the dead exact URL kept as proof, `never_published` for acts absent from official publication, `no_official_document` when no standalone document exists). This is a last resort after the alternate routes below failed, never a shortcut around fetch-verification: a document that exists but is bot-walled still gets its real URL cited via an alternate anchor (CC decision, Sénat dossier, implementing décret), not a missing_sources entry.
 3. **Neutral, factual summaries.** Describe what the decision does — no evaluation, no framing. The registry's credibility is the product.
 4. **NO EM DASHES, ever, in content.** The em dash (—) is banned in all forms in titles, summaries and any text field. Use commas, colons, parentheses or separate sentences instead.
 

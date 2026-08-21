@@ -90,7 +90,6 @@
             }
           },
           "sources": {
-            "minItems": 1,
             "type": "array",
             "items": {
               "type": "object",
@@ -110,6 +109,61 @@
               ],
               "additionalProperties": false
             }
+          },
+          "missing_sources": {
+            "type": "object",
+            "properties": {
+              "reason": {
+                "type": "string",
+                "enum": [
+                  "link_rot",
+                  "never_published",
+                  "no_official_document"
+                ]
+              },
+              "note": {
+                "type": "object",
+                "properties": {
+                  "fr": {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  "en": {
+                    "anyOf": [
+                      {
+                        "type": "string",
+                        "minLength": 1
+                      },
+                      {
+                        "type": "null"
+                      }
+                    ]
+                  }
+                },
+                "required": [
+                  "fr",
+                  "en"
+                ],
+                "additionalProperties": false
+              },
+              "expired_url": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "format": "uri"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "reason",
+              "note",
+              "expired_url"
+            ],
+            "additionalProperties": false
           },
           "relations": {
             "type": "array",

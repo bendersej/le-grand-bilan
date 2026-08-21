@@ -1,4 +1,5 @@
 import { Link, createFileRoute, notFound } from '@tanstack/react-router'
+import MissingSourcesNote from '../components/MissingSourcesNote'
 import Panel from '../components/Panel'
 import RichText from '../components/RichText'
 import { useLocalized } from '../components/LanguageProvider'
@@ -119,6 +120,11 @@ function DecisionPage() {
               </a>
             </li>
           ))}
+          {decision.missing_sources !== undefined ? (
+            <li className="marker:text-[var(--kicker)]">
+              <MissingSourcesNote missingSources={decision.missing_sources} />
+            </li>
+          ) : null}
         </ul>
       </section>
 

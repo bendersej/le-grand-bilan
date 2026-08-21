@@ -24,6 +24,30 @@
       "relations": []
     },
     {
+      "id": "requisition-raffineries-2022",
+      "date": "2022-10-12",
+      "title": {
+        "fr": "Réquisition de personnels des dépôts pétroliers en grève",
+        "en": "Requisition of striking fuel depot workers"
+      },
+      "summary": {
+        "fr": "Face à la pénurie de carburant provoquée par la grève dans les raffineries, Élisabeth Borne annonce le 11 octobre le recours aux **réquisitions des personnels indispensables** : les préfets réquisitionnent à partir du 12 octobre des salariés grévistes du **dépôt Esso-ExxonMobil de Port-Jérôme-sur-Seine**, puis de dépôts TotalEnergies. Le **tribunal administratif de Rouen rejette le 14 octobre** le référé contre la première réquisition.",
+        "en": "Facing the fuel shortage caused by the refinery strike, Élisabeth Borne announced on 11 October the **requisition of essential staff**: from 12 October, prefects requisitioned striking workers of the **Esso-ExxonMobil depot in Port-Jérôme-sur-Seine**, then of TotalEnergies depots. On **14 October the Rouen administrative court rejected** the challenge against the first requisition."
+      },
+      "category_ids": ["energie", "travail"],
+      "politician_ids": ["elisabeth-borne", "agnes-pannier-runacher"],
+      "sources": [],
+      "missing_sources": {
+        "reason": "never_published",
+        "note": {
+          "fr": "Les arrêtés préfectoraux de réquisition n'ont pas été publiés au Journal officiel et ne sont pas disponibles en ligne officielle.",
+          "en": "The prefectoral requisition orders were never published in the Journal officiel and are not available on any official site."
+        },
+        "expired_url": null
+      },
+      "relations": []
+    },
+    {
       "id": "premier-49-3-borne-2022",
       "date": "2022-10-19",
       "title": {

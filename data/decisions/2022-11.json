@@ -52,6 +52,30 @@
           "decision_id": "loi-programmation-militaire-2023"
         }
       ]
+    },
+    {
+      "id": "accueil-ocean-viking-2022",
+      "date": "2022-11-10",
+      "title": {
+        "fr": "Accueil du navire Ocean Viking à Toulon",
+        "en": "Reception of the Ocean Viking in Toulon"
+      },
+      "summary": {
+        "fr": "Après trois semaines d'errance en Méditerranée et le **refus de l'Italie** d'ouvrir ses ports, la France autorise **à titre exceptionnel** l'accostage du navire humanitaire **Ocean Viking** et de ses **234 rescapés** dans la rade militaire de **Toulon** le 11 novembre : les passagers sont placés dans une **zone d'attente temporaire** sur la presqu'île de Giens, et Gérald Darmanin annonce en parallèle la **suspension de l'accueil des 3 500 réfugiés** que la France devait relocaliser depuis l'Italie.",
+        "en": "After three weeks stranded in the Mediterranean and **Italy's refusal** to open its ports, France **exceptionally** authorised the humanitarian ship **Ocean Viking** and its **234 survivors** to dock in the military harbour of **Toulon** on 11 November: the passengers were placed in a **temporary waiting zone** on the Giens peninsula, and Gérald Darmanin simultaneously announced the **suspension of the relocation of 3,500 refugees** France was due to take in from Italy."
+      },
+      "category_ids": ["immigration"],
+      "politician_ids": ["gerald-darmanin"],
+      "sources": [],
+      "missing_sources": {
+        "reason": "never_published",
+        "note": {
+          "fr": "L'arrêté préfectoral créant la zone d'attente temporaire n'a pas été publié en ligne officielle ; l'annonce ministérielle du 10 novembre 2022 n'a laissé aucun document officiel citable.",
+          "en": "The prefectoral order creating the temporary waiting zone was never published on any official site; the ministerial announcement of 10 November 2022 left no citable official document."
+        },
+        "expired_url": null
+      },
+      "relations": []
     }
   ]
 }

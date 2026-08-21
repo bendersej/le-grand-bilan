@@ -27,6 +27,7 @@ Both scripts are idempotent and take positional ids to target one, several, or (
 - `category_ids` — at least one id from `data/categories.json`
 - `politician_ids` — at least one id from `data/politicians.json`, most responsible first
 - `sources` — at least one `{ url, title }`; official sources preferred (Légifrance, Journal officiel, vie-publique.fr). The more the better: this is an open-data, "never forget" registry. The `url` MUST point to the EXACT document (e.g. `https://www.legifrance.gouv.fr/jorf/id/JORFTEXT…`), never a homepage or search page — the schema rejects site-root URLs
+- `missing_sources` (optional) — the ONLY escape from the at-least-one-source rule, for decisions worth recording whose official document cannot be cited: `{ reason, note, expired_url }` with `reason` one of `link_rot` (the exact official URL died; `expired_url` keeps the dead location as clickable proof), `never_published` (act absent from any official publication, e.g. arrêtés préfectoraux), `no_official_document` (the decision produced no standalone document). `note` is a LocalizedText explaining the specific case; the site renders the whole thing in red next to the sources. A decision with zero `sources` and no `missing_sources` is rejected
 - `relations` — typed links to other decisions: `amends` | `implements` | `related` | `repeals`
 
 ## Validation
