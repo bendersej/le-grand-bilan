@@ -1,6 +1,10 @@
 import { Link, Outlet, createFileRoute, useMatches, useParams } from '@tanstack/react-router'
+import { useCallback, useState } from 'react'
+import { fr } from 'date-fns/locale'
 import DecisionRow from '../components/DecisionRow'
 import { useLocalized } from '../components/LanguageProvider'
+import { Calendar } from '../components/ui/calendar'
+import { Popover, PopoverContent, PopoverTrigger } from '../components/ui/popover'
 import { formatDateLabel, formatMonthLabel } from '../data/format.ts'
 import {
   allDecisions,
@@ -66,6 +70,87 @@ function AppearanceRow({
   )
 }
 
+// Registry months are 'yyyy-mm'; the picker works in month ordinals (year * 12
+// + month) so "nearest existing month" is a plain distance comparison.
+const TIMELINE_START = new Date(1958, 0)
+
+const monthOrdinal = (month: string): number => {
+  const [yearPart, monthPart] = month.split('-')
+  return Number(yearPart) * 12 + (Number(monthPart) - 1)
+}
+
+const monthStartDate = (month: string): Date => {
+  const [yearPart, monthPart] = month.split('-')
+  return new Date(Number(yearPart), Number(monthPart) - 1, 1)
+}
+
+const nearestAvailableMonth = (months: string[], target: Date): string | null => {
+  const targetOrdinal = target.getFullYear() * 12 + target.getMonth()
+  return months.reduce<string | null>((best, candidate) => {
+    if (best === null) return candidate
+    const bestDistance = Math.abs(monthOrdinal(best) - targetOrdinal)
+    const candidateDistance = Math.abs(monthOrdinal(candidate) - targetOrdinal)
+    return candidateDistance < bestDistance ? candidate : best
+  }, null)
+}
+
+// A sticky year/month marker that opens a month+year date picker; picking a day
+// jumps the timeline to the nearest month that has entries. The dropdowns only
+// change the visible grid so browsing never yanks the popover's anchor away.
+function TimelineMonthPicker({
+  months,
+  month,
+  triggerClassName,
+  children,
+}: {
+  months: string[]
+  month: string
+  triggerClassName: string
+  children: React.ReactNode
+}) {
+  const [open, setOpen] = useState(false)
+  const [visibleMonth, setVisibleMonth] = useState<Date>(() => monthStartDate(month))
+
+  const handleOpenChange = useCallback(
+    (nextOpen: boolean) => {
+      setOpen(nextOpen)
+      if (nextOpen) setVisibleMonth(monthStartDate(month))
+    },
+    [month],
+  )
+  const handleMonthChange = useCallback((nextMonth: Date) => {
+    setVisibleMonth(nextMonth)
+  }, [])
+  const handleSelect = useCallback(
+    (selectedDay: Date | undefined) => {
+      if (!selectedDay) return
+      const targetMonth = nearestAvailableMonth(months, selectedDay)
+      if (targetMonth === null) return
+      setOpen(false)
+      document.getElementById(targetMonth)?.scrollIntoView()
+    },
+    [months],
+  )
+
+  return (
+    <Popover open={open} onOpenChange={handleOpenChange}>
+      <PopoverTrigger className={triggerClassName}>{children}</PopoverTrigger>
+      <PopoverContent align="start" className="w-auto">
+        <Calendar
+          mode="single"
+          captionLayout="dropdown"
+          locale={fr}
+          month={visibleMonth}
+          onMonthChange={handleMonthChange}
+          onSelect={handleSelect}
+          startMonth={TIMELINE_START}
+          endMonth={new Date()}
+        />
+      </PopoverContent>
+    </Popover>
+  )
+}
+
 // The timeline is the app: child routes (decision, politician, about) render as
 // an in-flow panel at the TOP of the timeline. A politician's view scopes the
 // timeline to their decisions and weaves their public appearances into it.
@@ -100,6 +185,9 @@ function TimelineLayout() {
     decisions: filteredDecisions,
     appearances: scopedAppearances,
   })
+  const availableMonths = visibleYears.flatMap((timelineYear) =>
+    timelineYear.months.map((timelineMonth) => timelineMonth.month),
+  )
   const showHero = activeCategories.length === 0 && !hasPanel
 
   return (
@@ -148,7 +236,13 @@ function TimelineLayout() {
                 header sits OUTSIDE the scroll container (they are container-
                 relative, not viewport-relative). */}
             <h2 className="chip-glass display-title sticky top-2 z-20 m-0 w-fit text-2xl font-bold text-[var(--lagoon-deep)] max-sm:rounded-md max-sm:px-1.5 sm:top-4 sm:-translate-x-[calc(100%+3rem)] sm:text-3xl">
-              {timelineYear.year}
+              <TimelineMonthPicker
+                months={availableMonths}
+                month={timelineYear.months[0]?.month ?? `${timelineYear.year}-01`}
+                triggerClassName="cursor-pointer"
+              >
+                {timelineYear.year}
+              </TimelineMonthPicker>
             </h2>
             {timelineYear.months.map((timelineMonth) => (
               <section
@@ -160,9 +254,13 @@ function TimelineLayout() {
                     beside the stuck year so the pair reads "2022 [mai]" on one
                     line. Desktop (sm:) keeps the zero-height gutter placement. */}
                 <p className="kicker month-marker sticky top-[0.85rem] z-10 m-0 w-fit pl-[4.5rem] sm:top-[3.8rem] sm:h-0 sm:-translate-x-[calc(100%+3rem)] sm:pl-0">
-                  <span className="chip-glass rounded-md px-1.5 py-0.5">
+                  <TimelineMonthPicker
+                    months={availableMonths}
+                    month={timelineMonth.month}
+                    triggerClassName="chip-glass cursor-pointer rounded-md px-1.5 py-0.5"
+                  >
                     {formatMonthLabel(timelineMonth.month)}
-                  </span>
+                  </TimelineMonthPicker>
                 </p>
                 <div className="mt-4 space-y-7">
                   {timelineMonth.items.map((timelineItem) => {
