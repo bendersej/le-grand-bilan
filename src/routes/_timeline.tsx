@@ -115,14 +115,15 @@ function TimelineLayout() {
 
       <div
         data-timeline
-        className="ml-20 mt-8 flex flex-col space-y-14 border-l border-[var(--line)] pl-5 sm:ml-24 sm:pl-8"
+        className="ml-1 mt-8 flex flex-col space-y-14 border-l border-[var(--line)] pl-4 sm:ml-24 sm:pl-8"
       >
         {activeCategories.length > 0 ? (
-          // Flow slot sits just below the first month label (negative margin
-          // gives it back), so the chips read "under the current month" at rest
-          // AND when the stack is stuck; flex-col on the container prevents the
-          // negative margin from collapsing into the first year's offset.
-          <div className="sticky top-[9.85rem] z-10 -mb-[4.9rem] mt-[4.9rem] flex h-0 w-fit -translate-x-[calc(100%+2.3rem)] flex-col items-end gap-1 sm:-translate-x-[calc(100%+3rem)]">
+          // Mobile: chips flow above the timeline and stick just under the
+          // year/month line. Desktop (sm:): a zero-height flow slot sits just
+          // below the first month label in the gutter (negative margin gives it
+          // back), so the chips read "under the current month" at rest AND when
+          // the stack is stuck.
+          <div className="sticky top-[2.7rem] z-10 flex w-fit flex-wrap gap-1 sm:-mb-[4.9rem] sm:mt-[4.9rem] sm:h-0 sm:-translate-x-[calc(100%+3rem)] sm:flex-col sm:flex-nowrap sm:items-end sm:top-[5.8rem]">
             {activeCategories.map((category) => (
               <Link
                 key={category.id}
@@ -139,19 +140,26 @@ function TimelineLayout() {
         ) : null}
         {visibleYears.map((timelineYear) => (
           <section key={timelineYear.year}>
-            {/* Year and month live in the gutter LEFT of the rail (zero-height
-                boxes translated across it) and stick under the header, so the
-                current position reads "Août | [row]" at any scroll depth. */}
-            <h2 className="display-title sticky top-20 z-20 m-0 w-fit -translate-x-[calc(100%+2.3rem)] text-2xl font-bold text-[var(--lagoon-deep)] sm:-translate-x-[calc(100%+3rem)] sm:text-3xl">
+            {/* Desktop: year and month live in the gutter LEFT of the rail
+                (zero-height boxes translated across it) and stick near the top
+                of #app-scroll, so the current position reads "Août | [row]" at
+                any scroll depth. Mobile: both flow inline above the rows and
+                stick as one "2022 [mai]" line. The sm: top offsets assume the
+                header sits OUTSIDE the scroll container (they are container-
+                relative, not viewport-relative). */}
+            <h2 className="chip-glass display-title sticky top-2 z-20 m-0 w-fit text-2xl font-bold text-[var(--lagoon-deep)] max-sm:rounded-md max-sm:px-1.5 sm:top-4 sm:-translate-x-[calc(100%+3rem)] sm:text-3xl">
               {timelineYear.year}
             </h2>
             {timelineYear.months.map((timelineMonth) => (
               <section
                 key={timelineMonth.month}
                 id={timelineMonth.month}
-                className="mt-[0.6rem] scroll-mt-4"
+                className="mt-[0.6rem] scroll-mt-12 sm:scroll-mt-4"
               >
-                <p className="kicker month-marker sticky top-[7.6rem] z-10 m-0 h-0 w-fit -translate-x-[calc(100%+2.3rem)] sm:top-[7.85rem] sm:-translate-x-[calc(100%+3rem)]">
+                {/* Mobile: the marker flows above the rows, indented to land
+                    beside the stuck year so the pair reads "2022 [mai]" on one
+                    line. Desktop (sm:) keeps the zero-height gutter placement. */}
+                <p className="kicker month-marker sticky top-[0.85rem] z-10 m-0 w-fit pl-[4.5rem] sm:top-[3.8rem] sm:h-0 sm:-translate-x-[calc(100%+3rem)] sm:pl-0">
                   <span className="chip-glass rounded-md px-1.5 py-0.5">
                     {formatMonthLabel(timelineMonth.month)}
                   </span>

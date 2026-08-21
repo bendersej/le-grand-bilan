@@ -83,11 +83,25 @@ function RootDocument({ children }: { children: React.ReactNode }) {
         <script dangerouslySetInnerHTML={{ __html: THEME_INIT_SCRIPT }} />
         <HeadContent />
       </head>
-      <body className="font-sans antialiased [overflow-wrap:anywhere] selection:bg-[rgba(35,35,255,0.18)]">
+      <body className="flex h-dvh flex-col font-sans antialiased [overflow-wrap:anywhere] selection:bg-[rgba(35,35,255,0.18)]">
         <LanguageProvider>
           <Header />
-          {children}
-          <Footer />
+          {/* The app scrolls in this container, not the window, so the scrollbar
+              starts below the static header. Sticky offsets in the timeline are
+              relative to this container; the router scrolls/restores it by id.
+              tabIndex keeps the region keyboard-scrollable (the window scroller
+              is disabled by the h-dvh body). */}
+          <div
+            id="app-scroll"
+            data-scroll-restoration-id="app-scroll"
+            role="region"
+            aria-label="Contenu"
+            tabIndex={0}
+            className="min-h-0 flex-1 overflow-y-auto [scrollbar-gutter:stable_both-edges]"
+          >
+            {children}
+            <Footer />
+          </div>
         </LanguageProvider>
         <TanStackDevtools
           config={{

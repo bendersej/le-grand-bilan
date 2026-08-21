@@ -6,7 +6,7 @@ export default function Header() {
   const { language, onToggle } = useLanguage()
 
   return (
-    <header className="sticky top-0 z-40 border-b border-[var(--line)] bg-[var(--bg-base)] px-4">
+    <header className="border-b border-[var(--line)] px-4">
       <nav className="page-wrap flex items-center gap-6 py-3 text-sm">
         <Link to="/" className="inline-flex items-center no-underline">
           <img src="/logo-header.png" alt="Le Grand Bilan" className="h-10 w-auto rounded-md" />

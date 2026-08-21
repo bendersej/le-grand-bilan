@@ -50,8 +50,7 @@
 }
 
 html,
-body,
-#app {
+body {
   min-height: 100%;
 }
 
@@ -132,8 +131,10 @@ main strong {
   color: var(--lagoon-deep);
 }
 
-/* Liquid-glass variant for the sticky filter chips: rows scrolling beneath show
-   through a blur. Opaque fallback (white in light theme) when unsupported. */
+/* Liquid-glass treatment for sticky markers and filter chips: rows scrolling
+   beneath show through a blur. Opaque fallback (white in light theme) when
+   unsupported. Kept a plain class (not @utility): it must stay in the same
+   cascade layer as .chip to win the `chip chip-glass` combination. */
 .chip-glass {
   background: var(--bg-base);
 }
