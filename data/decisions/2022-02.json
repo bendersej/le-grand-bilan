@@ -25,7 +25,12 @@
           "title": "Dossier législatif : protection des enfants - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-protection-enfant-2016"
+        }
+      ]
     },
     {
       "id": "loi-independants-2022",

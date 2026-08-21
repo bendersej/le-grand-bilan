@@ -100,6 +100,36 @@
       }
     },
     {
+      "id": "alain-claeys",
+      "full_name": "Alain Claeys",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 1re circonscription de la Vienne",
+            "en": "Member of Parliament for Vienne (1st constituency)"
+          },
+          "from": "2012-06-20",
+          "to": "2017-06-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "c59b7ef17e82dae7c4b41439521f9ea5f788a48fa3e6aaa3a63dd1b235c86690",
+        "photo": {
+          "path": "/media/politicians/alain-claeys.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Alain_Claeys.jpg",
+          "license": "CC BY 2.0",
+          "author": "Julien Texier from Poitiers (86) - France, France"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français, membre du **Parti socialiste**. **Député de la Vienne de 1997 à 2017** et **maire de Poitiers de 2008 à 2017**, il est surtout connu pour avoir porté, avec le député Les Républicains Jean Leonetti, la **loi Claeys-Leonetti du 2 février 2016** sur la fin de vie, qui crée le droit à la **sédation profonde et continue jusqu'au décès** pour les malades en phase terminale et rend les **directives anticipées contraignantes** pour les médecins.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Alain_Claeys"
+      }
+    },
+    {
       "id": "albane-gaillot",
       "full_name": "Albane Gaillot",
       "party": null,
@@ -250,6 +280,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre de la Fonction publique",
+            "en": "Minister of the Civil Service"
+          },
+          "from": "2016-02-11",
+          "to": "2017-05-17"
+        },
+        {
+          "role": {
             "fr": "Ministre des Outre-mer",
             "en": "Minister for Overseas Territories"
           },
@@ -364,10 +402,78 @@
       }
     },
     {
+      "id": "audrey-azoulay",
+      "full_name": "Audrey Azoulay",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Culture et de la Communication",
+            "en": "Minister of Culture and Communication"
+          },
+          "from": "2016-02-11",
+          "to": "2017-05-17"
+        }
+      ],
+      "profile": {
+        "content_hash": "1c007f98c1264ab696bd9eb0e983c360c73beda5705b53c3fdd40954b0c2f294",
+        "photo": {
+          "path": "/media/politicians/audrey-azoulay.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Didier_Plowy_-_Audrey_Azoulay_(cropped).jpg",
+          "license": "CC BY-SA 3.0 fr",
+          "author": "MCC / Didier Plowy"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Haute fonctionnaire et femme politique française. Après plusieurs **postes de direction au Centre national du cinéma et de l'image animée** (CNC) à partir de 2006, elle est **conseillère culturelle du président François Hollande** (2014-2016), puis **ministre de la Culture et de la Communication de février 2016 à mai 2017**, période de l'adoption de la **loi création, architecture et patrimoine** et de la loi sur l'indépendance des médias. Elle dirige ensuite l'**Unesco de 2017 à 2025** en tant que directrice générale, avant de présider la fondation La France s'engage ; elle est élue à l'**Académie des beaux-arts** en 2026.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Audrey_Azoulay"
+      }
+    },
+    {
+      "id": "axelle-lemaire",
+      "full_name": "Axelle Lemaire",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Secrétaire d'État chargée du Numérique et de l'Innovation",
+            "en": "State Secretary for Digital Affairs and Innovation"
+          },
+          "from": "2014-04-09",
+          "to": "2017-02-27"
+        }
+      ],
+      "profile": {
+        "content_hash": "cc59bdd7eae77e36267aa9b664e403cf1f678b23da22202ebc312f14f0b2abf8",
+        "photo": {
+          "path": "/media/politicians/axelle-lemaire.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Axelle_Lemaire_par_Claude_Truong-Ngoc_avril_2015.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Photo Claude TRUONG-NGOC"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique et juriste **franco-canadienne**, membre du **Parti socialiste**. **Députée de la 3e circonscription des Français établis hors de France** (Europe du Nord) à partir de 2012, elle est **secrétaire d'État chargée du Numérique de 2014 à 2017** dans les gouvernements Valls et Cazeneuve. Elle est responsable du projet devenu la **loi pour une République numérique** du 7 octobre 2016 : **open data par défaut**, **neutralité du net**, **droit à l'oubli pour les mineurs**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Axelle_Lemaire"
+      }
+    },
+    {
       "id": "barbara-pompili",
       "full_name": "Barbara Pompili",
       "party": "En commun",
       "mandates": [
+        {
+          "role": {
+            "fr": "Secrétaire d'État chargée de la Biodiversité",
+            "en": "State Secretary for Biodiversity"
+          },
+          "from": "2016-02-11",
+          "to": "2017-05-17"
+        },
         {
           "role": {
             "fr": "Ministre de la Transition écologique",
@@ -398,6 +504,14 @@
       "full_name": "Bernard Cazeneuve",
       "party": null,
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Intérieur",
+            "en": "Minister of the Interior"
+          },
+          "from": "2014-04-02",
+          "to": "2016-12-06"
+        },
         {
           "role": {
             "fr": "Premier ministre",
@@ -647,6 +761,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/C%C3%A9dric_O"
+      }
+    },
+    {
+      "id": "christiane-taubira",
+      "full_name": "Christiane Taubira",
+      "party": "Walwari",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Garde des Sceaux, ministre de la Justice",
+            "en": "Keeper of the Seals, Minister of Justice"
+          },
+          "from": "2012-05-16",
+          "to": "2016-01-27"
+        }
+      ],
+      "profile": {
+        "content_hash": "09be2e55404245093b2054ea2d51a96aae7bc19c570c74f1b1311b5a8c5474e0",
+        "photo": {
+          "path": "/media/politicians/christiane-taubira.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:1601MBeek7569_(24620898645)_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "author": "EU2016 NL from The Netherlands"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique française née à Cayenne. Militante indépendantiste guyanaise, elle participe à la création du parti **Walwari** en 1992, est **députée de la Guyane de 1993 à 2012** et députée européenne de 1994 à 1999 ; elle est à l'origine de la **loi de 2001 reconnaissant la traite et l'esclavage comme crime contre l'humanité**. Candidate à l'élection présidentielle de 2002 (2,32 % des voix), elle devient **garde des Sceaux, ministre de la Justice, de 2012 à 2016** : elle défend au Parlement la loi ouvrant le **mariage et l'adoption aux couples de personnes de même sexe** (2013). En désaccord avec le projet de **déchéance de nationalité** pour les personnes condamnées pour terrorisme, elle **démissionne en janvier 2016**. En 2022, elle remporte la Primaire populaire mais renonce faute d'avoir réuni les 500 parrainages requis.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Christiane_Taubira"
       }
     },
     {
@@ -918,6 +1062,14 @@
       "full_name": "Emmanuel Macron",
       "party": "Renaissance",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Économie, de l'Industrie et du Numérique",
+            "en": "Minister of the Economy, Industry and Digital Affairs"
+          },
+          "from": "2014-08-26",
+          "to": "2016-08-30"
+        },
         {
           "role": {
             "fr": "Président de la République",
@@ -1518,6 +1670,36 @@
       }
     },
     {
+      "id": "guillaume-garot",
+      "full_name": "Guillaume Garot",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 1re circonscription de la Mayenne",
+            "en": "Member of Parliament for Mayenne (1st constituency)"
+          },
+          "from": "2014-05-03",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "0a1c866e50f5eabd072b9ebd51d3d12965be39be48407721e95ecb71a62523e4",
+        "photo": {
+          "path": "/media/politicians/guillaume-garot.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Guillaume_Garot_2012.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Guillaume_Garot.JPG: Aubin Laratte\nderivative work: Domaina"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français, membre du **Parti socialiste**. **Député de la 1re circonscription de la Mayenne** (élu en 2007, constamment réélu depuis), **maire de Laval de 2008 à 2012**, il est **ministre délégué à l'Agroalimentaire de 2012 à 2014** dans les gouvernements Ayrault. Comme parlementaire, il s'engage contre le gaspillage et la précarité alimentaires, dont la **loi du 11 février 2016 contre le gaspillage alimentaire** qui porte son nom, et contre les **déserts médicaux**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Guillaume_Garot"
+      }
+    },
+    {
       "id": "guillaume-kasbarian",
       "full_name": "Guillaume Kasbarian",
       "party": "Parti de la Liberté",
@@ -1692,6 +1874,66 @@
       }
     },
     {
+      "id": "jean-leonetti",
+      "full_name": "Jean Leonetti",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 7e circonscription des Alpes-Maritimes",
+            "en": "Member of Parliament for Alpes-Maritimes (7th constituency)"
+          },
+          "from": "2012-06-20",
+          "to": "2017-06-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "8fa2acfe4c1b6c89a8383b20ae299e69d520f81d95a5af72f8efec3baac44b96",
+        "photo": {
+          "path": "/media/politicians/jean-leonetti.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:EPP_Summit,_20_June_2019_-_Jean_Leonetti_(48098189641)_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "author": "European People's Party"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français, cardiologue de profession. **Maire d'Antibes à partir de 1995** et président de la communauté d'agglomération Sophia Antipolis, **député des Alpes-Maritimes de 1997 à 2017** (UMP puis Les Républicains), il est **ministre chargé des Affaires européennes de 2011 à 2012**. Il est surtout connu comme auteur de la **loi Leonetti de 2005 sur la fin de vie**, puis co-auteur de la **loi Claeys-Leonetti de 2016** créant la **sédation profonde et continue jusqu'au décès**. Il assure la présidence par intérim des Républicains en 2019.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean_Leonetti"
+      }
+    },
+    {
+      "id": "jean-marc-ayrault",
+      "full_name": "Jean-Marc Ayrault",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Affaires étrangères et du Développement international",
+            "en": "Minister of Foreign Affairs and International Development"
+          },
+          "from": "2016-02-11",
+          "to": "2017-05-17"
+        }
+      ],
+      "profile": {
+        "content_hash": "1adf991480c1ef49c6efa2f262e94c74232129cde6a17c5741c8b949a7cd188d",
+        "photo": {
+          "path": "/media/politicians/jean-marc-ayrault.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Marc_Ayrault_et_Alain_Kouck_(13293393834)_(cropped).jpg",
+          "license": "CC BY-SA 2.0",
+          "author": "ActuaLitté"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme d'État français, membre du Parti socialiste, professeur d'allemand avant sa carrière politique. **Maire de Nantes de 1989 à 2012**, député de 1986 à 2012 et **président du groupe socialiste à l'Assemblée nationale de 1997 à 2012**, il est le **premier Premier ministre de François Hollande, de mai 2012 à mars 2014**, et démissionne au lendemain de la défaite de la gauche aux élections municipales. Il revient au gouvernement comme **ministre des Affaires étrangères et du Développement international de février 2016 à mai 2017**. Depuis 2019, il préside la **Fondation pour la mémoire de l'esclavage**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean-Marc_Ayrault"
+      }
+    },
+    {
       "id": "jean-michel-blanquer",
       "full_name": "Jean-Michel Blanquer",
       "party": null,
@@ -1816,6 +2058,14 @@
       "full_name": "Jean-Yves Le Drian",
       "party": "Parti socialiste",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Défense",
+            "en": "Minister of Defence"
+          },
+          "from": "2012-05-16",
+          "to": "2017-05-17"
+        },
         {
           "role": {
             "fr": "Ministre de l'Europe et des Affaires étrangères",
@@ -2346,6 +2596,36 @@
       }
     },
     {
+      "id": "marisol-touraine",
+      "full_name": "Marisol Touraine",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Affaires sociales et de la Santé",
+            "en": "Minister of Social Affairs and Health"
+          },
+          "from": "2012-05-16",
+          "to": "2017-05-17"
+        }
+      ],
+      "profile": {
+        "content_hash": "85e4c37b03e64c98a0a2c381d284ab8e7e1a4152f3af51eedd3af8860d681bde",
+        "photo": {
+          "path": "/media/politicians/marisol-touraine.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marisol_Touraine_2015.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Camille 75000"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique française, membre du **Parti socialiste**, membre du **Conseil d'État** depuis 1991. **Députée d'Indre-et-Loire de 1997 à 2012**, elle est **ministre des Affaires sociales et de la Santé pendant toute la présidence de François Hollande (2012-2017)**, dans les gouvernements Ayrault, Valls et Cazeneuve. Elle porte notamment la **loi de modernisation du système de santé de janvier 2016** : généralisation du **tiers payant**, **paquet de cigarettes neutre**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Marisol_Touraine"
+      }
+    },
+    {
       "id": "marlene-schiappa",
       "full_name": "Marlène Schiappa",
       "party": "Renaissance",
@@ -2403,6 +2683,44 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Michel_Barnier"
+      }
+    },
+    {
+      "id": "michel-sapin",
+      "full_name": "Michel Sapin",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Finances et des Comptes publics",
+            "en": "Minister of Finance and Public Accounts"
+          },
+          "from": "2014-04-02",
+          "to": "2016-08-30"
+        },
+        {
+          "role": {
+            "fr": "Ministre de l'Économie et des Finances",
+            "en": "Minister of the Economy and Finance"
+          },
+          "from": "2016-08-30",
+          "to": "2017-05-17"
+        }
+      ],
+      "profile": {
+        "content_hash": "a8a50da1c7ef7d9441f2731e80d46945a9d8bb0615fa2b9f997f29dc37812362",
+        "photo": {
+          "path": "/media/politicians/michel-sapin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Michel_Sapin.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Ministère du Travail"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Haut fonctionnaire et homme politique français, membre du **Parti socialiste** depuis 1975. Député de l'Indre puis des Hauts-de-Seine, **maire d'Argenton-sur-Creuse (1995-2012)** et président du conseil régional du Centre (1998-2007), il est sous François Mitterrand **ministre de l'Économie et des Finances (1992-1993)** et fait voter la première **loi Sapin sur la corruption**, puis ministre de la Fonction publique (2000-2002). Sous François Hollande, il est **ministre du Travail (2012-2014)**, **ministre des Finances et des Comptes publics (2014-2016)** puis **ministre de l'Économie et des Finances (2016-2017)** : il porte la **loi Sapin 2** de décembre 2016 contre la corruption (Agence française anticorruption, statut des lanceurs d'alerte).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Michel_Sapin"
       }
     },
     {

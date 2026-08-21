@@ -21,6 +21,70 @@
           "title": "LOI n° 2016-1088 du 8 août 2016 - Légifrance"
         }
       ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "49-3-loi-travail-2016"
+        }
+      ]
+    },
+    {
+      "id": "loi-biodiversite-2016",
+      "date": "2016-08-08",
+      "title": {
+        "fr": "Loi pour la reconquête de la biodiversité",
+        "en": "Biodiversity reconquest law"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-1087 portée par Ségolène Royal et Barbara Pompili : inscription du **préjudice écologique** dans le code civil (toute personne responsable est **tenue de le réparer**), création de l'**Agence française pour la biodiversité**, et **interdiction des néonicotinoïdes**, insecticides « tueurs d'abeilles », **à compter du 1er septembre 2018**, avec dérogations possibles **jusqu'au 1er juillet 2020**. Le Conseil constitutionnel a censuré plusieurs articles, pour l'essentiel des cavaliers législatifs (décision n° 2016-737 DC).",
+        "en": "Law no. 2016-1087 carried by Ségolène Royal and Barbara Pompili: **ecological damage** written into the civil code (anyone responsible is **bound to repair it**), creation of the **French Biodiversity Agency**, and a **ban on neonicotinoids**, the \"bee-killing\" insecticides, **from 1 September 2018**, with derogations possible **until 1 July 2020**. The Constitutional Council struck down several articles, mostly legislative riders (decision no. 2016-737 DC)."
+      },
+      "category_ids": ["agriculture", "ecologie"],
+      "politician_ids": ["segolene-royal", "barbara-pompili", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033016237",
+          "title": "LOI n° 2016-1087 du 8 août 2016 pour la reconquête de la biodiversité, de la nature et des paysages - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/article_jo/JORFARTI000033016345",
+          "title": "Article 125 de la loi n° 2016-1087 (interdiction des néonicotinoïdes) - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl14-359.html",
+          "title": "Dossier législatif : biodiversité - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2016/2016737DC.htm",
+          "title": "Décision n° 2016-737 DC du 4 août 2016 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-neonicotinoides-2020"
+        }
+      ]
+    },
+    {
+      "id": "demission-macron-2016",
+      "date": "2016-08-30",
+      "title": {
+        "fr": "Démission d'Emmanuel Macron du gouvernement",
+        "en": "Emmanuel Macron's resignation from the government"
+      },
+      "summary": {
+        "fr": "**Emmanuel Macron quitte le ministère de l'Économie, de l'Industrie et du Numérique** pour se consacrer à **En marche**, le mouvement qu'il a lancé en avril 2016 ; il déclarera sa candidature à l'élection présidentielle le 16 novembre. **Michel Sapin** reprend un grand ministère de l'**Économie et des Finances** ; le même décret acte le départ de George Pau-Langevin des outre-mer, remplacée par Ericka Bareigts.",
+        "en": "**Emmanuel Macron leaves the Ministry of the Economy, Industry and Digital Affairs** to devote himself to **En marche**, the movement he launched in April 2016; he will declare his presidential candidacy on 16 November. **Michel Sapin** takes over an enlarged **Ministry of the Economy and Finance**; the same decree records George Pau-Langevin's departure from the overseas ministry, replaced by Ericka Bareigts."
+      },
+      "category_ids": ["economie", "institutions"],
+      "politician_ids": ["emmanuel-macron", "francois-hollande", "manuel-valls", "michel-sapin"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033076213",
+          "title": "Décret du 30 août 2016 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
       "relations": []
     }
   ]

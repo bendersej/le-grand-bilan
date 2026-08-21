@@ -79,6 +79,10 @@
       "relations": [
         {
           "type": "related",
+          "decision_id": "prorogation-etat-urgence-decembre-2016"
+        },
+        {
+          "type": "related",
           "decision_id": "loi-silt-2017"
         },
         {

@@ -86,7 +86,13 @@ const pageExpectations: PageExpectation[] = [
     path: `decisions/${decision.id}/index.html`,
     documentMarkers: ['lang="fr"'],
     mainMarkers: [],
-    panelMarkers: [escapeHtml(decision.title.fr), ...decision.sources.map((source) => source.url)],
+    // bot_walled sources are recorded but not rendered (pending human verification).
+    panelMarkers: [
+      escapeHtml(decision.title.fr),
+      ...decision.sources
+        .filter((source) => source.bot_walled === undefined)
+        .map((source) => source.url),
+    ],
   })),
   ...politicians
     .filter((politician) => referencedPoliticianIds.has(politician.id))

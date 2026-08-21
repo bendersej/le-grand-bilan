@@ -126,7 +126,12 @@
           "title": "Dossier législatif : protection des lanceurs d'alerte - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "loi-sapin-2-2016"
+        }
+      ]
     },
     {
       "id": "remise-carburant-2022",

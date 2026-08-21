@@ -1,0 +1,136 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2016-02",
+  "decisions": [
+    {
+      "id": "loi-claeys-leonetti-2016",
+      "date": "2016-02-02",
+      "title": {
+        "fr": "Loi Claeys-Leonetti sur la fin de vie",
+        "en": "Claeys-Leonetti end-of-life law"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-87 issue de la proposition des députés Alain Claeys et Jean Leonetti : droit à la **sédation profonde et continue jusqu'au décès** pour les malades en phase terminale dont la souffrance est réfractaire aux traitements, **directives anticipées qui s'imposent désormais au médecin** (sauf urgence vitale ou caractère manifestement inapproprié), et reconnaissance de la nutrition et de l'hydratation artificielles comme des **traitements pouvant être arrêtés**.",
+        "en": "Law no. 2016-87 stemming from the bill of deputies Alain Claeys and Jean Leonetti: right to **deep and continuous sedation until death** for terminally ill patients whose suffering resists treatment, **advance directives now binding on doctors** (except in life-threatening emergencies or when manifestly inappropriate), and recognition of artificial nutrition and hydration as **treatments that can be withdrawn**."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["marisol-touraine", "alain-claeys", "jean-leonetti", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031970253",
+          "title": "LOI n° 2016-87 du 2 février 2016 créant de nouveaux droits en faveur des malades et des personnes en fin de vie - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl14-348.html",
+          "title": "Dossier législatif : malades et personnes en fin de vie - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-soins-palliatifs-2026"
+        }
+      ]
+    },
+    {
+      "id": "remaniement-fevrier-2016",
+      "date": "2016-02-11",
+      "title": {
+        "fr": "Remaniement : Ayrault aux Affaires étrangères, entrée d'écologistes au gouvernement",
+        "en": "Reshuffle: Ayrault to Foreign Affairs, ecologists join the government"
+      },
+      "summary": {
+        "fr": "**Jean-Marc Ayrault** remplace Laurent Fabius, nommé président du Conseil constitutionnel, aux **Affaires étrangères** ; **Audrey Azoulay** succède à Fleur Pellerin à la **Culture** ; des figures écologistes entrent au gouvernement, dont **Barbara Pompili** (biodiversité) et Emmanuelle Cosse (logement) ; Annick Girardin prend la **fonction publique**.",
+        "en": "**Jean-Marc Ayrault** replaces Laurent Fabius, appointed president of the Constitutional Council, at **Foreign Affairs**; **Audrey Azoulay** succeeds Fleur Pellerin at **Culture**; ecologist figures join the government, including **Barbara Pompili** (biodiversity) and Emmanuelle Cosse (housing); Annick Girardin takes over the **civil service**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": [
+        "francois-hollande",
+        "manuel-valls",
+        "jean-marc-ayrault",
+        "audrey-azoulay",
+        "barbara-pompili",
+        "annick-girardin"
+      ],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032036286",
+          "title": "Décrets du 11 février 2016 relatifs à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-gaspillage-alimentaire-2016",
+      "date": "2016-02-11",
+      "title": {
+        "fr": "Loi Garot contre le gaspillage alimentaire",
+        "en": "Garot law against food waste"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-138, issue de la proposition du député Guillaume Garot : **interdiction pour les supermarchés de plus de 400 m² de détruire leurs invendus alimentaires** encore consommables et **obligation de proposer une convention de don** à des associations d'aide alimentaire habilitées ; la lutte contre le gaspillage entre dans l'éducation et dans la responsabilité sociale des entreprises.",
+        "en": "Law no. 2016-138, stemming from deputy Guillaume Garot's bill: **supermarkets over 400 sqm are banned from destroying unsold food** still fit for consumption and **must offer a donation agreement** to accredited food aid associations; the fight against food waste enters education and corporate social responsibility."
+      },
+      "category_ids": ["agriculture", "ecologie"],
+      "politician_ids": ["guillaume-garot", "segolene-royal", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032036289",
+          "title": "LOI n° 2016-138 du 11 février 2016 relative à la lutte contre le gaspillage alimentaire - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl15-245.html",
+          "title": "Dossier législatif : lutte contre le gaspillage alimentaire - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "prorogation-etat-urgence-fevrier-2016",
+      "date": "2016-02-19",
+      "title": {
+        "fr": "Deuxième prorogation de l'état d'urgence",
+        "en": "Second extension of the state of emergency"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-162 : l'**état d'urgence** décrété après les attentats du 13 novembre 2015 est **prorogé de trois mois à compter du 26 février 2016**, en maintenant le régime des **perquisitions administratives** (article 11 de la loi de 1955).",
+        "en": "Law no. 2016-162: the **state of emergency** declared after the 13 November 2015 attacks is **extended for three months from 26 February 2016**, keeping the regime of **administrative searches** (article 11 of the 1955 law) in force."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["bernard-cazeneuve", "manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032079090",
+          "title": "LOI n° 2016-162 du 19 février 2016 prorogeant l'application de la loi n° 55-385 du 3 avril 1955 relative à l'état d'urgence - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "prorogation-etat-urgence-mai-2016"
+        }
+      ]
+    },
+    {
+      "id": "territoires-zero-chomeur-2016",
+      "date": "2016-02-29",
+      "title": {
+        "fr": "Expérimentation « Territoires zéro chômeur de longue durée »",
+        "en": "\"Zero long-term unemployed territories\" experiment"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-231 : dans **au plus dix territoires volontaires**, les demandeurs d'emploi de longue durée se voient proposer des **CDI dans des entreprises de l'économie sociale et solidaire**, financés par la **réaffectation des coûts liés à la privation d'emploi** via un fonds national d'expérimentation, pour une durée de **cinq ans**.",
+        "en": "Law no. 2016-231: in **up to ten volunteer territories**, long-term jobseekers are offered **permanent contracts in social economy enterprises**, financed by **redirecting the costs of joblessness** through a national experimentation fund, for a duration of **five years**."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["myriam-el-khomri", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032134592",
+          "title": "LOI n° 2016-231 du 29 février 2016 d'expérimentation territoriale visant à résorber le chômage de longue durée - Légifrance"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

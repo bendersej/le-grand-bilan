@@ -1,0 +1,56 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2016-04",
+  "decisions": [
+    {
+      "id": "loi-prostitution-2016",
+      "date": "2016-04-13",
+      "title": {
+        "fr": "Loi de pénalisation des clients de la prostitution",
+        "en": "Law penalising clients of prostitution"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-444 : l'**achat d'un acte sexuel devient une infraction** (contravention, **3 750 euros d'amende en cas de récidive**), le **délit de racolage public est abrogé**, et un **parcours de sortie de la prostitution** est créé, ouvrant un titre de séjour provisoire et une aide financière aux personnes qui s'y engagent.",
+        "en": "Law no. 2016-444: **buying a sexual act becomes an offence** (fine, **3,750 euros for repeat offenders**), the **offence of public soliciting is abolished**, and a **prostitution exit programme** is created, opening a provisional residence permit and financial aid to those who commit to it."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["laurence-rossignol", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032396046",
+          "title": "LOI n° 2016-444 du 13 avril 2016 visant à renforcer la lutte contre le système prostitutionnel et à accompagner les personnes prostituées - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl13-207.html",
+          "title": "Dossier législatif : lutte contre le système prostitutionnel - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-deontologie-fonctionnaires-2016",
+      "date": "2016-04-20",
+      "title": {
+        "fr": "Loi déontologie et droits des fonctionnaires",
+        "en": "Civil servants' ethics and rights law"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-483, première grande révision du statut général des fonctionnaires depuis 1983 : obligations de **dignité, impartialité, intégrité, probité, neutralité et laïcité** inscrites dans le statut, **déclarations d'intérêts et de patrimoine** pour les emplois les plus exposés, encadrement renforcé des **cumuls d'activités** et protection des fonctionnaires **lanceurs d'alerte**.",
+        "en": "Law no. 2016-483, the first major revision of the civil service statute since 1983: duties of **dignity, impartiality, integrity, probity, neutrality and secularism** written into the statute, **declarations of interests and assets** for the most exposed positions, stricter rules on **holding multiple activities** and protection for civil servant **whistleblowers**."
+      },
+      "category_ids": ["institutions", "travail"],
+      "politician_ids": ["annick-girardin", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032433852",
+          "title": "LOI n° 2016-483 du 20 avril 2016 relative à la déontologie et aux droits et obligations des fonctionnaires - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl15-041.html",
+          "title": "Dossier législatif : déontologie, droits et obligations des fonctionnaires - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

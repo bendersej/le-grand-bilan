@@ -105,7 +105,12 @@
           "title": "LOI n° 2026-404 du 26 mai 2026 - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-claeys-leonetti-2016"
+        }
+      ]
     },
     {
       "id": "corps-electoral-nouvelle-caledonie-2026",

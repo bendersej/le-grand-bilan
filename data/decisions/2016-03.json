@@ -1,0 +1,91 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2016-03",
+  "decisions": [
+    {
+      "id": "loi-droit-des-etrangers-2016",
+      "date": "2016-03-07",
+      "title": {
+        "fr": "Loi relative au droit des étrangers en France",
+        "en": "Law on the rights of foreigners in France"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-274 portée par Bernard Cazeneuve : **généralisation de la carte de séjour pluriannuelle** (jusqu'à quatre ans) après une première année de séjour régulier, création du **« passeport talent »** pour les profils qualifiés, priorité donnée à l'**assignation à résidence** sur la rétention pour les familles avec enfants, et intervention du **juge des libertés et de la détention ramenée de cinq à deux jours** en rétention.",
+        "en": "Law no. 2016-274 carried by Bernard Cazeneuve: **generalisation of the multi-year residence permit** (up to four years) after a first year of legal residence, creation of the **\"talent passport\"** for skilled profiles, priority given to **house arrest** over detention for families with children, and the liberty judge's review in detention **brought forward from five to two days**."
+      },
+      "category_ids": ["immigration"],
+      "politician_ids": ["bernard-cazeneuve", "manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032164264",
+          "title": "LOI n° 2016-274 du 7 mars 2016 relative au droit des étrangers en France - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl14-655.html",
+          "title": "Dossier législatif : droit des étrangers en France - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-protection-enfant-2016",
+      "date": "2016-03-14",
+      "title": {
+        "fr": "Loi relative à la protection de l'enfant",
+        "en": "Child protection law"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-297, issue d'une proposition sénatoriale et portée par Laurence Rossignol : création du **Conseil national de la protection de l'enfance**, désignation d'un **médecin référent « protection de l'enfance »** dans chaque département, sécurisation des parcours des **enfants placés** et rétablissement de la qualification pénale d'**inceste** dans le code pénal.",
+        "en": "Law no. 2016-297, stemming from a Senate bill and carried by Laurence Rossignol: creation of the **National Council for Child Protection**, appointment of a **\"child protection\" referring doctor** in every department, more secure paths for **children in care** and reinstatement of the criminal qualification of **incest** in the penal code."
+      },
+      "category_ids": ["justice", "sante"],
+      "politician_ids": ["laurence-rossignol", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032205234",
+          "title": "LOI n° 2016-297 du 14 mars 2016 relative à la protection de l'enfant - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-protection-des-enfants-2022"
+        }
+      ]
+    },
+    {
+      "id": "abandon-decheance-nationalite-2016",
+      "date": "2016-03-30",
+      "title": {
+        "fr": "Abandon de la révision constitutionnelle (déchéance de nationalité)",
+        "en": "Abandonment of the constitutional revision (deprivation of nationality)"
+      },
+      "summary": {
+        "fr": "Après quatre mois de débats et l'impossibilité d'accorder l'Assemblée nationale et le Sénat sur un texte identique, **François Hollande renonce à la révision constitutionnelle** annoncée devant le Congrès le 16 novembre 2015, qui devait **constitutionnaliser l'état d'urgence** et étendre la **déchéance de nationalité** aux personnes binationales condamnées pour terrorisme. Le débat avait provoqué la démission de la garde des Sceaux Christiane Taubira.",
+        "en": "After four months of debate and the impossibility of aligning the National Assembly and the Senate on an identical text, **François Hollande abandons the constitutional revision** announced before Congress on 16 November 2015, which was to **enshrine the state of emergency in the Constitution** and extend **deprivation of nationality** to dual nationals convicted of terrorism. The debate had triggered the resignation of Justice Minister Christiane Taubira."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["francois-hollande", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2016/03/30/declaration-de-m-francois-hollande-president-de-la-republique-sur-labandon-de-la-revision-constitutionnelle-relative-a-letat-durgence-et-a-la-decheance-de-la-nationalite-a-paris-le-30-mars-2016",
+          "title": "Déclaration de François Hollande sur l'abandon de la révision constitutionnelle, 30 mars 2016 - Élysée"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl15-395.html",
+          "title": "Dossier législatif : projet de loi constitutionnelle de protection de la Nation - Sénat"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/14/dossiers/protection_nation.asp",
+          "title": "Dossier : projet de loi constitutionnelle de protection de la Nation - Assemblée nationale"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "demission-taubira-2016"
+        }
+      ]
+    }
+  ]
+}

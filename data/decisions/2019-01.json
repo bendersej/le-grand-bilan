@@ -25,7 +25,12 @@
           "title": "LOI n° 2016-1917 du 29 décembre 2016 de finances pour 2017 (article 60 instituant le prélèvement à la source) - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "loi-de-finances-2017"
+        }
+      ]
     },
     {
       "id": "lancement-grand-debat-national-2019",

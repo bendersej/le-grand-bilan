@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2016-05",
+  "decisions": [
+    {
+      "id": "49-3-loi-travail-2016",
+      "date": "2016-05-10",
+      "title": {
+        "fr": "Premier 49.3 sur la loi Travail",
+        "en": "First 49.3 on the Labour Law"
+      },
+      "summary": {
+        "fr": "En pleine contestation sociale (manifestations, Nuit debout), Manuel Valls engage la **responsabilité du Gouvernement (article 49.3)** pour faire adopter sans vote le projet de loi Travail en première lecture ; la **motion de censure** déposée par la droite est **rejetée le 12 mai**. Le Gouvernement recourra de nouveau au 49.3 le **5 juillet** (nouvelle lecture) puis le **20 juillet** (lecture définitive).",
+        "en": "Amid social protest (demonstrations, Nuit debout), Manuel Valls invokes the **Government's responsibility (article 49.3)** to pass the Labour Law bill without a vote at first reading; the **censure motion** tabled by the right is **rejected on 12 May**. The Government uses 49.3 again on **5 July** (new reading) and **20 July** (final reading)."
+      },
+      "category_ids": ["institutions", "travail"],
+      "politician_ids": ["manuel-valls", "myriam-el-khomri", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/14/dossiers/nouvelles_libertes_entreprises_actifs.asp",
+          "title": "Dossier législatif de la loi Travail (engagements de responsabilité et motion de censure) - Assemblée nationale"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl15-610.html",
+          "title": "Dossier législatif : travail et dialogue social - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-travail-2016"
+        }
+      ]
+    },
+    {
+      "id": "prorogation-etat-urgence-mai-2016",
+      "date": "2016-05-20",
+      "title": {
+        "fr": "Troisième prorogation de l'état d'urgence",
+        "en": "Third extension of the state of emergency"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-629 : l'état d'urgence est **prorogé de deux mois à compter du 26 mai 2016**, période couvrant l'**Euro 2016** de football et le **Tour de France**, **sans reconduire les perquisitions administratives**, qui cessent de s'appliquer.",
+        "en": "Law no. 2016-629: the state of emergency is **extended for two months from 26 May 2016**, a period covering the **Euro 2016** football tournament and the **Tour de France**, **without renewing administrative searches**, which lapse."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["bernard-cazeneuve", "manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032551115",
+          "title": "LOI n° 2016-629 du 20 mai 2016 prorogeant l'application de la loi n° 55-385 du 3 avril 1955 relative à l'état d'urgence - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl15-574.html",
+          "title": "Dossier législatif : prorogation de l'état d'urgence - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "prorogation-etat-urgence-fevrier-2016"
+        },
+        {
+          "type": "related",
+          "decision_id": "prorogation-etat-urgence-juillet-2016"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,113 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2016-10",
+  "decisions": [
+    {
+      "id": "loi-republique-numerique-2016",
+      "date": "2016-10-07",
+      "title": {
+        "fr": "Loi pour une République numérique (loi Lemaire)",
+        "en": "Digital Republic law (Lemaire law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-1321 portée par Axelle Lemaire, élaborée après une consultation en ligne ouverte aux citoyens : **ouverture par défaut des données publiques** (open data), inscription de la **neutralité du net** en droit français, **droit à l'oubli pour les mineurs**, obligation de **loyauté des plateformes** en ligne et **accessibilité renforcée** des services publics numériques.",
+        "en": "Law no. 2016-1321 carried by Axelle Lemaire, drafted after an online consultation open to citizens: **open public data by default**, **net neutrality** written into French law, **right to be forgotten for minors**, a **fairness duty for online platforms** and **strengthened accessibility** of digital public services."
+      },
+      "category_ids": ["numerique"],
+      "politician_ids": ["axelle-lemaire", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033202746",
+          "title": "LOI n° 2016-1321 du 7 octobre 2016 pour une République numérique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl15-325.html",
+          "title": "Dossier législatif : République numérique - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "creation-garde-nationale-2016",
+      "date": "2016-10-13",
+      "title": {
+        "fr": "Création de la garde nationale",
+        "en": "Creation of the national guard"
+      },
+      "summary": {
+        "fr": "Le décret n° 2016-1364 institue une **garde nationale** regroupant les volontaires des **réserves opérationnelles des armées et de la gendarmerie** et de la **réserve civile de la police nationale**, pilotée par un comité directeur coprésidé par les ministres de la défense et de l'intérieur, pour **renforcer la sécurité du pays** après les attentats de 2015 et 2016.",
+        "en": "Decree no. 2016-1364 establishes a **national guard** gathering volunteers from the **operational reserves of the armed forces and gendarmerie** and the **civil reserve of the national police**, steered by a committee co-chaired by the defence and interior ministers, to **strengthen the country's security** after the 2015 and 2016 attacks."
+      },
+      "category_ids": ["defense", "securite"],
+      "politician_ids": ["jean-yves-le-drian", "bernard-cazeneuve", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033234627",
+          "title": "Décret n° 2016-1364 du 13 octobre 2016 relatif à la garde nationale - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "demantelement-jungle-calais-2016",
+      "date": "2016-10-24",
+      "title": {
+        "fr": "Démantèlement de la « jungle » de Calais",
+        "en": "Dismantling of the Calais \"jungle\""
+      },
+      "summary": {
+        "fr": "L'opération d'évacuation et de **mise à l'abri** du campement de la Lande se déroule du **24 octobre au 2 novembre 2016** : **plus de 7 000 personnes, dont 1 700 mineurs**, sont orientées vers les **centres d'accueil et d'orientation (CAO)** répartis sur le territoire, les mineurs isolés vers des centres dédiés (CAOMI), puis le campement est détruit.",
+        "en": "The evacuation and **sheltering** operation of the Lande camp runs from **24 October to 2 November 2016**: **more than 7,000 people, including 1,700 minors**, are directed to **reception and orientation centres (CAO)** across the country, unaccompanied minors to dedicated centres (CAOMI), and the camp is then destroyed."
+      },
+      "category_ids": ["immigration"],
+      "politician_ids": ["bernard-cazeneuve", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034165936",
+          "title": "Déclaration de la CNCDH relative au démantèlement du bidonville de Calais et ses suites : le cas des mineurs - Légifrance"
+        },
+        {
+          "url": "https://www.defenseurdesdroits.fr/sites/default/files/2023-10/ddd_rapport_demantellement-des%20camps-et-prise-en-charge-des-exiles_2016.pdf",
+          "title": "Rapport d'observation du Défenseur des droits sur le démantèlement des campements et la prise en charge des exilés (décembre 2016)"
+        },
+        {
+          "url": "https://www.interieur.gouv.fr/Archives/Archives-des-actualites/2016-Actualites/Demantelement-du-camp-de-la-Lande-a-Calais",
+          "title": "Démantèlement du camp de la Lande à Calais - Ministère de l'Intérieur",
+          "bot_walled": true
+        },
+        {
+          "url": "https://www.interieur.gouv.fr/Archives/Archives-des-actualites/2016-Actualites/Demantelement-complet-et-definitif-du-campement-de-la-lande-a-Calais",
+          "title": "Démantèlement complet et définitif du campement de la Lande à Calais - Ministère de l'Intérieur",
+          "bot_walled": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "annonce-demantelement-calais-2016"
+        }
+      ]
+    },
+    {
+      "id": "decret-fichier-tes-2016",
+      "date": "2016-10-28",
+      "title": {
+        "fr": "Création du fichier TES (titres électroniques sécurisés)",
+        "en": "Creation of the TES file (secure electronic documents)"
+      },
+      "summary": {
+        "fr": "Le décret n° 2016-1460 crée une **base de données unique regroupant les données personnelles et biométriques** (photographie, empreintes digitales) des détenteurs de **cartes nationales d'identité et de passeports**, soit à terme la quasi-totalité de la population française ; sa création par simple décret suscite un vif débat sur les risques d'un fichier centralisé.",
+        "en": "Decree no. 2016-1460 creates a **single database gathering the personal and biometric data** (photograph, fingerprints) of **national identity card and passport** holders, eventually covering nearly the entire French population; its creation by simple decree sparks a sharp debate on the risks of a centralised file."
+      },
+      "category_ids": ["numerique", "securite"],
+      "politician_ids": ["bernard-cazeneuve", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033318345",
+          "title": "Décret n° 2016-1460 du 28 octobre 2016 autorisant la création d'un traitement de données à caractère personnel relatif aux passeports et aux cartes nationales d'identité - Légifrance"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

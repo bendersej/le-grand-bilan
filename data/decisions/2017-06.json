@@ -28,6 +28,10 @@
       "relations": [
         {
           "type": "related",
+          "decision_id": "ratification-accord-de-paris-2016"
+        },
+        {
+          "type": "related",
           "decision_id": "one-planet-summit-2017"
         }
       ]

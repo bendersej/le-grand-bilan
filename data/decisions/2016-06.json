@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2016-06",
+  "decisions": [
+    {
+      "id": "loi-crime-organise-2016",
+      "date": "2016-06-03",
+      "title": {
+        "fr": "Loi crime organisé, terrorisme et procédure pénale",
+        "en": "Organised crime, terrorism and criminal procedure law"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-731 portée par Jean-Jacques Urvoas, pensée pour renforcer durablement l'arsenal antiterroriste hors état d'urgence : **perquisitions de nuit** possibles dans les domiciles en matière terroriste, **contrôle administratif des personnes de retour des zones d'opérations djihadistes**, extension de l'**usage des armes** par les forces de l'ordre en cas de « périple meurtrier », recours élargi aux **IMSI-catchers** et à la sonorisation, et création du **délit de consultation habituelle de sites terroristes**, censuré en 2017 par le Conseil constitutionnel.",
+        "en": "Law no. 2016-731 carried by Jean-Jacques Urvoas, designed to durably strengthen the antiterrorist arsenal outside the state of emergency: **night searches** of homes allowed in terrorism cases, **administrative control of people returning from jihadist operation zones**, extended **use of weapons** by police in \"killing spree\" situations, wider use of **IMSI-catchers** and audio surveillance, and creation of the **offence of habitually consulting terrorist websites**, struck down in 2017 by the Constitutional Council."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["jean-jacques-urvoas", "bernard-cazeneuve", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032627231",
+          "title": "LOI n° 2016-731 du 3 juin 2016 renforçant la lutte contre le crime organisé, le terrorisme et leur financement - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl15-445.html",
+          "title": "Dossier législatif : lutte contre le crime organisé et le terrorisme - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "ratification-accord-de-paris-2016",
+      "date": "2016-06-15",
+      "title": {
+        "fr": "Ratification de l'accord de Paris sur le climat",
+        "en": "Ratification of the Paris climate agreement"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-786 **autorisant la ratification de l'accord de Paris** adopté à la COP21 le 12 décembre 2015, qui vise à contenir le réchauffement climatique **nettement en dessous de 2 °C** par rapport aux niveaux préindustriels. Défendu par Ségolène Royal, présidente de la COP21, le texte permet à la France de déposer son instrument de ratification ; l'accord entre en vigueur le **4 novembre 2016**.",
+        "en": "Law no. 2016-786 **authorising the ratification of the Paris Agreement** adopted at COP21 on 12 December 2015, which aims to keep global warming **well below 2°C** above pre-industrial levels. Defended by Ségolène Royal, COP21 president, the law lets France deposit its instrument of ratification; the agreement enters into force on **4 November 2016**."
+      },
+      "category_ids": ["ecologie", "energie"],
+      "politician_ids": ["segolene-royal", "jean-marc-ayrault", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000032711388",
+          "title": "LOI n° 2016-786 du 15 juin 2016 autorisant la ratification de l'accord de Paris adopté le 12 décembre 2015 - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "reponse-retrait-accord-paris-2017"
+        }
+      ]
+    }
+  ]
+}

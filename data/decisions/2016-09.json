@@ -1,0 +1,36 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2016-09",
+  "decisions": [
+    {
+      "id": "annonce-demantelement-calais-2016",
+      "date": "2016-09-26",
+      "title": {
+        "fr": "Annonce du démantèlement de la « jungle » de Calais",
+        "en": "Announcement of the dismantling of the Calais \"jungle\""
+      },
+      "summary": {
+        "fr": "En déplacement à Calais, **François Hollande annonce le démantèlement complet et définitif** du campement de la Lande, où vivent plusieurs milliers de migrants, avec la **répartition des personnes dans des centres d'accueil et d'orientation (CAO)** sur l'ensemble du territoire et un traitement spécifique pour les mineurs isolés.",
+        "en": "Visiting Calais, **François Hollande announces the complete and final dismantling** of the Lande camp, home to several thousand migrants, with the **distribution of its occupants across reception and orientation centres (CAO)** throughout the country and specific treatment for unaccompanied minors."
+      },
+      "category_ids": ["immigration"],
+      "politician_ids": ["francois-hollande", "bernard-cazeneuve"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2016/09/26/declaration-de-m-francois-hollande-president-de-la-republique-sur-le-projet-damenagement-portuaire-et-sur-le-demantelement-du-campement-de-migrants-a-calais-le-26-septembre-2016",
+          "title": "Déclaration de François Hollande sur le démantèlement du campement de migrants à Calais, 26 septembre 2016 - Élysée"
+        },
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2016/09/26/declaration-de-m-francois-hollande-president-de-la-republique-sur-laction-des-forces-de-securite-et-le-demantelement-du-campement-de-migrants-a-calais-le-26-septembre-2016",
+          "title": "Déclaration de François Hollande sur l'action des forces de sécurité à Calais, 26 septembre 2016 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "demantelement-jungle-calais-2016"
+        }
+      ]
+    }
+  ]
+}

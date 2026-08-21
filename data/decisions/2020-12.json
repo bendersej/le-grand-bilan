@@ -92,7 +92,12 @@
           "title": "Dossier législatif : mise sur le marché de certains produits phytopharmaceutiques - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "loi-biodiversite-2016"
+        }
+      ]
     },
     {
       "id": "couvre-feu-decembre-2020",

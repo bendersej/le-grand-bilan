@@ -1,0 +1,64 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2016-11",
+  "decisions": [
+    {
+      "id": "loi-liberte-medias-2016",
+      "date": "2016-11-14",
+      "title": {
+        "fr": "Loi sur l'indépendance et le pluralisme des médias (loi Bloche)",
+        "en": "Media independence and pluralism law (Bloche law)"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-1524 : **comités de déontologie** dans les médias audiovisuels, **droit d'opposition des journalistes** (nul ne peut être contraint d'accepter un acte contraire à son intime conviction professionnelle), pouvoirs élargis du CSA sur les conventions des chaînes. Le **renforcement du secret des sources** (article 4), pièce maîtresse du texte, a été **intégralement censuré** par le Conseil constitutionnel (décision n° 2016-738 DC).",
+        "en": "Law no. 2016-1524: **ethics committees** in broadcast media, **journalists' right of refusal** (no one can be forced to accept an act contrary to their professional conviction), broader CSA powers over broadcasters' agreements. The **strengthening of the protection of sources** (article 4), the text's centrepiece, was **entirely struck down** by the Constitutional Council (decision no. 2016-738 DC)."
+      },
+      "category_ids": ["culture", "institutions"],
+      "politician_ids": ["audrey-azoulay", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033385368",
+          "title": "LOI n° 2016-1524 du 14 novembre 2016 visant à renforcer la liberté, l'indépendance et le pluralisme des médias - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl15-446.html",
+          "title": "Dossier législatif : liberté, indépendance et pluralisme des médias - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2016/2016738DC.htm",
+          "title": "Décision n° 2016-738 DC du 10 novembre 2016 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-justice-21-2016",
+      "date": "2016-11-18",
+      "title": {
+        "fr": "Loi de modernisation de la justice du XXIe siècle (J21)",
+        "en": "21st century justice modernisation law (J21)"
+      },
+      "summary": {
+        "fr": "Loi n° 2016-1547 portée par Jean-Jacques Urvoas : **divorce par consentement mutuel sans juge** (convention d'avocats déposée chez un notaire), **changement de la mention du sexe à l'état civil** sans obligation de traitements médicaux, enregistrement du **PACS en mairie** et non plus au tribunal, et élargissement des **actions de groupe** (discriminations, environnement, santé). Le Conseil constitutionnel n'a prononcé que des censures ponctuelles (décision n° 2016-739 DC).",
+        "en": "Law no. 2016-1547 carried by Jean-Jacques Urvoas: **mutual consent divorce without a judge** (lawyers' agreement filed with a notary), **change of legal gender at the civil registry** without mandatory medical treatment, **PACS registration at the town hall** instead of the court, and wider **class actions** (discrimination, environment, health). The Constitutional Council issued only limited censures (decision no. 2016-739 DC)."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["jean-jacques-urvoas", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033418805",
+          "title": "LOI n° 2016-1547 du 18 novembre 2016 de modernisation de la justice du XXIe siècle - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl14-661.html",
+          "title": "Dossier législatif : justice du XXIème siècle - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2016/2016739DC.htm",
+          "title": "Décision n° 2016-739 DC du 17 novembre 2016 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}
