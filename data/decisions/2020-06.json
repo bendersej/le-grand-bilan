@@ -75,7 +75,12 @@
           "title": "Le Président Emmanuel Macron répond aux 150 citoyens de la Convention citoyenne pour le climat - Élysée"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "lancement-convention-citoyenne-climat-2019"
+        }
+      ]
     }
   ]
 }

@@ -716,6 +716,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre chargée des Transports",
+            "en": "Minister for Transport"
+          },
+          "from": "2017-05-17",
+          "to": "2019-07-16"
+        },
+        {
+          "role": {
             "fr": "Ministre de la Transition écologique et solidaire",
             "en": "Minister of the Ecological and Inclusive Transition"
           },
@@ -906,6 +914,36 @@
       }
     },
     {
+      "id": "franck-riester",
+      "full_name": "Franck Riester",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Culture",
+            "en": "Minister of Culture"
+          },
+          "from": "2018-10-16",
+          "to": "2020-07-06"
+        }
+      ],
+      "profile": {
+        "content_hash": "fff00fd876024fb2e02d16e94b00f8ab045f390ff2b140ee98f0ce874cac9076",
+        "photo": {
+          "path": "/media/politicians/franck-riester.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Franck_Riester_2019_(cropped).jpg",
+          "license": "CC BY-SA 2.0",
+          "author": "ActuaLitté"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français, **ministre de la Culture d'octobre 2018 à juillet 2020** dans le gouvernement Philippe : il porte la loi pour la restauration de Notre-Dame de Paris et la création du Centre national de la musique. **Député de Seine-et-Marne de 2007 à 2018** et **maire de Coulommiers (2008-2017)**, d'abord membre de l'UMP puis des Républicains, il en est exclu en 2017 pour son rapprochement avec la majorité d'Emmanuel Macron et cofonde le parti **Agir**, qu'il préside à partir de 2018. Il est ensuite **ministre délégué chargé du Commerce extérieur** (2020-2022, puis 2024), et ministre délégué chargé des **Relations avec le Parlement** (2022-2024) dans le gouvernement Borne. Issu d'une famille de concessionnaires automobiles, il a dirigé le groupe familial avant sa carrière politique.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Franck_Riester"
+      }
+    },
+    {
       "id": "francois-bayrou",
       "full_name": "François Bayrou",
       "party": "Mouvement démocrate",
@@ -963,6 +1001,44 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Braun"
+      }
+    },
+    {
+      "id": "francois-de-rugy",
+      "full_name": "François de Rugy",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Président de l'Assemblée nationale",
+            "en": "President of the National Assembly"
+          },
+          "from": "2017-06-27",
+          "to": "2018-09-04"
+        },
+        {
+          "role": {
+            "fr": "Ministre d'État, ministre de la Transition écologique et solidaire",
+            "en": "Minister of State, Minister of the Ecological and Inclusive Transition"
+          },
+          "from": "2018-09-04",
+          "to": "2019-07-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "4e8ce2f836e95c388182ef63ee5319be17efdf997f43a25d93ea8620606300c2",
+        "photo": {
+          "path": "/media/politicians/francois-de-rugy.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_de_Rugy.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "bruno perroud"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français, **ministre d'État, ministre de la Transition écologique et solidaire de septembre 2018 à juillet 2019** dans le gouvernement Philippe, nommé après la démission de Nicolas Hulot. Il défend le projet de loi énergie-climat avant d'être **contraint à la démission en juillet 2019** après des révélations de Mediapart sur son train de vie en fonctions (dîners à l'hôtel de Lassay, travaux). Écologiste de longue date, successivement membre de Génération écologie, des Verts puis d'**Europe Écologie Les Verts**, qu'il quitte en 2015, il est adjoint au maire de Nantes (2001-2008), **député de la Loire-Atlantique à partir de 2007**, co-président du groupe écologiste à l'Assemblée (2012-2016), puis rallie Emmanuel Macron en 2017. Il est **président de l'Assemblée nationale de juin 2017 à septembre 2018**, retrouve son siège de député après sa démission du gouvernement et ne se représente pas en 2022.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Rugy"
       }
     },
     {
@@ -1436,6 +1512,36 @@
       }
     },
     {
+      "id": "jean-paul-delevoye",
+      "full_name": "Jean-Paul Delevoye",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Haut-commissaire à la réforme des retraites",
+            "en": "High Commissioner for Pension Reform"
+          },
+          "from": "2017-09-14",
+          "to": "2019-12-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "10b3585d5109b5128627a997b7187fcfdb221d56a1f17b305779b645696be2d6",
+        "photo": {
+          "path": "/media/politicians/jean-paul-delevoye.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Paul_Delevoye_(8484853131)_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "author": "SmartGov"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français, **haut-commissaire à la réforme des retraites de 2017 à décembre 2019** : il conçoit le projet de **système universel de retraite par points** (rapport de juillet 2019) et entre au gouvernement Philippe en septembre 2019 pour conduire la réforme. Mis en cause pour avoir **omis de déclarer plus de dix mandats** à la Haute Autorité pour la transparence de la vie publique, il **démissionne le 16 décembre 2019**, en pleine grève contre la réforme. Successivement membre du RPR, de l'UMP puis de LREM, il est **maire de Bapaume (1982-2014)**, parlementaire, président de l'**Association des maires de France**, **ministre de la Fonction publique** (2002-2004) sous Jacques Chirac, **médiateur de la République** (2004-2011) puis **président du CESE** (2010-2015).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean-Paul_Delevoye"
+      }
+    },
+    {
       "id": "jean-pierre-farandou",
       "full_name": "Jean-Pierre Farandou",
       "party": null,
@@ -1463,6 +1569,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean-Pierre_Farandou"
+      }
+    },
+    {
+      "id": "jean-yves-le-drian",
+      "full_name": "Jean-Yves Le Drian",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Europe et des Affaires étrangères",
+            "en": "Minister for Europe and Foreign Affairs"
+          },
+          "from": "2017-05-17",
+          "to": "2022-05-20"
+        }
+      ],
+      "profile": {
+        "content_hash": "7d73f0e56c653863234f984010fbaad62c0f75f6e5efb510ad853c48cc5d65cc",
+        "photo": {
+          "path": "/media/politicians/jean-yves-le-drian.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Cop26_1287_(51654235983)_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "author": "IAEA Imagebank"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Jean-Yves Le Drian, né le 30 juin 1947 à Lorient (Morbihan), est un homme d'État français.\nMembre du Parti socialiste (PS) de 1974 à 2018, il est notamment maire de Lorient de 1981 à 1998, plusieurs fois député entre 1978 et 2007 et président du conseil régional de Bretagne à deux reprises entre 2004 et 2017.\nSecrétaire d'État à la Mer dans le gouvernement d'Édith Cresson de 1991 à 1992, durant la présidence de François Mitterrand, il devient président de la Conférence des régions périphériques maritimes d’Europe en 2010.\nIl est nommé ministre de la Défense dans le premier gouvernement de Jean-Marc Ayrault, en 2012. Il est maintenu dans ses fonctions dans les gouvernements Ayrault II, Valls I, Valls II et Cazeneuve, soit durant la totalité du quinquennat de François Hollande.\nEn 2017, il devient ministre de l'Europe et des Affaires étrangères. Ayant quitté le PS, il œuvre pour un rassemblement des socialistes autour du président Emmanuel Macron, notamment avec la fondation en 2020 du parti Territoires de progrès. Il conserve son ministère jusqu'à la fin du premier quinquennat Macron, en 2022.\nCelui-ci le nomme « envoyé personnel pour le Liban » en 2023, pour créer un consensus dans le pays en vue de l'élection d'un nouveau président de la République.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean-Yves_Le_Drian"
       }
     },
     {
@@ -1902,6 +2038,36 @@
       }
     },
     {
+      "id": "marlene-schiappa",
+      "full_name": "Marlène Schiappa",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Secrétaire d'État chargée de l'Égalité entre les femmes et les hommes",
+            "en": "State Secretary for Gender Equality"
+          },
+          "from": "2017-05-17",
+          "to": "2020-07-06"
+        }
+      ],
+      "profile": {
+        "content_hash": "ace402a4924f805a671a1a49ce96bd24ad3608241a5a50e4e944270bc1a00fd7",
+        "photo": {
+          "path": "/media/politicians/marlene-schiappa.png",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Marl%C3%A8ne_Schiappa.png",
+          "license": "CC BY 4.0",
+          "author": "Pierre-Antoine Gosselin"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique et essayiste française, **secrétaire d'État chargée de l'Égalité entre les femmes et les hommes de mai 2017 à juillet 2020** dans le gouvernement Philippe : elle porte la **loi de 2018 contre les violences sexuelles et sexistes** et co-organise le **Grenelle des violences conjugales** de 2019. Elle est ensuite **ministre déléguée chargée de la Citoyenneté** (2020-2022) auprès du ministre de l'Intérieur, puis **secrétaire d'État chargée de l'Économie sociale et solidaire** (2022-2023), écartée du gouvernement après les critiques sur sa gestion du **fonds Marianne**. Adjointe au maire du Mans à partir de 2014, fondatrice du réseau Maman travaille, responsable du pôle égalité femmes-hommes de La République en marche, elle a publié 36 livres et rejoint en 2023 le cabinet de conseil Tilder, dont elle devient directrice générale en 2026.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Marl%C3%A8ne_Schiappa"
+      }
+    },
+    {
       "id": "michel-barnier",
       "full_name": "Michel Barnier",
       "party": "Les Républicains",
@@ -2052,10 +2218,56 @@
       }
     },
     {
+      "id": "nicole-belloubet",
+      "full_name": "Nicole Belloubet",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Garde des Sceaux, ministre de la Justice",
+            "en": "Keeper of the Seals, Minister of Justice"
+          },
+          "from": "2017-06-21",
+          "to": "2020-07-06"
+        },
+        {
+          "role": {
+            "fr": "Ministre de l'Éducation nationale et de la Jeunesse",
+            "en": "Minister of National Education and Youth"
+          },
+          "from": "2024-02-08",
+          "to": "2024-09-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "439e2cdfd44c8206c7439e2ef75b3a5631c2964144a7440f2721ba9cfebdfc24",
+        "photo": {
+          "path": "/media/politicians/nicole-belloubet.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Nicole_Belloubet,_Ministre_de_la_Justice_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Julien Damelet"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Juriste, haute fonctionnaire et femme politique française, **garde des Sceaux, ministre de la Justice de juin 2017 à juillet 2020** dans le gouvernement Philippe : elle porte la **loi de programmation 2018-2022 et de réforme pour la justice** (fusion des tribunaux, parquet national antiterroriste, réforme des peines) et le nouveau **code de la justice pénale des mineurs**. Professeure des universités en droit public, **rectrice des académies de Limoges puis de Toulouse**, elle siège au **Conseil constitutionnel de 2013 à 2017** avant d'entrer au gouvernement. Ancienne adjointe au maire de Toulouse et vice-présidente de la région Midi-Pyrénées, elle revient au gouvernement comme **ministre de l'Éducation nationale et de la Jeunesse de février à septembre 2024** dans le gouvernement Attal.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Nicole_Belloubet"
+      }
+    },
+    {
       "id": "olivier-dussopt",
       "full_name": "Olivier Dussopt",
       "party": "Renaissance",
       "mandates": [
+        {
+          "role": {
+            "fr": "Secrétaire d'État auprès du ministre de l'Action et des Comptes publics",
+            "en": "State Secretary to the Minister of Public Action and Accounts"
+          },
+          "from": "2017-11-24",
+          "to": "2020-07-06"
+        },
         {
           "role": {
             "fr": "Ministre délégué chargé des Comptes publics",
@@ -2450,6 +2662,14 @@
       "full_name": "Sébastien Lecornu",
       "party": "Renaissance",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre chargé des Collectivités territoriales",
+            "en": "Minister for Local Authorities"
+          },
+          "from": "2018-10-16",
+          "to": "2020-07-06"
+        },
         {
           "role": {
             "fr": "Ministre des Armées",

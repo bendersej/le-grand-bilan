@@ -1,0 +1,60 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2019-03",
+  "decisions": [
+    {
+      "id": "loi-cancers-pediatriques-2019",
+      "date": "2019-03-08",
+      "title": {
+        "fr": "Loi renforçant la prise en charge des cancers pédiatriques",
+        "en": "Law strengthening the care of paediatric cancers"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-180, d'initiative parlementaire adoptée à l'unanimité : elle inscrit les **cancers de l'enfant dans la stratégie nationale de recherche**, assouplit le **congé de présence parentale** et l'allocation journalière des parents d'enfants malades, renforce la formation des professionnels et étend le **droit à l'oubli** aux cancers diagnostiqués **avant 21 ans** (contre 18 ans auparavant) pour l'accès à l'assurance et à l'emprunt.",
+        "en": "Law no. 2019-180, a parliamentary initiative adopted unanimously: it writes **childhood cancers into the national research strategy**, eases **parental presence leave** and the daily allowance for parents of sick children, strengthens professional training and extends the **right to be forgotten** to cancers diagnosed **before age 21** (previously 18) for access to insurance and loans."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["agnes-buzyn"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038215896",
+          "title": "LOI n° 2019-180 du 8 mars 2019 visant à renforcer la prise en charge des cancers pédiatriques par la recherche, le soutien aux aidants familiaux, la formation des professionnels et le droit à l'oubli - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl18-167.html",
+          "title": "Dossier législatif : prise en charge des cancers pédiatriques - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-programmation-reforme-justice-2019",
+      "date": "2019-03-23",
+      "title": {
+        "fr": "Loi de programmation 2018-2022 et de réforme pour la justice",
+        "en": "2018-2022 programming and justice reform law"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-222 : elle porte le budget de la justice à **8,3 milliards d'euros en 2022** (+24 %) avec 6 500 emplois, **fusionne tribunaux d'instance et de grande instance** en un tribunal judiciaire unique, crée le **parquet national antiterroriste** et expérimente les **cours criminelles départementales** sans jury. Elle réforme l'échelle des peines : interdiction des peines de prison ferme de moins d'un mois, aménagement de principe des peines de moins de six mois. Le Conseil constitutionnel (décision n° 2019-778 DC) censure plusieurs dispositions, dont l'extension de **techniques spéciales d'enquête** et certaines mesures jugées attentatoires aux droits de la défense.",
+        "en": "Law no. 2019-222: it raises the justice budget to **8.3 billion euros in 2022** (+24%) with 6,500 jobs, **merges lower courts into a single judicial court**, creates the **national antiterrorism prosecutor's office** and pilots **departmental criminal courts** without a jury. It reforms sentencing: prison sentences under one month are banned, sentences under six months are adjusted by default. The Constitutional Council (decision no. 2019-778 DC) strikes down several provisions, including the extension of **special investigative techniques** and measures deemed harmful to defence rights."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["nicole-belloubet", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038261631",
+          "title": "LOI n° 2019-222 du 23 mars 2019 de programmation 2018-2022 et de réforme pour la justice - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-463.html",
+          "title": "Dossier législatif : programmation 2018-2022 et réforme pour la justice - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019778DC.htm",
+          "title": "Décision n° 2019-778 DC du 21 mars 2019 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,106 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2019-01",
+  "decisions": [
+    {
+      "id": "entree-vigueur-prelevement-source-2019",
+      "date": "2019-01-01",
+      "title": {
+        "fr": "Entrée en vigueur du prélèvement à la source de l'impôt sur le revenu",
+        "en": "Entry into force of income tax withholding at source"
+      },
+      "summary": {
+        "fr": "L'impôt sur le revenu est désormais **prélevé chaque mois directement sur les salaires, pensions et revenus de remplacement**, au lieu d'être payé l'année suivante. La réforme, votée fin 2016 (article 60 de la loi de finances pour 2017) sous le quinquennat Hollande, avait été **reportée d'un an par l'ordonnance du 22 septembre 2017** pour tester le dispositif ; un crédit d'impôt exceptionnel (CIMR) neutralise l'imposition des revenus courants de 2018 pour éviter une double charge.",
+        "en": "Income tax is now **withheld monthly directly from wages, pensions and replacement income**, instead of being paid the following year. The reform, voted at the end of 2016 (article 60 of the 2017 budget law) under the Hollande presidency, had been **postponed by one year by the ordinance of 22 September 2017** to test the mechanism; an exceptional tax credit (CIMR) cancels tax on ordinary 2018 income to avoid a double burden."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["gerald-darmanin", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035607495",
+          "title": "Ordonnance n° 2017-1390 du 22 septembre 2017 relative au décalage d'un an de l'entrée en vigueur du prélèvement à la source de l'impôt sur le revenu - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033734169",
+          "title": "LOI n° 2016-1917 du 29 décembre 2016 de finances pour 2017 (article 60 instituant le prélèvement à la source) - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lancement-grand-debat-national-2019",
+      "date": "2019-01-13",
+      "title": {
+        "fr": "Lancement du grand débat national (lettre aux Français)",
+        "en": "Launch of the great national debate (letter to the French)"
+      },
+      "summary": {
+        "fr": "En réponse à la crise des gilets jaunes, Emmanuel Macron publie une **lettre aux Français** ouvrant un **grand débat national de deux mois** (15 janvier - 15 mars) autour de quatre thèmes : **fiscalité et dépenses publiques, organisation de l'État, transition écologique, démocratie et citoyenneté**. Plus de 10 000 réunions locales et environ 1,9 million de contributions en ligne alimentent l'exercice, animé notamment par les ministres Sébastien Lecornu et Emmanuelle Wargon.",
+        "en": "In response to the yellow vests crisis, Emmanuel Macron publishes a **letter to the French** opening a **two-month great national debate** (15 January - 15 March) around four themes: **taxation and public spending, organisation of the State, ecological transition, democracy and citizenship**. More than 10,000 local meetings and about 1.9 million online contributions feed the exercise, steered notably by ministers Sébastien Lecornu and Emmanuelle Wargon."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "edouard-philippe", "sebastien-lecornu"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2019/01/13/lettre-aux-francais",
+          "title": "Lettre aux Français du 13 janvier 2019 - Élysée"
+        },
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2019/01/17/tout-savoir-sur-le-grand-debat-national",
+          "title": "Tout savoir sur le grand débat national - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-habilitation-brexit-2019",
+      "date": "2019-01-19",
+      "title": {
+        "fr": "Loi d'habilitation pour préparer un Brexit sans accord",
+        "en": "Enabling law to prepare for a no-deal Brexit"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-30 : elle **habilite le Gouvernement à légiférer par ordonnances** pour parer aux conséquences d'un **retrait du Royaume-Uni de l'Union européenne sans accord** : droits de séjour et d'emploi des Britanniques en France, continuité des services financiers et des transports, contrôles aux frontières et rétablissement des infrastructures douanières. Le projet a été porté par la ministre chargée des Affaires européennes Nathalie Loiseau.",
+        "en": "Law no. 2019-30: it **authorises the Government to legislate by ordinances** to address the consequences of a **no-deal withdrawal of the United Kingdom from the European Union**: residence and employment rights of British nationals in France, continuity of financial services and transport, border controls and rebuilding of customs infrastructure. The bill was carried by European affairs minister Nathalie Loiseau."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038029184",
+          "title": "LOI n° 2019-30 du 19 janvier 2019 habilitant le Gouvernement à prendre par ordonnances les mesures de préparation au retrait du Royaume-Uni de l'Union européenne - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl18-009.html",
+          "title": "Dossier législatif : mesures de préparation au retrait du Royaume-Uni de l'UE - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "signature-traite-aix-la-chapelle-2019",
+      "date": "2019-01-22",
+      "title": {
+        "fr": "Signature du traité franco-allemand d'Aix-la-Chapelle",
+        "en": "Signature of the Franco-German Treaty of Aachen"
+      },
+      "summary": {
+        "fr": "Emmanuel Macron et Angela Merkel signent à Aix-la-Chapelle un **nouveau traité de coopération et d'intégration franco-allemandes**, complément du traité de l'Élysée de 1963 : **clause d'assistance mutuelle en cas d'agression**, convergence économique et sociale, création d'un **comité de coopération transfrontalière**, culture et priorité donnée à l'obtention d'un **siège permanent de l'Allemagne au Conseil de sécurité de l'ONU**.",
+        "en": "Emmanuel Macron and Angela Merkel sign in Aachen a **new treaty on Franco-German cooperation and integration**, complementing the 1963 Élysée Treaty: **mutual assistance clause in case of aggression**, economic and social convergence, creation of a **cross-border cooperation committee**, culture, and priority given to obtaining a **permanent German seat on the UN Security Council**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2019/01/22/signature-du-traite-franco-allemand-d-aix-la-chapelle",
+          "title": "Signature du traité franco-allemand d'Aix-la-Chapelle - Élysée"
+        },
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2019/01/22/projets-prioritaires-pour-la-mise-en-oeuvre-du-traite-daix-la-chapelle",
+          "title": "Projets prioritaires pour la mise en oeuvre du traité d'Aix-la-Chapelle - Élysée"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2019-10",
+  "decisions": [
+    {
+      "id": "lancement-convention-citoyenne-climat-2019",
+      "date": "2019-10-04",
+      "title": {
+        "fr": "Lancement de la Convention citoyenne pour le climat",
+        "en": "Launch of the Citizens' Climate Convention"
+      },
+      "summary": {
+        "fr": "Concrétisant une annonce de sortie du grand débat national, la **Convention citoyenne pour le climat** tient sa première session au CESE : **150 citoyens tirés au sort**, représentatifs de la population, sont chargés par le Premier ministre de définir des mesures pour **réduire les émissions de gaz à effet de serre d'au moins 40 % d'ici 2030** (par rapport à 1990) **dans un esprit de justice sociale**, avec l'engagement que leurs propositions soient soumises \"sans filtre\" au Parlement, à référendum ou appliquées par voie réglementaire.",
+        "en": "Delivering on an announcement made after the great national debate, the **Citizens' Climate Convention** holds its first session at the CESE: **150 randomly selected citizens**, representative of the population, are tasked by the Prime Minister with defining measures to **cut greenhouse gas emissions by at least 40% by 2030** (compared with 1990) **in a spirit of social justice**, with the pledge that their proposals will be put \"unfiltered\" to Parliament, to a referendum or applied by regulation."
+      },
+      "category_ids": ["ecologie", "institutions"],
+      "politician_ids": ["edouard-philippe", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.lecese.fr/content/il-y-un-la-convention-citoyenne-pour-le-climat-se-reunissait-pour-la-premiere-fois-au-cese",
+          "title": "La Convention citoyenne pour le climat se réunissait pour la première fois au CESE - Conseil économique, social et environnemental"
+        },
+        {
+          "url": "https://www.conventioncitoyennepourleclimat.fr/2019/10/04/au-programme-du-premier-week-end-de-travail/",
+          "title": "L'intégralité de la session 1 de la Convention citoyenne pour le climat - site officiel de la Convention"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "annonces-sortie-grand-debat-2019"
+        }
+      ]
+    },
+    {
+      "id": "loi-ratification-traite-aix-la-chapelle-2019",
+      "date": "2019-10-21",
+      "title": {
+        "fr": "Loi autorisant la ratification du traité d'Aix-la-Chapelle",
+        "en": "Law authorising ratification of the Treaty of Aachen"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-1066 : le Parlement **autorise la ratification du traité franco-allemand d'Aix-la-Chapelle** signé le 22 janvier 2019, qui complète le traité de l'Élysée de 1963 par une **clause d'assistance mutuelle**, des objectifs de convergence économique et sociale et une coopération transfrontalière renforcée.",
+        "en": "Law no. 2019-1066: Parliament **authorises ratification of the Franco-German Treaty of Aachen** signed on 22 January 2019, which supplements the 1963 Élysée Treaty with a **mutual assistance clause**, economic and social convergence goals and strengthened cross-border cooperation."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039248462",
+          "title": "LOI n° 2019-1066 du 21 octobre 2019 autorisant la ratification du traité entre la République française et la République fédérale d'Allemagne sur la coopération et l'intégration franco-allemandes - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "signature-traite-aix-la-chapelle-2019"
+        }
+      ]
+    },
+    {
+      "id": "loi-centre-national-musique-2019",
+      "date": "2019-10-30",
+      "title": {
+        "fr": "Loi créant le Centre national de la musique",
+        "en": "Law creating the National Music Centre"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-1100 : elle crée au 1er janvier 2020 le **Centre national de la musique**, établissement public regroupant le Centre national de la chanson, des variétés et du jazz et plusieurs associations de la filière, chargé de **soutenir l'ensemble de la filière musicale** (création, production, diffusion, export) et de percevoir la taxe sur les spectacles de variétés.",
+        "en": "Law no. 2019-1100: it creates on 1 January 2020 the **National Music Centre**, a public establishment merging the national centre for song, variety and jazz with several industry bodies, tasked with **supporting the whole music industry** (creation, production, distribution, export) and collecting the live music tax."
+      },
+      "category_ids": ["culture"],
+      "politician_ids": ["franck-riester"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039295468",
+          "title": "LOI n° 2019-1100 du 30 octobre 2019 relative à la création du Centre national de la musique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl18-482.html",
+          "title": "Dossier législatif : création du Centre national de la musique - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

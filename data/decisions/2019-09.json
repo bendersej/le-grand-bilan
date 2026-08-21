@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2019-09",
+  "decisions": [
+    {
+      "id": "lancement-grenelle-violences-conjugales-2019",
+      "date": "2019-09-03",
+      "title": {
+        "fr": "Lancement du Grenelle des violences conjugales",
+        "en": "Launch of the Grenelle on domestic violence"
+      },
+      "summary": {
+        "fr": "Alors qu'une centaine de féminicides ont déjà été recensés depuis janvier, Édouard Philippe et Marlène Schiappa ouvrent, entourés de onze ministres, le **premier Grenelle des violences conjugales** (3 septembre - 25 novembre), décliné en une centaine de réunions locales. Des **mesures d'urgence** sont annoncées d'emblée : **1 000 places d'hébergement supplémentaires** à partir de janvier 2020, audit des commissariats et gendarmeries, **grille d'évaluation du danger** pour les forces de l'ordre. La clôture, le 25 novembre, débouche sur 30 mesures et nourrit la loi du 28 décembre 2019.",
+        "en": "With about a hundred femicides already recorded since January, Édouard Philippe and Marlène Schiappa, flanked by eleven ministers, open the **first Grenelle on domestic violence** (3 September - 25 November), rolled out through about a hundred local meetings. **Emergency measures** are announced immediately: **1,000 additional shelter places** from January 2020, an audit of police stations, and a **danger assessment grid** for law enforcement. The closing session on 25 November yields 30 measures and feeds the law of 28 December 2019."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["marlene-schiappa", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.justice.gouv.fr/actualites/actualite/edouard-philippe-ouvre-grenelle-violences-conjugales",
+          "title": "Édouard Philippe ouvre le Grenelle des violences conjugales - Ministère de la Justice"
+        },
+        {
+          "url": "https://www.egalite-femmes-hommes.gouv.fr/sites/efh/files/migration/2019/09/Dossier_de_presse_Grenelle_contre.pdf",
+          "title": "Dossier de presse du Grenelle contre les violences conjugales, 3 septembre 2019 (PDF) - Secrétariat d'État chargé de l'égalité entre les femmes et les hommes"
+        },
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2019/09/03/victime-de-violences-conjugales-sachez-que-vous-netes-pas-seul-e",
+          "title": "Victime de violences conjugales : sachez que vous n'êtes pas seul(e) - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "ordonnance-code-justice-penale-mineurs-2019",
+      "date": "2019-09-11",
+      "title": {
+        "fr": "Ordonnance créant le code de la justice pénale des mineurs",
+        "en": "Ordinance creating the juvenile criminal justice code"
+      },
+      "summary": {
+        "fr": "Ordonnance n° 2019-950, prise sur l'habilitation de la loi justice de mars 2019 : elle **remplace l'ordonnance fondatrice du 2 février 1945** sur l'enfance délinquante par un **code de la justice pénale des mineurs**. Le texte pose une **présomption de non-discernement en dessous de 13 ans**, instaure une procédure en deux temps (jugement sur la culpabilité en moins de trois mois, puis sanction après une période de mise à l'épreuve éducative) et réaffirme la primauté de l'éducatif sur le répressif. L'entrée en vigueur, prévue en 2020, sera repoussée au 30 septembre 2021.",
+        "en": "Ordinance no. 2019-950, taken under the March 2019 justice law's authorisation: it **replaces the founding ordinance of 2 February 1945** on juvenile delinquency with a **juvenile criminal justice code**. The text sets a **presumption of non-discernment under age 13**, creates a two-stage procedure (guilt ruling within three months, then sanction after an educational probation period) and reaffirms the primacy of education over punishment. Entry into force, planned for 2020, is later pushed back to 30 September 2021."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["nicole-belloubet", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039085102",
+          "title": "Ordonnance n° 2019-950 du 11 septembre 2019 portant partie législative du code de la justice pénale des mineurs - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "loi-programmation-reforme-justice-2019"
+        }
+      ]
+    }
+  ]
+}

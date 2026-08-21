@@ -1,0 +1,150 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2019-12",
+  "decisions": [
+    {
+      "id": "presentation-reforme-retraites-cese-2019",
+      "date": "2019-12-11",
+      "title": {
+        "fr": "Présentation de la réforme des retraites au CESE (âge pivot à 64 ans)",
+        "en": "Presentation of the pension reform at the CESE (pivot age of 64)"
+      },
+      "summary": {
+        "fr": "Au septième jour d'une **grève massive engagée le 5 décembre** dans les transports, Édouard Philippe détaille au CESE l'architecture du **système universel de retraite par points** : application progressive à partir de la **génération 1975**, âge légal maintenu à 62 ans mais **âge d'équilibre (pivot) à 64 ans dès 2027** avec bonus-malus, minimum de pension de 1 000 euros et extinction progressive des régimes spéciaux. L'âge pivot cristallise l'opposition de la CFDT et prolonge le conflit social ; Jean-Paul Delevoye, mis en cause pour des omissions dans sa déclaration d'intérêts, démissionne le 16 décembre.",
+        "en": "On the seventh day of a **massive strike started on 5 December** in public transport, Édouard Philippe details at the CESE the architecture of the **universal points-based pension system**: progressive application from the **1975 generation**, legal age kept at 62 but an **equilibrium (pivot) age of 64 from 2027** with a bonus-malus, a 1,000 euro minimum pension and the phasing-out of special schemes. The pivot age crystallises the CFDT's opposition and prolongs the strike; Jean-Paul Delevoye, under fire for omissions in his interests declaration, resigns on 16 December."
+      },
+      "category_ids": ["retraites"],
+      "politician_ids": ["edouard-philippe", "jean-paul-delevoye"],
+      "sources": [
+        {
+          "url": "https://www.lecese.fr/content/systeme-universel-des-retraites-allocution-du-premier-ministre-edouard-philippe",
+          "title": "Système universel des retraites : allocution du Premier ministre Édouard Philippe - Conseil économique, social et environnemental"
+        },
+        {
+          "url": "https://www.guadeloupe.gouv.fr/Outils/Listes/Salle-de-presse/Communiques-de-presse-gouvernement/Archives-2019/11-decembre-Discours-de-M.-Edouard-PHILIPPE-Premier-ministre-Presentation-du-systeme-universel-de-retraite-au-CESE",
+          "title": "Discours d'Édouard Philippe : présentation du système universel de retraite au CESE, 11 décembre 2019 - Services de l'État en Guadeloupe"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "rapport-delevoye-retraites-2019"
+        }
+      ]
+    },
+    {
+      "id": "loi-orientation-mobilites-2019",
+      "date": "2019-12-24",
+      "title": {
+        "fr": "Loi d'orientation des mobilités (LOM)",
+        "en": "Mobility orientation law (LOM)"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-1428, portée par Élisabeth Borne depuis 2017 : elle fixe la **fin des ventes de voitures thermiques neuves en 2040**, généralise les **autorités organisatrices de la mobilité** pour couvrir tout le territoire, crée le **forfait mobilités durables** (jusqu'à 400 euros pour vélo et covoiturage), encadre les trottinettes en libre-service, permet les **zones à faibles émissions** et programme 13,4 milliards d'euros d'investissements dans les transports du quotidien. Le Conseil constitutionnel (décision n° 2019-794 DC) censure notamment une partie du dispositif de **charte sociale des plateformes** de VTC et de livraison.",
+        "en": "Law no. 2019-1428, carried by Élisabeth Borne since 2017: it sets the **end of new combustion-engine car sales in 2040**, generalises **mobility organising authorities** to cover the whole country, creates the **sustainable mobility allowance** (up to 400 euros for cycling and carpooling), regulates shared e-scooters, enables **low-emission zones** and programmes 13.4 billion euros of investment in everyday transport. The Constitutional Council (decision no. 2019-794 DC) notably strikes down part of the **social charter scheme for ride-hailing and delivery platforms**."
+      },
+      "category_ids": ["ecologie", "economie"],
+      "politician_ids": ["elisabeth-borne", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039666574",
+          "title": "LOI n° 2019-1428 du 24 décembre 2019 d'orientation des mobilités - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl18-157.html",
+          "title": "Dossier législatif : orientation des mobilités - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2019/2019794DC.htm",
+          "title": "Décision n° 2019-794 DC du 20 décembre 2019 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-engagement-proximite-2019",
+      "date": "2019-12-27",
+      "title": {
+        "fr": "Loi engagement et proximité (pouvoirs des maires)",
+        "en": "Engagement and proximity law (mayors' powers)"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-1461, adoptée avant les élections municipales de 2020 : elle **renforce les pouvoirs de police des maires** (astreintes, amendes administratives contre les infractions d'urbanisme ou les débits de boissons), **revalorise les indemnités des maires des petites communes** et leurs droits à formation, facilite la conciliation du mandat avec la vie professionnelle et assouplit le fonctionnement des intercommunalités, notamment sur le transfert des compétences eau et assainissement.",
+        "en": "Law no. 2019-1461, adopted ahead of the 2020 municipal elections: it **strengthens mayors' policing powers** (daily penalties, administrative fines against planning offences or drinking establishments), **raises the allowances of small-town mayors** and their training rights, makes the mandate easier to combine with a job and loosens the workings of intermunicipal bodies, notably on water and sanitation competences."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["sebastien-lecornu", "jacqueline-gourault", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039681877",
+          "title": "LOI n° 2019-1461 du 27 décembre 2019 relative à l'engagement dans la vie locale et à la proximité de l'action publique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl18-677.html",
+          "title": "Dossier législatif : engagement et proximité - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-de-finances-2020",
+      "date": "2019-12-28",
+      "title": {
+        "fr": "Budget 2020 : baisse de l'impôt sur le revenu et fin de la taxe d'habitation",
+        "en": "2020 budget: income tax cut and end of the housing tax"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-1479 de finances pour 2020, traduction budgétaire des annonces de sortie du grand débat : **baisse d'environ 5 milliards d'euros de l'impôt sur le revenu** (première tranche ramenée de 14 % à 11 %, au bénéfice d'environ 17 millions de foyers), **suppression totale de la taxe d'habitation sur la résidence principale pour 80 % des foyers en 2020** et extinction programmée pour tous en 2023, poursuite de la baisse de l'impôt sur les sociétés et déficit prévu à 2,2 % du PIB.",
+        "en": "Budget law no. 2019-1479 for 2020, the budgetary translation of the post-debate announcements: an **income tax cut of about 5 billion euros** (first bracket lowered from 14% to 11%, benefiting about 17 million households), **complete abolition of the main-residence housing tax for 80% of households in 2020** with full phase-out by 2023, continued corporate tax cuts and a planned deficit of 2.2% of GDP."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["gerald-darmanin", "bruno-le-maire", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039683923",
+          "title": "LOI n° 2019-1479 du 28 décembre 2019 de finances pour 2020 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2020.html",
+          "title": "Dossier législatif : budget 2020 - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "annonces-sortie-grand-debat-2019"
+        }
+      ]
+    },
+    {
+      "id": "loi-violences-famille-2019",
+      "date": "2019-12-28",
+      "title": {
+        "fr": "Loi contre les violences au sein de la famille (bracelet anti-rapprochement)",
+        "en": "Law against violence within the family (anti-approach bracelet)"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-1480, issue d'une proposition du député Aurélien Pradié enrichie par les travaux du Grenelle : elle impose la délivrance de l'**ordonnance de protection en six jours** maximum, sans exiger de plainte préalable, généralise le **bracelet anti-rapprochement** imposable au conjoint violent, élargit le **téléphone grave danger**, permet d'attribuer le logement du couple à la victime et développe le relogement des victimes.",
+        "en": "Law no. 2019-1480, from a bill by MP Aurélien Pradié enriched by the Grenelle's work: it requires **protection orders to be issued within six days** without requiring a prior criminal complaint, generalises the **anti-approach electronic bracelet** for violent partners, expands the **serious danger phone**, allows the couple's home to be assigned to the victim and develops victim rehousing."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["nicole-belloubet", "marlene-schiappa", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039684243",
+          "title": "LOI n° 2019-1480 du 28 décembre 2019 visant à agir contre les violences au sein de la famille - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl19-057.html",
+          "title": "Dossier législatif : agir contre les violences au sein de la famille - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "lancement-grenelle-violences-conjugales-2019"
+        }
+      ]
+    }
+  ]
+}

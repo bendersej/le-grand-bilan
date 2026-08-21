@@ -1,0 +1,162 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2019-07",
+  "decisions": [
+    {
+      "id": "rapport-delevoye-retraites-2019",
+      "date": "2019-07-18",
+      "title": {
+        "fr": "Remise du rapport Delevoye sur le système universel de retraite",
+        "en": "Delivery of the Delevoye report on the universal pension system"
+      },
+      "summary": {
+        "fr": "Le haut-commissaire Jean-Paul Delevoye remet au Premier ministre ses préconisations pour un **système universel de retraite par points** remplaçant les **42 régimes existants** : mêmes règles pour tous jusqu'à 120 000 euros de revenus annuels, âge légal maintenu à 62 ans mais **âge du taux plein commun à 64 ans**, minimum de retraite à 85 % du SMIC net et application projetée à partir de la génération 1963. Ce rapport sert de socle au projet de loi présenté en 2020.",
+        "en": "High commissioner Jean-Paul Delevoye hands the Prime Minister his recommendations for a **universal points-based pension system** replacing the **42 existing schemes**: identical rules for all up to 120,000 euros of annual income, legal age kept at 62 but a **common full-rate age of 64**, a minimum pension at 85% of the net minimum wage and projected application from the 1963 generation. The report is the basis of the bill presented in 2020."
+      },
+      "category_ids": ["retraites"],
+      "politician_ids": ["jean-paul-delevoye", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.cor-retraites.fr/sites/default/files/2019-06/doc-4643.pdf",
+          "title": "Pour un système universel de retraite : préconisations de Jean-Paul Delevoye, haut-commissaire à la réforme des retraites, juillet 2019 (PDF) - Conseil d'orientation des retraites"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "taxe-gafa-2019",
+      "date": "2019-07-24",
+      "title": {
+        "fr": "Taxe GAFA sur les services numériques",
+        "en": "GAFA tax on digital services"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-759 : la France crée, sans attendre un accord international, une **taxe de 3 % sur le chiffre d'affaires** tiré de la publicité ciblée et de l'intermédiation en ligne, due par les entreprises numériques réalisant plus de **750 millions d'euros de chiffre d'affaires mondial** dont 25 millions en France (une trentaine de groupes, environ 400 millions d'euros attendus en 2019). La loi module aussi la trajectoire de baisse de l'impôt sur les sociétés pour les grandes entreprises. Washington menace en retour de taxer des produits français.",
+        "en": "Law no. 2019-759: without waiting for an international agreement, France creates a **3% tax on revenue** from targeted advertising and online intermediation, owed by digital companies with over **750 million euros of worldwide revenue** including 25 million in France (about thirty groups, around 400 million euros expected in 2019). The law also adjusts the corporate tax reduction path for large companies. Washington threatens retaliatory tariffs on French products."
+      },
+      "category_ids": ["economie", "numerique"],
+      "politician_ids": ["bruno-le-maire", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038811588",
+          "title": "LOI n° 2019-759 du 24 juillet 2019 portant création d'une taxe sur les services numériques et modification de la trajectoire de baisse de l'impôt sur les sociétés - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl18-452.html",
+          "title": "Dossier législatif : création d'une taxe sur les services numériques - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-sante-2019",
+      "date": "2019-07-24",
+      "title": {
+        "fr": "Loi santé : fin du numerus clausus",
+        "en": "Health law: end of the numerus clausus"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-774 relative à l'organisation et à la transformation du système de santé (\"Ma santé 2022\") : elle **supprime le numerus clausus et le concours de la PACES** à compter de la rentrée 2020 pour augmenter le nombre de médecins formés, labellise **500 à 600 hôpitaux de proximité**, crée l'**espace numérique de santé** ouvert à chaque usager et développe le recours à la télémédecine et aux projets territoriaux de santé.",
+        "en": "Law no. 2019-774 on the organisation and transformation of the health system (\"Ma santé 2022\"): it **abolishes the numerus clausus and the PACES entrance exam** from the 2020 academic year to train more doctors, labels **500 to 600 local hospitals**, creates a **digital health space** for every user and expands telemedicine and territorial health projects."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["agnes-buzyn", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038821260",
+          "title": "LOI n° 2019-774 du 24 juillet 2019 relative à l'organisation et à la transformation du système de santé - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl18-404.html",
+          "title": "Dossier législatif : organisation du système de santé - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-ecole-de-la-confiance-2019",
+      "date": "2019-07-26",
+      "title": {
+        "fr": "Loi pour une école de la confiance (instruction obligatoire à 3 ans)",
+        "en": "Law for a school of trust (compulsory schooling at 3)"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-791 : elle abaisse l'**instruction obligatoire de 6 à 3 ans** dès la rentrée 2019 (une première depuis 1882) et crée une **obligation de formation des 16-18 ans** à compter de 2020. Elle transforme les ESPE en **instituts nationaux supérieurs du professorat (INSPE)**, renforce l'**école inclusive** (pôles d'appui à la scolarisation des élèves handicapés) et impose l'affichage des drapeaux et des paroles de La Marseillaise dans les salles de classe.",
+        "en": "Law no. 2019-791: it lowers **compulsory schooling from age 6 to age 3** from September 2019 (a first since 1882) and creates a **training obligation for 16-18 year olds** from 2020. It turns teacher-training schools into **national teaching institutes (INSPE)**, strengthens **inclusive schooling** (support hubs for pupils with disabilities) and requires flags and the words of the Marseillaise to be displayed in classrooms."
+      },
+      "category_ids": ["education"],
+      "politician_ids": ["jean-michel-blanquer", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038829065",
+          "title": "LOI n° 2019-791 du 26 juillet 2019 pour une école de la confiance - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl18-323.html",
+          "title": "Dossier législatif : pour une école de la confiance - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "reforme-assurance-chomage-2019",
+      "date": "2019-07-26",
+      "title": {
+        "fr": "Réforme de l'assurance chômage par décrets",
+        "en": "Unemployment insurance reform by decree"
+      },
+      "summary": {
+        "fr": "Après l'échec de la négociation entre partenaires sociaux, le Gouvernement réforme l'assurance chômage par décrets : il faut désormais avoir travaillé **6 mois sur les 24 derniers** (au lieu de 4 sur 28) pour ouvrir des droits, les cadres ayant gagné plus de 4 500 euros bruts subissent une **dégressivité de 30 % de l'allocation à partir du 7e mois**, un **bonus-malus** sur les contrats courts est instauré dans sept secteurs, et l'indemnisation est ouverte sous conditions aux **démissionnaires et aux indépendants**. L'essentiel entre en vigueur au 1er novembre 2019.",
+        "en": "After talks between social partners failed, the Government reforms unemployment insurance by decree: claimants must now have worked **6 of the last 24 months** (instead of 4 of 28) to open rights, executives who earned over 4,500 euros gross face a **30% benefit reduction from the 7th month**, a **bonus-malus** on short contracts is created in seven sectors, and benefits are opened under conditions to **resigning employees and the self-employed**. Most measures take effect on 1 November 2019."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["muriel-penicaud", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038829574",
+          "title": "Décret n° 2019-797 du 26 juillet 2019 relatif au régime d'assurance chômage - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038829474",
+          "title": "Décret n° 2019-796 du 26 juillet 2019 relatif aux nouveaux droits à indemnisation, à diverses mesures relatives aux travailleurs privés d'emploi et à l'expérimentation d'un journal de la recherche d'emploi - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "declaration-politique-generale-acte-2-2019"
+        }
+      ]
+    },
+    {
+      "id": "loi-restauration-notre-dame-2019",
+      "date": "2019-07-29",
+      "title": {
+        "fr": "Loi pour la restauration de Notre-Dame de Paris",
+        "en": "Law for the restoration of Notre-Dame de Paris"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-803 : elle organise la **souscription nationale** ouverte après l'incendie du 15 avril, porte la **réduction d'impôt à 66 %, ou 75 % jusqu'à 1 000 euros de dons** versés en 2019, crée un **établissement public de l'État chargé de la conservation et de la restauration** de la cathédrale et autorise le Gouvernement à déroger par ordonnances à certaines règles de marchés publics et d'urbanisme pour tenir l'objectif de reconstruction en cinq ans.",
+        "en": "Law no. 2019-803: it organises the **national subscription** opened after the 15 April fire, sets the **tax reduction at 66%, or 75% for donations up to 1,000 euros** made in 2019, creates a **state public establishment in charge of the conservation and restoration** of the cathedral and lets the Government derogate by ordinance from certain procurement and planning rules to meet the five-year rebuilding goal."
+      },
+      "category_ids": ["culture"],
+      "politician_ids": ["franck-riester", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038843049",
+          "title": "LOI n° 2019-803 du 29 juillet 2019 pour la conservation et la restauration de la cathédrale Notre-Dame de Paris et instituant une souscription nationale à cet effet - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl18-492.html",
+          "title": "Dossier législatif : restauration et conservation de Notre-Dame de Paris - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "engagement-reconstruction-notre-dame-2019"
+        }
+      ]
+    }
+  ]
+}

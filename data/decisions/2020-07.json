@@ -105,7 +105,16 @@
           "title": "Dossier législatif : protéger les victimes de violences conjugales - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "lancement-grenelle-violences-conjugales-2019"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-violences-famille-2019"
+        }
+      ]
     },
     {
       "id": "loi-finances-rectificative-juillet-2020",

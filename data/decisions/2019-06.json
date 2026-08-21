@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2019-06",
+  "decisions": [
+    {
+      "id": "ordonnance-groupe-sncf-2019",
+      "date": "2019-06-03",
+      "title": {
+        "fr": "Ordonnance organisant le nouveau groupe SNCF",
+        "en": "Ordinance organising the new SNCF group"
+      },
+      "summary": {
+        "fr": "Ordonnance n° 2019-552, prise en application du nouveau pacte ferroviaire de 2018 : au 1er janvier 2020, la SNCF devient un **groupe public unifié de sociétés anonymes** (SNCF, SNCF Réseau, SNCF Voyageurs), en remplacement des trois établissements publics, et l'**embauche au statut de cheminot prend fin** à la même date, dans la perspective de l'ouverture à la concurrence du transport ferroviaire de voyageurs.",
+        "en": "Ordinance no. 2019-552, implementing the 2018 rail pact: on 1 January 2020 SNCF becomes a **unified public group of limited companies** (SNCF, SNCF Réseau, SNCF Voyageurs) replacing the three public establishments, and **hiring under the special railway workers' status ends** on the same date, ahead of the opening of passenger rail to competition."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["elisabeth-borne", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000038543643",
+          "title": "Ordonnance n° 2019-552 du 3 juin 2019 portant diverses dispositions relatives au groupe SNCF - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "declaration-politique-generale-acte-2-2019",
+      "date": "2019-06-12",
+      "title": {
+        "fr": "Déclaration de politique générale de l'acte II du quinquennat",
+        "en": "General policy statement opening act II of the presidential term"
+      },
+      "summary": {
+        "fr": "Deux mois après la fin du grand débat national, Édouard Philippe engage la responsabilité de son Gouvernement et obtient la confiance de l'Assemblée nationale (**363 voix pour, 163 contre**). Il fixe le cap de l'acte II : **réforme de l'assurance chômage** par décrets dès l'été, réforme des retraites par un **système universel**, priorité à la **transition écologique**, réforme de la fonction publique et nouvel acte de décentralisation.",
+        "en": "Two months after the end of the great national debate, Édouard Philippe stakes his Government's responsibility and wins the National Assembly's confidence (**363 votes for, 163 against**). He sets the course for act II: an **unemployment insurance reform** by decree that summer, a **universal pension system**, priority to the **ecological transition**, civil service reform and a new round of decentralisation."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/15/comptes-rendus/seance/session-ordinaire-de-2018-2019/premiere-seance-du-mercredi-12-juin-2019",
+          "title": "Compte rendu de la première séance du mercredi 12 juin 2019 (déclaration de politique générale) - Assemblée nationale"
+        },
+        {
+          "url": "https://www.prefectures-regions.gouv.fr/content/download/59188/389419/file/D%C3%A9claration%20de%20politique%20g%C3%A9n%C3%A9rale%20-%20Discours%20de%20M.%20%C3%89douard%20PHILIPPE%20Premier%20ministre%20-%20S%C3%A9nat%20-%2013.06.2019.pdf",
+          "title": "Déclaration de politique générale, discours d'Édouard Philippe au Sénat le 13 juin 2019 (PDF) - Préfectures de région"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "annonces-sortie-grand-debat-2019"
+        }
+      ]
+    }
+  ]
+}

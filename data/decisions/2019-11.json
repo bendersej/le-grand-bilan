@@ -1,0 +1,57 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2019-11",
+  "decisions": [
+    {
+      "id": "loi-energie-climat-2019",
+      "date": "2019-11-08",
+      "title": {
+        "fr": "Loi énergie-climat : urgence climatique et neutralité carbone 2050",
+        "en": "Energy-climate law: climate emergency and 2050 carbon neutrality"
+      },
+      "summary": {
+        "fr": "Loi n° 2019-1147 : elle inscrit dans la loi l'**urgence écologique et climatique** et l'objectif de **neutralité carbone en 2050**, prévoit la **fermeture des quatre dernières centrales à charbon d'ici 2022** (par plafonnement de leurs émissions), reporte de 2025 à **2035 la réduction à 50 % de la part du nucléaire**, organise l'extinction des **tarifs réglementés du gaz** et engage la rénovation des **passoires thermiques** avec des obligations progressives pour les propriétaires. Elle consacre aussi le **Haut Conseil pour le climat**. Le projet avait été présenté par François de Rugy avant sa démission, Élisabeth Borne l'a mené jusqu'à la promulgation.",
+        "en": "Law no. 2019-1147: it writes the **ecological and climate emergency** into law along with **carbon neutrality by 2050**, plans the **closure of the last four coal plants by 2022** (through emission caps), postpones from 2025 to **2035 the reduction of nuclear power to 50%** of the mix, phases out **regulated gas tariffs** and starts the renovation of **energy-sieve housing** with progressive obligations on owners. It also enshrines the **High Council for the Climate**. The bill was presented by François de Rugy before his resignation; Élisabeth Borne carried it to promulgation."
+      },
+      "category_ids": ["ecologie", "energie"],
+      "politician_ids": ["elisabeth-borne", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000039355955",
+          "title": "LOI n° 2019-1147 du 8 novembre 2019 relative à l'énergie et au climat - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl18-622.html",
+          "title": "Dossier législatif : énergie et climat - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "plan-urgence-hopital-2019",
+      "date": "2019-11-20",
+      "title": {
+        "fr": "Plan d'urgence pour l'hôpital public (Investir pour l'hôpital)",
+        "en": "Emergency plan for public hospitals (Investing in the hospital)"
+      },
+      "summary": {
+        "fr": "Après huit mois de grève des services d'urgences et une mobilisation des personnels hospitaliers, Édouard Philippe et Agnès Buzyn présentent le plan **\"Investir pour l'hôpital\"** : **1,5 milliard d'euros supplémentaires sur trois ans**, **reprise par l'État de 10 milliards d'euros de dette hospitalière** pour redonner des marges d'investissement, prime annuelle de 800 euros pour les aides-soignants et infirmiers d'Île-de-France gagnant moins de 1 900 euros nets et primes d'attractivité, et relèvement de l'objectif national de dépenses d'assurance maladie.",
+        "en": "After eight months of strikes in emergency departments and hospital staff mobilisation, Édouard Philippe and Agnès Buzyn present the **\"Investing in the hospital\"** plan: an **additional 1.5 billion euros over three years**, the **State taking over 10 billion euros of hospital debt** to restore investment capacity, an annual 800 euro bonus for Île-de-France nurses and care assistants earning under 1,900 euros net plus attractiveness bonuses, and a raised national health spending target."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["edouard-philippe", "agnes-buzyn"],
+      "sources": [
+        {
+          "url": "https://www.prefectures-regions.gouv.fr/normandie/content/download/63720/418157/file/Mesures%20h%C3%B4pital%202020-2022%20DP_V19.pdf",
+          "title": "Dossier de presse \"Investir pour l'hôpital\", 20 novembre 2019 (PDF) - Préfectures de région"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-sante-2019"
+        }
+      ]
+    }
+  ]
+}
