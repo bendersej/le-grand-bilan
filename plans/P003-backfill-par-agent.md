@@ -188,6 +188,21 @@ Outcome: 32 new decisions spanning fin de quinquennat Hollande (égalité et cit
 
 Corpus now covers 2017-2026 continuously (355 decisions). Next: 2016 backwards.
 
+## Learnings round 11 (batch 2016, ran 2026-08-21)
+
+Outcome: 31 new decisions across all 12 months of the fin-de-quinquennat Hollande year (loi santé, Claeys-Leonetti, gaspillage alimentaire, quatre prorogations de l'état d'urgence + abandon de la déchéance, la loi travail seed intacte reliée à son 49.3, biodiversité, République numérique, fichier TES, démantèlement de Calais, non-candidature de Hollande, gouvernement Cazeneuve, Sapin 2, LFI 2017 avec le prélèvement à la source), 9 politicians added with full profiles, 5 extended backwards (Macron à l'Économie 2014-2016, Cazeneuve à l'Intérieur, Le Drian à la Défense...), no new categories, cross-year relations wired both directions into 2017/2019/2020/2022/2026 files. Review gate passed (7/7 sampled sources exact across Légifrance, Sénat, CC and Élysée; 506 pages, 388 decisions, 116 politicians). One editorial neutralization at review ("déchirements politiques" → "débats", FR + EN). No stall.
+
+- First `bot_walled` entries ever shipped (2 interieur.gouv.fr archive URLs on the Calais operation), which exposed a smoketest gap: it expected EVERY source URL in the rendered panel while bot_walled sources are unrendered by design. Fixed in `scripts/smoketest.ts` at the gate.
+- elysee.fr hosts the FULL archive of past presidents' declarations (`/francois-hollande/YYYY/MM/DD/…`, ~15k sitemap URLs): the anchor for pre-2017 announcement decisions. Now in the skill.
+- Legacy AN dossier pages (`/14/dossiers/*.asp`) are curl-fine but Windows-1252: decode cp1252 before grepping accents. Now in the skill.
+- CNCDH avis published at the JO (with figures) + defenseurdesdroits.fr PDFs anchor operations whose ministry pages are bot-walled. Now in the skill.
+- The Sénat index prints recurring acts with identical titles (five prorogation dossiers): disambiguate by promulgation date on the dossier page. Now in the skill.
+- Confirmed as documented: JO issue counting skips holidays, Wikimedia 3-captures-per-run throughput.
+- Flagged, untouched: `myriam-el-khomri` mandate ends 2017-05-10 while the other Cazeneuve ministers end 2017-05-17 — check the fin-de-fonctions décret in a later pass.
+- Candidate 2015 backward relations recorded in the batch report (COP21, déclaration + 1re prorogation de l'état d'urgence de novembre 2015, Congrès de Versailles, loi Rebsamen, loi renseignement, nomination El Khomri).
+
+Next: 2015.
+
 ## HANDOVER STATE (2026-08-21, end of session)
 
 - Working tree CLEAN, everything committed and pushed through `[P003] docs: round-10 learnings`; CI green; live site verified (spot checks incl. discours-sorbonne-2017 and the red missing_sources caveats). No background agent is running.
