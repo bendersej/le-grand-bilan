@@ -269,6 +269,20 @@ Outcome: 43 decisions across all 12 months of the double-transition year (LFR1 T
 
 Next: 2011.
 
+## Learnings round 16 (batch 2011, ran 2026-08-21)
+
+Outcome: 36 decisions across all 12 months of the last full Sarkozy/Fillon year (suppression des avoués, Copé-Zimmermann, LOPPSI 2 + censure, Libye/Harmattan + Licorne, Défenseur des droits, garde à vue post-QPC, circulaire Guéant, loi Besson, remaniements de février et juin, bioéthique, psychiatrie, interdiction de la fracturation hydraulique puis abrogation des trois permis, fin du bouclier fiscal, plans anti-déficit d'août et de novembre, sommets zone euro de juillet/octobre/décembre, garantie Dexia, G20 Cannes, LF/LFSS 2012, loi médicament post-Mediator), 7 politicians added with full profiles (Juppé, Longuet, Bertrand, NKM, Copé, Zimmermann, Mitterrand), no mandate extensions needed, no new categories. One `bot_walled` source (déclaration Fillon du 7 novembre sur discours.vie-publique.fr) paired with verified anchors; the 24 August plan anchored via the Sénat LFR2 rapport (canonical gouvernement.fr URL dead). Nine cross-year edges wired on 2012/2013 acting sides (abrogation Guéant `repeals`, loyers 2012 `repeals` le décret 2011 vérifié à l'article 8, TSCG/MES `implements` leurs Conseils européens, bioéthique/psychiatrie `amends` depuis 2013). Review gate passed: verify:sources sur les fichiers modifiés = 111 sources, 0 mismatch, 0 unreachable; 5/5 sampled walled Légifrance URLs web-fetch-verified exact; 726 pages, 573 decisions, 151 politicians. No stall, no neutrality edits.
+
+- The Sénat index's "parue au JO n°X" line can truncate mid-sentence and silently lose the issue number: fallback = sommaire probe at promulgation date + 1-2 days. In the skill.
+- JO interpolation drifts ±1 AFTER holiday clusters, not just around them. Skill bullet hardened.
+- Sénat scrutin URLs use the SESSION year (`scrutin-public/2010/` for a July 2011 vote). In the skill.
+- Sénat `-syn.pdf` syntheses don't exist before ~2012; the `_mono.html` full rapport is the era equivalent, and the commission des finances rapport on the implementing LFR is the standard anchor for Fillon-era announcement plans. In the skill.
+- press.un.org is Client-Challenge-walled (200 + challenge page): UN resolutions anchor via elysee.fr instead. In the skill.
+- elysee.fr Sarkozy archive was complete and untruncated for 2011 (nine summit/intervention pages, all full text).
+- Candidate 2010 backward relations recorded in the batch report (LFSS 2012 amends la réforme des retraites 2010, série annuelle des décrets loyers, bouclier fiscal/TEPA hors périmètre 2010, Défenseur des droits implements la révision de 2008).
+
+Next: 2010.
+
 ## HANDOVER STATE (2026-08-21, end of session)
 
 - Working tree CLEAN, everything committed and pushed through `[P001] feat: rename politician route slug to responsables`; CI green; live site verified (2014 entries up, `/responsables/` slug serving, old `/politiciens/` 404s by design, "Abroge" labels rendering). No background agent is running.
