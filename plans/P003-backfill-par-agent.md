@@ -162,3 +162,15 @@ Shipped alongside: the missing_sources policy (registry now surfaces unsourceabl
 - Playwright probe of the bot walls: headless Chromium gets vie-publique.fr to render (with cookie-banner handling it could machine-verify it), but sante.gouv.fr (Cegedim WAF "Request Rejected") and info.gouv.fr/consilium (Cloudflare challenge) block it. Human verification stays the plan for bot_walled sources.
 
 Next: 2018, then 2017 (extend around the 2017-09 seed, never duplicate it).
+
+## Learnings round 9 (batch 2018, ran 2026-08-21)
+
+Outcome: 38 decisions across Philippe year 2 and the gilets-jaunes autumn (abandon NDDL, Parcoursup, ratification des ordonnances travail reliée au seed 2017-09, frappes Syrie, 80 km/h, RGPD, pacte ferroviaire, Schiappa, asile-immigration, EGalim, ELAN, fake news + CC, moratoire taxe carbone, allocution du 10 décembre, loi MUES, LFI 2019), 5 politicians added (Hulot, Collomb, Flessel, Guillaume, Girardin), Denormandie extended, no new categories, no missing_sources/bot_walled needed. Cross-year relations wired into seven 2019 files and the 2017-09 seed. Review gate passed (5/5 sampled sources exact incl. the composition décret and the AN compte rendu; 423 pages, 323 decisions, 98 politicians). No stall.
+
+- JO sommaire promoted to THE primary harvesting route for laws (search demoted to décrets): ~20 error-free harvests when seeded with the Sénat index's printed issue numbers.
+- prefectures-regions.gouv.fr turned Cloudflare-walled a day after round 8 declared it reliable: bot walls move, mirror claims need per-run re-verification (skill updated with that caveat). interieur.gouv.fr and cipdr.gouv.fr are fully walled: the ZAD evacuation, PSQ and plan radicalisation stayed out (candidates for missing_sources or a human pass).
+- archive-2017-2022.ecologie.gouv.fr preserves the era's rotted ministry press URLs; AN "déclaration du Gouvernement" compte-rendu pages anchor no-JO announcements.
+- Reshuffle mechanics: resignation acceptance and successor nomination can be separate décrets weeks apart; date by the successor décret, name the resignation date in the summary.
+- Headline figures absent from the cited source are dropped (two press-memory numbers died that way). Now a general rule in the skill.
+
+Next: 2017.
