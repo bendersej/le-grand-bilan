@@ -187,3 +187,11 @@ Outcome: 32 new decisions spanning fin de quinquennat Hollande (égalité et cit
 - Election/transition thinness extends beyond March-July (April 2017 = 1 decision): the 2-6 floor yields to significance, stated in the backfill skill.
 
 Corpus now covers 2017-2026 continuously (355 decisions). Next: 2016 backwards.
+
+## HANDOVER STATE (2026-08-21, end of session)
+
+- Working tree CLEAN, everything committed and pushed through `[P003] docs: round-10 learnings`; CI green; live site verified (spot checks incl. discours-sorbonne-2017 and the red missing_sources caveats). No background agent is running.
+- Shipped this session: batches 2022→2017 (217 decisions, six review gates, learnings rounds 5-10 folded into the skills), the `missing_sources` model (3 entries live: réquisitions raffineries, Ocean Viking, rappel AUKUS avec URL MEAE expirée) and the `bot_walled` source flag (no entries yet), the month/year date picker on timeline markers, and the static-header/scroll-container + mobile marker UI fixes ([P001] commits).
+- Next backfill run: 2016 (backfill-year skill; scale marks updated; extend around the 2016-08 loi-travail seed). Candidate 2016 relations are listed in Learnings round 10; candidate missing_sources/human-pass items in round 9 (ZAD, PSQ, plan radicalisation) plus Brexit-via-EUR-Lex and Ouagadougou (anchors the 2020 restitution law).
+- P002 marked Completed this session; its follow-ups (INA media source, appearance `t=` offsets, CI-side R2 asset check, EN profile summaries) are carried here under the appearances expansion.
+- Watch item (P001): the registry ships fully in the client bundle; at 355 decisions and growing toward 1958, route-level data splitting is due soon.

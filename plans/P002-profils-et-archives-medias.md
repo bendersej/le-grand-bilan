@@ -1,7 +1,7 @@
 # P002 - Profils des décisionnaires et archives médias
 
 **Type:** FEATURE
-**Status:** Backlog
+**Status:** Completed
 
 ## Overview
 
@@ -44,10 +44,7 @@ Politician profile modal: photo, summary, Wikipedia link, appearances list with 
 
 ## Remaining Work
 
-- INA as a media source (only YouTube handled by yt-dlp so far)
-- Timestamps: seed appearance links YouTube without a start time — add `t=` offsets as they are verified (P003 agent task)
-- Archival runs locally at commit time; CI-side verification that every recorded asset exists in R2 is not yet wired
-- EN summaries not captured (fr only, en: null)
+None — all phases shipped. Follow-ups carried by P003 (appearances expansion): INA as a media source (only YouTube handled by yt-dlp so far), `t=` timestamp offsets on seed appearance links, CI-side verification that every recorded R2 asset exists, EN profile summaries (fr only today).
 
 ## Decision Log
 
