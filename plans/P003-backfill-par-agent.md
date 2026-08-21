@@ -174,3 +174,16 @@ Outcome: 38 decisions across Philippe year 2 and the gilets-jaunes autumn (aband
 - Headline figures absent from the cited source are dropped (two press-memory numbers died that way). Now a general rule in the skill.
 
 Next: 2017.
+
+## Learnings round 10 (batch 2017, ran 2026-08-21)
+
+Outcome: 32 new decisions spanning fin de quinquennat Hollande (égalité et citoyenneté, prescription pénale, sécurité publique, devoir de vigilance, Fessenheim avec son annulation CE), the transition (proclamation CC, gouvernements Philippe I/II) and Macron year 1 (plan climat, EGA/Rungis, Versailles/Sorbonne, lois confiance, SILT + fin de l'état d'urgence, baisse APL, gel des contrats aidés, hydrocarbures, LFSS/LFI 2018). The 2017-09 seed was extended without a single deleted line. 9 politicians added with full profiles (Cazeneuve, Le Roux, Urvoas, Rossignol, Kanner, Royal, Mézard, Travert, Potier), no new categories. Second missing_sources entry: gel-contrats-aides-2017 (never_published, anchored by the Sénat rapport r17-321, sources + missing_sources coexisting). Review gate passed (6/6 sampled sources exact incl. the CC proclamation with vote counts and the archived plan climat page; 464 pages, 355 decisions, 107 politicians). No stall.
+
+- Décrets that delegate a figure "fixé par arrêté": the amount lives in the same JO issue's arrêté (baisse APL). Search surfaces the wrong-year arrêté; the sommaire resolves it. Now in the skill.
+- Annulled décrets: search returns the annulment-era JORFTEXT (wrong-year id = the tell). Now in the skill.
+- `codes/article_lc/LEGIARTI…` consolidated articles are citable carriers for omnibus figures (11 vaccins). Now in the skill.
+- Sénat rapports d'information are curl-fetchable anchors for never-published administrative acts, pairing with missing_sources. Sénat dossier pages lost their greppable "objet du texte". Both in the skill.
+- elysee.fr CM compte-rendu slugs carry typos ("jullet") and date offsets: verify by content. In the skill.
+- Election/transition thinness extends beyond March-July (April 2017 = 1 decision): the 2-6 floor yields to significance, stated in the backfill skill.
+
+Corpus now covers 2017-2026 continuously (355 decisions). Next: 2016 backwards.
