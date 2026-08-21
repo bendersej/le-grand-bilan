@@ -26,7 +26,12 @@
           "title": "Décret du 16 octobre 2018 relatif à la composition du Gouvernement - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "gouvernement-philippe-2-2017"
+        }
+      ]
     },
     {
       "id": "loi-lutte-contre-la-fraude-2018",
@@ -80,7 +85,16 @@
           "title": "Décision n° 2018-771 DC du 25 octobre 2018 - Conseil constitutionnel"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "lancement-etats-generaux-alimentation-2017"
+        },
+        {
+          "type": "related",
+          "decision_id": "discours-rungis-2017"
+        }
+      ]
     }
   ]
 }

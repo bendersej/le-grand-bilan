@@ -53,6 +53,10 @@
       "relations": [
         {
           "type": "related",
+          "decision_id": "grande-cause-egalite-femmes-hommes-2017"
+        },
+        {
+          "type": "related",
           "decision_id": "lancement-grenelle-violences-conjugales-2019"
         }
       ]

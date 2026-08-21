@@ -1,0 +1,64 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2017-01",
+  "decisions": [
+    {
+      "id": "lois-statut-aai-2017",
+      "date": "2017-01-20",
+      "title": {
+        "fr": "Lois portant statut général des autorités administratives indépendantes",
+        "en": "Laws establishing a general statute for independent administrative authorities"
+      },
+      "summary": {
+        "fr": "La loi n° 2017-55 et la loi organique n° 2017-54, issues d'une initiative sénatoriale portée par Jacques Mézard et Jean-Pierre Sueur, dotent les **autorités administratives et publiques indépendantes** d'un **statut général commun** : durée et non-révocabilité des mandats, règles de **déontologie, de conflits d'intérêts et d'incompatibilités**, et **liste limitative des autorités** annexée à la loi.",
+        "en": "Law no. 2017-55 and organic law no. 2017-54, born of a Senate initiative carried by Jacques Mézard and Jean-Pierre Sueur, give **independent administrative and public authorities** a **common general statute**: term lengths and non-revocability, **deontology, conflict-of-interest and incompatibility rules**, and a **limitative list of authorities** annexed to the law."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["bernard-cazeneuve", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033897475",
+          "title": "LOI n° 2017-55 du 20 janvier 2017 portant statut général des autorités administratives indépendantes et des autorités publiques indépendantes - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033897465",
+          "title": "LOI organique n° 2017-54 du 20 janvier 2017 relative aux autorités administratives indépendantes et autorités publiques indépendantes - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl15-225.html",
+          "title": "Dossier législatif : statut général des AAI et des API - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-egalite-citoyennete-2017",
+      "date": "2017-01-27",
+      "title": {
+        "fr": "Loi égalité et citoyenneté",
+        "en": "Equality and citizenship law"
+      },
+      "summary": {
+        "fr": "Loi n° 2017-86 relative à l'égalité et à la citoyenneté, dernier grand texte sociétal du quinquennat Hollande, porté par Patrick Kanner et Emmanuelle Cosse : création de la **réserve civique** ouverte à tous pour servir des projets d'intérêt général, mesures d'**engagement des jeunes** (congé d'engagement, extension du service civique), obligations de **mixité sociale dans les attributions de logements sociaux** et renforcement de la **répression du racisme et des discriminations**. Le Conseil constitutionnel a censuré de nombreux articles, pour l'essentiel des cavaliers législatifs (décision n° 2016-745 DC).",
+        "en": "Law no. 2017-86 on equality and citizenship, the last major societal text of the Hollande presidency, carried by Patrick Kanner and Emmanuelle Cosse: creation of the **civic reserve** open to all to serve projects of general interest, **youth engagement** measures (engagement leave, extension of civic service), **social-mix obligations in social housing allocations** and stronger **repression of racism and discrimination**. The Constitutional Council struck down numerous articles, mostly legislative riders (decision no. 2016-745 DC)."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["patrick-kanner", "bernard-cazeneuve", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000033934948",
+          "title": "LOI n° 2017-86 du 27 janvier 2017 relative à l'égalité et à la citoyenneté - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl15-773.html",
+          "title": "Dossier législatif : égalité et citoyenneté - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2017/2016745DC.htm",
+          "title": "Décision n° 2016-745 DC du 26 janvier 2017 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

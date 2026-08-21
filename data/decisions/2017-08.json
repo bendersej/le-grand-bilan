@@ -1,0 +1,39 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2017-08",
+  "decisions": [
+    {
+      "id": "gel-contrats-aides-2017",
+      "date": "2017-08-11",
+      "title": {
+        "fr": "Gel et réduction des contrats aidés",
+        "en": "Freeze and reduction of subsidised job contracts"
+      },
+      "summary": {
+        "fr": "Au cours de l'été 2017, le Gouvernement **gèle puis réduit fortement les contrats aidés** : sur l'enveloppe de **280 000 emplois aidés budgétés pour 2017**, dont 70 % étaient déjà consommés fin juin, les prescriptions du second semestre sont restreintes à des priorités limitées (éducation nationale, outre-mer, secteur sanitaire et social, communes en difficulté financière). L'arbitrage final porte le volume 2017 à environ **310 000 contrats**, avant une réduction à **200 000 dans la loi de finances pour 2018**. La décision, jamais publiée, est notifiée aux préfets par instructions et par un **courriel de la DGEFP du 11 août 2017**.",
+        "en": "Over the summer of 2017 the Government **freezes then sharply reduces subsidised job contracts**: of the **280,000 subsidised jobs budgeted for 2017**, 70% of which were already used by the end of June, second-half prescriptions are restricted to limited priorities (national education, overseas territories, health and social sector, financially struggling municipalities). The final arbitration brings the 2017 volume to about **310,000 contracts**, before a cut to **200,000 in the 2018 budget law**. The decision, never published, is notified to prefects through instructions and an **11 August 2017 DGEFP email**."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["muriel-penicaud", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.senat.fr/rap/r17-321/r17-321.html",
+          "title": "Rapport d'information du Sénat n° 321 (2017-2018) : réduction des contrats aidés"
+        },
+        {
+          "url": "https://www.senat.fr/rap/r17-321/r17-3214.html",
+          "title": "Rapport d'information du Sénat n° 321 : chronologie des décisions de l'été 2017 sur les contrats aidés"
+        }
+      ],
+      "missing_sources": {
+        "reason": "never_published",
+        "note": {
+          "fr": "La réduction a été décidée par des arbitrages interministériels et notifiée aux préfets par des instructions et un courriel de la DGEFP du 11 août 2017, jamais publiés au Journal officiel. Le rapport sénatorial cité en établit la chronologie.",
+          "en": "The reduction was decided through interministerial arbitrations and notified to prefects by instructions and an 11 August 2017 DGEFP email, never published in the Journal officiel. The cited Senate report documents the chronology."
+        },
+        "expired_url": null
+      },
+      "relations": []
+    }
+  ]
+}

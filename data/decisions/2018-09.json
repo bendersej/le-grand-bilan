@@ -26,7 +26,12 @@
           "title": "Décret du 4 septembre 2018 relatif à la composition du Gouvernement - Légifrance"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "gouvernement-philippe-2-2017"
+        }
+      ]
     },
     {
       "id": "loi-avenir-professionnel-2018",

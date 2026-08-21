@@ -1,0 +1,166 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2017-12",
+  "decisions": [
+    {
+      "id": "surtaxe-is-2017",
+      "date": "2017-12-01",
+      "title": {
+        "fr": "Surtaxe exceptionnelle d'impôt sur les sociétés (1re loi de finances rectificative pour 2017)",
+        "en": "Exceptional corporate tax surcharge (first amending budget law for 2017)"
+      },
+      "summary": {
+        "fr": "Loi n° 2017-1640 de finances rectificative pour 2017 : pour financer les remboursements de la **taxe de 3 % sur les dividendes** déclarée inconstitutionnelle le 6 octobre 2017, elle crée une **contribution exceptionnelle de 15 % de l'impôt sur les sociétés** dû par les entreprises réalisant plus d'**un milliard d'euros de chiffre d'affaires**, et une **contribution additionnelle** pour celles dépassant **trois milliards**. Le Conseil constitutionnel a validé le dispositif (décision n° 2017-755 DC).",
+        "en": "Law no. 2017-1640, amending budget for 2017: to fund the refunds of the **3% dividend tax** declared unconstitutional on 6 October 2017, it creates an **exceptional contribution of 15% of corporate tax** due by companies with over **one billion euros in revenue**, and an **additional contribution** for those above **three billion**. The Constitutional Council upheld the scheme (decision no. 2017-755 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["bruno-le-maire", "gerald-darmanin", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036126766",
+          "title": "LOI n° 2017-1640 du 1er décembre 2017 de finances rectificative pour 2017 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-067.html",
+          "title": "Dossier législatif : projet de loi de finances rectificative pour 2017 - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2017/2017755DC.htm",
+          "title": "Décision n° 2017-755 DC du 29 novembre 2017 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "one-planet-summit-2017",
+      "date": "2017-12-12",
+      "title": {
+        "fr": "One Planet Summit",
+        "en": "One Planet Summit"
+      },
+      "summary": {
+        "fr": "Deux ans jour pour jour après l'accord de Paris, la France organise à Boulogne-sur-Seine le premier **One Planet Summit**, consacré à la **finance climatique**. Emmanuel Macron y annonce **douze familles d'engagements internationaux**, dont la coalition « **Powering Past Coal** » pour la sortie du charbon, une coalition de **fonds souverains** pour le climat, plus de **200 milliards de dollars d'engagements de 23 banques de développement** pour les pays émergents et le financement de chercheurs étrangers du programme « Make Our Planet Great Again ».",
+        "en": "Two years to the day after the Paris Agreement, France hosts in Boulogne-sur-Seine the first **One Planet Summit**, devoted to **climate finance**. Emmanuel Macron announces **twelve families of international commitments**, including the \"**Powering Past Coal**\" coalition to phase out coal, a climate coalition of **sovereign wealth funds**, more than **200 billion dollars committed by 23 development banks** for emerging countries and the funding of foreign researchers under the \"Make Our Planet Great Again\" programme."
+      },
+      "category_ids": ["ecologie"],
+      "politician_ids": ["emmanuel-macron", "nicolas-hulot"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2017/12/12/discours-de-cloture-du-president-de-la-republique-au-one-planet-summit",
+          "title": "Discours de clôture du Président de la République au One Planet Summit - Élysée"
+        },
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2017/12/12/discours-introductif-du-president-de-la-republique-au-one-planet-summit",
+          "title": "Discours introductif du Président de la République au One Planet Summit - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "plan-climat-2017"
+        }
+      ]
+    },
+    {
+      "id": "loi-hydrocarbures-2017",
+      "date": "2017-12-30",
+      "title": {
+        "fr": "Loi mettant fin à la recherche et à l'exploitation des hydrocarbures",
+        "en": "Law ending hydrocarbon exploration and production"
+      },
+      "summary": {
+        "fr": "Loi n° 2017-1839, première traduction législative du Plan climat porté par Nicolas Hulot : elle **interdit la délivrance de nouveaux permis de recherche d'hydrocarbures** sur le territoire français et prohibe la **prolongation des concessions d'exploitation au-delà du 1er janvier 2040**. Elle impose aussi aux importateurs la publication de l'**intensité carbone des hydrocarbures importés** et renforce la sécurité d'approvisionnement en gaz.",
+        "en": "Law no. 2017-1839, the first legislative translation of the Climate plan carried by Nicolas Hulot: it **bans the granting of new hydrocarbon exploration permits** on French territory and prohibits the **extension of production concessions beyond 1 January 2040**. It also requires importers to publish the **carbon intensity of imported hydrocarbons** and strengthens gas supply security."
+      },
+      "category_ids": ["ecologie", "energie"],
+      "politician_ids": ["nicolas-hulot", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036339396",
+          "title": "LOI n° 2017-1839 du 30 décembre 2017 mettant fin à la recherche ainsi qu'à l'exploitation des hydrocarbures - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl17-021.html",
+          "title": "Dossier législatif : fin de la recherche et de l'exploitation des hydrocarbures - Sénat"
+        },
+        {
+          "url": "https://archive-2017-2022.ecologie.gouv.fr/presse/node/1800",
+          "title": "Présentation en conseil des ministres du projet de loi mettant fin à la recherche et à l'exploitation des hydrocarbures - Ministère de la Transition écologique et solidaire"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "plan-climat-2017"
+        }
+      ]
+    },
+    {
+      "id": "lfss-2018",
+      "date": "2017-12-30",
+      "title": {
+        "fr": "Loi de financement de la sécurité sociale pour 2018 (hausse de la CSG)",
+        "en": "Social security budget law for 2018 (CSG increase)"
+      },
+      "summary": {
+        "fr": "Loi n° 2017-1836 de financement de la sécurité sociale pour 2018, premier budget social du quinquennat : **hausse de 1,7 point de la CSG** sur les revenus d'activité, du capital et la plupart des pensions de retraite, en contrepartie de la **suppression des cotisations salariales maladie et chômage** des salariés du privé, **suppression du régime social des indépendants (RSI)**, adossé au régime général, et extension de **trois à onze vaccinations obligatoires** pour les jeunes enfants. Le Conseil constitutionnel a validé la hausse de la CSG (décision n° 2017-756 DC).",
+        "en": "Law no. 2017-1836, social security budget for 2018, the presidency's first social budget: **1.7 point increase in the CSG** on earnings, capital income and most retirement pensions, offset by the **abolition of employee health and unemployment contributions** in the private sector, **abolition of the self-employed scheme (RSI)**, folded into the general scheme, and extension from **three to eleven mandatory vaccinations** for young children. The Constitutional Council upheld the CSG increase (decision no. 2017-756 DC)."
+      },
+      "category_ids": ["economie", "sante"],
+      "politician_ids": ["agnes-buzyn", "gerald-darmanin", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036339090",
+          "title": "LOI n° 2017-1836 du 30 décembre 2017 de financement de la sécurité sociale pour 2018 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/plfss2018.html",
+          "title": "Dossier législatif : financement de la sécurité sociale pour 2018 - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2017/2017756DC.htm",
+          "title": "Décision n° 2017-756 DC du 21 décembre 2017 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/codes/article_lc/LEGIARTI000036393260",
+          "title": "Article L. 3111-2 du code de la santé publique (onze vaccinations obligatoires) - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-de-finances-2018",
+      "date": "2017-12-30",
+      "title": {
+        "fr": "Loi de finances pour 2018 (IFI, flat tax, taxe d'habitation)",
+        "en": "Budget law for 2018 (IFI, flat tax, housing tax)"
+      },
+      "summary": {
+        "fr": "Loi n° 2017-1837 de finances pour 2018, premier budget du quinquennat Macron : **remplacement de l'ISF par l'impôt sur la fortune immobilière (IFI)**, création du **prélèvement forfaitaire unique de 30 %** (« flat tax ») sur les revenus du capital et lancement du **dégrèvement de la taxe d'habitation** sur la résidence principale pour environ **80 % des foyers**, à hauteur de **30 % en 2018, 65 % en 2019 et 100 % au-delà**. Le Conseil constitutionnel a validé ces trois réformes (décision n° 2017-758 DC).",
+        "en": "Law no. 2017-1837, budget for 2018, the first of the Macron presidency: **replacement of the wealth tax (ISF) with the real-estate wealth tax (IFI)**, creation of the **30% flat tax** on capital income and launch of the **housing tax relief** on main residences for about **80% of households**, at **30% in 2018, 65% in 2019 and 100% beyond**. The Constitutional Council upheld all three reforms (decision no. 2017-758 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": [
+        "bruno-le-maire",
+        "gerald-darmanin",
+        "edouard-philippe",
+        "emmanuel-macron"
+      ],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000036339197",
+          "title": "LOI n° 2017-1837 du 30 décembre 2017 de finances pour 2018 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2018.html",
+          "title": "Dossier législatif : budget 2018 - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2017/2017758DC.htm",
+          "title": "Décision n° 2017-758 DC du 28 décembre 2017 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

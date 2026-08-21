@@ -394,6 +394,36 @@
       }
     },
     {
+      "id": "bernard-cazeneuve",
+      "full_name": "Bernard Cazeneuve",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Premier ministre",
+            "en": "Prime Minister"
+          },
+          "from": "2016-12-06",
+          "to": "2017-05-15"
+        }
+      ],
+      "profile": {
+        "content_hash": "d1c6c039983af2dfe504c88d0c0f1c996669597a4404fd142f62c38f039febb8",
+        "photo": {
+          "path": "/media/politicians/bernard-cazeneuve.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bernard_Cazeneuve,_(42399145362)_(cropped).jpg",
+          "license": "CC BY-SA 2.0",
+          "author": "Jérémy Barande"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme d'État français, longtemps membre du Parti socialiste, **Premier ministre du 6 décembre 2016 au 15 mai 2017**, dernier chef de gouvernement de François Hollande, qui gouverne en pleine campagne présidentielle et fait face au mouvement social en Guyane. **Député de la Manche** (1997-2017), maire d'Octeville puis de **Cherbourg-Octeville** (1995-2012), il est ministre délégué aux **Affaires européennes** (2012) puis au **Budget** (2013, après la démission de Jérôme Cahuzac). **Ministre de l'Intérieur de 2014 à 2016**, il affronte une vague inédite de terrorisme islamiste, des attentats de janvier 2015 à ceux du 13 novembre 2015. Après la victoire d'Emmanuel Macron, il rejoint comme **associé le cabinet d'avocats August Debouzy**. En 2022, en désaccord avec l'alliance du PS avec La France insoumise, il quitte le parti.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Bernard_Cazeneuve"
+      }
+    },
+    {
       "id": "bruno-le-maire",
       "full_name": "Bruno Le Maire",
       "party": "Renaissance",
@@ -421,6 +451,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Bruno_Le_Maire"
+      }
+    },
+    {
+      "id": "bruno-le-roux",
+      "full_name": "Bruno Le Roux",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Intérieur",
+            "en": "Minister of the Interior"
+          },
+          "from": "2016-12-06",
+          "to": "2017-03-21"
+        }
+      ],
+      "profile": {
+        "content_hash": "211b299155b727670f667d68e49a0673c5d1daa694c5f6e5bff8b65eb1a4881d",
+        "photo": {
+          "path": "/media/politicians/bruno-le-roux.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bruno_Le_Roux_2017_(cropped).jpg",
+          "license": "CC BY 4.0",
+          "author": "Sylvain Thomas - European Commission"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français, **ministre de l'Intérieur du 6 décembre 2016 au 21 mars 2017** dans le gouvernement Cazeneuve, période durant laquelle il porte la **loi du 28 février 2017 relative à la sécurité publique**. **Député socialiste de la 1re circonscription de la Seine-Saint-Denis de 1997 à 2017**, il préside le **groupe socialiste à l'Assemblée nationale** de 2012 à 2016. Il démissionne du ministère après des révélations sur l'emploi de ses filles comme collaboratrices parlementaires.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Bruno_Le_Roux"
       }
     },
     {
@@ -737,6 +797,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Didier_Guillaume"
+      }
+    },
+    {
+      "id": "dominique-potier",
+      "full_name": "Dominique Potier",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 5e circonscription de Meurthe-et-Moselle",
+            "en": "Member of Parliament for Meurthe-et-Moselle (5th constituency)"
+          },
+          "from": "2012-06-20",
+          "to": null
+        }
+      ],
+      "profile": {
+        "content_hash": "efafb8d01fe71d873576b47d61f8ef96db399f8f90dfaf3b63d063bec8be57a3",
+        "photo": {
+          "path": "/media/politicians/dominique-potier.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Dominique_Potier_jardin_4_Colonnes_19297.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "G.Garitan"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "**Agriculteur** et homme politique français, membre du Parti socialiste, **député de la 5e circonscription de Meurthe-et-Moselle depuis 2012**. Il est l'auteur de la proposition devenue la **loi du 27 mars 2017 sur le devoir de vigilance des sociétés mères et entreprises donneuses d'ordre**, texte pionnier au niveau mondial imposant aux grandes entreprises la prévention des atteintes aux droits humains et à l'environnement dans leurs chaînes de sous-traitance.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Dominique_Potier"
       }
     },
     {
@@ -1512,6 +1602,36 @@
       }
     },
     {
+      "id": "jacques-mezard",
+      "full_name": "Jacques Mézard",
+      "party": "Parti radical de gauche",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Cohésion des territoires",
+            "en": "Minister for Territorial Cohesion"
+          },
+          "from": "2017-06-21",
+          "to": "2018-10-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "b421e4a16cc260ae825789001a39eab77be7efb697e6c728c53406fef72554ef",
+        "photo": {
+          "path": "/media/politicians/jacques-mezard.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jacques_M%C3%A9zard_ministre.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Antinhactrobador"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français, membre du Parti radical de gauche puis du Mouvement radical, **membre du Conseil constitutionnel depuis 2019** (nommé par Emmanuel Macron). **Avocat** de profession, **sénateur du Cantal à partir de 2008**, il rejoint en mai 2017 le premier gouvernement Philippe comme **ministre de l'Agriculture et de l'Alimentation**, puis devient un mois plus tard **ministre de la Cohésion des territoires** (2017-2018), portefeuille sous lequel est notamment prise la **baisse de 5 euros des APL** et préparée la loi ELAN sur le logement.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jacques_M%C3%A9zard"
+      }
+    },
+    {
       "id": "jean-castex",
       "full_name": "Jean Castex",
       "party": null,
@@ -1539,6 +1659,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean_Castex"
+      }
+    },
+    {
+      "id": "jean-jacques-urvoas",
+      "full_name": "Jean-Jacques Urvoas",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Garde des Sceaux, ministre de la Justice",
+            "en": "Keeper of the Seals, Minister of Justice"
+          },
+          "from": "2016-01-27",
+          "to": "2017-05-17"
+        }
+      ],
+      "profile": {
+        "content_hash": "3eef0ec138c36b0c9abc03b1987ad473b2cf80b78519ddb2a2c652b8e2e6319d",
+        "photo": {
+          "path": "/media/politicians/jean-jacques-urvoas.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Jean-Jacques_Urvoas_(cropped).jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Ericwaltr"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "**Juriste** et homme politique français, membre du Parti socialiste, **garde des Sceaux, ministre de la Justice de janvier 2016 à mai 2017** dans les gouvernements Valls II et Cazeneuve, où il porte notamment la **réforme de la prescription pénale de février 2017**. **Député du Finistère** (2007-2017), il préside la **commission des Lois de l'Assemblée nationale** de 2012 à 2016. En 2019, il est **condamné par la Cour de justice de la République pour violation du secret professionnel**, pour avoir transmis à un député des informations sur une enquête le concernant. Il est ensuite **professeur de droit public à l'université de Bretagne-Occidentale**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Jean-Jacques_Urvoas"
       }
     },
     {
@@ -1817,6 +1967,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Laura_Flessel"
+      }
+    },
+    {
+      "id": "laurence-rossignol",
+      "full_name": "Laurence Rossignol",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Familles, de l'Enfance et des Droits des femmes",
+            "en": "Minister for Families, Children and Women's Rights"
+          },
+          "from": "2016-02-11",
+          "to": "2017-05-17"
+        }
+      ],
+      "profile": {
+        "content_hash": "187e3c0d14af33ecae3e65bf5adca7577068d2c1249150f5630a369fbb9535e5",
+        "photo": {
+          "path": "/media/politicians/laurence-rossignol.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:LR-2012-H%C3%A9micycle_(cropped).JPG",
+          "license": "CC BY-SA 3.0",
+          "author": "ALRPMN"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique française, membre du Parti socialiste depuis 1981, **ministre des Familles, de l'Enfance et des Droits des femmes de 2016 à 2017**, après avoir été secrétaire d'État chargée de la Famille et des Personnes âgées à partir de 2014. Elle porte la **loi du 20 mars 2017 étendant le délit d'entrave à l'IVG** aux sites de désinformation en ligne. Vice-présidente du conseil régional de Picardie (2004-2013), **sénatrice de l'Oise** (2011-2023) puis **du Val-de-Marne depuis septembre 2023**, elle reste une voix active sur les droits des femmes au Sénat.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Laurence_Rossignol"
       }
     },
     {
@@ -2552,6 +2732,36 @@
       "profile": null
     },
     {
+      "id": "patrick-kanner",
+      "full_name": "Patrick Kanner",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de la Ville, de la Jeunesse et des Sports",
+            "en": "Minister for Urban Affairs, Youth and Sport"
+          },
+          "from": "2014-08-26",
+          "to": "2017-05-17"
+        }
+      ],
+      "profile": {
+        "content_hash": "e474462a56424b9b215a479cb4c5a97285164084959622545df65c9dc0724348",
+        "photo": {
+          "path": "/media/politicians/patrick-kanner.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Patrick_Kanner_par_Claude_Truong-Ngoc_septembre_2014.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Photo Claude TRUONG-NGOC"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français, membre du Parti socialiste, **ministre de la Ville, de la Jeunesse et des Sports de 2014 à 2017** dans les gouvernements Valls puis Cazeneuve, où il porte la **loi égalité et citoyenneté de janvier 2017**. **Adjoint au maire de Lille** (1989-2014), président de l'Union nationale des centres communaux d'action sociale (1996-2014) et **président du conseil général du Nord** (2011-2014), il est **sénateur du Nord depuis 2017** et préside le **groupe socialiste au Sénat depuis 2018**.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Patrick_Kanner"
+      }
+    },
+    {
       "id": "philippe-baptiste",
       "full_name": "Philippe Baptiste",
       "party": null,
@@ -2862,6 +3072,36 @@
       }
     },
     {
+      "id": "segolene-royal",
+      "full_name": "Ségolène Royal",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Environnement, de l'Énergie et de la Mer",
+            "en": "Minister of the Environment, Energy and Marine Affairs"
+          },
+          "from": "2014-04-02",
+          "to": "2017-05-17"
+        }
+      ],
+      "profile": {
+        "content_hash": "3ed37c22f331477363446f6281d0294e7ea0c7c7d860274ad462b0b192cdd1f5",
+        "photo": {
+          "path": "/media/politicians/segolene-royal.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Royal_Toulouse_2012.JPG",
+          "license": "CC BY-SA 3.0",
+          "author": "Jackolan1"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Haute fonctionnaire et femme d'État française, membre du Parti socialiste jusqu'en 2017, **ministre de l'Environnement, de l'Énergie et de la Mer de 2014 à 2017** dans les gouvernements Valls et Cazeneuve : elle préside la **COP21** qui aboutit à l'accord de Paris et signe en avril 2017 le **premier décret de fermeture de la centrale de Fessenheim**, annulé ensuite par le Conseil d'État. Énarque, conseillère de François Mitterrand dans les années 1980, **députée des Deux-Sèvres** (1988-2007), ministre de l'Environnement (1992), de l'Enseignement scolaire puis de la Famille sous Lionel Jospin, elle préside la **région Poitou-Charentes** (2004-2014). **Première femme qualifiée au second tour d'une élection présidentielle en 2007** (47 % des suffrages face à Nicolas Sarkozy), elle est ensuite ambassadrice chargée des pôles Arctique et Antarctique (2017-2020).",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/S%C3%A9gol%C3%A8ne_Royal"
+      }
+    },
+    {
       "id": "stanislas-guerini",
       "full_name": "Stanislas Guerini",
       "party": "Renaissance",
@@ -2889,6 +3129,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Stanislas_Guerini"
+      }
+    },
+    {
+      "id": "stephane-travert",
+      "full_name": "Stéphane Travert",
+      "party": "Renaissance",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Agriculture et de l'Alimentation",
+            "en": "Minister of Agriculture and Food"
+          },
+          "from": "2017-06-21",
+          "to": "2018-10-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "9e11ef55d52a0b11419a470ea7d6ab0e197ce72d5384b7c0e5ab61db6ef3d2c5",
+        "photo": {
+          "path": "/media/politicians/stephane-travert.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:St%C3%A9phane_Travert_19056_salle_4_colonnes.jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "G.Garitan"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique français, membre du Parti socialiste de 1988 à 2017 puis de La République en marche et Renaissance, **ministre de l'Agriculture et de l'Alimentation de juin 2017 à octobre 2018** dans le second gouvernement Philippe : il pilote les **états généraux de l'alimentation** et le projet devenu la **loi EGalim**. **Député de la 3e circonscription de la Manche** depuis 2012 (réélu en 2017, 2022 et 2024, à nouveau en fonction après son passage au gouvernement), ancien conseiller régional de Basse-Normandie puis de Normandie, il préside la **commission des Affaires économiques de l'Assemblée nationale** de février à juin 2024, puis de nouveau à partir d'octobre 2025.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/St%C3%A9phane_Travert"
       }
     },
     {

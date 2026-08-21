@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2017-07",
+  "decisions": [
+    {
+      "id": "congres-versailles-2017",
+      "date": "2017-07-03",
+      "title": {
+        "fr": "Discours devant le Congrès à Versailles",
+        "en": "Speech to the Congress at Versailles"
+      },
+      "summary": {
+        "fr": "Devant le Parlement réuni en Congrès, Emmanuel Macron fixe le cap institutionnel du quinquennat : **réduction d'un tiers du nombre de parlementaires**, élection du Parlement avec une **dose de proportionnelle**, **limitation du cumul des mandats dans le temps**, **suppression de la Cour de justice de la République**, transformation du CESE en « Chambre du futur » et **levée de l'état d'urgence à l'automne**. Il annonce qu'il s'exprimera chaque année devant le Congrès.",
+        "en": "Before Parliament convened in Congress, Emmanuel Macron sets the institutional course of his term: **one-third reduction in the number of parliamentarians**, election of Parliament with a **dose of proportional representation**, **time limits on holding successive mandates**, **abolition of the Cour de justice de la République**, transformation of the CESE into a \"Chamber of the future\" and the **lifting of the state of emergency in the autumn**. He announces he will address the Congress every year."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2017/07/03/discours-du-president-de-la-republique-devant-le-parlement-reuni-en-congres",
+          "title": "Discours du Président de la République devant le Parlement réuni en Congrès - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "plan-climat-2017",
+      "date": "2017-07-06",
+      "title": {
+        "fr": "Plan climat",
+        "en": "Climate plan"
+      },
+      "summary": {
+        "fr": "Nicolas Hulot présente le **Plan climat** du quinquennat, préparé à la demande du Président de la République et du Premier ministre pour **accélérer la mise en oeuvre de l'accord de Paris**. Six axes : rendre l'accord de Paris **irréversible**, améliorer le quotidien des Français, **en finir avec les énergies fossiles et s'engager dans la neutralité carbone**, faire de la France le n°1 de l'économie verte, mobiliser les écosystèmes et l'agriculture, et intensifier la **diplomatie climatique**.",
+        "en": "Nicolas Hulot presents the five-year **Climate plan**, prepared at the request of the President and the Prime Minister to **accelerate the implementation of the Paris Agreement**. Six axes: make the Paris Agreement **irreversible**, improve French people's daily lives, **end fossil fuels and commit to carbon neutrality**, make France the leader of the green economy, mobilise ecosystems and agriculture, and intensify **climate diplomacy**."
+      },
+      "category_ids": ["ecologie", "energie"],
+      "politician_ids": ["nicolas-hulot", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://archive-2017-2022.ecologie.gouv.fr/presse/lancement-du-plan-climat",
+          "title": "Lancement du Plan Climat - Ministère de la Transition écologique et solidaire"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "plan-biodiversite-2018"
+        },
+        {
+          "type": "related",
+          "decision_id": "presentation-programmation-energie-2018"
+        }
+      ]
+    },
+    {
+      "id": "sixieme-prorogation-etat-urgence-2017",
+      "date": "2017-07-11",
+      "title": {
+        "fr": "Sixième et dernière prorogation de l'état d'urgence",
+        "en": "Sixth and final extension of the state of emergency"
+      },
+      "summary": {
+        "fr": "Loi n° 2017-1154 prorogeant une sixième et dernière fois l'**état d'urgence** instauré après les attentats du 13 novembre 2015 : il est prolongé **du 16 juillet au 1er novembre 2017**, le temps d'adopter la loi renforçant la sécurité intérieure et la lutte contre le terrorisme appelée à prendre le relais dans le droit commun.",
+        "en": "Law no. 2017-1154 extending for a sixth and final time the **state of emergency** established after the 13 November 2015 attacks: it is prolonged **from 16 July to 1 November 2017**, pending adoption of the internal security and counter-terrorism law meant to take over in ordinary law."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["gerard-collomb", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035168168",
+          "title": "LOI n° 2017-1154 du 11 juillet 2017 prorogeant l'application de la loi n° 55-385 du 3 avril 1955 relative à l'état d'urgence - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl16-585.html",
+          "title": "Dossier législatif : sixième prorogation de l'état d'urgence - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-silt-2017"
+        },
+        {
+          "type": "related",
+          "decision_id": "fin-etat-urgence-2017"
+        }
+      ]
+    },
+    {
+      "id": "demission-villiers-nomination-lecointre-2017",
+      "date": "2017-07-19",
+      "title": {
+        "fr": "Démission du général de Villiers, remplacé par le général Lecointre",
+        "en": "Resignation of General de Villiers, replaced by General Lecointre"
+      },
+      "summary": {
+        "fr": "Le général **Pierre de Villiers démissionne de ses fonctions de chef d'état-major des armées**, fait sans précédent sous la Cinquième République, après un désaccord public avec le président de la République sur la réduction des crédits des armées pour 2017. Deux décrets du 19 juillet 2017 mettent fin à ses fonctions et nomment le général **François Lecointre** chef d'état-major des armées à compter du 20 juillet.",
+        "en": "General **Pierre de Villiers resigns as chief of the defence staff**, an unprecedented event under the Fifth Republic, after a public disagreement with the President over cuts to the 2017 defence budget. Two decrees of 19 July 2017 end his functions and appoint General **François Lecointre** chief of the defence staff from 20 July."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["emmanuel-macron", "florence-parly"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035243877",
+          "title": "Décret du 19 juillet 2017 portant cessation de fonctions d'un officier général (général Pierre de Villiers) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035243881",
+          "title": "Décret du 19 juillet 2017 portant nomination du chef d'état-major des armées - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "lancement-etats-generaux-alimentation-2017",
+      "date": "2017-07-20",
+      "title": {
+        "fr": "Lancement des états généraux de l'alimentation",
+        "en": "Launch of the food industry summit (états généraux de l'alimentation)"
+      },
+      "summary": {
+        "fr": "Le Gouvernement lance les **états généraux de l'alimentation**, concertation de plus de quatre mois avec le monde agricole, l'industrie, la distribution et les consommateurs autour de deux chantiers : la **création et la répartition de la valeur**, pour permettre aux agriculteurs de **vivre dignement de leur travail par des prix justes**, et une **alimentation saine, sûre et durable**. Quatorze ateliers alimentent les conclusions qui déboucheront sur la loi EGalim.",
+        "en": "The Government launches the **états généraux de l'alimentation**, a four-month consultation with farmers, industry, retail and consumers around two workstreams: **creation and distribution of value**, so farmers can **earn a decent living through fair prices**, and **healthy, safe and sustainable food**. Fourteen workshops feed the conclusions that will lead to the EGalim law."
+      },
+      "category_ids": ["agriculture", "economie"],
+      "politician_ids": ["stephane-travert", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2017/07/21/compte-rendu-du-conseil-des-ministres-du-mercredi-19-jullet-201",
+          "title": "Compte rendu du Conseil des ministres du 19 juillet 2017 (communication sur les états généraux de l'alimentation) - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "discours-rungis-2017"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-egalim-2018"
+        }
+      ]
+    }
+  ]
+}

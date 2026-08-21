@@ -1,0 +1,82 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2017-05",
+  "decisions": [
+    {
+      "id": "proclamation-election-macron-2017",
+      "date": "2017-05-10",
+      "title": {
+        "fr": "Proclamation de l'élection d'Emmanuel Macron",
+        "en": "Proclamation of Emmanuel Macron's election"
+      },
+      "summary": {
+        "fr": "Par sa décision n° 2017-171 PDR, le Conseil constitutionnel proclame **Emmanuel Macron Président de la République**, élu au second tour du 7 mai 2017 avec **20 743 128 voix**, la majorité absolue des 31 381 603 suffrages exprimés, contre **10 638 475 voix** à Marine Le Pen. Il prend ses fonctions le 14 mai 2017.",
+        "en": "By decision no. 2017-171 PDR, the Constitutional Council proclaims **Emmanuel Macron President of the Republic**, elected in the 7 May 2017 runoff with **20,743,128 votes**, an absolute majority of the 31,381,603 votes cast, against **10,638,475 votes** for Marine Le Pen. He takes office on 14 May 2017."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034674096",
+          "title": "Décision n° 2017-171 PDR du 10 mai 2017 portant proclamation des résultats de l'élection du Président de la République - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2017/2017171PDR.htm",
+          "title": "Décision n° 2017-171 PDR du 10 mai 2017 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "nomination-philippe-premier-ministre-2017",
+      "date": "2017-05-15",
+      "title": {
+        "fr": "Nomination d'Édouard Philippe Premier ministre",
+        "en": "Appointment of Édouard Philippe as Prime Minister"
+      },
+      "summary": {
+        "fr": "Au lendemain de sa prise de fonctions, Emmanuel Macron nomme **Édouard Philippe**, maire du Havre et député Les Républicains de Seine-Maritime, **Premier ministre**, marquant l'ouverture de la majorité présidentielle vers la droite.",
+        "en": "The day after taking office, Emmanuel Macron appoints **Édouard Philippe**, mayor of Le Havre and Les Républicains MP for Seine-Maritime, **Prime Minister**, marking the presidential majority's opening towards the right."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034719850",
+          "title": "Décret du 15 mai 2017 portant nomination du Premier ministre - Légifrance"
+        },
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2017/05/15/nomination-du-premier-ministre-4",
+          "title": "Nomination du Premier ministre - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "gouvernement-philippe-2017",
+      "date": "2017-05-17",
+      "title": {
+        "fr": "Formation du premier gouvernement Philippe",
+        "en": "Formation of the first Philippe government"
+      },
+      "summary": {
+        "fr": "Le décret du 17 mai 2017 compose le premier gouvernement d'Édouard Philippe, paritaire et transpartisan : **Gérard Collomb à l'Intérieur**, **Bruno Le Maire à l'Économie**, **Nicolas Hulot ministre d'État à la Transition écologique**, **Muriel Pénicaud au Travail**, **Jean-Michel Blanquer à l'Éducation nationale**, **Agnès Buzyn à la Santé**, François Bayrou à la Justice, Sylvie Goulard aux Armées, Élisabeth Borne aux Transports et Gérald Darmanin aux Comptes publics.",
+        "en": "The 17 May 2017 decree forms Édouard Philippe's first government, gender-balanced and cross-partisan: **Gérard Collomb at the Interior**, **Bruno Le Maire at the Economy**, **Nicolas Hulot as Minister of State for the Ecological Transition**, **Muriel Pénicaud at Labour**, **Jean-Michel Blanquer at Education**, **Agnès Buzyn at Health**, François Bayrou at Justice, Sylvie Goulard at the Armed Forces, Élisabeth Borne at Transport and Gérald Darmanin at Public Accounts."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034748271",
+          "title": "Décret du 17 mai 2017 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "gouvernement-philippe-2-2017"
+        }
+      ]
+    }
+  ]
+}

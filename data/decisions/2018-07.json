@@ -21,7 +21,12 @@
           "title": "Nicolas Hulot présente le Plan biodiversité à l'occasion du premier comité interministériel pour la biodiversité - Ministère de la Transition écologique"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "plan-climat-2017"
+        }
+      ]
     },
     {
       "id": "loi-programmation-militaire-2019-2025",

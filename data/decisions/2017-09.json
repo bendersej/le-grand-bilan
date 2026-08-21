@@ -3,6 +3,69 @@
   "month": "2017-09",
   "decisions": [
     {
+      "id": "nomination-delevoye-retraites-2017",
+      "date": "2017-09-14",
+      "title": {
+        "fr": "Nomination de Jean-Paul Delevoye haut-commissaire à la réforme des retraites",
+        "en": "Appointment of Jean-Paul Delevoye as high commissioner for pension reform"
+      },
+      "summary": {
+        "fr": "**Jean-Paul Delevoye est nommé haut-commissaire à la réforme des retraites**, fonction instituée auprès de la ministre des Solidarités et de la Santé pour préparer la transformation des régimes existants en un **système universel de retraite par points**, promesse de campagne d'Emmanuel Macron. Sa concertation aboutira au rapport remis en juillet 2019.",
+        "en": "**Jean-Paul Delevoye is appointed high commissioner for pension reform**, a position created alongside the Minister of Solidarity and Health to prepare the transformation of the existing schemes into a **universal points-based pension system**, one of Emmanuel Macron's campaign promises. His consultation will lead to the report delivered in July 2019."
+      },
+      "category_ids": ["retraites"],
+      "politician_ids": ["jean-paul-delevoye", "edouard-philippe", "agnes-buzyn"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035563132",
+          "title": "Décret du 14 septembre 2017 portant nomination du haut-commissaire à la réforme des retraites - M. DELEVOYE (Jean-Paul) - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "rapport-delevoye-retraites-2019"
+        }
+      ]
+    },
+    {
+      "id": "lois-confiance-vie-politique-2017",
+      "date": "2017-09-15",
+      "title": {
+        "fr": "Lois pour la confiance dans la vie politique",
+        "en": "Trust in political life laws"
+      },
+      "summary": {
+        "fr": "La loi n° 2017-1339 et la loi organique n° 2017-1338, premiers textes du quinquennat, engagés par François Bayrou et portés par Nicole Belloubet : **interdiction des emplois familiaux** pour les parlementaires, ministres et exécutifs locaux, **suppression de la réserve parlementaire**, peine complémentaire quasi systématique d'**inéligibilité en cas de crime ou de manquement à la probité**, remplacement de l'IRFM par un **remboursement des frais de mandat sur justificatifs** et suppression de la Cour de discipline budgétaire pour les ministres. Le Conseil constitutionnel a censuré plusieurs dispositions, dont l'inéligibilité obligatoire pour les délits de presse et la suppression de la réserve ministérielle (décisions n° 2017-752 et 2017-753 DC).",
+        "en": "Law no. 2017-1339 and organic law no. 2017-1338, the first texts of the presidency, initiated by François Bayrou and carried by Nicole Belloubet: **ban on family jobs** for parliamentarians, ministers and local executives, **abolition of the parliamentary reserve**, near-systematic additional penalty of **ineligibility for crimes or breaches of probity**, replacement of the flat expense allowance with **reimbursement of mandate expenses on receipts**. The Constitutional Council struck down several provisions, including mandatory ineligibility for press offences and the abolition of the ministerial reserve (decisions no. 2017-752 and 2017-753 DC)."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["nicole-belloubet", "edouard-philippe", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035567974",
+          "title": "LOI n° 2017-1339 du 15 septembre 2017 pour la confiance dans la vie politique - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035567936",
+          "title": "LOI organique n° 2017-1338 du 15 septembre 2017 pour la confiance dans la vie politique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl16-581.html",
+          "title": "Dossier législatif : confiance dans la vie politique - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2017/2017752DC.htm",
+          "title": "Décision n° 2017-752 DC du 8 septembre 2017 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2017/2017753DC.htm",
+          "title": "Décision n° 2017-753 DC du 8 septembre 2017 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
       "id": "ordonnances-travail-2017",
       "date": "2017-09-22",
       "title": {
@@ -35,6 +98,56 @@
           "decision_id": "loi-ratification-ordonnances-travail-2018"
         }
       ]
+    },
+    {
+      "id": "discours-sorbonne-2017",
+      "date": "2017-09-26",
+      "title": {
+        "fr": "Discours de la Sorbonne (Initiative pour l'Europe)",
+        "en": "Sorbonne speech (Initiative for Europe)"
+      },
+      "summary": {
+        "fr": "Deux jours après les élections allemandes, Emmanuel Macron présente à la Sorbonne son **Initiative pour l'Europe**, plaidoyer pour une « Europe souveraine, unie et démocratique » : **initiative européenne d'intervention** en matière de défense, **Office européen de l'asile** et police européenne des frontières, **prix plancher du carbone** (25 à 30 euros la tonne) et **taxe carbone aux frontières**, budget de la zone euro, **universités européennes**, taxation des géants du numérique et agence européenne pour l'**innovation de rupture**.",
+        "en": "Two days after the German elections, Emmanuel Macron presents at the Sorbonne his **Initiative for Europe**, a plea for a \"sovereign, united and democratic Europe\": a **European defence intervention initiative**, a **European asylum office** and European border police, a **carbon floor price** (25 to 30 euros per tonne) and a **carbon border tax**, a eurozone budget, **European universities**, taxation of digital giants and a European agency for **breakthrough innovation**."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2017/09/26/initiative-pour-l-europe-discours-d-emmanuel-macron-pour-une-europe-souveraine-unie-democratique",
+          "title": "Initiative pour l'Europe : discours d'Emmanuel Macron pour une Europe souveraine, unie, démocratique - Élysée"
+        },
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2017/09/26/communique-de-presse-initiative-pour-l-europe",
+          "title": "Communiqué de presse : Initiative pour l'Europe - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "baisse-apl-2017",
+      "date": "2017-09-28",
+      "title": {
+        "fr": "Baisse de 5 euros des APL",
+        "en": "5 euro cut in housing benefit (APL)"
+      },
+      "summary": {
+        "fr": "Le décret n° 2017-1413 et son arrêté d'application du même jour opèrent une **baisse forfaitaire de 5 euros par mois de toutes les aides personnelles au logement** à compter du 1er octobre 2017. Première mesure d'économie emblématique du quinquennat sur le logement, elle précède la réforme plus large des APL engagée avec la réduction de loyer de solidarité en 2018.",
+        "en": "Decree no. 2017-1413 and its implementing order of the same day apply a **flat 5 euro monthly cut to all personal housing benefits** from 1 October 2017. The presidency's first emblematic housing savings measure, it precedes the broader APL reform launched with the solidarity rent reduction in 2018."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["jacques-mezard", "edouard-philippe"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035665790",
+          "title": "Décret n° 2017-1413 du 28 septembre 2017 relatif aux aides personnelles au logement - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035665855",
+          "title": "Arrêté du 28 septembre 2017 relatif aux aides personnelles au logement (montant de la minoration forfaitaire de 5 euros) - Légifrance"
+        }
+      ],
+      "relations": []
     }
   ]
 }

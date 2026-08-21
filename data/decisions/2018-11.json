@@ -50,7 +50,12 @@
           "title": "Discours \"Transition énergétique : changeons ensemble\" (présentation de la programmation pluriannuelle de l'énergie) - Élysée"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "plan-climat-2017"
+        }
+      ]
     }
   ]
 }

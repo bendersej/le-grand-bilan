@@ -1,0 +1,31 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2017-04",
+  "decisions": [
+    {
+      "id": "decret-fermeture-fessenheim-2017",
+      "date": "2017-04-08",
+      "title": {
+        "fr": "Décret d'abrogation de l'autorisation d'exploiter la centrale de Fessenheim",
+        "en": "Decree revoking the operating licence of the Fessenheim nuclear plant"
+      },
+      "summary": {
+        "fr": "Décret n° 2017-508 portant **abrogation de l'autorisation d'exploiter la centrale nucléaire de Fessenheim**, la plus ancienne du parc français, signé dans les dernières semaines du quinquennat Hollande. L'abrogation était conditionnée à la **mise en service de l'EPR de Flamanville** pour respecter le plafond légal de 63,2 gigawatts de capacité nucléaire. Le Conseil d'État l'a **annulé pour excès de pouvoir le 25 octobre 2018**, EDF n'ayant pas présenté la demande d'abrogation requise.",
+        "en": "Decree no. 2017-508 **revoking the operating licence of the Fessenheim nuclear plant**, the oldest in the French fleet, signed in the last weeks of the Hollande presidency. The revocation was conditioned on the **commissioning of the Flamanville EPR** to respect the legal cap of 63.2 gigawatts of nuclear capacity. The Conseil d'État **annulled it for abuse of power on 25 October 2018**, as EDF had not filed the required revocation request."
+      },
+      "category_ids": ["energie"],
+      "politician_ids": ["segolene-royal", "bernard-cazeneuve", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034392174",
+          "title": "Décret n° 2017-508 du 8 avril 2017 portant abrogation de l'autorisation d'exploiter la centrale nucléaire de Fessenheim - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-etat.fr/fr/arianeweb/CE/decision/2018-10-25/410109",
+          "title": "Conseil d'État, 25 octobre 2018, n° 410109 : annulation du décret du 8 avril 2017"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

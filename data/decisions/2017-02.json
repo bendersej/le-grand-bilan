@@ -1,0 +1,81 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2017-02",
+  "decisions": [
+    {
+      "id": "loi-prescription-penale-2017",
+      "date": "2017-02-27",
+      "title": {
+        "fr": "Loi portant réforme de la prescription en matière pénale",
+        "en": "Criminal limitation periods reform law"
+      },
+      "summary": {
+        "fr": "Loi n° 2017-242, issue d'une proposition des députés Georges Fenech et Alain Tourret : elle **double les délais de prescription de l'action publique**, portés de **dix à vingt ans pour les crimes** et de **trois à six ans pour les délits**, fixe un délai de trente ans pour les crimes les plus graves et consacre la jurisprudence sur le report du point de départ pour les **infractions occultes ou dissimulées**.",
+        "en": "Law no. 2017-242, born of a bill by MPs Georges Fenech and Alain Tourret: it **doubles the limitation periods for prosecution**, raised from **ten to twenty years for crimes** and from **three to six years for délits**, sets a thirty-year period for the most serious crimes and codifies case law postponing the starting point for **concealed offences**."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["jean-jacques-urvoas", "bernard-cazeneuve"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034096721",
+          "title": "LOI n° 2017-242 du 27 février 2017 portant réforme de la prescription en matière pénale - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl15-461.html",
+          "title": "Dossier législatif : réforme de la prescription en matière pénale - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-statut-paris-2017",
+      "date": "2017-02-28",
+      "title": {
+        "fr": "Loi relative au statut de Paris et à l'aménagement métropolitain",
+        "en": "Law on the status of Paris and metropolitan planning"
+      },
+      "summary": {
+        "fr": "Loi n° 2017-257, portée par Jean-Michel Baylet : elle crée la **Ville de Paris**, collectivité à statut particulier fusionnant la commune et le département au **1er janvier 2019**, **regroupe les quatre premiers arrondissements en un secteur unique** à compter du renouvellement municipal suivant et **transfère au maire de Paris des pouvoirs de police** jusque-là exercés par le préfet de police (salubrité de la voie publique, bruits de voisinage).",
+        "en": "Law no. 2017-257, carried by Jean-Michel Baylet: it creates the **Ville de Paris**, a special-status authority merging the commune and the département on **1 January 2019**, **merges the first four arrondissements into a single sector** from the next municipal election and **transfers police powers to the mayor of Paris** previously held by the police prefect (public-way sanitation, neighbourhood noise)."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["bernard-cazeneuve", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034103927",
+          "title": "LOI n° 2017-257 du 28 février 2017 relative au statut de Paris et à l'aménagement métropolitain - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl15-815.html",
+          "title": "Dossier législatif : statut de Paris - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-securite-publique-2017",
+      "date": "2017-02-28",
+      "title": {
+        "fr": "Loi relative à la sécurité publique",
+        "en": "Public security law"
+      },
+      "summary": {
+        "fr": "Loi n° 2017-258, adoptée après l'attaque de policiers à Viry-Châtillon : elle crée un **cadre commun d'usage des armes** pour policiers, gendarmes et douaniers (article L. 435-1 du code de la sécurité intérieure), autorise l'**identification des enquêteurs par un numéro** lorsque la révélation de leur identité les mettrait en danger et porte les peines pour **outrage à personne dépositaire de l'autorité publique à trois ans d'emprisonnement et 45 000 euros d'amende**.",
+        "en": "Law no. 2017-258, adopted after the attack on police officers in Viry-Châtillon: it creates a **common framework for the use of weapons** by police, gendarmes and customs officers (article L. 435-1 of the internal security code), allows **investigators to be identified by a number** when revealing their identity would endanger them, and raises penalties for **contempt of persons holding public authority to three years in prison and a 45,000 euro fine**."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["bruno-le-roux", "bernard-cazeneuve"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000034104023",
+          "title": "LOI n° 2017-258 du 28 février 2017 relative à la sécurité publique - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl16-263.html",
+          "title": "Dossier législatif : sécurité publique - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

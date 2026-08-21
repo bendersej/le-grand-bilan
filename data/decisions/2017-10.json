@@ -1,0 +1,70 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2017-10",
+  "decisions": [
+    {
+      "id": "discours-rungis-2017",
+      "date": "2017-10-11",
+      "title": {
+        "fr": "Discours de Rungis sur l'alimentation et les prix agricoles",
+        "en": "Rungis speech on food and farm prices"
+      },
+      "summary": {
+        "fr": "À l'issue du premier chantier des états généraux de l'alimentation, Emmanuel Macron annonce à Rungis l'**inversion de la construction des prix agricoles**, qui devront **partir des coûts de production** des agriculteurs, le **relèvement du seuil de revente à perte** et l'**encadrement des promotions** pour les produits alimentaires, ainsi qu'une **loi, pouvant passer par ordonnances**, promulguée avant la fin du premier semestre 2018, et demande aux interprofessions des **plans de filière** avant la fin de l'année.",
+        "en": "Closing the first workstream of the food summit, Emmanuel Macron announces at Rungis the **inversion of farm price construction**, which must **start from farmers' production costs**, the **raising of the below-cost resale threshold** and the **regulation of promotions** for food products, plus a **law, possibly through ordinances**, promulgated before the end of the first half of 2018, and asks each sector for **transformation plans** by the end of the year."
+      },
+      "category_ids": ["agriculture", "economie"],
+      "politician_ids": ["emmanuel-macron", "stephane-travert"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/emmanuel-macron/2017/10/11/discours-du-president-de-la-republique-aux-etats-generaux-de-l-alimentation",
+          "title": "Discours du Président de la République aux états généraux de l'alimentation, à Rungis - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "lancement-etats-generaux-alimentation-2017"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-egalim-2018"
+        }
+      ]
+    },
+    {
+      "id": "loi-silt-2017",
+      "date": "2017-10-30",
+      "title": {
+        "fr": "Loi sécurité intérieure et lutte contre le terrorisme (SILT)",
+        "en": "Internal security and counter-terrorism law (SILT)"
+      },
+      "summary": {
+        "fr": "Loi n° 2017-1510 renforçant la sécurité intérieure et la lutte contre le terrorisme : elle fait entrer dans le droit commun, à titre initialement temporaire (**jusqu'au 31 décembre 2020**), des mesures inspirées de l'état d'urgence : **périmètres de protection**, **fermeture administrative des lieux de culte** incitant à la violence ou à la haine, **mesures individuelles de contrôle administratif et de surveillance (MICAS)** et **visites domiciliaires sur autorisation du juge**. Elle permet la levée de l'état d'urgence le 1er novembre 2017.",
+        "en": "Law no. 2017-1510 strengthening internal security and the fight against terrorism: it brings into ordinary law, initially on a temporary basis (**until 31 December 2020**), measures inspired by the state of emergency: **protection perimeters**, **administrative closure of places of worship** inciting violence or hatred, **individual administrative control and surveillance measures (MICAS)** and **home searches authorised by a judge**. It allows the state of emergency to be lifted on 1 November 2017."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["gerard-collomb", "edouard-philippe", "emmanuel-macron"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000035932811",
+          "title": "LOI n° 2017-1510 du 30 octobre 2017 renforçant la sécurité intérieure et la lutte contre le terrorisme - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl16-587.html",
+          "title": "Dossier législatif : sécurité intérieure et lutte contre le terrorisme - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "sixieme-prorogation-etat-urgence-2017"
+        },
+        {
+          "type": "related",
+          "decision_id": "fin-etat-urgence-2017"
+        }
+      ]
+    }
+  ]
+}
