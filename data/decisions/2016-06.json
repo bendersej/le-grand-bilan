@@ -25,7 +25,12 @@
           "title": "Dossier législatif : lutte contre le crime organisé et le terrorisme - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-renseignement-2015"
+        }
+      ]
     },
     {
       "id": "ratification-accord-de-paris-2016",
@@ -47,6 +52,10 @@
         }
       ],
       "relations": [
+        {
+          "type": "related",
+          "decision_id": "adoption-accord-de-paris-2015"
+        },
         {
           "type": "related",
           "decision_id": "reponse-retrait-accord-paris-2017"

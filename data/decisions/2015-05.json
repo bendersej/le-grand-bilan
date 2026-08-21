@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2015-05",
+  "decisions": [
+    {
+      "id": "reforme-college-2015",
+      "date": "2015-05-19",
+      "title": {
+        "fr": "Réforme du collège",
+        "en": "Middle school reform"
+      },
+      "summary": {
+        "fr": "Décret n° 2015-544 et arrêté du 19 mai 2015 portés par Najat Vallaud-Belkacem : réorganisation des enseignements au collège avec des **enseignements pratiques interdisciplinaires** (démarche de projet), un **accompagnement personnalisé** pour tous les élèves et une **marge d'autonomie des établissements** dans la répartition des horaires ; la réforme s'applique à la **rentrée 2016**.",
+        "en": "Decree no. 2015-544 and order of 19 May 2015 carried by Najat Vallaud-Belkacem: reorganisation of middle school teaching with **interdisciplinary practical courses** (project-based), **personalised support** for all pupils and a **margin of autonomy for schools** in allocating hours; the reform applies from the **2016 school year**."
+      },
+      "category_ids": ["education"],
+      "politician_ids": ["najat-vallaud-belkacem", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030613326",
+          "title": "Décret n° 2015-544 du 19 mai 2015 relatif à l'organisation des enseignements au collège - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030613339",
+          "title": "Arrêté du 19 mai 2015 relatif à l'organisation des enseignements dans les classes de collège - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "pantheon-resistants-2015",
+      "date": "2015-05-27",
+      "title": {
+        "fr": "Entrée au Panthéon de quatre figures de la Résistance",
+        "en": "Four Resistance figures enter the Panthéon"
+      },
+      "summary": {
+        "fr": "Sur décision de François Hollande, **Pierre Brossolette, Geneviève de Gaulle-Anthonioz, Germaine Tillion et Jean Zay** entrent au **Panthéon** le 27 mai 2015 : première panthéonisation du quinquennat, elle honore **quatre figures de la Résistance**, dont deux femmes.",
+        "en": "By decision of François Hollande, **Pierre Brossolette, Geneviève de Gaulle-Anthonioz, Germaine Tillion and Jean Zay** enter the **Panthéon** on 27 May 2015: the first panthéonisation of the presidency, honouring **four figures of the Resistance**, two of them women."
+      },
+      "category_ids": ["culture", "institutions"],
+      "politician_ids": ["francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2015/05/27/declaration-de-m-francois-hollande-president-de-la-republique-en-hommage-aux-quatre-anciens-resistants-pierre-brossolette-genevieve-de-gaulle-anthonioz-germaine-tillion-et-jean-zay-a-paris-le-27-mai-2015",
+          "title": "Déclaration de François Hollande en hommage aux quatre anciens résistants, Panthéon, 27 mai 2015 - Élysée"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

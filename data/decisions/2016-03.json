@@ -25,7 +25,12 @@
           "title": "Dossier législatif : droit des étrangers en France - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-reforme-droit-asile-2015"
+        }
+      ]
     },
     {
       "id": "loi-protection-enfant-2016",
@@ -81,6 +86,14 @@
         }
       ],
       "relations": [
+        {
+          "type": "related",
+          "decision_id": "congres-versailles-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "revision-constitutionnelle-protection-nation-2015"
+        },
         {
           "type": "related",
           "decision_id": "demission-taubira-2016"

@@ -25,7 +25,12 @@
           "title": "Conseil d'État, 25 octobre 2018, n° 410109 : annulation du décret du 8 avril 2017"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-transition-energetique-2015"
+        }
+      ]
     }
   ]
 }

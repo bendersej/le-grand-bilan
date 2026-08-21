@@ -1,0 +1,61 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2015-04",
+  "decisions": [
+    {
+      "id": "decret-avance-antiterrorisme-2015",
+      "date": "2015-04-09",
+      "title": {
+        "fr": "Décret d'avance finançant le plan antiterroriste",
+        "en": "Advance appropriations decree funding the counter-terrorism plan"
+      },
+      "summary": {
+        "fr": "Décret n° 2015-402 : ouverture en urgence de **247,3 millions d'euros** de crédits au profit des ministères de l'intérieur, de la justice, des finances et des affaires étrangères pour financer la première annuité du **plan de lutte contre le terrorisme** du 21 janvier ; au total, **397 millions d'euros** sont mobilisés en 2015, dont 150 millions redéployés par le ministère de la défense.",
+        "en": "Decree no. 2015-402: emergency opening of **247.3 million euros** of credits for the interior, justice, finance and foreign affairs ministries to fund the first year of the **counter-terrorism plan** of 21 January; in total **397 million euros** are mobilised in 2015, including 150 million redeployed by the defence ministry."
+      },
+      "category_ids": ["economie", "securite"],
+      "politician_ids": ["michel-sapin", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030464502",
+          "title": "Décret n° 2015-402 du 9 avril 2015 portant ouverture et annulation de crédits à titre d'avance - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/rap/r14-377/r14-3774.html",
+          "title": "Avis de la commission des finances du Sénat sur le projet de décret d'avance relatif au financement de la lutte contre le terrorisme - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "plan-lutte-antiterroriste-2015"
+        }
+      ]
+    },
+    {
+      "id": "loi-modernisation-presse-2015",
+      "date": "2015-04-17",
+      "title": {
+        "fr": "Loi de modernisation du secteur de la presse",
+        "en": "Press sector modernisation law"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-433 portée par Fleur Pellerin : création du statut d'**entreprise solidaire de presse d'information** (au moins 20 % des bénéfices mis en réserve), **réforme de la gouvernance de l'Agence France-Presse**, régulation de la distribution par une autorité indépendante et **réduction d'impôt de 30 %** (50 % pour les entreprises solidaires) pour les souscriptions au capital des entreprises de presse.",
+        "en": "Law no. 2015-433 carried by Fleur Pellerin: creation of the **solidarity-based news press company** status (at least 20% of profits set aside), **reform of Agence France-Presse governance**, regulation of press distribution by an independent authority and a **30% income tax reduction** (50% for solidarity companies) for subscriptions to press companies' capital."
+      },
+      "category_ids": ["culture"],
+      "politician_ids": ["fleur-pellerin", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030490302",
+          "title": "LOI n° 2015-433 du 17 avril 2015 portant diverses dispositions tendant à la modernisation du secteur de la presse - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl14-202.html",
+          "title": "Dossier législatif : modernisation du secteur de la presse - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

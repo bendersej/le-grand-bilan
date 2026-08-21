@@ -1,0 +1,97 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2015-09",
+  "decisions": [
+    {
+      "id": "nomination-el-khomri-2015",
+      "date": "2015-09-02",
+      "title": {
+        "fr": "Myriam El Khomri nommée ministre du Travail",
+        "en": "Myriam El Khomri appointed Labour Minister"
+      },
+      "summary": {
+        "fr": "François Rebsamen, élu maire de Dijon, quitte le Gouvernement : **Myriam El Khomri**, jusqu'alors secrétaire d'État chargée de la politique de la ville, est nommée **ministre du Travail, de l'Emploi, de la Formation professionnelle et du Dialogue social** ; elle portera en 2016 la **loi Travail** qui restera associée à son nom.",
+        "en": "François Rebsamen, elected mayor of Dijon, leaves the Government: **Myriam El Khomri**, until then junior minister for urban policy, is appointed **Minister of Labour, Employment, Vocational Training and Social Dialogue**; in 2016 she will carry the **Labour law** that bears her name."
+      },
+      "category_ids": ["institutions", "travail"],
+      "politician_ids": [
+        "francois-hollande",
+        "manuel-valls",
+        "myriam-el-khomri",
+        "francois-rebsamen"
+      ],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031125353",
+          "title": "Décret du 2 septembre 2015 relatif à la composition du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-travail-2016"
+        }
+      ]
+    },
+    {
+      "id": "engagement-chammal-syrie-2015",
+      "date": "2015-09-07",
+      "title": {
+        "fr": "Extension de l'opération Chammal à la Syrie",
+        "en": "Extension of Operation Chammal to Syria"
+      },
+      "summary": {
+        "fr": "François Hollande annonce des **vols de reconnaissance au-dessus de la Syrie** dès le 8 septembre, en lien avec la coalition, et se dit prêt à des **frappes aériennes contre Daech**, jusque-là limitées à l'Irak ; les **premières frappes françaises en Syrie** sont conduites le **27 septembre 2015**.",
+        "en": "François Hollande announces **reconnaissance flights over Syria** from 8 September, in liaison with the coalition, and declares France ready to conduct **air strikes against Daesh**, until then limited to Iraq; the **first French strikes in Syria** are carried out on **27 September 2015**."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["francois-hollande", "jean-yves-le-drian"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2015/09/07/conference-de-presse-de-m-francois-hollande-president-de-la-republique-sur-les-defis-et-priorites-de-la-politique-gouvernementale-a-paris-le-7-septembre-2015",
+          "title": "Conférence de presse de François Hollande (vols de reconnaissance au-dessus de la Syrie), 7 septembre 2015 - Élysée"
+        },
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2015/09/27/declaration-de-m-francois-hollande-president-de-la-republique-sur-les-frappes-aeriennes-francaises-en-syrie-a-new-york-le-27-septembre-2015",
+          "title": "Déclaration de François Hollande sur les frappes aériennes françaises en Syrie, New York, 27 septembre 2015 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "congres-versailles-2015"
+        }
+      ]
+    },
+    {
+      "id": "accueil-refugies-2015",
+      "date": "2015-09-07",
+      "title": {
+        "fr": "Engagement d'accueillir 24 000 réfugiés en deux ans",
+        "en": "Commitment to take in 24,000 refugees over two years"
+      },
+      "summary": {
+        "fr": "Au plus fort de la crise migratoire européenne, François Hollande annonce que la France accueillera **24 000 réfugiés sur les deux prochaines années**, sa part du mécanisme européen de **répartition de 120 000 réfugiés** proposé par la Commission européenne.",
+        "en": "At the height of the European migration crisis, François Hollande announces that France will take in **24,000 refugees over the next two years**, its share of the European mechanism **distributing 120,000 refugees** proposed by the European Commission."
+      },
+      "category_ids": ["immigration"],
+      "politician_ids": ["francois-hollande", "bernard-cazeneuve"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2015/09/07/conference-de-presse-de-m-francois-hollande-president-de-la-republique-sur-les-defis-et-priorites-de-la-politique-gouvernementale-a-paris-le-7-septembre-2015",
+          "title": "Conférence de presse de François Hollande (accueil de 24 000 réfugiés), 7 septembre 2015 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "conseil-europeen-relocalisation-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-reforme-droit-asile-2015"
+        }
+      ]
+    }
+  ]
+}

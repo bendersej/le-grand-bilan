@@ -1,0 +1,142 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2015-11",
+  "decisions": [
+    {
+      "id": "declaration-etat-urgence-2015",
+      "date": "2015-11-14",
+      "title": {
+        "fr": "Attentats du 13 novembre : déclaration de l'état d'urgence",
+        "en": "13 November attacks: state of emergency declared"
+      },
+      "summary": {
+        "fr": "Dans la nuit des attentats de Paris et de Saint-Denis, qualifiés par François Hollande d'**« acte de guerre » commis par Daech**, l'**état d'urgence est déclaré à compter du 14 novembre à zéro heure** sur le territoire métropolitain et en Corse (décret n° 2015-1475), avec des pouvoirs renforcés de **perquisition administrative et d'assignation à résidence** applicables dans les communes d'Île-de-France (décret n° 2015-1476).",
+        "en": "On the night of the Paris and Saint-Denis attacks, described by François Hollande as an **\"act of war\" committed by Daesh**, the **state of emergency is declared from 14 November at midnight** on the metropolitan territory and Corsica (decree no. 2015-1475), with strengthened powers of **administrative searches and house arrest** applicable in Île-de-France municipalities (decree no. 2015-1476)."
+      },
+      "category_ids": ["institutions", "securite"],
+      "politician_ids": ["francois-hollande", "manuel-valls", "bernard-cazeneuve"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031473404",
+          "title": "Décret n° 2015-1475 du 14 novembre 2015 portant application de la loi n° 55-385 du 3 avril 1955 (déclaration de l'état d'urgence) - Légifrance"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031473413",
+          "title": "Décret n° 2015-1476 du 14 novembre 2015 portant application de la loi n° 55-385 du 3 avril 1955 (mesures applicables en Île-de-France) - Légifrance"
+        },
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2015/11/14/declaration-de-m-francois-hollande-president-de-la-republique-sur-les-attaques-terroristes-a-paris-le-14-novembre-2015",
+          "title": "Déclaration de François Hollande sur les attaques terroristes, 14 novembre 2015 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "congres-versailles-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "prorogation-etat-urgence-novembre-2015"
+        }
+      ]
+    },
+    {
+      "id": "congres-versailles-2015",
+      "date": "2015-11-16",
+      "title": {
+        "fr": "Congrès de Versailles : « La France est en guerre »",
+        "en": "Congress of Versailles: \"France is at war\""
+      },
+      "summary": {
+        "fr": "Devant le Parlement réuni en Congrès, François Hollande annonce une **révision constitutionnelle** (régime de l'état d'urgence et **déchéance de nationalité** pour les binationaux nés Français condamnés pour terrorisme), la prorogation de l'état d'urgence pour trois mois, **5 000 postes supplémentaires de policiers et gendarmes** en deux ans, 2 500 pour la justice, 1 000 pour les douanes, l'**arrêt des baisses d'effectifs de la défense jusqu'en 2019** et l'intensification des frappes contre Daech avec l'envoi du porte-avions Charles de Gaulle.",
+        "en": "Before Parliament convened in Congress, François Hollande announces a **constitutional revision** (state of emergency regime and **nationality stripping** for French-born dual nationals convicted of terrorism), a three-month extension of the state of emergency, **5,000 additional police and gendarme posts** within two years, 2,500 for justice, 1,000 for customs, a **halt to defence job cuts until 2019** and intensified strikes against Daesh with the deployment of the aircraft carrier Charles de Gaulle."
+      },
+      "category_ids": ["institutions", "securite"],
+      "politician_ids": ["francois-hollande", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2015/11/16/declaration-de-m-francois-hollande-president-de-la-republique-devant-le-parlement-reuni-en-congres-a-la-suite-des-attaques-terroristes-perpetrees-a-paris-et-en-seine-saint-denis-versailles-le-16-novembre-2015",
+          "title": "Déclaration de François Hollande devant le Parlement réuni en Congrès, Versailles, 16 novembre 2015 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "declaration-etat-urgence-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "engagement-chammal-syrie-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "revision-constitutionnelle-protection-nation-2015"
+        }
+      ]
+    },
+    {
+      "id": "prorogation-etat-urgence-novembre-2015",
+      "date": "2015-11-20",
+      "title": {
+        "fr": "Première prorogation de l'état d'urgence",
+        "en": "First extension of the state of emergency"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-1501, adoptée en quatre jours : l'état d'urgence est **prorogé pour trois mois à compter du 26 novembre 2015** et la loi de 1955 est durcie, avec des **assignations à résidence élargies** (jusqu'à douze heures par vingt-quatre heures), la possibilité de **dissoudre par décret** les associations participant à des actes terroristes et des **perquisitions étendues aux données informatiques**.",
+        "en": "Law no. 2015-1501, adopted in four days: the state of emergency is **extended for three months from 26 November 2015** and the 1955 law is toughened, with **broadened house arrest** (up to twelve hours per twenty-four), the power to **dissolve by decree** associations involved in terrorist acts and **searches extended to computer data**."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["bernard-cazeneuve", "manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031500831",
+          "title": "LOI n° 2015-1501 du 20 novembre 2015 prorogeant l'application de la loi n° 55-385 du 3 avril 1955 relative à l'état d'urgence et renforçant l'efficacité de ses dispositions - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl15-176.html",
+          "title": "Dossier législatif : prorogation de l'état d'urgence - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "declaration-etat-urgence-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "prorogation-etat-urgence-fevrier-2016"
+        }
+      ]
+    },
+    {
+      "id": "loi-surveillance-internationale-2015",
+      "date": "2015-11-30",
+      "title": {
+        "fr": "Loi sur la surveillance des communications électroniques internationales",
+        "en": "International electronic communications surveillance law"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-1556 : après la censure du régime de surveillance internationale de la loi renseignement par le Conseil constitutionnel, elle rétablit un cadre légal pour la **surveillance des communications émises ou reçues à l'étranger**, autorisée par le **Premier ministre** aux seules fins de défense des intérêts fondamentaux de la Nation et placée sous le **contrôle de la CNCTR**, qui dispose d'un accès permanent aux dispositifs.",
+        "en": "Law no. 2015-1556: after the Constitutional Council struck down the intelligence law's international surveillance regime, it re-establishes a legal framework for the **surveillance of communications sent or received abroad**, authorised by the **Prime Minister** solely to defend the Nation's fundamental interests and placed under the **oversight of the CNCTR**, which has permanent access to the systems."
+      },
+      "category_ids": ["numerique", "securite"],
+      "politician_ids": ["manuel-valls", "bernard-cazeneuve"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031549747",
+          "title": "LOI n° 2015-1556 du 30 novembre 2015 relative aux mesures de surveillance des communications électroniques internationales - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl15-006.html",
+          "title": "Dossier législatif : mesures de surveillance des communications électroniques internationales - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "loi-renseignement-2015"
+        }
+      ]
+    }
+  ]
+}

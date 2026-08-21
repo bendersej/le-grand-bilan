@@ -1,0 +1,114 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2015-01",
+  "decisions": [
+    {
+      "id": "operation-sentinelle-2015",
+      "date": "2015-01-12",
+      "title": {
+        "fr": "Lancement de l'opération Sentinelle",
+        "en": "Launch of Operation Sentinelle"
+      },
+      "summary": {
+        "fr": "Après les attentats des 7, 8 et 9 janvier (Charlie Hebdo, Montrouge, Hyper Cacher), François Hollande décide le déploiement de l'armée sur le territoire national : en trois jours, le dispositif passe de 1 000 à **10 500 militaires** chargés de protéger les points sensibles, notamment les **écoles et les lieux de culte**, tandis que le plan **Vigipirate** est porté à un niveau inédit.",
+        "en": "After the attacks of 7, 8 and 9 January (Charlie Hebdo, Montrouge, Hyper Cacher), François Hollande orders the army deployed on national territory: within three days the force grows from 1,000 to **10,500 soldiers** protecting sensitive sites, notably **schools and places of worship**, while the **Vigipirate** plan is raised to an unprecedented level."
+      },
+      "category_ids": ["defense", "securite"],
+      "politician_ids": ["francois-hollande", "jean-yves-le-drian", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2015/01/14/declaration-de-m-francois-hollande-president-de-la-republique-sur-la-politique-de-defense-de-la-france-a-toulon-le-14-janvier-2015",
+          "title": "Déclaration de François Hollande sur la politique de défense, Toulon, 14 janvier 2015 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "plan-lutte-antiterroriste-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "actualisation-lpm-2015"
+        }
+      ]
+    },
+    {
+      "id": "loi-delimitation-regions-2015",
+      "date": "2015-01-16",
+      "title": {
+        "fr": "Loi sur la nouvelle carte des régions (passage à 13 régions)",
+        "en": "Law redrawing the map of regions (down to 13 regions)"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-29 : la France métropolitaine passe de **22 à 13 régions** au **1er janvier 2016** par fusion de régions existantes (Alsace-Champagne-Ardenne-Lorraine, Aquitaine-Limousin-Poitou-Charentes, etc.) ; les **élections régionales sont reportées à décembre 2015** et le tableau des effectifs des conseils régionaux est révisé.",
+        "en": "Law no. 2015-29: metropolitan France goes from **22 to 13 regions** on **1 January 2016** by merging existing regions (Alsace-Champagne-Ardenne-Lorraine, Aquitaine-Limousin-Poitou-Charentes, etc.); **regional elections are postponed to December 2015** and the allocation of regional council seats is revised."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": [
+        "bernard-cazeneuve",
+        "marylise-lebranchu",
+        "manuel-valls",
+        "francois-hollande"
+      ],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030109622",
+          "title": "LOI n° 2015-29 du 16 janvier 2015 relative à la délimitation des régions, aux élections régionales et départementales et modifiant le calendrier électoral - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-635.html",
+          "title": "Dossier législatif : délimitation des régions et calendrier électoral - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-notre-2015"
+        }
+      ]
+    },
+    {
+      "id": "plan-lutte-antiterroriste-2015",
+      "date": "2015-01-21",
+      "title": {
+        "fr": "Plan de lutte contre le terrorisme",
+        "en": "Counter-terrorism plan"
+      },
+      "summary": {
+        "fr": "Après les attentats de janvier, Manuel Valls annonce un renforcement exceptionnel des moyens : **2 680 emplois supplémentaires** sur trois ans consacrés à la lutte antiterroriste (dont 1 400 au ministère de l'intérieur et environ 1 000 à la justice) et **425 millions d'euros** de crédits d'investissement, d'équipement et de fonctionnement.",
+        "en": "After the January attacks, Manuel Valls announces an exceptional reinforcement: **2,680 additional posts** over three years dedicated to counter-terrorism (including 1,400 at the interior ministry and about 1,000 for justice) and **425 million euros** of investment, equipment and operating credits."
+      },
+      "category_ids": ["securite"],
+      "politician_ids": ["manuel-valls", "bernard-cazeneuve", "christiane-taubira"],
+      "sources": [
+        {
+          "url": "https://www.senat.fr/rap/r14-377/r14-3774.html",
+          "title": "Avis de la commission des finances du Sénat sur le décret d'avance relatif au financement de la lutte contre le terrorisme (détail du plan du 21 janvier 2015) - Sénat"
+        },
+        {
+          "url": "https://www.senat.fr/rap/a15-166-11/a15-166-114.html",
+          "title": "Avis budgétaire PLF 2016 Sécurités : le cadre budgétaire du plan de lutte contre le terrorisme - Sénat"
+        },
+        {
+          "url": "https://www.vie-publique.fr/discours/193901-declaration-de-m-manuel-valls-premier-ministre-sur-le-renforcement-du",
+          "title": "Déclaration de Manuel Valls sur le renforcement du dispositif de lutte contre le terrorisme, 21 janvier 2015 - Vie publique",
+          "bot_walled": true
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "operation-sentinelle-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "decret-avance-antiterrorisme-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-renseignement-2015"
+        }
+      ]
+    }
+  ]
+}

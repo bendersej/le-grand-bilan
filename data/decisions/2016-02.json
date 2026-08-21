@@ -107,6 +107,10 @@
       "relations": [
         {
           "type": "related",
+          "decision_id": "prorogation-etat-urgence-novembre-2015"
+        },
+        {
+          "type": "related",
           "decision_id": "prorogation-etat-urgence-mai-2016"
         }
       ]

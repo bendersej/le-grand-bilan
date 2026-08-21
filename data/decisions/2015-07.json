@@ -1,0 +1,133 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2015-07",
+  "decisions": [
+    {
+      "id": "accord-grece-zone-euro-2015",
+      "date": "2015-07-13",
+      "title": {
+        "fr": "Accord du sommet de la zone euro sur la Grèce",
+        "en": "Euro summit agreement on Greece"
+      },
+      "summary": {
+        "fr": "Au terme d'un sommet marathon, les dirigeants de la zone euro s'accordent pour ouvrir la négociation d'un **troisième programme d'aide à la Grèce** (près de **80 milliards d'euros**, complétés par 35 milliards du plan Juncker) en échange de réformes : l'accord **maintient la Grèce dans la zone euro**, résultat que François Hollande a défendu en jouant les médiateurs entre Athènes et Berlin.",
+        "en": "After a marathon summit, euro zone leaders agree to open negotiations on a **third aid programme for Greece** (nearly **80 billion euros**, plus 35 billion from the Juncker plan) in exchange for reforms: the deal **keeps Greece in the euro zone**, an outcome François Hollande defended by mediating between Athens and Berlin."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["francois-hollande", "michel-sapin"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2015/07/13/declaration-de-m-francois-hollande-president-de-la-republique-sur-laccord-entre-la-grece-et-les-autres-pays-de-la-zone-euro-a-bruxelles-le-13-juillet-2015",
+          "title": "Déclaration de François Hollande sur l'accord entre la Grèce et les autres pays de la zone euro, Bruxelles, 13 juillet 2015 - Élysée"
+        },
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2015/07/13/conference-de-presse-de-m-francois-hollande-president-de-la-republique-sur-laccord-entre-la-grece-et-les-autres-pays-de-la-zone-euro-a-bruxelles-le-13-juillet-2015",
+          "title": "Conférence de presse de François Hollande sur l'accord avec la Grèce, Bruxelles, 13 juillet 2015 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-renseignement-2015",
+      "date": "2015-07-24",
+      "title": {
+        "fr": "Loi renseignement",
+        "en": "Intelligence law"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-912, défendue par Manuel Valls après les attentats de janvier : elle donne un cadre légal aux **techniques de renseignement** (interceptions, IMSI-catchers, **traitements algorithmiques dits « boîtes noires »** chez les opérateurs pour détecter les menaces terroristes) sous le contrôle d'une nouvelle autorité indépendante, la **CNCTR**, avec un recours devant le Conseil d'État. Le Conseil constitutionnel a **censuré le régime de surveillance internationale** (article L. 854-1) et la procédure d'**« urgence opérationnelle »** dispensant d'autorisation préalable (décision n° 2015-713 DC).",
+        "en": "Law no. 2015-912, championed by Manuel Valls after the January attacks: it gives a legal framework to **intelligence techniques** (interceptions, IMSI-catchers, **algorithmic \"black boxes\"** at operators to detect terrorist threats) under the oversight of a new independent authority, the **CNCTR**, with review by the Conseil d'État. The Constitutional Council **struck down the international surveillance regime** (article L. 854-1) and the **\"operational emergency\"** procedure bypassing prior authorisation (decision no. 2015-713 DC)."
+      },
+      "category_ids": ["numerique", "securite"],
+      "politician_ids": ["manuel-valls", "bernard-cazeneuve", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030931899",
+          "title": "LOI n° 2015-912 du 24 juillet 2015 relative au renseignement - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl14-424.html",
+          "title": "Dossier législatif : renseignement - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2015/2015713DC.htm",
+          "title": "Décision n° 2015-713 DC du 23 juillet 2015 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "plan-lutte-antiterroriste-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-surveillance-internationale-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-crime-organise-2016"
+        }
+      ]
+    },
+    {
+      "id": "actualisation-lpm-2015",
+      "date": "2015-07-28",
+      "title": {
+        "fr": "Actualisation de la programmation militaire 2015-2019",
+        "en": "Update of the 2015-2019 military programming law"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-917 portée par Jean-Yves Le Drian : après les attentats de janvier, les ressources de la défense sont **majorées de 3,8 milliards d'euros** sur 2015-2019 et les suppressions de postes sont fortement réduites (**réduction nette ramenée à 6 918 équivalents temps plein** sur la période), pour soutenir la protection du territoire national et les opérations extérieures.",
+        "en": "Law no. 2015-917 carried by Jean-Yves Le Drian: after the January attacks, defence resources are **increased by 3.8 billion euros** over 2015-2019 and planned job cuts are sharply scaled back (**net reduction brought down to 6,918 full-time equivalents** over the period), to sustain homeland protection and external operations."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["jean-yves-le-drian", "manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030943133",
+          "title": "LOI n° 2015-917 du 28 juillet 2015 actualisant la programmation militaire pour les années 2015 à 2019 et portant diverses dispositions concernant la défense - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl14-494.html",
+          "title": "Dossier législatif : actualisation de la programmation militaire 2015-2019 - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "operation-sentinelle-2015"
+        }
+      ]
+    },
+    {
+      "id": "loi-reforme-droit-asile-2015",
+      "date": "2015-07-29",
+      "title": {
+        "fr": "Loi de réforme du droit d'asile",
+        "en": "Asylum law reform"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-925 portée par Bernard Cazeneuve : **accélération de l'examen des demandes** (procédures accélérées devant l'OFPRA, jugement par la CNDA en **cinq mois**, cinq semaines en procédure accélérée), consécration de l'**indépendance de l'OFPRA** qui ne reçoit aucune instruction, **hébergement directif** des demandeurs sur le territoire et prise en compte des persécutions liées au genre.",
+        "en": "Law no. 2015-925 carried by Bernard Cazeneuve: **faster processing of claims** (accelerated OFPRA procedures, CNDA rulings within **five months**, five weeks under the accelerated track), enshrined **independence of OFPRA** which receives no instructions, **directive accommodation** of asylum seekers across the territory and recognition of gender-based persecution."
+      },
+      "category_ids": ["immigration"],
+      "politician_ids": ["bernard-cazeneuve", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030949483",
+          "title": "LOI n° 2015-925 du 29 juillet 2015 relative à la réforme du droit d'asile - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl14-193.html",
+          "title": "Dossier législatif : réforme du droit d'asile - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-droit-des-etrangers-2016"
+        }
+      ]
+    }
+  ]
+}

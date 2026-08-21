@@ -1,0 +1,149 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2015-12",
+  "decisions": [
+    {
+      "id": "adoption-accord-de-paris-2015",
+      "date": "2015-12-12",
+      "title": {
+        "fr": "COP21 : adoption de l'Accord de Paris sur le climat",
+        "en": "COP21: adoption of the Paris climate agreement"
+      },
+      "summary": {
+        "fr": "La COP21, présidée par **Laurent Fabius** au Bourget, adopte l'**Accord de Paris** : contenir le réchauffement **« bien en dessous de 2 °C »** avec des efforts vers **1,5 °C**, contributions nationales revues à la hausse régulièrement et **100 milliards de dollars par an** mobilisés pour l'adaptation des pays en développement ; François Hollande salue un accord « ambitieux, universel et contraignant », premier accord climatique mondial de cette ampleur.",
+        "en": "COP21, chaired by **Laurent Fabius** at Le Bourget, adopts the **Paris Agreement**: keeping warming **\"well below 2°C\"** with efforts towards **1.5°C**, national contributions regularly revised upwards and **100 billion dollars per year** mobilised for developing countries' adaptation; François Hollande hails an \"ambitious, universal and binding\" agreement, the first global climate deal of this scale."
+      },
+      "category_ids": ["ecologie"],
+      "politician_ids": ["laurent-fabius", "francois-hollande", "segolene-royal"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2015/12/12/declaration-de-m-francois-hollande-president-de-la-republique-sur-ladoption-de-laccord-de-paris-sur-le-climat-au-bourget-le-12-decembre-2015",
+          "title": "Déclaration de François Hollande sur l'adoption de l'Accord de Paris sur le climat, Le Bourget, 12 décembre 2015 - Élysée"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-transition-energetique-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "ratification-accord-de-paris-2016"
+        }
+      ]
+    },
+    {
+      "id": "lfss-2016",
+      "date": "2015-12-21",
+      "title": {
+        "fr": "LFSS 2016 (protection universelle maladie)",
+        "en": "2016 social security budget (universal health protection)"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-1702 de financement de la sécurité sociale pour 2016 : son article 59 crée la **protection universelle maladie (PUMa)** au **1er janvier 2016**, garantissant la **prise en charge des frais de santé à toute personne qui travaille ou réside en France de manière stable et régulière**, sans condition d'ayant droit, ce qui simplifie les changements de situation professionnelle ou familiale.",
+        "en": "Law no. 2015-1702 financing social security for 2016: its article 59 creates **universal health protection (PUMa)** on **1 January 2016**, guaranteeing **health care coverage to anyone working or residing stably and lawfully in France**, without dependant status conditions, simplifying changes in work or family situation."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["marisol-touraine", "michel-sapin", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031663208",
+          "title": "LOI n° 2015-1702 du 21 décembre 2015 de financement de la sécurité sociale pour 2016 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/plfss2016.html",
+          "title": "Dossier législatif : financement de la sécurité sociale pour 2016 - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "revision-constitutionnelle-protection-nation-2015",
+      "date": "2015-12-23",
+      "title": {
+        "fr": "Projet de révision constitutionnelle « protection de la Nation »",
+        "en": "\"Protection of the Nation\" constitutional revision bill"
+      },
+      "summary": {
+        "fr": "Le Gouvernement adopte en conseil des ministres et dépose à l'Assemblée nationale le **projet de loi constitutionnelle de protection de la Nation** (n° 3381), traduction des annonces du Congrès de Versailles : **constitutionnalisation de l'état d'urgence** et **déchéance de nationalité** pour les personnes condamnées pour terrorisme ; contesté jusque dans la majorité, le projet sera **abandonné le 30 mars 2016** faute d'accord entre les deux assemblées.",
+        "en": "The Government adopts in the council of ministers and files with the National Assembly the **constitutional bill on the protection of the Nation** (no. 3381), translating the Versailles Congress announcements: **constitutionalisation of the state of emergency** and **nationality stripping** for people convicted of terrorism; contested even within the majority, the bill will be **abandoned on 30 March 2016** for lack of agreement between the two chambers."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["francois-hollande", "manuel-valls", "christiane-taubira"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/14/dossiers/protection_nation.asp",
+          "title": "Dossier législatif : projet de loi constitutionnelle de protection de la Nation - Assemblée nationale"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl15-395.html",
+          "title": "Dossier législatif : projet de loi constitutionnelle de protection de la Nation - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "congres-versailles-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "abandon-decheance-nationalite-2016"
+        },
+        {
+          "type": "related",
+          "decision_id": "demission-taubira-2016"
+        }
+      ]
+    },
+    {
+      "id": "loi-adaptation-societe-vieillissement-2015",
+      "date": "2015-12-28",
+      "title": {
+        "fr": "Loi d'adaptation de la société au vieillissement",
+        "en": "Law adapting society to ageing"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-1776 portée par Marisol Touraine et Laurence Rossignol : **revalorisation de l'allocation personnalisée d'autonomie (APA) à domicile**, création d'un **droit au répit pour les proches aidants**, priorité à la prévention de la perte d'autonomie et à l'adaptation des logements, le tout financé par la **contribution additionnelle de solidarité pour l'autonomie (CASA)** ; entrée en vigueur au 1er janvier 2016.",
+        "en": "Law no. 2015-1776 carried by Marisol Touraine and Laurence Rossignol: **increase of the home-based personal autonomy allowance (APA)**, creation of a **respite right for family caregivers**, priority to preventing loss of autonomy and adapting housing, all funded by the **additional solidarity contribution for autonomy (CASA)**; in force from 1 January 2016."
+      },
+      "category_ids": ["sante"],
+      "politician_ids": ["marisol-touraine", "laurence-rossignol"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031700731",
+          "title": "LOI n° 2015-1776 du 28 décembre 2015 relative à l'adaptation de la société au vieillissement - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-804.html",
+          "title": "Dossier législatif : adaptation de la société au vieillissement - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-de-finances-2016",
+      "date": "2015-12-29",
+      "title": {
+        "fr": "Loi de finances pour 2016",
+        "en": "2016 budget law"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-1785 : son article 2 opère une **nouvelle baisse de l'impôt sur le revenu** ciblée sur les ménages modestes et moyens par le **renforcement de la décote** et l'indexation du barème sur l'inflation.",
+        "en": "Law no. 2015-1785: its article 2 delivers a **new income tax cut** targeted at modest and middle-income households by **strengthening the décote** mechanism and indexing the brackets to inflation."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["michel-sapin", "manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031732865",
+          "title": "LOI n° 2015-1785 du 29 décembre 2015 de finances pour 2016 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2016.html",
+          "title": "Dossier législatif : projet de loi de finances pour 2016 - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

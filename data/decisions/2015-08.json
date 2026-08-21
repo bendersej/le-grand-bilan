@@ -1,0 +1,146 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2015-08",
+  "decisions": [
+    {
+      "id": "loi-macron-2015",
+      "date": "2015-08-06",
+      "title": {
+        "fr": "Loi Macron (croissance, activité et égalité des chances économiques)",
+        "en": "Macron law (growth, activity and equal economic opportunity)"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-990 portée par Emmanuel Macron et adoptée par 49.3 à chaque lecture : extension du **travail dominical** (jusqu'à **12 dimanches du maire** par an, zones touristiques internationales), **libéralisation des lignes d'autocar** de plus de 100 km, réforme des **professions réglementées du droit**, ouverture des **données de transport**. Le Conseil constitutionnel a **censuré le plafonnement des indemnités prud'homales** en cas de licenciement sans cause réelle et sérieuse, jugé contraire au principe d'égalité (décision n° 2015-715 DC).",
+        "en": "Law no. 2015-990 carried by Emmanuel Macron and adopted through the 49.3 at every reading: extension of **Sunday work** (up to **12 mayor-authorised Sundays** per year, international tourist zones), **liberalisation of intercity bus lines** over 100 km, reform of **regulated legal professions**, opening of **transport data**. The Constitutional Council **struck down the cap on unfair-dismissal awards**, deemed contrary to the principle of equality (decision no. 2015-715 DC)."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["emmanuel-macron", "manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030978561",
+          "title": "LOI n° 2015-990 du 6 août 2015 pour la croissance, l'activité et l'égalité des chances économiques - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl14-300.html",
+          "title": "Dossier législatif : croissance, activité et égalité des chances économiques - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2015/2015715DC.htm",
+          "title": "Décision n° 2015-715 DC du 5 août 2015 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/14/dossiers/croissance_activite.asp",
+          "title": "Dossier législatif : croissance, activité et égalité des chances économiques - Assemblée nationale"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "49-3-loi-macron-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "plan-tout-pour-emploi-2015"
+        }
+      ]
+    },
+    {
+      "id": "loi-notre-2015",
+      "date": "2015-08-07",
+      "title": {
+        "fr": "Loi NOTRe (nouvelle organisation territoriale de la République)",
+        "en": "NOTRe law (new territorial organisation of the Republic)"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-991 portée par Marylise Lebranchu, troisième volet de la réforme territoriale : **suppression de la clause de compétence générale** des départements et des régions, régions **seules compétentes pour les aides aux entreprises** avec un schéma régional de développement économique prescriptif, relèvement du **seuil des intercommunalités à 15 000 habitants** et transfert programmé des compétences **eau et assainissement** aux intercommunalités.",
+        "en": "Law no. 2015-991 carried by Marylise Lebranchu, third pillar of the territorial reform: **abolition of the general competence clause** for departments and regions, regions **solely responsible for business aid** with a prescriptive regional economic development scheme, the **intermunicipal threshold raised to 15,000 inhabitants** and the planned transfer of **water and sanitation** to intermunicipal bodies."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["marylise-lebranchu", "manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000030985460",
+          "title": "LOI n° 2015-991 du 7 août 2015 portant nouvelle organisation territoriale de la République - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl13-636.html",
+          "title": "Dossier législatif : nouvelle organisation territoriale de la République - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-delimitation-regions-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "loi-communes-nouvelles-2015"
+        }
+      ]
+    },
+    {
+      "id": "loi-transition-energetique-2015",
+      "date": "2015-08-17",
+      "title": {
+        "fr": "Loi de transition énergétique pour la croissance verte",
+        "en": "Energy transition for green growth law"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-992 portée par Ségolène Royal : objectifs de **réduction de 40 % des émissions de gaz à effet de serre entre 1990 et 2030**, de **réduction de la part du nucléaire à 50 % de la production d'électricité à l'horizon 2025** et de **32 % d'énergies renouvelables en 2030** ; la loi engage aussi la rénovation énergétique des bâtiments, le déploiement des véhicules propres et l'**interdiction des sacs plastique à usage unique**. Le Conseil constitutionnel a censuré quelques dispositions, dont l'obligation de travaux d'isolation lors des ravalements (décision n° 2015-718 DC).",
+        "en": "Law no. 2015-992 carried by Ségolène Royal: targets of a **40% cut in greenhouse gas emissions between 1990 and 2030**, **reducing nuclear power to 50% of electricity production by 2025** and **32% renewable energy by 2030**; the law also drives building energy renovation, clean vehicle deployment and the **ban on single-use plastic bags**. The Constitutional Council struck down a few provisions, including the insulation-works obligation during facade renovations (decision no. 2015-718 DC)."
+      },
+      "category_ids": ["ecologie", "energie"],
+      "politician_ids": ["segolene-royal", "manuel-valls", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031044385",
+          "title": "LOI n° 2015-992 du 17 août 2015 relative à la transition énergétique pour la croissance verte - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl14-016.html",
+          "title": "Dossier législatif : transition énergétique pour la croissance verte - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2015/2015718DC.htm",
+          "title": "Décision n° 2015-718 DC du 13 août 2015 - Conseil constitutionnel"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "adoption-accord-de-paris-2015"
+        }
+      ]
+    },
+    {
+      "id": "loi-rebsamen-2015",
+      "date": "2015-08-17",
+      "title": {
+        "fr": "Loi Rebsamen (dialogue social et emploi, prime d'activité)",
+        "en": "Rebsamen law (social dialogue and employment, activity bonus)"
+      },
+      "summary": {
+        "fr": "Loi n° 2015-994 portée par François Rebsamen : création de la **prime d'activité au 1er janvier 2016** (fusion du **RSA activité** et de la **prime pour l'emploi**), **délégation unique du personnel élargie** aux entreprises de moins de 300 salariés, **commissions paritaires régionales** pour représenter les salariés des TPE, regroupement des consultations obligatoires et **sécurisation du régime des intermittents du spectacle**.",
+        "en": "Law no. 2015-994 carried by François Rebsamen: creation of the **activity bonus on 1 January 2016** (merging the **in-work RSA** and the **employment bonus**), the **enlarged single staff delegation** for companies under 300 employees, **regional joint commissions** representing very-small-business employees, streamlined mandatory consultations and a **secured regime for entertainment industry workers**."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["francois-rebsamen", "manuel-valls"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000031046061",
+          "title": "LOI n° 2015-994 du 17 août 2015 relative au dialogue social et à l'emploi - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl14-476.html",
+          "title": "Dossier législatif : dialogue social et emploi - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-travail-2016"
+        }
+      ]
+    }
+  ]
+}
