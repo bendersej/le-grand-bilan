@@ -117,7 +117,7 @@ function PoliticianCombobox() {
   const handleValueChange = useCallback(
     (politician: Politician | null) => {
       if (politician === null) return
-      void navigate({ to: '/politiciens/$politicianId', params: { politicianId: politician.id } })
+      void navigate({ to: '/responsables/$politicianId', params: { politicianId: politician.id } })
     },
     [navigate],
   )

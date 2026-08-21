@@ -97,7 +97,7 @@ function DecisionPage() {
         {decisionPoliticians.map((politician) => (
           <Link
             key={politician.id}
-            to="/politiciens/$politicianId"
+            to="/responsables/$politicianId"
             params={{ politicianId: politician.id }}
             search={(previousSearch) => previousSearch}
             className="chip"

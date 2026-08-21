@@ -5,7 +5,7 @@ import { useLocalized } from '../components/LanguageProvider'
 import { formatDateLabel } from '../data/format.ts'
 import { politiciansById } from '../data/registry.ts'
 
-export const Route = createFileRoute('/_timeline/politiciens/$politicianId')({
+export const Route = createFileRoute('/_timeline/responsables/$politicianId')({
   loader: ({ params }) => {
     const politician = politiciansById.get(params.politicianId)
     if (!politician) {

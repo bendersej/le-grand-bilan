@@ -45,7 +45,7 @@ export default function DecisionRow({
         {mainPolitician ? (
           <div className="flex w-[4.5rem] flex-none flex-col gap-0.5">
             <Link
-              to="/politiciens/$politicianId"
+              to="/responsables/$politicianId"
               params={{ politicianId: mainPolitician.id }}
               search={(previousSearch) => previousSearch}
               aria-label={mainPolitician.full_name}
@@ -63,7 +63,7 @@ export default function DecisionRow({
                 {visibleOtherPoliticians.map((politician) => (
                   <Link
                     key={politician.id}
-                    to="/politiciens/$politicianId"
+                    to="/responsables/$politicianId"
                     params={{ politicianId: politician.id }}
                     search={(previousSearch) => previousSearch}
                     aria-label={politician.full_name}
@@ -95,7 +95,7 @@ export default function DecisionRow({
         <div className="flex flex-col items-start gap-1.5">
           {mainPolitician ? (
             <Link
-              to="/politiciens/$politicianId"
+              to="/responsables/$politicianId"
               params={{ politicianId: mainPolitician.id }}
               search={(previousSearch) => previousSearch}
               className="chip"

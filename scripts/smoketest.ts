@@ -97,7 +97,7 @@ const pageExpectations: PageExpectation[] = [
   ...politicians
     .filter((politician) => referencedPoliticianIds.has(politician.id))
     .map((politician) => ({
-      path: `politiciens/${politician.id}/index.html`,
+      path: `responsables/${politician.id}/index.html`,
       documentMarkers: [],
       // Appearances render in the politician's scoped timeline (main), not the panel.
       mainMarkers: appearances
