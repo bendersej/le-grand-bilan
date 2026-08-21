@@ -1,0 +1,94 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2012-07",
+  "decisions": [
+    {
+      "id": "decret-retraite-60-ans-carrieres-longues-2012",
+      "date": "2012-07-02",
+      "title": {
+        "fr": "Retraite à 60 ans pour les carrières longues",
+        "en": "Retirement at 60 for long careers"
+      },
+      "summary": {
+        "fr": "Le décret n° 2012-847, première grande mesure sociale du quinquennat Hollande, **rouvre le droit à la retraite à 60 ans pour les assurés ayant commencé à travailler avant 20 ans** et réunissant la durée de cotisation requise pour leur génération. Le dispositif carrières longues est élargi en ajoutant aux trimestres « réputés cotisés » **deux trimestres de chômage indemnisé et deux trimestres liés à la maternité**. Il s'applique aux pensions prenant effet à compter du **1er novembre 2012** et est financé par une hausse progressive des cotisations vieillesse.",
+        "en": "Decree no. 2012-847, the first major social measure of the Hollande term, **reopens retirement at 60 for workers who started working before the age of 20** and have the contribution record required for their generation. The long-career scheme is broadened by adding **two quarters of compensated unemployment and two quarters linked to maternity** to the quarters deemed contributed. It applies to pensions taking effect from **1 November 2012** and is financed by a gradual rise in pension contributions."
+      },
+      "category_ids": ["retraites"],
+      "politician_ids": ["marisol-touraine", "jean-marc-ayrault", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026106324",
+          "title": "Décret n° 2012-847 du 2 juillet 2012 relatif à l'âge d'ouverture du droit à pension de vieillesse - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "conference-sociale-2012",
+      "date": "2012-07-09",
+      "title": {
+        "fr": "Grande conférence sociale",
+        "en": "Grand social conference"
+      },
+      "summary": {
+        "fr": "François Hollande ouvre au Conseil économique, social et environnemental la première **grande conférence sociale** du quinquennat, réunissant syndicats et patronat autour de sept tables rondes. Il y fixe la **méthode du dialogue social** : aborder tous les sujets sans exclusive, avec l'emploi comme priorité, et déboucher sur une **feuille de route sociale** répartissant les chantiers (emploi, formation, rémunérations, retraites, service public) entre négociations et concertations. Cette méthode aboutira notamment à l'accord national interprofessionnel de janvier 2013.",
+        "en": "François Hollande opens at the Economic, Social and Environmental Council the term's first **grand social conference**, gathering unions and employers around seven round tables. He sets out the **social dialogue method**: putting every subject on the table, with employment as the priority, leading to a **social roadmap** distributing the workstreams (employment, training, pay, pensions, public service) between negotiations and consultations. This method would notably lead to the January 2013 national interprofessional agreement."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["francois-hollande", "jean-marc-ayrault", "michel-sapin"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2012/07/09/declaration-de-m-francois-hollande-president-de-la-republique-sur-les-defis-et-priorites-de-la-politique-economique-et-sociale-de-son-quinquennat-a-paris-le-9-juillet-2012",
+          "title": "Discours de François Hollande à l'ouverture de la grande conférence sociale, 9 juillet 2012 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "decret-encadrement-loyers-2012",
+      "date": "2012-07-20",
+      "title": {
+        "fr": "Encadrement des loyers à la relocation",
+        "en": "Rent control on re-letting"
+      },
+      "summary": {
+        "fr": "Le décret n° 2012-894, porté par Cécile Duflot, **encadre l'évolution des loyers à la relocation et au renouvellement du bail** dans **38 agglomérations** où les loyers ont augmenté anormalement (Paris, Lyon, Marseille, Lille, Bordeaux, Nice...) : le nouveau loyer ne peut dépasser le dernier loyer appliqué, révisé de l'**indice de référence des loyers**, sauf travaux d'amélioration ou loyer manifestement sous-évalué. Applicable du **1er août 2012 pour un an**, il sera reconduit puis relayé par la loi ALUR.",
+        "en": "Decree no. 2012-894, carried by Cécile Duflot, **caps rent increases on re-letting and lease renewal** in **38 urban areas** with abnormal rent rises (Paris, Lyon, Marseille, Lille, Bordeaux, Nice...): the new rent cannot exceed the previous one revised by the **rent reference index**, except for improvement works or manifestly undervalued rents. Applicable from **1 August 2012 for one year**, it would be renewed and later taken over by the ALUR law."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["cecile-duflot", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026208405",
+          "title": "Décret n° 2012-894 du 20 juillet 2012 relatif à l'évolution de certains loyers - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "plan-automobile-2012",
+      "date": "2012-07-25",
+      "title": {
+        "fr": "Plan de soutien à la filière automobile",
+        "en": "Automotive industry support plan"
+      },
+      "summary": {
+        "fr": "En pleine restructuration de PSA, dont le plan social frappe notamment le site d'Aulnay-sous-Bois, le Gouvernement et Arnaud Montebourg présentent un **plan de soutien à la filière automobile** orienté vers les véhicules propres, endossé par François Hollande le 27 juillet sur le site PSA de La Verrière. Le **bonus écologique pour les véhicules électriques passe de 5 000 à 7 000 euros** par le décret n° 2012-925 du 30 juillet, les bonus hybrides sont renforcés et l'État s'engage à verdir ses commandes publiques et à soutenir recherche et sous-traitants.",
+        "en": "Amid PSA's restructuring, whose redundancy plan hits the Aulnay-sous-Bois plant in particular, the Government and Arnaud Montebourg present an **automotive industry support plan** geared towards clean vehicles, endorsed by François Hollande on 27 July at PSA's La Verrière site. The **ecological bonus for electric vehicles rises from 5,000 to 7,000 euros** through decree no. 2012-925 of 30 July, hybrid bonuses are strengthened, and the State commits to greening its fleet purchases and supporting research and subcontractors."
+      },
+      "category_ids": ["economie", "ecologie"],
+      "politician_ids": ["arnaud-montebourg", "jean-marc-ayrault", "francois-hollande"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2012/07/27/point-de-presse-de-m-francois-hollande-president-de-la-republique-sur-le-plan-en-faveur-de-lindustrie-automobile-francaise-a-la-verriere-yvelines-le-27-juillet-2012",
+          "title": "Point de presse de François Hollande sur le plan en faveur de l'industrie automobile, 27 juillet 2012 - Élysée"
+        },
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026236984",
+          "title": "Décret n° 2012-925 du 30 juillet 2012 modifiant le décret n° 2007-1873 instituant une aide à l'acquisition des véhicules propres - Légifrance"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

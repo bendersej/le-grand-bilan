@@ -29,7 +29,12 @@
           "title": "Dossier législatif : mariage pour couples de personnes de même sexe - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "presentation-mariage-pour-tous-2012"
+        }
+      ]
     },
     {
       "id": "loi-elections-locales-2013",

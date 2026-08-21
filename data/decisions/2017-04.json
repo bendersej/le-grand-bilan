@@ -29,6 +29,10 @@
         {
           "type": "implements",
           "decision_id": "loi-transition-energetique-2015"
+        },
+        {
+          "type": "related",
+          "decision_id": "conference-environnementale-2012"
         }
       ]
     }

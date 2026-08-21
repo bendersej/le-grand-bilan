@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2012-11",
+  "decisions": [
+    {
+      "id": "pacte-competitivite-2012",
+      "date": "2012-11-06",
+      "title": {
+        "fr": "Pacte national pour la croissance, la compétitivité et l'emploi",
+        "en": "National pact for growth, competitiveness and employment"
+      },
+      "summary": {
+        "fr": "Au lendemain de la remise du rapport de Louis Gallois sur la compétitivité, Jean-Marc Ayrault présente le **pacte national pour la croissance, la compétitivité et l'emploi** : **35 mesures** agissant sur la compétitivité coût et hors coût, dont la mesure phare est un **allègement de 20 milliards d'euros par an des coûts des entreprises** via le futur crédit d'impôt pour la compétitivité et l'emploi (CICE), complété par le financement des PME (création de la BPI), le soutien à l'innovation et à l'export et la simplification administrative.",
+        "en": "The day after Louis Gallois delivered his competitiveness report, Jean-Marc Ayrault presents the **national pact for growth, competitiveness and employment**: **35 measures** acting on cost and non-cost competitiveness, whose flagship is a **20 billion euro per year cut in companies' costs** through the future competitiveness and employment tax credit (CICE), complemented by SME financing (creation of the BPI), support for innovation and exports, and administrative simplification."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["jean-marc-ayrault", "pierre-moscovici"],
+      "sources": [
+        {
+          "url": "https://www.herault.gouv.fr/content/download/6547/34826/file/pacte",
+          "title": "Dossier de presse : le pacte national pour la croissance, la compétitivité et l'emploi - Préfecture de l'Hérault"
+        },
+        {
+          "url": "https://www.economie.gouv.fr/files/files/directions_services/dae/Pacte_competitivite.pdf",
+          "title": "Pacte national pour la croissance, la compétitivité et l'emploi - ministère de l'Économie et des Finances",
+          "bot_walled": true
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "presentation-mariage-pour-tous-2012",
+      "date": "2012-11-07",
+      "title": {
+        "fr": "Le mariage pour tous présenté en conseil des ministres",
+        "en": "Same-sex marriage bill presented in the council of ministers"
+      },
+      "summary": {
+        "fr": "Christiane Taubira présente en conseil des ministres le **projet de loi ouvrant le mariage aux couples de personnes de même sexe**, qui leur ouvre aussi l'**adoption**, engagement de campagne de François Hollande. Le texte engage un débat national de plusieurs mois, marqué par des manifestations d'ampleur des deux camps, avant son adoption définitive au printemps 2013.",
+        "en": "Christiane Taubira presents in the council of ministers the **bill opening marriage to same-sex couples**, which also opens **adoption** to them, a campaign pledge of François Hollande. The text starts a months-long national debate, marked by large demonstrations on both sides, before its final adoption in spring 2013."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["christiane-taubira", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.assemblee-nationale.fr/14/dossiers/mariage_personnes_meme_sexe.asp",
+          "title": "Dossier législatif : ouverture du mariage aux couples de personnes de même sexe - Assemblée nationale"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "reconnaissance-coalition-syrienne-2012",
+      "date": "2012-11-17",
+      "title": {
+        "fr": "Reconnaissance de la Coalition nationale syrienne",
+        "en": "Recognition of the Syrian National Coalition"
+      },
+      "summary": {
+        "fr": "François Hollande **reconnaît la Coalition nationale syrienne comme seule représentante légitime du peuple syrien**, en pleine guerre civile contre le régime de Bachar el-Assad, et annonce qu'un **ambassadeur de la Syrie en France sera désigné par la Coalition**. Recevant son président Moaz al-Khatib le 17 novembre, il charge Laurent Fabius de convaincre les partenaires européens d'adopter la même position.",
+        "en": "François Hollande **recognises the Syrian National Coalition as the sole legitimate representative of the Syrian people**, amid the civil war against Bashar al-Assad's regime, and announces that a **Syrian ambassador to France will be designated by the Coalition**. Receiving its president Moaz al-Khatib on 17 November, he tasks Laurent Fabius with convincing European partners to adopt the same position."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["francois-hollande", "laurent-fabius"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2012/11/17/declaration-de-m-francois-hollande-president-de-la-republique-sur-lopposition-syrienne-a-paris-le-17-novembre-2012",
+          "title": "Déclaration de François Hollande sur l'opposition syrienne, 17 novembre 2012 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-lurel-vie-chere-2012",
+      "date": "2012-11-20",
+      "title": {
+        "fr": "Loi contre la vie chère en outre-mer",
+        "en": "Law against the high cost of living overseas"
+      },
+      "summary": {
+        "fr": "La loi n° 2012-1270 de régulation économique outre-mer, portée par Victorin Lurel, s'attaque aux monopoles et aux prix dans les territoires ultramarins : négociation annuelle d'un **« bouclier qualité-prix »** sur les produits de première nécessité, avec fixation des prix par l'État en cas d'échec, **interdiction des accords d'exclusivité d'importation** non justifiés, et **pouvoirs renforcés de l'Autorité de la concurrence**, qui peut aller jusqu'à imposer des cessions d'actifs dans la grande distribution en cas de prix ou de marges anormalement élevés.",
+        "en": "Law no. 2012-1270 on overseas economic regulation, carried by Victorin Lurel, tackles monopolies and prices in overseas territories: annual negotiation of a **\"quality-price shield\"** on essential goods, with State-set prices if talks fail, a **ban on unjustified exclusive import agreements**, and **strengthened powers for the Competition Authority**, which can go as far as forcing asset divestitures in large-scale retail in case of abnormally high prices or margins."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["victorin-lurel", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026657458",
+          "title": "LOI n° 2012-1270 du 20 novembre 2012 relative à la régulation économique outre-mer - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl11-751.html",
+          "title": "Dossier législatif : régulation économique outre-mer - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "circulaire-valls-regularisation-2012",
+      "date": "2012-11-28",
+      "title": {
+        "fr": "Circulaire Valls sur la régularisation des sans-papiers",
+        "en": "Valls circular on regularising undocumented migrants"
+      },
+      "summary": {
+        "fr": "Manuel Valls adresse aux préfets la circulaire sur les **conditions d'examen des demandes d'admission exceptionnelle au séjour** des étrangers en situation irrégulière : elle unifie les **critères de régularisation au cas par cas** en vue de la délivrance de titres « vie privée et familiale » ou « salarié », en fonction notamment des attaches familiales, de la scolarisation des enfants et de l'ancienneté de présence et de travail en France.",
+        "en": "Manuel Valls sends prefects the circular on the **conditions for examining applications for exceptional admission to residence** by undocumented foreigners: it unifies the **case-by-case regularisation criteria** for issuing \"private and family life\" or \"employee\" permits, based notably on family ties, children's schooling and length of presence and work in France."
+      },
+      "category_ids": ["immigration"],
+      "politician_ids": ["manuel-valls", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.haute-savoie.gouv.fr/Publications/Circulaires/2012/circulaire-NOR-INTK1229185C",
+          "title": "Circulaire NOR INTK1229185C du 28 novembre 2012 sur l'admission exceptionnelle au séjour - Préfecture de la Haute-Savoie"
+        },
+        {
+          "url": "https://www.immigration.interieur.gouv.fr/Archives/Les-archives-du-site/Info-ressources/Focus/Circulaire-sur-l-admission-au-sejour-du-28-novembre-2012/Circulaire-INTK1229185C-du-28-novembre-2012",
+          "title": "Circulaire INTK1229185C du 28 novembre 2012 - Direction générale des étrangers en France",
+          "bot_walled": true
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2012-02",
+  "decisions": [
+    {
+      "id": "decret-convocation-electeurs-presidentielle-2012",
+      "date": "2012-02-22",
+      "title": {
+        "fr": "Convocation des électeurs pour l'élection présidentielle",
+        "en": "Convening of voters for the presidential election"
+      },
+      "summary": {
+        "fr": "Le décret n° 2012-256 convoque les électeurs pour l'élection du président de la République : **premier tour le dimanche 22 avril 2012** (le samedi 21 avril dans certains territoires d'outre-mer et à l'étranger) et **second tour éventuel le 6 mai 2012**. Il ouvre formellement la campagne qui verra s'affronter le président sortant Nicolas Sarkozy et François Hollande.",
+        "en": "Decree no. 2012-256 convenes voters for the election of the President of the Republic: **first round on Sunday 22 April 2012** (Saturday 21 April in some overseas territories and abroad) and a **possible second round on 6 May 2012**. It formally opens the campaign that will pit incumbent Nicolas Sarkozy against François Hollande."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["nicolas-sarkozy", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025398043",
+          "title": "Décret n° 2012-256 du 22 février 2012 portant convocation des électeurs pour l'élection du Président de la République - Légifrance"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-organique-remboursement-campagne-2012",
+      "date": "2012-02-28",
+      "title": {
+        "fr": "Réduction du remboursement des dépenses de campagne présidentielle",
+        "en": "Reduction of presidential campaign expense reimbursement"
+      },
+      "summary": {
+        "fr": "La loi organique n° 2012-272, votée au titre de l'effort de redressement des comptes publics, **abaisse le remboursement forfaitaire de l'État** aux candidats à l'élection présidentielle : il passe de **la moitié à 47,5 % du plafond des dépenses** pour les candidats dépassant 5 % des suffrages, et **du vingtième à 4,75 %** pour les autres. Elle s'applique dès l'élection de 2012.",
+        "en": "Organic law no. 2012-272, passed as part of the public finance consolidation effort, **lowers the State's flat-rate reimbursement** to presidential candidates: from **half to 47.5% of the spending ceiling** for candidates above 5% of the vote, and **from one twentieth to 4.75%** for the others. It applies from the 2012 election onwards."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["claude-gueant", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000025413460",
+          "title": "LOI organique n° 2012-272 du 28 février 2012 relative au remboursement des dépenses de campagne de l'élection présidentielle - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl11-211.html",
+          "title": "Dossier législatif : remboursement des dépenses de campagne de l'élection présidentielle - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

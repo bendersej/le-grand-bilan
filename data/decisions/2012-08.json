@@ -1,0 +1,125 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2012-08",
+  "decisions": [
+    {
+      "id": "loi-harcelement-sexuel-2012",
+      "date": "2012-08-06",
+      "title": {
+        "fr": "Nouvelle loi sur le harcèlement sexuel",
+        "en": "New law on sexual harassment"
+      },
+      "summary": {
+        "fr": "La loi n° 2012-954, adoptée en urgence après que le Conseil constitutionnel a **abrogé le délit de harcèlement sexuel le 4 mai 2012** pour imprécision (QPC n° 2012-240, créant un vide juridique qui a éteint les procédures en cours), **rétablit et élargit l'infraction** : propos ou comportements à connotation sexuelle répétés, ou pression grave même non répétée pour obtenir un acte sexuel, punis de **deux ans d'emprisonnement et 30 000 euros d'amende**, portés à **trois ans et 45 000 euros** avec circonstances aggravantes, dont l'abus d'autorité et la vulnérabilité économique et sociale de la victime.",
+        "en": "Law no. 2012-954, passed urgently after the Constitutional Council **abrogated the offence of sexual harassment on 4 May 2012** for vagueness (QPC no. 2012-240, creating a legal void that extinguished pending proceedings), **restores and broadens the offence**: repeated sexually connoted remarks or behaviour, or serious pressure even if not repeated to obtain a sexual act, punished by **two years' imprisonment and a 30,000 euro fine**, raised to **three years and 45,000 euros** with aggravating circumstances, including abuse of authority and the victim's economic and social vulnerability."
+      },
+      "category_ids": ["justice"],
+      "politician_ids": ["christiane-taubira", "najat-vallaud-belkacem"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026263463",
+          "title": "LOI n° 2012-954 du 6 août 2012 relative au harcèlement sexuel - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2012/2012240QPC.htm",
+          "title": "Décision n° 2012-240 QPC du 4 mai 2012, définition du délit de harcèlement sexuel - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl11-592.html",
+          "title": "Dossier législatif : harcèlement sexuel - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "abrogation-majoration-droits-construire-2012",
+      "date": "2012-08-06",
+      "title": {
+        "fr": "Abrogation de la majoration des droits à construire",
+        "en": "Repeal of the building rights increase"
+      },
+      "summary": {
+        "fr": "Première loi logement de la nouvelle majorité, la loi n° 2012-955, portée par Cécile Duflot, **abroge la majoration automatique de 30 % des droits à construire** votée en mars sous Nicolas Sarkozy, jugée inflationniste et source d'insécurité juridique pour les communes. Les majorations facultatives préexistantes, décidées localement, restent possibles.",
+        "en": "The new majority's first housing law, law no. 2012-955, carried by Cécile Duflot, **repeals the automatic 30% increase in building rights** voted in March under Nicolas Sarkozy, deemed inflationary and a source of legal uncertainty for municipalities. Pre-existing optional increases, decided locally, remain possible."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["cecile-duflot", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026263562",
+          "title": "LOI n° 2012-955 du 6 août 2012 visant à abroger la loi n° 2012-376 du 20 mars 2012 relative à la majoration des droits à construire - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/ppl11-595.html",
+          "title": "Dossier législatif : abrogation de la majoration des droits à construire - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "repeals",
+          "decision_id": "loi-majoration-droits-construire-2012"
+        }
+      ]
+    },
+    {
+      "id": "lfr-aout-2012",
+      "date": "2012-08-16",
+      "title": {
+        "fr": "Collectif budgétaire d'été : abrogation de la TVA sociale et nouvelles taxes",
+        "en": "Summer amending budget: social VAT repealed and new taxes"
+      },
+      "summary": {
+        "fr": "Premier grand texte fiscal du quinquennat Hollande, la loi n° 2012-958 de finances rectificative **abroge la hausse de TVA de 19,6 % à 21,2 % (« TVA sociale ») avant son entrée en vigueur**, crée une **contribution exceptionnelle sur la fortune** au titre de 2012, **supprime les exonérations fiscales et sociales des heures supplémentaires** issues de la loi TEPA de 2007, **double la taxe sur les transactions financières de 0,1 % à 0,2 %** et instaure une **taxe de 3 % sur les dividendes** distribués. Le Conseil constitutionnel a censuré l'article réduisant de 30 % la rémunération du président de la République et du Premier ministre, au nom de la séparation des pouvoirs (décision n° 2012-654 DC).",
+        "en": "The first major tax text of the Hollande term, amending budget law no. 2012-958 **repeals the VAT rise from 19.6% to 21.2% (the \"social VAT\") before it takes effect**, creates an **exceptional wealth levy** for 2012, **ends the tax and social exemptions on overtime** introduced by the 2007 TEPA law, **doubles the financial transaction tax from 0.1% to 0.2%** and introduces a **3% tax on distributed dividends**. The Constitutional Council struck down the article cutting the pay of the President and Prime Minister by 30%, in the name of the separation of powers (decision no. 2012-654 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["pierre-moscovici", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026288927",
+          "title": "LOI n° 2012-958 du 16 août 2012 de finances rectificative pour 2012 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2012/2012654DC.htm",
+          "title": "Décision n° 2012-654 DC du 9 août 2012 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl11-687.html",
+          "title": "Dossier législatif : loi de finances rectificative pour 2012 (août) - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "amends",
+          "decision_id": "tva-sociale-2012"
+        }
+      ]
+    },
+    {
+      "id": "decret-reduction-remuneration-executif-2012",
+      "date": "2012-08-23",
+      "title": {
+        "fr": "Baisse de 30 % de la rémunération du président et des ministres",
+        "en": "30% pay cut for the president and ministers"
+      },
+      "summary": {
+        "fr": "Le décret n° 2012-983 **confirme la réduction de 30 % des traitements du président de la République et des membres du Gouvernement**, appliquée depuis le 15 mai 2012 conformément à l'engagement de campagne de François Hollande : le traitement des ministres est ramené à **1,4 fois la moyenne des traitements les plus haut et les plus bas** de la catégorie « hors échelle » de la fonction publique, celui du président et du Premier ministre à ce montant **majoré de 5 %**. Le décret prend le relais de la disposition législative équivalente censurée par le Conseil constitutionnel au nom de la séparation des pouvoirs.",
+        "en": "Decree no. 2012-983 **confirms the 30% cut in the salaries of the President of the Republic and members of the Government**, applied since 15 May 2012 in line with François Hollande's campaign pledge: ministers' pay is set at **1.4 times the average of the highest and lowest salaries** of the civil service's top pay category, and the President's and Prime Minister's at that amount **plus 5%**. The decree takes over from the equivalent legislative provision struck down by the Constitutional Council in the name of the separation of powers."
+      },
+      "category_ids": ["institutions"],
+      "politician_ids": ["francois-hollande", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026310466",
+          "title": "Décret n° 2012-983 du 23 août 2012 relatif au traitement du Président de la République et des membres du Gouvernement - Légifrance"
+        }
+      ],
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "lfr-aout-2012"
+        }
+      ]
+    }
+  ]
+}

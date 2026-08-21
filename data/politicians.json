@@ -1058,6 +1058,36 @@
       }
     },
     {
+      "id": "claude-gueant",
+      "full_name": "Claude Guéant",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Intérieur, de l'Outre-mer, des Collectivités territoriales et de l'Immigration",
+            "en": "Minister of the Interior, Overseas France, Local Authorities and Immigration"
+          },
+          "from": "2011-02-27",
+          "to": "2012-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "dc9ef4b986cd93de48509d72402d247a76b4e4c740130e1d3af5bbea18c712a5",
+        "photo": {
+          "path": "/media/politicians/claude-gueant.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Claude_Gu%C3%A9ant_(derivate_work).jpg",
+          "license": "CC BY-SA 2.0",
+          "author": "Claude_Guéant_-_1.jpg : Γιώργος Α. Παπανδρέου Πρωθυπουργός της Ελλάδας from Greece\nderivative work: Citron (talk)"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Haut fonctionnaire et homme politique, **ministre de l'Intérieur, de l'Outre-mer, des Collectivités territoriales et de l'Immigration de février 2011 à mai 2012**, dans le dernier gouvernement Fillon. Ancien **préfet**, il fait l'essentiel de sa carrière dans la haute administration avant de devenir le plus proche collaborateur de Nicolas Sarkozy : directeur de cabinet au ministère de l'Intérieur puis à l'Économie, il est **secrétaire général de l'Élysée de 2007 à 2011**, poste d'où il passe pour le véritable numéro deux de l'exécutif. Ministre de l'Intérieur, il incarne une ligne dure sur l'immigration, dont la **circulaire du 31 mai 2011 sur les diplômés étrangers**, abrogée en 2012 par ses successeurs. Il est ensuite **condamné à plusieurs reprises**, notamment en 2019 à un an de prison ferme pour **complicité de détournement de fonds publics et recel dans l'affaire des primes en liquide** de la place Beauvau, peine suivie d'une incarcération fin 2021, ainsi que dans des volets de l'affaire du financement libyen de la campagne présidentielle de 2007.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Claude_Gu%C3%A9ant"
+      }
+    },
+    {
       "id": "clement-beaune",
       "full_name": "Clément Beaune",
       "party": "Renaissance",
@@ -1518,6 +1548,36 @@
       }
     },
     {
+      "id": "francois-baroin",
+      "full_name": "François Baroin",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Économie, des Finances et de l'Industrie",
+            "en": "Minister of the Economy, Finance and Industry"
+          },
+          "from": "2011-06-29",
+          "to": "2012-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "78c12ee50bced1ce0e54a1f7b60c5aa2beb925bbb7bbd24c48469e415a7dfc3e",
+        "photo": {
+          "path": "/media/politicians/francois-baroin.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Baroin_(50277562053)_(cropped).jpg",
+          "license": "CC BY 2.0",
+          "author": "Jacques Paquier"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique **Les Républicains**, **ministre de l'Économie, des Finances et de l'Industrie de juin 2011 à mai 2012**, en pleine crise de la zone euro : il porte notamment le **plan de rigueur de l'automne 2011**, la **première taxe sur les transactions financières** et la défense du triple A français. Ancien **journaliste politique à Europe 1**, protégé de Jacques Chirac dont il fut le porte-parole en 1995, il est **député de l'Aube à partir de 1993** et **maire de Troyes depuis 1995**. Il a été **porte-parole du gouvernement**, **ministre de l'Outre-mer** puis de l'**Intérieur** (2005-2007) et **ministre du Budget et des Comptes publics (2010-2011)**. Il préside ensuite l'**Association des maires de France de 2014 à 2021**, position depuis laquelle il s'oppose à la baisse des dotations aux collectivités, puis se met en retrait de la politique nationale tout en restant maire de Troyes.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Baroin"
+      }
+    },
+    {
       "id": "francois-bayrou",
       "full_name": "François Bayrou",
       "party": "Mouvement démocrate",
@@ -1643,6 +1703,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_de_Rugy"
+      }
+    },
+    {
+      "id": "francois-fillon",
+      "full_name": "François Fillon",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Premier ministre",
+            "en": "Prime Minister"
+          },
+          "from": "2007-05-17",
+          "to": "2012-05-15"
+        }
+      ],
+      "profile": {
+        "content_hash": "f9bd9debfb07bcf44107b074aa6bc13d9697968cb5e861c7eb26bd1e91fa4c48",
+        "photo": {
+          "path": "/media/politicians/francois-fillon.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Fran%C3%A7ois_Fillon_2010.jpg",
+          "license": "CC BY 3.0",
+          "author": "Marie-Lan Nguyen"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme d'État, **Premier ministre de 2007 à 2012** pendant tout le quinquennat de Nicolas Sarkozy, un record de longévité à Matignon sous la Cinquième République. Son gouvernement conduit la **réforme des retraites de 2010** (report de l'âge légal à 62 ans), la **révision générale des politiques publiques** et la réponse à la crise financière de 2008 puis à la crise de la zone euro, dont la **loi de finances rectificative de mars 2012** instaurant la « TVA sociale ». Issu du **gaullisme social**, proche de Philippe Séguin, il fut auparavant député de la Sarthe, président de région, sénateur, **ministre de l'Enseignement supérieur (1993-1995)**, des **Télécommunications**, des **Affaires sociales (2002-2004)**, où il mène la réforme des retraites de 2003 et l'assouplissement des 35 heures, puis de l'**Éducation nationale (2004-2005)**. Vainqueur de la primaire de la droite, candidat à l'élection présidentielle de 2017, il est éliminé au premier tour sur fond d'**affaire des emplois fictifs de son épouse Penelope**, pour laquelle il est **définitivement condamné en 2024 à quatre ans de prison dont un ferme aménagé**, avant de se retirer de la vie politique.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7ois_Fillon"
       }
     },
     {
@@ -3246,6 +3336,36 @@
       }
     },
     {
+      "id": "michel-mercier",
+      "full_name": "Michel Mercier",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Garde des Sceaux, ministre de la Justice",
+            "en": "Keeper of the Seals, Minister of Justice"
+          },
+          "from": "2010-11-14",
+          "to": "2012-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "ec0dc68614176bad4a0e3bdb22ef0628954c5ed5ca040d2d82d3adb2fa5dc0fe",
+        "photo": {
+          "path": "/media/politicians/michel-mercier.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Bayrou_Bercy_2007-04-18_n35.jpg",
+          "license": "CC BY 2.5",
+          "author": "Marie-Lan Nguyen (User:Jastrow)"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique centriste, **garde des Sceaux, ministre de la Justice et des Libertés de novembre 2010 à mai 2012** dans le gouvernement Fillon : il porte notamment la **loi du 27 mars 2012 de programmation relative à l'exécution des peines**, qui programme 80 000 places de prison. Élu du Rhône pendant quatre décennies, **président du conseil général du Rhône**, maire de Thizy-les-Bourgs, **sénateur à partir de 1995** et président du groupe centriste au Sénat de 2002 à 2009, il fut aussi **ministre de l'Espace rural et de l'Aménagement du territoire (2009-2010)**. Professeur de droit de formation, figure de l'UDF puis du Mouvement démocrate, dont il s'éloigne en acceptant d'entrer au gouvernement en 2009. Il est **condamné en 2023 pour l'emploi fictif de sa femme et de sa fille** comme assistantes parlementaires, avec interdiction d'exercer toute fonction publique, puis en 2024 dans l'affaire des assistants parlementaires européens du MoDem.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Michel_Mercier"
+      }
+    },
+    {
       "id": "michel-sapin",
       "full_name": "Michel Sapin",
       "party": "Parti socialiste",
@@ -3477,6 +3597,36 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Nicolas_Hulot"
+      }
+    },
+    {
+      "id": "nicolas-sarkozy",
+      "full_name": "Nicolas Sarkozy",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Président de la République",
+            "en": "President of the Republic"
+          },
+          "from": "2007-05-16",
+          "to": "2012-05-15"
+        }
+      ],
+      "profile": {
+        "content_hash": "da9c48694ecd258e61f6100892c9960beb8050b21f2835ba23eeaebf5c593401",
+        "photo": {
+          "path": "/media/politicians/nicolas-sarkozy.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Nicolas_Sarkozy_20220927.jpg",
+          "license": "CC BY 4.0",
+          "author": "首相官邸"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme d'État, **président de la République du 16 mai 2007 au 15 mai 2012**. Avocat de formation, **maire de Neuilly-sur-Seine à 28 ans**, député, **ministre du Budget et porte-parole du gouvernement Balladur**, deux fois **ministre de l'Intérieur** et **ministre de l'Économie et des Finances**, président de l'UMP de 2004 à 2007. Élu en 2007 avec **53,1 % des voix face à Ségolène Royal**, son quinquennat est marqué par la **réforme des universités**, le **traité de Lisbonne**, la **réforme des retraites de 2010** (62 ans), la gestion de la **crise financière de 2008** puis de la **crise de la zone euro** (traités MES et TSCG), la **réforme constitutionnelle de 2008** et l'intervention en Libye. **Battu par François Hollande en 2012** avec 48,4 % des suffrages, il revient prendre la tête de l'UMP devenue Les Républicains (2014-2016), échoue à la primaire de 2016 puis quitte la vie politique active. Il est ensuite **définitivement condamné en 2024 dans l'affaire des écoutes** (corruption et trafic d'influence, un an ferme sous bracelet électronique, une première pour un ancien président) ainsi que dans l'affaire Bygmalion, et **incarcéré en 2025 dans l'affaire du financement libyen** de sa campagne de 2007 avant sa remise en liberté sous contrôle judiciaire dans l'attente de l'appel.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Nicolas_Sarkozy"
       }
     },
     {
@@ -4369,6 +4519,66 @@
           "en": null
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Val%C3%A9rie_L%C3%A9tard"
+      }
+    },
+    {
+      "id": "valerie-pecresse",
+      "full_name": "Valérie Pécresse",
+      "party": "Les Républicains",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre du Budget, des Comptes publics et de la Réforme de l'État, porte-parole du Gouvernement",
+            "en": "Minister for the Budget, Public Accounts and State Reform, Government Spokesperson"
+          },
+          "from": "2011-06-29",
+          "to": "2012-05-16"
+        }
+      ],
+      "profile": {
+        "content_hash": "fcebcae06b7e6ecece3ffdd397e6966735ae12390cab5058999218b5b4567e12",
+        "photo": {
+          "path": "/media/politicians/valerie-pecresse.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Val%C3%A9rie_P%C3%A9cresse_at_a_2024_Paralympic_Games_media_conference_in_2024_3_(cropped).jpg",
+          "license": "CC BY-SA 4.0",
+          "author": "Gail Leenstra"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Femme politique **Les Républicains**, **présidente du conseil régional d'Île-de-France depuis 2015** et candidate à l'élection présidentielle de 2022 (4,8 % au premier tour). Ancienne élève de **HEC et de l'ENA**, **membre du Conseil d'État**, enseignante à Sciences Po, conseillère de Jacques Chirac à l'Élysée de 1998 à 2002, puis députée des Yvelines. **Ministre de l'Enseignement supérieur et de la Recherche de 2007 à 2011**, elle mène la **réforme de l'autonomie des universités (loi LRU)**, puis est **ministre du Budget, des Comptes publics et de la Réforme de l'État et porte-parole du gouvernement Fillon de 2011 à 2012**, où elle défend les plans de réduction des déficits de la fin du quinquennat Sarkozy et la loi de finances rectificative de mars 2012. Un temps fondatrice de son propre mouvement, Soyons libres, elle revient conduire la droite francilienne et reste une figure de l'aile libérale et européenne des Républicains.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Val%C3%A9rie_P%C3%A9cresse"
+      }
+    },
+    {
+      "id": "victorin-lurel",
+      "full_name": "Victorin Lurel",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Outre-mer",
+            "en": "Minister for Overseas France"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-02"
+        }
+      ],
+      "profile": {
+        "content_hash": "141a669f1addb7ffeea050fe1da272c495e5fe91c5733ca6d573dde26a037605",
+        "photo": {
+          "path": "/media/politicians/victorin-lurel.jpg",
+          "source_url": "https://commons.wikimedia.org/wiki/File:Victorin_Lurel_2.jpg",
+          "license": "CC BY-SA 3.0",
+          "author": "Starus"
+        },
+        "retrieved_at": "2026-08-21",
+        "summary": {
+          "fr": "Homme politique **socialiste** guadeloupéen, **ministre des Outre-mer de 2012 à 2014** dans les gouvernements Ayrault : il porte la **loi du 20 novembre 2012 de régulation économique outre-mer**, dite loi « contre la vie chère », qui instaure le bouclier qualité-prix et renforce les pouvoirs de l'Autorité de la concurrence dans les territoires ultramarins. Économiste de formation, il occupe entre 2001 et 2012 les mandats de **maire de Vieux-Habitants**, de **député** et de **président du conseil régional de la Guadeloupe**, qu'il retrouve de 2014 à 2015. Il est **sénateur de la Guadeloupe depuis 2017**, réélu en 2023.",
+          "en": null
+        },
+        "wikipedia_url": "https://fr.wikipedia.org/wiki/Victorin_Lurel"
       }
     },
     {

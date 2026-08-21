@@ -50,7 +50,12 @@
           "title": "Décision n° 2012-660 DC du 17 janvier 2013 - Conseil constitutionnel"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "censure-loi-foncier-public-2012"
+        }
+      ]
     },
     {
       "id": "decret-rythmes-scolaires-2013",

@@ -1,0 +1,182 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2012-12",
+  "decisions": [
+    {
+      "id": "loi-organique-gouvernance-finances-2012",
+      "date": "2012-12-17",
+      "title": {
+        "fr": "Loi organique sur la gouvernance des finances publiques",
+        "en": "Organic law on public finance governance"
+      },
+      "summary": {
+        "fr": "La loi organique n° 2012-1403 transpose le traité budgétaire européen en droit français : les lois de programmation fixent l'**objectif de moyen terme de solde structurel**, un **Haut Conseil des finances publiques** indépendant, présidé par le premier président de la Cour des comptes, est créé pour se prononcer sur les prévisions macroéconomiques du Gouvernement, et un **mécanisme de correction** se déclenche en cas d'écart d'au moins **0,5 point de PIB** par rapport à la trajectoire. Le Conseil constitutionnel l'a jugée conforme (décision n° 2012-658 DC).",
+        "en": "Organic law no. 2012-1403 transposes the European fiscal treaty into French law: programming laws set the **medium-term structural balance objective**, an independent **High Council of Public Finances**, chaired by the first president of the Court of Accounts, is created to assess the Government's macroeconomic forecasts, and a **correction mechanism** is triggered by deviations of at least **0.5 points of GDP** from the trajectory. The Constitutional Council upheld it (decision no. 2012-658 DC)."
+      },
+      "category_ids": ["economie", "institutions"],
+      "politician_ids": ["jean-marc-ayrault", "pierre-moscovici"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026785259",
+          "title": "LOI organique n° 2012-1403 du 17 décembre 2012 relative à la programmation et à la gouvernance des finances publiques - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2012/2012658DC.htm",
+          "title": "Décision n° 2012-658 DC du 13 décembre 2012 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-043.html",
+          "title": "Dossier législatif : programmation et gouvernance des finances publiques - Sénat"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "ratification-tscg-2012"
+        }
+      ]
+    },
+    {
+      "id": "lfss-2013",
+      "date": "2012-12-17",
+      "title": {
+        "fr": "Loi de financement de la sécurité sociale pour 2013",
+        "en": "Social security financing law for 2013"
+      },
+      "summary": {
+        "fr": "La loi n° 2012-1404, portée par Marisol Touraine, fixe la progression de l'**ONDAM à 2,7 %** et contient deux mesures emblématiques : la **prise en charge à 100 % de l'interruption volontaire de grossesse** et la **contraception gratuite pour les mineures d'au moins quinze ans**. Elle déplafonne l'assiette des cotisations maladie des travailleurs indépendants et augmente le droit spécifique sur la bière. Le Conseil constitutionnel a censuré plusieurs dispositions ponctuelles (décision n° 2012-659 DC).",
+        "en": "Law no. 2012-1404, carried by Marisol Touraine, sets **health spending (ONDAM) growth at 2.7%** and contains two emblematic measures: **100% coverage of abortion costs** and **free contraception for minors aged 15 and over**. It removes the cap on self-employed workers' health contribution base and raises the specific beer duty. The Constitutional Council struck down several specific provisions (decision no. 2012-659 DC)."
+      },
+      "category_ids": ["sante", "economie"],
+      "politician_ids": ["marisol-touraine", "pierre-moscovici"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026785322",
+          "title": "LOI n° 2012-1404 du 17 décembre 2012 de financement de la sécurité sociale pour 2013 - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/rap/l12-107-1/l12-107-1-syn.pdf",
+          "title": "Rapport de la commission des affaires sociales sur le PLFSS 2013, synthèse - Sénat"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2012/2012659DC.htm",
+          "title": "Décision n° 2012-659 DC du 13 décembre 2012 - Conseil constitutionnel"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-antiterrorisme-2012",
+      "date": "2012-12-21",
+      "title": {
+        "fr": "Loi sur la sécurité et la lutte contre le terrorisme",
+        "en": "Law on security and the fight against terrorism"
+      },
+      "summary": {
+        "fr": "Première loi antiterroriste du quinquennat, portée par Manuel Valls après les attentats de Toulouse et Montauban de mars 2012, la loi n° 2012-1432 permet de **poursuivre en France les actes de terrorisme commis à l'étranger par des Français ou des personnes résidant habituellement en France**, visant notamment les départs vers les filières et camps d'entraînement djihadistes. Elle **proroge jusqu'à fin 2015 les dispositions de la loi antiterroriste de 2006** sur l'accès aux données de connexion et les contrôles d'identité dans les trains internationaux.",
+        "en": "The term's first anti-terrorism law, carried by Manuel Valls after the March 2012 Toulouse and Montauban attacks, law no. 2012-1432 allows **prosecution in France of terrorist acts committed abroad by French nationals or habitual residents**, targeting in particular departures to jihadist networks and training camps. It **extends until the end of 2015 the provisions of the 2006 anti-terrorism law** on access to connection data and identity checks on international trains."
+      },
+      "category_ids": ["justice", "securite"],
+      "politician_ids": ["manuel-valls", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026809719",
+          "title": "LOI n° 2012-1432 du 21 décembre 2012 relative à la sécurité et à la lutte contre le terrorisme - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-006.html",
+          "title": "Dossier législatif : sécurité et lutte contre le terrorisme - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "loi-de-finances-2013",
+      "date": "2012-12-29",
+      "title": {
+        "fr": "Loi de finances pour 2013 et censure de la taxe à 75 %",
+        "en": "2013 budget law and censure of the 75% tax"
+      },
+      "summary": {
+        "fr": "Le budget 2013, porté par Pierre Moscovici et Jérôme Cahuzac, engage un effort de redressement massif par l'impôt : création d'une **tranche d'impôt sur le revenu à 45 % au-delà de 150 000 euros par part**, **abaissement du plafond du quotient familial de 2 336 à 2 000 euros** par demi-part et imposition au barème des revenus du capital. Le Conseil constitutionnel **censure la mesure la plus emblématique, la contribution exceptionnelle de 75 % sur les revenus d'activité dépassant un million d'euros**, parce qu'elle frappait les personnes physiques sans tenir compte du foyer fiscal, rompant l'égalité devant les charges publiques (décision n° 2012-662 DC).",
+        "en": "The 2013 budget, carried by Pierre Moscovici and Jérôme Cahuzac, pursues a massive tax-based consolidation: creation of a **45% income tax bracket above 150,000 euros per share**, **lowering of the family quotient cap from 2,336 to 2,000 euros** per half-share and taxation of capital income at the progressive scale. The Constitutional Council **strikes down its most emblematic measure, the exceptional 75% contribution on earned income above one million euros**, because it taxed individuals without regard to the fiscal household, breaking equality before public burdens (decision no. 2012-662 DC)."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["pierre-moscovici", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026856853",
+          "title": "LOI n° 2012-1509 du 29 décembre 2012 de finances pour 2013 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2012/2012662DC.htm",
+          "title": "Décision n° 2012-662 DC du 29 décembre 2012 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjlf2013.html",
+          "title": "Dossier législatif : budget 2013 - Sénat"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "cice-2012",
+      "date": "2012-12-29",
+      "title": {
+        "fr": "Création du crédit d'impôt pour la compétitivité et l'emploi (CICE)",
+        "en": "Creation of the competitiveness and employment tax credit (CICE)"
+      },
+      "summary": {
+        "fr": "La loi n° 2012-1510 de finances rectificative crée le **crédit d'impôt pour la compétitivité et l'emploi**, mesure phare du pacte de compétitivité : un crédit d'impôt égal à **4 % des rémunérations n'excédant pas 2,5 SMIC versées en 2013, porté à 6 % à partir de 2014**, équivalant à une baisse massive du coût du travail pour les entreprises. Le Conseil constitutionnel a validé le dispositif, introduit par amendement du Gouvernement (décision n° 2012-661 DC).",
+        "en": "Amending budget law no. 2012-1510 creates the **competitiveness and employment tax credit**, the flagship measure of the competitiveness pact: a tax credit equal to **4% of wages up to 2.5 times the minimum wage paid in 2013, raised to 6% from 2014**, amounting to a massive cut in companies' labour costs. The Constitutional Council upheld the scheme, introduced by a Government amendment (decision no. 2012-661 DC)."
+      },
+      "category_ids": ["economie", "travail"],
+      "politician_ids": ["pierre-moscovici", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026857857",
+          "title": "LOI n° 2012-1510 du 29 décembre 2012 de finances rectificative pour 2012 - Légifrance"
+        },
+        {
+          "url": "https://www.conseil-constitutionnel.fr/decision/2012/2012661DC.htm",
+          "title": "Décision n° 2012-661 DC du 29 décembre 2012 - Conseil constitutionnel"
+        },
+        {
+          "url": "https://www.assemblee-nationale.fr/dyn/14/questions/QANR5L14QE23550.pdf",
+          "title": "Question écrite n° 23550 et réponse sur le mécanisme du CICE - Assemblée nationale"
+        }
+      ],
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "pacte-competitivite-2012"
+        }
+      ]
+    },
+    {
+      "id": "loi-bpi-2012",
+      "date": "2012-12-31",
+      "title": {
+        "fr": "Création de la Banque publique d'investissement",
+        "en": "Creation of the Public Investment Bank"
+      },
+      "summary": {
+        "fr": "La loi n° 2012-1559 crée la **Banque publique d'investissement (BPI, future Bpifrance)**, groupe public constitué autour d'OSEO, de CDC Entreprises et du Fonds stratégique d'investissement : elle finance en prêts et en fonds propres **les TPE, PME et entreprises de taille intermédiaire**, en priorité dans l'industrie, et accompagne l'**innovation**, la croissance, l'internationalisation et la transition écologique et énergétique des entreprises, en appui des politiques publiques de l'État et des régions.",
+        "en": "Law no. 2012-1559 creates the **Public Investment Bank (BPI, the future Bpifrance)**, a public group built around OSEO, CDC Entreprises and the Strategic Investment Fund: it finances **very small, small and medium-sized companies and mid-caps** through loans and equity, primarily in industry, and supports companies' **innovation**, growth, internationalisation and ecological and energy transition, in support of State and regional public policies."
+      },
+      "category_ids": ["economie"],
+      "politician_ids": ["pierre-moscovici", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.legifrance.gouv.fr/jorf/id/JORFTEXT000026871127",
+          "title": "LOI n° 2012-1559 du 31 décembre 2012 relative à la création de la Banque publique d'investissement - Légifrance"
+        },
+        {
+          "url": "https://www.senat.fr/dossier-legislatif/pjl12-176.html",
+          "title": "Dossier législatif : création de la Banque publique d'investissement - Sénat"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

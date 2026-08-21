@@ -1,0 +1,27 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2012-09",
+  "decisions": [
+    {
+      "id": "conference-environnementale-2012",
+      "date": "2012-09-14",
+      "title": {
+        "fr": "Conférence environnementale : Fessenheim et gaz de schiste",
+        "en": "Environmental conference: Fessenheim and shale gas"
+      },
+      "summary": {
+        "fr": "En ouverture de la première conférence environnementale, François Hollande annonce que la centrale nucléaire de **Fessenheim, la plus ancienne du parc, sera fermée à la fin de l'année 2016**, et demande à Delphine Batho de prononcer **le rejet des sept demandes de permis d'exploration de gaz de schiste**, la fracturation hydraulique comportant des risques lourds pour la santé et l'environnement en l'état des connaissances. Il lance le **débat national sur la transition énergétique**, fondé sur l'efficacité énergétique et la priorité aux énergies renouvelables, qui débouchera sur la loi de transition énergétique de 2015.",
+        "en": "Opening the first environmental conference, François Hollande announces that the **Fessenheim nuclear plant, the oldest of the fleet, will be closed at the end of 2016**, and asks Delphine Batho to pronounce **the rejection of the seven shale gas exploration permit applications**, hydraulic fracturing carrying heavy health and environmental risks given current knowledge. He launches the **national debate on the energy transition**, based on energy efficiency and priority to renewables, which would lead to the 2015 energy transition law."
+      },
+      "category_ids": ["ecologie", "energie"],
+      "politician_ids": ["francois-hollande", "delphine-batho", "jean-marc-ayrault"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/francois-hollande/2012/09/14/declaration-de-m-francois-hollande-president-de-la-republique-sur-les-defis-et-priorites-de-la-france-en-matiere-environnementale-a-paris-le-14-septembre-2012",
+          "title": "Discours de François Hollande à la conférence environnementale, 14 septembre 2012 - Élysée"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}

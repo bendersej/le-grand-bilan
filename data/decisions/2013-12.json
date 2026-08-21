@@ -167,7 +167,12 @@
           "title": "Dossier législatif : budget 2014 - Sénat"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "related",
+          "decision_id": "loi-de-finances-2013"
+        }
+      ]
     }
   ]
 }

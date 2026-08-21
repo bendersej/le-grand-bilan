@@ -1,0 +1,48 @@
+{
+  "$schema": "../../schemas/decisions-month.schema.json",
+  "month": "2012-01",
+  "decisions": [
+    {
+      "id": "sommet-social-crise-2012",
+      "date": "2012-01-18",
+      "title": {
+        "fr": "Sommet social de crise à l'Élysée",
+        "en": "Crisis jobs summit at the Élysée"
+      },
+      "summary": {
+        "fr": "Face à la montée du chômage, Nicolas Sarkozy réunit pendant plus de quatre heures les organisations syndicales et patronales autour de François Fillon et Xavier Bertrand, et annonce des mesures d'urgence : **renforcement de l'activité partielle (chômage partiel)** pour maintenir les salariés dans l'emploi plutôt que de les licencier, **« zéro charge » pendant six mois pour l'embauche de jeunes dans les très petites entreprises**, et un **plan de formation des chômeurs de longue durée** mobilisant, avec le Fonds social européen et les fonds des partenaires sociaux, **800 à 900 millions d'euros**.",
+        "en": "Facing rising unemployment, Nicolas Sarkozy gathers unions and employers' organisations for over four hours alongside François Fillon and Xavier Bertrand, and announces emergency measures: **strengthened short-time work schemes** to keep employees in work rather than lay them off, **\"zero charges\" for six months on the hiring of young people by very small companies**, and a **training plan for the long-term unemployed** mobilising, with the European Social Fund and social partners' funds, **800 to 900 million euros**."
+      },
+      "category_ids": ["travail"],
+      "politician_ids": ["nicolas-sarkozy", "francois-fillon"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2012/01/18/declaration-de-m-nicolas-sarkozy-president-de-la-republique-sur-les-mesures-durgence-pour-lutter-contre-le-chomage-et-sur-les-reformes-a-mettre-en-oeuvre-face-a-la-crise-economique-a-paris-le-18-janvier-2012",
+          "title": "Déclaration de Nicolas Sarkozy sur les mesures d'urgence pour lutter contre le chômage, 18 janvier 2012 - Élysée"
+        }
+      ],
+      "relations": []
+    },
+    {
+      "id": "embargo-petrolier-iran-2012",
+      "date": "2012-01-23",
+      "title": {
+        "fr": "Embargo européen sur le pétrole iranien",
+        "en": "European embargo on Iranian oil"
+      },
+      "summary": {
+        "fr": "L'Union européenne adopte une série de sanctions sans précédent contre l'Iran, dont une **interdiction totale des exportations de pétrole iranien** vers l'Europe, pour contraindre Téhéran à revenir négocier sur son programme nucléaire. La France, qui a poussé à cette décision, la salue le jour même dans une **déclaration conjointe de Nicolas Sarkozy avec David Cameron et Angela Merkel**, appelant l'Iran à suspendre son programme d'enrichissement.",
+        "en": "The European Union adopts an unprecedented set of sanctions against Iran, including a **total ban on Iranian oil exports** to Europe, to force Tehran back to negotiations on its nuclear programme. France, which pushed for the decision, welcomes it the same day in a **joint declaration by Nicolas Sarkozy with David Cameron and Angela Merkel**, calling on Iran to suspend its enrichment programme."
+      },
+      "category_ids": ["defense"],
+      "politician_ids": ["nicolas-sarkozy"],
+      "sources": [
+        {
+          "url": "https://www.elysee.fr/nicolas-sarkozy/2012/01/23/declaration-conjointe-de-mm-nicolas-sarkozy-president-de-la-republique-david-cameron-premier-ministre-du-royaume-uni-et-mme-angela-merkel-chanceliere-federale-dallemagne-sur-ladoption-par-lunion-europeenne-dune-nouvelle-serie-de-sanctions-cont",
+          "title": "Déclaration conjointe Sarkozy-Cameron-Merkel sur les sanctions contre l'Iran, 23 janvier 2012 - Élysée"
+        }
+      ],
+      "relations": []
+    }
+  ]
+}
