@@ -42,16 +42,7 @@
           "title": "Lancement du Plan Climat - Ministère de la Transition écologique et solidaire"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "plan-biodiversite-2018"
-        },
-        {
-          "type": "related",
-          "decision_id": "presentation-programmation-energie-2018"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "sixieme-prorogation-etat-urgence-2017",
@@ -78,16 +69,8 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "amends",
           "decision_id": "prorogation-etat-urgence-decembre-2016"
-        },
-        {
-          "type": "related",
-          "decision_id": "loi-silt-2017"
-        },
-        {
-          "type": "related",
-          "decision_id": "fin-etat-urgence-2017"
         }
       ]
     },
@@ -135,16 +118,7 @@
           "title": "Compte rendu du Conseil des ministres du 19 juillet 2017 (communication sur les états généraux de l'alimentation) - Élysée"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "discours-rungis-2017"
-        },
-        {
-          "type": "related",
-          "decision_id": "loi-egalim-2018"
-        }
-      ]
+      "relations": []
     }
   ]
 }

@@ -57,7 +57,7 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "repeals",
           "decision_id": "premier-confinement-2020"
         },
         {

@@ -23,7 +23,7 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "amends",
           "decision_id": "confinement-16-departements-2021"
         },
         {

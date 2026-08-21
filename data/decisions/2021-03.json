@@ -23,7 +23,7 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "amends",
           "decision_id": "couvre-feu-18h-2021"
         },
         {

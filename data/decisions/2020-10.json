@@ -108,7 +108,7 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "repeals",
           "decision_id": "couvre-feu-octobre-2020"
         },
         {

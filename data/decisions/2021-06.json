@@ -72,12 +72,7 @@
           "title": "Conférence de presse en amont des sommets du G7 et de l'OTAN - Élysée"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "fin-operation-barkhane-2022"
-        }
-      ]
+      "relations": []
     }
   ]
 }

@@ -59,7 +59,12 @@
           "title": "Décision n° 2022-846 DC du 19 janvier 2023 - Conseil constitutionnel"
         }
       ],
-      "relations": []
+      "relations": [
+        {
+          "type": "implements",
+          "decision_id": "cloture-beauvau-securite-2021"
+        }
+      ]
     }
   ]
 }

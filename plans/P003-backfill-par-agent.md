@@ -219,6 +219,15 @@ Outcome: 35 decisions across all 12 months of the attentats/COP21 year (Sentinel
 
 Next: 2014.
 
+## Relation audit (ran 2026-08-21, between rounds 12 and 13)
+
+The corpus stored 76 relation pairs on BOTH sides while the site derives incoming relations, so mirrored pairs double-rendered "Liée à" on both decision pages; and removal/execution links were mostly filed as `related`. A scripted pass over 2017-2026 files (2015/2016 excluded: the 2014 agent edits them concurrently) applied 12 retypes (covid décret chains to `amends`/`repeals`, PPE/Fessenheim/OTAN to `implements`), 2 added typed edges (fin Barkhane implements its annonce, LOPMI implements the Beauvau) and 41 mirror deletions. Distribution moved from 215 related / 37 implements / 24 amends / 1 repeals to 162 / 42 / 30 / 4. Both sourcing skills now pin the strongest-accurate-type rule (abrogation/termination = `repeals`, suspension/prorogation = `amends`) and the store-once convention.
+
+Follow-ups:
+
+- **At the 2014 review gate**: run the same dedup/retype pass on the 37 remaining mirrors (all involve 2015/2016 files), including the état d'urgence prorogation chain to `amends` and `demantelement-jungle-calais-2016` implements its annonce; then add a data-suite test asserting no relation pair is stored on both sides.
+- **UI (deliberately deferred)**: surfacing additions vs removals vs amendments (broadly) on the timeline and decision pages would help reading; do nothing for now.
+
 ## HANDOVER STATE (2026-08-21, end of session)
 
 - Working tree CLEAN, everything committed and pushed through `[P003] docs: round-10 learnings`; CI green; live site verified (spot checks incl. discours-sorbonne-2017 and the red missing_sources caveats). No background agent is running.

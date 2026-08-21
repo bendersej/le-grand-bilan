@@ -25,10 +25,6 @@
         {
           "type": "related",
           "decision_id": "lancement-etats-generaux-alimentation-2017"
-        },
-        {
-          "type": "related",
-          "decision_id": "loi-egalim-2018"
         }
       ]
     },
@@ -59,10 +55,6 @@
         {
           "type": "related",
           "decision_id": "sixieme-prorogation-etat-urgence-2017"
-        },
-        {
-          "type": "related",
-          "decision_id": "fin-etat-urgence-2017"
         }
       ]
     }

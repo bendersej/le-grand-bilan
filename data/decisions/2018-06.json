@@ -100,12 +100,7 @@
           "title": "Dossier législatif : nouveau pacte ferroviaire - Sénat"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "ordonnance-groupe-sncf-2019"
-        }
-      ]
+      "relations": []
     }
   ]
 }

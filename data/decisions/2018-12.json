@@ -42,16 +42,7 @@
           "title": "Adresse du Président de la République du lundi 10 décembre 2018 - Élysée"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "lancement-grand-debat-national-2019"
-        },
-        {
-          "type": "related",
-          "decision_id": "loi-anticasseurs-2019"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "loi-manipulation-information-2018",
@@ -139,10 +130,6 @@
         {
           "type": "implements",
           "decision_id": "allocution-10-decembre-2018"
-        },
-        {
-          "type": "related",
-          "decision_id": "lancement-grand-debat-national-2019"
         }
       ]
     },

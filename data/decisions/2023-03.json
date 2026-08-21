@@ -50,16 +50,7 @@
           "title": "Décision n° 2023-848 DC du 9 mars 2023 - Conseil constitutionnel"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-acceleration-nucleaire-2023"
-        },
-        {
-          "type": "related",
-          "decision_id": "decret-ppe3-2026"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "loi-egalim3-2023",

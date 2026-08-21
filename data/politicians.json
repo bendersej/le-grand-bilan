@@ -372,6 +372,30 @@
       }
     },
     {
+      "id": "arnaud-montebourg",
+      "full_name": "Arnaud Montebourg",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre du Redressement productif",
+            "en": "Minister of Industrial Renewal"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-02"
+        },
+        {
+          "role": {
+            "fr": "Ministre de l'Économie, du Redressement productif et du Numérique",
+            "en": "Minister of the Economy, Industrial Renewal and Digital Affairs"
+          },
+          "from": "2014-04-02",
+          "to": "2014-08-26"
+        }
+      ],
+      "profile": null
+    },
+    {
       "id": "arthur-delaporte",
       "full_name": "Arthur Delaporte",
       "party": "Parti socialiste",
@@ -498,6 +522,30 @@
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Barbara_Pompili"
       }
+    },
+    {
+      "id": "benoit-hamon",
+      "full_name": "Benoît Hamon",
+      "party": "Génération.s",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé de l'Économie sociale et solidaire et de la Consommation",
+            "en": "Minister Delegate for the Social and Solidarity Economy and Consumer Affairs"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-02"
+        },
+        {
+          "role": {
+            "fr": "Ministre de l'Éducation nationale, de l'Enseignement supérieur et de la Recherche",
+            "en": "Minister of National Education, Higher Education and Research"
+          },
+          "from": "2014-04-02",
+          "to": "2014-08-26"
+        }
+      ],
+      "profile": null
     },
     {
       "id": "bernard-cazeneuve",
@@ -658,6 +706,22 @@
       }
     },
     {
+      "id": "carole-delga",
+      "full_name": "Carole Delga",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Secrétaire d'État chargée du Commerce, de l'Artisanat, de la Consommation et de l'Économie sociale et solidaire",
+            "en": "State Secretary for Trade, Crafts, Consumer Affairs and the Social and Solidarity Economy"
+          },
+          "from": "2014-06-03",
+          "to": "2015-06-17"
+        }
+      ],
+      "profile": null
+    },
+    {
       "id": "catherine-colonna",
       "full_name": "Catherine Colonna",
       "party": null,
@@ -734,6 +798,22 @@
       }
     },
     {
+      "id": "cecile-duflot",
+      "full_name": "Cécile Duflot",
+      "party": "Europe Écologie Les Verts",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Égalité des territoires et du Logement",
+            "en": "Minister of Territorial Equality and Housing"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-02"
+        }
+      ],
+      "profile": null
+    },
+    {
       "id": "cedric-o",
       "full_name": "Cédric O",
       "party": null,
@@ -762,6 +842,22 @@
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/C%C3%A9dric_O"
       }
+    },
+    {
+      "id": "christian-eckert",
+      "full_name": "Christian Eckert",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Secrétaire d'État chargé du Budget",
+            "en": "State Secretary for the Budget"
+          },
+          "from": "2014-04-09",
+          "to": "2017-05-17"
+        }
+      ],
+      "profile": null
     },
     {
       "id": "christiane-taubira",
@@ -1404,6 +1500,22 @@
       }
     },
     {
+      "id": "francois-lamy",
+      "full_name": "François Lamy",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé de la Ville",
+            "en": "Minister Delegate for Urban Affairs"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-02"
+        }
+      ],
+      "profile": null
+    },
+    {
       "id": "francois-noel-buffet",
       "full_name": "François-Noël Buffet",
       "party": "Les Républicains",
@@ -1508,6 +1620,30 @@
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Fran%C3%A7oise_Gatel"
       }
+    },
+    {
+      "id": "frederic-cuvillier",
+      "full_name": "Frédéric Cuvillier",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre délégué chargé des Transports, de la Mer et de la Pêche",
+            "en": "Minister Delegate for Transport, the Sea and Fisheries"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-09"
+        },
+        {
+          "role": {
+            "fr": "Secrétaire d'État chargé des Transports, de la Mer et de la Pêche",
+            "en": "State Secretary for Transport, the Sea and Fisheries"
+          },
+          "from": "2014-04-09",
+          "to": "2014-08-26"
+        }
+      ],
+      "profile": null
     },
     {
       "id": "frederic-descrozaille",
@@ -2006,6 +2142,14 @@
       "full_name": "Jean-Marc Ayrault",
       "party": "Parti socialiste",
       "mandates": [
+        {
+          "role": {
+            "fr": "Premier ministre",
+            "en": "Prime Minister"
+          },
+          "from": "2012-05-15",
+          "to": "2014-03-31"
+        },
         {
           "role": {
             "fr": "Ministre des Affaires étrangères et du Développement international",
@@ -2572,6 +2716,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre de l'Intérieur",
+            "en": "Minister of the Interior"
+          },
+          "from": "2012-05-16",
+          "to": "2014-03-31"
+        },
+        {
+          "role": {
             "fr": "Premier ministre",
             "en": "Prime Minister"
           },
@@ -2798,6 +2950,14 @@
       "mandates": [
         {
           "role": {
+            "fr": "Ministre de la Réforme de l'État, de la Décentralisation et de la Fonction publique",
+            "en": "Minister for State Reform, Decentralisation and the Civil Service"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-02"
+        },
+        {
+          "role": {
             "fr": "Ministre de la Décentralisation et de la Fonction publique",
             "en": "Minister for Decentralisation and the Civil Service"
           },
@@ -2856,6 +3016,14 @@
       "full_name": "Michel Sapin",
       "party": "Parti socialiste",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre du Travail, de l'Emploi, de la Formation professionnelle et du Dialogue social",
+            "en": "Minister of Labour, Employment, Vocational Training and Social Dialogue"
+          },
+          "from": "2012-05-16",
+          "to": "2014-04-02"
+        },
         {
           "role": {
             "fr": "Ministre des Finances et des Comptes publics",
@@ -3014,6 +3182,14 @@
       "full_name": "Najat Vallaud-Belkacem",
       "party": "Parti socialiste",
       "mandates": [
+        {
+          "role": {
+            "fr": "Ministre des Droits des femmes",
+            "en": "Minister for Women's Rights"
+          },
+          "from": "2012-05-16",
+          "to": "2014-08-26"
+        },
         {
           "role": {
             "fr": "Ministre de l'Éducation nationale, de l'Enseignement supérieur et de la Recherche",
@@ -3646,6 +3822,22 @@
       }
     },
     {
+      "id": "stephane-le-foll",
+      "full_name": "Stéphane Le Foll",
+      "party": "Parti socialiste",
+      "mandates": [
+        {
+          "role": {
+            "fr": "Ministre de l'Agriculture, de l'Agroalimentaire et de la Forêt",
+            "en": "Minister of Agriculture, Agrifood and Forestry"
+          },
+          "from": "2012-05-16",
+          "to": "2017-05-17"
+        }
+      ],
+      "profile": null
+    },
+    {
       "id": "stephane-travert",
       "full_name": "Stéphane Travert",
       "party": "Renaissance",
@@ -3832,6 +4024,22 @@
         },
         "wikipedia_url": "https://fr.wikipedia.org/wiki/Thomas_Cazenave"
       }
+    },
+    {
+      "id": "thomas-thevenoud",
+      "full_name": "Thomas Thévenoud",
+      "party": null,
+      "mandates": [
+        {
+          "role": {
+            "fr": "Député de la 6e circonscription de Saône-et-Loire",
+            "en": "Member of Parliament for Saône-et-Loire's 6th constituency"
+          },
+          "from": "2012-06-20",
+          "to": "2017-06-20"
+        }
+      ],
+      "profile": null
     },
     {
       "id": "valerie-letard",

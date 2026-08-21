@@ -44,12 +44,8 @@
       ],
       "relations": [
         {
-          "type": "related",
-          "decision_id": "retrait-militaire-niger-2023"
-        },
-        {
-          "type": "related",
-          "decision_id": "loi-programmation-militaire-2023"
+          "type": "implements",
+          "decision_id": "annonce-fin-barkhane-2021"
         }
       ]
     },

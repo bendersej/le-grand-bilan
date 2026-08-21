@@ -60,12 +60,7 @@
           "title": "Décision n° 2018-769 DC du 4 septembre 2018 - Conseil constitutionnel"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "reforme-assurance-chomage-2019"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "loi-asile-immigration-2018",
@@ -136,12 +131,7 @@
           "title": "Discours sur la transformation du système de santé \"Prendre soin de chacun\" - Élysée"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-sante-2019"
-        }
-      ]
+      "relations": []
     }
   ]
 }

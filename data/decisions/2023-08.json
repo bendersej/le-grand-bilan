@@ -32,10 +32,6 @@
       "relations": [
         {
           "type": "related",
-          "decision_id": "actualisation-lpm-2026"
-        },
-        {
-          "type": "related",
           "decision_id": "fin-operation-barkhane-2022"
         }
       ]

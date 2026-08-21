@@ -52,7 +52,7 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "implements",
           "decision_id": "plan-climat-2017"
         }
       ]

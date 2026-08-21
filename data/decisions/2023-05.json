@@ -21,12 +21,7 @@
           "title": "LOI n° 2023-379 du 19 mai 2023 portant amélioration de l'accès aux soins par la confiance aux professionnels de santé - Légifrance"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-profession-infirmier-2025"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "loi-jeux-olympiques-2024-2023",
@@ -55,12 +50,7 @@
           "title": "Décision n° 2023-850 DC du 17 mai 2023 - Conseil constitutionnel"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-jeux-olympiques-2030"
-        }
-      ]
+      "relations": []
     }
   ]
 }

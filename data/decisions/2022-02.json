@@ -105,12 +105,7 @@
           "title": "Dossier législatif : restitution de biens culturels spoliés - Sénat"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-restitution-biens-spolies-2023"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "loi-harkis-2022",

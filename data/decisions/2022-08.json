@@ -23,7 +23,7 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "implements",
           "decision_id": "sommet-otan-madrid-2022"
         }
       ]

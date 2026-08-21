@@ -46,12 +46,7 @@
           "title": "Dossier législatif : fonctionnement du marché du travail - Sénat"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-plein-emploi-2023"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "lfss-2023",
@@ -118,10 +113,6 @@
         {
           "type": "related",
           "decision_id": "premier-49-3-borne-2022"
-        },
-        {
-          "type": "related",
-          "decision_id": "indemnite-carburant-2023"
         }
       ]
     }

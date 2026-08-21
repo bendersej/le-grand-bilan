@@ -14,7 +14,7 @@ Spawn ONE research agent for the year with a prompt that mandates, in this order
 1. Read `sourcing-decisions` and `sourcing-decisionnaires` (they carry every accumulated learning) plus `docs/data-model.md` and a recent month file as format reference.
 2. Scope: 2-6 significant decisions per month, quality and sourcing over volume; laws AND non-legislative pivots (governments, dissolutions, censures, accords: the sourcing skill says how).
 3. Check `data/politicians.json` before adding people; EXTEND existing politicians' mandates for the year's portfolios rather than duplicating.
-4. Cross-year relations both directions (edit adjacent years' files when the relation belongs there).
+4. Cross-year relations: each pair is stored ONCE, on the acting (usually later) decision — the site derives the reverse. Edit an adjacent year's file only when the single edge belongs THERE, never to mirror an edge that already exists.
 5. Validate with `pnpm run test` until green; never build, deploy, or commit.
 6. Tell the agent verbatim: "You are a single-run agent: no background-task, monitor, or watchdog notification will EVER reach you. Waiting mechanisms other than in-call sleeps are unavailable to you. Any retry loop must run in the foreground of a Bash call, sleeping via node -e "setTimeout(()=>{},70000)" (bare sleep is blocked), sized to finish within that call." Also: pass id lists as literal arguments, never through a shell $VAR in ANY command: the shell is zsh, which does not word-split unquoted variables, so `pnpm run capture:profiles $ids` silently passes ONE argument and captures nothing.
 7. Report: counts per month, politicians/categories added or changed, the unsourceable, and a LEARNINGS section on what the skills still get wrong.

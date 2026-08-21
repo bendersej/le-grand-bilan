@@ -99,7 +99,7 @@ For each decision in the month file (`month` must match the filename):
 - `category_ids` — from `data/categories.json`; add a new category (lexicographic order, fr/en label) only when none fits
 - `politician_ids` — most responsible first (minister who carried it, then PM, then President); every id must exist in `data/politicians.json` — add missing politicians with the `sourcing-decisionnaires` skill
 - `sources` — at least one exact URL + human-readable title
-- `relations` — typed links when the decision `amends` / `implements` / `repeals` / is `related` to another registry decision. Removal decisions (abrogation, suspension, abandon, fin d'un dispositif) are registry-worthy in their own right — hunt them as actively as the laws they undo. When an act abrogates or suspends a prior entry, the relation MUST be `repeals`, not `related`; reserve `related` for links with no stronger type.
+- `relations` — typed links when the decision `amends` / `implements` / `repeals` / is `related` to another registry decision. Removal decisions (abrogation, suspension, abandon, fin d'un dispositif) are registry-worthy in their own right — hunt them as actively as the laws they create. Pick the STRONGEST type that is legally accurate: an act that abrogates or terminates a prior entry uses `repeals`; a suspension, extension (prorogation) or partial rollback uses `amends`; an act executing an announcement or enabling law uses `implements`; `related` is the last resort. Store each pair ONCE, on the acting (usually later) decision — the site derives and renders the reverse direction, so a mirrored edge in the other file double-renders on both pages.
 
 ## Validate before submitting
 

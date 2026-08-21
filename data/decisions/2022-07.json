@@ -74,7 +74,7 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "repeals",
           "decision_id": "passe-vaccinal-2022"
         },
         {

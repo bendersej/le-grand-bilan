@@ -25,10 +25,6 @@
         {
           "type": "related",
           "decision_id": "reelection-macron-2022"
-        },
-        {
-          "type": "related",
-          "decision_id": "gouvernement-borne-2022"
         }
       ]
     },
@@ -55,10 +51,6 @@
         {
           "type": "related",
           "decision_id": "nomination-borne-2022"
-        },
-        {
-          "type": "related",
-          "decision_id": "remaniement-gouvernement-borne-juillet-2022"
         }
       ]
     }

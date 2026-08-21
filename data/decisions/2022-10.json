@@ -70,16 +70,7 @@
           "title": "Compte rendu de la première séance du lundi 24 octobre 2022 (motions de censure) - Assemblée nationale"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-de-finances-2023"
-        },
-        {
-          "type": "related",
-          "decision_id": "lfss-2023"
-        }
-      ]
+      "relations": []
     }
   ]
 }
