@@ -241,7 +241,9 @@ function TimelineLayout() {
             {/* Font classes sit on the trigger buttons, not the wrappers: the
                 shadcn base stylesheet resets button typography, so inherited
                 marker styles do not survive into the <button>. */}
-            <h2 className="chip-glass sticky top-2 z-20 m-0 w-fit max-sm:rounded-md sm:top-4 sm:-translate-x-[calc(100%+3rem)]">
+            {/* sm:h-0 keeps the year label out of the flow (it lives in the
+                gutter), so the first rows start at the top of the section. */}
+            <h2 className="chip-glass sticky top-2 z-20 m-0 w-fit max-sm:rounded-md sm:top-4 sm:h-0 sm:-translate-x-[calc(100%+3rem)]">
               <TimelineMonthPicker
                 months={availableMonths}
                 month={timelineYear.months[0]?.month ?? `${timelineYear.year}-01`}
@@ -266,7 +268,16 @@ function TimelineLayout() {
                 {/* Mobile: the marker flows above the rows, indented to land
                     beside the stuck year so the pair reads "2022 [mai]" on one
                     line. Desktop (sm:) keeps the zero-height gutter placement. */}
-                <p className="sticky top-[0.85rem] z-10 m-0 w-fit pl-[4.5rem] sm:top-[3.8rem] sm:h-0 sm:-translate-x-[calc(100%+3rem)] sm:pl-0">
+                {/* The first month's gutter label shifts down (net-zero flow
+                    margins on a zero-height box) to clear the year text resting
+                    above it in the gutter. */}
+                <p
+                  className={
+                    monthIndex === 0
+                      ? 'sticky top-[0.85rem] z-10 m-0 w-fit pl-[4.5rem] sm:top-[3.8rem] sm:mt-[2.2rem] sm:-mb-[2.2rem] sm:h-0 sm:-translate-x-[calc(100%+3rem)] sm:pl-0'
+                      : 'sticky top-[0.85rem] z-10 m-0 w-fit pl-[4.5rem] sm:top-[3.8rem] sm:h-0 sm:-translate-x-[calc(100%+3rem)] sm:pl-0'
+                  }
+                >
                   <TimelineMonthPicker
                     months={availableMonths}
                     month={timelineMonth.month}
