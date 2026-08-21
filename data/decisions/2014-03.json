@@ -137,12 +137,7 @@
           "title": "Décision n° 2014-692 DC du 27 mars 2014, loi visant à reconquérir l'économie réelle - Conseil constitutionnel"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "decret-investissements-etrangers-2014"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "nomination-valls-premier-ministre-2014",
@@ -167,12 +162,7 @@
           "title": "Décret du 31 mars 2014 portant nomination du Premier ministre - Légifrance"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "gouvernement-valls-1-2014"
-        }
-      ]
+      "relations": []
     }
   ]
 }

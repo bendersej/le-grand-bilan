@@ -83,7 +83,7 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "implements",
           "decision_id": "annonce-demantelement-calais-2016"
         }
       ]

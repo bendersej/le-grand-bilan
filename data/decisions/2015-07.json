@@ -61,14 +61,6 @@
         },
         {
           "type": "related",
-          "decision_id": "loi-surveillance-internationale-2015"
-        },
-        {
-          "type": "related",
-          "decision_id": "loi-crime-organise-2016"
-        },
-        {
-          "type": "related",
           "decision_id": "loi-terrorisme-cazeneuve-2014"
         }
       ]
@@ -126,12 +118,7 @@
           "title": "Dossier législatif : réforme du droit d'asile - Sénat"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-droit-des-etrangers-2016"
-        }
-      ]
+      "relations": []
     }
   ]
 }

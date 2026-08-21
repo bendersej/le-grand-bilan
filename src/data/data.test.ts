@@ -190,6 +190,24 @@ describe('referential integrity', () => {
     }
   })
 
+  it('stores each relation pair on one side only', () => {
+    // The site derives and renders incoming relations, so a pair stored in both
+    // decisions' files double-renders on both pages. Keep the single edge on the
+    // acting (usually later) decision.
+    const seenPairs = new Map<string, string>()
+    for (const decision of allDecisions) {
+      for (const relation of decision.relations) {
+        const pairKey = [decision.id, relation.decision_id].toSorted().join('|')
+        const existingEdge = seenPairs.get(pairKey)
+        expect(
+          existingEdge,
+          `relation between ${decision.id} and ${relation.decision_id} is stored on both sides (also as ${existingEdge})`,
+        ).toBeUndefined()
+        seenPairs.set(pairKey, `${decision.id} -> ${relation.decision_id}`)
+      }
+    }
+  })
+
   it('only references known ids from appearances', () => {
     for (const appearance of allAppearances) {
       for (const politicianId of appearance.politician_ids) {

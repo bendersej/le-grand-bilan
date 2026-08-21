@@ -29,16 +29,7 @@
           "title": "Déclaration de François Hollande sur les attaques terroristes, 14 novembre 2015 - Élysée"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "congres-versailles-2015"
-        },
-        {
-          "type": "related",
-          "decision_id": "prorogation-etat-urgence-novembre-2015"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "congres-versailles-2015",
@@ -67,10 +58,6 @@
         {
           "type": "related",
           "decision_id": "engagement-chammal-syrie-2015"
-        },
-        {
-          "type": "related",
-          "decision_id": "revision-constitutionnelle-protection-nation-2015"
         }
       ]
     },
@@ -99,12 +86,8 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "amends",
           "decision_id": "declaration-etat-urgence-2015"
-        },
-        {
-          "type": "related",
-          "decision_id": "prorogation-etat-urgence-fevrier-2016"
         }
       ]
     },

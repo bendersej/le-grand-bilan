@@ -25,12 +25,7 @@
           "title": "Dossier législatif : lutte contre le terrorisme - Sénat"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-renseignement-2015"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "loi-organique-destitution-2014",

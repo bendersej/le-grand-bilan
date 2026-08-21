@@ -25,10 +25,6 @@
         {
           "type": "related",
           "decision_id": "loi-transition-energetique-2015"
-        },
-        {
-          "type": "related",
-          "decision_id": "ratification-accord-de-paris-2016"
         }
       ]
     },
@@ -84,14 +80,6 @@
         {
           "type": "related",
           "decision_id": "congres-versailles-2015"
-        },
-        {
-          "type": "related",
-          "decision_id": "abandon-decheance-nationalite-2016"
-        },
-        {
-          "type": "related",
-          "decision_id": "demission-taubira-2016"
         }
       ]
     },

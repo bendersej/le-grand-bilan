@@ -24,10 +24,6 @@
       "relations": [
         {
           "type": "related",
-          "decision_id": "loi-macron-2015"
-        },
-        {
-          "type": "related",
           "decision_id": "49-3-loi-macron-2015"
         }
       ]

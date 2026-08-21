@@ -117,12 +117,7 @@
           "title": "Décision n° 2015-718 DC du 13 août 2015 - Conseil constitutionnel"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "adoption-accord-de-paris-2015"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "loi-rebsamen-2015",
@@ -147,12 +142,7 @@
           "title": "Dossier législatif : dialogue social et emploi - Sénat"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-travail-2016"
-        }
-      ]
+      "relations": []
     }
   ]
 }

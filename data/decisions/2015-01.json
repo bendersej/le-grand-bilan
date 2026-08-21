@@ -24,14 +24,6 @@
       "relations": [
         {
           "type": "related",
-          "decision_id": "plan-lutte-antiterroriste-2015"
-        },
-        {
-          "type": "related",
-          "decision_id": "actualisation-lpm-2015"
-        },
-        {
-          "type": "related",
           "decision_id": "refonte-vigipirate-2014"
         }
       ]
@@ -65,10 +57,6 @@
         }
       ],
       "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-notre-2015"
-        },
         {
           "type": "related",
           "decision_id": "loi-maptam-2014"
@@ -111,14 +99,6 @@
         {
           "type": "related",
           "decision_id": "operation-sentinelle-2015"
-        },
-        {
-          "type": "related",
-          "decision_id": "decret-avance-antiterrorisme-2015"
-        },
-        {
-          "type": "related",
-          "decision_id": "loi-renseignement-2015"
         }
       ]
     }

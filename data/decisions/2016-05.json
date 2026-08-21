@@ -25,12 +25,7 @@
           "title": "Dossier législatif : travail et dialogue social - Sénat"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-travail-2016"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "prorogation-etat-urgence-mai-2016",
@@ -57,12 +52,8 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "amends",
           "decision_id": "prorogation-etat-urgence-fevrier-2016"
-        },
-        {
-          "type": "related",
-          "decision_id": "prorogation-etat-urgence-juillet-2016"
         }
       ]
     }

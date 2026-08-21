@@ -47,16 +47,7 @@
           "title": "Déclaration de François Hollande en introduction à sa conférence de presse sur la feuille de route du Gouvernement pour 2014, 14 janvier 2014 - Élysée"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "programme-stabilite-2014"
-        },
-        {
-          "type": "related",
-          "decision_id": "budget-pacte-responsabilite-2014"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "loi-retraites-touraine-2014",
@@ -106,20 +97,7 @@
           "title": "Dossier législatif : modernisation de l'action publique territoriale et affirmation des métropoles - Sénat"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "annonce-reforme-territoriale-2014"
-        },
-        {
-          "type": "related",
-          "decision_id": "loi-delimitation-regions-2015"
-        },
-        {
-          "type": "related",
-          "decision_id": "loi-notre-2015"
-        }
-      ]
+      "relations": []
     }
   ]
 }

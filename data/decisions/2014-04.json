@@ -29,10 +29,6 @@
         {
           "type": "related",
           "decision_id": "nomination-valls-premier-ministre-2014"
-        },
-        {
-          "type": "related",
-          "decision_id": "gouvernement-valls-2-2014"
         }
       ]
     },
@@ -59,10 +55,6 @@
         {
           "type": "related",
           "decision_id": "annonce-pacte-responsabilite-2014"
-        },
-        {
-          "type": "related",
-          "decision_id": "loi-de-finances-2015"
         }
       ]
     }

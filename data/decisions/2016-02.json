@@ -25,12 +25,7 @@
           "title": "Dossier législatif : malades et personnes en fin de vie - Sénat"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-soins-palliatifs-2026"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "remaniement-fevrier-2016",
@@ -106,12 +101,8 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "amends",
           "decision_id": "prorogation-etat-urgence-novembre-2015"
-        },
-        {
-          "type": "related",
-          "decision_id": "prorogation-etat-urgence-mai-2016"
         }
       ]
     },

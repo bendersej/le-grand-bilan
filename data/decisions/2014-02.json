@@ -55,12 +55,7 @@
           "bot_walled": true
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "operation-sentinelle-2015"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "loi-ville-cohesion-urbaine-2014",
@@ -106,12 +101,7 @@
           "title": "Déclaration de François Hollande en hommage à la Résistance, Suresnes (Mont-Valérien), 21 février 2014 - Élysée"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "pantheon-resistants-2015"
-        }
-      ]
+      "relations": []
     }
   ]
 }

@@ -26,12 +26,7 @@
           "title": "Décret du 2 septembre 2015 relatif à la composition du Gouvernement - Légifrance"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-travail-2016"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "engagement-chammal-syrie-2015",
@@ -57,10 +52,6 @@
         }
       ],
       "relations": [
-        {
-          "type": "related",
-          "decision_id": "congres-versailles-2015"
-        },
         {
           "type": "related",
           "decision_id": "engagement-chammal-irak-2014"

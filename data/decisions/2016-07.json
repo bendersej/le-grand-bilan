@@ -52,12 +52,8 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "amends",
           "decision_id": "prorogation-etat-urgence-mai-2016"
-        },
-        {
-          "type": "related",
-          "decision_id": "prorogation-etat-urgence-decembre-2016"
         }
       ]
     },

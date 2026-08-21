@@ -50,12 +50,7 @@
           "title": "Dossier législatif : croissance, activité et égalité des chances économiques - Sénat"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-macron-2015"
-        }
-      ]
+      "relations": []
     }
   ]
 }

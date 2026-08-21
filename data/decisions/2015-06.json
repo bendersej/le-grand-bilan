@@ -26,12 +26,7 @@
           "bot_walled": true
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-macron-2015"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "conseil-europeen-relocalisation-2015",
@@ -52,12 +47,7 @@
           "title": "Conférence de presse de François Hollande à l'issue du Conseil européen (immigration, Grèce), Bruxelles, 25 juin 2015 - Élysée"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "accueil-refugies-2015"
-        }
-      ]
+      "relations": []
     }
   ]
 }

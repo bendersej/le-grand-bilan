@@ -21,12 +21,7 @@
           "title": "Déclaration de François Hollande sur sa non-candidature à l'élection présidentielle de 2017, 1er décembre 2016 - Élysée"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "gouvernement-cazeneuve-2016"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "gouvernement-cazeneuve-2016",
@@ -93,12 +88,7 @@
           "title": "Décision n° 2016-741 DC du 8 décembre 2016 - Conseil constitutionnel"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "loi-lanceurs-alerte-2022"
-        }
-      ]
+      "relations": []
     },
     {
       "id": "prorogation-etat-urgence-decembre-2016",
@@ -125,12 +115,8 @@
       ],
       "relations": [
         {
-          "type": "related",
+          "type": "amends",
           "decision_id": "prorogation-etat-urgence-juillet-2016"
-        },
-        {
-          "type": "related",
-          "decision_id": "sixieme-prorogation-etat-urgence-2017"
         }
       ]
     },
@@ -161,12 +147,7 @@
           "title": "Décision n° 2016-744 DC du 29 décembre 2016 - Conseil constitutionnel"
         }
       ],
-      "relations": [
-        {
-          "type": "related",
-          "decision_id": "entree-vigueur-prelevement-source-2019"
-        }
-      ]
+      "relations": []
     }
   ]
 }
