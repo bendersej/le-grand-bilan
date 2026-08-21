@@ -189,13 +189,16 @@ const capturePhoto = async (
   writeFileSync(join(photosDirectory, photoFileName), Buffer.from(photoResponse.data))
 
   const artist = imageInfo.extmetadata.Artist ? stripHtml(imageInfo.extmetadata.Artist.value) : ''
+  // Commons Artist values are sometimes full license/credit blobs, not a name;
+  // past that length the site's fallback credit ("Wikimedia Commons") is better.
+  const author = artist === '' || artist.length > 120 ? null : artist
   return {
     success: true,
     data: {
       path: `/media/politicians/${photoFileName}`,
       source_url: imageInfo.descriptionurl,
       license: imageInfo.extmetadata.LicenseShortName.value,
-      author: artist === '' ? null : artist,
+      author,
     },
   }
 }

@@ -228,6 +228,20 @@ Follow-ups:
 - **At the 2014 review gate**: run the same dedup/retype pass on the 37 remaining mirrors (all involve 2015/2016 files), including the état d'urgence prorogation chain to `amends` and `demantelement-jungle-calais-2016` implements its annonce; then add a data-suite test asserting no relation pair is stored on both sides.
 - **UI (deliberately deferred)**: surfacing additions vs removals vs amendments (broadly) on the timeline and decision pages would help reading; do nothing for now.
 
+## Learnings round 13 (batch 2014, ran 2026-08-21)
+
+Outcome: 38 decisions across all 12 months of the Valls-nomination year (retraites Touraine, MAPTAM, non-cumul, CPF, Hamon, ALUR, Florange, pacte de responsabilité + ses collectifs budgétaires censurés, réforme ferroviaire, réforme pénale Taubira avec la suppression des peines planchers, Barkhane, Valls I/II + nomination Macron, Chammal, taxis/VTC, abandon de l'écotaxe + résiliation Ecomouv', loi Cazeneuve, LO destitution, LF 2015), 9 politicians added with full profiles, 5 mandates extended backwards to 2012. First removal decisions sourced under the new rule (écotaxe, peines planchers, both with exact JO/AN anchors). Review gate passed (8/8 sampled sources verified incl. the CE ordonnance Dieudonné, the écotaxe audition PDF decompressed and keyword-checked, and the peines-planchers abrogation confirmed at article level; 595 pages, 462 decisions, 131 politicians). No stall, no neutrality edits.
+
+- The deferred relation cleanup ran corpus-wide at this gate: 6 retypes (état d'urgence prorogation chain to `amends`, démantèlement de Calais to `implements`), 55 mirror edges deleted (the 37 deferred pairs plus the 2014 batch's own mirrors). Final distribution: 139 related / 43 implements / 35 amends / 4 repeals. The data suite now enforces single-side storage (24th test).
+- `relations` is a required key (empty array allowed): now stated in the entry checklist.
+- The Sénat index regex-harvests every "parue au JO n°X" in one curl: interpolation only serves décrets. Now in the skill.
+- AN QE PDFs, commission compte-rendu PDFs (removal-decision figures) and legacy `/14/cri/` vote tallies are fetch-verifiable anchors; sgdsn.gouv.fr only hosts the current Vigipirate. All in the skill.
+- Commons Artist credits over 120 chars are license blobs: `capture:profiles` now nulls them (site falls back to "Wikimedia Commons").
+- Unsourceable, candidates for a human pass: suspension des Mistral (nov. 2014, communiqué absent de l'archive elysee.fr), interdictions de manifestations de juillet 2014 (arrêtés préfectoraux non publiés).
+- Candidate 2013 backward relations recorded in the batch report (suspension initiale de l'écotaxe, LPM 2014-2019).
+
+Corpus now covers 2014-2026 continuously (462 decisions). Next: 2013.
+
 ## HANDOVER STATE (2026-08-21, end of session)
 
 - Working tree CLEAN, everything committed and pushed through `[P003] docs: round-10 learnings`; CI green; live site verified (spot checks incl. discours-sorbonne-2017 and the red missing_sources caveats). No background agent is running.
