@@ -1,10 +1,25 @@
-import { Link, Outlet, createFileRoute, useMatches, useParams } from '@tanstack/react-router'
+import {
+  Link,
+  Outlet,
+  createFileRoute,
+  useMatches,
+  useNavigate,
+  useParams,
+} from '@tanstack/react-router'
 import { useCallback, useState } from 'react'
 import { fr } from 'date-fns/locale'
 import DecisionRow from '../components/DecisionRow'
 import { useLocalized } from '../components/LanguageProvider'
 import { Button } from '../components/ui/button'
 import { Calendar } from '../components/ui/calendar'
+import {
+  Combobox,
+  ComboboxContent,
+  ComboboxEmpty,
+  ComboboxInput,
+  ComboboxItem,
+  ComboboxList,
+} from '../components/ui/combobox'
 import { Popover, PopoverContent, PopoverTrigger } from '../components/ui/popover'
 import { formatDateLabel, formatMonthLabel } from '../data/format.ts'
 import {
@@ -13,8 +28,9 @@ import {
   buildTimelineYears,
   categoriesById,
   decisionsByPoliticianId,
+  politiciansById,
 } from '../data/registry.ts'
-import type { Appearance } from '../data/schema.ts'
+import type { Appearance, Politician } from '../data/schema.ts'
 import { parseCategoryFilter, searchWithCategoryRemoved } from '../utils.ts'
 
 export const Route = createFileRoute('/_timeline')({
@@ -68,6 +84,44 @@ function AppearanceRow({
         </p>
       </div>
     </article>
+  )
+}
+
+const politiciansByName = [...politiciansById.values()].toSorted((a, b) =>
+  a.full_name.localeCompare(b.full_name, 'fr'),
+)
+
+// Hero-side politician search: selecting one jumps to their scoped timeline.
+// Uncontrolled on purpose: the politician route owns the "current politician"
+// state, and the hero (combobox included) is not rendered on that route.
+function PoliticianCombobox() {
+  const navigate = useNavigate()
+  const handleValueChange = useCallback(
+    (politician: Politician | null) => {
+      if (politician === null) return
+      void navigate({ to: '/politiciens/$politicianId', params: { politicianId: politician.id } })
+    },
+    [navigate],
+  )
+
+  return (
+    <Combobox<Politician>
+      items={politiciansByName}
+      itemToStringLabel={(politician) => politician.full_name}
+      onValueChange={handleValueChange}
+    >
+      <ComboboxInput placeholder="Rechercher un décisionnaire" className="w-64" />
+      <ComboboxContent>
+        <ComboboxEmpty>Aucun décisionnaire trouvé.</ComboboxEmpty>
+        <ComboboxList>
+          {(politician: Politician) => (
+            <ComboboxItem key={politician.id} value={politician}>
+              {politician.full_name}
+            </ComboboxItem>
+          )}
+        </ComboboxList>
+      </ComboboxContent>
+    </Combobox>
   )
 }
 
@@ -196,9 +250,12 @@ function TimelineLayout() {
   return (
     <main className="page-wrap px-4 py-10">
       {showHero ? (
-        <div className="mb-8">
-          <h1 className="display-title m-0 text-3xl font-bold sm:text-4xl">Le Grand Bilan</h1>
-          <p className="m-0 mt-2 text-[var(--sea-ink-soft)]">Qui a fait quoi. Quand.</p>
+        <div className="mb-8 flex flex-wrap items-start justify-between gap-4">
+          <div>
+            <h1 className="display-title m-0 text-3xl font-bold sm:text-4xl">Le Grand Bilan</h1>
+            <p className="m-0 mt-2 text-[var(--sea-ink-soft)]">Qui a fait quoi. Quand.</p>
+          </div>
+          <PoliticianCombobox />
         </div>
       ) : null}
 
