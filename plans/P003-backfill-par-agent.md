@@ -147,3 +147,18 @@ Outcome: 42 decisions across all 12 months of the first Covid year (49.3 retrait
 - Candidate 2019 relations recorded in the batch report (rapport Delevoye, Grenelle violences conjugales, création de la Convention citoyenne, loi biodiversité 2016 pour les néonicotinoïdes).
 
 Next: 2019.
+
+## Learnings round 8 (batch 2019, ran 2026-08-21)
+
+Outcome: 37 decisions across the gilets-jaunes/grand-débat year (prélèvement à la source, grand débat, anticasseurs + censure, Notre-Dame, PACTE + RIP ADP, taxe GAFA, école de la confiance, fonction publique, énergie-climat, Grenelle violences conjugales, rapport Delevoye + présentation CESE, LOM, LFI 2020), 5 politicians added with full profiles (Belloubet, de Rugy, Riester, Delevoye, Schiappa), 3 mandates extended backwards (Borne aux Transports, Lecornu, Dussopt), no new categories, all planned 2020 relations wired. Review gate passed (6/6 sampled sources exact, incl. the COR PDF and lecese.fr; 380 prerendered pages, 285 decisions, 93 politicians after ship). No stall.
+
+Shipped alongside: the missing_sources policy (registry now surfaces unsourceable decisions in red) with its first three entries (réquisitions raffineries, Ocean Viking, rappel des ambassadeurs AUKUS avec l'URL MEAE expirée en preuve + ajout de Jean-Yves Le Drian), and the bot_walled source flag (canonical captcha-walled URLs recorded but not rendered, pending human verification).
+
+- zsh does not word-split unquoted $VAR: `capture:profiles $ids` silently passes one argument. The literal-ids rule now covers ALL commands, not just backgrounded ones.
+- JO sommaire counting skips public holidays as well as Mondays.
+- Préfecture sites (prefectures-regions.gouv.fr, departmental .gouv.fr) mirror Matignon discours/dossiers de presse and are curl-fetchable: the anchor for PM announcements whose canonical page is bot-walled. cor-retraites.fr for official reports, lecese.fr and justice.gouv.fr fetch fine.
+- elysee.fr sitemap grep works by keyword, not just date.
+- The Sénat index omitted a treaty-ratification law again (Aix-la-Chapelle): the standing explicit-search rule is confirmed.
+- Playwright probe of the bot walls: headless Chromium gets vie-publique.fr to render (with cookie-banner handling it could machine-verify it), but sante.gouv.fr (Cegedim WAF "Request Rejected") and info.gouv.fr/consilium (Cloudflare challenge) block it. Human verification stays the plan for bot_walled sources.
+
+Next: 2018, then 2017 (extend around the 2017-09 seed, never duplicate it).
