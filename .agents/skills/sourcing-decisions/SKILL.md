@@ -40,6 +40,7 @@ More sources is better ("never forget" open-data registry).
 - Bulk-verify the Sénat index's dossier-legislatif URLs with one curl `<title>` sweep (server-rendered) instead of fetching them one by one.
 - The Sénat index prints recurring acts with identical titles (five "Prorogation de l'état d'urgence" dossiers across 2015-2016): before citing, disambiguate the pjl number by grepping the dossier page for the promulgation date.
 - When coordinating subagents, the coordinator re-fetches EVERY url itself before writing it into data; a subagent's "verified" claim is not a guarantee.
+- `pnpm run verify:sources [year|paths]` (no args = the git-changed month files) machine-verifies every cited source on the curl-able hosts (act numbers from the source title, title-word overlap as fallback) and prints the bot-walled remainder (Légifrance…) as the exact list to verify via web-fetch. Run it before finishing; it does not replace web-fetch verification of the walled list.
 - Long omnibus laws (LFI, LFR, LFSS) defeat single-fetch verification: the fetch only surfaces the first chunk and can wrongly report a later-article measure "absent". Verify headline measures via the CC decision page or the Sénat dossier instead of trusting one negative fetch.
 - Expect Wikimedia/Légifrance rate limits: pace requests, and on 429 wait about 60 seconds and retry (all scripts are idempotent).
 

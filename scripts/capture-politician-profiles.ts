@@ -3,7 +3,8 @@ import { mkdirSync, readFileSync, writeFileSync } from 'node:fs'
 import { extname, join } from 'node:path'
 import { z } from 'zod'
 import { Politician, PoliticianProfile } from '../src/data/schema.ts'
-import { repositoryRoot } from './utils.ts'
+import { repositoryRoot, userAgent } from './utils.ts'
+import type { Result } from './utils.ts'
 
 // Captures politician profiles from Wikipedia at commit time (plans/P002):
 // summary + lead image via the French Wikipedia REST API, image license via the
@@ -24,10 +25,6 @@ const EXIT_CODES = {
   capture_failed: 1,
   ok: 0,
 } as const
-
-type Result<TData, TErrorCode extends string> =
-  | { success: true; data: TData }
-  | { success: false; error: { code: TErrorCode; message: string } }
 
 const WikipediaSummary = z.object({
   content_urls: z.object({ desktop: z.object({ page: z.url() }) }),
@@ -76,8 +73,6 @@ const CapturablePoliticiansFile = z.object({
 
 const politiciansFilePath = join(repositoryRoot, 'data', 'politicians.json')
 const photosDirectory = join(repositoryRoot, 'public', 'media', 'politicians')
-
-const userAgent = 'le-grand-bilan/1.0 (open-data registry of French political decisions)'
 
 const sha256 = (content: string): string => createHash('sha256').update(content).digest('hex')
 

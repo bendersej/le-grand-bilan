@@ -21,7 +21,8 @@
     "preview": "pnpm run build && vite preview",
     "smoketest": "node scripts/smoketest.ts",
     "test": "vitest run",
-    "typecheck": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "verify:sources": "node scripts/verify-sources.ts"
   },
   "dependencies": {
     "@base-ui/react": "^1.7.0",

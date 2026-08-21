@@ -84,6 +84,7 @@ Package manager is **pnpm** (pinned via `packageManager`).
 - `pnpm run capture:profiles` — capture politician profiles (Wikipedia summary + photo + license) into `data/politicians.json` and `public/media/`
 - `pnpm run archive:appearances` — download appearance media (yt-dlp) and archive to R2, recording the asset in `data/appearances/`
 - `pnpm run smoketest` — assert the prerendered pages contain their expected content (needs a prior `pnpm run build`; CI runs it after every build)
+- `pnpm run verify:sources [year|paths]` — fetch-verify every decision source URL against its citation (no args = git-changed month files); bot-walled hosts come back as a list for web-fetch/human verification
 - `pnpm run deploy` — build + `wrangler deploy` (CI does this on merge to master)
 
 ## Workflow

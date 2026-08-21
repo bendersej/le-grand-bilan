@@ -24,7 +24,8 @@ If the agent stalls or dies, resume it with "inspect your own partial work first
 ## 2. Review gate (orchestrator, before anything ships)
 
 - Run `pnpm run format && pnpm run check && pnpm run build && pnpm run smoketest` on the full tree.
-- Independently re-verify a random sample of at least 4 source URLs across different months (fetch each; number, date and topic must match the entry). One mismatch = audit the whole batch.
+- Run `pnpm run verify:sources` (no args = the batch's git-changed month files): it fetch-verifies every source on curl-able hosts and prints the bot-walled remainder. Any mismatch or unreachable = audit the whole batch.
+- Independently re-verify via web-fetch at least 4 URLs from the script's walled list across different months (number, date and topic must match the entry), plus a spot-check of its `reachable` PDFs. One mismatch = audit the whole batch.
 - Skim 2-3 summaries for neutrality and the markdown/em-dash rules (the data suite enforces the mechanical parts).
 
 ## 3. Learnings loop (the point of doing this yearly)
