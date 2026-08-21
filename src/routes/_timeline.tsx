@@ -257,11 +257,13 @@ function TimelineLayout() {
                 key={timelineMonth.month}
                 id={timelineMonth.month}
                 // Mobile: the year's first month pill is pulled up onto the year
-                // line so the "2022 [mai]" pair reads aligned at rest, not only
-                // once both markers stick.
+                // line. The pull-up is the year line-height (2rem) minus the
+                // stuck-state top delta (top-[0.85rem] minus top-2 = 0.35rem),
+                // so the "2022 [mai]" pair rests exactly where it sticks and
+                // scrolling causes no jump.
                 className={
                   monthIndex === 0
-                    ? 'mt-[0.6rem] scroll-mt-12 max-sm:-mt-9 sm:scroll-mt-4'
+                    ? 'mt-[0.6rem] scroll-mt-12 max-sm:-mt-[1.65rem] sm:scroll-mt-4'
                     : 'mt-[0.6rem] scroll-mt-12 sm:scroll-mt-4'
                 }
               >
