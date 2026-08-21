@@ -31,6 +31,7 @@ export default function DecisionRow({
     return politician ? [politician] : []
   })
   const mainPolitician = rowPoliticians[0] ?? null
+  const verifiedSources = decision.sources.filter((source) => source.bot_walled === undefined)
   const otherPoliticians = rowPoliticians.slice(1)
   // The row below the main photo holds exactly 3 tiles: all others when they
   // fit, otherwise 2 photos + a "+N" tile.
@@ -133,10 +134,10 @@ export default function DecisionRow({
           <RichText text={localize(decision.summary)} />
         </p>
         <p className="m-0 mt-1.5 text-xs">
-          {decision.sources.length > 0 ? (
+          {verifiedSources.length > 0 ? (
             <>
               {'Sources : '}
-              {decision.sources.map((source, sourceIndex) => (
+              {verifiedSources.map((source, sourceIndex) => (
                 <span key={source.url}>
                   {sourceIndex > 0 ? ', ' : ''}
                   <a href={source.url} target="_blank" rel="noreferrer">
@@ -148,7 +149,7 @@ export default function DecisionRow({
           ) : null}
           {decision.missing_sources !== undefined ? (
             <>
-              {decision.sources.length > 0 ? ' · ' : ''}
+              {verifiedSources.length > 0 ? ' · ' : ''}
               <MissingSourcesNote missingSources={decision.missing_sources} />
             </>
           ) : null}

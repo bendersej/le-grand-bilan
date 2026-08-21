@@ -99,9 +99,14 @@ const DecisionRelation = z.object({
 })
 type DecisionRelation = z.infer<typeof DecisionRelation>
 
+// bot_walled marks a canonical official URL whose host blocks automated
+// fetches (captcha/403), so the document could not be machine-verified. The
+// site does NOT render such sources; they are kept in the data for a later
+// human verification pass that removes the flag.
 const DecisionSource = z.object({
   url: ExactUrl,
   title: z.string().min(1),
+  bot_walled: z.literal(true).optional(),
 })
 type DecisionSource = z.infer<typeof DecisionSource>
 
@@ -137,9 +142,15 @@ const Decision = z
     missing_sources: MissingSources.optional(),
     relations: z.array(DecisionRelation),
   })
-  .refine((decision) => decision.sources.length > 0 || decision.missing_sources !== undefined, {
-    message: 'a decision needs at least one source, or missing_sources stating why none exists',
-  })
+  .refine(
+    (decision) =>
+      decision.sources.some((source) => source.bot_walled === undefined) ||
+      decision.missing_sources !== undefined,
+    {
+      message:
+        'a decision needs at least one machine-verified source, or missing_sources stating why none exists',
+    },
+  )
 type Decision = z.infer<typeof Decision>
 
 // One file per month: data/decisions/yyyy-mm.json, `month` must match the filename.

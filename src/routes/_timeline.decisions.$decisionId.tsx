@@ -113,13 +113,15 @@ function DecisionPage() {
       <section className="mt-8">
         <h2 className="m-0 text-sm font-semibold">Sources</h2>
         <ul className="m-0 mt-2 list-disc pl-5 text-sm">
-          {decision.sources.map((source) => (
-            <li key={source.url}>
-              <a href={source.url} target="_blank" rel="noreferrer">
-                {source.title}
-              </a>
-            </li>
-          ))}
+          {decision.sources
+            .filter((source) => source.bot_walled === undefined)
+            .map((source) => (
+              <li key={source.url}>
+                <a href={source.url} target="_blank" rel="noreferrer">
+                  {source.title}
+                </a>
+              </li>
+            ))}
           {decision.missing_sources !== undefined ? (
             <li className="marker:text-[var(--kicker)]">
               <MissingSourcesNote missingSources={decision.missing_sources} />
