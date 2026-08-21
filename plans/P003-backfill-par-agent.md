@@ -203,6 +203,22 @@ Outcome: 31 new decisions across all 12 months of the fin-de-quinquennat Holland
 
 Next: 2015.
 
+## Learnings round 12 (batch 2015, ran 2026-08-21)
+
+Outcome: 35 decisions across all 12 months of the attentats/COP21 year (Sentinelle, 13 régions + NOTRe, 49.3 loi Macron + censure prud'homale, réforme du collège, loi renseignement + 2015-713 DC, transition énergétique, Rebsamen, état d'urgence + Congrès de Versailles + 1re prorogation, surveillance internationale, adoption de l'accord de Paris, LFSS/LF 2016), 6 politicians added with full profiles (Fabius, Vallaud-Belkacem, Rebsamen, Lebranchu, Pellerin, Pau-Langevin), 2 extended backwards, no new categories. All planned 2016↔2015 relations wired both directions. Review gate passed (7/7 sampled sources verified; the Sentinelle entry's 2015-01-12 date is carried verbatim by the cited Toulon speech, "son niveau lundi lorsque j'ai pris la décision"; 547 pages, 423 decisions, 122 politicians). No stall, no neutrality edits needed.
+
+- JO issue-number interpolation around holiday clusters: probe ±1 on a contentless page before falling back to search. Now in the skill.
+- elysee.fr same-day/overnight declarations carry near-identical slugs (13 vs 14 novembre): content-fetch to pick the operative one. Now in the skill.
+- Sénat budget avis (`senat.fr/rap/…`) restate announcement-type plans with exact figures: standard anchor when the canonical page is walled. Now in the skill.
+- vie-publique.fr renders zero content to web-fetch as well as curl: only ever a `bot_walled` canonical, never an anchor. Skill caveat hardened.
+- Wikimedia capture loop must count `profile: null` among the batch's OWN ids: pre-existing photo-less politicians spin an unfiltered loop forever. Now in the decisionnaires skill.
+- Operator feedback folded into the skill: removal decisions (abrogation, suspension, abandon, fin d'un dispositif) are first-class registry entries, and an act undoing a prior entry MUST use the `repeals` relation, not `related`. Corpus baseline at round 12: 215 related / 37 implements / 24 amends / 1 repeals — an audit of the 215 `related` links for mislabeled `amends`/`repeals` is queued as follow-up.
+- Dropped as unsourceable, candidates for a human pass: plan contre le racisme et l'antisémitisme (17 avril 2015, gouvernement.fr 403), comité interministériel égalité et citoyenneté, conférence sociale d'octobre, accord PPCR.
+- Candidate 2014 backward relations recorded in the batch report (MAPTAM/réforme territoriale, gouvernements Valls I/II + nomination Macron, LPM 2014-2019, loi Cazeneuve terrorisme, Vigipirate 2014, annonce de la panthéonisation).
+- Note for a later pass: francois-rebsamen also held a 2024-2025 Bayrou-government mandate, out of the 2015 batch's scope.
+
+Next: 2014.
+
 ## HANDOVER STATE (2026-08-21, end of session)
 
 - Working tree CLEAN, everything committed and pushed through `[P003] docs: round-10 learnings`; CI green; live site verified (spot checks incl. discours-sorbonne-2017 and the red missing_sources caveats). No background agent is running.

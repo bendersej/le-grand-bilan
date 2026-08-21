@@ -31,7 +31,7 @@ The script pulls, from the French Wikipedia REST + Commons APIs:
 
 If the French Wikipedia page has NO lead image, the capture fails by design (the schema requires a photo in any non-null profile): leave `profile: null` and flag the politician in your report rather than fabricating a photo source.
 
-Rate limits: Wikimedia 429s on bursts — expect roughly 3 successful captures per run. Loop: capture, count remaining `profile: null`, sleep 60-75s, retry until none remain (budget ~10 min per 15 profiles; the script is idempotent, only failures retry).
+Rate limits: Wikimedia 429s on bursts — expect roughly 3 successful captures per run. Loop: capture, count remaining `profile: null` AMONG THE IDS YOU ADDED (pre-existing photo-less politicians keep `profile: null` by design and make an unfiltered loop spin forever), sleep 60-75s, retry until none remain (budget ~10 min per 15 profiles; the script is idempotent, only failures retry).
 
 ## 3. Curate the summary (editorial — the script never overwrites it)
 
