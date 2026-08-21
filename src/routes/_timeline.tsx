@@ -250,11 +250,18 @@ function TimelineLayout() {
                 {timelineYear.year}
               </TimelineMonthPicker>
             </h2>
-            {timelineYear.months.map((timelineMonth) => (
+            {timelineYear.months.map((timelineMonth, monthIndex) => (
               <section
                 key={timelineMonth.month}
                 id={timelineMonth.month}
-                className="mt-[0.6rem] scroll-mt-12 sm:scroll-mt-4"
+                // Mobile: the year's first month pill is pulled up onto the year
+                // line so the "2022 [mai]" pair reads aligned at rest, not only
+                // once both markers stick.
+                className={
+                  monthIndex === 0
+                    ? 'mt-[0.6rem] scroll-mt-12 max-sm:-mt-9 sm:scroll-mt-4'
+                    : 'mt-[0.6rem] scroll-mt-12 sm:scroll-mt-4'
+                }
               >
                 {/* Mobile: the marker flows above the rows, indented to land
                     beside the stuck year so the pair reads "2022 [mai]" on one
