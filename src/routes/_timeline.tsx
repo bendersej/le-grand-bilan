@@ -110,7 +110,10 @@ function PoliticianCombobox() {
       itemToStringLabel={(politician) => politician.full_name}
       onValueChange={handleValueChange}
     >
-      <ComboboxInput placeholder="Rechercher un décisionnaire" className="w-64" />
+      <ComboboxInput
+        placeholder="Rechercher un décisionnaire"
+        className="w-64 border-[var(--lagoon-deep)] has-[[data-slot=input-group-control]:focus-visible]:border-[var(--lagoon-deep)] has-[[data-slot=input-group-control]:focus-visible]:ring-[var(--lagoon-deep)]/30"
+      />
       <ComboboxContent>
         <ComboboxEmpty>Aucun décisionnaire trouvé.</ComboboxEmpty>
         <ComboboxList>
