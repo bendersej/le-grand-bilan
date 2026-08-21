@@ -15,7 +15,7 @@ Spawn ONE research agent for the year with a prompt that mandates, in this order
 2. Scope: 2-6 significant decisions per month, quality and sourcing over volume; laws AND non-legislative pivots (governments, dissolutions, censures, accords: the sourcing skill says how).
 3. Check `data/politicians.json` before adding people; EXTEND existing politicians' mandates for the year's portfolios rather than duplicating.
 4. Cross-year relations: each pair is stored ONCE, on the acting (usually later) decision — the site derives the reverse. Edit an adjacent year's file only when the single edge belongs THERE, never to mirror an edge that already exists.
-5. Validate with `pnpm run test` until green; never build, deploy, or commit.
+5. Validate with `pnpm run test` until green, then `pnpm run verify:sources <year>` (fix any mismatch/unreachable, and web-fetch-verify every URL on its walled list). Best practice: title-check each JORFTEXT id AT HARVEST time so the final `verify:sources` walled list is a no-op confirmation, not a fresh verification pass. Never build, deploy, or commit.
 6. Tell the agent verbatim: "You are a single-run agent: no background-task, monitor, or watchdog notification will EVER reach you. Waiting mechanisms other than in-call sleeps are unavailable to you. Any retry loop must run in the foreground of a Bash call, sleeping via node -e "setTimeout(()=>{},70000)" (bare sleep is blocked), sized to finish within that call." Also: pass id lists as literal arguments, never through a shell $VAR in ANY command: the shell is zsh, which does not word-split unquoted variables, so `pnpm run capture:profiles $ids` silently passes ONE argument and captures nothing.
 7. Report: counts per month, politicians/categories added or changed, the unsourceable, and a LEARNINGS section on what the skills still get wrong.
 
@@ -41,5 +41,5 @@ If the agent stalls or dies, resume it with "inspect your own partial work first
 ## Known scale marks (update as they move)
 
 - A year takes the agent roughly 25-50 minutes; Wikimedia caps profile captures at ~3-4 per run (60-75s retry loop).
-- Corpus so far: 2011 (36) / 2012 (43) / 2013 (32) / 2014 (38) / 2015 (35) / 2016 (32 incl. seed) / 2017 (33 incl. seed) / 2018 (38) / 2019 (37) / 2020 (42) / 2021 (35) / 2022 (39) / 2023 (33) / 2024 (35) / 2025 (34) / 2026 (28). A dense year takes ~40 min. Next: 2010.
+- Corpus so far: 2010 (39) / 2011 (36) / 2012 (43) / 2013 (32) / 2014 (38) / 2015 (35) / 2016 (32 incl. seed) / 2017 (33 incl. seed) / 2018 (38) / 2019 (37) / 2020 (42) / 2021 (35) / 2022 (39) / 2023 (33) / 2024 (35) / 2025 (34) / 2026 (28). A dense year takes ~40 min. Next: 2009.
 - Election/transition years cannot honestly fill 2-6 decisions EVERY month (April 2017 yields one): quality keeps priority over the floor.

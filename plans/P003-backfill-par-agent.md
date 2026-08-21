@@ -37,7 +37,7 @@ Recurring runs; monitor PR quality; expand to appearances (P002 data).
 
 ## Remaining Work
 
-Phase 3 in progress: 2025 and 2026 done and reviewed. Next: 2024 backwards, one year per run. Add vie-publique dossier links by hand where valuable (not fetch-verifiable by agents).
+Phase 3 in progress: corpus runs continuously from 2010 to 2026 (612 decisions, 164 politicians), all review-gated. Next: 2009 backwards toward 1958, one year per run. Add vie-publique dossier links by hand where valuable (not fetch-verifiable by agents).
 
 ## Decision Log
 
@@ -283,11 +283,25 @@ Outcome: 36 decisions across all 12 months of the last full Sarkozy/Fillon year 
 
 Next: 2010.
 
+## Learnings round 17 (batch 2010, ran 2026-08-21)
+
+Outcome: 39 decisions across all 12 months of the Sarkozy/Fillon II year (secret des sources, indemnisation des essais nucléaires, inceste au code pénal, La Poste SA, Xynthia catnat + zones noires, service civique, LFR investissements d'avenir, prêts à la Grèce + création du FESF + garantie, ARJEL/jeux en ligne, Grand Paris, EIRL, bisphénol A, crédit conso, violences faites aux femmes, Grenelle 2, LMAP, discours de Grenoble, circulaire d'évacuation des camps de Roms, loi Ciotti absentéisme, interdiction de la dissimulation du visage + CC 2010-613, régulation bancaire, Lancaster House, réforme des retraites 60→62 + CC 2010-617, NOME/ARENH, départementalisation de Mayotte, réforme des collectivités + CC 2010-618, LFSS/LF 2011), 13 politicians added with full profiles (Woerth, Lagarde, MAM, Borloo, Hortefeux, Besson, Morin, Chatel, Ciotti, Hirsch, Blanc, Estrosi, Penchard), 4 extended backwards (Juppé à la Défense, Baroin au Budget, Le Maire, Bachelot), no new categories. Six cross-year edges wired on 2011/2012 acting sides (LFSS 2012 + carrières longues 2012 amend la réforme des retraites 2010, LFR septembre 2011 + fiscalité patrimoine 2011 amend la garantie FESF de juin 2010, sommet juillet 2011 + MES 2012 vers la création du FESF). Review gate passed: verify:sources over the changed files = 143 sources, 0 mismatch, 0 unreachable; 6/6 sampled walled Légifrance URLs web-fetch-verified exact (incl. la réforme des retraites, Grenelle 2, prêts Grèce, et la décision CC 2010-617 confirmant la censure des articles 63-75 comme cavaliers); 778 pages, 612 decisions, 164 politicians. No stall, no neutrality edits.
+
+- CC URL casing is per-DECISION, not per-era (2010-616/617 lowercase-only, 613/618 uppercase-only in the same series): the both-casings check is per URL, no shortcut. Skill hardened.
+- "No JO on a public holiday" is not absolute (JO n°262 on 11 Nov 2010): trust the Sénat index's printed issue numbers over the counting heuristic. In the skill.
+- Pre-2012 circulaires often have NO Légifrance page: go straight to the CE arianeweb decision that quotes the operative text (both Roms circulaires sourced this way). In the skill.
+- Sénat mission-commune rapports carry a tome suffix (`r09-647-1_mono.html`). In the skill.
+- Harvest-time title-checking makes the final verify:sources walled list a no-op confirmation: now the intended workflow in the backfill skill's validation step.
+- Candidate 2009 backward relations recorded in the batch report (LF 2010 suppression TP / taxe carbone censurée CC 2009-599 ← abandon-taxe-carbone-2010, loi Grenelle 1 2009 ← Grenelle 2 implements, LME 2008 ← ordonnance ACP). Forward gap noted: a future loi 2013-108 entry would repeal loi-absenteisme-scolaire-2010.
+
+This session's arc (2013→2010) is complete: the corpus now runs continuously from 2010 to 2026 (612 decisions, 164 politicians). Next: 2009.
+
 ## HANDOVER STATE (2026-08-21, end of session)
 
 - Working tree CLEAN, everything committed and pushed through `[P001] feat: rename politician route slug to responsables`; CI green; live site verified (2014 entries up, `/responsables/` slug serving, old `/politiciens/` 404s by design, "Abroge" labels rendering). No background agent is running.
 - Shipped this session: batches 2016 (31) / 2015 (35) / 2014 (38) with learnings rounds 11-13, the removal-decisions rule with its first sourced entries (abandon écotaxe, suppression des peines planchers), the corpus-wide relation audit (typed removals/amendments, 6+12 retypes, 96 mirror edges deleted, single-side storage enforced by the 24th data test; final distribution 139 related / 43 implements / 35 amends / 4 repeals), and the [P001] UI work: hero politician combobox (base-ui, normalized accent/space-insensitive search, year-colored outline, "Responsable politique" wording, `/responsables` slug), mobile month/year marker alignment, smoketest bot_walled fix, capture-script author-blob trim.
 - **NEXT: batches 2013, 2012, 2011, 2010 — one backfill-year run each, going backwards.** Same loop: launch the research agent (skills carry all learnings through round 13), review gate, learnings round N, two-commit ship, verify live. Candidate 2013 backward relations are in Learnings round 13 (suspension initiale de l'écotaxe oct. 2013 ← abandon-ecotaxe-2014, LPM 2014-2019 de déc. 2013).
+- **DONE (2026-08-21, later session): batches 2013/2012/2011/2010 all shipped (rounds 14-17), corpus now continuous 2010-2026 (612 decisions, 164 politicians). Also shipped the `verify:sources` review-gate script. NEXT is 2009 backwards; candidate 2009 relations are in Learnings round 17.**
 - Queued follow-ups awaiting operator call: the additions-vs-removals-vs-amendments reading aid (UI, deliberately deferred — see Relation audit section), the human pass on unsourceables (suspension des Mistral 2014, plan racisme/antisémitisme 2015, ZAD/PSQ/plan radicalisation 2018), the El Khomri mandate end-date check (2017-05-10 vs -17), EN profile summaries and the other P002 follow-ups.
 - Watch item (P001): the registry ships fully in the client bundle; at 462 decisions and growing toward 1958, route-level data splitting is due soon.
 
