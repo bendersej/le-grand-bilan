@@ -91,6 +91,24 @@ const politiciansByName = [...politiciansById.values()].toSorted((a, b) =>
   a.full_name.localeCompare(b.full_name, 'fr'),
 )
 
+// Search-normalized: lowercase, no diacritics, no spaces/hyphens/apostrophes,
+// so "lemaire" matches "Le Maire" and "oudeacastera" matches "Oudéa-Castéra".
+const searchNormalize = (text: string): string =>
+  text
+    .toLowerCase()
+    .normalize('NFD')
+    .replace(/[^a-z0-9]/g, '')
+
+const normalizedNamesById = new Map(
+  politiciansByName.map((politician) => [politician.id, searchNormalize(politician.full_name)]),
+)
+
+const matchesPoliticianQuery = (politician: Politician, query: string): boolean => {
+  const normalizedQuery = searchNormalize(query)
+  if (normalizedQuery === '') return true
+  return (normalizedNamesById.get(politician.id) ?? '').includes(normalizedQuery)
+}
+
 // Hero-side politician search: selecting one jumps to their scoped timeline.
 // Uncontrolled on purpose: the politician route owns the "current politician"
 // state, and the hero (combobox included) is not rendered on that route.
@@ -108,6 +126,7 @@ function PoliticianCombobox() {
     <Combobox<Politician>
       items={politiciansByName}
       itemToStringLabel={(politician) => politician.full_name}
+      filter={matchesPoliticianQuery}
       onValueChange={handleValueChange}
     >
       <ComboboxInput
