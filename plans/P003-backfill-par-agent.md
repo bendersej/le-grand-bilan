@@ -134,3 +134,16 @@ Outcome: 34 decisions across all 12 months of the Covid/Castex year (couvre-feux
 - Candidate 2020 backward relations recorded in the batch report: 2021 confinement décrets amend décret 2020-1310, prorogation EUS amends loi 2020-1379, loi Rist implements the Ségur de la santé, décret sortie de crise repeals 2020-1310.
 
 Next: 2020.
+
+## Learnings round 7 (batch 2020, ran 2026-08-21)
+
+Outcome: 42 decisions across all 12 months of the first Covid year (49.3 retraites puis abandon, création de l'état d'urgence sanitaire, deux confinements, 25 ordonnances d'un seul conseil des ministres, Ségur, France Relance, loi Avia censurée, 5G, Brexit exclu faute de document français exact), 6 politicians added with full profiles (Buzyn, Castaner, Vidal, Avia, Cédric O, Pietraszewski), 2 mandates extended backwards (Darmanin, Borne), no new categories. All 2021↔2020 candidate relations wired both directions plus loi climat → Convention citoyenne. Review gate passed (6/6 sampled sources exact, 334 pages, format/check/build/smoketest green). No stall.
+
+- Légifrance search declared ACTIVELY untrustworthy for base texts (~30% modifying-text hits): JO sommaire route promoted, mandatory re-fetch of every search-derived id. Sommaire issue-number interpolation trick (sequential, no JO most Mondays) documented.
+- sante.gouv.fr/solidarites-sante.gouv.fr captcha-wall returns 200 HTML even on PDF URLs: check content type, not status. tresor.economie.gouv.fr is the fetchable anchor for government plans.
+- Regulator acts (Arcep 5G) may never reach the JO: the regulator communiqué is the citable source; arcep.fr needs web-fetch, not curl.
+- 49.3 + censure outcomes are inline on AN dossier pages; scrutin-number brute-force is a dead end. PM-led announcements (Ségur, France Relance) have no conseil-des-ministres communication: date by the implementing décret (Ségur entered at the décret CTI du 19 septembre, accords du 13 juillet named in the summary).
+- Recurring same-year acts get the month in the id from the start (deux prorogations EUS 2020). Now in the skill.
+- Candidate 2019 relations recorded in the batch report (rapport Delevoye, Grenelle violences conjugales, création de la Convention citoyenne, loi biodiversité 2016 pour les néonicotinoïdes).
+
+Next: 2019.
